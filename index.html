@@ -44,6 +44,19 @@ h3 { margin: 0; font-size: 1.65rem; font-weight: 700; line-height: 1.1; }
   .battle img { height: 11rem; }
 }
 .battle .ph { display: grid; place-items: center; min-height: 11rem; background: repeating-linear-gradient(-45deg, var(--panel-2) 0 14px, var(--bg) 14px 28px); font-family: var(--label); font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.triumphs { background: var(--panel); min-width: 0; }
+.triumphs summary { cursor: pointer; padding: .9rem 1rem; font-family: var(--label); font-size: 1.15rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--sodium); }
+.triumphs summary:focus-visible { outline: 2px solid var(--sodium); outline-offset: 2px; }
+.triumphs .tri-body { padding: 0 1rem 1rem; }
+.triumphs .tri-note { margin: 0 0 .75rem; color: var(--muted); font-size: .95rem; }
+.triumphs .tri-scroll { overflow-x: auto; }
+.triumphs table { width: 100%; border-collapse: collapse; font-family: var(--label); font-size: 1.05rem; }
+.triumphs th, .triumphs td { padding: .5rem .6rem; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+.triumphs th { font-size: .9rem; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.triumphs td.num, .triumphs th.num { text-align: right; font-variant-numeric: tabular-nums; }
+.triumphs .crit { display: block; color: var(--muted); font-size: .95rem; font-weight: 500; }
+.triumphs .tri-name { font-weight: 700; color: var(--ink); }
+.triumphs .lead { font-weight: 700; }
 </style>
 </head>
 <body>
@@ -59,6 +72,16 @@ h3 { margin: 0; font-size: 1.65rem; font-weight: 700; line-height: 1.1; }
   </div>
 </header>
 <main class="wrap">
+  <details class="triumphs">
+    <summary>Current Triumph progress</summary>
+    <div class="tri-body">
+      <p class="tri-note">Standings after the Cycle 1 post-cycle phase. Triumphs are awarded at the end of the campaign, and tied gangs all receive the Triumph.</p>
+      <div class="tri-scroll" tabindex="0" role="region" aria-label="Triumph standings"><table>
+        <thead><tr><th>Triumph</th><th class="num">Psalm</th><th class="num">Theatre</th><th>Leading</th></tr></thead>
+        <tbody><tr><td><span class="tri-name">Dominator</span><span class="crit">Most Territories</span></td><td class="num p">3</td><td class="num t">3</td><td>Tied</td></tr><tr><td><span class="tri-name">Slaughterer</span><span class="crit">Most enemy models taken Out of Action</span></td><td class="num p">2</td><td class="num t">3</td><td><span class="t lead">The Midnight Theatre</span></td></tr><tr><td><span class="tri-name">Creditor</span><span class="crit">Highest Wealth</span></td><td class="num p">1170</td><td class="num t">1185</td><td><span class="t lead">The Midnight Theatre</span></td></tr><tr><td><span class="tri-name">Warmonger</span><span class="crit">Most battles fought</span></td><td class="num p">2</td><td class="num t">2</td><td>Tied</td></tr><tr><td><span class="tri-name">Powerbroker</span><span class="crit">Highest Reputation</span></td><td class="num p">3</td><td class="num t">2</td><td><span class="p lead">The Carrion Psalm</span></td></tr></tbody>
+      </table></div>
+    </div>
+  </details>
   <h2>Cycle 1</h2>
   <!-- To add a battle, copy one <a class="battle"> block and change its link, photo and text. -->
   <div class="battles">
