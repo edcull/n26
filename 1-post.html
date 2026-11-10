@@ -301,6 +301,14 @@ details.roll { display: block; }
 .sk:focus-visible { outline: 2px solid var(--sodium); outline-offset: 2px; }
 .sk::after { content: attr(data-tip); position: absolute; z-index: 20; left: 0; bottom: calc(100% + .45rem); width: max-content; max-width: min(20rem, calc(100vw - 32px)); padding: .55rem .7rem; background: var(--panel-2); color: var(--ink); border: 1px solid var(--line); box-shadow: 0 6px 18px rgb(0 0 0 / .45); font: 500 .95rem/1.35 var(--label); text-decoration: none; letter-spacing: 0; white-space: normal; display: none; pointer-events: none; }
 .sk:hover::after, .sk:focus::after { display: block; }
+@media (max-width: 44rem) {
+  .jump ul { flex-wrap: wrap; justify-content: center; gap: .35rem 1rem; overflow-x: visible; }
+  .jump li:first-child, .jump li:last-child { margin: 0; }
+}
+@media (hover: none), (max-width: 44rem) {
+  .sk::after { position: fixed; left: 50%; top: 50%; bottom: auto; transform: translate(-50%, -50%); width: calc(100vw - 32px); max-width: 26rem; z-index: 50; }
+}
+@media (max-width: 44rem) { .jump a.home .home-t { display: none; } .jump a.home svg { width: 1.3em; height: 1.3em; } }
 </style>
 <style>
 .sheet.four { grid-template-columns: repeat(5, minmax(0, 1fr)); }
@@ -349,7 +357,7 @@ body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
 
 <nav class="jump" aria-label="Page sections">
   <ul class="wrap">
-    <li><a class="home" href="index.html"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M2 7.5 8 2.5l6 5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M3.8 6.4V13.5h3V10h2.4v3.5h3V6.4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>Campaign</a></li>
+    <li><a class="home" href="index.html" aria-label="Campaign"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M2 7.5 8 2.5l6 5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M3.8 6.4V13.5h3V10h2.4v3.5h3V6.4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg><span class="home-t">Campaign</span></a></li>
     <li><a href="#results">Results</a></li>
     <li><a href="#psalm">The Carrion Psalm</a></li>
     <li><a href="#theatre">The Midnight Theatre</a></li>
