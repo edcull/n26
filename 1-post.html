@@ -301,6 +301,13 @@ details.roll { display: block; }
 .sk:focus-visible { outline: 2px solid var(--sodium); outline-offset: 2px; }
 .sk::after { content: attr(data-tip); position: absolute; z-index: 20; left: 0; bottom: calc(100% + .45rem); width: max-content; max-width: min(20rem, calc(100vw - 32px)); padding: .55rem .7rem; background: var(--panel-2); color: var(--ink); border: 1px solid var(--line); box-shadow: 0 6px 18px rgb(0 0 0 / .45); font: 500 .95rem/1.35 var(--label); text-decoration: none; letter-spacing: 0; white-space: normal; display: none; pointer-events: none; }
 .sk:hover::after, .sk:focus::after { display: block; }
+@media (max-width: 44rem) {
+  .jump ul { flex-wrap: wrap; justify-content: center; gap: .35rem 1rem; overflow-x: visible; }
+  .jump li:first-child, .jump li:last-child { margin: 0; }
+}
+@media (hover: none), (max-width: 44rem) {
+  .sk::after { position: fixed; left: 50%; top: 50%; bottom: auto; transform: translate(-50%, -50%); width: calc(100vw - 32px); max-width: 26rem; z-index: 50; }
+}
 </style>
 <style>
 .sheet.four { grid-template-columns: repeat(5, minmax(0, 1fr)); }
