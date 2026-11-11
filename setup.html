@@ -221,7 +221,7 @@ details.roll { display: block; }
 .roll-body { display: grid; gap: .6rem; margin-top: .7rem; }
 .roll h5 { margin: 0; font-size: 1.2rem; font-weight: 700; color: var(--sodium); line-height: 1.1; }
 .roll-row { display: grid; grid-template-columns: var(--l) calc(var(--n, 2) * var(--d) + (var(--n, 2) - 1) * .5rem) minmax(0, 1fr); gap: .5rem; align-items: center; font-size: 1.1rem; font-weight: 500; line-height: 1.2; }
-.dice { display: flex; flex-wrap: wrap; gap: .5rem; } @media (max-width: 44rem) { .dice:has(> svg.die:nth-of-type(6)):not(:has(> svg.die:nth-of-type(7))) { max-width: calc(3 * var(--d) + 1rem + 1px); } }
+.dice { display: flex; flex-wrap: wrap; gap: .5rem; } .dice:has(> svg.die:nth-of-type(6)):not(:has(> svg.die:nth-of-type(7))) { max-width: calc(3 * var(--d) + 1rem + 1px); }
 .roll-row strong { font-weight: 700; color: #ff8f7d; letter-spacing: .02em; }
 .roll-row strong.sup { color: var(--sodium); }
 .roll-row strong.ammo { color: var(--ink); }
