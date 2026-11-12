@@ -927,7 +927,6 @@
          {
           "dice": "5",
           "result": "One wound, suppressed",
-          "resultClass": "sup",
           "check": {
            "name": "Strength",
            "base": 3,

@@ -1142,7 +1142,6 @@
         "face": "demeter",
         "name": "Demeter - Long Rifle",
         "result": "Elijah takes 1 wound and is suppressed",
-        "resultClass": "sup",
         "rows": [
          {
           "dice": "6",
@@ -2059,7 +2058,6 @@
         "face": "ezekiel",
         "name": "Ezekiel - Autopistol",
         "result": "Rumpleteaser takes 1 wound and is suppressed",
-        "resultClass": "sup",
         "rows": [
          {
           "dice": "6 f3",
@@ -2505,7 +2503,6 @@
         "face": "demeter",
         "name": "Demeter - Overwatch",
         "result": "Deus and Amen take 1 wound and are suppressed",
-        "resultClass": "sup",
         "rows": [
          {
           "dice": "6",
@@ -2706,7 +2703,6 @@
         "face": "ezekiel",
         "name": "Ezekiel - Autopistol",
         "result": "Rumpleteaser injured and suppressed",
-        "resultClass": "sup",
         "rows": [
          {
           "dice": "6 f2",
@@ -2744,8 +2740,7 @@
          {
           "label": "Injury",
           "dice": "fw",
-          "result": "Injured, suppressed",
-          "resultClass": "sup"
+          "result": "Injured, suppressed"
          }
         ],
         "by": "ezekiel-crows",

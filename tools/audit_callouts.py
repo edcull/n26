@@ -32,8 +32,8 @@ def colour_ok(res, cls):
     if res == '-': return cls == 'ammo'
     if re.search(r'not suppressed', res, re.I): return cls == 'ammo'
     if re.match(r'(One|Two|Three|Four|Five|Six) hits?\b|Hits?\b', res) or re.match(r'^(missed|fails to wound)(, (missed|fails to wound))?$', res, re.I): return cls == 'ammo'
+    if re.search(r'wound|injur|Out of Action|out of action|Perils|Warp|Unstable|Bottle|Executed|Stays down|Grievous|No save|Void drops', res, re.I): return cls is None   # harm is red even with a condition after it
     if re.search(r'suppress|Insanity|webbed|break free', res, re.I): return cls == 'sup'
-    if re.search(r'wound|injur|Out of Action|out of action|Perils|Warp|Unstable|Bottle|Executed|Stays down|Grievous|No save|Void drops', res, re.I): return cls is None
     return cls == 'ammo'
 
 for f in sorted(glob.glob(os.path.join(ROOT, 'data/battles/*.json'))):

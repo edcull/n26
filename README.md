@@ -155,7 +155,7 @@ Other callouts (tests, recovery, powers) keep a plain `name` such as `"Wit - Ner
 - **Callout names:** `Nerve Check` (`Nerve Checks` for several fighters), `Bottle Check`, `Charge` (row label `Charge`), `Engage`, `Insanity Test` with the Insanity result in a note
 - **Summary lines:** `Missed`, `Fails to wound`, `Missed, Out of Ammo`; wounds by number, `Ezekiel takes 1 wound`, `Deus and Amen take 2 wounds`; nerve and bottle checks `Holds`
 - **`resultClass`** sets the colour:
-  - leave it out for red (wounds, damage, injuries, bad outcomes). Damage is always red, even with a condition after it (`One damage, suppressed`)
+  - leave it out for red (wounds, damage, injuries, bad outcomes). Wounds, damage and injuries are always red, even with a condition after it (`One damage, suppressed`, `Injured, suppressed`, and summaries like `Elijah takes 1 wound and is suppressed`)
   - `sup` for yellow (suppressed and other conditions)
   - `ammo` for neutral (hits, misses, saves, passes)
 - **Notes** start with `Note:`. Initiative lines in fights are written `Initiative 3 +2 charge bonus`.

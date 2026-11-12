@@ -745,7 +745,6 @@
         "face": "ezekiel",
         "name": "Ezekiel - Autopistol",
         "result": "Demeter takes 1 wound and is suppressed",
-        "resultClass": "sup",
         "rows": [
          {
           "dice": "4 f2",
@@ -1488,7 +1487,7 @@
         "side": "p",
         "face": "vermin",
         "name": "Vermin Pyre - Flamer",
-        "result": "Deuteronomy takes 1 wound, Out of Ammo",
+        "result": "Deuteronomy takes 1 wound and is suppressed, Out of Ammo",
         "rows": [
          {
           "dice": "5 2",
@@ -1502,7 +1501,7 @@
          },
          {
           "dice": "2",
-          "result": "One damage",
+          "result": "One damage, suppressed",
           "check": {
            "name": "Save",
            "base": 5,
@@ -2042,7 +2041,6 @@
         "face": "vermin",
         "name": "Vermin Pyre - Flamer",
         "result": "Deuteronomy takes 1 wound and is suppressed",
-        "resultClass": "sup",
         "rows": [
          {
           "dice": "4 2",
@@ -2090,7 +2088,6 @@
         "face": "deuteronomy",
         "name": "Deuteronomy - Maintain Power",
         "result": "Deuteronomy takes 1 wound, is injured and suppressed",
-        "resultClass": "sup",
         "rows": [
          {
           "dice": "1 1",
@@ -2118,7 +2115,7 @@
          },
          {
           "dice": "",
-          "result": "One damage",
+          "result": "One damage, suppressed",
           "check": {
            "name": "Save",
            "base": 5,
@@ -2264,7 +2261,6 @@
           }
          }
         ],
-        "resultClass": "sup",
         "by": "rumpleteaser",
         "weapons": [
          "Plasma gun"
@@ -3520,11 +3516,9 @@
          {
           "label": "Injury",
           "dice": "fw",
-          "result": "Injured, suppressed",
-          "resultClass": "sup"
+          "result": "Injured, suppressed"
          }
         ],
-        "resultClass": "sup",
         "by": "demeter",
         "weapons": [
          "Long rifle"
