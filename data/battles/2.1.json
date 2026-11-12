@@ -2130,7 +2130,7 @@
          },
          {
           "dice": "2 4 6",
-          "result": "Three hits",
+          "result": "Two hits",
           "resultClass": "ammo",
           "check": {
            "name": "To Hit",
@@ -2138,8 +2138,8 @@
           }
          },
          {
-          "dice": "2 3 6",
-          "result": "Three wounds",
+          "dice": "2 6",
+          "result": "Two wounds",
           "check": {
            "name": "To Wound",
            "base": 2,
@@ -2148,8 +2148,22 @@
           }
          },
          {
+          "dice": "",
+          "result": "Two damage",
+          "check": {
+           "name": "Save",
+           "base": 6,
+           "mods": [
+            [
+             -1,
+             "AP"
+            ]
+           ]
+          }
+         },
+         {
           "label": "Injury",
-          "dice": "fw fw fw si ooa ooa",
+          "dice": "fw fw si ooa",
           "result": "Out of Action"
          },
          {
