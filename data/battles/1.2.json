@@ -1877,23 +1877,25 @@
         "rows": [
          {
           "dice": "2",
-          "result": "",
+          "result": "5",
           "check": {
            "name": "Strength",
            "base": 3,
            "under": true,
            "who": "Mordecai"
-          }
+          },
+          "resultClass": "ammo"
          },
          {
           "dice": "2",
-          "result": "Skimbleshanks out of action",
+          "result": "5",
           "check": {
            "name": "Strength",
            "base": 3,
            "under": true,
            "who": "Skimbleshanks"
-          }
+          },
+          "resultClass": "ammo"
          },
          {
           "note": "Note: Skimbleshanks is later captured."
@@ -2089,7 +2091,7 @@
          {
           "label": "Injury",
           "dice": "fw",
-          "result": "Suppressed",
+          "result": "Injured, suppressed",
           "resultClass": "sup"
          }
         ],
