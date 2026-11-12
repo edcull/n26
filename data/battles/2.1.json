@@ -2881,8 +2881,8 @@
          },
          {
           "dice": "2",
-          "result": "Suppressed",
-          "resultClass": "sup",
+          "result": "-",
+          "resultClass": "ammo",
           "check": {
            "name": "To Wound",
            "base": 4,
