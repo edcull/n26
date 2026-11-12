@@ -143,7 +143,7 @@ Other callouts (tests, recovery, powers) keep a plain `name` such as `"Wit - Ner
   - Count words when counting, otherwise `Hit` / `Miss` / `Wound`: `Two hits`, `One wound`, `Hit`, `Miss`
   - Unsaved wounds on the save row as damage: `One damage`, `Two damage, suppressed`
   - `Serious injury`, `Out of Action`, `Out of Ammo`
-  - Conditions after a comma: `One wound, suppressed`, `Saved, suppressed`
+  - Conditions after a comma: `One wound, suppressed`, `Saved, suppressed`, `Three hits, Knockback`. On the dice rows each part after a comma starts a new line
   - Narrative text says "seriously injured"
 - **`resultClass`** sets the colour:
   - leave it out for red (wounds, damage, injuries, bad outcomes). Damage is always red, even with a condition after it (`One damage, suppressed`)

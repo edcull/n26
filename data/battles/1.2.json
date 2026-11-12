@@ -1140,7 +1140,7 @@
         "rows": [
          {
           "dice": "6",
-          "result": "Hits and Knockback",
+          "result": "Hit, Knockback",
           "resultClass": "ammo",
           "check": {
            "name": "To Hit",
@@ -1793,7 +1793,7 @@
         "rows": [
          {
           "dice": "6",
-          "result": "Hits with Knockback",
+          "result": "Hit, Knockback",
           "resultClass": "ammo",
           "check": {
            "name": "To Hit",
@@ -2481,7 +2481,7 @@
         "rows": [
          {
           "dice": "6",
-          "result": "Hits with Knockback",
+          "result": "Hit, Knockback",
           "resultClass": "ammo",
           "check": {
            "name": "To Hit",

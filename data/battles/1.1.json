@@ -1131,7 +1131,7 @@
          },
          {
           "dice": "3 4 6",
-          "result": "Three hits and Knockback",
+          "result": "Three hits, Knockback",
           "resultClass": "ammo",
           "check": {
            "name": "To Hit",
@@ -1302,7 +1302,7 @@
          },
          {
           "dice": "2 3 6",
-          "result": "Two hits and Knockback",
+          "result": "Two hits, Knockback",
           "resultClass": "ammo",
           "check": {
            "name": "To Hit",

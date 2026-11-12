@@ -100,7 +100,7 @@ export function roll(r, ctx = {}) {
     if (it.html != null) { body += it.html; continue; }
     const dice = typeof it.dice === 'string' ? join(diceList(it.dice), die) : join(it.dice, d => (typeof d === 'string' ? die(d) : d.html));
     const tag = it.resultTag ?? 'strong';
-    body += `<div class="roll-row"><span>${it.check ? checkLabel(it.check) : md(it.label)}</span><div class="dice">${dice}</div><${tag}${it.resultClass ? ` class="${it.resultClass}"` : ''}>${md(it.result)}</${tag}></div>`;
+    body += `<div class="roll-row"><span>${it.check ? checkLabel(it.check) : md(it.label)}</span><div class="dice">${dice}</div><${tag}${it.resultClass ? ` class="${it.resultClass}"` : ''}>${md(it.result).replace(/, /g, ',<br>')}</${tag}></div>`;
   }
   if (!r.by) flushNotes();
   else close(perSection ? (current ? [current] : []) : r.weapons.length > 1 ? r.weapons : r.weapons.slice(0, 1));
