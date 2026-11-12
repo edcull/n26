@@ -10,6 +10,20 @@ export function photo(p) {
   return `<figure class="${cls('shot', p.class)}"><img class="${p.imgClass ?? 'whole'}" src="${attr(p.src)}" alt="${attr(p.alt)}">${p.caption != null ? `<figcaption>${md(p.caption)}</figcaption>` : ''}</figure>`;
 }
 
+// A test on a roll row: the final number in bold, then the base and modifiers.
+//   {name:"To Hit", base:4, mods:[[1,"Aim"]]}           -> To Hit <b>3+</b> (4+ +1 Aim)
+//   {name:"Save", base:6, mods:[[-1,"AP"]]}              -> Save <b>none</b> (6+ -1 AP)
+//   {name:"Willpower", base:9, mods:[[3,"Psychoteric Choir"]], under:true}  -> Willpower <b>12</b> (9 +3 Psychoteric Choir)
+// "under" tests (Leadership, Cool, Willpower, Strength) pass on the stat or less, so bonuses raise the
+// number; the rest need the number or more, so bonuses lower it. "who" names the fighter, "note" adds a word.
+export function checkLabel(c) {
+  const sum = (c.mods || []).reduce((t, [v]) => t + v, 0);
+  const show = n => (c.under ? `${n}` : n > 6 && c.name === 'Save' ? 'none' : `${n}+`);
+  const total = c.under ? c.base + sum : c.base - sum;
+  const detail = [c.mods?.length ? [show(c.base), ...c.mods.map(([v, why]) => `${v > 0 ? '+' : ''}${v} ${why}`)].join(' ') : '', c.note || ''].filter(Boolean).join(', ');
+  return `${c.who ? esc(c.who) + ': ' : ''}${esc(c.name)} <b>${show(total)}</b>${detail ? ` (${esc(detail)})` : ''}`;
+}
+
 export function roll(r) {
   let n = r.n;
   if (n === undefined) n = Math.max(0, ...r.rows.filter(x => x.dice != null).map(x => (typeof x.dice === 'string' ? diceList(x.dice) : x.dice).length));
@@ -20,7 +34,7 @@ export function roll(r) {
     if (it.h6 != null) return `<h6>${md(it.h6)}</h6>`;
     const dice = typeof it.dice === 'string' ? join(diceList(it.dice), die) : join(it.dice, d => (typeof d === 'string' ? die(d) : d.html));
     const tag = it.resultTag ?? 'strong';
-    return `<div class="roll-row"><span>${md(it.label)}</span><div class="dice">${dice}</div><${tag}${it.resultClass ? ` class="${it.resultClass}"` : ''}>${md(it.result)}</${tag}></div>`;
+    return `<div class="roll-row"><span>${it.check ? checkLabel(it.check) : md(it.label)}</span><div class="dice">${dice}</div><${tag}${it.resultClass ? ` class="${it.resultClass}"` : ''}>${md(it.result)}</${tag}></div>`;
   });
   return `<details class="roll"${n !== null ? ` style="--n:${n}"` : ''}><summary>${face}<span class="r-name">${md(r.name)}</span><span class="r-res ${r.resultClass ?? ''}">${md(r.result)}</span></summary><div class="roll-body">${body}</div></details>`;
 }

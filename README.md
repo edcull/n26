@@ -111,13 +111,16 @@ Each fighter is stored once, under their id, as a list of entries along the camp
 
 ### Callout style
 
-- **Row labels** give the number actually needed, then what changed it:
-  - `To Hit (3+, +1 aim)`
-  - `Save (5+, +1 cover)`
-  - `Save (none, AP -1)` when no save is possible; leave `dice` empty then
-- **Test labels:**
-  - `Cool 7`, `Willpower 9`, `Strength 3`
-  - With the fighter's name when a callout covers several fighters: `Mordecai: Leadership 8`
+- **Tests on a roll row** are data, not text. The template shows the final number in bold, then the base and modifiers:
+  - `{"check": {"name": "To Hit", "base": 4, "mods": [[1, "Aim"]]}}` shows To Hit **3+** (4+ +1 Aim)
+  - `{"check": {"name": "Save", "base": 6, "mods": [[-1, "AP"]]}}` shows Save **none** (6+ -1 AP); leave `dice` empty then
+  - `{"check": {"name": "Willpower", "base": 9, "mods": [[3, "Psychoteric Choir"]], "under": true}}` shows Willpower **12** (9 +3 Psychoteric Choir)
+  - `"who": "Mordecai"` puts the fighter's name first, for callouts that cover several fighters: Mordecai: Leadership **8**
+  - `"note": "Toxin"` adds a word in the brackets
+- **How the final number is worked out:**
+  - Rolls you need to equal or beat (To Hit, To Wound, Save, Ammo, Charge …): modifiers are added to the dice, so the template shows the lowered target. A 4+ with +1 shows **3+**.
+  - `"under": true` tests (Leadership, Cool, Willpower, Strength) pass on the stat or less, so a bonus raises the number.
+- **Rows with no number** keep a plain `label`: `Injury`, `Recovery`, `Perils`.
 - **Results:**
   - Count words when counting, otherwise `Hit` / `Miss` / `Wound`: `Two hits`, `One wound`, `Hit`, `Miss`
   - `Serious injury`, `Out of Action`, `Out of Ammo`

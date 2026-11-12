@@ -430,21 +430,30 @@
         "resultClass": "sup",
         "rows": [
          {
-          "label": "To Hit (4+)",
           "dice": "1 f2",
-          "result": "Unstable!"
+          "result": "Unstable!",
+          "check": {
+           "name": "To Hit",
+           "base": 4
+          }
          },
          {
-          "label": "To Wound (3+)",
           "dice": "2",
           "result": "Suppressed",
-          "resultClass": "sup"
+          "resultClass": "sup",
+          "check": {
+           "name": "To Wound",
+           "base": 3
+          }
          },
          {
-          "label": "Ammo (6+)",
           "dice": "5",
           "result": "Out of Ammo",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "Ammo",
+           "base": 6
+          }
          },
          {
           "note": "Note: Rumpleteaser uses Hip-shooting to rush to the barricade and fire on Mordecai."
@@ -646,10 +655,13 @@
         "resultClass": "ammo",
         "rows": [
          {
-          "label": "To Hit (4+)",
           "dice": "2 f1a f2",
           "result": "Miss, Out of Ammo",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 4
+          }
          },
          {
           "note": "Note: Bulging Biceps to move at Initiative and fire a heavy weapon. Twin-link allowed a re-roll of the Rapid Fire dice."
@@ -668,21 +680,36 @@
         "resultClass": "ammo",
         "rows": [
          {
-          "label": "To Hit (4+)",
           "dice": "5",
           "result": "Hit",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 4
+          }
          },
          {
-          "label": "To Wound (5+)",
           "dice": "6",
-          "result": "Wound"
+          "result": "Wound",
+          "check": {
+           "name": "To Wound",
+           "base": 5
+          }
          },
          {
-          "label": "Save (5+, +1 cover)",
           "dice": "5",
           "result": "Saved",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "Save",
+           "base": 6,
+           "mods": [
+            [
+             1,
+             "Cover"
+            ]
+           ]
+          }
          },
          {
           "note": "Note: Juggernaut prevents suppression."
@@ -702,21 +729,36 @@
         "resultClass": "sup",
         "rows": [
          {
-          "label": "To Hit (3+)",
           "dice": "4 f2",
           "result": "Two hits",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          }
          },
          {
-          "label": "To Wound (4+)",
           "dice": "4 6",
-          "result": "Two wounds"
+          "result": "Two wounds",
+          "check": {
+           "name": "To Wound",
+           "base": 4
+          }
          },
          {
-          "label": "Save (3+, +2 cover)",
           "dice": "2 5",
           "result": "One wound, suppressed",
-          "resultClass": "sup"
+          "resultClass": "sup",
+          "check": {
+           "name": "Save",
+           "base": 5,
+           "mods": [
+            [
+             2,
+             "Cover"
+            ]
+           ]
+          }
          }
         ]
        }
@@ -928,20 +970,39 @@
         "result": "Rumpleteaser seriously injured",
         "rows": [
          {
-          "label": "To Hit (4+)",
           "dice": "4 f1 f2",
           "result": "Three hits",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 4
+          }
          },
          {
-          "label": "To Wound (3+)",
           "dice": "3 5 5",
-          "result": "Three wounds"
+          "result": "Three wounds",
+          "check": {
+           "name": "To Wound",
+           "base": 3
+          }
          },
          {
-          "label": "Save (6+, +1 cover, AP -1)",
           "dice": "6 6 2",
-          "result": "One wound"
+          "result": "One wound",
+          "check": {
+           "name": "Save",
+           "base": 6,
+           "mods": [
+            [
+             1,
+             "Cover"
+            ],
+            [
+             -1,
+             "AP"
+            ]
+           ]
+          }
          },
          {
           "label": "Injury",
@@ -964,10 +1025,14 @@
         "resultClass": "ammo",
         "rows": [
          {
-          "label": "Cool 6",
           "dice": "2 3",
           "result": "Passes",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "Cool",
+           "base": 6,
+           "under": true
+          }
          },
          {
           "note": "Rules note: I got this wrong. Nerve tests should only be taken when a friendly fighter is taken Out of Action, not Seriously Injured, so this test should not have happened."
@@ -985,10 +1050,13 @@
         "resultClass": "ammo",
         "rows": [
          {
-          "label": "Target (4+)",
           "dice": "2 3",
           "result": "1\" short",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "Target",
+           "base": 4
+          }
          },
          {
           "note": "Note: Used the Thunderous Charge tactic to roll 2D6 and pick one."
@@ -1011,39 +1079,63 @@
           "h6": "Autopistol"
          },
          {
-          "label": "To Hit (3+)",
           "dice": "5",
           "result": "Hit",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          }
          },
          {
-          "label": "To Wound (4+)",
           "dice": "6",
-          "result": "Wound"
+          "result": "Wound",
+          "check": {
+           "name": "To Wound",
+           "base": 4
+          }
          },
          {
-          "label": "Save (5+)",
           "dice": "3",
-          "result": "One wound"
+          "result": "One wound",
+          "check": {
+           "name": "Save",
+           "base": 5
+          }
          },
          {
           "h6": "Cleaver"
          },
          {
-          "label": "To Hit (3+)",
           "dice": "3 4 6",
           "result": "Three hits and Knockback",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          }
          },
          {
-          "label": "To Wound (3+)",
           "dice": "4 5 5",
-          "result": "Three wounds"
+          "result": "Three wounds",
+          "check": {
+           "name": "To Wound",
+           "base": 3
+          }
          },
          {
-          "label": "Save (6+, AP -1)",
           "dice": "2 3 6",
-          "result": "Two wounds"
+          "result": "Two wounds",
+          "check": {
+           "name": "Save",
+           "base": 5,
+           "mods": [
+            [
+             -1,
+             "AP"
+            ]
+           ]
+          }
          },
          {
           "label": "Injury",
@@ -1070,20 +1162,36 @@
           "h6": "Serpent's Fangs"
          },
          {
-          "label": "To Hit (3+)",
           "dice": "5",
           "result": "Hit",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          }
          },
          {
-          "label": "To Wound (3+, Toxin)",
           "dice": "4",
-          "result": "Wound"
+          "result": "Wound",
+          "check": {
+           "name": "To Wound",
+           "base": 3,
+           "note": "Toxin"
+          }
          },
          {
-          "label": "Save (none, AP -3)",
           "dice": "",
-          "result": "One wound"
+          "result": "One wound",
+          "check": {
+           "name": "Save",
+           "base": 5,
+           "mods": [
+            [
+             -3,
+             "AP"
+            ]
+           ]
+          }
          }
         ]
        }
@@ -1103,20 +1211,40 @@
           "h6": "Serpent's Fangs"
          },
          {
-          "label": "To Hit (3+)",
           "dice": "3",
           "result": "Hit",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          }
          },
          {
-          "label": "To Wound (3+, Toxin)",
           "dice": "5",
-          "result": "Wound"
+          "result": "Wound",
+          "check": {
+           "name": "To Wound",
+           "base": 3,
+           "note": "Toxin"
+          }
          },
          {
-          "label": "Save (none, +1 Parry, AP -3)",
           "dice": "",
-          "result": "One wound"
+          "result": "One wound",
+          "check": {
+           "name": "Save",
+           "base": 5,
+           "mods": [
+            [
+             1,
+             "Parry"
+            ],
+            [
+             -3,
+             "AP"
+            ]
+           ]
+          }
          }
         ]
        }
@@ -1133,16 +1261,22 @@
           "note": "Initiative 1 +2 charge bonus"
          },
          {
-          "label": "To Hit (3+)",
           "dice": "2 3 6",
           "result": "Two hits and Knockback",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          }
          },
          {
-          "label": "To Wound (3+)",
           "dice": "1 2",
           "result": "Fails to wound",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Wound",
+           "base": 3
+          }
          },
          {
           "note": "Note: Unwieldy strikes at Initiative 1."
@@ -1181,16 +1315,22 @@
         "resultClass": "sup",
         "rows": [
          {
-          "label": "To Hit (4+)",
           "dice": "4 f1",
           "result": "Hit",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 4
+          }
          },
          {
-          "label": "To Wound (4+)",
           "dice": "3",
           "result": "Suppressed",
-          "resultClass": "sup"
+          "resultClass": "sup",
+          "check": {
+           "name": "To Wound",
+           "base": 4
+          }
          }
         ]
        }
@@ -1205,16 +1345,22 @@
         "resultClass": "ammo",
         "rows": [
          {
-          "label": "To Hit (4+)",
           "dice": "5",
           "result": "Hit",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 4
+          }
          },
          {
-          "label": "To Wound (5+)",
           "dice": "4",
           "result": "Fails to wound",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Wound",
+           "base": 5
+          }
          },
          {
           "note": "Note: Juggernaut prevents suppression."
@@ -1232,9 +1378,13 @@
         "resultClass": "sup",
         "rows": [
          {
-          "label": "Willpower 9",
           "dice": "1 1",
-          "result": "Manifests with Perils"
+          "result": "Manifests with Perils",
+          "check": {
+           "name": "Willpower",
+           "base": 9,
+           "under": true
+          }
          },
          {
           "label": "Perils",
@@ -1242,10 +1392,13 @@
           "result": "Warp Surge! Suffers a S4 AP -2 L1 hit"
          },
          {
-          "label": "To Wound (3+)",
           "dice": "2",
           "result": "Suppressed",
-          "resultClass": "sup"
+          "resultClass": "sup",
+          "check": {
+           "name": "To Wound",
+           "base": 3
+          }
          },
          {
           "note": "Rules note: I got this wrong. Deuteronomy should have taken a Maintain (Single) action for the Continuous Effect to persist after his activation."
@@ -1262,21 +1415,36 @@
         "result": "Deuteronomy takes a wound, Out of Ammo",
         "rows": [
          {
-          "label": "To Wound (3+)",
           "dice": "5 2",
           "result": "Hit",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Wound",
+           "base": 3
+          }
          },
          {
-          "label": "Save (3+, +2 cover)",
           "dice": "2",
-          "result": "One wound"
+          "result": "One wound",
+          "check": {
+           "name": "Save",
+           "base": 5,
+           "mods": [
+            [
+             2,
+             "Cover"
+            ]
+           ]
+          }
          },
          {
-          "label": "Ammo (6+)",
           "dice": "5",
           "result": "Out of Ammo",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "Ammo",
+           "base": 6
+          }
          },
          {
           "note": "Note: Blaze (4+) causes an extra hit. +2 cover from Perfect Void."
@@ -1294,16 +1462,22 @@
         "resultClass": "sup",
         "rows": [
          {
-          "label": "To Hit (3+)",
           "dice": "5",
           "result": "Hit",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          }
          },
          {
-          "label": "To Wound (3+)",
           "dice": "1",
           "result": "Suppressed",
-          "resultClass": "sup"
+          "resultClass": "sup",
+          "check": {
+           "name": "To Wound",
+           "base": 3
+          }
          }
         ]
        }
@@ -1605,20 +1779,40 @@
           "h6": "Serpent's Fangs"
          },
          {
-          "label": "To Hit (3+)",
           "dice": "1 2 3 4 5 6",
           "result": "Four hits",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          }
          },
          {
-          "label": "To Wound (3+, Toxin)",
           "dice": "1 2 5 6",
-          "result": "Two wounds"
+          "result": "Two wounds",
+          "check": {
+           "name": "To Wound",
+           "base": 3,
+           "note": "Toxin"
+          }
          },
          {
-          "label": "Save (none, +1 Parry, AP -3)",
           "dice": "",
-          "result": "Two wounds"
+          "result": "Two wounds",
+          "check": {
+           "name": "Save",
+           "base": 5,
+           "mods": [
+            [
+             1,
+             "Parry"
+            ],
+            [
+             -3,
+             "AP"
+            ]
+           ]
+          }
          },
          {
           "label": "Injury",
@@ -1642,10 +1836,14 @@
         "resultClass": "ammo",
         "rows": [
          {
-          "label": "Cool 7",
           "dice": "3 2",
           "result": "Passes",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "Cool",
+           "base": 7,
+           "under": true
+          }
          }
         ]
        }
@@ -1660,10 +1858,13 @@
         "resultClass": "ammo",
         "rows": [
          {
-          "label": "To Hit (4+)",
           "dice": "2 f2 f3",
           "result": "Miss",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 4
+          }
          },
          {
           "note": "Note: Uses Bulging Biceps to move at Initiative and fire a heavy weapon."
@@ -1680,20 +1881,45 @@
         "result": "Ezekiel seriously injured",
         "rows": [
          {
-          "label": "To Hit (2+, +1 aim)",
           "dice": "4",
           "result": "Hit",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 3,
+           "mods": [
+            [
+             1,
+             "Aim"
+            ]
+           ]
+          }
          },
          {
-          "label": "To Wound (3+)",
           "dice": "5",
-          "result": "Wound"
+          "result": "Wound",
+          "check": {
+           "name": "To Wound",
+           "base": 3
+          }
          },
          {
-          "label": "Save (5+, +1 cover, AP -1)",
           "dice": "4",
-          "result": "One wound"
+          "result": "One wound",
+          "check": {
+           "name": "Save",
+           "base": 5,
+           "mods": [
+            [
+             1,
+             "Cover"
+            ],
+            [
+             -1,
+             "AP"
+            ]
+           ]
+          }
          },
          {
           "label": "Injury",
@@ -1713,15 +1939,31 @@
         "resultClass": "sup",
         "rows": [
          {
-          "label": "To Wound (3+)",
           "dice": "4 2",
-          "result": "Wound"
+          "result": "Wound",
+          "check": {
+           "name": "To Wound",
+           "base": 3
+          }
          },
          {
-          "label": "Save (4+, +2 cover, AP -1)",
           "dice": "3",
           "result": "One wound, suppressed",
-          "resultClass": "sup"
+          "resultClass": "sup",
+          "check": {
+           "name": "Save",
+           "base": 5,
+           "mods": [
+            [
+             2,
+             "Cover"
+            ],
+            [
+             -1,
+             "AP"
+            ]
+           ]
+          }
          },
          {
           "note": "Note: Blaze (4+) causes an extra hit. +2 cover from Perfect Void."
@@ -1739,9 +1981,13 @@
         "resultClass": "sup",
         "rows": [
          {
-          "label": "Willpower 9",
           "dice": "1 1",
-          "result": "Maintains, but suffers Perils of the Warp"
+          "result": "Maintains, but suffers Perils of the Warp",
+          "check": {
+           "name": "Willpower",
+           "base": 9,
+           "under": true
+          }
          },
          {
           "label": "Perils",
@@ -1749,14 +1995,26 @@
           "result": "Warp Surge! Suffers a S4 AP -2 L1 hit"
          },
          {
-          "label": "To Wound (3+)",
           "dice": "4",
-          "result": "Wound"
+          "result": "Wound",
+          "check": {
+           "name": "To Wound",
+           "base": 3
+          }
          },
          {
-          "label": "Save (none, AP -2)",
           "dice": "",
-          "result": "One wound"
+          "result": "One wound",
+          "check": {
+           "name": "Save",
+           "base": 5,
+           "mods": [
+            [
+             -2,
+             "AP"
+            ]
+           ]
+          }
          },
          {
           "label": "Injury",
@@ -1775,20 +2033,30 @@
         "result": "Vermin Pyre out of action",
         "rows": [
          {
-          "label": "To Hit (3+)",
           "dice": "4 f3",
           "result": "Three hits",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          }
          },
          {
-          "label": "To Wound (3+, Toxin)",
           "dice": "3 5 5",
-          "result": "Three wounds"
+          "result": "Three wounds",
+          "check": {
+           "name": "To Wound",
+           "base": 3,
+           "note": "Toxin"
+          }
          },
          {
-          "label": "Save (6+)",
           "dice": "3 5 5",
-          "result": "Three wounds"
+          "result": "Three wounds",
+          "check": {
+           "name": "Save",
+           "base": 6
+          }
          },
          {
           "label": "Injury",
@@ -1831,27 +2099,49 @@
         "result": "Deus and Amen take two wounds and are suppressed, weapon jammed",
         "rows": [
          {
-          "label": "To Hit (4+)",
           "dice": "5 f1a",
           "result": "One hit",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 4
+          }
          },
          {
-          "label": "Ammo (6+)",
           "dice": "1",
           "result": "Weapon jammed",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "Ammo",
+           "base": 6
+          }
          },
          {
-          "label": "To Wound (3+)",
           "dice": "4",
-          "result": "Wound"
+          "result": "Wound",
+          "check": {
+           "name": "To Wound",
+           "base": 3
+          }
          },
          {
-          "label": "Save (none, +1 cover, AP -2)",
           "dice": "",
           "result": "Two wounds, suppressed",
-          "resultClass": "sup"
+          "resultClass": "sup",
+          "check": {
+           "name": "Save",
+           "base": 6,
+           "mods": [
+            [
+             1,
+             "Cover"
+            ],
+            [
+             -2,
+             "AP"
+            ]
+           ]
+          }
          }
         ],
         "resultClass": "sup"
@@ -1867,10 +2157,13 @@
         "resultClass": "ammo",
         "rows": [
          {
-          "label": "To Hit (4+)",
           "dice": "3 f1",
           "result": "Miss",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 4
+          }
          }
         ]
        }
@@ -1885,16 +2178,22 @@
         "resultClass": "sup",
         "rows": [
          {
-          "label": "To Hit (4+)",
           "dice": "5",
           "result": "Hit",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 4
+          }
          },
          {
-          "label": "To Wound (4+)",
           "dice": "1",
           "result": "Suppressed",
-          "resultClass": "sup"
+          "resultClass": "sup",
+          "check": {
+           "name": "To Wound",
+           "base": 4
+          }
          }
         ]
        }
@@ -1909,10 +2208,13 @@
         "resultClass": "ammo",
         "rows": [
          {
-          "label": "To Hit (5+)",
           "dice": "3",
           "result": "Miss",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 5
+          }
          }
         ]
        }
@@ -2187,10 +2489,15 @@
       "resultClass": "ammo",
       "rows": [
        {
-        "label": "Mordecai: Leadership 8",
         "dice": "3 4",
         "result": "Passes",
-        "resultClass": "ammo"
+        "resultClass": "ammo",
+        "check": {
+         "name": "Leadership",
+         "base": 8,
+         "under": true,
+         "who": "Mordecai"
+        }
        }
       ]
      }
@@ -2218,10 +2525,13 @@
         "resultClass": "ammo",
         "rows": [
          {
-          "label": "Engage (4+)",
           "dice": "5",
           "result": "Engaged",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "Engage",
+           "base": 4
+          }
          }
         ]
        }
@@ -2241,10 +2551,13 @@
           "h6": "Serpent's Fangs"
          },
          {
-          "label": "To Hit (3+)",
           "dice": "2",
           "result": "Miss",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          }
          }
         ]
        }
@@ -2263,20 +2576,29 @@
           "h6": "Heavy Club"
          },
          {
-          "label": "To Hit (4+)",
           "dice": "4 6",
           "result": "Two hits",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 4
+          }
          },
          {
-          "label": "To Wound (2+)",
           "dice": "2 3",
-          "result": "Two wounds"
+          "result": "Two wounds",
+          "check": {
+           "name": "To Wound",
+           "base": 2
+          }
          },
          {
-          "label": "Save (5+)",
           "dice": "3 4",
-          "result": "Two wounds"
+          "result": "Two wounds",
+          "check": {
+           "name": "Save",
+           "base": 5
+          }
          },
          {
           "label": "Injury",
@@ -2299,16 +2621,22 @@
         "resultClass": "sup",
         "rows": [
          {
-          "label": "To Hit (2+)",
           "dice": "4",
           "result": "Hit",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 2
+          }
          },
          {
-          "label": "To Wound (3+)",
           "dice": "1",
           "result": "Suppressed",
-          "resultClass": "sup"
+          "resultClass": "sup",
+          "check": {
+           "name": "To Wound",
+           "base": 3
+          }
          }
         ]
        }
@@ -2322,14 +2650,24 @@
         "result": "Macavity out of action",
         "rows": [
          {
-          "label": "Ezekiel: Strength 3",
           "dice": "3",
-          "result": ""
+          "result": "",
+          "check": {
+           "name": "Strength",
+           "base": 3,
+           "under": true,
+           "who": "Ezekiel"
+          }
          },
          {
-          "label": "Macavity: Strength 4",
           "dice": "1",
-          "result": "Macavity out of action"
+          "result": "Macavity out of action",
+          "check": {
+           "name": "Strength",
+           "base": 4,
+           "under": true,
+           "who": "Macavity"
+          }
          },
          {
           "note": "Note: Macavity receives the Lesson Learnt lasting injury."
@@ -2347,21 +2685,30 @@
         "resultClass": "sup",
         "rows": [
          {
-          "label": "To Hit (4+)",
           "dice": "5 f1a",
           "result": "Hit, Out of Ammo",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 4
+          }
          },
          {
-          "label": "To Wound (4+)",
           "dice": "4",
-          "result": "Wound"
+          "result": "Wound",
+          "check": {
+           "name": "To Wound",
+           "base": 4
+          }
          },
          {
-          "label": "Save (5+)",
           "dice": "6",
           "result": "Saved, suppressed",
-          "resultClass": "sup"
+          "resultClass": "sup",
+          "check": {
+           "name": "Save",
+           "base": 5
+          }
          }
         ]
        }
@@ -2376,16 +2723,22 @@
         "resultClass": "sup",
         "rows": [
          {
-          "label": "To Hit (4+)",
           "dice": "6",
           "result": "Hit",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 4
+          }
          },
          {
-          "label": "To Wound (4+)",
           "dice": "2",
           "result": "Suppresses",
-          "resultClass": "sup"
+          "resultClass": "sup",
+          "check": {
+           "name": "To Wound",
+           "base": 4
+          }
          }
         ]
        }
@@ -2640,10 +2993,15 @@
       "resultClass": "ammo",
       "rows": [
        {
-        "label": "Deuteronomy: Leadership 8",
         "dice": "2 6",
         "result": "Passes",
-        "resultClass": "ammo"
+        "resultClass": "ammo",
+        "check": {
+         "name": "Leadership",
+         "base": 8,
+         "under": true,
+         "who": "Deuteronomy"
+        }
        }
       ]
      }
@@ -2671,10 +3029,13 @@
         "resultClass": "ammo",
         "rows": [
          {
-          "label": "To Hit (4+)",
           "dice": "2 f1 f2",
           "result": "Miss",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 4
+          }
          },
          {
           "note": "Note: Bulging Biceps to move at Initiative and fire a heavy weapon."
@@ -2692,16 +3053,22 @@
         "resultClass": "ammo",
         "rows": [
          {
-          "label": "To Hit (3+)",
           "dice": "5",
           "result": "Hit",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          }
          },
          {
-          "label": "To Wound (5+)",
           "dice": "4",
           "result": "Fails to wound",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Wound",
+           "base": 5
+          }
          },
          {
           "note": "Note: Juggernaut prevents becoming suppressed."
@@ -2723,10 +3090,13 @@
         "resultClass": "ammo",
         "rows": [
          {
-          "label": "To Hit (5+)",
           "dice": "3",
           "result": "Miss",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 5
+          }
          }
         ]
        }
@@ -2927,20 +3297,29 @@
         "result": "Gutter Cantor injured and suppressed",
         "rows": [
          {
-          "label": "To Hit (2+)",
           "dice": "5",
           "result": "Hit",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 2
+          }
          },
          {
-          "label": "To Wound (3+)",
           "dice": "4",
-          "result": "Wound"
+          "result": "Wound",
+          "check": {
+           "name": "To Wound",
+           "base": 3
+          }
          },
          {
-          "label": "Save (6+)",
           "dice": "3",
-          "result": "One wound"
+          "result": "One wound",
+          "check": {
+           "name": "Save",
+           "base": 6
+          }
          },
          {
           "label": "Injury",
@@ -2962,10 +3341,13 @@
         "resultClass": "ammo",
         "rows": [
          {
-          "label": "To Hit (4+)",
           "dice": "1 f1 f1",
           "result": "Miss",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 4
+          }
          }
         ]
        }
@@ -2980,10 +3362,13 @@
         "resultClass": "ammo",
         "rows": [
          {
-          "label": "To Hit (4+)",
           "dice": "3",
           "result": "Miss",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 4
+          }
          }
         ]
        }
@@ -2998,10 +3383,13 @@
         "resultClass": "ammo",
         "rows": [
          {
-          "label": "To Hit (3+)",
           "dice": "2 f2",
           "result": "Miss",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          }
          }
         ]
        }
@@ -3016,16 +3404,23 @@
         "resultClass": "sup",
         "rows": [
          {
-          "label": "To Hit (3+)",
           "dice": "4 f1",
           "result": "One hit",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          }
          },
          {
-          "label": "To Wound (3+, Toxin)",
           "dice": "2",
           "result": "Suppressed",
-          "resultClass": "sup"
+          "resultClass": "sup",
+          "check": {
+           "name": "To Wound",
+           "base": 3,
+           "note": "Toxin"
+          }
          }
         ]
        }
@@ -3040,16 +3435,22 @@
         "resultClass": "sup",
         "rows": [
          {
-          "label": "To Hit (4+)",
           "dice": "5 f2",
           "result": "Hit",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 4
+          }
          },
          {
-          "label": "To Wound (4+)",
           "dice": "1 3",
           "result": "Suppressed",
-          "resultClass": "sup"
+          "resultClass": "sup",
+          "check": {
+           "name": "To Wound",
+           "base": 4
+          }
          }
         ]
        }
