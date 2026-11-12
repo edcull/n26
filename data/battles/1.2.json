@@ -4093,319 +4093,36 @@
     }
    ],
    [
-    "g",
+    "path",
     {
-     "transform": "rotate(180 300 300)"
-    },
-    [
-     [
-      "path",
-      {
-       "class": "m-grid",
-       "d": "M150 0V600M0 150H600M300 0V600M0 300H600M450 0V600M0 450H600"
-      }
-     ],
-     [
-      "polygon",
-      {
-       "class": "m-solid",
-       "points": "42.5,132.5 230,132.5 230,205 42.5,205"
-      }
-     ],
-     [
-      "polyline",
-      {
-       "class": "m-wall",
-       "points": "42.5,205 42.5,25 230,25 230,205 42.5,205"
-      }
-     ],
-     [
-      "polygon",
-      {
-       "class": "m-rubble",
-       "points": "190,27.5 227.5,27.5 227.5,75 190,75"
-      }
-     ],
-     [
-      "polyline",
-      {
-       "class": "m-run",
-       "points": "140,110 140,132.5"
-      }
-     ],
-     [
-      "polygon",
-      {
-       "class": "m-solid",
-       "points": "275,60 380,60 380,115 275,115"
-      }
-     ],
-     [
-      "polygon",
-      {
-       "class": "m-top",
-       "points": "292.731,9.94683 392.404,50.217 372.269,100.053 272.596,59.783"
-      }
-     ],
-     [
-      "polyline",
-      {
-       "class": "m-run",
-       "points": "332.5,85 310,142.5"
-      }
-     ],
-     [
-      "polyline",
-      {
-       "class": "m-plank",
-       "points": "275,175 375,175"
-      }
-     ],
-     [
-      "polygon",
-      {
-       "class": "m-solid",
-       "points": "517.5,5 592.5,5 592.5,150 567.5,165 567.5,215 412.5,215 412.5,122.5 510,122.5 510,100"
-      }
-     ],
-     [
-      "polygon",
-      {
-       "class": "m-rubble",
-       "points": "262.5,262.5 340,262.5 340,300 262.5,300"
-      }
-     ],
-     [
-      "polyline",
-      {
-       "class": "m-wall",
-       "points": "255,305 255,255 375,255"
-      }
-     ],
-     [
-      "polygon",
-      {
-       "class": "m-solid",
-       "points": "315,317.5 360,317.5 360,352.5 315,352.5"
-      }
-     ],
-     [
-      "polygon",
-      {
-       "class": "m-solid",
-       "points": "267.5,360 287.5,360 287.5,380 267.5,380"
-      }
-     ],
-     [
-      "polygon",
-      {
-       "class": "m-rubble",
-       "points": "245,430 310,430 310,445 245,445"
-      }
-     ],
-     [
-      "polyline",
-      {
-       "class": "m-wall",
-       "points": "402.5,300 402.5,395 380,395"
-      }
-     ],
-     [
-      "polyline",
-      {
-       "class": "m-wall",
-       "points": "130,250 132.5,312.5 197.5,312.5"
-      }
-     ],
-     [
-      "polyline",
-      {
-       "class": "m-wall",
-       "points": "62.5,305 62.5,370"
-      }
-     ],
-     [
-      "polyline",
-      {
-       "class": "m-wall",
-       "points": "500,247.5 500,292.5"
-      }
-     ],
-     [
-      "polyline",
-      {
-       "class": "m-plank",
-       "points": "455,330 550,335"
-      }
-     ],
-     [
-      "polygon",
-      {
-       "class": "m-solid",
-       "points": "50,390 200,390 200,520 170,500 140,457.5 50,457.5"
-      }
-     ],
-     [
-      "polyline",
-      {
-       "class": "m-wall",
-       "points": "200,570 50,570 50,390 200,390 200,570"
-      }
-     ],
-     [
-      "circle",
-      {
-       "class": "m-solid",
-       "cx": "207",
-       "cy": "420",
-       "r": "17"
-      }
-     ],
-     [
-      "circle",
-      {
-       "class": "m-solid",
-       "cx": "207",
-       "cy": "472",
-       "r": "17"
-      }
-     ],
-     [
-      "circle",
-      {
-       "class": "m-solid",
-       "cx": "207",
-       "cy": "528",
-       "r": "17"
-      }
-     ],
-     [
-      "polygon",
-      {
-       "class": "m-solid",
-       "points": "278.352,503.26 367.003,433.998 431.648,516.74 342.997,586.002"
-      }
-     ],
-     [
-      "polyline",
-      {
-       "class": "m-div",
-       "points": "380.427,556.758 315.783,474.016"
-      }
-     ],
-     [
-      "polyline",
-      {
-       "class": "m-div",
-       "points": "340.409,505.537 391.63,465.519"
-      }
-     ],
-     [
-      "polyline",
-      {
-       "class": "m-run",
-       "points": "495,352.5 495,376.25"
-      }
-     ],
-     [
-      "polygon",
-      {
-       "class": "m-plat",
-       "points": "597.5,465 546.25,553.768 443.75,553.768 392.5,465 443.75,376.232 546.25,376.232"
-      }
-     ],
-     [
-      "circle",
-      {
-       "class": "m-tower",
-       "cx": "495",
-       "cy": "465",
-       "r": "58"
-      }
-     ],
-     [
-      "circle",
-      {
-       "class": "m-turf",
-       "cx": "300",
-       "cy": "300",
-       "r": "150"
-      }
-     ],
-     [
-      "circle",
-      {
-       "class": "m-centre",
-       "cx": "300",
-       "cy": "300",
-       "r": "6"
-      }
-     ]
-    ]
+     "class": "m-grid",
+     "d": "M150 0V600M0 150H600M300 0V600M0 300H600M450 0V600M0 450H600"
+    }
+   ],
+   {
+    "pieces": true
+   },
+   [
+    "circle",
+    {
+     "class": "m-turf",
+     "cx": "300",
+     "cy": "300",
+     "r": "150"
+    }
    ],
    [
-    "text",
+    "circle",
     {
-     "class": "m-lab",
-     "x": "487.5",
-     "y": "432.5"
-    },
-    "Ruined tower"
+     "class": "m-centre",
+     "cx": "300",
+     "cy": "300",
+     "r": "6"
+    }
    ],
-   [
-    "text",
-    {
-     "class": "m-lab",
-     "x": "272.5",
-     "y": "545"
-    },
-    "Containers"
-   ],
-   [
-    "text",
-    {
-     "class": "m-lab",
-     "x": "110",
-     "y": "430"
-    },
-    "Gothic ruin"
-   ],
-   [
-    "text",
-    {
-     "class": "m-lab",
-     "x": "262.5",
-     "y": "232.5"
-    },
-    "Still"
-   ],
-   [
-    "text",
-    {
-     "class": "m-lab",
-     "x": "495",
-     "y": "175"
-    },
-    "Ruined stills"
-   ],
-   [
-    "text",
-    {
-     "class": "m-lab",
-     "x": "272.5",
-     "y": "77.5"
-    },
-    "Stairs"
-   ],
-   [
-    "text",
-    {
-     "class": "m-lab",
-     "x": "105",
-     "y": "135"
-    },
-    "Sealed vent"
-   ]
+   {
+    "labels": true
+   }
   ],
   "ticks": [
    [
@@ -4455,5 +4172,126 @@
    ]
   ]
  },
- "roster": "1.2"
+ "roster": "1.2",
+ "terrain": [
+  {
+   "piece": "v1-ruined-tower-b",
+   "at": [
+    370.0,
+    395.0
+   ]
+  },
+  {
+   "piece": "v1-containers-b",
+   "at": [
+    207.6,
+    457.5
+   ]
+  },
+  [
+   "polyline",
+   {
+    "class": "m-plank",
+    "points": "325,425 225,425"
+   }
+  ],
+  {
+   "piece": "v1-gothic-ruin-b",
+   "at": [
+    7.5,
+    385.0
+   ]
+  },
+  [
+   "polygon",
+   {
+    "class": "m-rubble",
+    "points": "337.5,337.5 260,337.5 260,300 337.5,300"
+   }
+  ],
+  [
+   "polyline",
+   {
+    "class": "m-wall",
+    "points": "345,295 345,345 225,345"
+   }
+  ],
+  {
+   "piece": "v1-still",
+   "at": [
+    240.0,
+    247.5
+   ]
+  },
+  [
+   "polygon",
+   {
+    "class": "m-solid",
+    "points": "332.5,240 312.5,240 312.5,220 332.5,220"
+   }
+  ],
+  [
+   "polygon",
+   {
+    "class": "m-rubble",
+    "points": "355,170 290,170 290,155 355,155"
+   }
+  ],
+  [
+   "polyline",
+   {
+    "class": "m-wall",
+    "points": "197.5,300 197.5,205 220,205"
+   }
+  ],
+  [
+   "polyline",
+   {
+    "class": "m-wall",
+    "points": "470,350 467.5,287.5 402.5,287.5"
+   }
+  ],
+  [
+   "polyline",
+   {
+    "class": "m-wall",
+    "points": "537.5,295 537.5,230"
+   }
+  ],
+  [
+   "polyline",
+   {
+    "class": "m-wall",
+    "points": "100,352.5 100,307.5"
+   }
+  ],
+  [
+   "polyline",
+   {
+    "class": "m-plank",
+    "points": "145,270 50,265"
+   }
+  ],
+  {
+   "piece": "v1-ruined-stills",
+   "at": [
+    376.0,
+    30.0
+   ]
+  },
+  {
+   "piece": "v1-stairs-b",
+   "at": [
+    168.4,
+    14.0
+   ]
+  },
+  {
+   "piece": "v1-sealed-vent",
+   "at": [
+    2.5,
+    46.2
+   ]
+  }
+ ]
 }

@@ -1,0 +1,948 @@
+{
+ "_about": "Terrain pieces, each drawn at its own origin. Battles place them in battle.terrain: {piece, at:[x,y], turn, label, labelAt}. 600 units = 24\".",
+ "pieces": {
+  "container": {
+   "name": "Container",
+   "els": [
+    [
+     "rect",
+     {
+      "class": "m-solid",
+      "x": "0",
+      "y": "0",
+      "width": "105",
+      "height": "50"
+     }
+    ]
+   ]
+  },
+  "container-lid": {
+   "name": "Container lid",
+   "els": [
+    [
+     "rect",
+     {
+      "class": "m-top",
+      "x": "0",
+      "y": "0",
+      "width": "107.5",
+      "height": "50"
+     }
+    ]
+   ]
+  },
+  "round-platform": {
+   "name": "Round platform",
+   "els": [
+    [
+     "circle",
+     {
+      "class": "m-plat",
+      "cx": "0",
+      "cy": "0",
+      "r": "83.6"
+     }
+    ],
+    [
+     "circle",
+     {
+      "class": "m-tower",
+      "cx": "0",
+      "cy": "0",
+      "r": "38.9"
+     }
+    ]
+   ],
+   "label": "Smoke stack",
+   "labelAt": [
+    0.0,
+    3.2
+   ]
+  },
+  "tank": {
+   "name": "Tank",
+   "els": [
+    [
+     "rect",
+     {
+      "class": "m-solid",
+      "height": "59",
+      "rx": "10",
+      "width": "38",
+      "x": "0",
+      "y": "0"
+     }
+    ]
+   ],
+   "label": "Tank",
+   "labelAt": [
+    19.0,
+    73.4
+   ]
+  },
+  "ruin-west": {
+   "name": "Ruin",
+   "els": [
+    [
+     "polyline",
+     {
+      "class": "m-wall",
+      "points": "1.7,0 80.2,0"
+     }
+    ],
+    [
+     "rect",
+     {
+      "class": "m-solid",
+      "height": "136",
+      "width": "99.3",
+      "x": "23.6",
+      "y": "23.3"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-wall",
+      "points": "121.7,22.2 121.7,160.4 19,160.4"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-wall",
+      "points": "0,90.2 49,90.2"
+     }
+    ]
+   ],
+   "label": "Ruin",
+   "labelAt": [
+    73.8,
+    91.4
+   ]
+  },
+  "gothic-ruin": {
+   "name": "Gothic ruin",
+   "els": [
+    [
+     "rect",
+     {
+      "class": "m-solid",
+      "height": "152.7",
+      "width": "95.8",
+      "x": "0",
+      "y": "1.5"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-wall",
+      "points": "1.1,0 1.1,155.3 98.5,155.3"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-wall",
+      "points": "57.5,64.6 144.9,64.6"
+     }
+    ]
+   ],
+   "label": "Gothic ruin",
+   "labelAt": [
+    47.6,
+    81.7
+   ]
+  },
+  "manufactorum": {
+   "name": "Manufactorum",
+   "els": [
+    [
+     "polyline",
+     {
+      "class": "m-div",
+      "points": "1.1,116.6 1.1,0 185.4,0 185.4,108.8"
+     }
+    ],
+    [
+     "polygon",
+     {
+      "class": "m-solid",
+      "points": "1.1,118.1 39.5,121.7 66.5,126.4 93,135.7 125.7,125.3 146.9,116.6 168,109.8 185.4,107.8 185.4,186.4 1.1,186.4"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-wall",
+      "points": "0,116.6 0,186.4 186.5,186.4 185.4,107.8"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-ladder",
+      "points": "92.1,135.4 92.1,121.4"
+     }
+    ]
+   ],
+   "label": "Manufactorum",
+   "labelAt": [
+    95.1,
+    62.2
+   ]
+  },
+  "rendering-vats": {
+   "name": "Rendering vats",
+   "els": [
+    [
+     "polyline",
+     {
+      "class": "m-div",
+      "points": "143.8,1.7 181.3,1.7 181.3,142.1 42.9,142.1"
+     }
+    ],
+    [
+     "polygon",
+     {
+      "class": "m-solid",
+      "points": "0,1.7 143.8,1.7 123.5,22.7 92.5,39.7 68.3,56.6 55.9,84.9 47.4,113.5 42.9,140.9 0,140.9"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-wall",
+      "points": "143.8,0 0,0 0,140.9 42.9,140.9"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-ladder",
+      "points": "82.8,46.5 90.8,58"
+     }
+    ]
+   ],
+   "label": "Rendering vats",
+   "labelAt": [
+    92.5,
+    104.9
+   ]
+  },
+  "starch-silo": {
+   "name": "Starch silo",
+   "els": [
+    [
+     "polygon",
+     {
+      "class": "m-plat",
+      "points": "105.5,0 213.9,58.9 213.9,177.7 105.5,235.5 0,177.7 0,57.8"
+     }
+    ],
+    [
+     "circle",
+     {
+      "class": "m-tower",
+      "cx": "106.5",
+      "cy": "117.9",
+      "r": "55"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-ladder",
+      "points": "58,26 64.8,38.3"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-wall",
+      "points": "80.9,2.9 187.1,2.9"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-div",
+      "points": "11.7,66.3 9.5,176.5"
+     }
+    ]
+   ],
+   "label": "Starch silo",
+   "labelAt": [
+    105.5,
+    119.3
+   ]
+  },
+  "bone-yard": {
+   "name": "Bone yard",
+   "els": [
+    [
+     "rect",
+     {
+      "class": "m-solid",
+      "height": "15.8",
+      "width": "9.2",
+      "x": "4.6",
+      "y": "10.8"
+     }
+    ],
+    [
+     "rect",
+     {
+      "class": "m-solid",
+      "height": "15.8",
+      "width": "9.2",
+      "x": "57.7",
+      "y": "11.4"
+     }
+    ],
+    [
+     "rect",
+     {
+      "class": "m-solid",
+      "height": "16",
+      "width": "9.2",
+      "x": "0",
+      "y": "58.1"
+     }
+    ],
+    [
+     "rect",
+     {
+      "class": "m-solid",
+      "height": "16",
+      "width": "9.2",
+      "x": "57.1",
+      "y": "58.7"
+     }
+    ],
+    [
+     "rect",
+     {
+      "class": "m-solid",
+      "height": "16.1",
+      "width": "9.2",
+      "x": "2.3",
+      "y": "94.7"
+     }
+    ],
+    [
+     "rect",
+     {
+      "class": "m-solid",
+      "height": "16",
+      "width": "9.3",
+      "x": "55.9",
+      "y": "93.6"
+     }
+    ],
+    [
+     "rect",
+     {
+      "class": "m-solid",
+      "height": "16",
+      "width": "9.2",
+      "x": "4.6",
+      "y": "130.8"
+     }
+    ],
+    [
+     "rect",
+     {
+      "class": "m-solid",
+      "height": "16",
+      "width": "9.2",
+      "x": "56.5",
+      "y": "127.4"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-wall",
+      "points": "102.1,0 102.1,67.3"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-wall",
+      "points": "102.1,85.6 102.1,151.4"
+     }
+    ]
+   ],
+   "label": "Bone yard",
+   "labelAt": [
+    34.6,
+    164.0
+   ]
+  },
+  "magazine": {
+   "name": "Magazine",
+   "els": [
+    [
+     "rect",
+     {
+      "class": "m-solid",
+      "height": "182.5",
+      "width": "102.5",
+      "x": "0",
+      "y": "0"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-wall",
+      "points": "0,0 102.5,0 102.5,162.5"
+     }
+    ]
+   ],
+   "label": "Magazine",
+   "labelAt": [
+    52.5,
+    102.5
+   ]
+  },
+  "quench-house": {
+   "name": "Quench house",
+   "els": [
+    [
+     "rect",
+     {
+      "class": "m-solid",
+      "height": "152.5",
+      "width": "112.5",
+      "x": "0",
+      "y": "0"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-wall",
+      "points": "0,152.5 0,0 112.5,0"
+     }
+    ]
+   ],
+   "label": "Quench house",
+   "labelAt": [
+    56.3,
+    87.5
+   ]
+  },
+  "anvil": {
+   "name": "Anvil",
+   "els": [
+    [
+     "polygon",
+     {
+      "class": "m-plat",
+      "points": "221,95.7 165.8,0 55.2,0 0,95.7 55.2,191.4 165.8,191.4"
+     }
+    ],
+    [
+     "circle",
+     {
+      "class": "m-tower",
+      "cx": "110.5",
+      "cy": "95.7",
+      "r": "55"
+     }
+    ],
+    [
+     "rect",
+     {
+      "class": "m-solid",
+      "height": "40",
+      "rx": "11.2",
+      "width": "60",
+      "x": "80.5",
+      "y": "75.7"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-ladder",
+      "points": "110.5,191.4 110.5,206.4"
+     }
+    ]
+   ],
+   "label": "Anvil",
+   "labelAt": [
+    110.5,
+    166.4
+   ]
+  },
+  "v1-ruined-floor": {
+   "name": "Ruined floor",
+   "els": [
+    [
+     "polygon",
+     {
+      "class": "m-floor",
+      "points": "0,35 17.5,12.5 62.5,0 105,5 112.5,55 167.5,75 167.5,120 0,120"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-wall",
+      "points": "2.5,30 2.5,117.5 172.5,117.5"
+     }
+    ]
+   ],
+   "label": "Ruined floor",
+   "labelAt": [
+    62.5,
+    90.0
+   ]
+  },
+  "v1-tank": {
+   "name": "Tank",
+   "els": [
+    [
+     "polygon",
+     {
+      "class": "m-solid",
+      "points": "0,0 50,0 50,32.5 0,32.5"
+     }
+    ]
+   ],
+   "label": "Tank",
+   "labelAt": [
+    25.0,
+    52.5
+   ]
+  },
+  "v1-ruined-tower": {
+   "name": "Ruined tower",
+   "els": [
+    [
+     "polygon",
+     {
+      "class": "m-floor",
+      "points": "0,0 90,0 90,80 0,80"
+     }
+    ],
+    [
+     "polygon",
+     {
+      "class": "m-solid",
+      "points": "0,80 90,80 90,197.5 0,197.5"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-wall",
+      "points": "0,197.5 0,0 197.5,0 197.5,197.5 0,197.5"
+     }
+    ],
+    [
+     "polygon",
+     {
+      "class": "m-rubble",
+      "points": "137.5,0 197.5,0 197.5,42.5 137.5,42.5"
+     }
+    ]
+   ],
+   "label": [
+    "Ruined",
+    "tower"
+   ],
+   "labelAt": [
+    45.0,
+    135.0
+   ]
+  },
+  "v1-gothic-ruin-west": {
+   "name": "Gothic ruin",
+   "els": [
+    [
+     "polygon",
+     {
+      "class": "m-solid",
+      "points": "0,0 55,0 100,70 165,70 165,130 0,130"
+     }
+    ]
+   ],
+   "label": "Gothic ruin",
+   "labelAt": [
+    47.5,
+    110.0
+   ]
+  },
+  "v1-walled-yard": {
+   "name": "Walled yard",
+   "els": [
+    [
+     "polyline",
+     {
+      "class": "m-wall",
+      "points": "0,47.5 0,0 165,0 165,117.5"
+     }
+    ]
+   ],
+   "label": "Walled yard",
+   "labelAt": [
+    95.0,
+    35.0
+   ]
+  },
+  "v1-gothic-ruin-east": {
+   "name": "Gothic ruin",
+   "els": [
+    [
+     "polygon",
+     {
+      "class": "m-solid",
+      "points": "0,0 170,0 170,110 0,110"
+     }
+    ]
+   ],
+   "label": "Gothic ruin",
+   "labelAt": [
+    85.0,
+    57.5
+   ]
+  },
+  "v1-containers": {
+   "name": "Containers",
+   "els": [
+    [
+     "polygon",
+     {
+      "class": "m-solid",
+      "points": "36.618,54.487 115.239,127.802 78.582,167.113 -0.039,93.798"
+     }
+    ],
+    [
+     "polygon",
+     {
+      "class": "m-solid",
+      "points": "92.831,1.997 192.504,42.267 172.369,92.103 72.696,51.833"
+     }
+    ],
+    [
+     "polygon",
+     {
+      "class": "m-top",
+      "points": "32.507,48.756 128.291,-0.048 152.693,47.844 56.909,96.648"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-run",
+      "points": "92.6,78.55 102.6,98.3"
+     }
+    ]
+   ],
+   "label": "Containers",
+   "labelAt": [
+    92.6,
+    53.3
+   ]
+  },
+  "v1-stairs": {
+   "name": "Stairs",
+   "els": [
+    [
+     "polygon",
+     {
+      "class": "m-solid",
+      "points": "0.046,51.059 100.285,-0.015 147.954,93.541 47.715,144.615"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-div",
+      "points": "90,123.05 42.5,29.55"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-div",
+      "points": "60.5,65.05 118.5,35.55"
+     }
+    ]
+   ],
+   "label": "Stairs",
+   "labelAt": [
+    44.0,
+    88.6
+   ]
+  },
+  "v1-hex-tower": {
+   "name": "v1-hex-tower",
+   "els": [
+    [
+     "polygon",
+     {
+      "class": "m-plat",
+      "points": "205,110 153.75,198.75 51.25,198.75 0,110 51.25,21.25 153.75,21.25"
+     }
+    ],
+    [
+     "circle",
+     {
+      "class": "m-tower",
+      "cx": "102.5",
+      "cy": "110",
+      "r": "62"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-run",
+      "points": "102.5,0 102.5,21.25"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-run",
+      "points": "95,198.75 95,222.5"
+     }
+    ],
+    [
+     "circle",
+     {
+      "class": "m-centre",
+      "cx": "102.5",
+      "cy": "110",
+      "r": "22"
+     }
+    ]
+   ]
+  },
+  "v1-ruined-tower-b": {
+   "name": "Ruined tower",
+   "els": [
+    [
+     "polygon",
+     {
+      "class": "m-solid",
+      "points": "187.5,72.5 0,72.5 0,0 187.5,0"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-wall",
+      "points": "187.5,0 187.5,180 0,180 0,0 187.5,0"
+     }
+    ],
+    [
+     "polygon",
+     {
+      "class": "m-rubble",
+      "points": "40,177.5 2.5,177.5 2.5,130 40,130"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-run",
+      "points": "90,95 90,72.5"
+     }
+    ]
+   ],
+   "label": "Ruined tower",
+   "labelAt": [
+    117.5,
+    37.5
+   ]
+  },
+  "v1-containers-b": {
+   "name": "Containers",
+   "els": [
+    [
+     "polygon",
+     {
+      "class": "m-solid",
+      "points": "117.4,82.5 12.4,82.5 12.4,27.5 117.4,27.5"
+     }
+    ],
+    [
+     "polygon",
+     {
+      "class": "m-top",
+      "points": "99.669,132.553 -0.004,92.283 20.131,42.447 119.804,82.717"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-run",
+      "points": "59.9,57.5 82.4,0"
+     }
+    ]
+   ],
+   "label": "Containers",
+   "labelAt": [
+    64.9,
+    87.5
+   ]
+  },
+  "v1-gothic-ruin-b": {
+   "name": "Gothic ruin",
+   "els": [
+    [
+     "polygon",
+     {
+      "class": "m-solid",
+      "points": "75,210 0,210 0,65 25,50 25,0 180,0 180,92.5 82.5,92.5 82.5,115"
+     }
+    ]
+   ],
+   "label": "Gothic ruin",
+   "labelAt": [
+    102.5,
+    45.0
+   ]
+  },
+  "v1-still": {
+   "name": "Still",
+   "els": [
+    [
+     "polygon",
+     {
+      "class": "m-solid",
+      "points": "45,35 0,35 0,0 45,0"
+     }
+    ]
+   ],
+   "label": "Still",
+   "labelAt": [
+    22.5,
+    -15.0
+   ]
+  },
+  "v1-ruined-stills": {
+   "name": "Ruined stills",
+   "els": [
+    [
+     "polygon",
+     {
+      "class": "m-solid",
+      "points": "174,180 24,180 24,50 54,70 84,112.5 174,112.5"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-wall",
+      "points": "24,0 174,0 174,180 24,180 24,0"
+     }
+    ],
+    [
+     "circle",
+     {
+      "class": "m-solid",
+      "cx": "17",
+      "cy": "150",
+      "r": "17"
+     }
+    ],
+    [
+     "circle",
+     {
+      "class": "m-solid",
+      "cx": "17",
+      "cy": "98",
+      "r": "17"
+     }
+    ],
+    [
+     "circle",
+     {
+      "class": "m-solid",
+      "cx": "17",
+      "cy": "42",
+      "r": "17"
+     }
+    ]
+   ],
+   "label": "Ruined stills",
+   "labelAt": [
+    119.0,
+    145.0
+   ]
+  },
+  "v1-stairs-b": {
+   "name": "Stairs",
+   "els": [
+    [
+     "polygon",
+     {
+      "class": "m-solid",
+      "points": "153.248,82.74 64.597,152.002 -0.048,69.26 88.603,-0.002"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-div",
+      "points": "51.173,29.242 115.817,111.984"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-div",
+      "points": "91.191,80.463 39.97,120.481"
+     }
+    ]
+   ],
+   "label": "Stairs",
+   "labelAt": [
+    104.1,
+    63.5
+   ]
+  },
+  "v1-sealed-vent": {
+   "name": "Sealed vent",
+   "els": [
+    [
+     "polyline",
+     {
+      "class": "m-run",
+      "points": "102.5,201.3 102.5,177.55"
+     }
+    ],
+    [
+     "polygon",
+     {
+      "class": "m-plat",
+      "points": "0,88.8 51.25,0.032 153.75,0.032 205,88.8 153.75,177.568 51.25,177.568"
+     }
+    ],
+    [
+     "circle",
+     {
+      "class": "m-tower",
+      "cx": "102.5",
+      "cy": "88.8",
+      "r": "58"
+     }
+    ]
+   ],
+   "label": "Sealed vent",
+   "labelAt": [
+    102.5,
+    88.8
+   ]
+  }
+ }
+}

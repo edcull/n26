@@ -44,6 +44,7 @@ function loadCss(hrefs) {
       data.fighters = fightersAt(campaign, gangs, data.roster);
       data.gangInfo = Object.fromEntries(gangs.map(g => [g.id, g]));
     }
+    if (data.terrain) data.pieces = (await getJSON('data/terrain.json')).pieces;
     document.body.insertAdjacentHTML('afterbegin', mod.render(data));
     if (location.hash) document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView();
     window.__rendered = true;

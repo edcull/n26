@@ -174,6 +174,19 @@ A battle's `board` holds named runs of SVG elements that every map shares, such 
 
 Coordinates run from 0 to 600 across the 24" table, so 25 units is one inch. `caption` holds the line under the map and the badge key.
 
+#### Terrain
+
+Terrain is built from pieces in `data/terrain.json`. Each piece is drawn once at its own origin (top left, or the centre for the round platform), with a default `label` and `labelAt` spot. A battle places them in `terrain`, in drawing order:
+
+- `{"piece": "manufactorum", "at": [209, 113.1], "label": "Tank"}`: a piece at `at`
+- `"turn": 90`: turned clockwise about its origin, in degrees (the 2.2 containers sit at 30)
+- `"label"`: the name on this board (text, a list of lines, or `false` for none). `"labelAt": [x, y]` puts it somewhere other than the piece's own label spot
+- `["polyline", {"class": "m-wall", "points": "…"}, …]`: loose SVG for the small bits, such as walls, barricades, ladders and planks
+
+A board run draws the pieces where it holds `{"pieces": true}`, and their labels where it holds `{"labels": true}`. The labels are drawn per map: if a fighter token, badge or skull would cover one, it steps to the nearest clear spot.
+
+Pieces shared between boards: `round-platform` (smoke stack, furnace), `manufactorum` (manufactorum, shell works), `rendering-vats` (rendering vats, casting hall), `container` and `container-lid`. The `v1-` pieces are the first cycle's drawings.
+
 ## Post-cycle phase (`data/post/<cycle>.json`)
 
 - `roster`: the timeline point after the cycle, for the rosters at the end
