@@ -6,6 +6,7 @@ import { fightersAt } from './roster.js';
 const PAGES = {
   battle: () => import('./pages/battle.js'),
   report: () => import('./pages/report.js'),
+  post: () => import('./pages/post.js'),
 };
 
 async function getJSON(url) {
@@ -22,6 +23,7 @@ async function getJSON(url) {
     if (data.roster) {
       const gangs = await Promise.all(campaign.gangs.map(g => getJSON(`data/gangs/${g}.json`)));
       data.fighters = fightersAt(campaign, gangs, data.roster);
+      data.gangInfo = Object.fromEntries(gangs.map(g => [g.id, g]));
     }
     document.body.insertAdjacentHTML('afterbegin', mod.render(data));
     if (location.hash) document.getElementById(location.hash.slice(1))?.scrollIntoView();

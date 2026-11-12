@@ -1,0 +1,511 @@
+{
+ "page": "post",
+ "id": "1-post",
+ "title": "Cycle 1: Post-cycle Phase",
+ "hero": {
+  "kicker": "Ash and Shadow",
+  "cycle": "Cycle 1",
+  "name": "Post-cycle Phase",
+  "sides": [
+   {
+    "img": "images/gangs/the-carrion-psalm.jpg",
+    "name": "House Cawdor",
+    "note": "Gang rating 1165"
+   },
+   {
+    "img": "images/gangs/the-midnight-theatre.jpg",
+    "name": "House Delaque",
+    "note": "Gang rating 1165"
+   }
+  ]
+ },
+ "roster": "1-post",
+ "gangs": [
+  {
+   "gang": "the-carrion-psalm",
+   "section": "psalm",
+   "story": [
+    "The Psalm come home with one prize and one grudge. The Banewaters are theirs, but the Pyroclave is in Delaque hands.",
+    "Mordecai has not forgotten the shadow that cut him down. He spends time haggling at the trading post for mesh armour and a bio-booster. He won't be caught so easily again.",
+    "Ezekiel Crows takes Vermin Pyre and a fist of credits to the flesh-menders, and Vermin comes back with a bionic leg in place of his ruined one, ready to walk among the faithful once more.",
+    "Elijah Emberchoir spends the cycle recovering from the psychoteric sleep. He fixes an Exterminator to his chainaxe to burn the witch Delaque.",
+    "Blessed Filth gets a mono-sight so his next shot doesn't miss, and Gutter Cantor works the Psalm's turf for coin. Deus drills Amen until the Stig-Shambler's gait is steady enough for him to fire the stubbers on the move, and young Ratsong learns to keep his nerve."
+   ],
+   "actions": [
+    {
+     "fighter": "Mordecai",
+     "injuries": "Personal Enmity (Macavity)",
+     "action": "Visit Trading Post"
+    },
+    {
+     "fighter": "Ezekiel Crows",
+     "injuries": "–",
+     "action": "Fit Bionics"
+    },
+    {
+     "fighter": "Elijah Emberchoir",
+     "injuries": "Grievous Wound",
+     "action": "Recovery"
+    },
+    {
+     "fighter": "Vermin Pyre",
+     "injuries": "Hobbled",
+     "action": "Recovery"
+    },
+    {
+     "fighter": "Blessed Filth",
+     "injuries": "–",
+     "action": "Work Territory"
+    },
+    {
+     "fighter": "Gutter Cantor",
+     "injuries": "–",
+     "action": "Work Territory"
+    },
+    {
+     "fighter": "Ratsong",
+     "injuries": "–",
+     "action": "Train (+2 XP)"
+    },
+    {
+     "fighter": "Deus and Amen",
+     "injuries": "–",
+     "action": "Train (+2 XP)"
+    }
+   ],
+   "income": [
+    {
+     "source": "Carried over from previous cycle",
+     "credits": "0"
+    },
+    {
+     "source": "The Pyroclave Ploy",
+     "credits": "+20"
+    },
+    {
+     "source": "The Banewaters Brawl",
+     "credits": "+70"
+    },
+    {
+     "source": "Tallow Wick (Settlement)",
+     "credits": "+15"
+    },
+    {
+     "source": "Turbine 10.2 (Generatorium)",
+     "credits": "+15"
+    },
+    {
+     "source": "Banewaters (Synth Still)",
+     "credits": "+20"
+    },
+    {
+     "source": "Work Territory (2 × 15)",
+     "credits": "+30"
+    },
+    {
+     "source": "Reputation (3 × 10)",
+     "credits": "+30"
+    }
+   ],
+   "incomeTotal": "200",
+   "advancements": [
+    {
+     "fighter": "Ratsong",
+     "xp": "5",
+     "range": "4–6",
+     "roll": "3",
+     "advancement": "+1 Cool",
+     "cost": "+5"
+    },
+    {
+     "fighter": "Deus and Amen",
+     "xp": "31",
+     "range": "31–36",
+     "roll": "11",
+     "advancement": "+1 Ballistic Skill",
+     "cost": "+15"
+    }
+   ],
+   "recruits": [],
+   "purchases": [
+    {
+     "item": "Mesh armour",
+     "for": "Mordecai",
+     "source": "Gang list",
+     "cost": "40",
+     "tp": "–"
+    },
+    {
+     "item": "Bio-booster",
+     "for": "Mordecai",
+     "source": "Trading post",
+     "cost": "25",
+     "tp": "0"
+    },
+    {
+     "item": "Stimm-slug stash",
+     "for": "Ezekiel Crows",
+     "source": "Trading post",
+     "cost": "25",
+     "tp": "0"
+    },
+    {
+     "item": "Mono-sight",
+     "for": "Blessed Filth",
+     "source": "Trading post",
+     "cost": "20",
+     "tp": "0"
+    },
+    {
+     "item": "Exterminator",
+     "for": "Elijah Emberchoir",
+     "source": "Gang list",
+     "cost": "35",
+     "tp": "–"
+    },
+    {
+     "item": "Bionics, removes Hobbled",
+     "for": "Vermin Pyre",
+     "source": "Fit Bionics, Ezekiel Crows",
+     "cost": "50",
+     "tp": "–"
+    }
+   ],
+   "sales": [],
+   "tradingTotal": {
+    "recruit": [
+     "0",
+     "–"
+    ],
+    "purchase": [
+     "195",
+     "–"
+    ],
+    "sell": [
+     "0",
+     "–"
+    ],
+    "total": [
+     "195",
+     "0"
+    ]
+   },
+   "roster": {
+    "sheet": [
+     [
+      "Rating",
+      "1165"
+     ],
+     [
+      "Wins",
+      "1"
+     ],
+     [
+      "Reputation",
+      "3"
+     ],
+     [
+      "Credits",
+      "5"
+     ],
+     [
+      "Fighters",
+      "8"
+     ]
+    ],
+    "assets": [
+     {
+      "label": "Territories",
+      "chips": [
+       {
+        "tip": "Tallow Wick (Settlement)"
+       },
+       {
+        "tip": "Turbine 10.2 (Generatorium)"
+       },
+       {
+        "tip": "Banewaters (Synth Still)"
+       }
+      ]
+     },
+     {
+      "label": "Gang tactics",
+      "chips": [
+       {
+        "tip": "Suppressing Fire"
+       },
+       {
+        "tip": "Hidden Stash"
+       },
+       {
+        "tip": "Adrenaline Surge"
+       },
+       {
+        "tip": "Grenade Bouquet"
+       }
+      ]
+     }
+    ],
+    "fighters": [
+     "mordecai",
+     "ezekiel-crows",
+     "elijah-emberchoir",
+     "vermin-pyre",
+     "blessed-filth",
+     "gutter-cantor",
+     "ratsong",
+     "deus-and-amen"
+    ]
+   }
+  },
+  {
+   "gang": "the-midnight-theatre",
+   "section": "theatre",
+   "story": [
+    "The Theatre lost the still, but at least they kept the Pyroclave away from the Cawdor. The promethium is flowing, and the whisper network makes sure every drop finds a buyer. Most of the troupe spend the cycle quietly working the turf, and the credits roll in.",
+    "Deuteronomy recruits at the trading post, bringing new faces into the show. Growltiger is a Ghost recruited cheap from the Heaviside hab-layer, and Wit is a whisper merchant, an outsider long friendly to House Delaque, who sells his secrets to the troupe.",
+    "Mistoffelees' connection to the Psychoteric Choir deepens and he learns to speak Terrible Truths, and a Psychoteric Wyrm now coils at his feet. Rumpleteaser adds an autogun to his personal arsenal, a reliable backup for when the plasma gun lets him down again. Demeter's long rifle gains a las-projector, and Jellylorum practises the art of lying low."
+   ],
+   "actions": [
+    {
+     "fighter": "Deuteronomy",
+     "injuries": "Lesson Learnt",
+     "action": "Visit Trading Post"
+    },
+    {
+     "fighter": "Demeter",
+     "injuries": "–",
+     "action": "Work Territory"
+    },
+    {
+     "fighter": "Macavity",
+     "injuries": "Lesson Learnt",
+     "action": "Work Territory"
+    },
+    {
+     "fighter": "Rumpleteaser",
+     "injuries": "–",
+     "action": "Work Territory"
+    },
+    {
+     "fighter": "Mungojerrie",
+     "injuries": "–",
+     "action": "Work Territory"
+    },
+    {
+     "fighter": "Jellylorum",
+     "injuries": "–",
+     "action": "Train (+2 XP)"
+    },
+    {
+     "fighter": "Mistoffelees",
+     "injuries": "–",
+     "action": "Work Territory"
+    }
+   ],
+   "income": [
+    {
+     "source": "Carried over from previous cycle",
+     "credits": "0"
+    },
+    {
+     "source": "The Pyroclave Ploy",
+     "credits": "+40"
+    },
+    {
+     "source": "The Banewaters Brawl",
+     "credits": "+20"
+    },
+    {
+     "source": "Heaviside Hab-layer (Settlement)",
+     "credits": "0",
+     "recruitment": "Ganger at a 25 credit discount"
+    },
+    {
+     "source": "Rippershop (Rogue Doc Shop)",
+     "credits": "+15"
+    },
+    {
+     "source": "Pyroclave (Promethium Cache)",
+     "credits": "+15"
+    },
+    {
+     "source": "Work Territory (5 × 15)",
+     "credits": "+75"
+    },
+    {
+     "source": "Reputation (2 × 10)",
+     "credits": "+20"
+    }
+   ],
+   "incomeTotal": "185",
+   "advancements": [
+    {
+     "fighter": "Jellylorum",
+     "xp": "19",
+     "range": "19–24",
+     "roll": "8",
+     "advancement": "primary skill: Lie Low",
+     "cost": "+10"
+    },
+    {
+     "fighter": "Mistoffelees",
+     "xp": "8",
+     "range": "7–9",
+     "roll": "10",
+     "advancement": "Psychoteric power: Terrible Truths",
+     "cost": "+10"
+    }
+   ],
+   "recruits": [
+    {
+     "recruit": "Growltiger, Ghost (Ganger)",
+     "discount": "25 credits, Settlement",
+     "cost": "45 – 25 = 20"
+    },
+    {
+     "recruit": "Wit, Whisper Merchant (Hanger-on)",
+     "discount": "15 credits, Ally of House Delaque",
+     "cost": "60 – 15 = 45"
+    }
+   ],
+   "purchases": [
+    {
+     "item": "Psychoteric Wyrm",
+     "for": "Mistoffelees",
+     "source": "Gang list",
+     "cost": "50",
+     "tp": "–"
+    },
+    {
+     "item": "Autogun",
+     "for": "Rumpleteaser",
+     "source": "Gang list",
+     "cost": "20",
+     "tp": "–"
+    },
+    {
+     "item": "Autopistol",
+     "for": "Mungojerrie",
+     "source": "Gang list",
+     "cost": "10",
+     "tp": "–"
+    },
+    {
+     "item": "Las-projector",
+     "for": "Demeter",
+     "source": "Trading post",
+     "cost": "20",
+     "tp": "1"
+    }
+   ],
+   "sales": [],
+   "tradingTotal": {
+    "recruit": [
+     "65",
+     "–"
+    ],
+    "purchase": [
+     "100",
+     "1"
+    ],
+    "sell": [
+     "0",
+     "–"
+    ],
+    "total": [
+     "165",
+     "1"
+    ]
+   },
+   "roster": {
+    "sheet": [
+     [
+      "Rating",
+      "1165"
+     ],
+     [
+      "Wins",
+      "1"
+     ],
+     [
+      "Reputation",
+      "2"
+     ],
+     [
+      "Credits",
+      "20"
+     ],
+     [
+      "Fighters",
+      "9"
+     ]
+    ],
+    "assets": [
+     {
+      "label": "Territories",
+      "chips": [
+       {
+        "tip": "Heaviside Hab-layer (Settlement)"
+       },
+       {
+        "tip": "Rippershop (Rogue Doc Shop)"
+       },
+       {
+        "tip": "Pyroclave (Promethium Cache)"
+       }
+      ]
+     },
+     {
+      "label": "Gang tactics",
+      "chips": [
+       {
+        "tip": "You!"
+       },
+       {
+        "tip": "Crossfire"
+       },
+       {
+        "tip": "Adrenaline Surge"
+       },
+       {
+        "tip": "Thunderous Charge"
+       }
+      ]
+     }
+    ],
+    "fighters": [
+     "deuteronomy",
+     "demeter",
+     "macavity",
+     "rumpleteaser",
+     "mungojerrie",
+     "jellylorum",
+     "growltiger",
+     "mistoffelees",
+     "rumpus",
+     "wit"
+    ]
+   }
+  }
+ ],
+ "results": {
+  "label": "Cycle 1 results",
+  "battles": [
+   {
+    "href": "1.1.html",
+    "name": "The Pyroclave Ploy",
+    "challenger": "p",
+    "stakes": "Pyroclave (Promethium Cache)",
+    "winner": "t"
+   },
+   {
+    "href": "1.2.html",
+    "name": "The Banewaters Brawl",
+    "challenger": "t",
+    "stakes": "Banewaters (Synth Still)",
+    "winner": "p"
+   }
+  ]
+ }
+}
