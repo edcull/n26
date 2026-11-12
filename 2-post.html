@@ -6,78 +6,9 @@
 <title>Cycle 2 Post-cycle</title>
 <link rel="stylesheet" href="css/fonts.css">
 <link rel="stylesheet" href="css/site.css">
-<style>
-.m-ladder { fill: none; stroke: var(--ink); stroke-width: 16; stroke-dasharray: 2 3.5; }
-.ooa.tok-p{color:var(--cawdor)}.ooa.tok-t{color:var(--delaque)}
-.roll summary:has(.r-face) { grid-template-columns: 1rem 2.6rem minmax(0, 1fr); }
-.roll summary:has(.r-face)::before { align-self: center; margin-top: 0; }
-.roll summary > .r-face ~ span { grid-column: 3; }
-.r-face { grid-column: 2; grid-row: 1 / span 2; align-self: center; width: 2.6rem; height: 2.6rem; border-radius: 50%; background: #000 center / cover no-repeat; border: 2px solid var(--line); }
-.r-face.p { border-color: var(--cawdor); }
-.r-face.t { border-color: var(--delaque); }
-.m-zone { fill: none; stroke-width: 2.5; stroke-dasharray: 8 5; }
-.m-zone.p { stroke: var(--cawdor); }
-.m-zone.t { stroke: var(--delaque); }
-.m-obj { fill: var(--sodium); stroke: var(--bg); stroke-width: 2.5; }
-.m-obj-dot { fill: var(--on-sodium); }
-.b-n { fill: var(--delaque); background: var(--delaque); }
-.dice .total { font-family: var(--label); font-weight: 700; font-size: 1.15rem; color: var(--ink); align-self: center; }
-.m-grav { fill: #7fd4f5; fill-opacity: .12; stroke: #7fd4f5; stroke-width: 2.5; }
-.m-grav-l { fill: #7fd4f5; font-family: var(--label); font-size: 12px; font-weight: 700; text-anchor: middle; }
-.b-pk { fill: #e6d3a3; background: #e6d3a3; }
-.b-v { fill: #a9b8cc; background: #a9b8cc; }
-.charges { letter-spacing: .12em; color: var(--sodium); }
-.charges i { font-style: normal; color: var(--line); }
-.fighter .c.adv { background: color-mix(in srgb, #4fd6e6 22%, transparent); }
-.fighter .c.adv b, .adv-i { color: #4fd6e6; font-weight: 700; }
-.new-key { margin: -.4rem 0 1rem; color: var(--muted, #9aa6ad); font-size: .95rem; }
-</style>
+<link rel="stylesheet" href="css/pages/2-post.css">
+<script type="module" src="js/main.js"></script>
 </head>
-<body>
-<header class="hero">
-  <div class="chevrons" aria-hidden="true"></div>
-  <div class="wrap">
-    <p class="kicker">Ash and Shadow</p>
-    <h1><small>Cycle 2</small>Post-cycle phase</h1>
-    <div class="versus">
-      <div class="side"><img src="images/gangs/the-carrion-psalm.jpg" alt=""><div><strong>The Carrion Psalm</strong><span>House Cawdor</span></div></div>
-      <div class="side right"><img src="images/gangs/the-midnight-theatre.jpg" alt=""><div><strong>The Midnight Theatre</strong><span>House Delaque</span></div></div>
-    </div>
-  </div>
-</header>
-
-<nav class="jump" aria-label="Report sections">
-  <ul class="wrap">
-    <li><a class="home" href="index.html" aria-label="Campaign"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M2 7.5 8 2.5l6 5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M3.8 6.4V13.5h3V10h2.4v3.5h3V6.4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg><span class="home-t">Campaign</span></a></li>
-    <li><a href="#actions">Post-cycle actions</a></li>
-    <li><a href="#income">Income</a></li>
-    <li><a href="#xp">XP advancements</a></li>
-    <li><a href="#trading">Trading post</a></li>
-    <li><a href="#rosters">Full gang rosters</a></li>
-  </ul>
-</nav>
-
-<main class="wrap">
-  <section id="actions">
-    <h2>Post-cycle actions</h2>
-    <p class="todo">To come.</p>
-  </section>
-  <section id="income">
-    <h2>Income</h2>
-    <p class="todo">To come.</p>
-  </section>
-  <section id="xp">
-    <h2>XP advancements</h2>
-    <p class="todo">To come.</p>
-  </section>
-  <section id="trading">
-    <h2>Trading post</h2>
-    <p class="todo">To come.</p>
-  </section>
-  <section id="rosters">
-    <h2>Full gang rosters</h2>
-    <p class="todo">To come.</p>
-  </section>
-</main>
+<body data-page="report" data-src="data/pages/2-post.json">
 </body>
 </html>

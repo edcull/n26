@@ -1,0 +1,1480 @@
+{
+ "page": "report",
+ "id": "setup",
+ "title": "Campaign Setup",
+ "hero": {
+  "kicker": "Ash and Shadow",
+  "cycle": "Cycle 1",
+  "name": "Campaign setup",
+  "sides": [
+   {
+    "img": "images/gangs/the-carrion-psalm.jpg",
+    "name": "The Carrion Psalm",
+    "note": "House Cawdor · 1000 rating"
+   },
+   {
+    "img": "images/gangs/the-midnight-theatre.jpg",
+    "name": "The Midnight Theatre",
+    "note": "House Delaque · 1000 rating"
+   }
+  ]
+ },
+ "nav": [
+  {
+   "href": "#setup",
+   "text": "Setup"
+  },
+  {
+   "href": "#territories",
+   "text": "Territories"
+  },
+  {
+   "href": "#psalm-roster",
+   "text": "Psalm roster"
+  },
+  {
+   "href": "#theatre-roster",
+   "text": "Theatre roster"
+  }
+ ],
+ "navLabel": "Page sections",
+ "main": [
+  {
+   "tag": "section",
+   "attrs": {
+    "id": "setup"
+   },
+   "children": [
+    {
+     "h2": "Setup"
+    },
+    {
+     "facts": [
+      [
+       "Gangs",
+       "{p:The Carrion Psalm} (House Cawdor) and {t:The Midnight Theatre} (House Delaque)"
+      ],
+      [
+       "Starting budget",
+       "1000 credits per gang"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "attrs": {
+    "id": "territories"
+   },
+   "children": [
+    {
+     "h2": "Territories"
+    },
+    {
+     "photo": {
+      "src": "images/setup/photo-01.jpg",
+      "alt": "Map of the campaign area showing all ten territories. Tallow Wick and Turbine 10.2 sit in the Carrion Psalm's ground to the east, Heaviside Hab-layer and Rippershop in the Midnight Theatre's ground at the centre, with the unclaimed territories spread around them."
+     }
+    },
+    {
+     "tag": "div",
+     "class": "t-cols",
+     "children": [
+      {
+       "tag": "div",
+       "class": "t-col",
+       "children": [
+        {
+         "h3": "Held by {p:The Carrion Psalm}",
+         "class": "t-group"
+        },
+        {
+         "tag": "div",
+         "class": "t-grid",
+         "children": [
+          {
+           "tcard": {
+            "class": "psalm",
+            "parts": [
+             {
+              "tag": "h3",
+              "html": "Tallow Wick"
+             },
+             {
+              "tag": "p",
+              "html": "Settlement",
+              "class": "t-type"
+             },
+             {
+              "tag": "h4",
+              "html": "Boons"
+             },
+             {
+              "tag": "ul",
+              "html": "<li><b>Income:</b> 15 credits.</li><li><b>Recruit:</b> instead of income, recruit a Ganger for 25 credits less (minimum 0).</li>"
+             },
+             {
+              "tag": "h4",
+              "html": "Battlefield effect"
+             },
+             {
+              "tag": "p",
+              "html": "None",
+              "class": "t-none"
+             }
+            ]
+           }
+          },
+          {
+           "tcard": {
+            "class": "psalm",
+            "parts": [
+             {
+              "tag": "h3",
+              "html": "Turbine 10.2"
+             },
+             {
+              "tag": "p",
+              "html": "Generatorium",
+              "class": "t-type"
+             },
+             {
+              "tag": "h4",
+              "html": "Boons"
+             },
+             {
+              "tag": "ul",
+              "html": "<li><b>Income:</b> 15 credits.</li><li><b>Reputation:</b> +1 Reputation while held.</li>"
+             },
+             {
+              "tag": "h4",
+              "html": "Battlefield effect (when staked)"
+             },
+             {
+              "tag": "p",
+              "html": "<b>Power Glow:</b> the Visibility (X\") rule has no effect."
+             }
+            ]
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "div",
+       "class": "t-col",
+       "children": [
+        {
+         "h3": "Held by {t:The Midnight Theatre}",
+         "class": "t-group"
+        },
+        {
+         "tag": "div",
+         "class": "t-grid",
+         "children": [
+          {
+           "tcard": {
+            "class": "theatre",
+            "parts": [
+             {
+              "tag": "h3",
+              "html": "Heaviside Hab-layer"
+             },
+             {
+              "tag": "p",
+              "html": "Settlement",
+              "class": "t-type"
+             },
+             {
+              "tag": "h4",
+              "html": "Boons"
+             },
+             {
+              "tag": "ul",
+              "html": "<li><b>Income:</b> 15 credits.</li><li><b>Recruit:</b> instead of income, recruit a Ganger for 25 credits less (minimum 0).</li>"
+             },
+             {
+              "tag": "h4",
+              "html": "Battlefield effect"
+             },
+             {
+              "tag": "p",
+              "html": "None",
+              "class": "t-none"
+             }
+            ]
+           }
+          },
+          {
+           "tcard": {
+            "class": "theatre",
+            "parts": [
+             {
+              "tag": "h3",
+              "html": "Rippershop"
+             },
+             {
+              "tag": "p",
+              "html": "Rogue Doc Shop",
+              "class": "t-type"
+             },
+             {
+              "tag": "h4",
+              "html": "Boons"
+             },
+             {
+              "tag": "ul",
+              "html": "<li><b>Income:</b> 15 credits.</li><li><b>Recruit:</b> instead of income, if the gang has no Rogue Doc, recruit one for 30 credits less.</li>"
+             },
+             {
+              "tag": "h4",
+              "html": "Battlefield effect (when staked)"
+             },
+             {
+              "tag": "p",
+              "html": "<b>Supplies Everywhere:</b> a fighter offering assistance adds two Injury dice instead of one."
+             }
+            ]
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "h3": "Unclaimed",
+     "class": "t-group"
+    },
+    {
+     "tag": "div",
+     "class": "t-grid",
+     "children": [
+      {
+       "tcard": {
+        "class": "",
+        "parts": [
+         {
+          "tag": "h3",
+          "html": "Pyroclave"
+         },
+         {
+          "tag": "p",
+          "html": "Promethium Cache",
+          "class": "t-type"
+         },
+         {
+          "tag": "h4",
+          "html": "Boons"
+         },
+         {
+          "tag": "ul",
+          "html": "<li><b>Income:</b> 15 credits.</li><li><b>Equipment:</b> instead of income, add three hazard suits to the Stash for free.</li>"
+         },
+         {
+          "tag": "h4",
+          "html": "Battlefield effect (when staked)"
+         },
+         {
+          "tag": "p",
+          "html": "<b>Plentiful Promethium:</b> improve Blaze (X+) by 1, so Blaze (5+) becomes Blaze (4+)."
+         }
+        ]
+       }
+      },
+      {
+       "tcard": {
+        "class": "",
+        "parts": [
+         {
+          "tag": "h3",
+          "html": "Banewaters"
+         },
+         {
+          "tag": "p",
+          "html": "Synth Still",
+          "class": "t-type"
+         },
+         {
+          "tag": "h4",
+          "html": "Boons"
+         },
+         {
+          "tag": "ul",
+          "html": "<li><b>Income:</b> 20 credits.</li>"
+         },
+         {
+          "tag": "h4",
+          "html": "Battlefield effect (when staked)"
+         },
+         {
+          "tag": "p",
+          "html": "<b>Toxic Vats:</b> +1 AP for weapons with Toxin (X+)."
+         }
+        ]
+       }
+      },
+      {
+       "tcard": {
+        "class": "",
+        "parts": [
+         {
+          "tag": "h3",
+          "html": "Rendermarch"
+         },
+         {
+          "tag": "p",
+          "html": "Corpse Farm",
+          "class": "t-type"
+         },
+         {
+          "tag": "h4",
+          "html": "Boons"
+         },
+         {
+          "tag": "ul",
+          "html": "<li><b>Income:</b> 25 credits.</li>"
+         },
+         {
+          "tag": "h4",
+          "html": "Battlefield effect (when staked)"
+         },
+         {
+          "tag": "p",
+          "html": "<b>Paid in Kind:</b> gangs earn 10 credits for each enemy model they take Out of Action."
+         }
+        ]
+       }
+      },
+      {
+       "tcard": {
+        "class": "",
+        "parts": [
+         {
+          "tag": "h3",
+          "html": "Hollowpoint"
+         },
+         {
+          "tag": "p",
+          "html": "Bullet Den",
+          "class": "t-type"
+         },
+         {
+          "tag": "h4",
+          "html": "Boons"
+         },
+         {
+          "tag": "ul",
+          "html": "<li><b>Income:</b> 15 credits.</li><li><b>Recruit:</b> instead of income, if the gang has no Ammo-Jack, recruit one for 30 credits less.</li>"
+         },
+         {
+          "tag": "h4",
+          "html": "Battlefield effect (when staked)"
+         },
+         {
+          "tag": "p",
+          "html": "<b>Plentiful Ammo:</b> once per round, each gang may make a Reload action as a Free action."
+         }
+        ]
+       }
+      },
+      {
+       "tcard": {
+        "class": "",
+        "parts": [
+         {
+          "tag": "h3",
+          "html": "The Wormways"
+         },
+         {
+          "tag": "p",
+          "html": "Tunnels",
+          "class": "t-type"
+         },
+         {
+          "tag": "h4",
+          "html": "Boons"
+         },
+         {
+          "tag": "ul",
+          "html": "<li><b>Income:</b> 20 credits.</li>"
+         },
+         {
+          "tag": "h4",
+          "html": "Battlefield effect (when staked)"
+         },
+         {
+          "tag": "p",
+          "html": "<b>Twisting Tunnels:</b> the Tunnel Warfare rule is in effect."
+         }
+        ]
+       }
+      },
+      {
+       "tcard": {
+        "class": "",
+        "parts": [
+         {
+          "tag": "h3",
+          "html": "The Broken Crown"
+         },
+         {
+          "tag": "p",
+          "html": "Collapsed Dome",
+          "class": "t-type"
+         },
+         {
+          "tag": "h4",
+          "html": "Boons"
+         },
+         {
+          "tag": "ul",
+          "html": "<li><b>Income:</b> 20 credits.</li>"
+         },
+         {
+          "tag": "h4",
+          "html": "Battlefield effect (when staked)"
+         },
+         {
+          "tag": "p",
+          "html": "<b>Dangerous Footing:</b> a natural 1 on an Agility test also inflicts a Str -, AP -, L1 hit that automatically Wounds with no saves."
+         }
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "attrs": {
+    "id": "psalm-roster"
+   },
+   "children": [
+    {
+     "tag": "div",
+     "class": "gangs",
+     "children": [
+      {
+       "tag": "div",
+       "class": "gang psalm",
+       "children": [
+        {
+         "gangHead": {
+          "portrait": "images/gangs/the-carrion-psalm.jpg",
+          "alt": "The Carrion Psalm gang portrait",
+          "tag": "h3",
+          "name": "The Carrion Psalm",
+          "house": "House Cawdor"
+         }
+        },
+        {
+         "photo": {
+          "src": "images/setup/photo-02.jpg",
+          "alt": "The eight Carrion Psalm fighters gathered among crates and barrels inside a ruined bulkhead, in red and yellow robes with Deus and Amen at the back."
+         }
+        },
+        {
+         "sheet": [
+          [
+           "Rating",
+           "1000"
+          ],
+          [
+           "Reputation",
+           "2"
+          ],
+          [
+           "Credits",
+           "0"
+          ],
+          [
+           "Trade points",
+           "0"
+          ],
+          [
+           "Wealth",
+           "1000"
+          ],
+          [
+           "Gang size",
+           "8"
+          ]
+         ],
+         "class": ""
+        },
+        {
+         "assets": [
+          {
+           "label": "Territories",
+           "chips": [
+            {
+             "tip": "Tallow Wick (Settlement)"
+            },
+            {
+             "tip": "Turbine 10.2 (Generatorium)"
+            }
+           ]
+          },
+          {
+           "label": "Gang tactics",
+           "chips": [
+            {
+             "tip": "Suppressing Fire"
+            },
+            {
+             "tip": "Hidden Stash"
+            },
+            {
+             "tip": "Adrenaline Surge"
+            },
+            {
+             "tip": "Grenade Bouquet"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "fighters": [
+          {
+           "id": "mordecai"
+          },
+          {
+           "id": "ezekiel-crows"
+          },
+          {
+           "id": "elijah-emberchoir"
+          },
+          {
+           "id": "vermin-pyre"
+          },
+          {
+           "id": "gutter-cantor"
+          },
+          {
+           "id": "blessed-filth"
+          },
+          {
+           "id": "ratsong"
+          },
+          {
+           "id": "deus-and-amen"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "attrs": {
+    "id": "theatre-roster"
+   },
+   "children": [
+    {
+     "tag": "div",
+     "class": "gangs",
+     "children": [
+      {
+       "tag": "div",
+       "class": "gang theatre",
+       "children": [
+        {
+         "gangHead": {
+          "portrait": "images/gangs/the-midnight-theatre.jpg",
+          "alt": "The Midnight Theatre gang portrait",
+          "tag": "h3",
+          "name": "The Midnight Theatre",
+          "house": "House Delaque"
+         }
+        },
+        {
+         "photo": {
+          "src": "images/setup/photo-03.jpg",
+          "alt": "The eight Midnight Theatre fighters gathered among crates and barrels, in long dark coats with purple guns."
+         }
+        },
+        {
+         "sheet": [
+          [
+           "Rating",
+           "1000"
+          ],
+          [
+           "Reputation",
+           "1"
+          ],
+          [
+           "Credits",
+           "0"
+          ],
+          [
+           "Trade points",
+           "0"
+          ],
+          [
+           "Wealth",
+           "1000"
+          ],
+          [
+           "Gang size",
+           "8"
+          ]
+         ],
+         "class": ""
+        },
+        {
+         "assets": [
+          {
+           "label": "Territories",
+           "chips": [
+            {
+             "tip": "Heaviside Hab-layer (Settlement)"
+            },
+            {
+             "tip": "Rippershop (Rogue Doc Shop)"
+            }
+           ]
+          },
+          {
+           "label": "Gang tactics",
+           "chips": [
+            {
+             "tip": "You!"
+            },
+            {
+             "tip": "Crossfire"
+            },
+            {
+             "tip": "Adrenaline Surge"
+            },
+            {
+             "tip": "Thunderous Charge"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "fighters": [
+          {
+           "id": "deuteronomy"
+          },
+          {
+           "id": "demeter"
+          },
+          {
+           "id": "macavity"
+          },
+          {
+           "id": "rumpleteaser"
+          },
+          {
+           "id": "jellylorum"
+          },
+          {
+           "id": "mungojerrie"
+          },
+          {
+           "id": "skimbleshanks"
+          },
+          {
+           "id": "mistoffelees"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "fighters": {
+  "mordecai": {
+   "name": "Mordecai",
+   "portrait": "images/fighters/mordecai.jpg",
+   "type": "Cawdor Word Keeper (Leader, Pious)",
+   "cost": "175",
+   "stats": {
+    "M": "5\"",
+    "WS": "3+",
+    "BS": "3+",
+    "S": "3",
+    "T": "3",
+    "W": "3",
+    "I": "3",
+    "A": "2",
+    "Sv": "5+",
+    "Ld": "8",
+    "Cl": "8",
+    "Wil": "8",
+    "Int": "7",
+    "XP": "61"
+   },
+   "weapons": [
+    {
+     "name": "Autopistol",
+     "profile": [
+      "4\"",
+      "12\"",
+      "3",
+      "-",
+      "1"
+     ],
+     "traits": "{tip:Light}, {tip:Rapid Fire (1)}"
+    },
+    {
+     "name": "Chainglaive*",
+     "profile": [
+      "E",
+      "-",
+      "S+1",
+      "-1",
+      "2"
+     ],
+     "traits": "{tip:Heavy}, {tip:Melee}, {tip:Parry}, {tip:Shred (6+)}, {tip:Unwieldy}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:Inspiring}, {tip:Nerves of Steel}"
+    }
+   ]
+  },
+  "ezekiel-crows": {
+   "name": "Ezekiel Crows",
+   "portrait": "images/fighters/ezekiel-crows.jpg",
+   "type": "Cawdor Firebrand (Champion, Pious)",
+   "cost": "130",
+   "stats": {
+    "M": "5\"",
+    "WS": "3+",
+    "BS": "3+",
+    "S": "3",
+    "T": "3",
+    "W": "2",
+    "I": "3",
+    "A": "2",
+    "Sv": "5+",
+    "Ld": "7",
+    "Cl": "7",
+    "Wil": "6",
+    "Int": "7",
+    "XP": "37"
+   },
+   "weapons": [
+    {
+     "name": "Autopistol",
+     "profile": [
+      "4\"",
+      "12\"",
+      "3",
+      "-",
+      "1"
+     ],
+     "traits": "{tip:Light}, {tip:Rapid Fire (1)}"
+    },
+    {
+     "name": "Cleaver",
+     "profile": [
+      "E",
+      "-",
+      "S",
+      "-1",
+      "2"
+     ],
+     "traits": "{tip:Melee}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:Bull Charge}, {tip:Inspiring}"
+    }
+   ]
+  },
+  "elijah-emberchoir": {
+   "name": "Elijah Emberchoir",
+   "portrait": "images/fighters/elijah-emberchoir.jpg",
+   "type": "Redemptionist Deacon (Champion, Fanatic)",
+   "cost": "130",
+   "stats": {
+    "M": "5\"",
+    "WS": "3+",
+    "BS": "3+",
+    "S": "3",
+    "T": "3",
+    "W": "2",
+    "I": "3",
+    "A": "2",
+    "Sv": "5+",
+    "Ld": "7",
+    "Cl": "7",
+    "Wil": "8",
+    "Int": "6",
+    "XP": "37"
+   },
+   "weapons": [
+    {
+     "name": "Autopistol",
+     "profile": [
+      "4\"",
+      "12\"",
+      "3",
+      "-",
+      "1"
+     ],
+     "traits": "{tip:Light}, {tip:Rapid Fire (1)}"
+    },
+    {
+     "name": "Chainaxe",
+     "profile": [
+      "E",
+      "-",
+      "S",
+      "-1",
+      "1"
+     ],
+     "traits": "{tip:Melee}, {tip:Shred (5+)}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:Inspiring}, {tip:Rain of Blows}"
+    }
+   ]
+  },
+  "vermin-pyre": {
+   "name": "Vermin Pyre",
+   "portrait": "images/fighters/vermin-pyre.jpg",
+   "type": "Cawdor Brethren (Ganger, Pious, Specialist), Gunner",
+   "cost": "125",
+   "stats": {
+    "M": "5\"",
+    "WS": "4+",
+    "BS": "4+",
+    "S": "3",
+    "T": "3",
+    "W": "1",
+    "I": "3",
+    "A": "1",
+    "Sv": "6+",
+    "Ld": "6",
+    "Cl": "6",
+    "Wil": "6",
+    "Int": "6",
+    "XP": "13"
+   },
+   "weapons": [
+    {
+     "name": "Cawdor Polearm/Flamer",
+     "nameClass": "parent"
+    },
+    {
+     "class": "sub",
+     "name": "Polearm*",
+     "profile": [
+      "E",
+      "-",
+      "S+1",
+      "-",
+      "2"
+     ],
+     "traits": "{tip:Heavy}, {tip:Lance}, {tip:Melee}, {tip:Unwieldy}"
+    },
+    {
+     "class": "sub",
+     "name": "Flamer",
+     "profile": [
+      "T",
+      "-",
+      "4",
+      "-1",
+      "1"
+     ],
+     "traits": "{tip:Ammo (6+)}, {tip:Blaze (5)}, {tip:Template}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:Hip-shooting}"
+    }
+   ]
+  },
+  "gutter-cantor": {
+   "name": "Gutter Cantor",
+   "portrait": "images/fighters/gutter-cantor.jpg",
+   "type": "Cawdor Brethren (Ganger, Pious, Specialist), Medic",
+   "cost": "70",
+   "stats": {
+    "M": "5\"",
+    "WS": "4+",
+    "BS": "4+",
+    "S": "3",
+    "T": "3",
+    "W": "1",
+    "I": "3",
+    "A": "1",
+    "Sv": "6+",
+    "Ld": "6",
+    "Cl": "6",
+    "Wil": "6",
+    "Int": "6",
+    "XP": "13"
+   },
+   "weapons": [
+    {
+     "name": "Cawdor Polearm/Autogun",
+     "nameClass": "parent"
+    },
+    {
+     "class": "sub",
+     "name": "Polearm*",
+     "profile": [
+      "E",
+      "-",
+      "S+1",
+      "-",
+      "2"
+     ],
+     "traits": "{tip:Heavy}, {tip:Lance}, {tip:Melee}, {tip:Unwieldy}"
+    },
+    {
+     "class": "sub",
+     "name": "Autogun",
+     "profile": [
+      "8\"",
+      "24\"",
+      "3",
+      "-",
+      "1"
+     ],
+     "traits": "{tip:Rapid Fire (1)}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:Medicate}"
+    }
+   ]
+  },
+  "blessed-filth": {
+   "name": "Blessed Filth",
+   "portrait": "images/fighters/blessed-filth.jpg",
+   "type": "Cawdor Brethren (Ganger, Pious, Specialist), Sniper",
+   "cost": "95",
+   "stats": {
+    "M": "5\"",
+    "WS": "4+",
+    "BS": "4+",
+    "S": "3",
+    "T": "3",
+    "W": "1",
+    "I": "3",
+    "A": "1",
+    "Sv": "6+",
+    "Ld": "6",
+    "Cl": "6",
+    "Wil": "6",
+    "Int": "6",
+    "XP": "13"
+   },
+   "weapons": [
+    {
+     "name": "Long rifle",
+     "profile": [
+      "24\"",
+      "48\"",
+      "4",
+      "-1",
+      "1"
+     ],
+     "traits": "{tip:Knockback (6+)}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:Precision Shot}"
+    }
+   ]
+  },
+  "ratsong": {
+   "name": "Ratsong",
+   "portrait": "images/fighters/ratsong.jpg",
+   "type": "Cawdor Bonepicker (Pious, Prospect)",
+   "cost": "25",
+   "stats": {
+    "M": "6\"",
+    "WS": "5+",
+    "BS": "5+",
+    "S": "3",
+    "T": "3",
+    "W": "1",
+    "I": "4",
+    "A": "1",
+    "Sv": "6+",
+    "Ld": "5",
+    "Cl": "5",
+    "Wil": "5",
+    "Int": "5",
+    "XP": "1"
+   },
+   "weapons": [
+    {
+     "name": "Stub gun",
+     "profile": [
+      "6\"",
+      "12\"",
+      "3",
+      "-",
+      "1"
+     ],
+     "traits": "{tip:Light}"
+    }
+   ]
+  },
+  "deus-and-amen": {
+   "name": "Deus and Amen",
+   "portrait": "images/fighters/deus-and-amen.jpg",
+   "type": "Cawdor Stig-Shambler (Brute, Loner, Pious)",
+   "cost": "250",
+   "stats": {
+    "M": "4\"",
+    "WS": "4+",
+    "BS": "4+",
+    "S": "5",
+    "T": "4",
+    "W": "4",
+    "I": "3",
+    "A": "2",
+    "Sv": "6+",
+    "Ld": "6",
+    "Cl": "6",
+    "Wil": "6",
+    "Int": "5",
+    "XP": "25"
+   },
+   "weapons": [
+    {
+     "name": "Heavy club",
+     "profile": [
+      "E",
+      "-",
+      "S+2",
+      "-",
+      "2"
+     ],
+     "traits": "{tip:Concussive (5+)}, {tip:Heavy}, {tip:Melee}, {tip:Unwieldy}"
+    },
+    {
+     "name": "Twin-linked heavy stubber",
+     "profile": [
+      "20\"",
+      "40\"",
+      "4",
+      "-1",
+      "1"
+     ],
+     "traits": "{tip:Heavy}, {tip:Rapid Fire (2)}, {tip:Twin-linked}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:Bulging Biceps}, {tip:Juggernaut}"
+    }
+   ]
+  },
+  "deuteronomy": {
+   "name": "Deuteronomy",
+   "portrait": "images/fighters/deuteronomy.jpg",
+   "type": "Master of Shadow (Leader, Wyrd), Wyrd",
+   "cost": "245",
+   "stats": {
+    "M": "5\"",
+    "WS": "3+",
+    "BS": "3+",
+    "S": "3",
+    "T": "3",
+    "W": "3",
+    "I": "4",
+    "A": "3",
+    "Sv": "5+",
+    "Ld": "8",
+    "Cl": "8",
+    "Wil": "9",
+    "Int": "8",
+    "XP": "61"
+   },
+   "weapons": [
+    {
+     "name": "Flechette pistol",
+     "profile": [
+      "4\"",
+      "12\"",
+      "-",
+      "-",
+      "1"
+     ],
+     "traits": "{tip:Light}, {tip:Rapid Fire (1)}, {tip:Toxin (3+)}"
+    },
+    {
+     "name": "Shock stave",
+     "profile": [
+      "E",
+      "-",
+      "S+1",
+      "-",
+      "1"
+     ],
+     "traits": "{tip:Melee}, {tip:Shock (5+)}"
+    },
+    {
+     "name": "Web gauntlet",
+     "profile": [
+      "E",
+      "-",
+      "3",
+      "-",
+      "-"
+     ],
+     "traits": "{tip:Backstab}, {tip:Melee}, {tip:Web}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:A Perfect Void}, {tip:Counter-attack}, {tip:Inspiring}"
+    },
+    {
+     "label": "Special rules",
+     "text": "{tip:Master of Whispers}"
+    }
+   ]
+  },
+  "demeter": {
+   "name": "Demeter",
+   "portrait": "images/fighters/demeter.jpg",
+   "type": "Phantom (Champion)",
+   "cost": "155",
+   "stats": {
+    "M": "5\"",
+    "WS": "3+",
+    "BS": "3+",
+    "S": "3",
+    "T": "3",
+    "W": "2",
+    "I": "4",
+    "A": "2",
+    "Sv": "5+",
+    "Ld": "7",
+    "Cl": "7",
+    "Wil": "8",
+    "Int": "7",
+    "XP": "37"
+   },
+   "weapons": [
+    {
+     "name": "Long rifle",
+     "profile": [
+      "24\"",
+      "48\"",
+      "4",
+      "-1",
+      "1"
+     ],
+     "traits": "{tip:Knockback (6+)}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:Inspiring}, {tip:Overwatch}"
+    },
+    {
+     "label": "Special rules",
+     "text": "{tip:Master of Whispers}"
+    }
+   ]
+  },
+  "macavity": {
+   "name": "Macavity",
+   "portrait": "images/fighters/macavity.jpg",
+   "type": "Nacht-Ghul (Champion, Loner)",
+   "cost": "190",
+   "stats": {
+    "M": "6\"",
+    "WS": "3+",
+    "BS": "4+",
+    "S": "4",
+    "T": "3",
+    "W": "2",
+    "I": "5",
+    "A": "3",
+    "Sv": "5+",
+    "Ld": "6",
+    "Cl": "8",
+    "Wil": "8",
+    "Int": "7",
+    "XP": "49"
+   },
+   "weapons": [
+    {
+     "name": "Serpent's fangs*",
+     "profile": [
+      "E",
+      "-",
+      "-",
+      "-3",
+      "1"
+     ],
+     "traits": "{tip:Melee}, {tip:Paired (2)}, {tip:Toxin (3+)}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:Inspiring}, {tip:Spring Up}"
+    },
+    {
+     "label": "Special rules",
+     "text": "{tip:From the Shadows}"
+    }
+   ]
+  },
+  "rumpleteaser": {
+   "name": "Rumpleteaser",
+   "portrait": "images/fighters/rumpleteaser.jpg",
+   "type": "Ghost (Ganger, Specialist), Gunner",
+   "cost": "130",
+   "stats": {
+    "M": "5\"",
+    "WS": "4+",
+    "BS": "4+",
+    "S": "3",
+    "T": "3",
+    "W": "1",
+    "I": "4",
+    "A": "1",
+    "Sv": "6+",
+    "Ld": "6",
+    "Cl": "6",
+    "Wil": "7",
+    "Int": "6",
+    "XP": "13"
+   },
+   "weapons": [
+    {
+     "name": "Plasma gun",
+     "profile": [
+      "12\"",
+      "24\"",
+      "5",
+      "-2",
+      "2"
+     ],
+     "traits": "{tip:Ammo (6+)}, {tip:Damage (2)}, {tip:Rapid Fire (1)}, {tip:Unstable}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:Hip-shooting}"
+    }
+   ]
+  },
+  "jellylorum": {
+   "name": "Jellylorum",
+   "portrait": "images/fighters/jellylorum.jpg",
+   "type": "Ghost (Ganger, Specialist), Medic",
+   "cost": "60",
+   "stats": {
+    "M": "5\"",
+    "WS": "4+",
+    "BS": "4+",
+    "S": "3",
+    "T": "3",
+    "W": "1",
+    "I": "4",
+    "A": "1",
+    "Sv": "6+",
+    "Ld": "6",
+    "Cl": "6",
+    "Wil": "7",
+    "Int": "6",
+    "XP": "13"
+   },
+   "weapons": [
+    {
+     "name": "Lasgun",
+     "profile": [
+      "16\"",
+      "24\"",
+      "3",
+      "-",
+      "1"
+     ],
+     "traits": "No traits"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:Medicate}"
+    }
+   ]
+  },
+  "mungojerrie": {
+   "name": "Mungojerrie",
+   "portrait": "images/fighters/mungojerrie.jpg",
+   "type": "Ghost (Ganger, Specialist), Gunner",
+   "cost": "95",
+   "stats": {
+    "M": "5\"",
+    "WS": "4+",
+    "BS": "4+",
+    "S": "3",
+    "T": "3",
+    "W": "1",
+    "I": "4",
+    "A": "1",
+    "Sv": "6+",
+    "Ld": "6",
+    "Cl": "6",
+    "Wil": "7",
+    "Int": "6",
+    "XP": "13"
+   },
+   "weapons": [
+    {
+     "name": "Grav gun",
+     "profile": [
+      "9\"",
+      "18\"",
+      "-",
+      "-",
+      "2"
+     ],
+     "traits": "{tip:Ammo (5+)}, {tip:Blast (3\")}, {tip:Graviton Pulse}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:Hip-shooting}"
+    }
+   ]
+  },
+  "skimbleshanks": {
+   "name": "Skimbleshanks",
+   "portrait": "images/fighters/skimbleshanks.jpg",
+   "type": "Ghost (Ganger, Specialist), Gunslinger",
+   "cost": "90",
+   "stats": {
+    "M": "5\"",
+    "WS": "4+",
+    "BS": "4+",
+    "S": "3",
+    "T": "3",
+    "W": "1",
+    "I": "4",
+    "A": "1",
+    "Sv": "6+",
+    "Ld": "6",
+    "Cl": "6",
+    "Wil": "7",
+    "Int": "6",
+    "XP": "13"
+   },
+   "weapons": [
+    {
+     "name": "Autopistol",
+     "profile": [
+      "4\"",
+      "12\"",
+      "3",
+      "-",
+      "1"
+     ],
+     "traits": "{tip:Light}, {tip:Rapid Fire (1)}"
+    },
+    {
+     "name": "Flechette pistol",
+     "profile": [
+      "4\"",
+      "12\"",
+      "-",
+      "-",
+      "1"
+     ],
+     "traits": "{tip:Light}, {tip:Rapid Fire (1)}, {tip:Toxin (3+)}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:Gunfighter}"
+    }
+   ]
+  },
+  "mistoffelees": {
+   "name": "Mistoffelees",
+   "portrait": "images/fighters/mistoffelees.jpg",
+   "type": "Psy-Gheist (Prospect, Wyrd)",
+   "cost": "35",
+   "stats": {
+    "M": "6\"",
+    "WS": "5+",
+    "BS": "5+",
+    "S": "3",
+    "T": "3",
+    "W": "1",
+    "I": "4",
+    "A": "1",
+    "Sv": "6+",
+    "Ld": "5",
+    "Cl": "6",
+    "Wil": "7",
+    "Int": "5",
+    "XP": "4"
+   },
+   "weapons": [
+    {
+     "name": "Stub gun",
+     "profile": [
+      "6\"",
+      "12\"",
+      "3",
+      "-",
+      "1"
+     ],
+     "traits": "{tip:Light}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:Eternal Slumber}"
+    },
+    {
+     "label": "Special rules",
+     "text": "{tip:Whispers in the Dark}"
+    }
+   ]
+  }
+ }
+}

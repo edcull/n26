@@ -1,6 +1,6 @@
 // Content blocks shared by battle and post-cycle pages: photos, text with roll
 // callouts, maps, ledgers.
-import { esc, attr, md, cls, join } from './lib.js';
+import { esc, attr, md, cls, join, tip, ruleLabel } from './lib.js';
 import { die, diceList } from './dice.js';
 import { renderMap, mapCaption } from './map.js';
 
@@ -61,3 +61,10 @@ export function block(b, ctx = {}) {
   throw new Error('Unknown block ' + JSON.stringify(b).slice(0, 80));
 }
 export const blocks = (bs, ctx) => join(bs, b => block(b, ctx) + '\n');
+
+const TICK = l => `<svg class="tick" viewBox="0 0 12 12" role="img" aria-label="${l}"><path d="M1.5 6.5 4.7 9.7 10.5 2.7"/></svg>`;
+export function chip(c) {
+  return tip(c.tip, c.used ? 'chip used' : 'chip', c.used ? TICK(c.usedLabel) + esc(ruleLabel(c.tip)) : null);
+}
+export const sheet = b => `<dl class="${cls('sheet', b.class)}">${join(b.sheet, ([k, v]) => `<div><dt>${md(k)}</dt><dd>${md(v)}</dd></div>`)}</dl>`;
+export const assets = list => `<dl class="assets">${join(list, a => `<div><dt>${esc(a.label)}</dt><dd>${a.chips ? join(a.chips, chip) : md(a.html)}</dd></div>`)}</dl>`;

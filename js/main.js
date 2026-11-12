@@ -4,6 +4,7 @@ import { setRules } from './lib.js';
 
 const PAGES = {
   battle: () => import('./pages/battle.js'),
+  report: () => import('./pages/report.js'),
 };
 
 async function getJSON(url) {

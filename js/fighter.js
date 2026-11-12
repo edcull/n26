@@ -6,7 +6,12 @@ const STAT_GROUP = { Ld: 'm', Cl: 'm', Wil: 'm', Int: 'm', XP: 'x' };
 
 export function fighterCard(f, extraClass = '') {
   const keys = Object.keys(f.stats);
-  const stats = join(keys, k => `<div class="${cls('c', STAT_GROUP[k], f.statClass?.[k])}"><span>${esc(k)}</span><b>${f.stats[k]}</b></div>`);
+  const stats = join(keys, k => {
+    const c = cls('c', STAT_GROUP[k], f.statClass?.[k]);
+    const inner = `<span>${esc(k)}</span><b>${f.stats[k]}</b>`;
+    if (k === 'XP' && f.xpPop) return `<button${f.xpPopType ? ' type="button"' : ''} class="${c} xp-btn" popovertarget="xp-${f.xpPop}" aria-label="${attr(f.name)} XP breakdown">${inner}</button>`;
+    return `<div class="${c}">${inner}</div>`;
+  });
   const weapons = f.weapons ? `\n  <div class="weapons"><div class="wp head"><div class="wn">Weapon</div><div class="wv">SR</div><div class="wv">LR</div><div class="wv">Str</div><div class="wv">AP</div><div class="wv">L</div></div>${join(f.weapons, w =>
     `<div class="${cls('wp', w.class)}"><div class="${cls('wn', w.nameClass)}">${md(w.name)}</div>` +
     join(w.profile, (v, i) => `<div class="${cls('wv', w.profileClass?.[i])}">${v}</div>`) +

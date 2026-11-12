@@ -117,6 +117,13 @@ def fighter(art):
     hl = {}
     for c in kids(stats):
         k = c.find('span').get_text(); v = c.find('b').decode_contents()
+        if c.name == 'button' and 'xp-btn' in cls(c):
+            want = {'class', 'popovertarget', 'aria-label'} | ({'type'} if c.get('type') else set())
+            if set(c.attrs) != want or c['aria-label'] != f['name'] + ' XP breakdown' or c.get('type', 'button') != 'button':
+                raise ValueError('xp button')
+            f['xpPop'] = c['popovertarget'][3:]
+            if c.get('type'): f['xpPopType'] = True
+            c = BeautifulSoup('<div class="%s">%s</div>' % (' '.join(x for x in cls(c) if x != 'xp-btn'), c.decode_contents()), 'html.parser').div
         f['stats'][k] = v
         extra = [x for x in cls(c) if x not in ('c', 'm', 'x')]
         if [x for x in cls(c) if x in ('m', 'x')] != ([STAT_CLS[k]] if k in STAT_CLS else []):

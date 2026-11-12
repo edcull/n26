@@ -2,7 +2,7 @@
 import { esc, md, join } from '../lib.js';
 import { hero, nav } from '../hero.js';
 import { fighterCard, fighterPopover } from '../fighter.js';
-import { block, blocks, photo } from '../blocks.js';
+import { block, blocks, photo, sheet, assets } from '../blocks.js';
 
 function navItems(d) {
   const items = [{ href: '#intro', text: 'Intro', class: 'nav-intro' }, { href: '#setup', text: 'Setup' }, { href: '#gangs', text: 'Gang lists' }];
@@ -17,8 +17,8 @@ function navItems(d) {
 
 function gang(g, d) {
   const parts = join(g.blocks, b => {
-    if (b.sheet) return `\n  <dl class="${['sheet', b.class].filter(Boolean).join(' ')}">${join(b.sheet, ([k, v]) => `<div><dt>${md(k)}</dt><dd>${md(v)}</dd></div>`)}</dl>`;
-    if (b.assets) return `\n  <dl class="assets">${join(b.assets, a => `<div><dt>${esc(a.label)}</dt><dd>${a.chips ? join(a.chips, chip) : md(a.html)}</dd></div>`)}</dl>`;
+    if (b.sheet) return '\n  ' + sheet(b);
+    if (b.assets) return '\n  ' + assets(b.assets);
     if (b.panel) return `\n  <details class="${['bench-panel', b.class].filter(Boolean).join(' ')}"><summary>${esc(b.panel)}</summary><div class="fighters">${join(b.fighters, r => fighterCard(d.fighters[r.id], r.class))}</div></details>`;
     if (b.photo) return '\n  ' + photo(b.photo);
     return '\n  ' + block(b);
@@ -31,11 +31,6 @@ function gang(g, d) {
 </div>`;
 }
 
-import { tip } from '../lib.js';
-const TICK = l => `<svg class="tick" viewBox="0 0 12 12" role="img" aria-label="${l}"><path d="M1.5 6.5 4.7 9.7 10.5 2.7"/></svg>`;
-function chip(c) {
-  return tip(c.tip, c.used ? 'chip used' : 'chip', c.used ? TICK(c.usedLabel) + esc(c.tip.replace(/ #\d+$/, '')) : null);
-}
 
 function round(r, d) {
   return `<article class="round" id="${r.id}">
@@ -52,7 +47,7 @@ export function render(d) {
   const gangOf = {};
   for (const g of d.gangs) for (const b of g.blocks) for (const r of b.fighters || []) gangOf[r.id] ??= g.class;
   const turns = d.rounds.length ? `<div class="rounds">${join(d.rounds, r => round(r, d))}</div>` : blocks(d.turnsBlocks || []);
-  return hero(d) + '\n' + nav(navItems(d)) + `
+  return hero({ kicker: d.kicker, cycle: d.cycle, name: d.name, sides: d.sides }) + '\n' + nav(navItems(d)) + `
 <main class="wrap">
   <section id="intro">
     <h2>${esc(d.introHeading ?? 'Intro')}</h2>

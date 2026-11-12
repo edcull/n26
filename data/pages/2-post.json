@@ -1,0 +1,122 @@
+{
+ "page": "report",
+ "id": "2-post",
+ "title": "Cycle 2 Post-cycle",
+ "hero": {
+  "kicker": "Ash and Shadow",
+  "cycle": "Cycle 2",
+  "name": "Post-cycle phase",
+  "sides": [
+   {
+    "img": "images/gangs/the-carrion-psalm.jpg",
+    "name": "The Carrion Psalm",
+    "note": "House Cawdor"
+   },
+   {
+    "img": "images/gangs/the-midnight-theatre.jpg",
+    "name": "The Midnight Theatre",
+    "note": "House Delaque"
+   }
+  ]
+ },
+ "nav": [
+  {
+   "href": "#actions",
+   "text": "Post-cycle actions"
+  },
+  {
+   "href": "#income",
+   "text": "Income"
+  },
+  {
+   "href": "#xp",
+   "text": "XP advancements"
+  },
+  {
+   "href": "#trading",
+   "text": "Trading post"
+  },
+  {
+   "href": "#rosters",
+   "text": "Full gang rosters"
+  }
+ ],
+ "main": [
+  {
+   "tag": "section",
+   "attrs": {
+    "id": "actions"
+   },
+   "children": [
+    {
+     "h2": "Post-cycle actions"
+    },
+    {
+     "p": "To come.",
+     "class": "todo"
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "attrs": {
+    "id": "income"
+   },
+   "children": [
+    {
+     "h2": "Income"
+    },
+    {
+     "p": "To come.",
+     "class": "todo"
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "attrs": {
+    "id": "xp"
+   },
+   "children": [
+    {
+     "h2": "XP advancements"
+    },
+    {
+     "p": "To come.",
+     "class": "todo"
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "attrs": {
+    "id": "trading"
+   },
+   "children": [
+    {
+     "h2": "Trading post"
+    },
+    {
+     "p": "To come.",
+     "class": "todo"
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "attrs": {
+    "id": "rosters"
+   },
+   "children": [
+    {
+     "h2": "Full gang rosters"
+    },
+    {
+     "p": "To come.",
+     "class": "todo"
+    }
+   ]
+  }
+ ],
+ "fighters": {}
+}
