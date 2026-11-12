@@ -1,6 +1,7 @@
 // Entry point: every page is an empty shell whose <body data-page data-src>
 // says which template to use and which JSON file to load.
 import { setRules } from './lib.js';
+import { fightersAt } from './roster.js';
 
 const PAGES = {
   battle: () => import('./pages/battle.js'),
@@ -16,8 +17,12 @@ async function getJSON(url) {
 (async () => {
   const { page, src } = document.body.dataset;
   try {
-    const [rules, data, mod] = await Promise.all([getJSON('data/rules.json'), getJSON(src), PAGES[page]()]);
+    const [rules, data, mod, campaign] = await Promise.all([getJSON('data/rules.json'), getJSON(src), PAGES[page](), getJSON('data/campaign.json')]);
     setRules(rules);
+    if (data.roster) {
+      const gangs = await Promise.all(campaign.gangs.map(g => getJSON(`data/gangs/${g}.json`)));
+      data.fighters = fightersAt(campaign, gangs, data.roster);
+    }
     document.body.insertAdjacentHTML('afterbegin', mod.render(data));
     if (location.hash) document.getElementById(location.hash.slice(1))?.scrollIntoView();
     window.__rendered = true;

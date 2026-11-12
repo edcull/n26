@@ -1,0 +1,776 @@
+{
+ "id": "the-carrion-psalm",
+ "name": "The Carrion Psalm",
+ "house": "House Cawdor",
+ "side": "p",
+ "class": "psalm",
+ "portrait": "images/gangs/the-carrion-psalm.jpg",
+ "thumb": "images/gangs/the-carrion-psalm-thumb.jpg",
+ "fighters": {
+  "mordecai": [
+   {
+    "at": "setup",
+    "name": "Mordecai",
+    "portrait": "images/fighters/mordecai.jpg",
+    "type": "Cawdor Word Keeper (Leader, Pious)",
+    "cost": "175",
+    "stats": {
+     "M": "5\"",
+     "WS": "3+",
+     "BS": "3+",
+     "S": "3",
+     "T": "3",
+     "W": "3",
+     "I": "3",
+     "A": "2",
+     "Sv": "5+",
+     "Ld": "8",
+     "Cl": "8",
+     "Wil": "8",
+     "Int": "7",
+     "XP": "61"
+    },
+    "weapons": [
+     {
+      "name": "Autopistol",
+      "profile": [
+       "4\"",
+       "12\"",
+       "3",
+       "-",
+       "1"
+      ],
+      "traits": "{tip:Light}, {tip:Rapid Fire (1)}"
+     },
+     {
+      "name": "Chainglaive*",
+      "profile": [
+       "E",
+       "-",
+       "S+1",
+       "-1",
+       "2"
+      ],
+      "traits": "{tip:Heavy}, {tip:Melee}, {tip:Parry}, {tip:Shred (6+)}, {tip:Unwieldy}"
+     }
+    ],
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Inspiring}, {tip:Nerves of Steel}"
+     }
+    ]
+   },
+   {
+    "at": "1.2",
+    "stats": {
+     "XP": "62"
+    },
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Inspiring}, {tip:Nerves of Steel}"
+     },
+     {
+      "label": "Lasting injuries",
+      "text": "{tip:Personal Enmity (Macavity)}"
+     }
+    ]
+   },
+   {
+    "at": "1-post",
+    "cost": "240",
+    "stats": {
+     "XP": "67"
+    },
+    "foot": [
+     {
+      "label": "Wargear",
+      "text": "{tip.new-i:Mesh armour}, {tip.new-i:Bio-booster}"
+     },
+     {
+      "label": "Skills",
+      "text": "{tip:Inspiring}, {tip:Nerves of Steel}"
+     },
+     {
+      "label": "Lasting injuries",
+      "text": "{tip:Personal Enmity (Macavity)}"
+     }
+    ]
+   },
+   {
+    "at": "2.1",
+    "foot": [
+     {
+      "label": "Wargear",
+      "text": "{tip:Mesh armour}, {tip:Bio-booster}"
+     },
+     {
+      "label": "Skills",
+      "text": "{tip:Inspiring}, {tip:Nerves of Steel}"
+     },
+     {
+      "label": "Lasting injuries",
+      "text": "{tip:Personal Enmity (Macavity)}"
+     }
+    ]
+   },
+   {
+    "at": "status",
+    "stats": {
+     "XP": "69"
+    }
+   }
+  ],
+  "ezekiel-crows": [
+   {
+    "at": "setup",
+    "name": "Ezekiel Crows",
+    "portrait": "images/fighters/ezekiel-crows.jpg",
+    "type": "Cawdor Firebrand (Champion, Pious)",
+    "cost": "130",
+    "stats": {
+     "M": "5\"",
+     "WS": "3+",
+     "BS": "3+",
+     "S": "3",
+     "T": "3",
+     "W": "2",
+     "I": "3",
+     "A": "2",
+     "Sv": "5+",
+     "Ld": "7",
+     "Cl": "7",
+     "Wil": "6",
+     "Int": "7",
+     "XP": "37"
+    },
+    "weapons": [
+     {
+      "name": "Autopistol",
+      "profile": [
+       "4\"",
+       "12\"",
+       "3",
+       "-",
+       "1"
+      ],
+      "traits": "{tip:Light}, {tip:Rapid Fire (1)}"
+     },
+     {
+      "name": "Cleaver",
+      "profile": [
+       "E",
+       "-",
+       "S",
+       "-1",
+       "2"
+      ],
+      "traits": "{tip:Melee}"
+     }
+    ],
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Bull Charge}, {tip:Inspiring}"
+     }
+    ]
+   },
+   {
+    "at": "1.2",
+    "stats": {
+     "XP": "41"
+    }
+   },
+   {
+    "at": "1-post",
+    "cost": "155",
+    "stats": {
+     "XP": "42"
+    },
+    "foot": [
+     {
+      "label": "Wargear",
+      "text": "{tip.new-i:Stimm-slug stash}"
+     },
+     {
+      "label": "Skills",
+      "text": "{tip:Bull Charge}, {tip:Inspiring}"
+     }
+    ]
+   },
+   {
+    "at": "2.1",
+    "foot": [
+     {
+      "label": "Wargear",
+      "text": "{tip:Stimm-slug stash}"
+     },
+     {
+      "label": "Skills",
+      "text": "{tip:Bull Charge}, {tip:Inspiring}"
+     }
+    ]
+   },
+   {
+    "at": "status",
+    "stats": {
+     "XP": "46"
+    }
+   }
+  ],
+  "elijah-emberchoir": [
+   {
+    "at": "setup",
+    "name": "Elijah Emberchoir",
+    "portrait": "images/fighters/elijah-emberchoir.jpg",
+    "type": "Redemptionist Deacon (Champion, Fanatic)",
+    "cost": "130",
+    "stats": {
+     "M": "5\"",
+     "WS": "3+",
+     "BS": "3+",
+     "S": "3",
+     "T": "3",
+     "W": "2",
+     "I": "3",
+     "A": "2",
+     "Sv": "5+",
+     "Ld": "7",
+     "Cl": "7",
+     "Wil": "8",
+     "Int": "6",
+     "XP": "37"
+    },
+    "weapons": [
+     {
+      "name": "Autopistol",
+      "profile": [
+       "4\"",
+       "12\"",
+       "3",
+       "-",
+       "1"
+      ],
+      "traits": "{tip:Light}, {tip:Rapid Fire (1)}"
+     },
+     {
+      "name": "Chainaxe",
+      "profile": [
+       "E",
+       "-",
+       "S",
+       "-1",
+       "1"
+      ],
+      "traits": "{tip:Melee}, {tip:Shred (5+)}"
+     }
+    ],
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Inspiring}, {tip:Rain of Blows}"
+     }
+    ]
+   },
+   {
+    "at": "1-post",
+    "cost": "165",
+    "stats": {
+     "XP": "38"
+    },
+    "weapons": [
+     {
+      "name": "Autopistol",
+      "profile": [
+       "4\"",
+       "12\"",
+       "3",
+       "-",
+       "1"
+      ],
+      "traits": "{tip:Light}, {tip:Rapid Fire (1)}"
+     },
+     {
+      "name": "Chainaxe/Exterminator",
+      "nameClass": "parent"
+     },
+     {
+      "class": "sub",
+      "name": "Chainaxe",
+      "profile": [
+       "E",
+       "-",
+       "S",
+       "-1",
+       "1"
+      ],
+      "traits": "{tip:Melee}, {tip:Shred (5+)}"
+     },
+     {
+      "class": "sub new",
+      "name": "Exterminator",
+      "profile": [
+       "T",
+       "-",
+       "4",
+       "-1",
+       "1"
+      ],
+      "traits": "{tip:Auxiliary}, {tip:Blaze (5+)}, {tip:Single Shot}, {tip:Template}"
+     }
+    ],
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Inspiring}, {tip:Rain of Blows}"
+     },
+     {
+      "label": "Lasting injuries",
+      "text": "{tip:Grievous Wound}"
+     }
+    ]
+   },
+   {
+    "at": "2.1",
+    "weapons": [
+     {
+      "name": "Autopistol",
+      "profile": [
+       "4\"",
+       "12\"",
+       "3",
+       "-",
+       "1"
+      ],
+      "traits": "{tip:Light}, {tip:Rapid Fire (1)}"
+     },
+     {
+      "name": "Chainaxe/Exterminator",
+      "nameClass": "parent"
+     },
+     {
+      "class": "sub",
+      "name": "Chainaxe",
+      "profile": [
+       "E",
+       "-",
+       "S",
+       "-1",
+       "1"
+      ],
+      "traits": "{tip:Melee}, {tip:Shred (5+)}"
+     },
+     {
+      "class": "sub",
+      "name": "Exterminator",
+      "profile": [
+       "T",
+       "-",
+       "4",
+       "-1",
+       "1"
+      ],
+      "traits": "{tip:Auxiliary}, {tip:Blaze (5+)}, {tip:Single Shot}, {tip:Template}"
+     }
+    ],
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Inspiring}, {tip:Rain of Blows}"
+     }
+    ]
+   },
+   {
+    "at": "status",
+    "stats": {
+     "XP": "39"
+    }
+   }
+  ],
+  "vermin-pyre": [
+   {
+    "at": "setup",
+    "name": "Vermin Pyre",
+    "portrait": "images/fighters/vermin-pyre.jpg",
+    "type": "Cawdor Brethren (Ganger, Pious, Specialist), Gunner",
+    "cost": "125",
+    "stats": {
+     "M": "5\"",
+     "WS": "4+",
+     "BS": "4+",
+     "S": "3",
+     "T": "3",
+     "W": "1",
+     "I": "3",
+     "A": "1",
+     "Sv": "6+",
+     "Ld": "6",
+     "Cl": "6",
+     "Wil": "6",
+     "Int": "6",
+     "XP": "13"
+    },
+    "weapons": [
+     {
+      "name": "Cawdor Polearm/Flamer",
+      "nameClass": "parent"
+     },
+     {
+      "class": "sub",
+      "name": "Polearm*",
+      "profile": [
+       "E",
+       "-",
+       "S+1",
+       "-",
+       "2"
+      ],
+      "traits": "{tip:Heavy}, {tip:Lance}, {tip:Melee}, {tip:Unwieldy}"
+     },
+     {
+      "class": "sub",
+      "name": "Flamer",
+      "profile": [
+       "T",
+       "-",
+       "4",
+       "-1",
+       "1"
+      ],
+      "traits": "{tip:Ammo (6+)}, {tip:Blaze (5)}, {tip:Template}"
+     }
+    ],
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Hip-shooting}"
+     }
+    ]
+   },
+   {
+    "at": "1-post",
+    "stats": {
+     "XP": "15"
+    }
+   },
+   {
+    "at": "status",
+    "stats": {
+     "XP": "18"
+    }
+   }
+  ],
+  "gutter-cantor": [
+   {
+    "at": "setup",
+    "name": "Gutter Cantor",
+    "portrait": "images/fighters/gutter-cantor.jpg",
+    "type": "Cawdor Brethren (Ganger, Pious, Specialist), Medic",
+    "cost": "70",
+    "stats": {
+     "M": "5\"",
+     "WS": "4+",
+     "BS": "4+",
+     "S": "3",
+     "T": "3",
+     "W": "1",
+     "I": "3",
+     "A": "1",
+     "Sv": "6+",
+     "Ld": "6",
+     "Cl": "6",
+     "Wil": "6",
+     "Int": "6",
+     "XP": "13"
+    },
+    "weapons": [
+     {
+      "name": "Cawdor Polearm/Autogun",
+      "nameClass": "parent"
+     },
+     {
+      "class": "sub",
+      "name": "Polearm*",
+      "profile": [
+       "E",
+       "-",
+       "S+1",
+       "-",
+       "2"
+      ],
+      "traits": "{tip:Heavy}, {tip:Lance}, {tip:Melee}, {tip:Unwieldy}"
+     },
+     {
+      "class": "sub",
+      "name": "Autogun",
+      "profile": [
+       "8\"",
+       "24\"",
+       "3",
+       "-",
+       "1"
+      ],
+      "traits": "{tip:Rapid Fire (1)}"
+     }
+    ],
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Medicate}"
+     }
+    ]
+   },
+   {
+    "at": "1.2",
+    "stats": {
+     "XP": "14"
+    }
+   },
+   {
+    "at": "1-post",
+    "stats": {
+     "XP": "16"
+    }
+   },
+   {
+    "at": "status",
+    "stats": {
+     "XP": "17"
+    }
+   }
+  ],
+  "blessed-filth": [
+   {
+    "at": "setup",
+    "name": "Blessed Filth",
+    "portrait": "images/fighters/blessed-filth.jpg",
+    "type": "Cawdor Brethren (Ganger, Pious, Specialist), Sniper",
+    "cost": "95",
+    "stats": {
+     "M": "5\"",
+     "WS": "4+",
+     "BS": "4+",
+     "S": "3",
+     "T": "3",
+     "W": "1",
+     "I": "3",
+     "A": "1",
+     "Sv": "6+",
+     "Ld": "6",
+     "Cl": "6",
+     "Wil": "6",
+     "Int": "6",
+     "XP": "13"
+    },
+    "weapons": [
+     {
+      "name": "Long rifle",
+      "profile": [
+       "24\"",
+       "48\"",
+       "4",
+       "-1",
+       "1"
+      ],
+      "traits": "{tip:Knockback (6+)}"
+     }
+    ],
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Precision Shot}"
+     }
+    ]
+   },
+   {
+    "at": "1-post",
+    "cost": "115",
+    "stats": {
+     "XP": "14"
+    },
+    "foot": [
+     {
+      "label": "Wargear",
+      "text": "{tip.new-i:Mono-sight (long rifle)}"
+     },
+     {
+      "label": "Skills",
+      "text": "{tip:Precision Shot}"
+     }
+    ]
+   },
+   {
+    "at": "2.1",
+    "foot": [
+     {
+      "label": "Wargear",
+      "text": "{tip:Mono-sight (long rifle)}"
+     },
+     {
+      "label": "Skills",
+      "text": "{tip:Precision Shot}"
+     }
+    ]
+   },
+   {
+    "at": "status",
+    "stats": {
+     "XP": "15"
+    }
+   }
+  ],
+  "ratsong": [
+   {
+    "at": "setup",
+    "name": "Ratsong",
+    "portrait": "images/fighters/ratsong.jpg",
+    "type": "Cawdor Bonepicker (Pious, Prospect)",
+    "cost": "25",
+    "stats": {
+     "M": "6\"",
+     "WS": "5+",
+     "BS": "5+",
+     "S": "3",
+     "T": "3",
+     "W": "1",
+     "I": "4",
+     "A": "1",
+     "Sv": "6+",
+     "Ld": "5",
+     "Cl": "5",
+     "Wil": "5",
+     "Int": "5",
+     "XP": "1"
+    },
+    "weapons": [
+     {
+      "name": "Stub gun",
+      "profile": [
+       "6\"",
+       "12\"",
+       "3",
+       "-",
+       "1"
+      ],
+      "traits": "{tip:Light}"
+     }
+    ]
+   },
+   {
+    "at": "1.2",
+    "stats": {
+     "XP": "2"
+    }
+   },
+   {
+    "at": "1-post",
+    "cost": "30",
+    "stats": {
+     "Cl": "6",
+     "XP": "5"
+    },
+    "statClass": {
+     "Cl": "adv"
+    }
+   },
+   {
+    "at": "status",
+    "stats": {
+     "BS": "6+",
+     "XP": "7<i aria-label=\"new XP line\" class=\"up\">▲</i>"
+    },
+    "statClass": {
+     "BS": "inj",
+     "Cl": "adv",
+     "XP": "lvl"
+    },
+    "typeExtra": "<span class=\"benched\">In recovery</span><span class=\"benched lvl\">Advancement due</span>",
+    "foot": [
+     {
+      "label": "Lasting injuries",
+      "text": "{tip:Eye Injury}"
+     }
+    ]
+   }
+  ],
+  "deus-and-amen": [
+   {
+    "at": "setup",
+    "name": "Deus and Amen",
+    "portrait": "images/fighters/deus-and-amen.jpg",
+    "type": "Cawdor Stig-Shambler (Brute, Loner, Pious)",
+    "cost": "250",
+    "stats": {
+     "M": "4\"",
+     "WS": "4+",
+     "BS": "4+",
+     "S": "5",
+     "T": "4",
+     "W": "4",
+     "I": "3",
+     "A": "2",
+     "Sv": "6+",
+     "Ld": "6",
+     "Cl": "6",
+     "Wil": "6",
+     "Int": "5",
+     "XP": "25"
+    },
+    "weapons": [
+     {
+      "name": "Heavy club",
+      "profile": [
+       "E",
+       "-",
+       "S+2",
+       "-",
+       "2"
+      ],
+      "traits": "{tip:Concussive (5+)}, {tip:Heavy}, {tip:Melee}, {tip:Unwieldy}"
+     },
+     {
+      "name": "Twin-linked heavy stubber",
+      "profile": [
+       "20\"",
+       "40\"",
+       "4",
+       "-1",
+       "1"
+      ],
+      "traits": "{tip:Heavy}, {tip:Rapid Fire (2)}, {tip:Twin-linked}"
+     }
+    ],
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Bulging Biceps}, {tip:Juggernaut}"
+     }
+    ]
+   },
+   {
+    "at": "1.2",
+    "stats": {
+     "XP": "28"
+    }
+   },
+   {
+    "at": "1-post",
+    "cost": "265",
+    "stats": {
+     "BS": "3+",
+     "XP": "31"
+    },
+    "statClass": {
+     "BS": "adv"
+    }
+   },
+   {
+    "at": "status",
+    "stats": {
+     "XP": "35"
+    }
+   }
+  ]
+ }
+}

@@ -2,6 +2,7 @@
 //   {@fighter-id|Text}  -> fighter name button that opens their card
 //   {p:Text} / {t:Text} -> text in the Psalm (orange) / Theatre (purple) colour
 //   {tip:Rule name}     -> dotted-underline term with a tooltip from data/rules.json
+//   {tip.new-i:Name}    -> the same with extra classes (new-i = new this cycle)
 // Anything else is passed through as HTML.
 
 export const esc = s => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -19,10 +20,10 @@ export function tip(key, extraClass = '', inner = null) {
 
 export function md(s) {
   if (s == null) return '';
-  return String(s).replace(/\{@([\w-]+)\|([^{}]*)\}|\{([pt]):([^{}]*)\}|\{tip:([^{}]*)\}/g, (m, id, text, side, gtext, key) => {
+  return String(s).replace(/\{@([\w-]+)\|([^{}]*)\}|\{([pt]):([^{}]*)\}|\{tip((?:\.[\w-]+)*):([^{}]*)\}/g, (m, id, text, side, gtext, mods, key) => {
     if (id) return `<button type="button" class="fname" popovertarget="fc-${id}">${text}</button>`;
     if (side) return `<span class="${side}">${gtext}</span>`;
-    return tip(key);
+    return tip(key, mods ? mods.slice(1).split('.').join(' ') : '');
   });
 }
 

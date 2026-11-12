@@ -1,0 +1,16 @@
+{
+ "name": "Ash and Shadow",
+ "gangs": [
+  "the-carrion-psalm",
+  "the-midnight-theatre"
+ ],
+ "timeline": [
+  "setup",
+  "1.1",
+  "1.2",
+  "1-post",
+  "2.1",
+  "status",
+  "2.2"
+ ]
+}

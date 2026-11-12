@@ -73,6 +73,7 @@
  "Suppressing Fire": "Play after a friendly Fighter has resolved a ranged attack. The target is Suppressed, whether the attack hit or not. Skills cannot prevent it.",
  "Tallow Wick (Settlement)": "Settlement. Boons: Income: 15 credits. Recruit: instead of income, recruit a Ganger for 25 credits less (minimum 0). Battlefield effect: None",
  "Template": "Place the teardrop template with the narrow end touching the firing model. Any model even partially under it is hit automatically; no Hit roll is needed.",
+ "Terrible Truths": "Wyrd Power (Single): choose an enemy Fighter within 6\" and Line of Sight. They must make a Willpower check; if failed, they gain the Insanity Condition.",
  "Thunderous Charge": "Play when a friendly Fighter declares a Charge, before rolling. Roll two D6 instead of one for the charge distance and choose which to add to their Movement.",
  "Toxin (3+)": "Against a Fighter, instead of comparing Strength to Toughness, the target is wounded on a result of X+. Against a Vehicle, it only wounds on a natural 6.",
  "Turbine 10.2 (Generatorium)": "Generatorium. Boons: Income: 15 credits. Reputation: +1 Reputation while held. Battlefield effect: Power Glow: the Visibility (X\") rule has no effect.",

@@ -83,8 +83,9 @@ def inline(t):
             out.append('{@' + fid + '|' + c.get_text() + '}')
         elif c.name == 'span' and cls(c) in (['p'], ['t']) and not c.find(True):
             out.append('{' + cls(c)[0] + ':' + c.get_text() + '}')
-        elif c.name == 'span' and cls(c) == ['sk'] and c.get('data-tip') is not None and not c.find(True) and c.get('tabindex') == '0' and len(c.attrs) == 3:
-            out.append('{tip:' + tip_key(c.get_text(), c['data-tip']) + '}')
+        elif c.name == 'span' and 'sk' in cls(c) and cls(c)[-1] == 'sk' and c.get('data-tip') is not None and not c.find(True) and c.get('tabindex') == '0' and len(c.attrs) == 3:
+            mod = ''.join('.' + x for x in cls(c)[:-1])
+            out.append('{tip' + mod + ':' + tip_key(c.get_text(), c['data-tip']) + '}')
         else:
             out.append(str(c))
     return ''.join(out)

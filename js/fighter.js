@@ -4,12 +4,12 @@ import { esc, attr, md, cls, join } from './lib.js';
 const STAT_ORDER = ['M', 'WS', 'BS', 'S', 'T', 'W', 'I', 'A', 'Sv', 'Ld', 'Cl', 'Wil', 'Int', 'XP'];
 const STAT_GROUP = { Ld: 'm', Cl: 'm', Wil: 'm', Int: 'm', XP: 'x' };
 
-export function fighterCard(f, extraClass = '') {
+export function fighterCard(f, extraClass = '', opts = {}) {
   const keys = Object.keys(f.stats);
   const stats = join(keys, k => {
     const c = cls('c', STAT_GROUP[k], f.statClass?.[k]);
     const inner = `<span>${esc(k)}</span><b>${f.stats[k]}</b>`;
-    if (k === 'XP' && f.xpPop) return `<button${f.xpPopType ? ' type="button"' : ''} class="${c} xp-btn" popovertarget="xp-${f.xpPop}" aria-label="${attr(f.name)} XP breakdown">${inner}</button>`;
+    if (k === 'XP' && opts.xpButton) return `<button type="button" class="${c} xp-btn" popovertarget="xp-${opts.id}" aria-label="${attr(f.name)} XP breakdown">${inner}</button>`;
     return `<div class="${c}">${inner}</div>`;
   });
   const weapons = f.weapons ? `\n  <div class="weapons"><div class="wp head"><div class="wn">Weapon</div><div class="wv">SR</div><div class="wv">LR</div><div class="wv">Str</div><div class="wv">AP</div><div class="wv">L</div></div>${join(f.weapons, w =>

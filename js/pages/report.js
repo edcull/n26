@@ -26,7 +26,7 @@ function node(b, d) {
   if (b.sheet) return sheet(b);
   if (b.facts) return `<dl class="facts">${join(b.facts, ([k, v]) => `<div><dt>${md(k)}</dt><dd>${md(v)}</dd></div>`)}</dl>`;
   if (b.assets) return assets(b.assets);
-  if (b.fighters) return `<div class="fighters">${join(b.fighters, r => fighterCard(d.fighters[r.id], r.class))}</div>`;
+  if (b.fighters) return `<div class="fighters">${join(b.fighters, r => fighterCard(d.fighters[r.id], r.class, { id: r.id, xpButton: d.xpButtons }))}</div>`;
   if (b.gangHead) {
     const g = b.gangHead;
     return `<div class="gang-head">\n<img class="portrait" src="${attr(g.portrait)}" alt="${attr(g.alt)}">\n<div><${g.tag}>${esc(g.name)}</${g.tag}><p class="house">${esc(g.house)}</p></div>\n</div>`;
