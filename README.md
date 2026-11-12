@@ -109,6 +109,26 @@ Each fighter is stored once, under their id, as a list of entries along the camp
 - **`side`:** `p` or `t`. Together with `face`, it picks the round portrait.
 - **`resultClass`:** colours the result. `ammo` is yellow and `sup` is suppressed.
 
+### Callout style
+
+- **Row labels** give the number actually needed, then what changed it:
+  - `To Hit (3+, +1 aim)`
+  - `Save (5+, +1 cover)`
+  - `Save (none, AP -1)` when no save is possible; leave `dice` empty then
+- **Test labels:**
+  - `Cool 7`, `Willpower 9`, `Strength 3`
+  - With the fighter's name when a callout covers several fighters: `Mordecai: Leadership 8`
+- **Results:**
+  - Count words when counting, otherwise `Hit` / `Miss` / `Wound`: `Two hits`, `One wound`, `Hit`, `Miss`
+  - `Serious injury`, `Out of Action`, `Out of Ammo`
+  - Conditions after a comma: `One wound, suppressed`, `Saved, suppressed`
+  - Narrative text says "seriously injured"
+- **`resultClass`** sets the colour:
+  - leave it out for red (wounds, injuries, bad outcomes)
+  - `sup` for yellow (suppressed and other conditions)
+  - `ammo` for neutral (hits, misses, saves, passes)
+- **Notes** start with `Note:`. Initiative lines in fights are written `Initiative 3 +2 charge bonus`.
+
 ### Maps
 
 A battle's `board` holds named runs of SVG elements that every map shares, such as the terrain, labels and scale. Each map then lists, in drawing order:

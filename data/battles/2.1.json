@@ -779,7 +779,7 @@
           "h6": "Cleaver"
          },
          {
-          "label": "To Hit (3+, -1 out of line of sight)",
+          "label": "To Hit (4+, -1 out of line of sight)",
           "dice": "3 2 6",
           "result": "One hit",
           "resultClass": "ammo"
@@ -790,14 +790,14 @@
           "result": "One wound"
          },
          {
-          "label": "Save (6+ AP -1)",
+          "label": "Save (none, AP -1)",
           "dice": "",
           "result": "No save"
          },
          {
           "label": "Injury",
           "dice": "fw si",
-          "result": "Serious Injury"
+          "result": "Serious injury"
          }
         ]
        }
@@ -861,16 +861,17 @@
          {
           "label": "Strength 3",
           "dice": "5",
-          "result": "One wound, suppressed"
+          "result": "One wound, suppressed",
+          "resultClass": "sup"
          },
          {
           "label": "Ammo (5+)",
           "dice": "4",
-          "result": "Out of ammo",
+          "result": "Out of Ammo",
           "resultClass": "ammo"
          },
          {
-          "note": "Note: the graviton pulse stays in place."
+          "note": "Note: The graviton pulse stays in place."
          }
         ]
        }
@@ -882,13 +883,13 @@
         "side": "p",
         "face": "mordecai",
         "name": "Mordecai - Autopistol",
-        "result": "Misses",
+        "result": "Miss",
         "resultClass": "ammo",
         "rows": [
          {
           "label": "To Hit (3+)",
           "dice": "1 f1",
-          "result": "Misses",
+          "result": "Miss",
           "resultClass": "ammo"
          }
         ]
@@ -933,7 +934,7 @@
           "result": "One wound"
          },
          {
-          "label": "Save (5+ +2 cover)",
+          "label": "Save (3+, +2 cover)",
           "dice": "4",
           "result": "Saved, suppressed",
           "resultClass": "sup"
@@ -953,9 +954,11 @@
          {
           "label": "Willpower 6",
           "dice": "6 2",
-          "result": "Still subject to Insanity"
+          "result": "Still subject to Insanity",
+          "resultClass": "sup"
          }
-        ]
+        ],
+        "resultClass": "sup"
        }
       },
       "{@mistoffelees|Mistoffelees} climbs the wall of the vats to get a sight of {@ezekiel-crows|Ezekiel}, and reaches for the Firebrand's mind too.",
@@ -1005,11 +1008,11 @@
          {
           "label": "To Wound (3+)",
           "dice": "4",
-          "result": "Wounds"
+          "result": "Wound"
          },
          {
-          "label": "Save (6+ AP -1)",
-          "dice": "1",
+          "label": "Save (none, AP -1)",
+          "dice": "",
           "result": "One wound"
          },
          {
@@ -1020,7 +1023,7 @@
          {
           "label": "Ammo (6+)",
           "dice": "4",
-          "result": "Out of ammo",
+          "result": "Out of Ammo",
           "resultClass": "ammo"
          }
         ]
@@ -1033,13 +1036,13 @@
         "side": "t",
         "face": "wit",
         "name": "Wit - Stub Gun",
-        "result": "Misses",
+        "result": "Miss",
         "resultClass": "ammo",
         "rows": [
          {
           "label": "To Hit (4+)",
           "dice": "2",
-          "result": "Misses",
+          "result": "Miss",
           "resultClass": "ammo"
          }
         ]
@@ -1334,7 +1337,7 @@
          {
           "label": "To Hit (5+)",
           "dice": "5",
-          "result": "Hits",
+          "result": "Hit",
           "resultClass": "ammo"
          },
          {
@@ -1353,13 +1356,13 @@
         "side": "p",
         "face": "ezekiel",
         "name": "Ezekiel Crows - Autopistol",
-        "result": "Misses",
+        "result": "Miss",
         "resultClass": "ammo",
         "rows": [
          {
           "label": "To Hit (3+)",
           "dice": "1 f1",
-          "result": "Misses",
+          "result": "Miss",
           "resultClass": "ammo"
          }
         ]
@@ -1380,7 +1383,7 @@
          {
           "label": "To Hit (4+)",
           "dice": "1 f3",
-          "result": "Misses",
+          "result": "Miss",
           "resultClass": "ammo"
          },
          {
@@ -1389,7 +1392,7 @@
          {
           "label": "To Hit (4+)",
           "dice": "5 f1a",
-          "result": "Hits, out of ammo",
+          "result": "Hit, Out of Ammo",
           "resultClass": "ammo"
          },
          {
@@ -1431,7 +1434,7 @@
          {
           "label": "To Hit (3+)",
           "dice": "5 f1a",
-          "result": "Hits, out of ammo",
+          "result": "Hit, Out of Ammo",
           "resultClass": "ammo"
          },
          {
@@ -1465,14 +1468,14 @@
           "result": "Four wounds"
          },
          {
-          "label": "Save (6+ AP -1)",
+          "label": "Save (none, AP -1)",
           "dice": "",
           "result": "No save"
          },
          {
           "label": "Injury",
           "dice": "fw fw fw si",
-          "result": "Serious Injury"
+          "result": "Serious injury"
          },
          {
           "note": "Note: Bulging Biceps to move at Initiative and fire a heavy weapon. Twin-linked to re-roll the Rapid Fire dice."
@@ -1488,13 +1491,13 @@
         "side": "t",
         "face": "wit",
         "name": "Wit - Stub Gun",
-        "result": "Misses",
+        "result": "Miss",
         "resultClass": "ammo",
         "rows": [
          {
           "label": "To Hit (4+)",
           "dice": "1",
-          "result": "Misses",
+          "result": "Miss",
           "resultClass": "ammo"
          }
         ]
@@ -1513,9 +1516,11 @@
          {
           "label": "Willpower 6",
           "dice": "5 6",
-          "result": "Still subject to Insanity"
+          "result": "Still subject to Insanity",
+          "resultClass": "sup"
          }
-        ]
+        ],
+        "resultClass": "sup"
        }
       },
       "It doesn't work. Below him, {@ratsong|Ratsong} stays on the objective."
@@ -1830,7 +1835,7 @@
          {
           "label": "To Hit (3+)",
           "dice": "3 f1",
-          "result": "Hits",
+          "result": "Hit",
           "resultClass": "ammo"
          },
          {
@@ -1842,7 +1847,7 @@
          {
           "label": "Ammo (6+)",
           "dice": "1",
-          "result": "Out of ammo",
+          "result": "Out of Ammo",
           "resultClass": "ammo"
          }
         ]
@@ -1995,9 +2000,11 @@
          {
           "label": "Willpower 6",
           "dice": "5 4",
-          "result": "Still subject to Insanity"
+          "result": "Still subject to Insanity",
+          "resultClass": "sup"
          }
-        ]
+        ],
+        "resultClass": "sup"
        }
       },
       "{@wit|Wit} fires at {@ezekiel-crows|Ezekiel}, then runs.",
@@ -2006,13 +2013,13 @@
         "side": "t",
         "face": "wit",
         "name": "Wit - Stub Gun",
-        "result": "Misses",
+        "result": "Miss",
         "resultClass": "ammo",
         "rows": [
          {
           "label": "To Hit (4+)",
           "dice": "1",
-          "result": "Misses",
+          "result": "Miss",
           "resultClass": "ammo"
          }
         ]
@@ -2024,13 +2031,13 @@
         "side": "p",
         "face": "mordecai",
         "name": "Mordecai - Autopistol",
-        "result": "Misses, out of ammo",
+        "result": "Miss, Out of Ammo",
         "resultClass": "ammo",
         "rows": [
          {
           "label": "To Hit (3+)",
           "dice": "2 f1a",
-          "result": "Misses, out of ammo",
+          "result": "Miss, Out of Ammo",
           "resultClass": "ammo"
          }
         ]
@@ -2043,13 +2050,13 @@
         "side": "t",
         "face": "jellylorum",
         "name": "Jellylorum - Lasgun",
-        "result": "Misses",
+        "result": "Miss",
         "resultClass": "ammo",
         "rows": [
          {
           "label": "To Hit (4+)",
           "dice": "1",
-          "result": "Misses",
+          "result": "Miss",
           "resultClass": "ammo"
          }
         ]
@@ -2064,7 +2071,7 @@
         "result": "Mungojerrie still seriously injured",
         "rows": [
          {
-          "label": "To Hit (3+, -1 seriously injured)",
+          "label": "To Hit (4+, -1 seriously injured)",
           "dice": "5 f1 f3",
           "result": "Four hits",
           "resultClass": "ammo"
@@ -2389,7 +2396,7 @@
       "resultClass": "ammo",
       "rows": [
        {
-        "label": "Deuteronomy (Leadership 8)",
+        "label": "Deuteronomy: Leadership 8",
         "dice": "1 4",
         "result": "Passes",
         "resultClass": "ammo"
@@ -2415,19 +2422,19 @@
         "side": "t",
         "face": "rumpleteaser",
         "name": "Rumpleteaser - Plasma Gun",
-        "result": "Misses, out of ammo",
+        "result": "Miss, Out of Ammo",
         "resultClass": "ammo",
         "rows": [
          {
           "label": "To Hit (3+)",
           "dice": "1 f3",
-          "result": "Misses",
+          "result": "Miss",
           "resultClass": "ammo"
          },
          {
           "label": "Ammo (6+)",
           "dice": "2",
-          "result": "Out of ammo",
+          "result": "Out of Ammo",
           "resultClass": "ammo"
          }
         ]
@@ -2488,7 +2495,7 @@
          {
           "label": "To Hit (3+)",
           "dice": "4",
-          "result": "Hits",
+          "result": "Hit",
           "resultClass": "ammo"
          },
          {
@@ -2498,7 +2505,7 @@
           "resultClass": "sup"
          },
          {
-          "note": "Note: the cleaver is Lethality 2."
+          "note": "Note: The cleaver is Lethality 2."
          }
         ]
        }
@@ -2542,13 +2549,13 @@
         "side": "t",
         "face": "jellylorum",
         "name": "Jellylorum - Lasgun",
-        "result": "Misses",
+        "result": "Miss",
         "resultClass": "ammo",
         "rows": [
          {
           "label": "To Hit (4+)",
           "dice": "1",
-          "result": "Misses",
+          "result": "Miss",
           "resultClass": "ammo"
          }
         ]
@@ -2580,7 +2587,7 @@
           "result": "Two wounds"
          },
          {
-          "label": "Save (6+ AP -1)",
+          "label": "Save (none, AP -1)",
           "dice": "",
           "result": "No save"
          },
@@ -2592,11 +2599,11 @@
          {
           "label": "Ammo (5+)",
           "dice": "4",
-          "result": "Out of ammo",
+          "result": "Out of Ammo",
           "resultClass": "ammo"
          },
          {
-          "note": "Jellylorum suffers a hand injury."
+          "note": "Note: Jellylorum suffers a hand injury."
          }
         ]
        }
@@ -2614,7 +2621,7 @@
           "note": "Initiative 5 +2 charge bonus"
          },
          {
-          "label": "To Hit (3+, -1 out of line of sight)",
+          "label": "To Hit (4+, -1 out of line of sight)",
           "dice": "4 5 1 5 3 3",
           "result": "Three hits",
           "resultClass": "ammo"
@@ -2625,7 +2632,7 @@
           "result": "One wound"
          },
          {
-          "label": "Save (6+ AP -3)",
+          "label": "Save (none, AP -3)",
           "dice": "",
           "result": "No save"
          },
@@ -2635,7 +2642,7 @@
           "result": "Out of Action"
          },
          {
-          "note": "Ratsong suffers an eye injury."
+          "note": "Note: Ratsong suffers an eye injury."
          }
         ],
         "n": 4
@@ -2653,15 +2660,17 @@
          {
           "label": "Deus and Amen: Strength 5",
           "dice": "3",
-          "result": "8"
+          "result": "8",
+          "resultClass": "ammo"
          },
          {
           "label": "Mungojerrie: Strength 3",
           "dice": "5",
-          "result": "8"
+          "result": "8",
+          "resultClass": "ammo"
          },
          {
-          "note": "Mungojerrie goes Out of Action with a critical injury."
+          "note": "Note: Mungojerrie goes Out of Action with a critical injury."
          }
         ]
        }
@@ -2691,13 +2700,13 @@
         "side": "t",
         "face": "deuteronomy",
         "name": "Deuteronomy - Flechette Pistol",
-        "result": "Misses",
+        "result": "Miss",
         "resultClass": "ammo",
         "rows": [
          {
           "label": "To Hit (3+)",
           "dice": "2 f2",
-          "result": "Misses",
+          "result": "Miss",
           "resultClass": "ammo"
          }
         ]
@@ -2724,13 +2733,13 @@
           "result": "One wound"
          },
          {
-          "label": "Save (5+ +2 cover)",
+          "label": "Save (3+, +2 cover)",
           "dice": "6",
           "result": "Saved",
           "resultClass": "ammo"
          },
          {
-          "label": "Nerves of Steel (Cool 8)",
+          "label": "Nerves of Steel: Cool 8",
           "dice": "6 3",
           "result": "Fails, suppressed",
           "resultClass": "sup"
@@ -2752,7 +2761,7 @@
          {
           "label": "To Hit (3+)",
           "dice": "5 f1a",
-          "result": "One hit, out of ammo",
+          "result": "One hit, Out of Ammo",
           "resultClass": "ammo"
          },
          {
@@ -2778,7 +2787,7 @@
           "note": "Initiative 3 +2 charge bonus"
          },
          {
-          "label": "To Hit (4+, +1 assist)",
+          "label": "To Hit (3+, +1 assist)",
           "dice": "6 4",
           "result": "Two hits",
           "resultClass": "ammo"
@@ -2789,7 +2798,7 @@
           "result": "One wound"
          },
          {
-          "label": "Save (5+ AP -1)",
+          "label": "Save (6+, AP -1)",
           "dice": "6",
           "result": "Saved",
           "resultClass": "ammo"
@@ -2803,16 +2812,16 @@
         "side": "p",
         "face": "ezekiel",
         "name": "Ezekiel Crows - Reaction",
-        "result": "Misses",
+        "result": "Miss",
         "resultClass": "ammo",
         "rows": [
          {
           "note": "Initiative 3"
          },
          {
-          "label": "To Hit (3+, -1 interference)",
+          "label": "To Hit (4+, -1 interference)",
           "dice": "1",
-          "result": "Misses",
+          "result": "Miss",
           "resultClass": "ammo"
          }
         ]
@@ -2825,13 +2834,13 @@
         "side": "p",
         "face": "filth",
         "name": "Blessed Filth - Long Rifle",
-        "result": "Misses",
+        "result": "Miss",
         "resultClass": "ammo",
         "rows": [
          {
           "label": "To Hit (4+)",
           "dice": "1",
-          "result": "Misses",
+          "result": "Miss",
           "resultClass": "ammo"
          }
         ]
@@ -2848,9 +2857,11 @@
          {
           "label": "Willpower 6",
           "dice": "6 4",
-          "result": "Still subject to Insanity"
+          "result": "Still subject to Insanity",
+          "resultClass": "sup"
          }
-        ]
+        ],
+        "resultClass": "sup"
        }
       },
       "{@mordecai|Mordecai} charges {@mistoffelees|Mistoffelees}.",
@@ -2877,7 +2888,7 @@
         "side": "t",
         "face": "mistoffelees",
         "name": "Mistoffelees - Reaction: Stub Gun",
-        "result": "Misses",
+        "result": "Miss",
         "resultClass": "ammo",
         "rows": [
          {
@@ -2886,7 +2897,7 @@
          {
           "label": "To Hit (5+)",
           "dice": "1",
-          "result": "Misses",
+          "result": "Miss",
           "resultClass": "ammo"
          }
         ]
@@ -2915,14 +2926,14 @@
           "result": "One wound with Shred"
          },
          {
-          "label": "Save (6+ AP -1)",
+          "label": "Save (none, AP -1)",
           "dice": "",
           "result": "No save"
          },
          {
           "label": "Injury",
           "dice": "fw si si",
-          "result": "Serious Injury"
+          "result": "Serious injury"
          },
          {
           "note": "Note: Lethality 2 with Shred."
@@ -2937,13 +2948,13 @@
         "side": "t",
         "face": "wit",
         "name": "Wit - Stub Gun",
-        "result": "Misses",
+        "result": "Miss",
         "resultClass": "ammo",
         "rows": [
          {
           "label": "To Hit (4+)",
           "dice": "2",
-          "result": "Misses",
+          "result": "Miss",
           "resultClass": "ammo"
          }
         ]
@@ -3265,7 +3276,7 @@
       "resultClass": "ammo",
       "rows": [
        {
-        "label": "Mordecai (Leadership 8)",
+        "label": "Mordecai: Leadership 8",
         "dice": "2 5",
         "result": "Passes",
         "resultClass": "ammo"
@@ -3279,12 +3290,12 @@
       "result": "The Theatre bottle, Wit flees",
       "rows": [
        {
-        "label": "Deuteronomy (Leadership 8)",
+        "label": "Deuteronomy: Leadership 8",
         "dice": "5 4",
         "result": "Bottle!"
        },
        {
-        "note": "Wit flees."
+        "note": "Note: Wit flees."
        }
       ]
      }

@@ -457,13 +457,13 @@
         "side": "p",
         "face": "deus",
         "name": "Deus and Amen - Twin-linked Heavy Stubber",
-        "result": "Misses",
+        "result": "Miss",
         "resultClass": "ammo",
         "rows": [
          {
           "label": "To Hit (4+)",
           "dice": "2 f1 f2",
-          "result": "Misses",
+          "result": "Miss",
           "resultClass": "ammo"
          },
          {
@@ -485,18 +485,18 @@
          {
           "label": "To Hit (4+)",
           "dice": "5",
-          "result": "Hits",
+          "result": "Hit",
           "resultClass": "ammo"
          },
          {
           "label": "To Wound (3+)",
           "dice": "3",
-          "result": "Wounds"
+          "result": "Wound"
          },
          {
-          "label": "Save (5+ +1 cover)",
+          "label": "Save (4+, +1 cover)",
           "dice": "6",
-          "result": "Saved, Suppressed",
+          "result": "Saved, suppressed",
           "resultClass": "sup"
          }
         ]
@@ -537,23 +537,23 @@
          {
           "label": "To Hit (4+)",
           "dice": "5",
-          "result": "Hits",
+          "result": "Hit",
           "resultClass": "ammo"
          },
          {
           "label": "To Wound (4+)",
           "dice": "6",
-          "result": "Wounds"
+          "result": "Wound"
          },
          {
-          "label": "Save (6+ +1 cover)",
+          "label": "Save (5+, +1 cover)",
           "dice": "2",
-          "result": "Takes one wound"
+          "result": "One wound"
          },
          {
           "label": "Injury",
           "dice": "si",
-          "result": "Seriously Injured"
+          "result": "Serious injury"
          }
         ]
        }
@@ -571,7 +571,7 @@
          {
           "label": "To Hit (4+)",
           "dice": "2 f1",
-          "result": "Missed",
+          "result": "Miss",
           "resultClass": "ammo"
          },
          {
@@ -854,14 +854,14 @@
           "result": "One wound"
          },
          {
-          "label": "Save (5+ +1 cover AP -2)",
+          "label": "Save (6+, +1 cover, AP -2)",
           "dice": "5",
           "result": "Two wounds"
          },
          {
           "label": "Injury",
           "dice": "si si",
-          "result": "Seriously Injured"
+          "result": "Serious injury"
          },
          {
           "label": "Ammo (6+)",
@@ -880,19 +880,19 @@
         "resultClass": "sup",
         "rows": [
          {
-          "label": "Mordecai (Cool 8)",
+          "label": "Mordecai: Cool 8",
           "dice": "3 4",
           "result": "Passes",
           "resultClass": "ammo"
          },
          {
-          "label": "Elijah (Cool 7)",
+          "label": "Elijah: Cool 7",
           "dice": "4 6",
           "result": "Suppressed",
           "resultClass": "sup"
          },
          {
-          "label": "Gutter Cantor (Cool 6)",
+          "label": "Gutter Cantor: Cool 6",
           "dice": "2 6",
           "result": "Suppressed",
           "resultClass": "sup"
@@ -909,13 +909,13 @@
         "side": "p",
         "face": "deus",
         "name": "Deus and Amen - Twin-linked Heavy Stubber",
-        "result": "Misses",
+        "result": "Miss",
         "resultClass": "ammo",
         "rows": [
          {
           "label": "To Hit (4+)",
           "dice": "3 f2 f2",
-          "result": "Misses",
+          "result": "Miss",
           "resultClass": "ammo"
          },
          {
@@ -943,13 +943,13 @@
           "resultClass": "ammo"
          },
          {
-          "label": "To Wound (3+ Toxin)",
+          "label": "To Wound (3+, Toxin)",
           "dice": "2",
           "result": "Fails to wound",
           "resultClass": "ammo"
          },
          {
-          "label": "Nerves of Steel (Cool 8)",
+          "label": "Nerves of Steel: Cool 8",
           "dice": "2 5",
           "result": "Not suppressed",
           "resultClass": "ammo"
@@ -960,7 +960,7 @@
          {
           "label": "To Hit (4+)",
           "dice": "2 f2",
-          "result": "Misses",
+          "result": "Miss",
           "resultClass": "ammo"
          }
         ]
@@ -972,13 +972,13 @@
         "side": "p",
         "face": "elijah",
         "name": "Elijah Emberchoir - Charge",
-        "result": "1\" short!",
+        "result": "1\" short",
         "resultClass": "ammo",
         "rows": [
          {
           "label": "Charge move (3+)",
           "dice": "2",
-          "result": "1\" short!",
+          "result": "1\" short",
           "resultClass": "ammo"
          },
          {
@@ -1005,12 +1005,12 @@
          {
           "label": "To Wound (3+)",
           "dice": "6",
-          "result": "Wounds"
+          "result": "Wound"
          },
          {
-          "label": "Save (5+ AP -1)",
+          "label": "Save (6+, AP -1)",
           "dice": "2",
-          "result": "Takes one wound and Suppressed",
+          "result": "One wound, suppressed",
           "resultClass": "sup"
          }
         ]
@@ -1049,18 +1049,18 @@
          {
           "label": "To Hit (4+)",
           "dice": "5",
-          "result": "Hits",
+          "result": "Hit",
           "resultClass": "ammo"
          },
          {
           "label": "To Wound (4+)",
           "dice": "4",
-          "result": "Wounds"
+          "result": "Wound"
          },
          {
           "label": "Save (5+)",
           "dice": "6",
-          "result": "Saved, Suppressed",
+          "result": "Saved, suppressed",
           "resultClass": "sup"
          }
         ]
@@ -1072,13 +1072,13 @@
         "side": "p",
         "face": "ratsong",
         "name": "Ratsong - Stub Gun",
-        "result": "Misses",
+        "result": "Miss",
         "resultClass": "ammo",
         "rows": [
          {
           "label": "To Hit (5+)",
           "dice": "3",
-          "result": "Misses",
+          "result": "Miss",
           "resultClass": "ammo"
          }
         ]
@@ -1120,12 +1120,12 @@
           "resultClass": "ammo"
          },
          {
-          "label": "To Wound (3+ Toxin)",
+          "label": "To Wound (3+, Toxin)",
           "dice": "4 4 6",
           "result": "Three wounds"
          },
          {
-          "label": "Save (5+ AP -1)",
+          "label": "Save (6+, AP -1)",
           "dice": "1 2 6",
           "result": "1 saved",
           "resultClass": "ammo"
@@ -1133,7 +1133,7 @@
          {
           "label": "Injury",
           "dice": "fw si",
-          "result": "Seriously Injured"
+          "result": "Serious injury"
          },
          {
           "note": "Note: Battlefield effect increases the AP of Toxin weapons by 1."
@@ -1152,7 +1152,7 @@
          {
           "label": "Recovery",
           "dice": "si si ooa",
-          "result": "Still Seriously Injured"
+          "result": "Still seriously injured"
          },
          {
           "note": "Note: +1 die from the Tend Wounds action, +1 die from Ratsong assisting."
@@ -1197,17 +1197,17 @@
          {
           "label": "To Wound (4+)",
           "dice": "5",
-          "result": "Wounds"
+          "result": "Wound"
          },
          {
           "label": "Save (6+)",
           "dice": "1",
-          "result": "Takes one wound"
+          "result": "One wound"
          },
          {
           "label": "Injury",
           "dice": "si",
-          "result": "Serious Injury"
+          "result": "Serious injury"
          }
         ]
        }
@@ -1454,12 +1454,12 @@
       "result": "The Psalm bottle, Blessed Filth flees",
       "rows": [
        {
-        "label": "Mordecai (Leadership 8)",
+        "label": "Mordecai: Leadership 8",
         "dice": "5 4",
         "result": "Bottle!"
        },
        {
-        "note": "Blessed Filth flees. He later recovers and does not succumb to his wounds."
+        "note": "Note: Blessed Filth flees. He later recovers and does not succumb to his wounds."
        }
       ]
      }
@@ -1482,13 +1482,13 @@
         "side": "p",
         "face": "deus",
         "name": "Deus and Amen - Twin-linked Heavy Stubber",
-        "result": "Misses",
+        "result": "Miss",
         "resultClass": "ammo",
         "rows": [
          {
           "label": "To Hit (4+)",
           "dice": "3 f2 f3",
-          "result": "Misses",
+          "result": "Miss",
           "resultClass": "ammo"
          },
          {
@@ -1509,7 +1509,7 @@
          {
           "label": "To Hit (4+)",
           "dice": "2 f3",
-          "result": "Misses",
+          "result": "Miss",
           "resultClass": "ammo"
          },
          {
@@ -1543,7 +1543,7 @@
           "resultClass": "ammo"
          },
          {
-          "label": "Nerves of Steel (Cool 8)",
+          "label": "Nerves of Steel: Cool 8",
           "dice": "6 1",
           "result": "Not suppressed",
           "resultClass": "ammo"
@@ -1577,17 +1577,16 @@
        "roll": {
         "side": "p",
         "face": "mordecai",
-        "name": "Mordecai - Coup de Grace",
+        "name": "Mordecai - Coup de Grâce",
         "result": "Skimbleshanks out of action",
         "rows": [
          {
-          "label": "Mordecai (Str 3)",
+          "label": "Mordecai: Strength 3",
           "dice": "2",
-          "result": "",
-          "resultClass": "ammo"
+          "result": ""
          },
          {
-          "label": "Skimbleshanks (Str 3)",
+          "label": "Skimbleshanks: Strength 3",
           "dice": "2",
           "result": "Skimbleshanks out of action"
          },
@@ -1653,7 +1652,7 @@
           "resultClass": "ammo"
          },
          {
-          "label": "Save (5+ +1 Parry)",
+          "label": "Save (4+, +1 Parry)",
           "dice": "6 2",
           "result": "One saved, takes a wound"
          },
@@ -1663,7 +1662,7 @@
          {
           "label": "To Hit (3+)",
           "dice": "5",
-          "result": "Hits",
+          "result": "Hit",
           "resultClass": "ammo"
          },
          {
@@ -1680,7 +1679,7 @@
         "side": "p",
         "face": "mordecai",
         "name": "Mordecai - Chainglaive",
-        "result": "Misses",
+        "result": "Miss",
         "resultClass": "ammo",
         "rows": [
          {
@@ -1692,7 +1691,7 @@
          {
           "label": "To Hit (3+)",
           "dice": "1",
-          "result": "Misses",
+          "result": "Miss",
           "resultClass": "ammo"
          }
         ]
@@ -1719,9 +1718,9 @@
           "result": "Two wounds"
          },
          {
-          "label": "Save (6+ +1 cover)",
+          "label": "Save (5+, +1 cover)",
           "dice": "5 3",
-          "result": "One wound caused"
+          "result": "One wound"
          },
          {
           "label": "Injury",
@@ -1738,13 +1737,13 @@
         "side": "t",
         "face": "jellylorum",
         "name": "Jellylorum - Lasgun",
-        "result": "Misses",
+        "result": "Miss",
         "resultClass": "ammo",
         "rows": [
          {
-          "label": "To Hit (4+ +1 aimed shot)",
+          "label": "To Hit (3+, +1 aim)",
           "dice": "2",
-          "result": "Misses",
+          "result": "Miss",
           "resultClass": "ammo"
          }
         ]
@@ -1962,7 +1961,7 @@
       "resultClass": "ammo",
       "rows": [
        {
-        "label": "Deuteronomy (Leadership 8)",
+        "label": "Deuteronomy: Leadership 8",
         "dice": "6 1",
         "result": "Passes",
         "resultClass": "ammo"
@@ -1989,7 +1988,7 @@
         "side": "t",
         "face": "deuteronomy",
         "name": "Deuteronomy - Reaction: Web Gauntlet",
-        "result": "Misses",
+        "result": "Miss",
         "resultClass": "ammo",
         "rows": [
          {
@@ -2001,7 +2000,7 @@
          {
           "label": "To Hit (3+)",
           "dice": "2",
-          "result": "Misses",
+          "result": "Miss",
           "resultClass": "ammo"
          }
         ]
@@ -2012,7 +2011,7 @@
         "side": "t",
         "face": "deuteronomy",
         "name": "Deuteronomy - Counter-attack: Shock Stave",
-        "result": "Misses",
+        "result": "Miss",
         "resultClass": "ammo",
         "rows": [
          {
@@ -2024,7 +2023,7 @@
          {
           "label": "To Hit (3+)",
           "dice": "2",
-          "result": "Misses",
+          "result": "Miss",
           "resultClass": "ammo"
          }
         ]
@@ -2055,9 +2054,9 @@
           "result": "One wound"
          },
          {
-          "label": "Save (5+ AP -1)",
+          "label": "Save (6+, AP -1)",
           "dice": "1",
-          "result": "Takes one wound"
+          "result": "One wound"
          }
         ]
        }
@@ -2081,12 +2080,12 @@
          {
           "label": "To Wound (4+)",
           "dice": "5",
-          "result": "Wounds"
+          "result": "Wound"
          },
          {
-          "label": "Save (6+ AP -1)",
+          "label": "Save (none, AP -1)",
           "dice": "",
-          "result": "One wound caused, Suppressed and activation interrupted",
+          "result": "One wound, suppressed, activation interrupted",
           "resultClass": "sup"
          },
          {
@@ -2101,13 +2100,13 @@
         "side": "t",
         "face": "deuteronomy",
         "name": "Deuteronomy - Maintain Power",
-        "result": "Maintained",
+        "result": "Maintains",
         "resultClass": "ammo",
         "rows": [
          {
           "label": "Willpower 9",
           "dice": "4 4",
-          "result": "Maintained",
+          "result": "Maintains",
           "resultClass": "ammo"
          }
         ]
@@ -2139,9 +2138,9 @@
           "result": "Two wounds"
          },
          {
-          "label": "Save (5+ +1 Parry)",
+          "label": "Save (4+, +1 Parry)",
           "dice": "3 6",
-          "result": "Causes one wound"
+          "result": "One wound"
          },
          {
           "h6": "Web Gauntlet (secondary)"
@@ -2149,7 +2148,7 @@
          {
           "label": "To Hit (3+)",
           "dice": "1",
-          "result": "Misses",
+          "result": "Miss",
           "resultClass": "ammo"
          }
         ]
@@ -2180,9 +2179,9 @@
           "result": "One wound"
          },
          {
-          "label": "Save (5+ AP -1)",
+          "label": "Save (6+, AP -1)",
           "dice": "2",
-          "result": "Takes one wound"
+          "result": "One wound"
          }
         ]
        }
@@ -2208,14 +2207,14 @@
           "result": "Two wounds"
          },
          {
-          "label": "Save (6+ +1 cover)",
+          "label": "Save (5+, +1 cover)",
           "dice": "2 5",
           "result": "One wound"
          },
          {
           "label": "Injury",
           "dice": "fw",
-          "result": "Injured and Suppressed",
+          "result": "Injured, suppressed",
           "resultClass": "sup"
          }
         ]
@@ -2227,13 +2226,13 @@
         "side": "t",
         "face": "mistoffelees",
         "name": "Mistoffelees - Stub Gun",
-        "result": "Misses",
+        "result": "Miss",
         "resultClass": "ammo",
         "rows": [
          {
           "label": "To Hit (4+)",
           "dice": "2",
-          "result": "Misses",
+          "result": "Miss",
           "resultClass": "ammo"
          }
         ]
@@ -2245,13 +2244,13 @@
         "side": "p",
         "face": "cantor",
         "name": "Gutter Cantor - Polearm/Autogun",
-        "result": "Misses",
+        "result": "Miss",
         "resultClass": "ammo",
         "rows": [
          {
           "label": "To Hit (4+)",
           "dice": "1 f3",
-          "result": "Misses",
+          "result": "Miss",
           "resultClass": "ammo"
          }
         ]
@@ -2544,7 +2543,7 @@
          {
           "label": "To Hit (3+)",
           "dice": "3",
-          "result": "Hits",
+          "result": "Hit",
           "resultClass": "ammo"
          },
          {
@@ -2570,7 +2569,7 @@
           "h6": "Chainglaive"
          },
          {
-          "label": "To Hit (3+, -1 Webbed)",
+          "label": "To Hit (4+, -1 Webbed)",
           "dice": "3 4",
           "result": "One hit",
           "resultClass": "ammo"
@@ -2583,7 +2582,7 @@
          {
           "label": "Injury",
           "dice": "si si",
-          "result": "Seriously Injured"
+          "result": "Serious injury"
          },
          {
           "note": "Note: The chainglaive is Lethality 2."
@@ -2627,7 +2626,7 @@
          {
           "label": "To Hit (3+)",
           "dice": "4",
-          "result": "Hits",
+          "result": "Hit",
           "resultClass": "ammo"
          },
          {
@@ -2642,7 +2641,7 @@
          {
           "label": "To Hit (3+)",
           "dice": "1 2 1",
-          "result": "Fails to hit!",
+          "result": "Miss",
           "resultClass": "ammo"
          }
         ]
@@ -2665,18 +2664,18 @@
          {
           "label": "To Hit (4+)",
           "dice": "6",
-          "result": "Hits",
+          "result": "Hit",
           "resultClass": "ammo"
          },
          {
           "label": "To Wound (4+)",
           "dice": "6",
-          "result": "Wounds"
+          "result": "Wound"
          },
          {
           "label": "Save (5+)",
           "dice": "2",
-          "result": "Causes one wound"
+          "result": "One wound"
          }
         ]
        }
@@ -2687,13 +2686,13 @@
         "side": "t",
         "face": "mistoffelees",
         "name": "Mistoffelees - Stub Gun",
-        "result": "Misses",
+        "result": "Miss",
         "resultClass": "ammo",
         "rows": [
          {
           "label": "To Hit (5+)",
           "dice": "3",
-          "result": "Misses",
+          "result": "Miss",
           "resultClass": "ammo"
          }
         ]
@@ -2726,13 +2725,13 @@
         "side": "t",
         "face": "demeter",
         "name": "Demeter - Long Rifle",
-        "result": "Misses!",
+        "result": "Miss",
         "resultClass": "ammo",
         "rows": [
          {
           "label": "To Hit (2+)",
           "dice": "1",
-          "result": "Misses!",
+          "result": "Miss",
           "resultClass": "ammo"
          }
         ]
@@ -2979,7 +2978,7 @@
       "resultClass": "ammo",
       "rows": [
        {
-        "label": "Demeter (Leadership 7)",
+        "label": "Demeter: Leadership 7",
         "dice": "1 3",
         "result": "Holds",
         "resultClass": "ammo"

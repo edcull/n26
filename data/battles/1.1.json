@@ -670,16 +670,16 @@
          {
           "label": "To Hit (4+)",
           "dice": "5",
-          "result": "Hits",
+          "result": "Hit",
           "resultClass": "ammo"
          },
          {
           "label": "To Wound (5+)",
           "dice": "6",
-          "result": "Wounds"
+          "result": "Wound"
          },
          {
-          "label": "Save (6+ +1 cover)",
+          "label": "Save (5+, +1 cover)",
           "dice": "5",
           "result": "Saved",
           "resultClass": "ammo"
@@ -713,9 +713,9 @@
           "result": "Two wounds"
          },
          {
-          "label": "Save (5+ +2 cover)",
+          "label": "Save (3+, +2 cover)",
           "dice": "2 5",
-          "result": "Takes a wound and is suppressed",
+          "result": "One wound, suppressed",
           "resultClass": "sup"
          }
         ]
@@ -939,14 +939,14 @@
           "result": "Three wounds"
          },
          {
-          "label": "Save (6+ +1 cover AP -1)",
+          "label": "Save (6+, +1 cover, AP -1)",
           "dice": "6 6 2",
-          "result": "Takes a wound"
+          "result": "One wound"
          },
          {
-          "label": "Injury roll",
+          "label": "Injury",
           "dice": "si",
-          "result": "Serious Injury"
+          "result": "Serious injury"
          },
          {
           "note": "Note: Used Hidden Stash for a free reload action. Bulging Biceps to move at Initiative and fire a heavy weapon. Twin-linked to re-roll the Rapid Fire dice."
@@ -1003,7 +1003,6 @@
         "face": "ezekiel",
         "name": "Ezekiel Crows - Charge",
         "result": "Macavity injured",
-        "resultClass": "ammo",
         "rows": [
          {
           "note": "Initiative 3 +2 charge bonus"
@@ -1014,18 +1013,18 @@
          {
           "label": "To Hit (3+)",
           "dice": "5",
-          "result": "Hits",
+          "result": "Hit",
           "resultClass": "ammo"
          },
          {
           "label": "To Wound (4+)",
           "dice": "6",
-          "result": "Wounds"
+          "result": "Wound"
          },
          {
           "label": "Save (5+)",
           "dice": "3",
-          "result": "Causes one wound"
+          "result": "One wound"
          },
          {
           "h6": "Cleaver"
@@ -1042,15 +1041,14 @@
           "result": "Three wounds"
          },
          {
-          "label": "Save (5+ AP -1)",
+          "label": "Save (6+, AP -1)",
           "dice": "2 3 6",
-          "result": "Two wounds caused"
+          "result": "Two wounds"
          },
          {
           "label": "Injury",
           "dice": "fw fw fw fw",
-          "result": "Injured",
-          "resultClass": "ammo"
+          "result": "Injured"
          },
          {
           "note": "Note: Bull Charge for +1 Strength and Knockback (6+) on the charge. Lethality 2 hits."
@@ -1074,18 +1072,18 @@
          {
           "label": "To Hit (3+)",
           "dice": "5",
-          "result": "Hits",
+          "result": "Hit",
           "resultClass": "ammo"
          },
          {
-          "label": "To Wound (3+ Toxin)",
+          "label": "To Wound (3+, Toxin)",
           "dice": "4",
-          "result": "Wounds"
+          "result": "Wound"
          },
          {
-          "label": "Save (5+ AP -3)",
+          "label": "Save (none, AP -3)",
           "dice": "",
-          "result": "Causes one wound"
+          "result": "One wound"
          }
         ]
        }
@@ -1107,18 +1105,18 @@
          {
           "label": "To Hit (3+)",
           "dice": "3",
-          "result": "Hits",
+          "result": "Hit",
           "resultClass": "ammo"
          },
          {
-          "label": "To Wound (3+ Toxin)",
+          "label": "To Wound (3+, Toxin)",
           "dice": "5",
-          "result": "Wounds"
+          "result": "Wound"
          },
          {
-          "label": "Save (5+ +1 Parry AP -3)",
+          "label": "Save (none, +1 Parry, AP -3)",
           "dice": "",
-          "result": "Causes one wound"
+          "result": "One wound"
          }
         ]
        }
@@ -1185,7 +1183,7 @@
          {
           "label": "To Hit (4+)",
           "dice": "4 f1",
-          "result": "Hits",
+          "result": "Hit",
           "resultClass": "ammo"
          },
          {
@@ -1209,7 +1207,7 @@
          {
           "label": "To Hit (4+)",
           "dice": "5",
-          "result": "Hits",
+          "result": "Hit",
           "resultClass": "ammo"
          },
          {
@@ -1270,9 +1268,9 @@
           "resultClass": "ammo"
          },
          {
-          "label": "Save (5+ +2 cover)",
+          "label": "Save (3+, +2 cover)",
           "dice": "2",
-          "result": "One wound caused"
+          "result": "One wound"
          },
          {
           "label": "Ammo (6+)",
@@ -1298,7 +1296,7 @@
          {
           "label": "To Hit (3+)",
           "dice": "5",
-          "result": "Hits",
+          "result": "Hit",
           "resultClass": "ammo"
          },
          {
@@ -1613,14 +1611,14 @@
           "resultClass": "ammo"
          },
          {
-          "label": "To Wound (3+ Toxin)",
+          "label": "To Wound (3+, Toxin)",
           "dice": "1 2 5 6",
           "result": "Two wounds"
          },
          {
-          "label": "Save (5+ +1 Parry AP -3)",
+          "label": "Save (none, +1 Parry, AP -3)",
           "dice": "",
-          "result": "Two wounds caused"
+          "result": "Two wounds"
          },
          {
           "label": "Injury",
@@ -1658,13 +1656,13 @@
         "side": "p",
         "face": "deus",
         "name": "Deus and Amen - Twin-linked Heavy Stubber",
-        "result": "Misses",
+        "result": "Miss",
         "resultClass": "ammo",
         "rows": [
          {
           "label": "To Hit (4+)",
           "dice": "2 f2 f3",
-          "result": "Misses",
+          "result": "Miss",
           "resultClass": "ammo"
          },
          {
@@ -1682,25 +1680,25 @@
         "result": "Ezekiel seriously injured",
         "rows": [
          {
-          "label": "To Hit (3+ +1 aim)",
+          "label": "To Hit (2+, +1 aim)",
           "dice": "4",
-          "result": "Hits",
+          "result": "Hit",
           "resultClass": "ammo"
          },
          {
           "label": "To Wound (3+)",
           "dice": "5",
-          "result": "Wounds"
+          "result": "Wound"
          },
          {
-          "label": "Save (5+ +1 cover AP -1)",
+          "label": "Save (5+, +1 cover, AP -1)",
           "dice": "4",
-          "result": "Causes one wound"
+          "result": "One wound"
          },
          {
           "label": "Injury",
           "dice": "si",
-          "result": "Seriously Injured"
+          "result": "Serious injury"
          }
         ]
        }
@@ -1717,12 +1715,12 @@
          {
           "label": "To Wound (3+)",
           "dice": "4 2",
-          "result": "Wounds"
+          "result": "Wound"
          },
          {
-          "label": "Save (5+ +2 cover AP -1)",
+          "label": "Save (4+, +2 cover, AP -1)",
           "dice": "3",
-          "result": "Causes one wound and Suppressed",
+          "result": "One wound, suppressed",
           "resultClass": "sup"
          },
          {
@@ -1753,18 +1751,17 @@
          {
           "label": "To Wound (3+)",
           "dice": "4",
-          "result": "Wounds"
+          "result": "Wound"
          },
          {
-          "label": "Save (5+ AP -2)",
+          "label": "Save (none, AP -2)",
           "dice": "",
-          "result": "One wound caused"
+          "result": "One wound"
          },
          {
           "label": "Injury",
           "dice": "fw",
-          "result": "Injured",
-          "resultClass": "ammo"
+          "result": "Injured"
          }
         ]
        }
@@ -1784,14 +1781,14 @@
           "resultClass": "ammo"
          },
          {
-          "label": "To Wound (3+ Toxin)",
+          "label": "To Wound (3+, Toxin)",
           "dice": "3 5 5",
           "result": "Three wounds"
          },
          {
           "label": "Save (6+)",
           "dice": "3 5 5",
-          "result": "Takes three wounds"
+          "result": "Three wounds"
          },
          {
           "label": "Injury",
@@ -1848,14 +1845,16 @@
          {
           "label": "To Wound (3+)",
           "dice": "4",
-          "result": "Wounds"
+          "result": "Wound"
          },
          {
-          "label": "Save (6+ +1 cover AP -2)",
+          "label": "Save (none, +1 cover, AP -2)",
           "dice": "",
-          "result": "Causes two wounds and Suppressed"
+          "result": "Two wounds, suppressed",
+          "resultClass": "sup"
          }
-        ]
+        ],
+        "resultClass": "sup"
        }
       },
       "The bolt hits {@deus-and-amen|Deus and Amen} hard, but the heat of the shot has warped the coils out of alignment. The plasma gun can no longer hold a charge. {@gutter-cantor|Gutter Cantor} creeps to the edge of the container roof and fires down at {@rumpleteaser|Rumpleteaser}.",
@@ -1864,13 +1863,13 @@
         "side": "p",
         "face": "cantor",
         "name": "Gutter Cantor - Polearm/Autogun",
-        "result": "Misses",
+        "result": "Miss",
         "resultClass": "ammo",
         "rows": [
          {
           "label": "To Hit (4+)",
           "dice": "3 f1",
-          "result": "Misses",
+          "result": "Miss",
           "resultClass": "ammo"
          }
         ]
@@ -1888,7 +1887,7 @@
          {
           "label": "To Hit (4+)",
           "dice": "5",
-          "result": "Hits",
+          "result": "Hit",
           "resultClass": "ammo"
          },
          {
@@ -1906,13 +1905,13 @@
         "side": "p",
         "face": "ratsong",
         "name": "Ratsong - Stub Gun",
-        "result": "Misses",
+        "result": "Miss",
         "resultClass": "ammo",
         "rows": [
          {
           "label": "To Hit (5+)",
           "dice": "3",
-          "result": "Misses",
+          "result": "Miss",
           "resultClass": "ammo"
          }
         ]
@@ -2188,7 +2187,7 @@
       "resultClass": "ammo",
       "rows": [
        {
-        "label": "Mordecai (Leadership 8)",
+        "label": "Mordecai: Leadership 8",
         "dice": "3 4",
         "result": "Passes",
         "resultClass": "ammo"
@@ -2282,7 +2281,7 @@
          {
           "label": "Injury",
           "dice": "si si fw fw",
-          "result": "Seriously Injured"
+          "result": "Serious injury"
          },
          {
           "note": "Note: Unwieldy, so Initiative 1. No charge bonus to Initiative or attacks. Lethality 2 weapon."
@@ -2302,7 +2301,7 @@
          {
           "label": "To Hit (2+)",
           "dice": "4",
-          "result": "Hits",
+          "result": "Hit",
           "resultClass": "ammo"
          },
          {
@@ -2319,17 +2318,16 @@
        "roll": {
         "side": "p",
         "face": "ezekiel",
-        "name": "Ezekiel Crows - Coup de Grace",
+        "name": "Ezekiel Crows - Coup de Grâce",
         "result": "Macavity out of action",
         "rows": [
          {
-          "label": "Ezekiel (Str 3)",
+          "label": "Ezekiel: Strength 3",
           "dice": "3",
-          "result": "",
-          "resultClass": "ammo"
+          "result": ""
          },
          {
-          "label": "Macavity (Str 4)",
+          "label": "Macavity: Strength 4",
           "dice": "1",
           "result": "Macavity out of action"
          },
@@ -2351,18 +2349,18 @@
          {
           "label": "To Hit (4+)",
           "dice": "5 f1a",
-          "result": "Hits, Out of Ammo",
+          "result": "Hit, Out of Ammo",
           "resultClass": "ammo"
          },
          {
           "label": "To Wound (4+)",
           "dice": "4",
-          "result": "Wounds"
+          "result": "Wound"
          },
          {
           "label": "Save (5+)",
           "dice": "6",
-          "result": "Saved, Suppressed",
+          "result": "Saved, suppressed",
           "resultClass": "sup"
          }
         ]
@@ -2380,7 +2378,7 @@
          {
           "label": "To Hit (4+)",
           "dice": "6",
-          "result": "Hits",
+          "result": "Hit",
           "resultClass": "ammo"
          },
          {
@@ -2642,7 +2640,7 @@
       "resultClass": "ammo",
       "rows": [
        {
-        "label": "Deuteronomy (Leadership 8)",
+        "label": "Deuteronomy: Leadership 8",
         "dice": "2 6",
         "result": "Passes",
         "resultClass": "ammo"
@@ -2696,7 +2694,7 @@
          {
           "label": "To Hit (3+)",
           "dice": "5",
-          "result": "Hits",
+          "result": "Hit",
           "resultClass": "ammo"
          },
          {
@@ -2721,13 +2719,13 @@
         "side": "p",
         "face": "ratsong",
         "name": "Ratsong - Stub Gun",
-        "result": "Misses",
+        "result": "Miss",
         "resultClass": "ammo",
         "rows": [
          {
           "label": "To Hit (5+)",
           "dice": "3",
-          "result": "Misses",
+          "result": "Miss",
           "resultClass": "ammo"
          }
         ]
@@ -2931,25 +2929,27 @@
          {
           "label": "To Hit (2+)",
           "dice": "5",
-          "result": "Hits",
+          "result": "Hit",
           "resultClass": "ammo"
          },
          {
           "label": "To Wound (3+)",
           "dice": "4",
-          "result": "Wounds"
+          "result": "Wound"
          },
          {
           "label": "Save (6+)",
           "dice": "3",
-          "result": "Takes one wound"
+          "result": "One wound"
          },
          {
           "label": "Injury",
           "dice": "fw",
-          "result": "Injured and Suppressed"
+          "result": "Injured, suppressed",
+          "resultClass": "sup"
          }
-        ]
+        ],
+        "resultClass": "sup"
        }
       },
       "{@deus-and-amen|Deus and Amen} fire back at {@demeter|Demeter}, but miss again.",
@@ -3022,7 +3022,7 @@
           "resultClass": "ammo"
          },
          {
-          "label": "To Wound (3+ Toxin)",
+          "label": "To Wound (3+, Toxin)",
           "dice": "2",
           "result": "Suppressed",
           "resultClass": "sup"
@@ -3042,7 +3042,7 @@
          {
           "label": "To Hit (4+)",
           "dice": "5 f2",
-          "result": "Hits",
+          "result": "Hit",
           "resultClass": "ammo"
          },
          {
