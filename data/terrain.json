@@ -230,27 +230,6 @@
    "name": "Vat house",
    "els": [
     [
-     "polyline",
-     {
-      "class": "m-div",
-      "points": "-75,-37.5 -75,-87.5 75,-87.5 75,37.5"
-     }
-    ],
-    [
-     "polygon",
-     {
-      "class": "m-solid",
-      "points": "-75,87.5 -75,-37.5 -40,-37.5 -40,-30 -28,-10 -12,12.5 10,12.5 10,18 45,28 75,37.5 75,87.5"
-     }
-    ],
-    [
-     "polyline",
-     {
-      "class": "m-wall",
-      "points": "-75,-37.5 -75,87.5 75,87.5 75,37.5"
-     }
-    ],
-    [
      "circle",
      {
       "class": "m-solid",
@@ -276,6 +255,27 @@
       "cy": "52",
       "r": "17"
      }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-div",
+      "points": "-75,-37.5 -75,-87.5 75,-87.5 75,37.5"
+     }
+    ],
+    [
+     "polygon",
+     {
+      "class": "m-solid",
+      "points": "-75,87.5 -75,-37.5 -40,-37.5 -40,-30 -28,-10 -12,12.5 10,12.5 10,18 45,28 75,37.5 75,87.5"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-wall",
+      "points": "-75,-37.5 -75,87.5 75,87.5 75,37.5"
+     }
     ]
    ],
    "label": "Rendering vats",
@@ -283,7 +283,7 @@
     25,
     62
    ],
-   "note": "6\" by 7\", origin at its centre. A raised floor along the south wall, 2\" deep at the east end and 3\" in the middle, running 5\" up the west wall; thick walls round it, thin walls round the open floor. Three round vats sit centred in the west wall."
+   "note": "6\" by 7\", origin at its centre. A raised floor along the south wall, 2\" deep at the east end and 3\" in the middle, running 5\" up the west wall; thick walls round it, thin walls round the open floor. Three round vats sit centred in the west wall; the two beside the raised floor run under it."
   },
   "bone-yard": {
    "name": "Bone yard",
