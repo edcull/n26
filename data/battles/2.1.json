@@ -1,0 +1,3320 @@
+{
+ "page": "battle",
+ "id": "2.1",
+ "title": "Cycle 2.1: The Rendermarch Raid",
+ "kicker": "Ash and Shadow · Battle report",
+ "cycle": "Cycle 2.1",
+ "name": "The Rendermarch Raid",
+ "sides": [
+  {
+   "img": "images/gangs/the-carrion-psalm.jpg",
+   "name": "The Carrion Psalm",
+   "note": "Attacker · 1165 rating"
+  },
+  {
+   "img": "images/gangs/the-midnight-theatre.jpg",
+   "name": "The Midnight Theatre",
+   "note": "Defender · 1165 rating"
+  }
+ ],
+ "intro": [
+  "Sooner or later, every body in the underhive ends up at the Rendermarch. The dead come in by the cartload, are stacked in the cold vaults and rendered down, and the Corpse Guild pays well for each one. Nobody asks where they came from.",
+  "Then word reaches {p:The Carrion Psalm} that the Delaque have been seen in the vaults. The Guild's workers are muttering, and something is stirring among the dead. To the Psalm, the Rendermarch holds the faithful departed, and they will not suffer Delaque hands meddling there. Fresh from their victory at the Banewaters, {@mordecai|Mordecai} gathers his congregation and marches on the vaults before the Theatre can finish whatever they have started.",
+  "The Psalm are right. {t:The Midnight Theatre} are in the vaults. {@deuteronomy|Deuteronomy} has slipped into the Rendermarch with {@wit|Wit}, whose whispers are turning the Guild's workers against their masters, and {@mistoffelees|Mistoffelees}, whose presence fills the vaults with a dread nobody can explain. It is quiet work, and it is going well, until the Psalm come out of the gloom. The rest of the Theatre are out in the dark, and they will have to come running."
+ ],
+ "introHeading": "Intro",
+ "setup": {
+  "facts": [
+   [
+    "At stake",
+    "Rendermarch (Corpse Farm) territory"
+   ],
+   [
+    "Battlefield effect",
+    "Paid in Kind: gangs earn 10 credits for each enemy model they take Out of Action"
+   ],
+   [
+    "Challenger",
+    "{p:The Carrion Psalm}"
+   ],
+   [
+    "Table",
+    "2' × 2' - Deployment kept 6\" from the centre rather than 9\", and objectives placed 4\" in rather than 6\""
+   ],
+   [
+    "Deployment",
+    "Free for All: the winner of a roll-off picks a table quarter and their opponent takes the opposite one. Each gang deploys anywhere in its quarter at least 6\" from the centre. {p:The Carrion Psalm} win the roll-off and take the containers quarter, so {t:The Midnight Theatre} deploy in the bone yard quarter."
+   ],
+   [
+    "Objective",
+    "Flank 'Em: the attacker picks a battlefield edge and places an objective at its centre, 6\" in from the edge; the defender places one in the same position on the opposite edge. A gang controlling both objectives in the Check for Victory step scores 1 VP, and the first to 3 VP wins. If only one gang still has models on the battlefield, they win; if neither does, it is a draw. Here they sit at the centre of the top and bottom edges, about 4\" in, just inside the walls of the manufactorum and the rendering vats."
+   ],
+   [
+    "Psalm side job",
+    "{p:The Package:} once both crews are deployed, choose a fighter to carry a package marker. From the Check for Victory step of round three onwards, if they are in base contact with a battlefield edge in the enemy deployment zone, they hand it over and the side job is done."
+   ],
+   [
+    "Theatre side job",
+    "{t:Spread Unrest:} any Active fighter without the Beast subtype may take the Graffiti (Double) action while inside the enemy deployment zone. Once any fighter has done it, the side job is done, even if that fighter later leaves the battlefield."
+   ],
+   [
+    "Crews",
+    "Surprise Attack: the attacker, {p:The Carrion Psalm}, uses Hybrid (4+4). The defender, {t:The Midnight Theatre}, starts with Custom (3) and brings on Reinforcements (7), D3 each round from the first."
+   ]
+  ],
+  "blocks": [
+   {
+    "photo": {
+     "src": "images/2.1/photo-01.jpg",
+     "alt": "The Rendermarch table: ruined habs and a manufactorum in the middle, the starch silo on the right, the smoke stack behind and the bone yard's gravestones in the foreground.",
+     "caption": "The table, set up and ready."
+    }
+   }
+  ]
+ },
+ "setupAfter": [],
+ "gangs": [
+  {
+   "class": "psalm",
+   "portrait": "images/gangs/the-carrion-psalm.jpg",
+   "name": "The Carrion Psalm",
+   "house": "House Cawdor",
+   "blocks": [
+    {
+     "photo": {
+      "src": "images/2.1/photo-02.jpg",
+      "alt": "The eight Carrion Psalm fighters in a ruined hab: three on the upper walkway, and Deus and Amen with four more among the crates below."
+     }
+    },
+    {
+     "sheet": [
+      [
+       "Rating",
+       "1165"
+      ],
+      [
+       "Reputation",
+       "3"
+      ],
+      [
+       "Credits",
+       "5"
+      ],
+      [
+       "Gang size",
+       "8"
+      ]
+     ],
+     "class": ""
+    },
+    {
+     "assets": [
+      {
+       "label": "Territories",
+       "chips": [
+        {
+         "tip": "Tallow Wick (Settlement)"
+        },
+        {
+         "tip": "Turbine 10.2 (Generatorium)"
+        },
+        {
+         "tip": "Banewaters (Synth Still)"
+        }
+       ]
+      },
+      {
+       "label": "Gang tactics",
+       "chips": [
+        {
+         "tip": "Suppressing Fire"
+        },
+        {
+         "tip": "Hidden Stash"
+        },
+        {
+         "tip": "Adrenaline Surge",
+         "used": true,
+         "usedLabel": "Picked"
+        },
+        {
+         "tip": "Grenade Bouquet"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "panel": "Crew (8)",
+     "class": "crew-panel",
+     "fighters": [
+      {
+       "id": "mordecai"
+      },
+      {
+       "id": "ezekiel-crows"
+      },
+      {
+       "id": "elijah-emberchoir"
+      },
+      {
+       "id": "vermin-pyre"
+      },
+      {
+       "id": "blessed-filth"
+      },
+      {
+       "id": "gutter-cantor"
+      },
+      {
+       "id": "ratsong"
+      },
+      {
+       "id": "deus-and-amen"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "class": "theatre",
+   "portrait": "images/gangs/the-midnight-theatre.jpg",
+   "name": "The Midnight Theatre",
+   "house": "House Delaque",
+   "blocks": [
+    {
+     "photo": {
+      "src": "images/2.1/photo-03.jpg",
+      "alt": "The Midnight Theatre in a ruined hab: Wit, Deuteronomy, Mistoffelees and Rumpus on the upper walkway, and the six reinforcements among the crates below."
+     }
+    },
+    {
+     "sheet": [
+      [
+       "Rating",
+       "1165"
+      ],
+      [
+       "Reputation",
+       "2"
+      ],
+      [
+       "Credits",
+       "20"
+      ],
+      [
+       "Gang size",
+       "9"
+      ]
+     ],
+     "class": ""
+    },
+    {
+     "assets": [
+      {
+       "label": "Territories",
+       "chips": [
+        {
+         "tip": "Heaviside Hab-layer (Settlement)"
+        },
+        {
+         "tip": "Rippershop (Rogue Doc Shop)"
+        },
+        {
+         "tip": "Pyroclave (Promethium Cache)"
+        }
+       ]
+      },
+      {
+       "label": "Gang tactics",
+       "chips": [
+        {
+         "tip": "You!"
+        },
+        {
+         "tip": "Crossfire"
+        },
+        {
+         "tip": "Adrenaline Surge",
+         "used": true,
+         "usedLabel": "Picked"
+        },
+        {
+         "tip": "Thunderous Charge"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "panel": "Crew (4)",
+     "class": "crew-panel",
+     "fighters": [
+      {
+       "id": "deuteronomy"
+      },
+      {
+       "id": "mistoffelees"
+      },
+      {
+       "id": "rumpus"
+      },
+      {
+       "id": "wit"
+      }
+     ]
+    },
+    {
+     "panel": "Reinforcements (6)",
+     "class": "",
+     "fighters": [
+      {
+       "id": "demeter",
+       "class": "bench"
+      },
+      {
+       "id": "macavity",
+       "class": "bench"
+      },
+      {
+       "id": "rumpleteaser",
+       "class": "bench"
+      },
+      {
+       "id": "mungojerrie",
+       "class": "bench"
+      },
+      {
+       "id": "jellylorum",
+       "class": "bench"
+      },
+      {
+       "id": "growltiger",
+       "class": "bench"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "rounds": [
+  {
+   "id": "deployment",
+   "no": "",
+   "title": "Deployment",
+   "blocks": [
+    {
+     "text": [
+      "{t:The Midnight Theatre} are already at work near the rendering vats. {p:The Carrion Psalm} come in from the north-east, {@deus-and-amen|Deus and Amen} leading, and spread out from the north end of the manufactorum towards the containers. When the Psalm appear in force, the workers scatter and flee.",
+      "Tucked inside {@gutter-cantor|Gutter Cantor}'s robes are the bones of a martyred saint, and a shrine-keeper hidden beyond the bone yard is waiting to receive them."
+     ]
+    },
+    {
+     "ends": [
+      {
+       "src": "images/2.1/photo-04.jpg",
+       "alt": "Delaque at the rendering vats: Deuteronomy on the broken upper floor, Mistoffelees and Rumpus inside the walls below, and Wit just outside.",
+       "caption": "The Midnight Theatre spreading dissent."
+      },
+      {
+       "src": "images/2.1/photo-05.jpg",
+       "alt": "Cawdor fighters gathered behind ruined walls in front of the containers, with Deus and Amen at the back.",
+       "caption": "The Carrion Psalm arrive in force."
+      }
+     ]
+    },
+    {
+     "map": {
+      "svg": "<svg aria-label=\"Deployment positions for Cycle 2.1: the Carrion Psalm across the containers quarter and the north side of the manufactorum, and Deuteronomy, Mistoffelees, Rumpus and Wit around the rendering vats.\" role=\"img\" viewbox=\"-14 -24 628 668\"><defs><clippath id=\"mat21d\"><rect height=\"600\" width=\"600\" x=\"0\" y=\"0\"></rect></clippath></defs><text class=\"m-edge p\" x=\"450\" y=\"-8\">The Carrion Psalm deploy</text><text class=\"m-edge t\" x=\"150\" y=\"638\">The Midnight Theatre deploy</text><rect class=\"m-mat\" height=\"600\" width=\"600\" x=\"0\" y=\"0\"></rect><g clip-path=\"url(#mat21d)\"><path class=\"m-grid\" d=\"M150 0V600M0 150H600M300 0V600M0 300H600M450 0V600M0 450H600\"></path><path class=\"svg-p\" d=\"M600 0H300V150A150 150 0 0 1 450 300H600Z\"></path><path class=\"svg-t\" d=\"M0 600H300V450A150 150 0 0 1 150 300H0Z\"></path><circle class=\"m-plat\" cx=\"93.5\" cy=\"101.2\" r=\"83.6\"></circle><circle class=\"m-tower\" cx=\"93.5\" cy=\"101.2\" r=\"38.9\"></circle><polyline class=\"m-ladder\" points=\"144.3,167.6 152.8,178.7\"></polyline><circle class=\"m-solid\" cx=\"244.2\" cy=\"30.0\" r=\"9.7\"></circle><circle class=\"m-solid\" cx=\"244.2\" cy=\"56.2\" r=\"9.7\"></circle><polyline class=\"m-wall\" points=\"319.0,68.1 411.4,68.8 410.9,19.4\"></polyline><rect class=\"m-solid\" height=\"50.0\" width=\"104.1\" x=\"460.9\" y=\"13.8\"></rect><rect class=\"m-solid\" height=\"50.0\" width=\"103.5\" x=\"462.6\" y=\"96.9\"></rect><rect class=\"m-top\" height=\"107.6\" width=\"49.3\" x=\"491.6\" y=\"26.2\"></rect><rect class=\"m-solid\" height=\"59.0\" rx=\"10\" width=\"38.0\" x=\"163.4\" y=\"197.6\"></rect><polyline class=\"m-wall\" points=\"9.8,230.7 88.3,230.7\"></polyline><rect class=\"m-solid\" height=\"136.0\" width=\"99.3\" x=\"31.7\" y=\"254.0\"></rect><polyline class=\"m-wall\" points=\"129.8,252.9 129.8,391.1 27.1,391.1\"></polyline><polyline class=\"m-wall\" points=\"8.1,320.9 57.1,320.9\"></polyline><rect class=\"m-solid\" height=\"152.7\" width=\"95.8\" x=\"455.1\" y=\"177.9\"></rect><polyline class=\"m-wall\" points=\"456.2,176.4 456.2,331.7 553.6,331.7\"></polyline><polyline class=\"m-wall\" points=\"512.6,241.0 600.0,241.0\"></polyline><polyline class=\"m-div\" points=\"209.0,229.7 209.0,113.1 393.3,113.1 393.3,221.9\"></polyline><polygon class=\"m-solid\" points=\"209.0,231.2 247.4,234.8 274.4,239.5 300.9,248.8 333.6,238.4 354.8,229.7 375.9,222.9 393.3,220.9 393.3,299.5 209.0,299.5\"></polygon><polyline class=\"m-wall\" points=\"207.9,229.7 207.9,299.5 394.4,299.5 393.3,220.9\"></polyline><polyline class=\"m-ladder\" points=\"300.0,248.5 300.0,234.5\"></polyline><polyline class=\"m-div\" points=\"318.0,357.7 355.5,357.7 355.5,498.1 217.1,498.1\"></polyline><polygon class=\"m-solid\" points=\"174.2,357.7 318.0,357.7 297.7,378.7 266.7,395.7 242.5,412.6 230.1,440.9 221.6,469.5 217.1,496.9 174.2,496.9\"></polygon><polyline class=\"m-wall\" points=\"318.0,356.0 174.2,356.0 174.2,496.9 217.1,496.9\"></polyline><polyline class=\"m-ladder\" points=\"257.0,402.5 265.0,414.0\"></polyline><polyline class=\"m-wall\" points=\"179.3,533.6 179.3,577.1\"></polyline><polyline class=\"m-wall\" points=\"247.6,535.9 338.6,533.6 339.1,573.7\"></polyline><polygon class=\"m-plat\" points=\"490.5,364.5 598.9,423.4 598.9,542.2 490.5,600.0 385.0,542.2 385.0,422.3\"></polygon><circle class=\"m-tower\" cx=\"491.5\" cy=\"482.4\" r=\"55\"></circle><polyline class=\"m-ladder\" points=\"443.0,390.5 449.8,402.8\"></polyline><polyline class=\"m-wall\" points=\"465.9,367.4 572.1,367.4\"></polyline><polyline class=\"m-div\" points=\"396.7,430.8 394.5,541.0\"></polyline><rect class=\"m-solid\" height=\"15.8\" width=\"9.2\" x=\"30.6\" y=\"431.9\"></rect><rect class=\"m-solid\" height=\"15.8\" width=\"9.2\" x=\"83.7\" y=\"432.5\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"26.0\" y=\"479.2\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"83.1\" y=\"479.8\"></rect><rect class=\"m-solid\" height=\"16.1\" width=\"9.2\" x=\"28.3\" y=\"515.8\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.3\" x=\"81.9\" y=\"514.7\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"30.6\" y=\"551.9\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"82.5\" y=\"548.5\"></rect><polyline class=\"m-wall\" points=\"128.1,421.1 128.1,488.4\"></polyline><polyline class=\"m-wall\" points=\"128.1,506.7 128.1,572.5\"></polyline></g><circle class=\"m-centre\" cx=\"300\" cy=\"300\" r=\"6\"></circle><circle class=\"m-obj\" cx=\"300\" cy=\"125\" r=\"9\"></circle><circle class=\"m-obj-dot\" cx=\"300\" cy=\"125\" r=\"3\"></circle><circle class=\"m-obj\" cx=\"300\" cy=\"484\" r=\"9\"></circle><circle class=\"m-obj-dot\" cx=\"300\" cy=\"484\" r=\"3\"></circle><text class=\"m-lab\" x=\"93.5\" y=\"104.4\">Smoke stack</text><text class=\"m-lab\" x=\"514.1\" y=\"160.9\">Containers</text><text class=\"m-lab\" x=\"182.4\" y=\"271.0\">Tank</text><text class=\"m-lab\" x=\"81.9\" y=\"322.1\">Ruin</text><text class=\"m-lab\" x=\"502.7\" y=\"258.1\">Gothic ruin</text><text class=\"m-lab\" x=\"303.0\" y=\"175.3\">Manufactorum</text><text class=\"m-lab\" x=\"266.7\" y=\"460.9\">Rendering vats</text><text class=\"m-lab\" x=\"490.5\" y=\"483.8\">Starch silo</text><text class=\"m-lab\" x=\"60.6\" y=\"585.1\">Bone yard</text><circle class=\"tok-p\" cx=\"334.0\" cy=\"35.4\" r=\"19\"></circle><text class=\"tok-n two\" x=\"334.0\" y=\"40.9\">DA</text><circle class=\"tok-p\" cx=\"331.0\" cy=\"91.4\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"331.0\" y=\"96.9\">El</text><circle class=\"tok-p\" cx=\"363.5\" cy=\"91.4\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"363.5\" y=\"96.9\">M</text><circle class=\"tok-p\" cx=\"419.4\" cy=\"88.4\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"419.4\" y=\"93.9\">G</text><circle class=\"b-pk\" cx=\"407.0\" cy=\"79.6\" r=\"8.5\"></circle><text class=\"b-t\" x=\"407.0\" y=\"83.4\">P</text><circle class=\"tok-p\" cx=\"333.0\" cy=\"127.7\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"333.0\" y=\"133.2\">V</text><circle class=\"tok-p\" cx=\"373.3\" cy=\"128.7\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"373.3\" y=\"134.2\">Ez</text><circle class=\"tok-p\" cx=\"412.6\" cy=\"133.6\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"412.6\" y=\"139.1\">R</text><circle class=\"tok-p\" cx=\"439.1\" cy=\"169.9\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"439.1\" y=\"175.4\">B</text><circle class=\"tok-t\" cx=\"197.4\" cy=\"454.8\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"197.4\" y=\"460.3\">De</text><circle class=\"tok-t\" cx=\"238.7\" cy=\"481.3\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"238.7\" y=\"486.8\">Mi</text><circle class=\"tok-t\" cx=\"266.2\" cy=\"481.3\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"266.2\" y=\"486.8\">Rp</text><circle class=\"tok-t\" cx=\"291.7\" cy=\"515.7\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"291.7\" y=\"521.2\">W</text><text class=\"m-tick\" x=\"0\" y=\"618\">0\"</text><text class=\"m-tick\" x=\"150\" y=\"618\">6\"</text><text class=\"m-tick\" x=\"300\" y=\"618\">12\"</text><text class=\"m-tick\" x=\"450\" y=\"618\">18\"</text><text class=\"m-tick\" x=\"600\" y=\"618\">24\"</text></svg>",
+      "caption": "<ul class=\"b-key\"><li><span class=\"b b-pk\">P</span>The Package</li></ul>"
+     }
+    }
+   ]
+  },
+  {
+   "id": "round-1",
+   "no": "1",
+   "title": "Round 1: Terrible truths",
+   "blocks": [
+    {
+     "split": [
+      "tall",
+      "two"
+     ],
+     "text": [
+      "{@deuteronomy|Deuteronomy} draws on the voices of the Psychoteric Choir and reaches into the dark, wrapping himself in a Perfect Void.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "deuteronomy",
+        "name": "Deuteronomy - Perfect Void",
+        "result": "Manifests",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "Willpower 9",
+          "dice": "2 4",
+          "result": "Manifests",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "He holds the silence in place with a second effort of will.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "deuteronomy",
+        "name": "Deuteronomy - Maintain Power",
+        "result": "Maintains",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "Willpower 9 +3",
+          "dice": "4 2",
+          "result": "Maintains",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "Cloaked in silence, {@deuteronomy|Deuteronomy} moves up to a broken window in the rendering vats, where he can watch the Cawdor come.",
+      "Across the yard, {@blessed-filth|Blessed Filth} scrambles up the side of the Gothic ruin and onto its roof, looking for a clear line of fire down the street.",
+      "He is not alone for long. The rubble at the foot of the wall shifts, and {@rumpus|Rumpus} bursts out of the ground right below him. Behind the walls of the vats, {@mistoffelees|Mistoffelees} closes his eyes and reaches into the sniper's mind.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "mistoffelees",
+        "name": "Mistoffelees - Terrible Truths",
+        "result": "Manifests",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "Willpower 7",
+          "dice": "2 4",
+          "result": "Manifests",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "The Terrible Truths pour into {@blessed-filth|Blessed Filth}: whispers of what waits for him in the dark, and of what the Delaque already know about him.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "filth",
+        "name": "Blessed Filth - Willpower",
+        "result": "Subject to Insanity",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "Willpower 6",
+          "dice": "2 5",
+          "result": "Fails, subject to Insanity",
+          "resultClass": "sup"
+         }
+        ]
+       }
+      },
+      "The sniper's hands start to shake. He presses himself flat against the roof, sure that something is coming for him. Nobody on the Psalm's side saw how the Delaque did it.",
+      "{@elijah-emberchoir|Elijah Emberchoir} rushes forward past the smoke stack, reciting a hymn of Redemption, and {@mordecai|Mordecai}, {@deus-and-amen|Deus and Amen} and {@gutter-cantor|Gutter Cantor} follow in his wake. {@wit|Wit} stays where he is, crouched on the objective by the vats.",
+      "{@ezekiel-crows|Ezekiel Crows} and {@vermin-pyre|Vermin Pyre} push into the street towards the Wyrm, and {@ratsong|Ratsong} scurries forward to hold the objective at the north end of the manufactorum."
+     ],
+     "ports": [
+      {
+       "src": "images/2.1/photo-06.jpg",
+       "alt": "Looking out of a window in the rendering vats, past a blurred Deuteronomy, to Elijah, Mordecai and Deus and Amen advancing past the smoke stack and the fuel tank.",
+       "class": "port",
+       "caption": "Deuteronomy watches the Cawdor come."
+      },
+      {
+       "src": "images/2.1/photo-07.jpg",
+       "alt": "Blessed Filth on the roof of the Gothic ruin with his long rifle, Rumpus surfacing in the street below, and Mistoffelees behind the wall of the rendering vats in the foreground.",
+       "class": "port",
+       "caption": "Blessed Filth on the roof, with Rumpus below and Mistoffelees behind the vats wall."
+      }
+     ]
+    },
+    {
+     "photo": {
+      "src": "images/2.1/photo-08.jpg",
+      "alt": "Elijah Emberchoir, Deus and Amen, Mordecai and Gutter Cantor advancing past the foot of the smoke stack, beside the fuel tank.",
+      "caption": "The Psalm advance past the smoke stack."
+     }
+    },
+    {
+     "map": {
+      "svg": "<svg aria-label=\"Positions at the end of round 1: the Carrion Psalm spread from the smoke stack to the gothic ruin, with Ratsong on the north objective and Blessed Filth on the gothic ruin roof; the Midnight Theatre around the rendering vats, with Wit on the south objective, Rumpus in the street below Blessed Filth, and Mungojerrie arriving at the edge of the bone yard.\" role=\"img\" viewbox=\"-14 -24 628 668\"><defs><clippath id=\"mat21r1\"><rect height=\"600\" width=\"600\" x=\"0\" y=\"0\"></rect></clippath></defs><text class=\"m-edge p\" x=\"450\" y=\"-8\">The Carrion Psalm deploy</text><text class=\"m-edge t\" x=\"150\" y=\"638\">The Midnight Theatre deploy</text><rect class=\"m-mat\" height=\"600\" width=\"600\" x=\"0\" y=\"0\"></rect><g clip-path=\"url(#mat21r1)\"><path class=\"m-grid\" d=\"M150 0V600M0 150H600M300 0V600M0 300H600M450 0V600M0 450H600\"></path><path class=\"svg-p\" d=\"M600 0H300V150A150 150 0 0 1 450 300H600Z\"></path><path class=\"svg-t\" d=\"M0 600H300V450A150 150 0 0 1 150 300H0Z\"></path><circle class=\"m-plat\" cx=\"93.5\" cy=\"101.2\" r=\"83.6\"></circle><circle class=\"m-tower\" cx=\"93.5\" cy=\"101.2\" r=\"38.9\"></circle><polyline class=\"m-ladder\" points=\"144.3,167.6 152.8,178.7\"></polyline><circle class=\"m-solid\" cx=\"244.2\" cy=\"30.0\" r=\"9.7\"></circle><circle class=\"m-solid\" cx=\"244.2\" cy=\"56.2\" r=\"9.7\"></circle><polyline class=\"m-wall\" points=\"319.0,68.1 411.4,68.8 410.9,19.4\"></polyline><rect class=\"m-solid\" height=\"50.0\" width=\"104.1\" x=\"460.9\" y=\"13.8\"></rect><rect class=\"m-solid\" height=\"50.0\" width=\"103.5\" x=\"462.6\" y=\"96.9\"></rect><rect class=\"m-top\" height=\"107.6\" width=\"49.3\" x=\"491.6\" y=\"26.2\"></rect><rect class=\"m-solid\" height=\"59.0\" rx=\"10\" width=\"38.0\" x=\"163.4\" y=\"197.6\"></rect><polyline class=\"m-wall\" points=\"9.8,230.7 88.3,230.7\"></polyline><rect class=\"m-solid\" height=\"136.0\" width=\"99.3\" x=\"31.7\" y=\"254.0\"></rect><polyline class=\"m-wall\" points=\"129.8,252.9 129.8,391.1 27.1,391.1\"></polyline><polyline class=\"m-wall\" points=\"8.1,320.9 57.1,320.9\"></polyline><rect class=\"m-solid\" height=\"152.7\" width=\"95.8\" x=\"455.1\" y=\"177.9\"></rect><polyline class=\"m-wall\" points=\"456.2,176.4 456.2,331.7 553.6,331.7\"></polyline><polyline class=\"m-wall\" points=\"512.6,241.0 600.0,241.0\"></polyline><polyline class=\"m-div\" points=\"209.0,229.7 209.0,113.1 393.3,113.1 393.3,221.9\"></polyline><polygon class=\"m-solid\" points=\"209.0,231.2 247.4,234.8 274.4,239.5 300.9,248.8 333.6,238.4 354.8,229.7 375.9,222.9 393.3,220.9 393.3,299.5 209.0,299.5\"></polygon><polyline class=\"m-wall\" points=\"207.9,229.7 207.9,299.5 394.4,299.5 393.3,220.9\"></polyline><polyline class=\"m-ladder\" points=\"300.0,248.5 300.0,234.5\"></polyline><polyline class=\"m-div\" points=\"318.0,357.7 355.5,357.7 355.5,498.1 217.1,498.1\"></polyline><polygon class=\"m-solid\" points=\"174.2,357.7 318.0,357.7 297.7,378.7 266.7,395.7 242.5,412.6 230.1,440.9 221.6,469.5 217.1,496.9 174.2,496.9\"></polygon><polyline class=\"m-wall\" points=\"318.0,356.0 174.2,356.0 174.2,496.9 217.1,496.9\"></polyline><polyline class=\"m-ladder\" points=\"257.0,402.5 265.0,414.0\"></polyline><polyline class=\"m-wall\" points=\"179.3,533.6 179.3,577.1\"></polyline><polyline class=\"m-wall\" points=\"247.6,535.9 338.6,533.6 339.1,573.7\"></polyline><polygon class=\"m-plat\" points=\"490.5,364.5 598.9,423.4 598.9,542.2 490.5,600.0 385.0,542.2 385.0,422.3\"></polygon><circle class=\"m-tower\" cx=\"491.5\" cy=\"482.4\" r=\"55\"></circle><polyline class=\"m-ladder\" points=\"443.0,390.5 449.8,402.8\"></polyline><polyline class=\"m-wall\" points=\"465.9,367.4 572.1,367.4\"></polyline><polyline class=\"m-div\" points=\"396.7,430.8 394.5,541.0\"></polyline><rect class=\"m-solid\" height=\"15.8\" width=\"9.2\" x=\"30.6\" y=\"431.9\"></rect><rect class=\"m-solid\" height=\"15.8\" width=\"9.2\" x=\"83.7\" y=\"432.5\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"26.0\" y=\"479.2\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"83.1\" y=\"479.8\"></rect><rect class=\"m-solid\" height=\"16.1\" width=\"9.2\" x=\"28.3\" y=\"515.8\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.3\" x=\"81.9\" y=\"514.7\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"30.6\" y=\"551.9\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"82.5\" y=\"548.5\"></rect><polyline class=\"m-wall\" points=\"128.1,421.1 128.1,488.4\"></polyline><polyline class=\"m-wall\" points=\"128.1,506.7 128.1,572.5\"></polyline></g><circle class=\"m-centre\" cx=\"300\" cy=\"300\" r=\"6\"></circle><circle class=\"m-obj\" cx=\"300\" cy=\"125\" r=\"9\"></circle><circle class=\"m-obj-dot\" cx=\"300\" cy=\"125\" r=\"3\"></circle><circle class=\"m-obj\" cx=\"300\" cy=\"484\" r=\"9\"></circle><circle class=\"m-obj-dot\" cx=\"300\" cy=\"484\" r=\"3\"></circle><text class=\"m-lab\" x=\"93.5\" y=\"104.4\">Smoke stack</text><text class=\"m-lab\" x=\"514.1\" y=\"160.9\">Containers</text><text class=\"m-lab\" x=\"182.4\" y=\"271.0\">Tank</text><text class=\"m-lab\" x=\"81.9\" y=\"322.1\">Ruin</text><text class=\"m-lab\" x=\"502.7\" y=\"258.1\">Gothic ruin</text><text class=\"m-lab\" x=\"303.0\" y=\"175.3\">Manufactorum</text><text class=\"m-lab\" x=\"266.7\" y=\"460.9\">Rendering vats</text><text class=\"m-lab\" x=\"490.5\" y=\"483.8\">Starch silo</text><text class=\"m-lab\" x=\"60.6\" y=\"585.1\">Bone yard</text><circle class=\"tok-p\" cx=\"205.2\" cy=\"86.8\" r=\"19\"></circle><text class=\"tok-n two\" x=\"205.2\" y=\"92.3\">DA</text><circle class=\"tok-p\" cx=\"251.5\" cy=\"89.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"251.5\" y=\"95.0\">G</text><circle class=\"b-pk\" cx=\"239.1\" cy=\"80.7\" r=\"8.5\"></circle><text class=\"b-t\" x=\"239.1\" y=\"84.5\">P</text><circle class=\"tok-p\" cx=\"187.7\" cy=\"118.2\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"187.7\" y=\"123.7\">M</text><circle class=\"tok-p\" cx=\"182.1\" cy=\"145.8\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"182.1\" y=\"151.3\">El</text><circle class=\"tok-p\" cx=\"313.4\" cy=\"98.8\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"313.4\" y=\"104.3\">R</text><circle class=\"tok-p\" cx=\"414.2\" cy=\"209.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"414.2\" y=\"215.0\">V</text><circle class=\"tok-p\" cx=\"414.2\" cy=\"251.1\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"414.2\" y=\"256.6\">Ez</text><circle class=\"tok-p\" cx=\"468.7\" cy=\"224.3\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"468.7\" y=\"229.8\">B</text><circle class=\"tok-t\" cx=\"196.0\" cy=\"369.2\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"196.0\" y=\"374.7\">De</text><circle class=\"tok-t\" cx=\"384.6\" cy=\"312.9\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"384.6\" y=\"318.4\">Rp</text><circle class=\"tok-t\" cx=\"337.4\" cy=\"384.9\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"337.4\" y=\"390.4\">Mi</text><circle class=\"tok-t\" cx=\"287.5\" cy=\"509.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"287.5\" y=\"515.0\">W</text><circle class=\"b-n\" cx=\"481.1\" cy=\"215.5\" r=\"8.5\"></circle><text class=\"b-t\" x=\"481.1\" y=\"219.3\">In</text><circle class=\"tok-t\" cx=\"14.3\" cy=\"436.0\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"14.3\" y=\"441.5\">Mj</text><text class=\"m-tick\" x=\"0\" y=\"618\">0\"</text><text class=\"m-tick\" x=\"150\" y=\"618\">6\"</text><text class=\"m-tick\" x=\"300\" y=\"618\">12\"</text><text class=\"m-tick\" x=\"450\" y=\"618\">18\"</text><text class=\"m-tick\" x=\"600\" y=\"618\">24\"</text><circle class=\"b-v\" cx=\"208.4\" cy=\"360.4\" r=\"8.5\"></circle><text class=\"b-t\" x=\"208.4\" y=\"364.2\">V</text></svg>",
+      "caption": "<p>Positions at the end of round 1</p><ul class=\"b-key\"><li><span class=\"b b-pk\">P</span>The Package</li><li><span class=\"b b-n\">In</span>Insanity</li><li><span class=\"b b-v\">V</span>Perfect Void</li></ul>"
+     }
+    },
+    {
+     "vp": "End phase: Ratsong holds the north objective and Wit the south, so neither gang holds both. No VP. One reinforcement joins the Theatre: Mungojerrie brings up the grav gun through the bone yard."
+    }
+   ]
+  },
+  {
+   "id": "round-2",
+   "no": "2",
+   "title": "Round 2: The air turns to lead",
+   "blocks": [
+    {
+     "split": [
+      "tall"
+     ],
+     "text": [
+      "{@ezekiel-crows|Ezekiel Crows} has seen the Wyrm in the street, and he charges, cleaver raised.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "ezekiel",
+        "name": "Ezekiel Crows - Cleaver",
+        "result": "Rumpus seriously injured",
+        "rows": [
+         {
+          "note": "Initiative 3 +2"
+         },
+         {
+          "h6": "Cleaver"
+         },
+         {
+          "label": "To Hit (3+, -1 out of line of sight)",
+          "dice": "3 2 6",
+          "result": "One hit",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "6",
+          "result": "One wound"
+         },
+         {
+          "label": "Save (6+ AP -1)",
+          "dice": "",
+          "result": "No save"
+         },
+         {
+          "label": "Injury",
+          "dice": "fw si",
+          "result": "Serious Injury"
+         }
+        ]
+       }
+      },
+      "The cleaver comes down hard, and {@rumpus|Rumpus} is left writhing in the dust.",
+      "Somehow the Wyrm drags itself away from the Firebrand, leaving a trail across the deck plates.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "rumpus",
+        "name": "Rumpus - Recovery",
+        "result": "Recovers, injured",
+        "rows": [
+         {
+          "label": "Recovery",
+          "dice": "fw",
+          "result": "Recovers, injured"
+         }
+        ]
+       }
+      },
+      "{@elijah-emberchoir|Elijah Emberchoir} advances into cover by the smoke stack. He has spotted {@mungojerrie|Mungojerrie} coming up through the bone yard, and he opens fire.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "elijah",
+        "name": "Elijah Emberchoir - Autopistol",
+        "result": "Mungojerrie suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "To Hit (3+)",
+          "dice": "4 f1",
+          "result": "One hit",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (4+)",
+          "dice": "2",
+          "result": "Suppressed",
+          "resultClass": "sup"
+         }
+        ]
+       }
+      },
+      "The round cracks off the gravestones beside the Ghost and sends him diving for cover.",
+      "{@mungojerrie|Mungojerrie} answers with the grav gun. The shot goes wide, but the pulse lands on the wall beside {@elijah-emberchoir|Elijah}, and the air around the Deacon turns to lead.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "mungojerrie",
+        "name": "Mungojerrie - Grav Gun",
+        "result": "Elijah takes a wound",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "3",
+          "result": "Misses, scatters onto the wall by Elijah",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "Strength 3",
+          "dice": "5",
+          "result": "One wound, suppressed"
+         },
+         {
+          "label": "Ammo (5+)",
+          "dice": "4",
+          "result": "Out of ammo",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: the graviton pulse stays in place."
+         }
+        ]
+       }
+      },
+      "{@elijah-emberchoir|Elijah} is crushed against the wall, and the graviton field hangs beside him, warping everything it touches.",
+      "The pulse blocks {@mordecai|Mordecai}'s path to the Delaque, so the Word Keeper moves up behind the tank instead and fires at {@deuteronomy|Deuteronomy}.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "mordecai",
+        "name": "Mordecai - Autopistol",
+        "result": "Misses",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (3+)",
+          "dice": "1 f1",
+          "result": "Misses",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "The shot goes wide. In the vats, {@deuteronomy|Deuteronomy} keeps his concentration and holds the Void in place.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "deuteronomy",
+        "name": "Deuteronomy - Maintain Power",
+        "result": "Maintains",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "Willpower 9",
+          "dice": "2 6",
+          "result": "Maintains",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "Then he leans out of the window and answers with his flechette pistol.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "deuteronomy",
+        "name": "Deuteronomy - Flechette Pistol",
+        "result": "Mordecai suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "To Hit (3+)",
+          "dice": "5 f2",
+          "result": "Two hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "2 4",
+          "result": "One wound"
+         },
+         {
+          "label": "Save (5+ +2 cover)",
+          "dice": "4",
+          "result": "Saved, suppressed",
+          "resultClass": "sup"
+         }
+        ]
+       }
+      },
+      "Needles rattle off the tank around {@mordecai|Mordecai}. His armour turns the one that finds him, but he is forced to duck, and {@deuteronomy|Deuteronomy} slips back out of sight.",
+      "On the roof of the Gothic ruin, {@blessed-filth|Blessed Filth} is still in the grip of the Terrible Truths. He can hear them on the ladder, he is sure of it. They are coming for him.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "filth",
+        "name": "Blessed Filth - \"They're Coming for Me\"",
+        "result": "Still subject to Insanity",
+        "rows": [
+         {
+          "label": "Willpower 6",
+          "dice": "6 2",
+          "result": "Still subject to Insanity"
+         }
+        ]
+       }
+      },
+      "{@mistoffelees|Mistoffelees} climbs the wall of the vats to get a sight of {@ezekiel-crows|Ezekiel}, and reaches for the Firebrand's mind too.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "mistoffelees",
+        "name": "Mistoffelees - Terrible Truths",
+        "result": "Manifests",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "Willpower 7",
+          "dice": "5 1",
+          "result": "Manifests",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "But {@ezekiel-crows|Ezekiel}'s faith is stronger than the sniper's. He shrugs off the whispers and keeps his eyes on the Delaque.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "ezekiel",
+        "name": "Ezekiel Crows - Willpower",
+        "result": "Resists",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "Willpower 6",
+          "dice": "4 2",
+          "result": "Succeeds",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "{@vermin-pyre|Vermin Pyre} steps out into the street and turns his flamer on {@mistoffelees|Mistoffelees}.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "vermin",
+        "name": "Vermin Pyre - Flamer",
+        "result": "Mistoffelees injured",
+        "rows": [
+         {
+          "label": "To Wound (3+)",
+          "dice": "4",
+          "result": "Wounds"
+         },
+         {
+          "label": "Save (6+ AP -1)",
+          "dice": "1",
+          "result": "One wound"
+         },
+         {
+          "label": "Injury",
+          "dice": "fw",
+          "result": "Injured"
+         },
+         {
+          "label": "Ammo (6+)",
+          "dice": "4",
+          "result": "Out of ammo",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "The flames wash over the wall. {@mistoffelees|Mistoffelees} falls back burnt and smoking, and Vermin's flamer splutters empty.",
+      "{@wit|Wit} moves up and fires his stub gun at {@vermin-pyre|Vermin Pyre}, but the shot goes nowhere.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "wit",
+        "name": "Wit - Stub Gun",
+        "result": "Misses",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "2",
+          "result": "Misses",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "{@deus-and-amen|Deus} pushes Amen forward, but the Stig-Shambler finds nothing to shoot at. {@gutter-cantor|Gutter Cantor} moves up beside his Word Keeper, and {@ratsong|Ratsong} stays crouched on the objective."
+     ],
+     "ports": [
+      {
+       "src": "images/2.1/photo-09.jpg",
+       "alt": "Ezekiel Crows and Vermin Pyre advancing beside the Gothic ruin, with Blessed Filth on its roof and a blurred Rumpus in the foreground.",
+       "class": "port",
+       "caption": "Ezekiel closes on the Wyrm."
+      }
+     ]
+    },
+    {
+     "photo": {
+      "src": "images/2.1/photo-10.jpg",
+      "alt": "The rendering vats from above, with Mistoffelees inside by the red vats, Wit at the wall and Deuteronomy below, while Ezekiel Crows and Elijah Emberchoir close in from the smoke stack side.",
+      "caption": "The Theatre dug in at the rendering vats."
+     }
+    },
+    {
+     "map": {
+      "svg": "<svg aria-label=\"Positions at the end of round 2: the Carrion Psalm around the tank and the north objective, with the graviton pulse beside Elijah; the Midnight Theatre around the rendering vats, with Mungojerrie at the bone yard and Growltiger arriving on the south edge.\" role=\"img\" viewbox=\"-14 -24 628 668\"><defs><clippath id=\"mat21r2\"><rect height=\"600\" width=\"600\" x=\"0\" y=\"0\"></rect></clippath></defs><text class=\"m-edge p\" x=\"450\" y=\"-8\">The Carrion Psalm deploy</text><text class=\"m-edge t\" x=\"150\" y=\"638\">The Midnight Theatre deploy</text><rect class=\"m-mat\" height=\"600\" width=\"600\" x=\"0\" y=\"0\"></rect><g clip-path=\"url(#mat21r2)\"><path class=\"m-grid\" d=\"M150 0V600M0 150H600M300 0V600M0 300H600M450 0V600M0 450H600\"></path><path class=\"svg-p\" d=\"M600 0H300V150A150 150 0 0 1 450 300H600Z\"></path><path class=\"svg-t\" d=\"M0 600H300V450A150 150 0 0 1 150 300H0Z\"></path><circle class=\"m-plat\" cx=\"93.5\" cy=\"101.2\" r=\"83.6\"></circle><circle class=\"m-tower\" cx=\"93.5\" cy=\"101.2\" r=\"38.9\"></circle><polyline class=\"m-ladder\" points=\"144.3,167.6 152.8,178.7\"></polyline><circle class=\"m-solid\" cx=\"244.2\" cy=\"30.0\" r=\"9.7\"></circle><circle class=\"m-solid\" cx=\"244.2\" cy=\"56.2\" r=\"9.7\"></circle><polyline class=\"m-wall\" points=\"319.0,68.1 411.4,68.8 410.9,19.4\"></polyline><rect class=\"m-solid\" height=\"50.0\" width=\"104.1\" x=\"460.9\" y=\"13.8\"></rect><rect class=\"m-solid\" height=\"50.0\" width=\"103.5\" x=\"462.6\" y=\"96.9\"></rect><rect class=\"m-top\" height=\"107.6\" width=\"49.3\" x=\"491.6\" y=\"26.2\"></rect><rect class=\"m-solid\" height=\"59.0\" rx=\"10\" width=\"38.0\" x=\"163.4\" y=\"197.6\"></rect><polyline class=\"m-wall\" points=\"9.8,230.7 88.3,230.7\"></polyline><rect class=\"m-solid\" height=\"136.0\" width=\"99.3\" x=\"31.7\" y=\"254.0\"></rect><polyline class=\"m-wall\" points=\"129.8,252.9 129.8,391.1 27.1,391.1\"></polyline><polyline class=\"m-wall\" points=\"8.1,320.9 57.1,320.9\"></polyline><rect class=\"m-solid\" height=\"152.7\" width=\"95.8\" x=\"455.1\" y=\"177.9\"></rect><polyline class=\"m-wall\" points=\"456.2,176.4 456.2,331.7 553.6,331.7\"></polyline><polyline class=\"m-wall\" points=\"512.6,241.0 600.0,241.0\"></polyline><polyline class=\"m-div\" points=\"209.0,229.7 209.0,113.1 393.3,113.1 393.3,221.9\"></polyline><polygon class=\"m-solid\" points=\"209.0,231.2 247.4,234.8 274.4,239.5 300.9,248.8 333.6,238.4 354.8,229.7 375.9,222.9 393.3,220.9 393.3,299.5 209.0,299.5\"></polygon><polyline class=\"m-wall\" points=\"207.9,229.7 207.9,299.5 394.4,299.5 393.3,220.9\"></polyline><polyline class=\"m-ladder\" points=\"300.0,248.5 300.0,234.5\"></polyline><polyline class=\"m-div\" points=\"318.0,357.7 355.5,357.7 355.5,498.1 217.1,498.1\"></polyline><polygon class=\"m-solid\" points=\"174.2,357.7 318.0,357.7 297.7,378.7 266.7,395.7 242.5,412.6 230.1,440.9 221.6,469.5 217.1,496.9 174.2,496.9\"></polygon><polyline class=\"m-wall\" points=\"318.0,356.0 174.2,356.0 174.2,496.9 217.1,496.9\"></polyline><polyline class=\"m-ladder\" points=\"257.0,402.5 265.0,414.0\"></polyline><polyline class=\"m-wall\" points=\"179.3,533.6 179.3,577.1\"></polyline><polyline class=\"m-wall\" points=\"247.6,535.9 338.6,533.6 339.1,573.7\"></polyline><polygon class=\"m-plat\" points=\"490.5,364.5 598.9,423.4 598.9,542.2 490.5,600.0 385.0,542.2 385.0,422.3\"></polygon><circle class=\"m-tower\" cx=\"491.5\" cy=\"482.4\" r=\"55\"></circle><polyline class=\"m-ladder\" points=\"443.0,390.5 449.8,402.8\"></polyline><polyline class=\"m-wall\" points=\"465.9,367.4 572.1,367.4\"></polyline><polyline class=\"m-div\" points=\"396.7,430.8 394.5,541.0\"></polyline><rect class=\"m-solid\" height=\"15.8\" width=\"9.2\" x=\"30.6\" y=\"431.9\"></rect><rect class=\"m-solid\" height=\"15.8\" width=\"9.2\" x=\"83.7\" y=\"432.5\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"26.0\" y=\"479.2\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"83.1\" y=\"479.8\"></rect><rect class=\"m-solid\" height=\"16.1\" width=\"9.2\" x=\"28.3\" y=\"515.8\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.3\" x=\"81.9\" y=\"514.7\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"30.6\" y=\"551.9\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"82.5\" y=\"548.5\"></rect><polyline class=\"m-wall\" points=\"128.1,421.1 128.1,488.4\"></polyline><polyline class=\"m-wall\" points=\"128.1,506.7 128.1,572.5\"></polyline></g><circle class=\"m-centre\" cx=\"300\" cy=\"300\" r=\"6\"></circle><circle class=\"m-obj\" cx=\"300\" cy=\"125\" r=\"9\"></circle><circle class=\"m-obj-dot\" cx=\"300\" cy=\"125\" r=\"3\"></circle><circle class=\"m-obj\" cx=\"300\" cy=\"484\" r=\"9\"></circle><circle class=\"m-obj-dot\" cx=\"300\" cy=\"484\" r=\"3\"></circle><text class=\"m-lab\" x=\"93.5\" y=\"104.4\">Smoke stack</text><text class=\"m-lab\" x=\"514.1\" y=\"160.9\">Containers</text><text class=\"m-lab\" x=\"182.4\" y=\"271.0\">Tank</text><text class=\"m-lab\" x=\"81.9\" y=\"322.1\">Ruin</text><text class=\"m-lab\" x=\"502.7\" y=\"258.1\">Gothic ruin</text><text class=\"m-lab\" x=\"303.0\" y=\"175.3\">Manufactorum</text><text class=\"m-lab\" x=\"266.7\" y=\"460.9\">Rendering vats</text><text class=\"m-lab\" x=\"490.5\" y=\"483.8\">Starch silo</text><text class=\"m-lab\" x=\"60.6\" y=\"585.1\">Bone yard</text><circle class=\"m-grav\" cx=\"89.8\" cy=\"227.8\" r=\"42.6\"></circle><circle class=\"tok-p\" cx=\"300.0\" cy=\"94.4\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"300.0\" y=\"99.9\">R</text><circle class=\"tok-p\" cx=\"142.6\" cy=\"194.4\" r=\"19\"></circle><text class=\"tok-n two\" x=\"142.6\" y=\"199.9\">DA</text><circle class=\"tok-p\" cx=\"192.6\" cy=\"169.4\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"192.6\" y=\"174.9\">G</text><circle class=\"b-pk\" cx=\"180.2\" cy=\"160.6\" r=\"8.5\"></circle><text class=\"b-t\" x=\"180.2\" y=\"164.4\">P</text><circle class=\"tok-p\" cx=\"173.1\" cy=\"189.8\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"173.1\" y=\"195.3\">M</text><circle class=\"tok-p\" cx=\"100.9\" cy=\"217.6\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"100.9\" y=\"223.1\">El</text><circle class=\"tok-p\" cx=\"438.9\" cy=\"321.3\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"438.9\" y=\"326.8\">V</text><circle class=\"tok-p\" cx=\"402.8\" cy=\"307.4\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"402.8\" y=\"312.9\">Ez</text><circle class=\"tok-p\" cx=\"540.7\" cy=\"250.0\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"540.7\" y=\"255.5\">B</text><circle class=\"tok-t\" cx=\"305.6\" cy=\"313.0\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"305.6\" y=\"318.5\">Rp</text><circle class=\"tok-t\" cx=\"188.9\" cy=\"370.4\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"188.9\" y=\"375.9\">De</text><circle class=\"tok-t\" cx=\"368.5\" cy=\"396.3\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"368.5\" y=\"401.8\">Mi</text><circle class=\"tok-t\" cx=\"11.1\" cy=\"437.0\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"11.1\" y=\"442.5\">Mj</text><circle class=\"tok-t\" cx=\"363.0\" cy=\"512.0\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"363.0\" y=\"517.5\">W</text><circle class=\"tok-t\" cx=\"214.8\" cy=\"585.2\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"214.8\" y=\"590.7\">G</text><circle class=\"b-w\" cx=\"88.5\" cy=\"208.8\" r=\"8.5\"></circle><text class=\"b-t\" x=\"88.5\" y=\"212.6\">W</text><circle class=\"b-s\" cx=\"73.5\" cy=\"208.8\" r=\"8.5\"></circle><text class=\"b-t\" x=\"73.5\" y=\"212.6\">S</text><circle class=\"b-s\" cx=\"185.5\" cy=\"181.0\" r=\"8.5\"></circle><text class=\"b-t\" x=\"185.5\" y=\"184.8\">S</text><circle class=\"b-a\" cx=\"451.3\" cy=\"312.5\" r=\"8.5\"></circle><text class=\"b-t\" x=\"451.3\" y=\"316.3\">A</text><circle class=\"b-n\" cx=\"553.1\" cy=\"241.2\" r=\"8.5\"></circle><text class=\"b-t\" x=\"553.1\" y=\"245.0\">In</text><circle class=\"b-i\" cx=\"318.0\" cy=\"304.2\" r=\"8.5\"></circle><text class=\"b-t\" x=\"318.0\" y=\"308.0\">I</text><circle class=\"b-i\" cx=\"380.9\" cy=\"387.5\" r=\"8.5\"></circle><text class=\"b-t\" x=\"380.9\" y=\"391.3\">I</text><circle class=\"b-a\" cx=\"23.5\" cy=\"428.2\" r=\"8.5\"></circle><text class=\"b-t\" x=\"23.5\" y=\"432.0\">A</text><text class=\"m-tick\" x=\"0\" y=\"618\">0\"</text><text class=\"m-tick\" x=\"150\" y=\"618\">6\"</text><text class=\"m-tick\" x=\"300\" y=\"618\">12\"</text><text class=\"m-tick\" x=\"450\" y=\"618\">18\"</text><text class=\"m-tick\" x=\"600\" y=\"618\">24\"</text><circle class=\"b-v\" cx=\"201.3\" cy=\"361.6\" r=\"8.5\"></circle><text class=\"b-t\" x=\"201.3\" y=\"365.4\">V</text></svg>",
+      "caption": "<p>Positions at the end of round 2</p><ul class=\"b-key\"><li><span class=\"b b-pk\">P</span>The Package</li><li><span class=\"b b-s\">S</span>Suppressed</li><li><span class=\"b b-w\">W</span>Wounded</li><li><span class=\"b b-i\">I</span>Injured</li><li><span class=\"b b-a\">A</span>Out of ammo</li><li><span class=\"b b-n\">In</span>Insanity</li><li><span class=\"b\" style=\"background:#7fd4f5\"> </span>Graviton pulse</li><li><span class=\"b b-v\">V</span>Perfect Void</li></ul>"
+     }
+    },
+    {
+     "vp": "End phase: Ratsong still holds the north objective, but no one holds the south. No VP. One reinforcement joins the Theatre: Growltiger. The graviton pulse beside Elijah fades away."
+    },
+    {
+     "roll": {
+      "side": "t",
+      "face": "mungojerrie",
+      "name": "Graviton Pulse - End phase",
+      "result": "Disperses",
+      "resultClass": "ammo",
+      "rows": [
+       {
+        "label": "Remains (5+)",
+        "dice": "3",
+        "result": "Disperses",
+        "resultClass": "ammo"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "round-3",
+   "no": "3",
+   "title": "Round 3: Down among the graves",
+   "blocks": [
+    {
+     "text": [
+      "With the Cawdor closing fast, the Theatre take the initiative. {@mistoffelees|Mistoffelees} is too badly burnt to focus on the Psychoteric Choir, so he draws his stub gun and fires at {@vermin-pyre|Vermin Pyre} instead.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "mistoffelees",
+        "name": "Mistoffelees - Stub Gun",
+        "result": "Vermin Pyre suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "To Hit (5+)",
+          "dice": "5",
+          "result": "Hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (4+)",
+          "dice": "2",
+          "result": "Suppressed",
+          "resultClass": "sup"
+         }
+        ]
+       }
+      },
+      "The round forces Vermin into cover, and {@mistoffelees|Mistoffelees} pulls back behind the wall with {@rumpus|Rumpus}.",
+      "{@ezekiel-crows|Ezekiel Crows} advances down the street, firing at {@wit|Wit} as he goes.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "ezekiel",
+        "name": "Ezekiel Crows - Autopistol",
+        "result": "Misses",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (3+)",
+          "dice": "1 f1",
+          "result": "Misses",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "{@growltiger|Growltiger} has just reached the south edge, and he answers with both pistols at once.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "growltiger",
+        "name": "Growltiger - Flechette Pistol and Autopistol",
+        "result": "Ezekiel suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "h6": "Flechette Pistol"
+         },
+         {
+          "label": "To Hit (4+)",
+          "dice": "1 f3",
+          "result": "Misses",
+          "resultClass": "ammo"
+         },
+         {
+          "h6": "Autopistol"
+         },
+         {
+          "label": "To Hit (4+)",
+          "dice": "5 f1a",
+          "result": "Hits, out of ammo",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (4+)",
+          "dice": "1",
+          "result": "Suppressed",
+          "resultClass": "sup"
+         }
+        ]
+       }
+      },
+      "The flechettes go wide, but the autopistol round slams into {@ezekiel-crows|Ezekiel} and knocks him down behind cover. Then {@growltiger|Growltiger}'s autopistol clicks empty.",
+      "Still reeling from the graviton hit, {@elijah-emberchoir|Elijah Emberchoir} picks himself up and moves into cover by the Ruin.",
+      "In the vats, {@deuteronomy|Deuteronomy}'s hold on the Perfect Void slips.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "deuteronomy",
+        "name": "Deuteronomy - Maintain Power",
+        "result": "Perfect Void drops",
+        "rows": [
+         {
+          "label": "Willpower 9",
+          "dice": "6 4",
+          "result": "Fails, Perfect Void drops"
+         }
+        ]
+       }
+      },
+      "The silence breaks around him, but he moves to the window anyway and fires at {@ezekiel-crows|Ezekiel}.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "deuteronomy",
+        "name": "Deuteronomy - Flechette Pistol",
+        "result": "Ezekiel suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "To Hit (3+)",
+          "dice": "5 f1a",
+          "result": "Hits, out of ammo",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "2",
+          "result": "Suppressed",
+          "resultClass": "sup"
+         }
+        ]
+       }
+      },
+      "The needles keep the Firebrand pinned, and {@deuteronomy|Deuteronomy}'s pistol is empty.",
+      "{@vermin-pyre|Vermin Pyre} slams a fresh canister into his flamer. In the bone yard, {@mungojerrie|Mungojerrie} works the grav gun's charge back up.",
+      "It does him no good. {@deus-and-amen|Amen} charges forward through the gravestones with Deus on the heavy stubbers, and opens fire on {@mungojerrie|Mungojerrie}.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "deus",
+        "name": "Deus and Amen - Twin-linked Heavy Stubber",
+        "result": "Mungojerrie seriously injured",
+        "rows": [
+         {
+          "label": "To Hit (3+)",
+          "dice": "4 f3 f3",
+          "result": "Six hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "1 6 4 4 6 2",
+          "result": "Four wounds"
+         },
+         {
+          "label": "Save (6+ AP -1)",
+          "dice": "",
+          "result": "No save"
+         },
+         {
+          "label": "Injury",
+          "dice": "fw fw fw si",
+          "result": "Serious Injury"
+         },
+         {
+          "note": "Note: Bulging Biceps to move at Initiative and fire a heavy weapon. Twin-linked to re-roll the Rapid Fire dice."
+         }
+        ],
+        "n": 4
+       }
+      },
+      "Six rounds find the Ghost, and he goes down among the graves.",
+      "{@wit|Wit} fires at {@ezekiel-crows|Ezekiel} and misses.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "wit",
+        "name": "Wit - Stub Gun",
+        "result": "Misses",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "1",
+          "result": "Misses",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "Then he ducks back into cover. His real mission still lies ahead of him: he is trying to slip past the Psalm and into their ground to spread his unrest.",
+      "{@mordecai|Mordecai} and {@gutter-cantor|Gutter Cantor} run down the street, chasing the Delaque towards the bone yard.",
+      "On the roof, {@blessed-filth|Blessed Filth} tries to hide from the voices.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "filth",
+        "name": "Blessed Filth - \"Hide!\"",
+        "result": "Still subject to Insanity",
+        "rows": [
+         {
+          "label": "Willpower 6",
+          "dice": "5 6",
+          "result": "Still subject to Insanity"
+         }
+        ]
+       }
+      },
+      "It doesn't work. Below him, {@ratsong|Ratsong} stays on the objective."
+     ]
+    },
+    {
+     "photo": {
+      "src": "images/2.1/photo-11.jpg",
+      "alt": "Deus and Amen peering round the Ruin with the heavy stubber, Mordecai and Gutter Cantor in the street, Mungojerrie in the bone yard and a Delaque fighter on the vats' upper floor.",
+      "caption": "Mordecai and Gutter run down the street, with Deus and Amen behind the Ruin."
+     }
+    },
+    {
+     "map": {
+      "svg": "<svg aria-label=\"Positions at the end of round 3: the Carrion Psalm pushing down the west street and east past the gothic ruin, with Ratsong on the north objective; the Midnight Theatre around the rendering vats and along the south edge, with Demeter, Rumpleteaser and Jellylorum arriving.\" role=\"img\" viewbox=\"-14 -24 628 668\"><defs><clippath id=\"mat21r3\"><rect height=\"600\" width=\"600\" x=\"0\" y=\"0\"></rect></clippath></defs><text class=\"m-edge p\" x=\"450\" y=\"-8\">The Carrion Psalm deploy</text><text class=\"m-edge t\" x=\"150\" y=\"638\">The Midnight Theatre deploy</text><rect class=\"m-mat\" height=\"600\" width=\"600\" x=\"0\" y=\"0\"></rect><g clip-path=\"url(#mat21r3)\"><path class=\"m-grid\" d=\"M150 0V600M0 150H600M300 0V600M0 300H600M450 0V600M0 450H600\"></path><path class=\"svg-p\" d=\"M600 0H300V150A150 150 0 0 1 450 300H600Z\"></path><path class=\"svg-t\" d=\"M0 600H300V450A150 150 0 0 1 150 300H0Z\"></path><circle class=\"m-plat\" cx=\"93.5\" cy=\"101.2\" r=\"83.6\"></circle><circle class=\"m-tower\" cx=\"93.5\" cy=\"101.2\" r=\"38.9\"></circle><polyline class=\"m-ladder\" points=\"144.3,167.6 152.8,178.7\"></polyline><circle class=\"m-solid\" cx=\"244.2\" cy=\"30.0\" r=\"9.7\"></circle><circle class=\"m-solid\" cx=\"244.2\" cy=\"56.2\" r=\"9.7\"></circle><polyline class=\"m-wall\" points=\"319.0,68.1 411.4,68.8 410.9,19.4\"></polyline><rect class=\"m-solid\" height=\"50.0\" width=\"104.1\" x=\"460.9\" y=\"13.8\"></rect><rect class=\"m-solid\" height=\"50.0\" width=\"103.5\" x=\"462.6\" y=\"96.9\"></rect><rect class=\"m-top\" height=\"107.6\" width=\"49.3\" x=\"491.6\" y=\"26.2\"></rect><rect class=\"m-solid\" height=\"59.0\" rx=\"10\" width=\"38.0\" x=\"163.4\" y=\"197.6\"></rect><polyline class=\"m-wall\" points=\"9.8,230.7 88.3,230.7\"></polyline><rect class=\"m-solid\" height=\"136.0\" width=\"99.3\" x=\"31.7\" y=\"254.0\"></rect><polyline class=\"m-wall\" points=\"129.8,252.9 129.8,391.1 27.1,391.1\"></polyline><polyline class=\"m-wall\" points=\"8.1,320.9 57.1,320.9\"></polyline><rect class=\"m-solid\" height=\"152.7\" width=\"95.8\" x=\"455.1\" y=\"177.9\"></rect><polyline class=\"m-wall\" points=\"456.2,176.4 456.2,331.7 553.6,331.7\"></polyline><polyline class=\"m-wall\" points=\"512.6,241.0 600.0,241.0\"></polyline><polyline class=\"m-div\" points=\"209.0,229.7 209.0,113.1 393.3,113.1 393.3,221.9\"></polyline><polygon class=\"m-solid\" points=\"209.0,231.2 247.4,234.8 274.4,239.5 300.9,248.8 333.6,238.4 354.8,229.7 375.9,222.9 393.3,220.9 393.3,299.5 209.0,299.5\"></polygon><polyline class=\"m-wall\" points=\"207.9,229.7 207.9,299.5 394.4,299.5 393.3,220.9\"></polyline><polyline class=\"m-ladder\" points=\"300.0,248.5 300.0,234.5\"></polyline><polyline class=\"m-div\" points=\"318.0,357.7 355.5,357.7 355.5,498.1 217.1,498.1\"></polyline><polygon class=\"m-solid\" points=\"174.2,357.7 318.0,357.7 297.7,378.7 266.7,395.7 242.5,412.6 230.1,440.9 221.6,469.5 217.1,496.9 174.2,496.9\"></polygon><polyline class=\"m-wall\" points=\"318.0,356.0 174.2,356.0 174.2,496.9 217.1,496.9\"></polyline><polyline class=\"m-ladder\" points=\"257.0,402.5 265.0,414.0\"></polyline><polyline class=\"m-wall\" points=\"179.3,533.6 179.3,577.1\"></polyline><polyline class=\"m-wall\" points=\"247.6,535.9 338.6,533.6 339.1,573.7\"></polyline><polygon class=\"m-plat\" points=\"490.5,364.5 598.9,423.4 598.9,542.2 490.5,600.0 385.0,542.2 385.0,422.3\"></polygon><circle class=\"m-tower\" cx=\"491.5\" cy=\"482.4\" r=\"55\"></circle><polyline class=\"m-ladder\" points=\"443.0,390.5 449.8,402.8\"></polyline><polyline class=\"m-wall\" points=\"465.9,367.4 572.1,367.4\"></polyline><polyline class=\"m-div\" points=\"396.7,430.8 394.5,541.0\"></polyline><rect class=\"m-solid\" height=\"15.8\" width=\"9.2\" x=\"30.6\" y=\"431.9\"></rect><rect class=\"m-solid\" height=\"15.8\" width=\"9.2\" x=\"83.7\" y=\"432.5\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"26.0\" y=\"479.2\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"83.1\" y=\"479.8\"></rect><rect class=\"m-solid\" height=\"16.1\" width=\"9.2\" x=\"28.3\" y=\"515.8\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.3\" x=\"81.9\" y=\"514.7\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"30.6\" y=\"551.9\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"82.5\" y=\"548.5\"></rect><polyline class=\"m-wall\" points=\"128.1,421.1 128.1,488.4\"></polyline><polyline class=\"m-wall\" points=\"128.1,506.7 128.1,572.5\"></polyline></g><circle class=\"m-centre\" cx=\"300\" cy=\"300\" r=\"6\"></circle><circle class=\"m-obj\" cx=\"300\" cy=\"125\" r=\"9\"></circle><circle class=\"m-obj-dot\" cx=\"300\" cy=\"125\" r=\"3\"></circle><circle class=\"m-obj\" cx=\"300\" cy=\"484\" r=\"9\"></circle><circle class=\"m-obj-dot\" cx=\"300\" cy=\"484\" r=\"3\"></circle><text class=\"m-lab\" x=\"93.5\" y=\"104.4\">Smoke stack</text><text class=\"m-lab\" x=\"514.1\" y=\"160.9\">Containers</text><text class=\"m-lab\" x=\"182.4\" y=\"271.0\">Tank</text><text class=\"m-lab\" x=\"81.9\" y=\"322.1\">Ruin</text><text class=\"m-lab\" x=\"502.7\" y=\"258.1\">Gothic ruin</text><text class=\"m-lab\" x=\"303.0\" y=\"175.3\">Manufactorum</text><text class=\"m-lab\" x=\"266.7\" y=\"460.9\">Rendering vats</text><text class=\"m-lab\" x=\"490.5\" y=\"483.8\">Starch silo</text><text class=\"m-lab\" x=\"60.6\" y=\"585.1\">Bone yard</text><circle class=\"tok-p\" cx=\"300.0\" cy=\"94.4\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"300.0\" y=\"99.9\">R</text><circle class=\"tok-p\" cx=\"31.5\" cy=\"303.7\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"31.5\" y=\"309.2\">El</text><circle class=\"tok-p\" cx=\"38.9\" cy=\"361.1\" r=\"19\"></circle><text class=\"tok-n two\" x=\"38.9\" y=\"366.6\">DA</text><circle class=\"tok-p\" cx=\"146.3\" cy=\"345.4\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"146.3\" y=\"350.9\">G</text><circle class=\"tok-p\" cx=\"146.3\" cy=\"377.8\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"146.3\" y=\"383.3\">M</text><circle class=\"tok-p\" cx=\"437.0\" cy=\"314.8\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"437.0\" y=\"320.3\">V</text><circle class=\"tok-p\" cx=\"474.1\" cy=\"313.9\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"474.1\" y=\"319.4\">B</text><circle class=\"tok-p\" cx=\"394.4\" cy=\"411.1\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"394.4\" y=\"416.6\">Ez</text><circle class=\"tok-t\" cx=\"587.5\" cy=\"48.1\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"587.5\" y=\"53.6\">Dm</text><circle class=\"tok-t\" cx=\"336.1\" cy=\"374.1\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"336.1\" y=\"379.6\">Rp</text><circle class=\"tok-t\" cx=\"192.6\" cy=\"427.8\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"192.6\" y=\"433.3\">De</text><circle class=\"tok-t\" cx=\"290.7\" cy=\"469.4\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"290.7\" y=\"474.9\">Mi</text><circle class=\"tok-t\" cx=\"12.5\" cy=\"438.0\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"12.5\" y=\"443.5\">Mj</text><circle class=\"tok-t\" cx=\"12.5\" cy=\"586.1\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"12.5\" y=\"591.6\">Rt</text><circle class=\"tok-t\" cx=\"366.7\" cy=\"585.2\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"366.7\" y=\"590.7\">G</text><circle class=\"tok-t\" cx=\"460.2\" cy=\"581.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"460.2\" y=\"587.0\">W</text><circle class=\"tok-t\" cx=\"585.2\" cy=\"587.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"585.2\" y=\"593.0\">J</text><circle class=\"b-w\" cx=\"43.9\" cy=\"294.9\" r=\"8.5\"></circle><text class=\"b-t\" x=\"43.9\" y=\"298.7\">W</text><circle class=\"b-pk\" cx=\"133.9\" cy=\"336.6\" r=\"8.5\"></circle><text class=\"b-t\" x=\"133.9\" y=\"340.4\">P</text><circle class=\"b-n\" cx=\"486.5\" cy=\"305.1\" r=\"8.5\"></circle><text class=\"b-t\" x=\"486.5\" y=\"308.9\">In</text><circle class=\"b-s\" cx=\"406.8\" cy=\"402.3\" r=\"8.5\"></circle><text class=\"b-t\" x=\"406.8\" y=\"406.1\">S</text><circle class=\"b-i\" cx=\"348.5\" cy=\"365.3\" r=\"8.5\"></circle><text class=\"b-t\" x=\"348.5\" y=\"369.1\">I</text><circle class=\"b-i\" cx=\"303.1\" cy=\"460.6\" r=\"8.5\"></circle><text class=\"b-t\" x=\"303.1\" y=\"464.4\">I</text><circle class=\"b-i\" cx=\"24.9\" cy=\"429.2\" r=\"8.5\"></circle><text class=\"b-t\" x=\"24.9\" y=\"433.0\">SI</text><circle class=\"b-a\" cx=\"379.1\" cy=\"576.4\" r=\"8.5\"></circle><text class=\"b-t\" x=\"379.1\" y=\"580.2\">A</text><circle class=\"b-a\" cx=\"205.0\" cy=\"419.0\" r=\"8.5\"></circle><text class=\"b-t\" x=\"205.0\" y=\"422.8\">A</text><text class=\"m-tick\" x=\"0\" y=\"618\">0\"</text><text class=\"m-tick\" x=\"150\" y=\"618\">6\"</text><text class=\"m-tick\" x=\"300\" y=\"618\">12\"</text><text class=\"m-tick\" x=\"450\" y=\"618\">18\"</text><text class=\"m-tick\" x=\"600\" y=\"618\">24\"</text></svg>",
+      "caption": "<p>Positions at the end of round 3</p><ul class=\"b-key\"><li><span class=\"b b-pk\">P</span>The Package</li><li><span class=\"b b-s\">S</span>Suppressed</li><li><span class=\"b b-w\">W</span>Wounded</li><li><span class=\"b b-i\">I</span>Injured</li><li><span class=\"b b-i\">SI</span>Seriously Injured</li><li><span class=\"b b-a\">A</span>Out of ammo</li><li><span class=\"b b-n\">In</span>Insanity</li></ul>"
+     }
+    },
+    {
+     "vp": "End phase: Ratsong holds the north objective and Mistoffelees the south, so neither gang holds both. No VP. Three reinforcements join the Theatre: Demeter, Rumpleteaser and Jellylorum."
+    }
+   ]
+  },
+  {
+   "id": "round-4",
+   "no": "4",
+   "title": "Round 4: Growltiger's last stand",
+   "blocks": [
+    {
+     "split": [
+      "tall"
+     ],
+     "text": [
+      "At the start of the round, the shadows by the north wall shift, and {@macavity|Macavity} steps out of them alongside {@demeter|Demeter}. The Theatre keep priority.",
+      "{@rumpleteaser|Rumpleteaser} appears from the gloom with his plasma gun levelled at {@mordecai|Mordecai}.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "rumpleteaser",
+        "name": "Rumpleteaser - Plasma Gun",
+        "result": "Mordecai suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "To Hit (3+)",
+          "dice": "3 f1",
+          "result": "Hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "1",
+          "result": "Suppressed",
+          "resultClass": "sup"
+         },
+         {
+          "label": "Ammo (6+)",
+          "dice": "1",
+          "result": "Out of ammo",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "The bolt sears past the Word Keeper and forces him down, but the coils burn out and the plasma gun goes dark.",
+      "{@ezekiel-crows|Ezekiel Crows} cracks his stimm-slug. Burning with chemical fury, he charges {@growltiger|Growltiger}.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "ezekiel",
+        "name": "Ezekiel Crows - Cleaver",
+        "result": "Growltiger out of action",
+        "rows": [
+         {
+          "note": "Initiative 3 +2 charge bonus"
+         },
+         {
+          "h6": "Cleaver"
+         },
+         {
+          "label": "To Hit (3+)",
+          "dice": "2 4 6",
+          "result": "Three hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (2+)",
+          "dice": "2 3 6",
+          "result": "Three wounds"
+         },
+         {
+          "label": "Injury",
+          "dice": "fw fw fw si ooa ooa",
+          "result": "Out of Action"
+         },
+         {
+          "note": "Note: Bull Charge gives +1 Strength in melee. The stimm-slug gives +2 Movement, +2 Strength and +2 Toughness.<br/>Growltiger suffers a hand injury."
+         }
+        ],
+        "n": 3
+       }
+      },
+      "The cleaver falls again and again. When {@ezekiel-crows|Ezekiel} steps back, {@growltiger|Growltiger} isn't getting up.",
+      "{@wit|Wit} sees the Gunslinger fall and has to hold his nerve.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "wit",
+        "name": "Wit - Nerve",
+        "result": "Passes",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "Cool 7",
+          "dice": "4 2",
+          "result": "Passes",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "In the bone yard, {@mungojerrie|Mungojerrie} tries to crawl away from {@deus-and-amen|Deus and Amen}, but he can't get up.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "mungojerrie",
+        "name": "Mungojerrie - Recovery",
+        "result": "Stays down",
+        "rows": [
+         {
+          "label": "Recovery",
+          "dice": "si",
+          "result": "Stays down"
+         }
+        ]
+       }
+      },
+      "{@vermin-pyre|Vermin Pyre} advances and turns his flamer on {@jellylorum|Jellylorum}.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "vermin",
+        "name": "Vermin Pyre - Flamer",
+        "result": "Jellylorum suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "To Wound (3+)",
+          "dice": "2",
+          "result": "Suppressed",
+          "resultClass": "sup"
+         },
+         {
+          "label": "Ammo (5+)",
+          "dice": "5",
+          "result": "Passes",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "The flames lick at the Medic and drive him into cover. This time the flamer keeps burning.",
+      "In the vats, {@deuteronomy|Deuteronomy} gathers himself and calls up the Perfect Void again.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "deuteronomy",
+        "name": "Deuteronomy - Perfect Void",
+        "result": "Manifests",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "Willpower 9",
+          "dice": "1 6",
+          "result": "Manifests",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "This time he holds it.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "deuteronomy",
+        "name": "Deuteronomy - Maintain Power",
+        "result": "Maintains",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "Willpower 9 +3",
+          "dice": "5 1",
+          "result": "Maintains",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "Then he reloads his flechette pistol.",
+      "At the north end of the manufactorum, {@ratsong|Ratsong} looks round and sees shapes moving in every shadow. The little Bonepicker abandons the objective, and {@macavity|Macavity} runs in to take it.",
+      "On the roof of the Gothic ruin, {@blessed-filth|Blessed Filth} is still trying to hide.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "filth",
+        "name": "Blessed Filth - \"Hide!\"",
+        "result": "Still subject to Insanity",
+        "rows": [
+         {
+          "label": "Willpower 6",
+          "dice": "5 4",
+          "result": "Still subject to Insanity"
+         }
+        ]
+       }
+      },
+      "{@wit|Wit} fires at {@ezekiel-crows|Ezekiel}, then runs.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "wit",
+        "name": "Wit - Stub Gun",
+        "result": "Misses",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "1",
+          "result": "Misses",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "{@mordecai|Mordecai} fires at {@rumpleteaser|Rumpleteaser}.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "mordecai",
+        "name": "Mordecai - Autopistol",
+        "result": "Misses, out of ammo",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (3+)",
+          "dice": "2 f1a",
+          "result": "Misses, out of ammo",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "The shot goes wide, and the Word Keeper's autopistol runs dry.",
+      "{@jellylorum|Jellylorum} shoots back at {@vermin-pyre|Vermin Pyre}, but his aim is off.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "jellylorum",
+        "name": "Jellylorum - Lasgun",
+        "result": "Misses",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "1",
+          "result": "Misses",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "{@deus-and-amen|Deus and Amen} crash through the bone yard and turn the heavy stubbers on the fallen {@mungojerrie|Mungojerrie}.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "deus",
+        "name": "Deus and Amen - Twin-linked Heavy Stubber",
+        "result": "Mungojerrie still seriously injured",
+        "rows": [
+         {
+          "label": "To Hit (3+, -1 seriously injured)",
+          "dice": "5 f1 f3",
+          "result": "Four hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "2 4 6 6",
+          "result": "Three wounds"
+         },
+         {
+          "label": "Injury",
+          "dice": "fw si si",
+          "result": "Still seriously injured"
+         }
+        ]
+       }
+      },
+      "{@mungojerrie|Mungojerrie} lies still among the graves, alive, but only just.",
+      "Behind the Psalm's lines, {@demeter|Demeter} daubs the Theatre's mark across the containers. The Guild's workers will see it in the morning, and they will remember who left it.",
+      "{@elijah-emberchoir|Elijah Emberchoir} charges forward. {@mistoffelees|Mistoffelees} stays crouched on the south objective, and {@gutter-cantor|Gutter Cantor} slips away towards the edge of the bone yard to deliver the saint's bones."
+     ],
+     "ports": [
+      {
+       "src": "images/2.1/photo-12.jpg",
+       "alt": "Ezekiel Crows standing over the fallen Growltiger, autopistol raised, with Growltiger lying on his back beside his two pistols.",
+       "class": "port",
+       "caption": "Growltiger's last stand."
+      }
+     ]
+    },
+    {
+     "photo": {
+      "src": "images/2.1/photo-13.jpg",
+      "alt": "Macavity crouched behind a ruined wall at the north end of the manufactorum, with Ratsong by the barrels in the foreground.",
+      "caption": "Macavity closes in on Ratsong at the north objective."
+     }
+    },
+    {
+     "map": {
+      "svg": "<svg aria-label=\"Positions at the end of round 4: Macavity on the north objective and Mistoffelees on the south; the Carrion Psalm pushed into the bone yard and the Theatre's corner, with Gutter Cantor at the west edge after delivering the package; Growltiger out of action south of the rendering vats.\" role=\"img\" viewbox=\"-14 -24 628 668\"><defs><clippath id=\"mat21r4\"><rect height=\"600\" width=\"600\" x=\"0\" y=\"0\"></rect></clippath></defs><text class=\"m-edge p\" x=\"450\" y=\"-8\">The Carrion Psalm deploy</text><text class=\"m-edge t\" x=\"150\" y=\"638\">The Midnight Theatre deploy</text><rect class=\"m-mat\" height=\"600\" width=\"600\" x=\"0\" y=\"0\"></rect><g clip-path=\"url(#mat21r4)\"><path class=\"m-grid\" d=\"M150 0V600M0 150H600M300 0V600M0 300H600M450 0V600M0 450H600\"></path><path class=\"svg-p\" d=\"M600 0H300V150A150 150 0 0 1 450 300H600Z\"></path><path class=\"svg-t\" d=\"M0 600H300V450A150 150 0 0 1 150 300H0Z\"></path><circle class=\"m-plat\" cx=\"93.5\" cy=\"101.2\" r=\"83.6\"></circle><circle class=\"m-tower\" cx=\"93.5\" cy=\"101.2\" r=\"38.9\"></circle><polyline class=\"m-ladder\" points=\"144.3,167.6 152.8,178.7\"></polyline><circle class=\"m-solid\" cx=\"244.2\" cy=\"30.0\" r=\"9.7\"></circle><circle class=\"m-solid\" cx=\"244.2\" cy=\"56.2\" r=\"9.7\"></circle><polyline class=\"m-wall\" points=\"319.0,68.1 411.4,68.8 410.9,19.4\"></polyline><rect class=\"m-solid\" height=\"50.0\" width=\"104.1\" x=\"460.9\" y=\"13.8\"></rect><rect class=\"m-solid\" height=\"50.0\" width=\"103.5\" x=\"462.6\" y=\"96.9\"></rect><rect class=\"m-top\" height=\"107.6\" width=\"49.3\" x=\"491.6\" y=\"26.2\"></rect><rect class=\"m-solid\" height=\"59.0\" rx=\"10\" width=\"38.0\" x=\"163.4\" y=\"197.6\"></rect><polyline class=\"m-wall\" points=\"9.8,230.7 88.3,230.7\"></polyline><rect class=\"m-solid\" height=\"136.0\" width=\"99.3\" x=\"31.7\" y=\"254.0\"></rect><polyline class=\"m-wall\" points=\"129.8,252.9 129.8,391.1 27.1,391.1\"></polyline><polyline class=\"m-wall\" points=\"8.1,320.9 57.1,320.9\"></polyline><rect class=\"m-solid\" height=\"152.7\" width=\"95.8\" x=\"455.1\" y=\"177.9\"></rect><polyline class=\"m-wall\" points=\"456.2,176.4 456.2,331.7 553.6,331.7\"></polyline><polyline class=\"m-wall\" points=\"512.6,241.0 600.0,241.0\"></polyline><polyline class=\"m-div\" points=\"209.0,229.7 209.0,113.1 393.3,113.1 393.3,221.9\"></polyline><polygon class=\"m-solid\" points=\"209.0,231.2 247.4,234.8 274.4,239.5 300.9,248.8 333.6,238.4 354.8,229.7 375.9,222.9 393.3,220.9 393.3,299.5 209.0,299.5\"></polygon><polyline class=\"m-wall\" points=\"207.9,229.7 207.9,299.5 394.4,299.5 393.3,220.9\"></polyline><polyline class=\"m-ladder\" points=\"300.0,248.5 300.0,234.5\"></polyline><polyline class=\"m-div\" points=\"318.0,357.7 355.5,357.7 355.5,498.1 217.1,498.1\"></polyline><polygon class=\"m-solid\" points=\"174.2,357.7 318.0,357.7 297.7,378.7 266.7,395.7 242.5,412.6 230.1,440.9 221.6,469.5 217.1,496.9 174.2,496.9\"></polygon><polyline class=\"m-wall\" points=\"318.0,356.0 174.2,356.0 174.2,496.9 217.1,496.9\"></polyline><polyline class=\"m-ladder\" points=\"257.0,402.5 265.0,414.0\"></polyline><polyline class=\"m-wall\" points=\"179.3,533.6 179.3,577.1\"></polyline><polyline class=\"m-wall\" points=\"247.6,535.9 338.6,533.6 339.1,573.7\"></polyline><polygon class=\"m-plat\" points=\"490.5,364.5 598.9,423.4 598.9,542.2 490.5,600.0 385.0,542.2 385.0,422.3\"></polygon><circle class=\"m-tower\" cx=\"491.5\" cy=\"482.4\" r=\"55\"></circle><polyline class=\"m-ladder\" points=\"443.0,390.5 449.8,402.8\"></polyline><polyline class=\"m-wall\" points=\"465.9,367.4 572.1,367.4\"></polyline><polyline class=\"m-div\" points=\"396.7,430.8 394.5,541.0\"></polyline><rect class=\"m-solid\" height=\"15.8\" width=\"9.2\" x=\"30.6\" y=\"431.9\"></rect><rect class=\"m-solid\" height=\"15.8\" width=\"9.2\" x=\"83.7\" y=\"432.5\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"26.0\" y=\"479.2\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"83.1\" y=\"479.8\"></rect><rect class=\"m-solid\" height=\"16.1\" width=\"9.2\" x=\"28.3\" y=\"515.8\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.3\" x=\"81.9\" y=\"514.7\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"30.6\" y=\"551.9\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"82.5\" y=\"548.5\"></rect><polyline class=\"m-wall\" points=\"128.1,421.1 128.1,488.4\"></polyline><polyline class=\"m-wall\" points=\"128.1,506.7 128.1,572.5\"></polyline></g><circle class=\"m-centre\" cx=\"300\" cy=\"300\" r=\"6\"></circle><circle class=\"m-obj\" cx=\"300\" cy=\"125\" r=\"9\"></circle><circle class=\"m-obj-dot\" cx=\"300\" cy=\"125\" r=\"3\"></circle><circle class=\"m-obj\" cx=\"300\" cy=\"484\" r=\"9\"></circle><circle class=\"m-obj-dot\" cx=\"300\" cy=\"484\" r=\"3\"></circle><text class=\"m-lab\" x=\"93.5\" y=\"104.4\">Smoke stack</text><text class=\"m-lab\" x=\"514.1\" y=\"160.9\">Containers</text><text class=\"m-lab\" x=\"182.4\" y=\"271.0\">Tank</text><text class=\"m-lab\" x=\"81.9\" y=\"322.1\">Ruin</text><text class=\"m-lab\" x=\"502.7\" y=\"258.1\">Gothic ruin</text><text class=\"m-lab\" x=\"303.0\" y=\"175.3\">Manufactorum</text><text class=\"m-lab\" x=\"266.7\" y=\"460.9\">Rendering vats</text><text class=\"m-lab\" x=\"490.5\" y=\"483.8\">Starch silo</text><text class=\"m-lab\" x=\"60.6\" y=\"585.1\">Bone yard</text><circle class=\"tok-p\" cx=\"199.1\" cy=\"133.3\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"199.1\" y=\"138.8\">R</text><circle class=\"tok-p\" cx=\"12.5\" cy=\"375.9\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"12.5\" y=\"381.4\">G</text><circle class=\"tok-p\" cx=\"147.2\" cy=\"375.9\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"147.2\" y=\"381.4\">M</text><circle class=\"tok-p\" cx=\"60.2\" cy=\"464.8\" r=\"19\"></circle><text class=\"tok-n two\" x=\"60.2\" y=\"470.3\">DA</text><circle class=\"tok-p\" cx=\"12.5\" cy=\"490.7\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"12.5\" y=\"496.2\">El</text><circle class=\"tok-p\" cx=\"476.9\" cy=\"316.7\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"476.9\" y=\"322.2\">B</text><circle class=\"tok-p\" cx=\"580.6\" cy=\"360.2\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"580.6\" y=\"365.7\">V</text><circle class=\"tok-p\" cx=\"366.7\" cy=\"560.2\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"366.7\" y=\"565.7\">Ez</text><circle class=\"tok-t\" cx=\"303.7\" cy=\"94.4\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"303.7\" y=\"99.9\">Mc</text><circle class=\"tok-t\" cx=\"585.2\" cy=\"42.6\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"585.2\" y=\"48.1\">Dm</text><circle class=\"tok-t\" cx=\"338.0\" cy=\"372.2\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"338.0\" y=\"377.7\">Rp</text><circle class=\"tok-t\" cx=\"192.6\" cy=\"433.3\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"192.6\" y=\"438.8\">De</text><circle class=\"tok-t\" cx=\"281.5\" cy=\"472.2\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"281.5\" y=\"477.7\">Mi</text><circle class=\"tok-t\" cx=\"59.3\" cy=\"512.0\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"59.3\" y=\"517.5\">Mj</text><circle class=\"tok-t\" cx=\"148.1\" cy=\"586.1\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"148.1\" y=\"591.6\">Rt</text><circle class=\"tok-t\" cx=\"546.3\" cy=\"529.1\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"546.3\" y=\"534.6\">W</text><circle class=\"tok-t\" cx=\"585.2\" cy=\"584.3\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"585.2\" y=\"589.8\">J</text><text aria-label=\"Out of Action\" class=\"ooa-e\" x=\"365.7\" y=\"591\">💀</text><circle class=\"b-w\" cx=\"24.9\" cy=\"481.9\" r=\"8.5\"></circle><text class=\"b-t\" x=\"24.9\" y=\"485.7\">W</text><circle class=\"b-a\" cx=\"159.6\" cy=\"367.1\" r=\"8.5\"></circle><text class=\"b-t\" x=\"159.6\" y=\"370.9\">A</text><circle class=\"b-n\" cx=\"489.3\" cy=\"307.9\" r=\"8.5\"></circle><text class=\"b-t\" x=\"489.3\" y=\"311.7\">In</text><circle class=\"b-i\" cx=\"350.4\" cy=\"363.4\" r=\"8.5\"></circle><text class=\"b-t\" x=\"350.4\" y=\"367.2\">I</text><circle class=\"b-i\" cx=\"293.9\" cy=\"463.4\" r=\"8.5\"></circle><text class=\"b-t\" x=\"293.9\" y=\"467.2\">I</text><circle class=\"b-i\" cx=\"71.7\" cy=\"503.2\" r=\"8.5\"></circle><text class=\"b-t\" x=\"71.7\" y=\"507.0\">SI</text><circle class=\"b-a\" cx=\"160.5\" cy=\"577.3\" r=\"8.5\"></circle><text class=\"b-t\" x=\"160.5\" y=\"581.1\">A</text><text class=\"m-tick\" x=\"0\" y=\"618\">0\"</text><text class=\"m-tick\" x=\"150\" y=\"618\">6\"</text><text class=\"m-tick\" x=\"300\" y=\"618\">12\"</text><text class=\"m-tick\" x=\"450\" y=\"618\">18\"</text><text class=\"m-tick\" x=\"600\" y=\"618\">24\"</text><circle class=\"b-v\" cx=\"205.0\" cy=\"424.5\" r=\"8.5\"></circle><text class=\"b-t\" x=\"205.0\" y=\"428.3\">V</text></svg>",
+      "caption": "<p>Positions at the end of round 4</p><ul class=\"b-key\"><li><span class=\"b b-s\">S</span>Suppressed</li><li><span class=\"b b-w\">W</span>Wounded</li><li><span class=\"b b-i\">I</span>Injured</li><li><span class=\"b b-i\">SI</span>Seriously Injured</li><li><span class=\"b b-a\">A</span>Out of ammo</li><li><span class=\"b b-n\">In</span>Insanity</li><li><span aria-hidden=\"true\" class=\"ooa-k\">💀</span>Out of Action</li><li><span class=\"b b-v\">V</span>Perfect Void</li></ul>"
+     }
+    },
+    {
+     "vp": "End phase: the Psalm deliver the package, completing their side job. Macavity holds the north objective and Mistoffelees the south, so the Theatre hold both and score 1 VP."
+    },
+    {
+     "roll": {
+      "name": "The Midnight Theatre - Bottle Check",
+      "result": "The Theatre hold",
+      "resultClass": "ammo",
+      "rows": [
+       {
+        "label": "Deuteronomy (Leadership 8)",
+        "dice": "1 4",
+        "result": "Passes",
+        "resultClass": "ammo"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "round-5",
+   "no": "5",
+   "title": "Round 5: Cutting their losses",
+   "blocks": [
+    {
+     "split": [
+      "tall"
+     ],
+     "text": [
+      "With a jolt of adrenaline, {@rumpleteaser|Rumpleteaser} rushes in behind {@ezekiel-crows|Ezekiel}, coaxing his plasma gun back to life as he goes, and fires.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "rumpleteaser",
+        "name": "Rumpleteaser - Plasma Gun",
+        "result": "Misses, out of ammo",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (3+)",
+          "dice": "1 f3",
+          "result": "Misses",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "Ammo (6+)",
+          "dice": "2",
+          "result": "Out of ammo",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "The bolt goes wide, and the plasma gun overheats again.",
+      "{@ezekiel-crows|Ezekiel}'s stimm-slug wears off. He shakes his head clear.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "ezekiel",
+        "name": "Ezekiel Crows - Stimm-slug",
+        "result": "No effect",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "Stimm-slug (2+)",
+          "dice": "4",
+          "result": "No effect",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "Then he turns and charges {@rumpleteaser|Rumpleteaser}.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "ezekiel",
+        "name": "Ezekiel Crows - Cleaver and Autopistol",
+        "result": "Rumpleteaser injured",
+        "rows": [
+         {
+          "note": "Initiative 3 +2 charge bonus"
+         },
+         {
+          "h6": "Cleaver"
+         },
+         {
+          "label": "To Hit (3+)",
+          "dice": "2 6 6",
+          "result": "Two hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "4 3",
+          "result": "Two wounds"
+         },
+         {
+          "label": "Injury",
+          "dice": "fw fw",
+          "result": "Injured"
+         },
+         {
+          "h6": "Autopistol (secondary)"
+         },
+         {
+          "label": "To Hit (3+)",
+          "dice": "4",
+          "result": "Hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (4+)",
+          "dice": "2",
+          "result": "Suppressed",
+          "resultClass": "sup"
+         },
+         {
+          "note": "Note: the cleaver is Lethality 2."
+         }
+        ]
+       }
+      },
+      "The cleaver bites twice, and the autopistol in his other hand keeps the Ghost pinned. {@rumpleteaser|Rumpleteaser} lashes out with his fists.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "rumpleteaser",
+        "name": "Rumpleteaser - Reaction: Unarmed",
+        "result": "Saved",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "note": "Initiative 4"
+         },
+         {
+          "label": "To Hit (3+)",
+          "dice": "3",
+          "result": "One hit",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (4+)",
+          "dice": "5",
+          "result": "One wound"
+         },
+         {
+          "label": "Save (5+)",
+          "dice": "6",
+          "result": "Saved",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "The blow glances off {@ezekiel-crows|Ezekiel}'s armour.",
+      "{@jellylorum|Jellylorum} fires at {@vermin-pyre|Vermin Pyre}, then moves back towards the objective.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "jellylorum",
+        "name": "Jellylorum - Lasgun",
+        "result": "Misses",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "1",
+          "result": "Misses",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "{@vermin-pyre|Vermin Pyre} steps up and torches {@wit|Wit} and {@jellylorum|Jellylorum} together.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "vermin",
+        "name": "Vermin Pyre - Flamer",
+        "result": "Jellylorum out of action",
+        "rows": [
+         {
+          "h6": "Wit"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "1",
+          "result": "Suppressed",
+          "resultClass": "sup"
+         },
+         {
+          "h6": "Jellylorum"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "5 4",
+          "result": "Two wounds"
+         },
+         {
+          "label": "Save (6+ AP -1)",
+          "dice": "",
+          "result": "No save"
+         },
+         {
+          "label": "Injury",
+          "dice": "fw ooa",
+          "result": "Out of Action"
+         },
+         {
+          "label": "Ammo (5+)",
+          "dice": "4",
+          "result": "Out of ammo",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Jellylorum suffers a hand injury."
+         }
+        ]
+       }
+      },
+      "{@wit|Wit} dives clear, but the flames catch {@jellylorum|Jellylorum} full on, and the Medic falls burning.",
+      "At the north end of the manufactorum, {@macavity|Macavity} charges {@ratsong|Ratsong}.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "macavity",
+        "name": "Macavity - Serpent's Fangs",
+        "result": "Ratsong out of action",
+        "rows": [
+         {
+          "note": "Initiative 5 +2 charge bonus"
+         },
+         {
+          "label": "To Hit (3+, -1 out of line of sight)",
+          "dice": "4 5 1 5 3 3",
+          "result": "Three hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "1 6 2",
+          "result": "One wound"
+         },
+         {
+          "label": "Save (6+ AP -3)",
+          "dice": "",
+          "result": "No save"
+         },
+         {
+          "label": "Injury",
+          "dice": "ooa",
+          "result": "Out of Action"
+         },
+         {
+          "note": "Ratsong suffers an eye injury."
+         }
+        ],
+        "n": 4
+       }
+      },
+      "The Nacht-Ghul's fangs find the Bonepicker's face, and {@ratsong|Ratsong} goes down.",
+      "In the bone yard, {@deus-and-amen|Deus and Amen} fall on the helpless {@mungojerrie|Mungojerrie}.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "deus",
+        "name": "Deus and Amen - Coup de Grâce",
+        "result": "Mungojerrie out of action",
+        "rows": [
+         {
+          "label": "Deus and Amen: Strength 5",
+          "dice": "3",
+          "result": "8"
+         },
+         {
+          "label": "Mungojerrie: Strength 3",
+          "dice": "5",
+          "result": "8"
+         },
+         {
+          "note": "Mungojerrie goes Out of Action with a critical injury."
+         }
+        ]
+       }
+      },
+      "{@deus-and-amen|Amen}'s great club comes down, and {@mungojerrie|Mungojerrie} doesn't move again.",
+      "{@deuteronomy|Deuteronomy} holds the Perfect Void.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "deuteronomy",
+        "name": "Deuteronomy - Maintain Power",
+        "result": "Maintains",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "Willpower 9",
+          "dice": "4 1",
+          "result": "Perfect Void maintained",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "He fires at {@deus-and-amen|Deus and Amen}, but the needles go wide.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "deuteronomy",
+        "name": "Deuteronomy - Flechette Pistol",
+        "result": "Misses",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (3+)",
+          "dice": "2 f2",
+          "result": "Misses",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "{@gutter-cantor|Gutter Cantor} fires back at {@deuteronomy|Deuteronomy}.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "cantor",
+        "name": "Gutter Cantor - Autogun",
+        "result": "Deuteronomy suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "5 f2",
+          "result": "Two hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (4+)",
+          "dice": "3 4",
+          "result": "One wound"
+         },
+         {
+          "label": "Save (5+ +2 cover)",
+          "dice": "6",
+          "result": "Saved",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "Nerves of Steel (Cool 8)",
+          "dice": "6 3",
+          "result": "Fails, suppressed",
+          "resultClass": "sup"
+         }
+        ]
+       }
+      },
+      "The rounds spark off the window frame. {@deuteronomy|Deuteronomy}'s cover holds, but his nerve doesn't, and he drops below the sill.",
+      "At the north objective, {@demeter|Demeter} steps out of the shadows and takes it.",
+      "{@elijah-emberchoir|Elijah Emberchoir} fires on {@deuteronomy|Deuteronomy} too.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "elijah",
+        "name": "Elijah Emberchoir - Autopistol",
+        "result": "Deuteronomy suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "To Hit (3+)",
+          "dice": "5 f1a",
+          "result": "One hit, out of ammo",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (4+)",
+          "dice": "1",
+          "result": "Suppressed",
+          "resultClass": "sup"
+         }
+        ]
+       }
+      },
+      "The round keeps the Master of Shadow pinned, and {@elijah-emberchoir|Elijah}'s autopistol runs dry.",
+      "{@rumpus|Rumpus} drags itself across the deck plates and charges {@ezekiel-crows|Ezekiel}, jaws snapping.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "rumpus",
+        "name": "Rumpus - Ferocious Jaws",
+        "result": "Saved",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "note": "Initiative 3 +2 charge bonus"
+         },
+         {
+          "label": "To Hit (4+, +1 assist)",
+          "dice": "6 4",
+          "result": "Two hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (4+)",
+          "dice": "5 2",
+          "result": "One wound"
+         },
+         {
+          "label": "Save (5+ AP -1)",
+          "dice": "6",
+          "result": "Saved",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "{@ezekiel-crows|Ezekiel}'s armour turns the bite, and he swings back at the Wyrm.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "ezekiel",
+        "name": "Ezekiel Crows - Reaction",
+        "result": "Misses",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "note": "Initiative 3"
+         },
+         {
+          "label": "To Hit (3+, -1 interference)",
+          "dice": "1",
+          "result": "Misses",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "The cleaver misses.",
+      "\"I'll get you!\" On the roof of the Gothic ruin, {@blessed-filth|Blessed Filth} spins round and fires at the nearest figure he can see. It's {@vermin-pyre|Vermin Pyre}.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "filth",
+        "name": "Blessed Filth - Long Rifle",
+        "result": "Misses",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "1",
+          "result": "Misses",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "The shot goes wide, and the madness doesn't let go.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "filth",
+        "name": "Blessed Filth - \"I'll Get You!\"",
+        "result": "Still subject to Insanity",
+        "rows": [
+         {
+          "label": "Willpower 6",
+          "dice": "6 4",
+          "result": "Still subject to Insanity"
+         }
+        ]
+       }
+      },
+      "{@mordecai|Mordecai} charges {@mistoffelees|Mistoffelees}.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "mordecai",
+        "name": "Mordecai - Charge",
+        "result": "Engaged",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "Charge (5+)",
+          "dice": "6",
+          "result": "Engaged",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "{@mistoffelees|Mistoffelees} fires his stub gun as the Word Keeper closes.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "mistoffelees",
+        "name": "Mistoffelees - Reaction: Stub Gun",
+        "result": "Misses",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "note": "Initiative 4"
+         },
+         {
+          "label": "To Hit (5+)",
+          "dice": "1",
+          "result": "Misses",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "Then the chainglaive comes round.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "mordecai",
+        "name": "Mordecai - Chainglaive",
+        "result": "Mistoffelees seriously injured",
+        "rows": [
+         {
+          "note": "Initiative 1 +2 charge bonus"
+         },
+         {
+          "label": "To Hit (3+)",
+          "dice": "1 4 6",
+          "result": "Two hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "6 1",
+          "result": "One wound with Shred"
+         },
+         {
+          "label": "Save (6+ AP -1)",
+          "dice": "",
+          "result": "No save"
+         },
+         {
+          "label": "Injury",
+          "dice": "fw si si",
+          "result": "Serious Injury"
+         },
+         {
+          "note": "Note: Lethality 2 with Shred."
+         }
+        ]
+       }
+      },
+      "Its teeth tear through {@mistoffelees|Mistoffelees}' coat, and he collapses at {@mordecai|Mordecai}'s feet. Not even Mr. Mistoffelees can conjure his way out of this one.",
+      "{@wit|Wit} fires a last shot at {@vermin-pyre|Vermin Pyre}, then backs away towards the objective.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "wit",
+        "name": "Wit - Stub Gun",
+        "result": "Misses",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "2",
+          "result": "Misses",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      }
+     ],
+     "ports": [
+      {
+       "src": "images/2.1/photo-14.jpg",
+       "alt": "Macavity looming over Ratsong by the barrels at the north end of the manufactorum, serpent's fangs raised.",
+       "class": "port",
+       "caption": "Macavity falls on Ratsong."
+      }
+     ]
+    },
+    {
+     "photo": {
+      "src": "images/2.1/photo-15.jpg",
+      "alt": "Mordecai charging Mistoffelees on the wall of the rendering vats, while Rumpleteaser, Rumpus and Ezekiel Crows fight on the other side of the wall.",
+      "caption": "Mordecai charges Mistoffelees, with Ezekiel locked with Rumpleteaser and Rumpus."
+     }
+    },
+    {
+     "map": {
+      "svg": "<svg aria-label=\"Positions at the end of round 5: Demeter and Macavity at the north objective, Mordecai engaged with Mistoffelees by the south objective, Ezekiel locked with Rumpleteaser and Rumpus, and Ratsong, Mungojerrie and Jellylorum out of action. Wit has fled.\" role=\"img\" viewbox=\"-14 -24 628 668\"><defs><clippath id=\"mat21r5\"><rect height=\"600\" width=\"600\" x=\"0\" y=\"0\"></rect></clippath></defs><text class=\"m-edge p\" x=\"450\" y=\"-8\">The Carrion Psalm deploy</text><text class=\"m-edge t\" x=\"150\" y=\"638\">The Midnight Theatre deploy</text><rect class=\"m-mat\" height=\"600\" width=\"600\" x=\"0\" y=\"0\"></rect><g clip-path=\"url(#mat21r5)\"><path class=\"m-grid\" d=\"M150 0V600M0 150H600M300 0V600M0 300H600M450 0V600M0 450H600\"></path><path class=\"svg-p\" d=\"M600 0H300V150A150 150 0 0 1 450 300H600Z\"></path><path class=\"svg-t\" d=\"M0 600H300V450A150 150 0 0 1 150 300H0Z\"></path><circle class=\"m-plat\" cx=\"93.5\" cy=\"101.2\" r=\"83.6\"></circle><circle class=\"m-tower\" cx=\"93.5\" cy=\"101.2\" r=\"38.9\"></circle><polyline class=\"m-ladder\" points=\"144.3,167.6 152.8,178.7\"></polyline><circle class=\"m-solid\" cx=\"244.2\" cy=\"30.0\" r=\"9.7\"></circle><circle class=\"m-solid\" cx=\"244.2\" cy=\"56.2\" r=\"9.7\"></circle><polyline class=\"m-wall\" points=\"319.0,68.1 411.4,68.8 410.9,19.4\"></polyline><rect class=\"m-solid\" height=\"50.0\" width=\"104.1\" x=\"460.9\" y=\"13.8\"></rect><rect class=\"m-solid\" height=\"50.0\" width=\"103.5\" x=\"462.6\" y=\"96.9\"></rect><rect class=\"m-top\" height=\"107.6\" width=\"49.3\" x=\"491.6\" y=\"26.2\"></rect><rect class=\"m-solid\" height=\"59.0\" rx=\"10\" width=\"38.0\" x=\"163.4\" y=\"197.6\"></rect><polyline class=\"m-wall\" points=\"9.8,230.7 88.3,230.7\"></polyline><rect class=\"m-solid\" height=\"136.0\" width=\"99.3\" x=\"31.7\" y=\"254.0\"></rect><polyline class=\"m-wall\" points=\"129.8,252.9 129.8,391.1 27.1,391.1\"></polyline><polyline class=\"m-wall\" points=\"8.1,320.9 57.1,320.9\"></polyline><rect class=\"m-solid\" height=\"152.7\" width=\"95.8\" x=\"455.1\" y=\"177.9\"></rect><polyline class=\"m-wall\" points=\"456.2,176.4 456.2,331.7 553.6,331.7\"></polyline><polyline class=\"m-wall\" points=\"512.6,241.0 600.0,241.0\"></polyline><polyline class=\"m-div\" points=\"209.0,229.7 209.0,113.1 393.3,113.1 393.3,221.9\"></polyline><polygon class=\"m-solid\" points=\"209.0,231.2 247.4,234.8 274.4,239.5 300.9,248.8 333.6,238.4 354.8,229.7 375.9,222.9 393.3,220.9 393.3,299.5 209.0,299.5\"></polygon><polyline class=\"m-wall\" points=\"207.9,229.7 207.9,299.5 394.4,299.5 393.3,220.9\"></polyline><polyline class=\"m-ladder\" points=\"300.0,248.5 300.0,234.5\"></polyline><polyline class=\"m-div\" points=\"318.0,357.7 355.5,357.7 355.5,498.1 217.1,498.1\"></polyline><polygon class=\"m-solid\" points=\"174.2,357.7 318.0,357.7 297.7,378.7 266.7,395.7 242.5,412.6 230.1,440.9 221.6,469.5 217.1,496.9 174.2,496.9\"></polygon><polyline class=\"m-wall\" points=\"318.0,356.0 174.2,356.0 174.2,496.9 217.1,496.9\"></polyline><polyline class=\"m-ladder\" points=\"257.0,402.5 265.0,414.0\"></polyline><polyline class=\"m-wall\" points=\"179.3,533.6 179.3,577.1\"></polyline><polyline class=\"m-wall\" points=\"247.6,535.9 338.6,533.6 339.1,573.7\"></polyline><polygon class=\"m-plat\" points=\"490.5,364.5 598.9,423.4 598.9,542.2 490.5,600.0 385.0,542.2 385.0,422.3\"></polygon><circle class=\"m-tower\" cx=\"491.5\" cy=\"482.4\" r=\"55\"></circle><polyline class=\"m-ladder\" points=\"443.0,390.5 449.8,402.8\"></polyline><polyline class=\"m-wall\" points=\"465.9,367.4 572.1,367.4\"></polyline><polyline class=\"m-div\" points=\"396.7,430.8 394.5,541.0\"></polyline><rect class=\"m-solid\" height=\"15.8\" width=\"9.2\" x=\"30.6\" y=\"431.9\"></rect><rect class=\"m-solid\" height=\"15.8\" width=\"9.2\" x=\"83.7\" y=\"432.5\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"26.0\" y=\"479.2\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"83.1\" y=\"479.8\"></rect><rect class=\"m-solid\" height=\"16.1\" width=\"9.2\" x=\"28.3\" y=\"515.8\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.3\" x=\"81.9\" y=\"514.7\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"30.6\" y=\"551.9\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"82.5\" y=\"548.5\"></rect><polyline class=\"m-wall\" points=\"128.1,421.1 128.1,488.4\"></polyline><polyline class=\"m-wall\" points=\"128.1,506.7 128.1,572.5\"></polyline></g><circle class=\"m-centre\" cx=\"300\" cy=\"300\" r=\"6\"></circle><circle class=\"m-obj\" cx=\"300\" cy=\"125\" r=\"9\"></circle><circle class=\"m-obj-dot\" cx=\"300\" cy=\"125\" r=\"3\"></circle><circle class=\"m-obj\" cx=\"300\" cy=\"484\" r=\"9\"></circle><circle class=\"m-obj-dot\" cx=\"300\" cy=\"484\" r=\"3\"></circle><text class=\"m-lab\" x=\"93.5\" y=\"104.4\">Smoke stack</text><text class=\"m-lab\" x=\"514.1\" y=\"160.9\">Containers</text><text class=\"m-lab\" x=\"182.4\" y=\"271.0\">Tank</text><text class=\"m-lab\" x=\"81.9\" y=\"322.1\">Ruin</text><text class=\"m-lab\" x=\"502.7\" y=\"258.1\">Gothic ruin</text><text class=\"m-lab\" x=\"303.0\" y=\"175.3\">Manufactorum</text><text class=\"m-lab\" x=\"266.7\" y=\"460.9\">Rendering vats</text><text class=\"m-lab\" x=\"490.5\" y=\"483.8\">Starch silo</text><text class=\"m-lab\" x=\"60.6\" y=\"585.1\">Bone yard</text><circle class=\"tok-p\" cx=\"15.7\" cy=\"406.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"15.7\" y=\"412.0\">G</text><circle class=\"tok-p\" cx=\"62.0\" cy=\"473.1\" r=\"19\"></circle><text class=\"tok-n two\" x=\"62.0\" y=\"478.6\">DA</text><circle class=\"tok-p\" cx=\"113.0\" cy=\"497.2\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"113.0\" y=\"502.7\">El</text><circle class=\"tok-p\" cx=\"472.2\" cy=\"313.9\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"472.2\" y=\"319.4\">B</text><circle class=\"tok-p\" cx=\"587.5\" cy=\"480.6\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"587.5\" y=\"486.1\">V</text><circle class=\"tok-p\" cx=\"355.6\" cy=\"527.8\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"355.6\" y=\"533.3\">Ez</text><circle class=\"tok-p\" cx=\"313.9\" cy=\"460.2\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"313.9\" y=\"465.7\">M</text><circle class=\"tok-t\" cx=\"199.1\" cy=\"112.0\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"199.1\" y=\"117.5\">Mc</text><circle class=\"tok-t\" cx=\"338.0\" cy=\"100.0\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"338.0\" y=\"105.5\">Dm</text><circle class=\"tok-t\" cx=\"188.9\" cy=\"467.6\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"188.9\" y=\"473.1\">De</text><circle class=\"tok-t\" cx=\"338.0\" cy=\"477.8\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"338.0\" y=\"483.3\">Mi</text><circle class=\"tok-t\" cx=\"373.1\" cy=\"508.3\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"373.1\" y=\"513.8\">Rp</text><circle class=\"tok-t\" cx=\"336.1\" cy=\"515.7\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"336.1\" y=\"521.2\">Rt</text><text aria-label=\"Out of Action\" class=\"ooa-e\" x=\"199.1\" y=\"140.3\">💀</text><text aria-label=\"Out of Action\" class=\"ooa-e\" x=\"63.0\" y=\"512.5\">💀</text><text aria-label=\"Out of Action\" class=\"ooa-e\" x=\"502.8\" y=\"563.4\">💀</text><circle class=\"b-w\" cx=\"125.4\" cy=\"488.4\" r=\"8.5\"></circle><text class=\"b-t\" x=\"125.4\" y=\"492.2\">W</text><circle class=\"b-a\" cx=\"140.4\" cy=\"488.4\" r=\"8.5\"></circle><text class=\"b-t\" x=\"140.4\" y=\"492.2\">A</text><circle class=\"b-a\" cx=\"301.5\" cy=\"451.4\" r=\"8.5\"></circle><text class=\"b-t\" x=\"301.5\" y=\"455.2\">A</text><circle class=\"b-a\" cx=\"575.1\" cy=\"471.8\" r=\"8.5\"></circle><text class=\"b-t\" x=\"575.1\" y=\"475.6\">A</text><circle class=\"b-n\" cx=\"484.6\" cy=\"305.1\" r=\"8.5\"></circle><text class=\"b-t\" x=\"484.6\" y=\"308.9\">In</text><circle class=\"b-s\" cx=\"176.5\" cy=\"458.8\" r=\"8.5\"></circle><text class=\"b-t\" x=\"176.5\" y=\"462.6\">S</text><circle class=\"b-v\" cx=\"161.5\" cy=\"458.8\" r=\"8.5\"></circle><text class=\"b-t\" x=\"161.5\" y=\"462.6\">V</text><circle class=\"b-i\" cx=\"350.4\" cy=\"469.0\" r=\"8.5\"></circle><text class=\"b-t\" x=\"350.4\" y=\"472.8\">SI</text><circle class=\"b-i\" cx=\"385.5\" cy=\"499.5\" r=\"8.5\"></circle><text class=\"b-t\" x=\"385.5\" y=\"503.3\">I</text><circle class=\"b-i\" cx=\"323.7\" cy=\"506.9\" r=\"8.5\"></circle><text class=\"b-t\" x=\"323.7\" y=\"510.7\">I</text><circle class=\"b-s\" cx=\"308.7\" cy=\"506.9\" r=\"8.5\"></circle><text class=\"b-t\" x=\"308.7\" y=\"510.7\">S</text><circle class=\"b-a\" cx=\"293.7\" cy=\"506.9\" r=\"8.5\"></circle><text class=\"b-t\" x=\"293.7\" y=\"510.7\">A</text><text class=\"m-tick\" x=\"0\" y=\"618\">0\"</text><text class=\"m-tick\" x=\"150\" y=\"618\">6\"</text><text class=\"m-tick\" x=\"300\" y=\"618\">12\"</text><text class=\"m-tick\" x=\"450\" y=\"618\">18\"</text><text class=\"m-tick\" x=\"600\" y=\"618\">24\"</text></svg>",
+      "caption": "<p>Positions at the end of round 5</p><ul class=\"b-key\"><li><span class=\"b b-s\">S</span>Suppressed</li><li><span class=\"b b-w\">W</span>Wounded</li><li><span class=\"b b-i\">I</span>Injured</li><li><span class=\"b b-i\">SI</span>Seriously Injured</li><li><span class=\"b b-a\">A</span>Out of ammo</li><li><span class=\"b b-n\">In</span>Insanity</li><li><span class=\"b b-v\">V</span>Perfect Void</li><li><span aria-hidden=\"true\" class=\"ooa-k\">💀</span>Out of Action</li></ul>"
+     }
+    },
+    {
+     "vp": "End phase: both gangs take bottle checks. The Psalm hold, but the Theatre fail theirs, and Wit runs from the field."
+    },
+    {
+     "roll": {
+      "name": "The Carrion Psalm - Bottle Check",
+      "result": "The Psalm hold",
+      "resultClass": "ammo",
+      "rows": [
+       {
+        "label": "Mordecai (Leadership 8)",
+        "dice": "2 5",
+        "result": "Passes",
+        "resultClass": "ammo"
+       }
+      ]
+     }
+    },
+    {
+     "roll": {
+      "name": "The Midnight Theatre - Bottle Check",
+      "result": "The Theatre bottle, Wit flees",
+      "rows": [
+       {
+        "label": "Deuteronomy (Leadership 8)",
+        "dice": "5 4",
+        "result": "Bottle!"
+       },
+       {
+        "note": "Wit flees."
+       }
+      ]
+     }
+    },
+    {
+     "vp": "With their mission complete, the Theatre cut their losses and leave the Rendermarch in the hands of the Cawdor. {p:The Carrion Psalm} win."
+    }
+   ]
+  }
+ ],
+ "aftermath": [
+  {
+   "result": "{p:The Carrion Psalm} take the Rendermarch"
+  },
+  {
+   "prose": [
+    "The Theatre slip away into the dark with what they came for: the Guild's workers are restless, and the Cawdor will be hearing those whispers for a long time. But the Rendermarch belongs to the Psalm now. {@mistoffelees|Mistoffelees} recovers from the Word Keeper's chainglaive. The others are not so lucky: {@growltiger|Growltiger} and {@jellylorum|Jellylorum} both carry hand injuries away from the fight, and {@mungojerrie|Mungojerrie} is left critically injured by {@deus-and-amen|Amen}. On the Psalm's side, {@ratsong|Ratsong} loses an eye to {@macavity|Macavity}'s fangs."
+   ]
+  },
+  {
+   "table": {
+    "label": "Post-battle ledger",
+    "class": "ledger",
+    "head": [
+     {
+      "html": "Gang"
+     },
+     {
+      "html": "Territory"
+     },
+     {
+      "html": "Side job"
+     },
+     {
+      "html": "Casualties"
+     },
+     {
+      "html": "Credits",
+      "class": "num"
+     },
+     {
+      "html": "Reputation",
+      "class": "num"
+     }
+    ],
+    "rows": [
+     {
+      "cells": [
+       {
+        "html": "The Carrion Psalm",
+        "class": "p"
+       },
+       {
+        "html": "Rendermarch (Corpse Farm)"
+       },
+       {
+        "html": "The Package: completed"
+       },
+       {
+        "html": "Ratsong: eye injury"
+       },
+       {
+        "html": "+80",
+        "class": "num"
+       },
+       {
+        "html": "+1",
+        "class": "num"
+       }
+      ]
+     },
+     {
+      "cells": [
+       {
+        "html": "The Midnight Theatre",
+        "class": "t"
+       },
+       {
+        "html": "–"
+       },
+       {
+        "html": "Spread Unrest: completed<br/>Wit spends a charge to set the reward roll to 3"
+       },
+       {
+        "html": "Growltiger: hand injury<br/>Jellylorum: hand injury<br/>Mungojerrie: critical injury<br/>Mistoffelees: recovers"
+       },
+       {
+        "html": "+70",
+        "class": "num"
+       },
+       {
+        "html": "–",
+        "class": "num"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "h3": "Experience",
+   "class": "xp-head"
+  },
+  {
+   "xp": [
+    {
+     "title": "The Carrion Psalm",
+     "class": "p",
+     "table": {
+      "label": null,
+      "class": "ledger xp",
+      "head": [
+       {
+        "html": "Fighter"
+       },
+       {
+        "html": "Earned from"
+       },
+       {
+        "html": "XP",
+        "class": "num"
+       }
+      ],
+      "rows": [
+       {
+        "cells": [
+         {
+          "html": "Mordecai",
+          "class": "p"
+         },
+         {
+          "html": "Participation +1, Mistoffelees Serious Injury +1"
+         },
+         {
+          "html": "+2",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Ezekiel Crows",
+          "class": "p"
+         },
+         {
+          "html": "Participation +1, Rumpus Serious Injury +1, Growltiger Out of Action +2"
+         },
+         {
+          "html": "+4",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Elijah Emberchoir",
+          "class": "p"
+         },
+         {
+          "html": "Participation +1"
+         },
+         {
+          "html": "+1",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Vermin Pyre",
+          "class": "p"
+         },
+         {
+          "html": "Participation +1, Jellylorum Out of Action +2"
+         },
+         {
+          "html": "+3",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Blessed Filth",
+          "class": "p"
+         },
+         {
+          "html": "Participation +1"
+         },
+         {
+          "html": "+1",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Gutter Cantor",
+          "class": "p"
+         },
+         {
+          "html": "Participation +1"
+         },
+         {
+          "html": "+1",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Ratsong",
+          "class": "p"
+         },
+         {
+          "html": "Participation +1, Objective +1"
+         },
+         {
+          "html": "+2",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Deus and Amen",
+          "class": "p"
+         },
+         {
+          "html": "Participation +1, Mungojerrie Serious Injury +1, Mungojerrie Out of Action +2"
+         },
+         {
+          "html": "+4",
+          "class": "num"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "The Midnight Theatre",
+     "class": "t",
+     "table": {
+      "label": null,
+      "class": "ledger xp",
+      "head": [
+       {
+        "html": "Fighter"
+       },
+       {
+        "html": "Earned from"
+       },
+       {
+        "html": "XP",
+        "class": "num"
+       }
+      ],
+      "rows": [
+       {
+        "cells": [
+         {
+          "html": "Deuteronomy",
+          "class": "t"
+         },
+         {
+          "html": "Participation +1"
+         },
+         {
+          "html": "+1",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Demeter",
+          "class": "t"
+         },
+         {
+          "html": "Participation +1, Objective +1"
+         },
+         {
+          "html": "+2",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Macavity",
+          "class": "t"
+         },
+         {
+          "html": "Participation +1, Ratsong Out of Action +2, Objective +1"
+         },
+         {
+          "html": "+4",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Rumpleteaser",
+          "class": "t"
+         },
+         {
+          "html": "Participation +1"
+         },
+         {
+          "html": "+1",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Mungojerrie",
+          "class": "t"
+         },
+         {
+          "html": "Participation +1"
+         },
+         {
+          "html": "+1",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Jellylorum",
+          "class": "t"
+         },
+         {
+          "html": "Participation +1"
+         },
+         {
+          "html": "+1",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Growltiger",
+          "class": "t"
+         },
+         {
+          "html": "Participation +1"
+         },
+         {
+          "html": "+1",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Mistoffelees",
+          "class": "t"
+         },
+         {
+          "html": "Participation +1, Objective +1"
+         },
+         {
+          "html": "+2",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Wit",
+          "class": "t"
+         },
+         {
+          "html": "Participation +1, Objective +1"
+         },
+         {
+          "html": "+2",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Rumpus",
+          "class": "t"
+         },
+         {
+          "html": "Participation +1"
+         },
+         {
+          "html": "+1",
+          "class": "num"
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "popovers": [
+  "blessed-filth",
+  "demeter",
+  "deus-and-amen",
+  "deuteronomy",
+  "elijah-emberchoir",
+  "ezekiel-crows",
+  "growltiger",
+  "gutter-cantor",
+  "jellylorum",
+  "macavity",
+  "mistoffelees",
+  "mordecai",
+  "mungojerrie",
+  "ratsong",
+  "rumpleteaser",
+  "rumpus",
+  "vermin-pyre",
+  "wit"
+ ],
+ "fighters": {
+  "mordecai": {
+   "name": "Mordecai",
+   "portrait": "images/fighters/mordecai.jpg",
+   "type": "Cawdor Word Keeper (Leader, Pious)",
+   "cost": "240",
+   "stats": {
+    "M": "5\"",
+    "WS": "3+",
+    "BS": "3+",
+    "S": "3",
+    "T": "3",
+    "W": "3",
+    "I": "3",
+    "A": "2",
+    "Sv": "5+",
+    "Ld": "8",
+    "Cl": "8",
+    "Wil": "8",
+    "Int": "7",
+    "XP": "67"
+   },
+   "weapons": [
+    {
+     "name": "Autopistol",
+     "profile": [
+      "4\"",
+      "12\"",
+      "3",
+      "-",
+      "1"
+     ],
+     "traits": "{tip:Light}, {tip:Rapid Fire (1)}"
+    },
+    {
+     "name": "Chainglaive*",
+     "profile": [
+      "E",
+      "-",
+      "S+1",
+      "-1",
+      "2"
+     ],
+     "traits": "{tip:Heavy}, {tip:Melee}, {tip:Parry}, {tip:Shred (6+)}, {tip:Unwieldy}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Wargear",
+     "text": "{tip:Mesh armour}, {tip:Bio-booster}"
+    },
+    {
+     "label": "Skills",
+     "text": "{tip:Inspiring}, {tip:Nerves of Steel}"
+    },
+    {
+     "label": "Lasting injuries",
+     "text": "{tip:Personal Enmity (Macavity)}"
+    }
+   ]
+  },
+  "ezekiel-crows": {
+   "name": "Ezekiel Crows",
+   "portrait": "images/fighters/ezekiel-crows.jpg",
+   "type": "Cawdor Firebrand (Champion, Pious)",
+   "cost": "155",
+   "stats": {
+    "M": "5\"",
+    "WS": "3+",
+    "BS": "3+",
+    "S": "3",
+    "T": "3",
+    "W": "2",
+    "I": "3",
+    "A": "2",
+    "Sv": "5+",
+    "Ld": "7",
+    "Cl": "7",
+    "Wil": "6",
+    "Int": "7",
+    "XP": "42"
+   },
+   "weapons": [
+    {
+     "name": "Autopistol",
+     "profile": [
+      "4\"",
+      "12\"",
+      "3",
+      "-",
+      "1"
+     ],
+     "traits": "{tip:Light}, {tip:Rapid Fire (1)}"
+    },
+    {
+     "name": "Cleaver",
+     "profile": [
+      "E",
+      "-",
+      "S",
+      "-1",
+      "2"
+     ],
+     "traits": "{tip:Melee}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Wargear",
+     "text": "{tip:Stimm-slug stash}"
+    },
+    {
+     "label": "Skills",
+     "text": "{tip:Bull Charge}, {tip:Inspiring}"
+    }
+   ]
+  },
+  "elijah-emberchoir": {
+   "name": "Elijah Emberchoir",
+   "portrait": "images/fighters/elijah-emberchoir.jpg",
+   "type": "Redemptionist Deacon (Champion, Fanatic)",
+   "cost": "165",
+   "stats": {
+    "M": "5\"",
+    "WS": "3+",
+    "BS": "3+",
+    "S": "3",
+    "T": "3",
+    "W": "2",
+    "I": "3",
+    "A": "2",
+    "Sv": "5+",
+    "Ld": "7",
+    "Cl": "7",
+    "Wil": "8",
+    "Int": "6",
+    "XP": "38"
+   },
+   "weapons": [
+    {
+     "name": "Autopistol",
+     "profile": [
+      "4\"",
+      "12\"",
+      "3",
+      "-",
+      "1"
+     ],
+     "traits": "{tip:Light}, {tip:Rapid Fire (1)}"
+    },
+    {
+     "name": "Chainaxe/Exterminator",
+     "nameClass": "parent"
+    },
+    {
+     "class": "sub",
+     "name": "Chainaxe",
+     "profile": [
+      "E",
+      "-",
+      "S",
+      "-1",
+      "1"
+     ],
+     "traits": "{tip:Melee}, {tip:Shred (5+)}"
+    },
+    {
+     "class": "sub",
+     "name": "Exterminator",
+     "profile": [
+      "T",
+      "-",
+      "4",
+      "-1",
+      "1"
+     ],
+     "traits": "{tip:Auxiliary}, {tip:Blaze (5+)}, {tip:Single Shot}, {tip:Template}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:Inspiring}, {tip:Rain of Blows}"
+    }
+   ]
+  },
+  "vermin-pyre": {
+   "name": "Vermin Pyre",
+   "portrait": "images/fighters/vermin-pyre.jpg",
+   "type": "Cawdor Brethren (Ganger, Pious, Specialist), Gunner",
+   "cost": "125",
+   "stats": {
+    "M": "5\"",
+    "WS": "4+",
+    "BS": "4+",
+    "S": "3",
+    "T": "3",
+    "W": "1",
+    "I": "3",
+    "A": "1",
+    "Sv": "6+",
+    "Ld": "6",
+    "Cl": "6",
+    "Wil": "6",
+    "Int": "6",
+    "XP": "15"
+   },
+   "weapons": [
+    {
+     "name": "Cawdor Polearm/Flamer",
+     "nameClass": "parent"
+    },
+    {
+     "class": "sub",
+     "name": "Polearm*",
+     "profile": [
+      "E",
+      "-",
+      "S+1",
+      "-",
+      "2"
+     ],
+     "traits": "{tip:Heavy}, {tip:Lance}, {tip:Melee}, {tip:Unwieldy}"
+    },
+    {
+     "class": "sub",
+     "name": "Flamer",
+     "profile": [
+      "T",
+      "-",
+      "4",
+      "-1",
+      "1"
+     ],
+     "traits": "{tip:Ammo (6+)}, {tip:Blaze (5)}, {tip:Template}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:Hip-shooting}"
+    }
+   ]
+  },
+  "blessed-filth": {
+   "name": "Blessed Filth",
+   "portrait": "images/fighters/blessed-filth.jpg",
+   "type": "Cawdor Brethren (Ganger, Pious, Specialist), Sniper",
+   "cost": "115",
+   "stats": {
+    "M": "5\"",
+    "WS": "4+",
+    "BS": "4+",
+    "S": "3",
+    "T": "3",
+    "W": "1",
+    "I": "3",
+    "A": "1",
+    "Sv": "6+",
+    "Ld": "6",
+    "Cl": "6",
+    "Wil": "6",
+    "Int": "6",
+    "XP": "14"
+   },
+   "weapons": [
+    {
+     "name": "Long rifle",
+     "profile": [
+      "24\"",
+      "48\"",
+      "4",
+      "-1",
+      "1"
+     ],
+     "traits": "{tip:Knockback (6+)}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Wargear",
+     "text": "{tip:Mono-sight (long rifle)}"
+    },
+    {
+     "label": "Skills",
+     "text": "{tip:Precision Shot}"
+    }
+   ]
+  },
+  "gutter-cantor": {
+   "name": "Gutter Cantor",
+   "portrait": "images/fighters/gutter-cantor.jpg",
+   "type": "Cawdor Brethren (Ganger, Pious, Specialist), Medic",
+   "cost": "70",
+   "stats": {
+    "M": "5\"",
+    "WS": "4+",
+    "BS": "4+",
+    "S": "3",
+    "T": "3",
+    "W": "1",
+    "I": "3",
+    "A": "1",
+    "Sv": "6+",
+    "Ld": "6",
+    "Cl": "6",
+    "Wil": "6",
+    "Int": "6",
+    "XP": "16"
+   },
+   "weapons": [
+    {
+     "name": "Cawdor Polearm/Autogun",
+     "nameClass": "parent"
+    },
+    {
+     "class": "sub",
+     "name": "Polearm*",
+     "profile": [
+      "E",
+      "-",
+      "S+1",
+      "-",
+      "2"
+     ],
+     "traits": "{tip:Heavy}, {tip:Lance}, {tip:Melee}, {tip:Unwieldy}"
+    },
+    {
+     "class": "sub",
+     "name": "Autogun",
+     "profile": [
+      "8\"",
+      "24\"",
+      "3",
+      "-",
+      "1"
+     ],
+     "traits": "{tip:Rapid Fire (1)}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:Medicate}"
+    }
+   ]
+  },
+  "ratsong": {
+   "name": "Ratsong",
+   "portrait": "images/fighters/ratsong.jpg",
+   "type": "Cawdor Bonepicker (Pious, Prospect)",
+   "cost": "30",
+   "stats": {
+    "M": "6\"",
+    "WS": "5+",
+    "BS": "5+",
+    "S": "3",
+    "T": "3",
+    "W": "1",
+    "I": "4",
+    "A": "1",
+    "Sv": "6+",
+    "Ld": "5",
+    "Cl": "6",
+    "Wil": "5",
+    "Int": "5",
+    "XP": "5"
+   },
+   "statClass": {
+    "Cl": "adv"
+   },
+   "weapons": [
+    {
+     "name": "Stub gun",
+     "profile": [
+      "6\"",
+      "12\"",
+      "3",
+      "-",
+      "1"
+     ],
+     "traits": "{tip:Light}"
+    }
+   ]
+  },
+  "deus-and-amen": {
+   "name": "Deus and Amen",
+   "portrait": "images/fighters/deus-and-amen.jpg",
+   "type": "Cawdor Stig-Shambler (Brute, Loner, Pious)",
+   "cost": "265",
+   "stats": {
+    "M": "4\"",
+    "WS": "4+",
+    "BS": "3+",
+    "S": "5",
+    "T": "4",
+    "W": "4",
+    "I": "3",
+    "A": "2",
+    "Sv": "6+",
+    "Ld": "6",
+    "Cl": "6",
+    "Wil": "6",
+    "Int": "5",
+    "XP": "31"
+   },
+   "statClass": {
+    "BS": "adv"
+   },
+   "weapons": [
+    {
+     "name": "Heavy club",
+     "profile": [
+      "E",
+      "-",
+      "S+2",
+      "-",
+      "2"
+     ],
+     "traits": "{tip:Concussive (5+)}, {tip:Heavy}, {tip:Melee}, {tip:Unwieldy}"
+    },
+    {
+     "name": "Twin-linked heavy stubber",
+     "profile": [
+      "20\"",
+      "40\"",
+      "4",
+      "-1",
+      "1"
+     ],
+     "traits": "{tip:Heavy}, {tip:Rapid Fire (2)}, {tip:Twin-linked}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:Bulging Biceps}, {tip:Juggernaut}"
+    }
+   ]
+  },
+  "deuteronomy": {
+   "name": "Deuteronomy",
+   "portrait": "images/fighters/deuteronomy.jpg",
+   "type": "Master of Shadow (Leader, Wyrd), Wyrd",
+   "cost": "245",
+   "stats": {
+    "M": "5\"",
+    "WS": "3+",
+    "BS": "3+",
+    "S": "3",
+    "T": "3",
+    "W": "3",
+    "I": "4",
+    "A": "3",
+    "Sv": "5+",
+    "Ld": "8",
+    "Cl": "8",
+    "Wil": "9",
+    "Int": "8",
+    "XP": "70"
+   },
+   "weapons": [
+    {
+     "name": "Flechette pistol",
+     "profile": [
+      "4\"",
+      "12\"",
+      "-",
+      "-",
+      "1"
+     ],
+     "traits": "{tip:Light}, {tip:Rapid Fire (1)}, {tip:Toxin (3+)}"
+    },
+    {
+     "name": "Shock stave",
+     "profile": [
+      "E",
+      "-",
+      "S+1",
+      "-",
+      "1"
+     ],
+     "traits": "{tip:Melee}, {tip:Shock (5+)}"
+    },
+    {
+     "name": "Web gauntlet",
+     "profile": [
+      "E",
+      "-",
+      "3",
+      "-",
+      "-"
+     ],
+     "traits": "{tip:Backstab}, {tip:Melee}, {tip:Web}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:A Perfect Void}, {tip:Counter-attack}, {tip:Inspiring}"
+    },
+    {
+     "label": "Special rules",
+     "text": "{tip:Master of Whispers}"
+    }
+   ]
+  },
+  "mistoffelees": {
+   "name": "Mistoffelees",
+   "portrait": "images/fighters/mistoffelees.jpg",
+   "type": "Psy-Gheist (Prospect, Wyrd)",
+   "cost": "95",
+   "stats": {
+    "M": "6\"",
+    "WS": "5+",
+    "BS": "5+",
+    "S": "3",
+    "T": "3",
+    "W": "1",
+    "I": "4",
+    "A": "1",
+    "Sv": "6+",
+    "Ld": "5",
+    "Cl": "6",
+    "Wil": "7",
+    "Int": "5",
+    "XP": "8"
+   },
+   "weapons": [
+    {
+     "name": "Stub gun",
+     "profile": [
+      "6\"",
+      "12\"",
+      "3",
+      "-",
+      "1"
+     ],
+     "traits": "{tip:Light}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Wargear",
+     "text": "{tip:Psychoteric Wyrm (Rumpus)}"
+    },
+    {
+     "label": "Skills",
+     "text": "{tip:Eternal Slumber}, <span class=\"adv-i sk\" data-tip='Wyrd Power (Single): choose an enemy Fighter within 6\" and Line of Sight. They must make a Willpower check; if failed, they gain the Insanity Condition.' tabindex=\"0\">Terrible Truths</span>"
+    },
+    {
+     "label": "Special rules",
+     "text": "{tip:Whispers in the Dark}"
+    }
+   ]
+  },
+  "rumpus": {
+   "name": "Rumpus",
+   "portrait": "images/fighters/rumpus.jpg",
+   "type": "Psychoteric Wyrm (Beast, Pet). Owner: Mistoffelees",
+   "cost": "*",
+   "stats": {
+    "M": "6\"",
+    "WS": "4+",
+    "BS": "6+",
+    "S": "2",
+    "T": "3",
+    "W": "1",
+    "I": "3",
+    "A": "1",
+    "Sv": "6+",
+    "Ld": "5",
+    "Cl": "6",
+    "Wil": "7",
+    "Int": "5",
+    "XP": "13"
+   },
+   "weapons": [
+    {
+     "name": "Ferocious jaws",
+     "profile": [
+      "E",
+      "-",
+      "S+1",
+      "-1",
+      "1"
+     ],
+     "traits": "{tip:Melee}, {tip:Rending (6+)}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Special rules",
+     "text": "{tip:Psychoteric Node}, {tip:Leash Range (12\")}, {tip:Burrowing}"
+    }
+   ]
+  },
+  "wit": {
+   "name": "Wit",
+   "portrait": "images/fighters/wit.jpg",
+   "type": "Whisper Merchant (Hanger-on, Support)",
+   "cost": "45",
+   "stats": {
+    "M": "5\"",
+    "WS": "5+",
+    "BS": "4+",
+    "S": "3",
+    "T": "3",
+    "W": "1",
+    "I": "3",
+    "A": "1",
+    "Sv": "6+",
+    "Ld": "5",
+    "Cl": "7",
+    "Wil": "6",
+    "Int": "8",
+    "XP": "13"
+   },
+   "weapons": [
+    {
+     "name": "Stub gun",
+     "profile": [
+      "6\"",
+      "12\"",
+      "3",
+      "-",
+      "1"
+     ],
+     "traits": "{tip:Light}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:Lie Low}"
+    },
+    {
+     "label": "Special rules",
+     "text": "{tip:Ally of House Delaque}, {tip:Useful Lies}"
+    },
+    {
+     "html": "<b class=\"sk\" data-tip=\"Useful Lies uses remaining. After six uses the Whisper Merchant calls in their debt: the gang must pay their Credit Cost again or remove them.\" tabindex=\"0\">Charges</b> <span aria-label=\"6 of 6 charges\" class=\"charges\">●●●●●●</span> 6 of 6"
+    }
+   ]
+  },
+  "demeter": {
+   "name": "Demeter",
+   "portrait": "images/fighters/demeter.jpg",
+   "type": "Phantom (Champion)",
+   "cost": "175",
+   "stats": {
+    "M": "5\"",
+    "WS": "3+",
+    "BS": "3+",
+    "S": "3",
+    "T": "3",
+    "W": "2",
+    "I": "4",
+    "A": "2",
+    "Sv": "5+",
+    "Ld": "7",
+    "Cl": "7",
+    "Wil": "8",
+    "Int": "7",
+    "XP": "40"
+   },
+   "weapons": [
+    {
+     "name": "Long rifle",
+     "profile": [
+      "24\"",
+      "48\"",
+      "4",
+      "-1",
+      "1"
+     ],
+     "traits": "{tip:Knockback (6+)}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Wargear",
+     "text": "{tip:Las-projector (long rifle)}"
+    },
+    {
+     "label": "Skills",
+     "text": "{tip:Inspiring}, {tip:Overwatch}"
+    },
+    {
+     "label": "Special rules",
+     "text": "{tip:Master of Whispers}"
+    }
+   ]
+  },
+  "macavity": {
+   "name": "Macavity",
+   "portrait": "images/fighters/macavity.jpg",
+   "type": "Nacht-Ghul (Champion, Loner)",
+   "cost": "190",
+   "stats": {
+    "M": "6\"",
+    "WS": "3+",
+    "BS": "4+",
+    "S": "4",
+    "T": "3",
+    "W": "2",
+    "I": "5",
+    "A": "3",
+    "Sv": "5+",
+    "Ld": "6",
+    "Cl": "8",
+    "Wil": "8",
+    "Int": "7",
+    "XP": "55"
+   },
+   "weapons": [
+    {
+     "name": "Serpent's fangs*",
+     "profile": [
+      "E",
+      "-",
+      "-",
+      "-3",
+      "1"
+     ],
+     "traits": "{tip:Melee}, {tip:Paired (2)}, {tip:Toxin (3+)}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:Inspiring}, {tip:Spring Up}"
+    },
+    {
+     "label": "Special rules",
+     "text": "{tip:From the Shadows}"
+    }
+   ]
+  },
+  "rumpleteaser": {
+   "name": "Rumpleteaser",
+   "portrait": "images/fighters/rumpleteaser.jpg",
+   "type": "Ghost (Ganger, Specialist), Gunner",
+   "cost": "150",
+   "stats": {
+    "M": "5\"",
+    "WS": "4+",
+    "BS": "4+",
+    "S": "3",
+    "T": "3",
+    "W": "1",
+    "I": "4",
+    "A": "1",
+    "Sv": "6+",
+    "Ld": "6",
+    "Cl": "6",
+    "Wil": "7",
+    "Int": "6",
+    "XP": "16"
+   },
+   "weapons": [
+    {
+     "name": "Plasma gun",
+     "profile": [
+      "12\"",
+      "24\"",
+      "5",
+      "-2",
+      "2"
+     ],
+     "traits": "{tip:Ammo (6+)}, {tip:Damage (2)}, {tip:Rapid Fire (1)}, {tip:Unstable}"
+    },
+    {
+     "name": "Autogun",
+     "profile": [
+      "8\"",
+      "24\"",
+      "3",
+      "-",
+      "1"
+     ],
+     "traits": "{tip:Rapid Fire (1)}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:Hip-shooting}"
+    }
+   ]
+  },
+  "mungojerrie": {
+   "name": "Mungojerrie",
+   "portrait": "images/fighters/mungojerrie.jpg",
+   "type": "Ghost (Ganger, Specialist), Gunner",
+   "cost": "105",
+   "stats": {
+    "M": "5\"",
+    "WS": "4+",
+    "BS": "4+",
+    "S": "3",
+    "T": "3",
+    "W": "1",
+    "I": "4",
+    "A": "1",
+    "Sv": "6+",
+    "Ld": "6",
+    "Cl": "6",
+    "Wil": "7",
+    "Int": "6",
+    "XP": "13"
+   },
+   "weapons": [
+    {
+     "name": "Grav gun",
+     "profile": [
+      "9\"",
+      "18\"",
+      "-",
+      "-",
+      "2"
+     ],
+     "traits": "{tip:Ammo (5+)}, {tip:Blast (3\")}, {tip:Graviton Pulse}"
+    },
+    {
+     "name": "Autopistol",
+     "profile": [
+      "4\"",
+      "12\"",
+      "3",
+      "-",
+      "1"
+     ],
+     "traits": "{tip:Light}, {tip:Rapid Fire (1)}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:Hip-shooting}"
+    }
+   ]
+  },
+  "jellylorum": {
+   "name": "Jellylorum",
+   "portrait": "images/fighters/jellylorum.jpg",
+   "type": "Ghost (Ganger, Specialist), Medic",
+   "cost": "70",
+   "stats": {
+    "M": "5\"",
+    "WS": "4+",
+    "BS": "4+",
+    "S": "3",
+    "T": "3",
+    "W": "1",
+    "I": "4",
+    "A": "1",
+    "Sv": "6+",
+    "Ld": "6",
+    "Cl": "6",
+    "Wil": "7",
+    "Int": "6",
+    "XP": "19"
+   },
+   "weapons": [
+    {
+     "name": "Lasgun",
+     "profile": [
+      "16\"",
+      "24\"",
+      "3",
+      "-",
+      "1"
+     ],
+     "traits": "No traits"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "<span class=\"adv-i sk\" data-tip=\"While this Fighter is Suppressed, enemy models cannot target them with a ranged attack unless they are within the attacking weapon's Short Range.\" tabindex=\"0\">Lie Low</span>, {tip:Medicate}"
+    }
+   ]
+  },
+  "growltiger": {
+   "name": "Growltiger",
+   "portrait": "images/fighters/growltiger.jpg",
+   "type": "Ghost (Ganger, Specialist), Gunslinger",
+   "cost": "90",
+   "stats": {
+    "M": "5\"",
+    "WS": "4+",
+    "BS": "4+",
+    "S": "3",
+    "T": "3",
+    "W": "1",
+    "I": "4",
+    "A": "1",
+    "Sv": "6+",
+    "Ld": "6",
+    "Cl": "6",
+    "Wil": "7",
+    "Int": "6",
+    "XP": "13"
+   },
+   "weapons": [
+    {
+     "name": "Autopistol",
+     "profile": [
+      "4\"",
+      "12\"",
+      "3",
+      "-",
+      "1"
+     ],
+     "traits": "{tip:Light}, {tip:Rapid Fire (1)}"
+    },
+    {
+     "name": "Flechette pistol",
+     "profile": [
+      "4\"",
+      "12\"",
+      "-",
+      "-",
+      "1"
+     ],
+     "traits": "{tip:Light}, {tip:Rapid Fire (1)}, {tip:Toxin (3+)}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:Gunfighter}"
+    }
+   ]
+  }
+ }
+}

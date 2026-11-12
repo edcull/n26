@@ -1,0 +1,2719 @@
+{
+ "page": "battle",
+ "id": "1.1",
+ "title": "Cycle 1.1: The Pyroclave Ploy",
+ "kicker": "Ash and Shadow · Battle report",
+ "cycle": "Cycle 1.1",
+ "name": "The Pyroclave Ploy",
+ "sides": [
+  {
+   "img": "images/gangs/the-carrion-psalm.jpg",
+   "name": "The Carrion Psalm",
+   "note": "6 fighters · 775 rating"
+  },
+  {
+   "img": "images/gangs/the-midnight-theatre.jpg",
+   "name": "The Midnight Theatre",
+   "note": "5 fighters · 780 rating"
+  }
+ ],
+ "intro": [
+  "On the far side of the local dome, near the Broken Crown, an abandoned collapsed dome, lies the Pyroclave, a forgotten promethium cache that no gang currently claims. The tanks are old and the seals are weeping rust, but there is still fuel inside them, and in the underhive fuel is worth fighting over.",
+  "{t:The Midnight Theatre} know exactly what it is worth, and exactly who would want it. To the Cawdor, promethium is more than fuel. It feeds the braziers of their shrines and the sacred flames that burn away the unclean. So the Delaque let the rumour slip: a whisper in a drinking hole, a careless word overheard at a trading post. An unclaimed cache, out by the Broken Crown, there for the taking.",
+  "It reaches {p:The Carrion Psalm}, just as the Delaque meant it to. {@mordecai|Mordecai}, their Word Keeper, gathers his congregation and leads them out across the dome to claim it in the Emperor's name. In the ruins to the west, the Theatre are already waiting. The cache is the bait. The Psalm are the prey."
+ ],
+ "introHeading": "Intro",
+ "setup": {
+  "facts": [
+   [
+    "At stake",
+    "Unclaimed promethium cache"
+   ],
+   [
+    "Battlefield effect",
+    "Improve Blaze (X) effects by one"
+   ],
+   [
+    "Challenger",
+    "{p:The Carrion Psalm}"
+   ],
+   [
+    "Table",
+    "2' × 2' - Deployment on board edges"
+   ],
+   [
+    "Deployment",
+    "Sniping Range: the winner of a roll-off picks a battlefield edge and their opponent takes the opposite one. Each gang deploys between its own edge and a line 12\" from the centre line. On a 2' table that leaves just the edges, 24\" apart."
+   ],
+   [
+    "Objective",
+    "King of the Hive: one objective sits at the centre of the battlefield. In the Check for Victory step of each End phase it scores 1 VP for the gang controlling it, and the first gang to 3 VP wins. If only one gang still has models on the battlefield, they win; if neither does, it is a draw."
+   ],
+   [
+    "Psalm side quest",
+    "{p:Protect the Future:} once both crews are deployed, one of your Prospects is picked at random (or a Ganger if there are none). If they are still on the battlefield when the battle ends, the side job is done."
+   ],
+   [
+    "Theatre side quest",
+    "{t:Crippling Strike:} if, in the Check for Victory step of any End phase, at least half of the enemy models on the battlefield are Seriously Injured or Engaged, the side job is done."
+   ],
+   [
+    "Crews",
+    "Strike Force: Both gangs use Custom (5)<br/>{p:Psalm:} 6 fighters, 775 rating, including Ratsong as an extra Bonepicker from Without Number<br/>{t:Theatre:} 5 fighters, 780 rating"
+   ]
+  ],
+  "blocks": [
+   {
+    "photo": {
+     "src": "images/1.1/photo-01.jpg",
+     "alt": "The 2 foot by 2 foot mat dressed with gothic ruins, shipping containers, walkways and a raised circular platform near the middle.",
+     "caption": "The promethium cache known as the Pyroclave."
+    }
+   }
+  ]
+ },
+ "setupAfter": [],
+ "gangs": [
+  {
+   "class": "psalm",
+   "portrait": "images/gangs/the-carrion-psalm.jpg",
+   "name": "The Carrion Psalm",
+   "house": "House Cawdor",
+   "blocks": [
+    {
+     "photo": {
+      "src": "images/1.1/photo-02.jpg",
+      "alt": "The six Carrion Psalm fighters in red and yellow robes, posed on the platform with Deus and Amen on the right."
+     }
+    },
+    {
+     "sheet": [
+      [
+       "Rating",
+       "1000"
+      ],
+      [
+       "Reputation",
+       "2"
+      ],
+      [
+       "Credits",
+       "0"
+      ],
+      [
+       "Trade points",
+       "0"
+      ],
+      [
+       "Wealth",
+       "1000"
+      ],
+      [
+       "Gang size",
+       "8"
+      ]
+     ],
+     "class": ""
+    },
+    {
+     "assets": [
+      {
+       "label": "Territories",
+       "chips": [
+        {
+         "tip": "Settlement"
+        },
+        {
+         "tip": "Generatorium"
+        }
+       ]
+      },
+      {
+       "label": "Gang tactics",
+       "chips": [
+        {
+         "tip": "Suppressing Fire"
+        },
+        {
+         "tip": "Hidden Stash",
+         "used": true,
+         "usedLabel": "Used"
+        },
+        {
+         "tip": "Adrenaline Surge"
+        },
+        {
+         "tip": "Grenade Bouquet"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "panel": "Crew (6)",
+     "class": "crew-panel",
+     "fighters": [
+      {
+       "id": "mordecai"
+      },
+      {
+       "id": "ezekiel-crows"
+      },
+      {
+       "id": "vermin-pyre"
+      },
+      {
+       "id": "gutter-cantor"
+      },
+      {
+       "id": "ratsong"
+      },
+      {
+       "id": "deus-and-amen"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "class": "theatre",
+   "portrait": "images/gangs/the-midnight-theatre.jpg",
+   "name": "The Midnight Theatre",
+   "house": "House Delaque",
+   "blocks": [
+    {
+     "photo": {
+      "src": "images/1.1/photo-03.jpg",
+      "alt": "The five Midnight Theatre fighters in long dark coats, posed on the platform among barrels and crates."
+     }
+    },
+    {
+     "sheet": [
+      [
+       "Rating",
+       "1000"
+      ],
+      [
+       "Reputation",
+       "1"
+      ],
+      [
+       "Credits",
+       "0"
+      ],
+      [
+       "Trade points",
+       "0"
+      ],
+      [
+       "Wealth",
+       "1000"
+      ],
+      [
+       "Gang size",
+       "8"
+      ]
+     ],
+     "class": ""
+    },
+    {
+     "assets": [
+      {
+       "label": "Territories",
+       "chips": [
+        {
+         "tip": "Settlement"
+        },
+        {
+         "tip": "Rogue Doc Shop"
+        }
+       ]
+      },
+      {
+       "label": "Gang tactics",
+       "chips": [
+        {
+         "tip": "You!"
+        },
+        {
+         "tip": "Crossfire"
+        },
+        {
+         "tip": "Adrenaline Surge"
+        },
+        {
+         "tip": "Thunderous Charge",
+         "used": true,
+         "usedLabel": "Used"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "panel": "Crew (5)",
+     "class": "crew-panel",
+     "fighters": [
+      {
+       "id": "deuteronomy"
+      },
+      {
+       "id": "demeter"
+      },
+      {
+       "id": "macavity"
+      },
+      {
+       "id": "rumpleteaser"
+      },
+      {
+       "id": "jellylorum"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "rounds": [
+  {
+   "id": "deployment",
+   "no": "",
+   "title": "Deployment",
+   "blocks": [
+    {
+     "text": [
+      "{p:The Carrion Psalm} approach from the east, through the ruined factory buildings and past an old promethium tank. {@mordecai|Mordecai} expects snipers covering the approach, but finds the ruined tower empty.",
+      "{t:The Midnight Theatre} lie in wait in the shadows of the old Gothic ruins to the west of the fuel cache. {@macavity|Macavity}'s not there. He's already slipped into the dark, flanking the Cawdor as they near, ready to strike From the Shadows."
+     ]
+    },
+    {
+     "map": {
+      "svg": "<svg aria-label=\"Top-down map of the deployment on opposite table edges.\" role=\"img\" viewbox=\"-14 -24 628 668\"><text class=\"m-edge t\" x=\"300\" y=\"-8\">The Midnight Theatre edge</text><text class=\"m-edge p\" x=\"300\" y=\"638\">The Carrion Psalm edge</text><rect class=\"m-mat\" height=\"600\" width=\"600\" x=\"0\" y=\"0\"></rect><path class=\"m-grid\" d=\"M150 0V600M0 150H600M300 0V600M0 300H600M450 0V600M0 450H600\"></path><polygon class=\"m-floor\" points=\"12.5,505 30,482.5 75,470 117.5,475 125,525 180,545 180,590 12.5,590\"></polygon><text class=\"m-lab\" x=\"75\" y=\"560\">Ruined floor</text><polygon class=\"m-solid\" points=\"125,465 175,465 175,497.5 125,497.5\"></polygon><text class=\"m-lab\" x=\"150\" y=\"517.5\">Tank</text><polyline class=\"m-wall\" points=\"30,405 75,410\"></polyline><polyline class=\"m-wall\" points=\"50,227.5 50,290\"></polyline><polygon class=\"m-floor\" points=\"375,382.5 465,382.5 465,462.5 375,462.5\"></polygon><polygon class=\"m-solid\" points=\"375,462.5 465,462.5 465,580 375,580\"></polygon><text class=\"m-lab\" x=\"420\" y=\"517.5\">Ruined</text><text class=\"m-lab\" x=\"420\" y=\"535\">tower</text><polyline class=\"m-wall\" points=\"375,580 375,382.5 572.5,382.5 572.5,580 375,580\"></polyline><polygon class=\"m-rubble\" points=\"512.5,382.5 572.5,382.5 572.5,425 512.5,425\"></polygon><polyline class=\"m-wall\" points=\"222.5,452.5 307.5,452.5 307.5,485\"></polyline><polygon class=\"m-rubble\" points=\"245,462.5 297.5,462.5 297.5,490 245,490\"></polygon><polyline class=\"m-wall\" points=\"247.5,540 305,540\"></polyline><polyline class=\"m-wall\" points=\"15,500 15,587.5 185,587.5\"></polyline><polyline class=\"m-plank\" points=\"142.5,440 220,395\"></polyline><polygon class=\"m-solid\" points=\"15,80 70,80 115,150 180,150 180,210 15,210\"></polygon><text class=\"m-lab\" x=\"62.5\" y=\"190\">Gothic ruin</text><polyline class=\"m-wall\" points=\"15,80 15,32.5 180,32.5 180,150\"></polyline><text class=\"m-lab\" x=\"110\" y=\"67.5\">Walled yard</text><polyline class=\"m-wall\" points=\"250,7.5 250,132.5 310,132.5\"></polyline><polygon class=\"m-solid\" points=\"387.5,30 557.5,30 557.5,140 387.5,140\"></polygon><text class=\"m-lab\" x=\"472.5\" y=\"87.5\">Gothic ruin</text><polyline class=\"m-plank\" points=\"340,202.5 397.5,170\"></polyline><polygon class=\"m-solid\" points=\"411.518,233.687 490.139,307.002 453.482,346.313 374.861,272.998\"></polygon><polygon class=\"m-solid\" points=\"467.731,181.197 567.404,221.467 547.269,271.303 447.596,231.033\"></polygon><polygon class=\"m-top\" points=\"407.407,227.956 503.191,179.152 527.593,227.044 431.809,275.848\"></polygon><polyline class=\"m-run\" points=\"467.5,257.75 477.5,277.5\"></polyline><text class=\"m-lab\" x=\"467.5\" y=\"232.5\">Containers</text><polyline class=\"m-wall\" points=\"555,297.5 565,367.5\"></polyline><polyline class=\"m-wall\" points=\"347.5,340 387.5,307.5\"></polyline><polygon class=\"m-solid\" points=\"81.0464,321.259 181.285,270.185 228.954,363.741 128.715,414.815\"></polygon><polyline class=\"m-div\" points=\"171,393.25 123.5,299.75\"></polyline><polyline class=\"m-div\" points=\"141.5,335.25 199.5,305.75\"></polyline><text class=\"m-lab\" x=\"125\" y=\"358.75\">Stairs</text><polygon class=\"m-plat\" points=\"402.5,300 351.25,388.75 248.75,388.75 197.5,300 248.75,211.25 351.25,211.25\"></polygon><circle class=\"m-tower\" cx=\"300\" cy=\"300\" r=\"62\"></circle><polyline class=\"m-run\" points=\"300,190 300,211.25\"></polyline><polyline class=\"m-run\" points=\"292.5,388.75 292.5,412.5\"></polyline><circle class=\"m-centre\" cx=\"300\" cy=\"300\" r=\"22\"></circle><text class=\"m-c\" x=\"300\" y=\"267.5\">Cache</text><text class=\"m-lab\" x=\"325\" y=\"373.75\">Raised platform</text><circle class=\"tok-p\" cx=\"182.5\" cy=\"580\" r=\"19\"></circle><text class=\"tok-n two\" x=\"182.5\" y=\"585.5\">DA</text><circle class=\"tok-p\" cx=\"300\" cy=\"587.5\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"300\" y=\"593\">Ez</text><circle class=\"tok-p\" cx=\"332.5\" cy=\"587.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"332.5\" y=\"593\">M</text><circle class=\"tok-p\" cx=\"357.5\" cy=\"587.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"357.5\" y=\"593\">V</text><circle class=\"tok-p\" cx=\"417.5\" cy=\"587.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"417.5\" y=\"593\">G</text><circle class=\"tok-p\" cx=\"447.5\" cy=\"587.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"447.5\" y=\"593\">R</text><circle class=\"tok-t\" cx=\"127.5\" cy=\"12.5\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"127.5\" y=\"18\">De</text><circle class=\"tok-t\" cx=\"157.5\" cy=\"12.5\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"157.5\" y=\"18\">Dm</text><circle class=\"tok-t\" cx=\"265\" cy=\"12.5\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"265\" y=\"18\">Rt</text><circle class=\"tok-t\" cx=\"292.5\" cy=\"12.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"292.5\" y=\"18\">J</text><text class=\"m-tick\" x=\"0\" y=\"618\">0\"</text><text class=\"m-tick\" x=\"150\" y=\"618\">6\"</text><text class=\"m-tick\" x=\"300\" y=\"618\">12\"</text><text class=\"m-tick\" x=\"450\" y=\"618\">18\"</text><text class=\"m-tick\" x=\"600\" y=\"618\">24\"</text></svg>"
+     }
+    }
+   ]
+  },
+  {
+   "id": "round-1",
+   "no": "1",
+   "title": "Round 1: The trap is sprung",
+   "blocks": [
+    {
+     "split": [
+      "tall",
+      "none"
+     ],
+     "text": [
+      "The silence is broken by the whir of plasma coils charging.",
+      "Seeing the glow behind a barricade directly ahead, {@mordecai|Mordecai} moves off to the left to stay out of the line of fire. He leaves {@deus-and-amen|Deus and Amen} to deal with the threat. {@ezekiel-crows|Ezekiel} takes the lead, advancing on the platform as the most likely location for the cache. He takes {@vermin-pyre|Vermin Pyre} with him: he'll know the good promethium cylinders when he sees them.",
+      "{@gutter-cantor|Gutter Cantor} is tasked with guiding the gang's newest prospect, {@ratsong|Ratsong}, and they move through the ruins to investigate the cargo containers.",
+      "Meanwhile {@rumpleteaser|Rumpleteaser} glances to {@jellylorum|Jellylorum} next to him and silently curses as he misjudges his shot and overcharges the plasma gun. He ducks back behind the barricade, cycling the coolant through the coils.",
+      "{@demeter|Demeter} and {@deuteronomy|Deuteronomy} move through the ruins to get into position.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "rumpleteaser",
+        "name": "Rumpleteaser - Plasma Gun",
+        "result": "Rumpleteaser suppressed, Out of Ammo",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "1 f2",
+          "result": "Unstable!"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "2",
+          "result": "Suppressed",
+          "resultClass": "sup"
+         },
+         {
+          "label": "Ammo (6+)",
+          "dice": "5",
+          "result": "Out of Ammo",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: Rumpleteaser uses Hip-shooting to rush to the barricade and fire on Mordecai."
+         }
+        ]
+       }
+      }
+     ],
+     "ports": []
+    },
+    {
+     "endsHead": "Positions at the end of round 1"
+    },
+    {
+     "ends": [
+      {
+       "src": "images/1.1/photo-04.jpg",
+       "alt": "Two pairs of Delaque miniatures among the ruins, either side of the raised platform.",
+       "caption": "The Midnight Theatre lay the trap…"
+      },
+      {
+       "src": "images/1.1/photo-05.jpg",
+       "alt": "Cawdor miniatures advancing in two groups either side of a ruined tower, with Delaque miniatures in the distance beyond the platform.",
+       "caption": "…and the Carrion Psalm are drawn in like rats."
+      }
+     ]
+    },
+    {
+     "map": {
+      "svg": "<svg aria-label=\"Top-down map of fighter positions at the end of round 1.\" role=\"img\" viewbox=\"-14 -24 628 668\"><text class=\"m-edge t\" x=\"300\" y=\"-8\">The Midnight Theatre edge</text><text class=\"m-edge p\" x=\"300\" y=\"638\">The Carrion Psalm edge</text><rect class=\"m-mat\" height=\"600\" width=\"600\" x=\"0\" y=\"0\"></rect><path class=\"m-grid\" d=\"M150 0V600M0 150H600M300 0V600M0 300H600M450 0V600M0 450H600\"></path><polygon class=\"m-floor\" points=\"12.5,505 30,482.5 75,470 117.5,475 125,525 180,545 180,590 12.5,590\"></polygon><text class=\"m-lab\" x=\"75\" y=\"560\">Ruined floor</text><polygon class=\"m-solid\" points=\"125,465 175,465 175,497.5 125,497.5\"></polygon><text class=\"m-lab\" x=\"150\" y=\"517.5\">Tank</text><polyline class=\"m-wall\" points=\"30,405 75,410\"></polyline><polyline class=\"m-wall\" points=\"50,227.5 50,290\"></polyline><polygon class=\"m-floor\" points=\"375,382.5 465,382.5 465,462.5 375,462.5\"></polygon><polygon class=\"m-solid\" points=\"375,462.5 465,462.5 465,580 375,580\"></polygon><text class=\"m-lab\" x=\"420\" y=\"517.5\">Ruined</text><text class=\"m-lab\" x=\"420\" y=\"535\">tower</text><polyline class=\"m-wall\" points=\"375,580 375,382.5 572.5,382.5 572.5,580 375,580\"></polyline><polygon class=\"m-rubble\" points=\"512.5,382.5 572.5,382.5 572.5,425 512.5,425\"></polygon><polyline class=\"m-wall\" points=\"222.5,452.5 307.5,452.5 307.5,485\"></polyline><polygon class=\"m-rubble\" points=\"245,462.5 297.5,462.5 297.5,490 245,490\"></polygon><polyline class=\"m-wall\" points=\"247.5,540 305,540\"></polyline><polyline class=\"m-wall\" points=\"15,500 15,587.5 185,587.5\"></polyline><polyline class=\"m-plank\" points=\"142.5,440 220,395\"></polyline><polygon class=\"m-solid\" points=\"15,80 70,80 115,150 180,150 180,210 15,210\"></polygon><text class=\"m-lab\" x=\"62.5\" y=\"190\">Gothic ruin</text><polyline class=\"m-wall\" points=\"15,80 15,32.5 180,32.5 180,150\"></polyline><text class=\"m-lab\" x=\"110\" y=\"67.5\">Walled yard</text><polyline class=\"m-wall\" points=\"250,7.5 250,132.5 310,132.5\"></polyline><polygon class=\"m-solid\" points=\"387.5,30 557.5,30 557.5,140 387.5,140\"></polygon><text class=\"m-lab\" x=\"472.5\" y=\"87.5\">Gothic ruin</text><polyline class=\"m-plank\" points=\"340,202.5 397.5,170\"></polyline><polygon class=\"m-solid\" points=\"411.518,233.687 490.139,307.002 453.482,346.313 374.861,272.998\"></polygon><polygon class=\"m-solid\" points=\"467.731,181.197 567.404,221.467 547.269,271.303 447.596,231.033\"></polygon><polygon class=\"m-top\" points=\"407.407,227.956 503.191,179.152 527.593,227.044 431.809,275.848\"></polygon><polyline class=\"m-run\" points=\"467.5,257.75 477.5,277.5\"></polyline><text class=\"m-lab\" x=\"467.5\" y=\"232.5\">Containers</text><polyline class=\"m-wall\" points=\"555,297.5 565,367.5\"></polyline><polyline class=\"m-wall\" points=\"347.5,340 387.5,307.5\"></polyline><polygon class=\"m-solid\" points=\"81.0464,321.259 181.285,270.185 228.954,363.741 128.715,414.815\"></polygon><polyline class=\"m-div\" points=\"171,393.25 123.5,299.75\"></polyline><polyline class=\"m-div\" points=\"141.5,335.25 199.5,305.75\"></polyline><text class=\"m-lab\" x=\"125\" y=\"358.75\">Stairs</text><polygon class=\"m-plat\" points=\"402.5,300 351.25,388.75 248.75,388.75 197.5,300 248.75,211.25 351.25,211.25\"></polygon><circle class=\"m-tower\" cx=\"300\" cy=\"300\" r=\"62\"></circle><polyline class=\"m-run\" points=\"300,190 300,211.25\"></polyline><polyline class=\"m-run\" points=\"292.5,388.75 292.5,412.5\"></polyline><circle class=\"m-centre\" cx=\"300\" cy=\"300\" r=\"22\"></circle><text class=\"m-c\" x=\"300\" y=\"267.5\">Cache</text><text class=\"m-lab\" x=\"325\" y=\"373.75\">Raised platform</text><circle class=\"tok-p\" cx=\"235\" cy=\"497.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"235\" y=\"503\">M</text><circle class=\"tok-p\" cx=\"190\" cy=\"457.5\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"190\" y=\"463\">Ez</text><circle class=\"tok-p\" cx=\"210\" cy=\"482.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"210\" y=\"488\">V</text><circle class=\"tok-p\" cx=\"495\" cy=\"520\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"495\" y=\"525.5\">G</text><circle class=\"tok-p\" cx=\"515\" cy=\"480\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"515\" y=\"485.5\">R</text><circle class=\"tok-p\" cx=\"332.5\" cy=\"577.5\" r=\"19\"></circle><text class=\"tok-n two\" x=\"332.5\" y=\"583\">DA</text><circle class=\"tok-t\" cx=\"130\" cy=\"117.5\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"130\" y=\"123\">De</text><circle class=\"tok-t\" cx=\"157.5\" cy=\"107.5\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"157.5\" y=\"113\">Dm</text><circle class=\"tok-t\" cx=\"352.5\" cy=\"175\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"352.5\" y=\"180.5\">Rt</text><circle class=\"tok-t\" cx=\"387.5\" cy=\"155\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"387.5\" y=\"160.5\">J</text><circle class=\"b-s\" cx=\"343.0\" cy=\"189.7\" r=\"8.5\"></circle><text class=\"b-t\" x=\"343.0\" y=\"193.5\">S</text><circle class=\"b-a\" cx=\"335.0\" cy=\"175.7\" r=\"8.5\"></circle><text class=\"b-t\" x=\"335.0\" y=\"179.5\">A</text><text class=\"m-tick\" x=\"0\" y=\"618\">0\"</text><text class=\"m-tick\" x=\"150\" y=\"618\">6\"</text><text class=\"m-tick\" x=\"300\" y=\"618\">12\"</text><text class=\"m-tick\" x=\"450\" y=\"618\">18\"</text><text class=\"m-tick\" x=\"600\" y=\"618\">24\"</text></svg>",
+      "caption": "<ul class=\"b-key\"><li><span class=\"b b-s\">S</span>Suppressed</li><li><span class=\"b b-a\">A</span>Out of ammo</li></ul>"
+     }
+    },
+    {
+     "vp": "End phase: nobody reached the Cache, so no VP. Score <b>0–0</b>."
+    }
+   ]
+  },
+  {
+   "id": "round-2",
+   "no": "2",
+   "title": "Round 2: Closing in",
+   "blocks": [
+    {
+     "split": [
+      "tall",
+      "two"
+     ],
+     "text": [
+      "{@macavity|Macavity} stays out of sight, working his way round behind the Cawdor lines.",
+      "{@deus-and-amen|Deus} swings Amen round to face the barricade and opens up with the twin-linked stubber.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "deus",
+        "name": "Deus and Amen - Twin-linked Heavy Stubber",
+        "result": "Miss, Out of Ammo",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "2 f1a f2",
+          "result": "Miss, Out of Ammo",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: Bulging Biceps to move at Initiative and fire a heavy weapon. Twin-link allowed a re-roll of the Rapid Fire dice."
+         }
+        ]
+       }
+      },
+      "The rounds rattle off the barricade without finding a Delaque until the stubber jams.",
+      "When {@deus-and-amen|Deus}'s gun stops firing, {@jellylorum|Jellylorum} leans out from the barricade to cover {@rumpleteaser|Rumpleteaser} while he gets his plasma gun working again.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "jellylorum",
+        "name": "Jellylorum - Lasgun",
+        "result": "Saved",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "5",
+          "result": "Hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (5+)",
+          "dice": "6",
+          "result": "Wounds"
+         },
+         {
+          "label": "Save (6+ +1 cover)",
+          "dice": "5",
+          "result": "Saved",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: Juggernaut prevents suppression."
+         }
+        ]
+       }
+      },
+      "The las-bolt hits {@deus-and-amen|Amen} square in the chest, but the Stig-Shambler barely notices.",
+      "On the right flank, {@gutter-cantor|Gutter Cantor} and {@ratsong|Ratsong} push forward between the containers.",
+      "On the far side, {@demeter|Demeter} climbs into the Gothic ruin to find a sniper's perch. {@ezekiel-crows|Ezekiel Crows} spots him against the stonework and fires his autopistol.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "ezekiel",
+        "name": "Ezekiel - Autopistol",
+        "result": "Demeter takes a wound and is suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "To Hit (3+)",
+          "dice": "4 f2",
+          "result": "Two hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (4+)",
+          "dice": "4 6",
+          "result": "Two wounds"
+         },
+         {
+          "label": "Save (5+ +2 cover)",
+          "dice": "2 5",
+          "result": "Takes a wound and is suppressed",
+          "resultClass": "sup"
+         }
+        ]
+       }
+      },
+      "{@demeter|Demeter} ducks back behind the rubble, wounded. {@mordecai|Mordecai} and {@vermin-pyre|Vermin Pyre} reach the foot of the near ladder, ready to climb up and claim the Cache.",
+      "On the opposite side, {@deuteronomy|Deuteronomy} reaches the foot of the other ladder. Both gangs are now one climb away from the prize."
+     ],
+     "ports": [
+      {
+       "src": "images/1.1/photo-06.jpg",
+       "alt": "View past a blurred Deus and Amen, along the side of the central tower, to two Delaque miniatures behind a barricade.",
+       "class": "port",
+       "caption": "Deus empties his twin heavy stubbers."
+      },
+      {
+       "src": "images/1.1/photo-07.jpg",
+       "alt": "A Delaque sniper on top of the Gothic ruin, seen through the framework of the stairs.",
+       "class": "port",
+       "caption": "Ezekiel spots the Delaque sniper."
+      }
+     ]
+    },
+    {
+     "endsHead": "Positions at the end of round 2"
+    },
+    {
+     "map": {
+      "svg": "<svg aria-label=\"Top-down map of fighter positions at the end of round 2.\" role=\"img\" viewbox=\"-14 -24 628 668\"><text class=\"m-edge t\" x=\"300\" y=\"-8\">The Midnight Theatre edge</text><text class=\"m-edge p\" x=\"300\" y=\"638\">The Carrion Psalm edge</text><rect class=\"m-mat\" height=\"600\" width=\"600\" x=\"0\" y=\"0\"></rect><path class=\"m-grid\" d=\"M150 0V600M0 150H600M300 0V600M0 300H600M450 0V600M0 450H600\"></path><polygon class=\"m-floor\" points=\"12.5,505 30,482.5 75,470 117.5,475 125,525 180,545 180,590 12.5,590\"></polygon><text class=\"m-lab\" x=\"75\" y=\"560\">Ruined floor</text><polygon class=\"m-solid\" points=\"125,465 175,465 175,497.5 125,497.5\"></polygon><text class=\"m-lab\" x=\"150\" y=\"517.5\">Tank</text><polyline class=\"m-wall\" points=\"30,405 75,410\"></polyline><polyline class=\"m-wall\" points=\"50,227.5 50,290\"></polyline><polygon class=\"m-floor\" points=\"375,382.5 465,382.5 465,462.5 375,462.5\"></polygon><polygon class=\"m-solid\" points=\"375,462.5 465,462.5 465,580 375,580\"></polygon><text class=\"m-lab\" x=\"420\" y=\"517.5\">Ruined</text><text class=\"m-lab\" x=\"420\" y=\"535\">tower</text><polyline class=\"m-wall\" points=\"375,580 375,382.5 572.5,382.5 572.5,580 375,580\"></polyline><polygon class=\"m-rubble\" points=\"512.5,382.5 572.5,382.5 572.5,425 512.5,425\"></polygon><polyline class=\"m-wall\" points=\"222.5,452.5 307.5,452.5 307.5,485\"></polyline><polygon class=\"m-rubble\" points=\"245,462.5 297.5,462.5 297.5,490 245,490\"></polygon><polyline class=\"m-wall\" points=\"247.5,540 305,540\"></polyline><polyline class=\"m-wall\" points=\"15,500 15,587.5 185,587.5\"></polyline><polyline class=\"m-plank\" points=\"142.5,440 220,395\"></polyline><polygon class=\"m-solid\" points=\"15,80 70,80 115,150 180,150 180,210 15,210\"></polygon><text class=\"m-lab\" x=\"62.5\" y=\"190\">Gothic ruin</text><polyline class=\"m-wall\" points=\"15,80 15,32.5 180,32.5 180,150\"></polyline><text class=\"m-lab\" x=\"110\" y=\"67.5\">Walled yard</text><polyline class=\"m-wall\" points=\"250,7.5 250,132.5 310,132.5\"></polyline><polygon class=\"m-solid\" points=\"387.5,30 557.5,30 557.5,140 387.5,140\"></polygon><text class=\"m-lab\" x=\"472.5\" y=\"87.5\">Gothic ruin</text><polyline class=\"m-plank\" points=\"340,202.5 397.5,170\"></polyline><polygon class=\"m-solid\" points=\"411.518,233.687 490.139,307.002 453.482,346.313 374.861,272.998\"></polygon><polygon class=\"m-solid\" points=\"467.731,181.197 567.404,221.467 547.269,271.303 447.596,231.033\"></polygon><polygon class=\"m-top\" points=\"407.407,227.956 503.191,179.152 527.593,227.044 431.809,275.848\"></polygon><polyline class=\"m-run\" points=\"467.5,257.75 477.5,277.5\"></polyline><text class=\"m-lab\" x=\"467.5\" y=\"232.5\">Containers</text><polyline class=\"m-wall\" points=\"555,297.5 565,367.5\"></polyline><polyline class=\"m-wall\" points=\"347.5,340 387.5,307.5\"></polyline><polygon class=\"m-solid\" points=\"81.0464,321.259 181.285,270.185 228.954,363.741 128.715,414.815\"></polygon><polyline class=\"m-div\" points=\"171,393.25 123.5,299.75\"></polyline><polyline class=\"m-div\" points=\"141.5,335.25 199.5,305.75\"></polyline><text class=\"m-lab\" x=\"125\" y=\"358.75\">Stairs</text><polygon class=\"m-plat\" points=\"402.5,300 351.25,388.75 248.75,388.75 197.5,300 248.75,211.25 351.25,211.25\"></polygon><circle class=\"m-tower\" cx=\"300\" cy=\"300\" r=\"62\"></circle><polyline class=\"m-run\" points=\"300,190 300,211.25\"></polyline><polyline class=\"m-run\" points=\"292.5,388.75 292.5,412.5\"></polyline><circle class=\"m-centre\" cx=\"300\" cy=\"300\" r=\"22\"></circle><text class=\"m-c\" x=\"300\" y=\"267.5\">Cache</text><text class=\"m-lab\" x=\"325\" y=\"373.75\">Raised platform</text><circle class=\"tok-p\" cx=\"275\" cy=\"427.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"275\" y=\"433\">M</text><circle class=\"tok-p\" cx=\"240\" cy=\"415\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"240\" y=\"420.5\">Ez</text><circle class=\"tok-p\" cx=\"310\" cy=\"425\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"310\" y=\"430.5\">V</text><circle class=\"tok-p\" cx=\"492.5\" cy=\"340\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"492.5\" y=\"345.5\">G</text><circle class=\"tok-p\" cx=\"520\" cy=\"355\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"520\" y=\"360.5\">R</text><circle class=\"tok-p\" cx=\"332.5\" cy=\"505\" r=\"19\"></circle><text class=\"tok-n two\" x=\"332.5\" y=\"510.5\">DA</text><circle class=\"tok-t\" cx=\"300\" cy=\"176.25\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"300\" y=\"181.75\">De</text><circle class=\"tok-t\" cx=\"122.5\" cy=\"177.5\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"122.5\" y=\"183\">Dm</text><circle class=\"tok-t\" cx=\"355\" cy=\"172.5\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"355\" y=\"178\">Rt</text><circle class=\"tok-t\" cx=\"380\" cy=\"157.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"380\" y=\"163\">J</text><circle class=\"b-a\" cx=\"354.8\" cy=\"496.0\" r=\"8.5\"></circle><text class=\"b-t\" x=\"354.8\" y=\"499.8\">A</text><circle class=\"b-w\" cx=\"133.9\" cy=\"164.2\" r=\"8.5\"></circle><text class=\"b-t\" x=\"133.9\" y=\"168.0\">W</text><circle class=\"b-s\" cx=\"139.9\" cy=\"179.2\" r=\"8.5\"></circle><text class=\"b-t\" x=\"139.9\" y=\"183.0\">S</text><text class=\"m-tick\" x=\"0\" y=\"618\">0\"</text><text class=\"m-tick\" x=\"150\" y=\"618\">6\"</text><text class=\"m-tick\" x=\"300\" y=\"618\">12\"</text><text class=\"m-tick\" x=\"450\" y=\"618\">18\"</text><text class=\"m-tick\" x=\"600\" y=\"618\">24\"</text></svg>",
+      "caption": "<ul class=\"b-key\"><li><span class=\"b b-a\">A</span>Out of ammo</li><li><span class=\"b b-w\">W</span>Wounded</li><li><span class=\"b b-s\">S</span>Suppressed</li></ul>"
+     }
+    },
+    {
+     "vp": "End phase: nobody reached the Cache, so no VP. Score <b>0–0</b>."
+    }
+   ]
+  },
+  {
+   "id": "round-3",
+   "no": "3",
+   "title": "Round 3: From the shadows",
+   "blocks": [
+    {
+     "split": [
+      "tall",
+      "two"
+     ],
+     "text": [
+      "With every Cawdor eye on the platform, {@macavity|Macavity} finally shows himself, stepping out of the shadows behind the Psalm's line.",
+      "{@deus-and-amen|Deus} clears the jam and turns the stubber back on the barricade.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "deus",
+        "name": "Deus and Amen - Twin-linked Heavy Stubber",
+        "result": "Rumpleteaser seriously injured",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "4 f1 f2",
+          "result": "Three hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "3 5 5",
+          "result": "Three wounds"
+         },
+         {
+          "label": "Save (6+ +1 cover AP -1)",
+          "dice": "6 6 2",
+          "result": "Takes a wound"
+         },
+         {
+          "label": "Injury roll",
+          "dice": "si",
+          "result": "Serious Injury"
+         },
+         {
+          "note": "Note: Used Hidden Stash for a free reload action. Bulging Biceps to move at Initiative and fire a heavy weapon. Twin-linked to re-roll the Rapid Fire dice."
+         }
+        ]
+       }
+      },
+      "This time the burst finds {@rumpleteaser|Rumpleteaser}, and he slumps against the barricade. {@jellylorum|Jellylorum}, right beside him, holds his nerve.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "jellylorum",
+        "name": "Jellylorum - Nerve Check",
+        "result": "Holds",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "Cool 6",
+          "dice": "2 3",
+          "result": "Passes",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Rules note: I got this wrong. Nerve tests should only be taken when a friendly fighter is taken Out of Action, not Seriously Injured, so this test should not have happened."
+         }
+        ]
+       }
+      },
+      "{@macavity|Macavity} goes for the nearest Cawdor, but it's further than it looked from the shadows, and the charge falls short. He's left standing among the Psalm with nowhere to hide.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "macavity",
+        "name": "Macavity - Charge",
+        "result": "1\" short",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "Target (4+)",
+          "dice": "2 3",
+          "result": "1\" short",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: Used the Thunderous Charge tactic to roll 2D6 and pick one."
+         }
+        ]
+       }
+      },
+      "{@demeter|Demeter} is still pinned in the ruin and can't help him. {@ezekiel-crows|Ezekiel} turns and charges the Nacht-Ghul, cleaver raised.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "ezekiel",
+        "name": "Ezekiel Crows - Charge",
+        "result": "Macavity injured",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "note": "Initiative 3 +2 charge bonus"
+         },
+         {
+          "h6": "Autopistol"
+         },
+         {
+          "label": "To Hit (3+)",
+          "dice": "5",
+          "result": "Hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (4+)",
+          "dice": "6",
+          "result": "Wounds"
+         },
+         {
+          "label": "Save (5+)",
+          "dice": "3",
+          "result": "Causes one wound"
+         },
+         {
+          "h6": "Cleaver"
+         },
+         {
+          "label": "To Hit (3+)",
+          "dice": "3 4 6",
+          "result": "Three hits and Knockback",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "4 5 5",
+          "result": "Three wounds"
+         },
+         {
+          "label": "Save (5+ AP -1)",
+          "dice": "2 3 6",
+          "result": "Two wounds caused"
+         },
+         {
+          "label": "Injury",
+          "dice": "fw fw fw fw",
+          "result": "Injured",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: Bull Charge for +1 Strength and Knockback (6+) on the charge. Lethality 2 hits."
+         }
+        ]
+       }
+      },
+      {
+       "roll": {
+        "side": "t",
+        "face": "macavity",
+        "name": "Macavity - Serpent's Fangs",
+        "result": "Ezekiel takes a wound",
+        "rows": [
+         {
+          "note": "Initiative 5"
+         },
+         {
+          "h6": "Serpent's Fangs"
+         },
+         {
+          "label": "To Hit (3+)",
+          "dice": "5",
+          "result": "Hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+ Toxin)",
+          "dice": "4",
+          "result": "Wounds"
+         },
+         {
+          "label": "Save (5+ AP -3)",
+          "dice": "",
+          "result": "Causes one wound"
+         }
+        ]
+       }
+      },
+      "Both of them draw blood. {@mordecai|Mordecai} sees his chance to finish {@macavity|Macavity} off and charges in with his chainglaive.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "macavity",
+        "name": "Macavity - Serpent's Fangs",
+        "result": "Mordecai takes a wound",
+        "rows": [
+         {
+          "note": "Initiative 5"
+         },
+         {
+          "h6": "Serpent's Fangs"
+         },
+         {
+          "label": "To Hit (3+)",
+          "dice": "3",
+          "result": "Hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+ Toxin)",
+          "dice": "5",
+          "result": "Wounds"
+         },
+         {
+          "label": "Save (5+ +1 Parry AP -3)",
+          "dice": "",
+          "result": "Causes one wound"
+         }
+        ]
+       }
+      },
+      {
+       "roll": {
+        "side": "p",
+        "face": "mordecai",
+        "name": "Mordecai - Chainglaive",
+        "result": "Fails to wound",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "note": "Initiative 1 +2 charge bonus"
+         },
+         {
+          "label": "To Hit (3+)",
+          "dice": "2 3 6",
+          "result": "Two hits and Knockback",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "1 2",
+          "result": "Fails to wound",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: Unwieldy strikes at Initiative 1."
+         }
+        ]
+       }
+      },
+      "{@macavity|Macavity} is too quick for him. He twists away from the glaive and cuts {@mordecai|Mordecai} in return. Back at the barricade, {@jellylorum|Jellylorum} drags {@rumpleteaser|Rumpleteaser} back to his feet.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "rumpleteaser",
+        "name": "Rumpleteaser - Recovery",
+        "result": "Recovers",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "Recovery",
+          "dice": "fw fw si",
+          "result": "Recovers",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: +1 die from the Tend Wounds action, +1 die from Jellylorum assisting."
+         }
+        ]
+       }
+      },
+      "{@gutter-cantor|Gutter Cantor} leaves {@ratsong|Ratsong} behind the containers and climbs onto their roof. From up there he can see {@deuteronomy|Deuteronomy} at the foot of the far ladder, and he opens fire.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "cantor",
+        "name": "Gutter Cantor - Polearm/Autogun",
+        "result": "Deuteronomy suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "4 f1",
+          "result": "Hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (4+)",
+          "dice": "3",
+          "result": "Suppressed",
+          "resultClass": "sup"
+         }
+        ]
+       }
+      },
+      "{@jellylorum|Jellylorum} turns his lasgun on {@deus-and-amen|Deus and Amen}, but the Stig-Shambler shrugs off the hit.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "jellylorum",
+        "name": "Jellylorum - Lasgun",
+        "result": "Fails to wound",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "5",
+          "result": "Hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (5+)",
+          "dice": "4",
+          "result": "Fails to wound",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: Juggernaut prevents suppression."
+         }
+        ]
+       }
+      },
+      "{@deuteronomy|Deuteronomy} climbs the ladder anyway and stands at the edge of the platform. He reaches into the Warp to wrap himself in a Perfect Void, but the Warp bites back and he staggers.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "deuteronomy",
+        "name": "Deuteronomy - Perfect Void",
+        "result": "Manifested and suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "Willpower 9",
+          "dice": "1 1",
+          "result": "Manifests with Perils"
+         },
+         {
+          "label": "Perils",
+          "dice": "1",
+          "result": "Warp Surge! Suffers a S4 AP -2 L1 hit"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "2",
+          "result": "Suppressed",
+          "resultClass": "sup"
+         },
+         {
+          "note": "Rules note: I got this wrong. Deuteronomy should have taken a Maintain (Single) action for the Continuous Effect to persist after his activation."
+         }
+        ]
+       }
+      },
+      "On the other ladder, {@vermin-pyre|Vermin Pyre} reaches the top, levels his flamer across the platform at {@deuteronomy|Deuteronomy} and opens fire.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "vermin",
+        "name": "Vermin Pyre - Flamer/Polearm",
+        "result": "Deuteronomy takes a wound, Out of Ammo",
+        "rows": [
+         {
+          "label": "To Wound (3+)",
+          "dice": "5 2",
+          "result": "Hit",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "Save (5+ +2 cover)",
+          "dice": "2",
+          "result": "One wound caused"
+         },
+         {
+          "label": "Ammo (6+)",
+          "dice": "5",
+          "result": "Out of Ammo",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: Blaze (4+) causes an extra hit. +2 cover from Perfect Void."
+         }
+        ]
+       }
+      },
+      "The flames catch {@deuteronomy|Deuteronomy} and Vermin's tank runs dry. From the Gothic ruin, {@demeter|Demeter} finally gets a clear shot at the wounded {@ezekiel-crows|Ezekiel}.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "demeter",
+        "name": "Demeter - Long Rifle",
+        "result": "Ezekiel suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "To Hit (3+)",
+          "dice": "5",
+          "result": "Hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "1",
+          "result": "Suppressed",
+          "resultClass": "sup"
+         }
+        ]
+       }
+      }
+     ],
+     "ports": [
+      {
+       "src": "images/1.1/photo-08.jpg",
+       "alt": "Macavity at the very edge of the table, with the stairs and distant Cawdor fighters ahead of him.",
+       "class": "port",
+       "caption": "Macavity emerges from the shadows."
+      },
+      {
+       "src": "images/1.1/photo-09.jpg",
+       "alt": "Deus and Amen seen from behind, aiming the stubber past the central tower with Vermin Pyre beside him.",
+       "class": "port",
+       "caption": "Deus takes down Rumpleteaser."
+      }
+     ]
+    },
+    {
+     "endsHead": "The fight at the barricade"
+    },
+    {
+     "ends": [
+      {
+       "src": "images/1.1/photo-10.jpg",
+       "alt": "Close-up of Macavity and Ezekiel Crows fighting beside the barricade.",
+       "caption": "Macavity and Ezekiel Crows in combat."
+      }
+     ],
+     "class": "single"
+    },
+    {
+     "endsHead": "Positions at the end of round 3"
+    },
+    {
+     "photo": {
+      "src": "images/1.1/photo-11.jpg",
+      "alt": "The whole table at the end of round 3, with Vermin Pyre and Deuteronomy on the platform and the fight at the barricade in the corner.",
+      "caption": "The whole table at the end of round 3."
+     }
+    },
+    {
+     "map": {
+      "svg": "<svg aria-label=\"Top-down map of fighter positions at the end of round 3.\" role=\"img\" viewbox=\"-14 -24 628 668\"><text class=\"m-edge t\" x=\"300\" y=\"-8\">The Midnight Theatre edge</text><text class=\"m-edge p\" x=\"300\" y=\"638\">The Carrion Psalm edge</text><rect class=\"m-mat\" height=\"600\" width=\"600\" x=\"0\" y=\"0\"></rect><path class=\"m-grid\" d=\"M150 0V600M0 150H600M300 0V600M0 300H600M450 0V600M0 450H600\"></path><polygon class=\"m-floor\" points=\"12.5,505 30,482.5 75,470 117.5,475 125,525 180,545 180,590 12.5,590\"></polygon><text class=\"m-lab\" x=\"75\" y=\"560\">Ruined floor</text><polygon class=\"m-solid\" points=\"125,465 175,465 175,497.5 125,497.5\"></polygon><text class=\"m-lab\" x=\"150\" y=\"517.5\">Tank</text><polyline class=\"m-wall\" points=\"30,405 75,410\"></polyline><polyline class=\"m-wall\" points=\"50,227.5 50,290\"></polyline><polygon class=\"m-floor\" points=\"375,382.5 465,382.5 465,462.5 375,462.5\"></polygon><polygon class=\"m-solid\" points=\"375,462.5 465,462.5 465,580 375,580\"></polygon><text class=\"m-lab\" x=\"420\" y=\"517.5\">Ruined</text><text class=\"m-lab\" x=\"420\" y=\"535\">tower</text><polyline class=\"m-wall\" points=\"375,580 375,382.5 572.5,382.5 572.5,580 375,580\"></polyline><polygon class=\"m-rubble\" points=\"512.5,382.5 572.5,382.5 572.5,425 512.5,425\"></polygon><polyline class=\"m-wall\" points=\"222.5,452.5 307.5,452.5 307.5,485\"></polyline><polygon class=\"m-rubble\" points=\"245,462.5 297.5,462.5 297.5,490 245,490\"></polygon><polyline class=\"m-wall\" points=\"247.5,540 305,540\"></polyline><polyline class=\"m-wall\" points=\"15,500 15,587.5 185,587.5\"></polyline><polyline class=\"m-plank\" points=\"142.5,440 220,395\"></polyline><polygon class=\"m-solid\" points=\"15,80 70,80 115,150 180,150 180,210 15,210\"></polygon><text class=\"m-lab\" x=\"62.5\" y=\"190\">Gothic ruin</text><polyline class=\"m-wall\" points=\"15,80 15,32.5 180,32.5 180,150\"></polyline><text class=\"m-lab\" x=\"110\" y=\"67.5\">Walled yard</text><polyline class=\"m-wall\" points=\"250,7.5 250,132.5 310,132.5\"></polyline><polygon class=\"m-solid\" points=\"387.5,30 557.5,30 557.5,140 387.5,140\"></polygon><text class=\"m-lab\" x=\"472.5\" y=\"87.5\">Gothic ruin</text><polyline class=\"m-plank\" points=\"340,202.5 397.5,170\"></polyline><polygon class=\"m-solid\" points=\"411.518,233.687 490.139,307.002 453.482,346.313 374.861,272.998\"></polygon><polygon class=\"m-solid\" points=\"467.731,181.197 567.404,221.467 547.269,271.303 447.596,231.033\"></polygon><polygon class=\"m-top\" points=\"407.407,227.956 503.191,179.152 527.593,227.044 431.809,275.848\"></polygon><polyline class=\"m-run\" points=\"467.5,257.75 477.5,277.5\"></polyline><text class=\"m-lab\" x=\"467.5\" y=\"232.5\">Containers</text><polyline class=\"m-wall\" points=\"555,297.5 565,367.5\"></polyline><polyline class=\"m-wall\" points=\"347.5,340 387.5,307.5\"></polyline><polygon class=\"m-solid\" points=\"81.0464,321.259 181.285,270.185 228.954,363.741 128.715,414.815\"></polygon><polyline class=\"m-div\" points=\"171,393.25 123.5,299.75\"></polyline><polyline class=\"m-div\" points=\"141.5,335.25 199.5,305.75\"></polyline><text class=\"m-lab\" x=\"125\" y=\"358.75\">Stairs</text><polygon class=\"m-plat\" points=\"402.5,300 351.25,388.75 248.75,388.75 197.5,300 248.75,211.25 351.25,211.25\"></polygon><circle class=\"m-tower\" cx=\"300\" cy=\"300\" r=\"62\"></circle><polyline class=\"m-run\" points=\"300,190 300,211.25\"></polyline><polyline class=\"m-run\" points=\"292.5,388.75 292.5,412.5\"></polyline><circle class=\"m-centre\" cx=\"300\" cy=\"300\" r=\"22\"></circle><text class=\"m-c\" x=\"300\" y=\"267.5\">Cache</text><text class=\"m-lab\" x=\"325\" y=\"373.75\">Raised platform</text><circle class=\"tok-p\" cx=\"250\" cy=\"435\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"250\" y=\"440.5\">M</text><circle class=\"tok-p\" cx=\"227.5\" cy=\"410\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"227.5\" y=\"415.5\">Ez</text><circle class=\"tok-p\" cx=\"302.5\" cy=\"335\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"302.5\" y=\"340.5\">V</text><circle class=\"tok-p\" cx=\"442.5\" cy=\"287.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"442.5\" y=\"293\">G</text><circle class=\"tok-p\" cx=\"492.5\" cy=\"350\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"492.5\" y=\"355.5\">R</text><circle class=\"tok-p\" cx=\"335\" cy=\"430\" r=\"19\"></circle><text class=\"tok-n two\" x=\"335\" y=\"435.5\">DA</text><circle class=\"tok-t\" cx=\"300\" cy=\"231.25\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"300\" y=\"236.75\">De</text><circle class=\"tok-t\" cx=\"122.5\" cy=\"177.5\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"122.5\" y=\"183\">Dm</text><circle class=\"tok-t\" cx=\"222.5\" cy=\"440\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"222.5\" y=\"445.5\">Mc</text><circle class=\"tok-t\" cx=\"355\" cy=\"172.5\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"355\" y=\"178\">Rt</text><circle class=\"tok-t\" cx=\"380\" cy=\"157.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"380\" y=\"163\">J</text><circle class=\"b-w\" cx=\"267.2\" cy=\"431.9\" r=\"8.5\"></circle><text class=\"b-t\" x=\"267.2\" y=\"435.7\">W</text><circle class=\"b-w\" cx=\"222.1\" cy=\"393.4\" r=\"8.5\"></circle><text class=\"b-t\" x=\"222.1\" y=\"397.2\">W</text><circle class=\"b-s\" cx=\"238.0\" cy=\"396.0\" r=\"8.5\"></circle><text class=\"b-t\" x=\"238.0\" y=\"399.8\">S</text><circle class=\"b-a\" cx=\"318.7\" cy=\"328.4\" r=\"8.5\"></circle><text class=\"b-t\" x=\"318.7\" y=\"332.2\">A</text><circle class=\"b-w\" cx=\"311.4\" cy=\"217.9\" r=\"8.5\"></circle><text class=\"b-t\" x=\"311.4\" y=\"221.7\">W</text><circle class=\"b-s\" cx=\"317.4\" cy=\"232.9\" r=\"8.5\"></circle><text class=\"b-t\" x=\"317.4\" y=\"236.7\">S</text><circle class=\"b-w\" cx=\"138.7\" cy=\"170.9\" r=\"8.5\"></circle><text class=\"b-t\" x=\"138.7\" y=\"174.7\">W</text><circle class=\"b-i\" cx=\"205.3\" cy=\"443.1\" r=\"8.5\"></circle><text class=\"b-t\" x=\"205.3\" y=\"446.9\">I</text><text class=\"m-tick\" x=\"0\" y=\"618\">0\"</text><text class=\"m-tick\" x=\"150\" y=\"618\">6\"</text><text class=\"m-tick\" x=\"300\" y=\"618\">12\"</text><text class=\"m-tick\" x=\"450\" y=\"618\">18\"</text><text class=\"m-tick\" x=\"600\" y=\"618\">24\"</text><circle class=\"b-v\" cx=\"285.0\" cy=\"225.2\" r=\"8.5\"></circle><text class=\"b-t\" x=\"285.0\" y=\"229.1\">V</text></svg>",
+      "caption": "<ul class=\"b-key\"><li><span class=\"b b-w\">W</span>Wounded</li><li><span class=\"b b-s\">S</span>Suppressed</li><li><span class=\"b b-a\">A</span>Out of ammo</li><li><span class=\"b b-i\">I</span>Injured, 0 wounds</li><li><span class=\"b b-v\">V</span>Perfect Void</li></ul>"
+     }
+    },
+    {
+     "vp": "End phase: the Psalm scored 1 VP at the Cache. Score <b>1–0</b> to the Psalm."
+    }
+   ]
+  },
+  {
+   "id": "round-4",
+   "no": "4",
+   "title": "Round 4: First blood",
+   "blocks": [
+    {
+     "split": [
+      "tall",
+      "none"
+     ],
+     "text": [
+      "{@macavity|Macavity} doesn't wait for the Psalm to regroup. He turns from {@ezekiel-crows|Ezekiel} and goes for {@mordecai|Mordecai}, who is already bleeding from their last exchange.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "macavity",
+        "name": "Macavity - Serpent's Fangs",
+        "result": "Mordecai out of action",
+        "rows": [
+         {
+          "note": "Initiative 5 +2 charge bonus"
+         },
+         {
+          "h6": "Serpent's Fangs"
+         },
+         {
+          "label": "To Hit (3+)",
+          "dice": "1 2 3 4 5 6",
+          "result": "Four hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+ Toxin)",
+          "dice": "1 2 5 6",
+          "result": "Two wounds"
+         },
+         {
+          "label": "Save (5+ +1 Parry AP -3)",
+          "dice": "",
+          "result": "Two wounds caused"
+         },
+         {
+          "label": "Injury",
+          "dice": "ooa",
+          "result": "Out of Action"
+         },
+         {
+          "note": "Note: Mordecai suffers the Personal Enmity lasting injury."
+         }
+        ],
+        "n": 4
+       }
+      },
+      "The fangs find their mark and the Word Keeper goes down. Losing their leader shakes the Psalm, but {@ezekiel-crows|Ezekiel}, wounded beside him, holds his ground.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "ezekiel",
+        "name": "Ezekiel Crows - Nerve Check",
+        "result": "Holds",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "Cool 7",
+          "dice": "3 2",
+          "result": "Passes",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "{@deus-and-amen|Deus} wants revenge. He drags Amen round towards the Nacht-Ghul and fires the stubber.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "deus",
+        "name": "Deus and Amen - Twin-linked Heavy Stubber",
+        "result": "Misses",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "2 f2 f3",
+          "result": "Misses",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: Uses Bulging Biceps to move at Initiative and fire a heavy weapon."
+         }
+        ]
+       }
+      },
+      "Up in the Gothic ruin, {@demeter|Demeter} takes careful aim at {@ezekiel-crows|Ezekiel}.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "demeter",
+        "name": "Demeter - Long Rifle",
+        "result": "Ezekiel seriously injured",
+        "rows": [
+         {
+          "label": "To Hit (3+ +1 aim)",
+          "dice": "4",
+          "result": "Hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "5",
+          "result": "Wounds"
+         },
+         {
+          "label": "Save (5+ +1 cover AP -1)",
+          "dice": "4",
+          "result": "Causes one wound"
+         },
+         {
+          "label": "Injury",
+          "dice": "si",
+          "result": "Seriously Injured"
+         }
+        ]
+       }
+      },
+      "{@ezekiel-crows|Ezekiel} goes down. On the platform, {@vermin-pyre|Vermin Pyre} slams a fresh canister into his flamer and turns it on {@deuteronomy|Deuteronomy} again.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "vermin",
+        "name": "Vermin Pyre - Flamer/Polearm",
+        "result": "Deuteronomy takes a wound and is suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "To Wound (3+)",
+          "dice": "4 2",
+          "result": "Wounds"
+         },
+         {
+          "label": "Save (5+ +2 cover AP -1)",
+          "dice": "3",
+          "result": "Causes one wound and Suppressed",
+          "resultClass": "sup"
+         },
+         {
+          "note": "Note: Blaze (4+) causes an extra hit. +2 cover from Perfect Void."
+         }
+        ]
+       }
+      },
+      "Burnt and pinned at the edge of the platform, {@deuteronomy|Deuteronomy} tries to keep hold of the Perfect Void.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "deuteronomy",
+        "name": "Deuteronomy - Maintain Power",
+        "result": "Deuteronomy takes a wound, is injured and suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "Willpower 9",
+          "dice": "1 1",
+          "result": "Maintains, but suffers Perils of the Warp"
+         },
+         {
+          "label": "Perils",
+          "dice": "1",
+          "result": "Warp Surge! Suffers a S4 AP -2 L1 hit"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "4",
+          "result": "Wounds"
+         },
+         {
+          "label": "Save (5+ AP -2)",
+          "dice": "",
+          "result": "One wound caused"
+         },
+         {
+          "label": "Injury",
+          "dice": "fw",
+          "result": "Injured",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "The Warp hits him again and he drops to his knees, but he still raises his flechette pistol and fires back at {@vermin-pyre|Vermin Pyre}.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "deuteronomy",
+        "name": "Deuteronomy - Flechette Pistol",
+        "result": "Vermin Pyre out of action",
+        "rows": [
+         {
+          "label": "To Hit (3+)",
+          "dice": "4 f3",
+          "result": "Three hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+ Toxin)",
+          "dice": "3 5 5",
+          "result": "Three wounds"
+         },
+         {
+          "label": "Save (6+)",
+          "dice": "3 5 5",
+          "result": "Takes three wounds"
+         },
+         {
+          "label": "Injury",
+          "dice": "ooa fw fw",
+          "result": "Out of Action"
+         },
+         {
+          "note": "Note: Vermin Pyre suffers the Hobbled lasting injury."
+         }
+        ]
+       }
+      },
+      "The poison does its work and Vermin Pyre falls from the platform. Below it, {@ezekiel-crows|Ezekiel} crawls into cover and gets himself back up.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "ezekiel",
+        "name": "Ezekiel Crows - Recovery",
+        "result": "Recovers",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "Recovery",
+          "dice": "fw si",
+          "result": "Recovers",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: +1 die from the Tend Wounds action."
+         }
+        ]
+       }
+      },
+      "{@rumpleteaser|Rumpleteaser} is back in the fight. With {@deus-and-amen|Deus} busy with {@macavity|Macavity}, he fires his plasma gun at the Stig-Shambler.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "rumpleteaser",
+        "name": "Rumpleteaser - Plasma Gun",
+        "result": "Deus and Amen take two wounds and are suppressed, weapon jammed",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "5 f1a",
+          "result": "One hit",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "Ammo (6+)",
+          "dice": "1",
+          "result": "Weapon jammed",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "4",
+          "result": "Wounds"
+         },
+         {
+          "label": "Save (6+ +1 cover AP -2)",
+          "dice": "",
+          "result": "Causes two wounds and Suppressed"
+         }
+        ]
+       }
+      },
+      "The bolt hits {@deus-and-amen|Deus and Amen} hard, but the heat of the shot has warped the coils out of alignment. The plasma gun can no longer hold a charge. {@gutter-cantor|Gutter Cantor} creeps to the edge of the container roof and fires down at {@rumpleteaser|Rumpleteaser}.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "cantor",
+        "name": "Gutter Cantor - Polearm/Autogun",
+        "result": "Misses",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "3 f1",
+          "result": "Misses",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "{@jellylorum|Jellylorum} fires back from the barricade, forcing {@gutter-cantor|Gutter Cantor} flat against the roof.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "jellylorum",
+        "name": "Jellylorum - Lasgun",
+        "result": "Gutter Cantor suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "5",
+          "result": "Hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (4+)",
+          "dice": "1",
+          "result": "Suppressed",
+          "resultClass": "sup"
+         }
+        ]
+       }
+      },
+      "{@ratsong|Ratsong} darts between the containers to take a shot at {@jellylorum|Jellylorum}, but his stub gun doesn't have the range.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "ratsong",
+        "name": "Ratsong - Stub Gun",
+        "result": "Misses",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (5+)",
+          "dice": "3",
+          "result": "Misses",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      }
+     ],
+     "ports": []
+    },
+    {
+     "endsHead": "The fight at the barricade"
+    },
+    {
+     "ends": [
+      {
+       "src": "images/1.1/photo-12.jpg",
+       "alt": "Macavity standing over the fallen Mordecai by the barricade, with Deus and Amen aiming in the foreground and Demeter on the Gothic ruin behind.",
+       "caption": "Mordecai falls to Macavity."
+      }
+     ],
+     "class": "single"
+    },
+    {
+     "endsHead": "Positions at the end of round 4"
+    },
+    {
+     "map": {
+      "svg": "<svg aria-label=\"Top-down map of fighter positions at the end of round 4.\" role=\"img\" viewbox=\"-14 -24 628 668\"><text class=\"m-edge t\" x=\"300\" y=\"-8\">The Midnight Theatre edge</text><text class=\"m-edge p\" x=\"300\" y=\"638\">The Carrion Psalm edge</text><rect class=\"m-mat\" height=\"600\" width=\"600\" x=\"0\" y=\"0\"></rect><path class=\"m-grid\" d=\"M150 0V600M0 150H600M300 0V600M0 300H600M450 0V600M0 450H600\"></path><polygon class=\"m-floor\" points=\"12.5,505 30,482.5 75,470 117.5,475 125,525 180,545 180,590 12.5,590\"></polygon><text class=\"m-lab\" x=\"75\" y=\"560\">Ruined floor</text><polygon class=\"m-solid\" points=\"125,465 175,465 175,497.5 125,497.5\"></polygon><text class=\"m-lab\" x=\"150\" y=\"517.5\">Tank</text><polyline class=\"m-wall\" points=\"30,405 75,410\"></polyline><polyline class=\"m-wall\" points=\"50,227.5 50,290\"></polyline><polygon class=\"m-floor\" points=\"375,382.5 465,382.5 465,462.5 375,462.5\"></polygon><polygon class=\"m-solid\" points=\"375,462.5 465,462.5 465,580 375,580\"></polygon><text class=\"m-lab\" x=\"420\" y=\"517.5\">Ruined</text><text class=\"m-lab\" x=\"420\" y=\"535\">tower</text><polyline class=\"m-wall\" points=\"375,580 375,382.5 572.5,382.5 572.5,580 375,580\"></polyline><polygon class=\"m-rubble\" points=\"512.5,382.5 572.5,382.5 572.5,425 512.5,425\"></polygon><polyline class=\"m-wall\" points=\"222.5,452.5 307.5,452.5 307.5,485\"></polyline><polygon class=\"m-rubble\" points=\"245,462.5 297.5,462.5 297.5,490 245,490\"></polygon><polyline class=\"m-wall\" points=\"247.5,540 305,540\"></polyline><polyline class=\"m-wall\" points=\"15,500 15,587.5 185,587.5\"></polyline><polyline class=\"m-plank\" points=\"142.5,440 220,395\"></polyline><polygon class=\"m-solid\" points=\"15,80 70,80 115,150 180,150 180,210 15,210\"></polygon><text class=\"m-lab\" x=\"62.5\" y=\"190\">Gothic ruin</text><polyline class=\"m-wall\" points=\"15,80 15,32.5 180,32.5 180,150\"></polyline><text class=\"m-lab\" x=\"110\" y=\"67.5\">Walled yard</text><polyline class=\"m-wall\" points=\"250,7.5 250,132.5 310,132.5\"></polyline><polygon class=\"m-solid\" points=\"387.5,30 557.5,30 557.5,140 387.5,140\"></polygon><text class=\"m-lab\" x=\"472.5\" y=\"87.5\">Gothic ruin</text><polyline class=\"m-plank\" points=\"340,202.5 397.5,170\"></polyline><polygon class=\"m-solid\" points=\"411.518,233.687 490.139,307.002 453.482,346.313 374.861,272.998\"></polygon><polygon class=\"m-solid\" points=\"467.731,181.197 567.404,221.467 547.269,271.303 447.596,231.033\"></polygon><polygon class=\"m-top\" points=\"407.407,227.956 503.191,179.152 527.593,227.044 431.809,275.848\"></polygon><polyline class=\"m-run\" points=\"467.5,257.75 477.5,277.5\"></polyline><text class=\"m-lab\" x=\"467.5\" y=\"232.5\">Containers</text><polyline class=\"m-wall\" points=\"555,297.5 565,367.5\"></polyline><polyline class=\"m-wall\" points=\"347.5,340 387.5,307.5\"></polyline><polygon class=\"m-solid\" points=\"81.0464,321.259 181.285,270.185 228.954,363.741 128.715,414.815\"></polygon><polyline class=\"m-div\" points=\"171,393.25 123.5,299.75\"></polyline><polyline class=\"m-div\" points=\"141.5,335.25 199.5,305.75\"></polyline><text class=\"m-lab\" x=\"125\" y=\"358.75\">Stairs</text><polygon class=\"m-plat\" points=\"402.5,300 351.25,388.75 248.75,388.75 197.5,300 248.75,211.25 351.25,211.25\"></polygon><circle class=\"m-tower\" cx=\"300\" cy=\"300\" r=\"62\"></circle><polyline class=\"m-run\" points=\"300,190 300,211.25\"></polyline><polyline class=\"m-run\" points=\"292.5,388.75 292.5,412.5\"></polyline><circle class=\"m-centre\" cx=\"300\" cy=\"300\" r=\"22\"></circle><text class=\"m-c\" x=\"300\" y=\"267.5\">Cache</text><text class=\"m-lab\" x=\"325\" y=\"373.75\">Raised platform</text><text aria-label=\"Out of Action\" class=\"ooa-e\" x=\"250\" y=\"442\">💀</text><text aria-label=\"Out of Action\" class=\"ooa-e\" x=\"302.5\" y=\"342\">💀</text><circle class=\"tok-p\" cx=\"227.5\" cy=\"410\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"227.5\" y=\"415.5\">Ez</text><circle class=\"tok-p\" cx=\"412.5\" cy=\"265\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"412.5\" y=\"270.5\">G</text><circle class=\"tok-p\" cx=\"475\" cy=\"262.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"475\" y=\"268\">R</text><circle class=\"tok-p\" cx=\"290\" cy=\"430\" r=\"19\"></circle><text class=\"tok-n two\" x=\"290\" y=\"435.5\">DA</text><circle class=\"tok-t\" cx=\"300\" cy=\"231.25\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"300\" y=\"236.75\">De</text><circle class=\"tok-t\" cx=\"122.5\" cy=\"177.5\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"122.5\" y=\"183\">Dm</text><circle class=\"tok-t\" cx=\"222.5\" cy=\"440\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"222.5\" y=\"445.5\">Mc</text><circle class=\"tok-t\" cx=\"355\" cy=\"172.5\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"355\" y=\"178\">Rt</text><circle class=\"tok-t\" cx=\"380\" cy=\"157.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"380\" y=\"163\">J</text><circle class=\"b-i\" cx=\"230.4\" cy=\"392.7\" r=\"8.5\"></circle><text class=\"b-t\" x=\"230.4\" y=\"396.5\">I</text><circle class=\"b-s\" cx=\"395.0\" cy=\"265.7\" r=\"8.5\"></circle><text class=\"b-t\" x=\"395.0\" y=\"269.5\">S</text><circle class=\"b-w\" cx=\"313.7\" cy=\"425.9\" r=\"8.5\"></circle><text class=\"b-t\" x=\"313.7\" y=\"429.7\">W2</text><circle class=\"b-s\" cx=\"306.9\" cy=\"447.0\" r=\"8.5\"></circle><text class=\"b-t\" x=\"306.9\" y=\"450.8\">S</text><circle class=\"b-i\" cx=\"311.4\" cy=\"217.9\" r=\"8.5\"></circle><text class=\"b-t\" x=\"311.4\" y=\"221.7\">I</text><circle class=\"b-s\" cx=\"317.4\" cy=\"232.9\" r=\"8.5\"></circle><text class=\"b-t\" x=\"317.4\" y=\"236.7\">S</text><circle class=\"b-w\" cx=\"138.7\" cy=\"170.9\" r=\"8.5\"></circle><text class=\"b-t\" x=\"138.7\" y=\"174.7\">W</text><circle class=\"b-i\" cx=\"219.6\" cy=\"457.3\" r=\"8.5\"></circle><text class=\"b-t\" x=\"219.6\" y=\"461.1\">I</text><circle class=\"b-a\" cx=\"340.0\" cy=\"181.5\" r=\"8.5\"></circle><text class=\"b-t\" x=\"340.0\" y=\"185.3\">J</text><text class=\"m-tick\" x=\"0\" y=\"618\">0\"</text><text class=\"m-tick\" x=\"150\" y=\"618\">6\"</text><text class=\"m-tick\" x=\"300\" y=\"618\">12\"</text><text class=\"m-tick\" x=\"450\" y=\"618\">18\"</text><text class=\"m-tick\" x=\"600\" y=\"618\">24\"</text><circle class=\"b-v\" cx=\"285.0\" cy=\"225.2\" r=\"8.5\"></circle><text class=\"b-t\" x=\"285.0\" y=\"229.1\">V</text></svg>",
+      "caption": "<ul class=\"b-key\"><li><span class=\"b b-i\">I</span>Injured, 0 wounds</li><li><span class=\"b b-s\">S</span>Suppressed</li><li><span class=\"b b-w\">W2</span>Wounded, number shows wounds taken</li><li><span class=\"b b-w\">W</span>Wounded</li><li><span class=\"b b-a\">J</span>Gun jammed</li><li><span aria-hidden=\"true\" class=\"ooa-k\">💀</span>Out of Action</li><li><span class=\"b b-v\">V</span>Perfect Void</li></ul>"
+     }
+    },
+    {
+     "vp": "End phase: the Psalm pass their bottle test and no VP is scored. Score <b>1–0</b> to the Psalm."
+    },
+    {
+     "roll": {
+      "name": "The Carrion Psalm - Bottle Check",
+      "result": "The Psalm hold",
+      "resultClass": "ammo",
+      "rows": [
+       {
+        "label": "Mordecai (Leadership 8)",
+        "dice": "3 4",
+        "result": "Passes",
+        "resultClass": "ammo"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "round-5",
+   "no": "5",
+   "title": "Round 5: An eye for an eye",
+   "blocks": [
+    {
+     "split": [
+      "tall",
+      "none"
+     ],
+     "text": [
+      "{@macavity|Macavity} is wounded and right next to {@deus-and-amen|Deus}. Deus drives Amen into him, swinging the great club.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "deus",
+        "name": "Deus and Amen - Engage Distance",
+        "result": "Engaged",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "Engage (4+)",
+          "dice": "5",
+          "result": "Engaged",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      {
+       "roll": {
+        "side": "t",
+        "face": "macavity",
+        "name": "Macavity - Serpent's Fangs",
+        "result": "Miss",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "note": "Initiative 5"
+         },
+         {
+          "h6": "Serpent's Fangs"
+         },
+         {
+          "label": "To Hit (3+)",
+          "dice": "2",
+          "result": "Miss",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      {
+       "roll": {
+        "side": "p",
+        "face": "deus",
+        "name": "Deus and Amen - Heavy Club",
+        "result": "Macavity seriously injured",
+        "rows": [
+         {
+          "note": "Initiative 1"
+         },
+         {
+          "h6": "Heavy Club"
+         },
+         {
+          "label": "To Hit (4+)",
+          "dice": "4 6",
+          "result": "Two hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (2+)",
+          "dice": "2 3",
+          "result": "Two wounds"
+         },
+         {
+          "label": "Save (5+)",
+          "dice": "3 4",
+          "result": "Two wounds"
+         },
+         {
+          "label": "Injury",
+          "dice": "si si fw fw",
+          "result": "Seriously Injured"
+         },
+         {
+          "note": "Note: Unwieldy, so Initiative 1. No charge bonus to Initiative or attacks. Lethality 2 weapon."
+         }
+        ]
+       }
+      },
+      "The club smashes {@macavity|Macavity} to the ground. {@demeter|Demeter} sees {@ezekiel-crows|Ezekiel} heading for the fallen Nacht-Ghul and fires to stop him.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "demeter",
+        "name": "Demeter - Long Rifle",
+        "result": "Ezekiel suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "To Hit (2+)",
+          "dice": "4",
+          "result": "Hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "1",
+          "result": "Suppressed",
+          "resultClass": "sup"
+         }
+        ]
+       }
+      },
+      "{@ezekiel-crows|Ezekiel} keeps coming anyway. He reaches {@macavity|Macavity} and brings his cleaver down.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "ezekiel",
+        "name": "Ezekiel Crows - Coup de Grace",
+        "result": "Macavity out of action",
+        "rows": [
+         {
+          "label": "Ezekiel (Str 3)",
+          "dice": "3",
+          "result": "",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "Macavity (Str 4)",
+          "dice": "1",
+          "result": "Macavity out of action"
+         },
+         {
+          "note": "Note: Macavity receives the Lesson Learnt lasting injury."
+         }
+        ]
+       }
+      },
+      "{@gutter-cantor|Gutter Cantor} empties his autogun at {@demeter|Demeter}, forcing him down, but runs out of ammunition.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "cantor",
+        "name": "Gutter Cantor - Polearm/Autogun",
+        "result": "Demeter suppressed, Out of Ammo",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "5 f1a",
+          "result": "Hits, Out of Ammo",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (4+)",
+          "dice": "4",
+          "result": "Wounds"
+         },
+         {
+          "label": "Save (5+)",
+          "dice": "6",
+          "result": "Saved, Suppressed",
+          "resultClass": "sup"
+         }
+        ]
+       }
+      },
+      "{@jellylorum|Jellylorum} fires back at {@gutter-cantor|Gutter Cantor}, then heads for the foot of the ladder.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "jellylorum",
+        "name": "Jellylorum - Lasgun",
+        "result": "Gutter Cantor suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "6",
+          "result": "Hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (4+)",
+          "dice": "2",
+          "result": "Suppresses",
+          "resultClass": "sup"
+         }
+        ]
+       }
+      },
+      "With his plasma gun useless, {@rumpleteaser|Rumpleteaser} falls back into the shadows.",
+      "{@ratsong|Ratsong} makes his way back towards the platform ladder.",
+      "{@deuteronomy|Deuteronomy} gathers what strength he has left and walks to the centre of the platform. He stands over the Cache, and for now it's his."
+     ],
+     "ports": []
+    },
+    {
+     "endsHead": "The end of Macavity"
+    },
+    {
+     "ends": [
+      {
+       "src": "images/1.1/photo-13.jpg",
+       "alt": "Macavity tipped over at the barricade beside Deus and Amen.",
+       "caption": "Macavity goes down."
+      }
+     ],
+     "class": "single"
+    },
+    {
+     "endsHead": "Positions at the end of round 5"
+    },
+    {
+     "map": {
+      "svg": "<svg aria-label=\"Top-down map of fighter positions at the end of round 5.\" role=\"img\" viewbox=\"-14 -24 628 668\"><text class=\"m-edge t\" x=\"300\" y=\"-8\">The Midnight Theatre edge</text><text class=\"m-edge p\" x=\"300\" y=\"638\">The Carrion Psalm edge</text><rect class=\"m-mat\" height=\"600\" width=\"600\" x=\"0\" y=\"0\"></rect><path class=\"m-grid\" d=\"M150 0V600M0 150H600M300 0V600M0 300H600M450 0V600M0 450H600\"></path><polygon class=\"m-floor\" points=\"12.5,505 30,482.5 75,470 117.5,475 125,525 180,545 180,590 12.5,590\"></polygon><text class=\"m-lab\" x=\"75\" y=\"560\">Ruined floor</text><polygon class=\"m-solid\" points=\"125,465 175,465 175,497.5 125,497.5\"></polygon><text class=\"m-lab\" x=\"150\" y=\"517.5\">Tank</text><polyline class=\"m-wall\" points=\"30,405 75,410\"></polyline><polyline class=\"m-wall\" points=\"50,227.5 50,290\"></polyline><polygon class=\"m-floor\" points=\"375,382.5 465,382.5 465,462.5 375,462.5\"></polygon><polygon class=\"m-solid\" points=\"375,462.5 465,462.5 465,580 375,580\"></polygon><text class=\"m-lab\" x=\"420\" y=\"517.5\">Ruined</text><text class=\"m-lab\" x=\"420\" y=\"535\">tower</text><polyline class=\"m-wall\" points=\"375,580 375,382.5 572.5,382.5 572.5,580 375,580\"></polyline><polygon class=\"m-rubble\" points=\"512.5,382.5 572.5,382.5 572.5,425 512.5,425\"></polygon><polyline class=\"m-wall\" points=\"222.5,452.5 307.5,452.5 307.5,485\"></polyline><polygon class=\"m-rubble\" points=\"245,462.5 297.5,462.5 297.5,490 245,490\"></polygon><polyline class=\"m-wall\" points=\"247.5,540 305,540\"></polyline><polyline class=\"m-wall\" points=\"15,500 15,587.5 185,587.5\"></polyline><polyline class=\"m-plank\" points=\"142.5,440 220,395\"></polyline><polygon class=\"m-solid\" points=\"15,80 70,80 115,150 180,150 180,210 15,210\"></polygon><text class=\"m-lab\" x=\"62.5\" y=\"190\">Gothic ruin</text><polyline class=\"m-wall\" points=\"15,80 15,32.5 180,32.5 180,150\"></polyline><text class=\"m-lab\" x=\"110\" y=\"67.5\">Walled yard</text><polyline class=\"m-wall\" points=\"250,7.5 250,132.5 310,132.5\"></polyline><polygon class=\"m-solid\" points=\"387.5,30 557.5,30 557.5,140 387.5,140\"></polygon><text class=\"m-lab\" x=\"472.5\" y=\"87.5\">Gothic ruin</text><polyline class=\"m-plank\" points=\"340,202.5 397.5,170\"></polyline><polygon class=\"m-solid\" points=\"411.518,233.687 490.139,307.002 453.482,346.313 374.861,272.998\"></polygon><polygon class=\"m-solid\" points=\"467.731,181.197 567.404,221.467 547.269,271.303 447.596,231.033\"></polygon><polygon class=\"m-top\" points=\"407.407,227.956 503.191,179.152 527.593,227.044 431.809,275.848\"></polygon><polyline class=\"m-run\" points=\"467.5,257.75 477.5,277.5\"></polyline><text class=\"m-lab\" x=\"467.5\" y=\"232.5\">Containers</text><polyline class=\"m-wall\" points=\"555,297.5 565,367.5\"></polyline><polyline class=\"m-wall\" points=\"347.5,340 387.5,307.5\"></polyline><polygon class=\"m-solid\" points=\"81.0464,321.259 181.285,270.185 228.954,363.741 128.715,414.815\"></polygon><polyline class=\"m-div\" points=\"171,393.25 123.5,299.75\"></polyline><polyline class=\"m-div\" points=\"141.5,335.25 199.5,305.75\"></polyline><text class=\"m-lab\" x=\"125\" y=\"358.75\">Stairs</text><polygon class=\"m-plat\" points=\"402.5,300 351.25,388.75 248.75,388.75 197.5,300 248.75,211.25 351.25,211.25\"></polygon><circle class=\"m-tower\" cx=\"300\" cy=\"300\" r=\"62\"></circle><polyline class=\"m-run\" points=\"300,190 300,211.25\"></polyline><polyline class=\"m-run\" points=\"292.5,388.75 292.5,412.5\"></polyline><circle class=\"m-centre\" cx=\"300\" cy=\"300\" r=\"22\"></circle><text class=\"m-c\" x=\"300\" y=\"267.5\">Cache</text><text class=\"m-lab\" x=\"325\" y=\"373.75\">Raised platform</text><text aria-label=\"Out of Action\" class=\"ooa-e\" x=\"222.5\" y=\"447\">💀</text><circle class=\"tok-p\" cx=\"227.5\" cy=\"410\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"227.5\" y=\"415.5\">Ez</text><circle class=\"tok-p\" cx=\"412.5\" cy=\"265\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"412.5\" y=\"270.5\">G</text><circle class=\"tok-p\" cx=\"390\" cy=\"352.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"390\" y=\"358\">R</text><circle class=\"tok-p\" cx=\"252.5\" cy=\"430\" r=\"19\"></circle><text class=\"tok-n two\" x=\"252.5\" y=\"435.5\">DA</text><circle class=\"tok-t\" cx=\"300\" cy=\"300\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"300\" y=\"305.5\">De</text><circle class=\"tok-t\" cx=\"122.5\" cy=\"177.5\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"122.5\" y=\"183\">Dm</text><circle class=\"tok-t\" cx=\"472.5\" cy=\"112.5\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"472.5\" y=\"118\">Rt</text><circle class=\"tok-t\" cx=\"305\" cy=\"175\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"305\" y=\"180.5\">J</text><circle class=\"b-i\" cx=\"210.3\" cy=\"406.6\" r=\"8.5\"></circle><text class=\"b-t\" x=\"210.3\" y=\"410.4\">I</text><circle class=\"b-s\" cx=\"220.4\" cy=\"394.0\" r=\"8.5\"></circle><text class=\"b-t\" x=\"220.4\" y=\"397.8\">S</text><circle class=\"b-s\" cx=\"423.9\" cy=\"251.7\" r=\"8.5\"></circle><text class=\"b-t\" x=\"423.9\" y=\"255.5\">S</text><circle class=\"b-a\" cx=\"429.9\" cy=\"266.7\" r=\"8.5\"></circle><text class=\"b-t\" x=\"429.9\" y=\"270.5\">A</text><circle class=\"b-w\" cx=\"271.2\" cy=\"445.0\" r=\"8.5\"></circle><text class=\"b-t\" x=\"271.2\" y=\"448.8\">W2</text><circle class=\"b-i\" cx=\"316.2\" cy=\"293.4\" r=\"8.5\"></circle><text class=\"b-t\" x=\"316.2\" y=\"297.2\">I</text><circle class=\"b-w\" cx=\"133.9\" cy=\"164.2\" r=\"8.5\"></circle><text class=\"b-t\" x=\"133.9\" y=\"168.0\">W</text><circle class=\"b-s\" cx=\"139.9\" cy=\"179.2\" r=\"8.5\"></circle><text class=\"b-t\" x=\"139.9\" y=\"183.0\">S</text><circle class=\"b-a\" cx=\"488.7\" cy=\"105.9\" r=\"8.5\"></circle><text class=\"b-t\" x=\"488.7\" y=\"109.7\">J</text><text class=\"m-tick\" x=\"0\" y=\"618\">0\"</text><text class=\"m-tick\" x=\"150\" y=\"618\">6\"</text><text class=\"m-tick\" x=\"300\" y=\"618\">12\"</text><text class=\"m-tick\" x=\"450\" y=\"618\">18\"</text><text class=\"m-tick\" x=\"600\" y=\"618\">24\"</text></svg>",
+      "caption": "<ul class=\"b-key\"><li><span class=\"b b-i\">I</span>Injured, 0 wounds</li><li><span class=\"b b-s\">S</span>Suppressed</li><li><span class=\"b b-a\">A</span>Out of ammo</li><li><span class=\"b b-w\">W2</span>Wounded, number shows wounds taken</li><li><span class=\"b b-w\">W</span>Wounded</li><li><span class=\"b b-a\">J</span>Gun jammed</li><li><span aria-hidden=\"true\" class=\"ooa-k\">💀</span>Out of Action</li></ul>"
+     }
+    },
+    {
+     "vp": "End phase: the Theatre scored 1 VP at the Cache. Score <b>1–1</b>."
+    },
+    {
+     "roll": {
+      "name": "The Midnight Theatre - Bottle Check",
+      "result": "The Theatre hold",
+      "resultClass": "ammo",
+      "rows": [
+       {
+        "label": "Deuteronomy (Leadership 8)",
+        "dice": "2 6",
+        "result": "Passes",
+        "resultClass": "ammo"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "round-6",
+   "no": "6",
+   "title": "Round 6: King of the platform",
+   "blocks": [
+    {
+     "split": [
+      "tall",
+      "none"
+     ],
+     "text": [
+      "{@deus-and-amen|Deus and Amen} move up and fire at {@demeter|Demeter}'s position in the ruin.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "deus",
+        "name": "Deus and Amen - Twin-linked Heavy Stubber",
+        "result": "Miss",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "2 f1 f2",
+          "result": "Miss",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: Bulging Biceps to move at Initiative and fire a heavy weapon."
+         }
+        ]
+       }
+      },
+      "{@demeter|Demeter} fires back at {@deus-and-amen|Deus}, but the shot only glances off Amen.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "demeter",
+        "name": "Demeter - Long Rifle",
+        "result": "Fails to wound",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (3+)",
+          "dice": "5",
+          "result": "Hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (5+)",
+          "dice": "4",
+          "result": "Fails to wound",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: Juggernaut prevents becoming suppressed."
+         }
+        ]
+       }
+      },
+      "{@ezekiel-crows|Ezekiel} limps to the foot of the ladder, with {@deuteronomy|Deuteronomy} standing at the top.",
+      "{@jellylorum|Jellylorum} climbs up to his leader and patches up his worst wound so {@deuteronomy|Deuteronomy} can stand again.",
+      "{@gutter-cantor|Gutter Cantor} reloads his autogun.",
+      "{@rumpleteaser|Rumpleteaser} stays in the shadows, his plasma gun still unable to hold a charge.",
+      "{@ratsong|Ratsong} reaches the bottom of the ladder and takes a hopeful shot at {@demeter|Demeter}.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "ratsong",
+        "name": "Ratsong - Stub Gun",
+        "result": "Misses",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (5+)",
+          "dice": "3",
+          "result": "Misses",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      }
+     ],
+     "ports": []
+    },
+    {
+     "endsHead": "Positions at the end of round 6"
+    },
+    {
+     "map": {
+      "svg": "<svg aria-label=\"Top-down map of fighter positions at the end of round 6.\" role=\"img\" viewbox=\"-14 -24 628 668\"><text class=\"m-edge t\" x=\"300\" y=\"-8\">The Midnight Theatre edge</text><text class=\"m-edge p\" x=\"300\" y=\"638\">The Carrion Psalm edge</text><rect class=\"m-mat\" height=\"600\" width=\"600\" x=\"0\" y=\"0\"></rect><path class=\"m-grid\" d=\"M150 0V600M0 150H600M300 0V600M0 300H600M450 0V600M0 450H600\"></path><polygon class=\"m-floor\" points=\"12.5,505 30,482.5 75,470 117.5,475 125,525 180,545 180,590 12.5,590\"></polygon><text class=\"m-lab\" x=\"75\" y=\"560\">Ruined floor</text><polygon class=\"m-solid\" points=\"125,465 175,465 175,497.5 125,497.5\"></polygon><text class=\"m-lab\" x=\"150\" y=\"517.5\">Tank</text><polyline class=\"m-wall\" points=\"30,405 75,410\"></polyline><polyline class=\"m-wall\" points=\"50,227.5 50,290\"></polyline><polygon class=\"m-floor\" points=\"375,382.5 465,382.5 465,462.5 375,462.5\"></polygon><polygon class=\"m-solid\" points=\"375,462.5 465,462.5 465,580 375,580\"></polygon><text class=\"m-lab\" x=\"420\" y=\"517.5\">Ruined</text><text class=\"m-lab\" x=\"420\" y=\"535\">tower</text><polyline class=\"m-wall\" points=\"375,580 375,382.5 572.5,382.5 572.5,580 375,580\"></polyline><polygon class=\"m-rubble\" points=\"512.5,382.5 572.5,382.5 572.5,425 512.5,425\"></polygon><polyline class=\"m-wall\" points=\"222.5,452.5 307.5,452.5 307.5,485\"></polyline><polygon class=\"m-rubble\" points=\"245,462.5 297.5,462.5 297.5,490 245,490\"></polygon><polyline class=\"m-wall\" points=\"247.5,540 305,540\"></polyline><polyline class=\"m-wall\" points=\"15,500 15,587.5 185,587.5\"></polyline><polyline class=\"m-plank\" points=\"142.5,440 220,395\"></polyline><polygon class=\"m-solid\" points=\"15,80 70,80 115,150 180,150 180,210 15,210\"></polygon><text class=\"m-lab\" x=\"62.5\" y=\"190\">Gothic ruin</text><polyline class=\"m-wall\" points=\"15,80 15,32.5 180,32.5 180,150\"></polyline><text class=\"m-lab\" x=\"110\" y=\"67.5\">Walled yard</text><polyline class=\"m-wall\" points=\"250,7.5 250,132.5 310,132.5\"></polyline><polygon class=\"m-solid\" points=\"387.5,30 557.5,30 557.5,140 387.5,140\"></polygon><text class=\"m-lab\" x=\"472.5\" y=\"87.5\">Gothic ruin</text><polyline class=\"m-plank\" points=\"340,202.5 397.5,170\"></polyline><polygon class=\"m-solid\" points=\"411.518,233.687 490.139,307.002 453.482,346.313 374.861,272.998\"></polygon><polygon class=\"m-solid\" points=\"467.731,181.197 567.404,221.467 547.269,271.303 447.596,231.033\"></polygon><polygon class=\"m-top\" points=\"407.407,227.956 503.191,179.152 527.593,227.044 431.809,275.848\"></polygon><polyline class=\"m-run\" points=\"467.5,257.75 477.5,277.5\"></polyline><text class=\"m-lab\" x=\"467.5\" y=\"232.5\">Containers</text><polyline class=\"m-wall\" points=\"555,297.5 565,367.5\"></polyline><polyline class=\"m-wall\" points=\"347.5,340 387.5,307.5\"></polyline><polygon class=\"m-solid\" points=\"81.0464,321.259 181.285,270.185 228.954,363.741 128.715,414.815\"></polygon><polyline class=\"m-div\" points=\"171,393.25 123.5,299.75\"></polyline><polyline class=\"m-div\" points=\"141.5,335.25 199.5,305.75\"></polyline><text class=\"m-lab\" x=\"125\" y=\"358.75\">Stairs</text><polygon class=\"m-plat\" points=\"402.5,300 351.25,388.75 248.75,388.75 197.5,300 248.75,211.25 351.25,211.25\"></polygon><circle class=\"m-tower\" cx=\"300\" cy=\"300\" r=\"62\"></circle><polyline class=\"m-run\" points=\"300,190 300,211.25\"></polyline><polyline class=\"m-run\" points=\"292.5,388.75 292.5,412.5\"></polyline><circle class=\"m-centre\" cx=\"300\" cy=\"300\" r=\"22\"></circle><text class=\"m-c\" x=\"300\" y=\"342.5\">Cache</text><text class=\"m-lab\" x=\"325\" y=\"373.75\">Raised platform</text><circle class=\"tok-p\" cx=\"292.5\" cy=\"422.5\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"292.5\" y=\"428\">Ez</text><circle class=\"tok-p\" cx=\"412.5\" cy=\"265\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"412.5\" y=\"270.5\">G</text><circle class=\"tok-p\" cx=\"322.5\" cy=\"420\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"322.5\" y=\"425.5\">R</text><circle class=\"tok-p\" cx=\"247.5\" cy=\"360\" r=\"19\"></circle><text class=\"tok-n two\" x=\"247.5\" y=\"365.5\">DA</text><circle class=\"tok-t\" cx=\"300\" cy=\"300\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"300\" y=\"305.5\">De</text><circle class=\"tok-t\" cx=\"122.5\" cy=\"177.5\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"122.5\" y=\"183\">Dm</text><circle class=\"tok-t\" cx=\"472.5\" cy=\"112.5\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"472.5\" y=\"118\">Rt</text><circle class=\"tok-t\" cx=\"307.5\" cy=\"265\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"307.5\" y=\"270.5\">J</text><circle class=\"b-i\" cx=\"275.1\" cy=\"424.0\" r=\"8.5\"></circle><text class=\"b-t\" x=\"275.1\" y=\"427.8\">I</text><circle class=\"b-w\" cx=\"269.8\" cy=\"351.0\" r=\"8.5\"></circle><text class=\"b-t\" x=\"269.8\" y=\"354.8\">W2</text><circle class=\"b-w\" cx=\"296.3\" cy=\"317.1\" r=\"8.5\"></circle><text class=\"b-t\" x=\"296.3\" y=\"320.9\">W2</text><circle class=\"b-w\" cx=\"138.7\" cy=\"170.9\" r=\"8.5\"></circle><text class=\"b-t\" x=\"138.7\" y=\"174.7\">W</text><circle class=\"b-a\" cx=\"488.7\" cy=\"105.9\" r=\"8.5\"></circle><text class=\"b-t\" x=\"488.7\" y=\"109.7\">J</text><text class=\"m-tick\" x=\"0\" y=\"618\">0\"</text><text class=\"m-tick\" x=\"150\" y=\"618\">6\"</text><text class=\"m-tick\" x=\"300\" y=\"618\">12\"</text><text class=\"m-tick\" x=\"450\" y=\"618\">18\"</text><text class=\"m-tick\" x=\"600\" y=\"618\">24\"</text></svg>",
+      "caption": "<ul class=\"b-key\"><li><span class=\"b b-i\">I</span>Injured, 0 wounds</li><li><span class=\"b b-w\">W2</span>Wounded, number shows wounds taken</li><li><span class=\"b b-w\">W</span>Wounded</li><li><span class=\"b b-a\">J</span>Gun jammed</li></ul>"
+     }
+    },
+    {
+     "vp": "End phase: the Theatre scored 1 VP at the Cache. Score <b>2–1</b> to the Theatre."
+    }
+   ]
+  },
+  {
+   "id": "round-7",
+   "no": "7",
+   "title": "Round 7: Out of time",
+   "blocks": [
+    {
+     "split": [
+      "tall",
+      "none"
+     ],
+     "text": [
+      "{@demeter|Demeter} has had enough of {@gutter-cantor|Gutter Cantor} on the container roof and takes careful aim.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "demeter",
+        "name": "Demeter - Long Rifle",
+        "result": "Gutter Cantor injured and suppressed",
+        "rows": [
+         {
+          "label": "To Hit (2+)",
+          "dice": "5",
+          "result": "Hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "4",
+          "result": "Wounds"
+         },
+         {
+          "label": "Save (6+)",
+          "dice": "3",
+          "result": "Takes one wound"
+         },
+         {
+          "label": "Injury",
+          "dice": "fw",
+          "result": "Injured and Suppressed"
+         }
+        ]
+       }
+      },
+      "{@deus-and-amen|Deus and Amen} fire back at {@demeter|Demeter}, but miss again.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "deus",
+        "name": "Deus and Amen - Twin-linked Heavy Stubber",
+        "result": "Miss",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "1 f1 f1",
+          "result": "Miss",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "{@jellylorum|Jellylorum} moves to fire on {@gutter-cantor|Gutter Cantor} as well.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "jellylorum",
+        "name": "Jellylorum - Lasgun",
+        "result": "Miss",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "3",
+          "result": "Miss",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "{@ezekiel-crows|Ezekiel} climbs to the top of the ladder and fires at the Delaque on the platform.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "ezekiel",
+        "name": "Ezekiel - Autopistol",
+        "result": "Miss",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (3+)",
+          "dice": "2 f2",
+          "result": "Miss",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "{@deuteronomy|Deuteronomy} barely looks at him. He raises his flechette pistol and fires back.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "deuteronomy",
+        "name": "Deuteronomy - Flechette Pistol",
+        "result": "Ezekiel suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "To Hit (3+)",
+          "dice": "4 f1",
+          "result": "One hit",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+ Toxin)",
+          "dice": "2",
+          "result": "Suppressed",
+          "resultClass": "sup"
+         }
+        ]
+       }
+      },
+      "Wounded on the container roof, {@gutter-cantor|Gutter Cantor} fires one last burst at {@demeter|Demeter}.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "cantor",
+        "name": "Gutter Cantor - Polearm/Autogun",
+        "result": "Demeter suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "5 f2",
+          "result": "Hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (4+)",
+          "dice": "1 3",
+          "result": "Suppressed",
+          "resultClass": "sup"
+         }
+        ]
+       }
+      },
+      "{@rumpleteaser|Rumpleteaser} stays in the shadows. The Theatre already have what they came for.",
+      "{@ratsong|Ratsong} waits at the bottom of the ladder, unable to get past {@ezekiel-crows|Ezekiel} at the top. Up on the platform, {t:The Midnight Theatre} still hold the Cache, and the Psalm have run out of time."
+     ],
+     "ports": []
+    },
+    {
+     "endsHead": "Positions at the end of round 7"
+    },
+    {
+     "map": {
+      "svg": "<svg aria-label=\"Top-down map of fighter positions at the end of round 7.\" role=\"img\" viewbox=\"-14 -24 628 668\"><text class=\"m-edge t\" x=\"300\" y=\"-8\">The Midnight Theatre edge</text><text class=\"m-edge p\" x=\"300\" y=\"638\">The Carrion Psalm edge</text><rect class=\"m-mat\" height=\"600\" width=\"600\" x=\"0\" y=\"0\"></rect><path class=\"m-grid\" d=\"M150 0V600M0 150H600M300 0V600M0 300H600M450 0V600M0 450H600\"></path><polygon class=\"m-floor\" points=\"12.5,505 30,482.5 75,470 117.5,475 125,525 180,545 180,590 12.5,590\"></polygon><text class=\"m-lab\" x=\"75\" y=\"560\">Ruined floor</text><polygon class=\"m-solid\" points=\"125,465 175,465 175,497.5 125,497.5\"></polygon><text class=\"m-lab\" x=\"150\" y=\"517.5\">Tank</text><polyline class=\"m-wall\" points=\"30,405 75,410\"></polyline><polyline class=\"m-wall\" points=\"50,227.5 50,290\"></polyline><polygon class=\"m-floor\" points=\"375,382.5 465,382.5 465,462.5 375,462.5\"></polygon><polygon class=\"m-solid\" points=\"375,462.5 465,462.5 465,580 375,580\"></polygon><text class=\"m-lab\" x=\"420\" y=\"517.5\">Ruined</text><text class=\"m-lab\" x=\"420\" y=\"535\">tower</text><polyline class=\"m-wall\" points=\"375,580 375,382.5 572.5,382.5 572.5,580 375,580\"></polyline><polygon class=\"m-rubble\" points=\"512.5,382.5 572.5,382.5 572.5,425 512.5,425\"></polygon><polyline class=\"m-wall\" points=\"222.5,452.5 307.5,452.5 307.5,485\"></polyline><polygon class=\"m-rubble\" points=\"245,462.5 297.5,462.5 297.5,490 245,490\"></polygon><polyline class=\"m-wall\" points=\"247.5,540 305,540\"></polyline><polyline class=\"m-wall\" points=\"15,500 15,587.5 185,587.5\"></polyline><polyline class=\"m-plank\" points=\"142.5,440 220,395\"></polyline><polygon class=\"m-solid\" points=\"15,80 70,80 115,150 180,150 180,210 15,210\"></polygon><text class=\"m-lab\" x=\"62.5\" y=\"190\">Gothic ruin</text><polyline class=\"m-wall\" points=\"15,80 15,32.5 180,32.5 180,150\"></polyline><text class=\"m-lab\" x=\"110\" y=\"67.5\">Walled yard</text><polyline class=\"m-wall\" points=\"250,7.5 250,132.5 310,132.5\"></polyline><polygon class=\"m-solid\" points=\"387.5,30 557.5,30 557.5,140 387.5,140\"></polygon><text class=\"m-lab\" x=\"472.5\" y=\"87.5\">Gothic ruin</text><polyline class=\"m-plank\" points=\"340,202.5 397.5,170\"></polyline><polygon class=\"m-solid\" points=\"411.518,233.687 490.139,307.002 453.482,346.313 374.861,272.998\"></polygon><polygon class=\"m-solid\" points=\"467.731,181.197 567.404,221.467 547.269,271.303 447.596,231.033\"></polygon><polygon class=\"m-top\" points=\"407.407,227.956 503.191,179.152 527.593,227.044 431.809,275.848\"></polygon><polyline class=\"m-run\" points=\"467.5,257.75 477.5,277.5\"></polyline><text class=\"m-lab\" x=\"467.5\" y=\"232.5\">Containers</text><polyline class=\"m-wall\" points=\"555,297.5 565,367.5\"></polyline><polyline class=\"m-wall\" points=\"347.5,340 387.5,307.5\"></polyline><polygon class=\"m-solid\" points=\"81.0464,321.259 181.285,270.185 228.954,363.741 128.715,414.815\"></polygon><polyline class=\"m-div\" points=\"171,393.25 123.5,299.75\"></polyline><polyline class=\"m-div\" points=\"141.5,335.25 199.5,305.75\"></polyline><text class=\"m-lab\" x=\"125\" y=\"358.75\">Stairs</text><polygon class=\"m-plat\" points=\"402.5,300 351.25,388.75 248.75,388.75 197.5,300 248.75,211.25 351.25,211.25\"></polygon><circle class=\"m-tower\" cx=\"300\" cy=\"300\" r=\"62\"></circle><polyline class=\"m-run\" points=\"300,190 300,211.25\"></polyline><polyline class=\"m-run\" points=\"292.5,388.75 292.5,412.5\"></polyline><circle class=\"m-centre\" cx=\"300\" cy=\"300\" r=\"22\"></circle><text class=\"m-c\" x=\"300\" y=\"267.5\">Cache</text><text class=\"m-lab\" x=\"300\" y=\"227.5\">Raised platform</text><circle class=\"tok-p\" cx=\"297.5\" cy=\"370\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"297.5\" y=\"375.5\">Ez</text><circle class=\"tok-p\" cx=\"412.5\" cy=\"265\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"412.5\" y=\"270.5\">G</text><circle class=\"tok-p\" cx=\"295\" cy=\"422.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"295\" y=\"428\">R</text><circle class=\"tok-p\" cx=\"247.5\" cy=\"360\" r=\"19\"></circle><text class=\"tok-n two\" x=\"247.5\" y=\"365.5\">DA</text><circle class=\"tok-t\" cx=\"300\" cy=\"300\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"300\" y=\"305.5\">De</text><circle class=\"tok-t\" cx=\"122.5\" cy=\"177.5\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"122.5\" y=\"183\">Dm</text><circle class=\"tok-t\" cx=\"472.5\" cy=\"112.5\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"472.5\" y=\"118\">Rt</text><circle class=\"tok-t\" cx=\"367.5\" cy=\"267.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"367.5\" y=\"273\">J</text><circle class=\"b-i\" cx=\"314.3\" cy=\"365.1\" r=\"8.5\"></circle><text class=\"b-t\" x=\"314.3\" y=\"368.9\">I</text><circle class=\"b-s\" cx=\"311.1\" cy=\"381.0\" r=\"8.5\"></circle><text class=\"b-t\" x=\"311.1\" y=\"384.8\">S</text><circle class=\"b-i\" cx=\"430.0\" cy=\"264.0\" r=\"8.5\"></circle><text class=\"b-t\" x=\"430.0\" y=\"267.8\">I</text><circle class=\"b-w\" cx=\"224.0\" cy=\"355.3\" r=\"8.5\"></circle><text class=\"b-t\" x=\"224.0\" y=\"359.1\">W2</text><circle class=\"b-w\" cx=\"316.2\" cy=\"293.4\" r=\"8.5\"></circle><text class=\"b-t\" x=\"316.2\" y=\"297.2\">W2</text><circle class=\"b-w\" cx=\"133.9\" cy=\"164.2\" r=\"8.5\"></circle><text class=\"b-t\" x=\"133.9\" y=\"168.0\">W</text><circle class=\"b-s\" cx=\"139.9\" cy=\"179.2\" r=\"8.5\"></circle><text class=\"b-t\" x=\"139.9\" y=\"183.0\">S</text><circle class=\"b-a\" cx=\"488.7\" cy=\"105.9\" r=\"8.5\"></circle><text class=\"b-t\" x=\"488.7\" y=\"109.7\">J</text><text class=\"m-tick\" x=\"0\" y=\"618\">0\"</text><text class=\"m-tick\" x=\"150\" y=\"618\">6\"</text><text class=\"m-tick\" x=\"300\" y=\"618\">12\"</text><text class=\"m-tick\" x=\"450\" y=\"618\">18\"</text><text class=\"m-tick\" x=\"600\" y=\"618\">24\"</text></svg>",
+      "caption": "<ul class=\"b-key\"><li><span class=\"b b-i\">I</span>Injured, 0 wounds</li><li><span class=\"b b-s\">S</span>Suppressed</li><li><span class=\"b b-w\">W2</span>Wounded, number shows wounds taken</li><li><span class=\"b b-w\">W</span>Wounded</li><li><span class=\"b b-a\">J</span>Gun jammed</li></ul>"
+     }
+    },
+    {
+     "vp": "End phase: the Theatre scored 1 VP at the Cache. Final score <b>3–1</b> to the Theatre."
+    }
+   ]
+  }
+ ],
+ "aftermath": [
+  {
+   "result": "{t:The Midnight Theatre} take the promethium cache"
+  },
+  {
+   "prose": [
+    "When the shooting stops, {@deuteronomy|Deuteronomy} is still standing over the Cache, and the Pyroclave belongs to the Theatre. The Psalm carry their wounded back east. {@mordecai|Mordecai} survives {@macavity|Macavity}'s fangs, but he comes away with a burning hatred for the Nacht-Ghul. {@vermin-pyre|Vermin Pyre} is left Hobbled by his fall from the platform. Macavity was cut down by {@ezekiel-crows|Ezekiel}'s cleaver, but he recovers and is wiser for it. The Psalm leave convinced that the promethium should have been theirs."
+   ]
+  },
+  {
+   "photo": {
+    "src": "images/1.1/photo-14.jpg",
+    "alt": "The table at the end of the battle, with Deuteronomy holding the Cache, Ezekiel Crows on the platform edge, Gutter Cantor on the container, and Deus and Amen and Ratsong at the foot of the ladder.",
+    "class": "final",
+    "caption": "The end of the battle, with Deuteronomy holding the Cache."
+   }
+  },
+  {
+   "table": {
+    "label": "Post-battle ledger",
+    "class": "ledger",
+    "head": [
+     {
+      "html": "Gang"
+     },
+     {
+      "html": "Territory"
+     },
+     {
+      "html": "Side quest"
+     },
+     {
+      "html": "Lasting injuries"
+     },
+     {
+      "html": "Credits",
+      "class": "num"
+     },
+     {
+      "html": "Reputation",
+      "class": "num"
+     }
+    ],
+    "rows": [
+     {
+      "cells": [
+       {
+        "html": "The Midnight Theatre",
+        "class": "t"
+       },
+       {
+        "html": "Promethium Cache"
+       },
+       {
+        "html": "Crippling Strike: failed"
+       },
+       {
+        "html": "Macavity: Lesson Learnt, 2 XP"
+       },
+       {
+        "html": "+40",
+        "class": "num"
+       },
+       {
+        "html": "+1",
+        "class": "num"
+       }
+      ]
+     },
+     {
+      "cells": [
+       {
+        "html": "The Carrion Psalm",
+        "class": "p"
+       },
+       {
+        "html": "–"
+       },
+       {
+        "html": "Protect the Future: completed"
+       },
+       {
+        "html": "Mordecai: Personal Enmity, hatred for the Nacht-Ghul<br/>Vermin Pyre: Hobbled"
+       },
+       {
+        "html": "+20",
+        "class": "num"
+       },
+       {
+        "html": "–",
+        "class": "num"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "h3": "Experience",
+   "class": "xp-head"
+  },
+  {
+   "xp": [
+    {
+     "title": "The Midnight Theatre",
+     "class": "t",
+     "table": {
+      "label": null,
+      "class": "ledger xp",
+      "head": [
+       {
+        "html": "Fighter"
+       },
+       {
+        "html": "Earned from"
+       },
+       {
+        "html": "XP",
+        "class": "num"
+       }
+      ],
+      "rows": [
+       {
+        "cells": [
+         {
+          "html": "Macavity",
+          "class": "t"
+         },
+         {
+          "html": "Participation +1, Mordecai Out of Action +3, Lesson Learnt +2"
+         },
+         {
+          "html": "+6",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Deuteronomy",
+          "class": "t"
+         },
+         {
+          "html": "Participation +1, Vermin Pyre Out of Action +2, Objective +1"
+         },
+         {
+          "html": "+4",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Jellylorum",
+          "class": "t"
+         },
+         {
+          "html": "Participation +1, Recovery assist +1"
+         },
+         {
+          "html": "+2",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Rumpleteaser",
+          "class": "t"
+         },
+         {
+          "html": "Participation +1"
+         },
+         {
+          "html": "+1",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Demeter",
+          "class": "t"
+         },
+         {
+          "html": "Participation +1, Ezekiel Serious Injury +1"
+         },
+         {
+          "html": "+2",
+          "class": "num"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "The Carrion Psalm",
+     "class": "p",
+     "table": {
+      "label": null,
+      "class": "ledger xp",
+      "head": [
+       {
+        "html": "Fighter"
+       },
+       {
+        "html": "Earned from"
+       },
+       {
+        "html": "XP",
+        "class": "num"
+       }
+      ],
+      "rows": [
+       {
+        "cells": [
+         {
+          "html": "Ratsong",
+          "class": "p"
+         },
+         {
+          "html": "Participation +1"
+         },
+         {
+          "html": "+1",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Deus and Amen",
+          "class": "p"
+         },
+         {
+          "html": "Participation +1, 2 Serious Injuries +2"
+         },
+         {
+          "html": "+3",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Mordecai",
+          "class": "p"
+         },
+         {
+          "html": "Participation +1"
+         },
+         {
+          "html": "+1",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Vermin Pyre",
+          "class": "p"
+         },
+         {
+          "html": "Participation +1, Objective +1"
+         },
+         {
+          "html": "+2",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Gutter Cantor",
+          "class": "p"
+         },
+         {
+          "html": "Participation +1"
+         },
+         {
+          "html": "+1",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Ezekiel Crows",
+          "class": "p"
+         },
+         {
+          "html": "Participation +1, Macavity Out of Action +3"
+         },
+         {
+          "html": "+4",
+          "class": "num"
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "popovers": [
+  "demeter",
+  "deus-and-amen",
+  "deuteronomy",
+  "ezekiel-crows",
+  "gutter-cantor",
+  "jellylorum",
+  "macavity",
+  "mordecai",
+  "ratsong",
+  "rumpleteaser",
+  "vermin-pyre"
+ ],
+ "fighters": {
+  "mordecai": {
+   "name": "Mordecai",
+   "portrait": "images/fighters/mordecai.jpg",
+   "type": "Cawdor Word Keeper (Leader, Pious)",
+   "cost": "175",
+   "stats": {
+    "M": "5\"",
+    "WS": "3+",
+    "BS": "3+",
+    "S": "3",
+    "T": "3",
+    "W": "3",
+    "I": "3",
+    "A": "2",
+    "Sv": "5+",
+    "Ld": "8",
+    "Cl": "8",
+    "Wil": "8",
+    "Int": "7",
+    "XP": "61"
+   },
+   "weapons": [
+    {
+     "name": "Autopistol",
+     "profile": [
+      "4\"",
+      "12\"",
+      "3",
+      "-",
+      "1"
+     ],
+     "traits": "{tip:Light}, {tip:Rapid Fire (1)}"
+    },
+    {
+     "name": "Chainglaive*",
+     "profile": [
+      "E",
+      "-",
+      "S+1",
+      "-1",
+      "2"
+     ],
+     "traits": "{tip:Heavy}, {tip:Melee}, {tip:Parry}, {tip:Shred (6+)}, {tip:Unwieldy}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:Inspiring}, {tip:Nerves of Steel}"
+    }
+   ]
+  },
+  "ezekiel-crows": {
+   "name": "Ezekiel Crows",
+   "portrait": "images/fighters/ezekiel-crows.jpg",
+   "type": "Cawdor Firebrand (Champion, Pious)",
+   "cost": "130",
+   "stats": {
+    "M": "5\"",
+    "WS": "3+",
+    "BS": "3+",
+    "S": "3",
+    "T": "3",
+    "W": "2",
+    "I": "3",
+    "A": "2",
+    "Sv": "5+",
+    "Ld": "7",
+    "Cl": "7",
+    "Wil": "6",
+    "Int": "7",
+    "XP": "37"
+   },
+   "weapons": [
+    {
+     "name": "Autopistol",
+     "profile": [
+      "4\"",
+      "12\"",
+      "3",
+      "-",
+      "1"
+     ],
+     "traits": "{tip:Light}, {tip:Rapid Fire (1)}"
+    },
+    {
+     "name": "Cleaver",
+     "profile": [
+      "E",
+      "-",
+      "S",
+      "-1",
+      "2"
+     ],
+     "traits": "{tip:Melee}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:Bull Charge}, {tip:Inspiring}"
+    }
+   ]
+  },
+  "vermin-pyre": {
+   "name": "Vermin Pyre",
+   "portrait": "images/fighters/vermin-pyre.jpg",
+   "type": "Cawdor Brethren (Ganger, Pious, Specialist), Gunner",
+   "cost": "125",
+   "stats": {
+    "M": "5\"",
+    "WS": "4+",
+    "BS": "4+",
+    "S": "3",
+    "T": "3",
+    "W": "1",
+    "I": "3",
+    "A": "1",
+    "Sv": "6+",
+    "Ld": "6",
+    "Cl": "6",
+    "Wil": "6",
+    "Int": "6",
+    "XP": "13"
+   },
+   "weapons": [
+    {
+     "name": "Cawdor Polearm/Flamer",
+     "nameClass": "parent"
+    },
+    {
+     "class": "sub",
+     "name": "Polearm*",
+     "profile": [
+      "E",
+      "-",
+      "S+1",
+      "-",
+      "2"
+     ],
+     "traits": "{tip:Heavy}, {tip:Lance}, {tip:Melee}, {tip:Unwieldy}"
+    },
+    {
+     "class": "sub",
+     "name": "Flamer",
+     "profile": [
+      "T",
+      "-",
+      "4",
+      "-1",
+      "1"
+     ],
+     "traits": "{tip:Ammo (6+)}, {tip:Blaze (5)}, {tip:Template}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:Hip-shooting}"
+    }
+   ]
+  },
+  "gutter-cantor": {
+   "name": "Gutter Cantor",
+   "portrait": "images/fighters/gutter-cantor.jpg",
+   "type": "Cawdor Brethren (Ganger, Pious, Specialist), Medic",
+   "cost": "70",
+   "stats": {
+    "M": "5\"",
+    "WS": "4+",
+    "BS": "4+",
+    "S": "3",
+    "T": "3",
+    "W": "1",
+    "I": "3",
+    "A": "1",
+    "Sv": "6+",
+    "Ld": "6",
+    "Cl": "6",
+    "Wil": "6",
+    "Int": "6",
+    "XP": "13"
+   },
+   "weapons": [
+    {
+     "name": "Cawdor Polearm/Autogun",
+     "nameClass": "parent"
+    },
+    {
+     "class": "sub",
+     "name": "Polearm*",
+     "profile": [
+      "E",
+      "-",
+      "S+1",
+      "-",
+      "2"
+     ],
+     "traits": "{tip:Heavy}, {tip:Lance}, {tip:Melee}, {tip:Unwieldy}"
+    },
+    {
+     "class": "sub",
+     "name": "Autogun",
+     "profile": [
+      "8\"",
+      "24\"",
+      "3",
+      "-",
+      "1"
+     ],
+     "traits": "{tip:Rapid Fire (1)}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:Medicate}"
+    }
+   ]
+  },
+  "ratsong": {
+   "name": "Ratsong",
+   "portrait": "images/fighters/ratsong.jpg",
+   "type": "Cawdor Bonepicker (Pious, Prospect)",
+   "cost": "25",
+   "stats": {
+    "M": "6\"",
+    "WS": "5+",
+    "BS": "5+",
+    "S": "3",
+    "T": "3",
+    "W": "1",
+    "I": "4",
+    "A": "1",
+    "Sv": "6+",
+    "Ld": "5",
+    "Cl": "5",
+    "Wil": "5",
+    "Int": "5",
+    "XP": "1"
+   },
+   "weapons": [
+    {
+     "name": "Stub gun",
+     "profile": [
+      "6\"",
+      "12\"",
+      "3",
+      "-",
+      "1"
+     ],
+     "traits": "{tip:Light}"
+    }
+   ]
+  },
+  "deus-and-amen": {
+   "name": "Deus and Amen",
+   "portrait": "images/fighters/deus-and-amen.jpg",
+   "type": "Cawdor Stig-Shambler (Brute, Loner, Pious)",
+   "cost": "250",
+   "stats": {
+    "M": "4\"",
+    "WS": "4+",
+    "BS": "4+",
+    "S": "5",
+    "T": "4",
+    "W": "4",
+    "I": "3",
+    "A": "2",
+    "Sv": "6+",
+    "Ld": "6",
+    "Cl": "6",
+    "Wil": "6",
+    "Int": "5",
+    "XP": "25"
+   },
+   "weapons": [
+    {
+     "name": "Heavy club",
+     "profile": [
+      "E",
+      "-",
+      "S+2",
+      "-",
+      "2"
+     ],
+     "traits": "{tip:Concussive (5+)}, {tip:Heavy}, {tip:Melee}, {tip:Unwieldy}"
+    },
+    {
+     "name": "Twin-linked heavy stubber",
+     "profile": [
+      "20\"",
+      "40\"",
+      "4",
+      "-1",
+      "1"
+     ],
+     "traits": "{tip:Heavy}, {tip:Rapid Fire (2)}, {tip:Twin-linked}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:Bulging Biceps}, {tip:Juggernaut}"
+    }
+   ]
+  },
+  "deuteronomy": {
+   "name": "Deuteronomy",
+   "portrait": "images/fighters/deuteronomy.jpg",
+   "type": "Master of Shadow (Leader, Wyrd), Wyrd",
+   "cost": "245",
+   "stats": {
+    "M": "5\"",
+    "WS": "3+",
+    "BS": "3+",
+    "S": "3",
+    "T": "3",
+    "W": "3",
+    "I": "4",
+    "A": "3",
+    "Sv": "5+",
+    "Ld": "8",
+    "Cl": "8",
+    "Wil": "9",
+    "Int": "8",
+    "XP": "61"
+   },
+   "weapons": [
+    {
+     "name": "Flechette pistol",
+     "profile": [
+      "4\"",
+      "12\"",
+      "-",
+      "-",
+      "1"
+     ],
+     "traits": "{tip:Light}, {tip:Rapid Fire (1)}, {tip:Toxin (3+)}"
+    },
+    {
+     "name": "Shock stave",
+     "profile": [
+      "E",
+      "-",
+      "S+1",
+      "-",
+      "1"
+     ],
+     "traits": "{tip:Melee}, {tip:Shock (5+)}"
+    },
+    {
+     "name": "Web gauntlet",
+     "profile": [
+      "E",
+      "-",
+      "3",
+      "-",
+      "-"
+     ],
+     "traits": "{tip:Backstab}, {tip:Melee}, {tip:Web}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:A Perfect Void}, {tip:Counter-attack}, {tip:Inspiring}"
+    },
+    {
+     "label": "Special rules",
+     "text": "{tip:Master of Whispers}"
+    }
+   ]
+  },
+  "demeter": {
+   "name": "Demeter",
+   "portrait": "images/fighters/demeter.jpg",
+   "type": "Phantom (Champion)",
+   "cost": "155",
+   "stats": {
+    "M": "5\"",
+    "WS": "3+",
+    "BS": "3+",
+    "S": "3",
+    "T": "3",
+    "W": "2",
+    "I": "4",
+    "A": "2",
+    "Sv": "5+",
+    "Ld": "7",
+    "Cl": "7",
+    "Wil": "8",
+    "Int": "7",
+    "XP": "37"
+   },
+   "weapons": [
+    {
+     "name": "Long rifle",
+     "profile": [
+      "24\"",
+      "48\"",
+      "4",
+      "-1",
+      "1"
+     ],
+     "traits": "{tip:Knockback (6+)}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:Inspiring}, {tip:Overwatch}"
+    },
+    {
+     "label": "Special rules",
+     "text": "{tip:Master of Whispers}"
+    }
+   ]
+  },
+  "macavity": {
+   "name": "Macavity",
+   "portrait": "images/fighters/macavity.jpg",
+   "type": "Nacht-Ghul (Champion, Loner)",
+   "cost": "190",
+   "stats": {
+    "M": "6\"",
+    "WS": "3+",
+    "BS": "4+",
+    "S": "4",
+    "T": "3",
+    "W": "2",
+    "I": "5",
+    "A": "3",
+    "Sv": "5+",
+    "Ld": "6",
+    "Cl": "8",
+    "Wil": "8",
+    "Int": "7",
+    "XP": "49"
+   },
+   "weapons": [
+    {
+     "name": "Serpent's fangs*",
+     "profile": [
+      "E",
+      "-",
+      "-",
+      "-3",
+      "1"
+     ],
+     "traits": "{tip:Melee}, {tip:Paired (2)}, {tip:Toxin (3+)}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:Inspiring}, {tip:Spring Up}"
+    },
+    {
+     "label": "Special rules",
+     "text": "{tip:From the Shadows}"
+    }
+   ]
+  },
+  "rumpleteaser": {
+   "name": "Rumpleteaser",
+   "portrait": "images/fighters/rumpleteaser.jpg",
+   "type": "Ghost (Ganger, Specialist), Gunner",
+   "cost": "130",
+   "stats": {
+    "M": "5\"",
+    "WS": "4+",
+    "BS": "4+",
+    "S": "3",
+    "T": "3",
+    "W": "1",
+    "I": "4",
+    "A": "1",
+    "Sv": "6+",
+    "Ld": "6",
+    "Cl": "6",
+    "Wil": "7",
+    "Int": "6",
+    "XP": "13"
+   },
+   "weapons": [
+    {
+     "name": "Plasma gun",
+     "profile": [
+      "12\"",
+      "24\"",
+      "5",
+      "-2",
+      "2"
+     ],
+     "traits": "{tip:Ammo (6+)}, {tip:Damage (2)}, {tip:Rapid Fire (1)}, {tip:Unstable}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:Hip-shooting}"
+    }
+   ]
+  },
+  "jellylorum": {
+   "name": "Jellylorum",
+   "portrait": "images/fighters/jellylorum.jpg",
+   "type": "Ghost (Ganger, Specialist), Medic",
+   "cost": "60",
+   "stats": {
+    "M": "5\"",
+    "WS": "4+",
+    "BS": "4+",
+    "S": "3",
+    "T": "3",
+    "W": "1",
+    "I": "4",
+    "A": "1",
+    "Sv": "6+",
+    "Ld": "6",
+    "Cl": "6",
+    "Wil": "7",
+    "Int": "6",
+    "XP": "13"
+   },
+   "weapons": [
+    {
+     "name": "Lasgun",
+     "profile": [
+      "16\"",
+      "24\"",
+      "3",
+      "-",
+      "1"
+     ],
+     "traits": "No traits"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:Medicate}"
+    }
+   ]
+  }
+ }
+}

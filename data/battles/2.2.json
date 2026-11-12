@@ -1,0 +1,899 @@
+{
+ "page": "battle",
+ "id": "2.2",
+ "title": "Cycle 2.2: The Hollowpoint Hit",
+ "kicker": "Ash and Shadow · Battle report",
+ "cycle": "Cycle 2.2",
+ "name": "The Hollowpoint Hit",
+ "sides": [
+  {
+   "img": "images/gangs/the-carrion-psalm.jpg",
+   "name": "The Carrion Psalm",
+   "note": "5 fighters · 895 rating"
+  },
+  {
+   "img": "images/gangs/the-midnight-theatre.jpg",
+   "name": "The Midnight Theatre",
+   "note": "5 fighters · 855 rating"
+  }
+ ],
+ "intro": [
+  "Hollowpoint sits in a gutted manufactorum where the bullet-makers once worked, and some of them still do. At its heart the great Furnace still burns, melting down scrap brass for the casting benches. Cases are cast by hand and sold by the sack, and whoever holds the place decides who gets them.",
+  "{t:The Midnight Theatre} need it badly. The Rendermarch cost them dearly: Mungojerrie lies close to death, and Growltiger and Jellylorum are still nursing their wounds. With so few fighters left standing, the Theatre cannot afford to be outgunned, and Deuteronomy means to take the bullet works before the Psalm grow any stronger.",
+  "But the underhive keeps no secrets from {p:The Carrion Psalm} for long. Word of the Delaque's plan reaches Mordecai, and the Word Keeper leads his congregation into the ruins to meet them. Neither gang knows exactly where the other will come from. They will find each other in the dark."
+ ],
+ "introHeading": "Intro",
+ "setup": {
+  "facts": [
+   [
+    "At stake",
+    "Hollowpoint (Bullet Den) territory"
+   ],
+   [
+    "Battlefield effect",
+    "Plentiful Ammo: once per round, each gang may make a Reload action as a Free action."
+   ],
+   [
+    "Challenger",
+    "{t:The Midnight Theatre}"
+   ],
+   [
+    "Table",
+    "2' × 2' - Deployment zones 6\" from each corner rather than 9\""
+   ],
+   [
+    "Deployment",
+    "Chance Encounter: the winner of a roll-off chooses a corner. Their deployment zone is anywhere within 6\" of that corner and the opposite corner; their opponent deploys within 6\" of the other two corners. Starting crews are split as evenly as possible between each gang's two zones."
+   ],
+   [
+    "Objective",
+    "Object Lesson: in each End phase, gangs earn 1 VP for each enemy model that went Out of Action that round, +1 VP if it was a Leader, Champion or Brute, and +1 VP if it was taken Out of Action by a Fight, Coup de Grâce or Sabotage action. First to 10 VP wins."
+   ],
+   [
+    "Theatre side job",
+    "{t:Crippling Strike:} in any End phase, at least half of the opponent's models on the battlefield are Seriously Injured or Engaged."
+   ],
+   [
+    "Psalm side job",
+    "{p:Spread Unrest:} any Active non-Beast fighter performs the Graffiti (Double) action in the enemy deployment zone."
+   ],
+   [
+    "Crews",
+    "Strike Force: both gangs use Custom (5).<br/>{t:Theatre:} 5 fighters plus Rumpus, 855 rating<br/>{p:Psalm:} 5 fighters, 895 rating"
+   ]
+  ],
+  "blocks": [
+   {
+    "photo": {
+     "src": "images/2.2/photo-01.jpg",
+     "alt": "The table seen at an angle: the round furnace platform at the centre with the hexagonal anvil platform beside it, cargo containers, and ruined buildings around the edges.",
+     "caption": "The Furnace at the centre, with the Anvil beside it."
+    }
+   }
+  ]
+ },
+ "setupAfter": [],
+ "gangs": [
+  {
+   "class": "theatre",
+   "portrait": "images/gangs/the-midnight-theatre.jpg",
+   "name": "The Midnight Theatre",
+   "house": "House Delaque",
+   "blocks": [
+    {
+     "photo": {
+      "src": "images/2.2/photo-02.jpg",
+      "alt": "The five Midnight Theatre fighters and Rumpus on the Anvil, among the crates beside its tank."
+     }
+    },
+    {
+     "sheet": [
+      [
+       "Rating",
+       "1165"
+      ],
+      [
+       "Reputation",
+       "2"
+      ],
+      [
+       "Credits",
+       "90"
+      ],
+      [
+       "Gang size",
+       "9"
+      ]
+     ],
+     "class": ""
+    },
+    {
+     "assets": [
+      {
+       "label": "Territories",
+       "chips": [
+        {
+         "tip": "Heaviside Hab-layer (Settlement)"
+        },
+        {
+         "tip": "Rippershop (Rogue Doc Shop)"
+        },
+        {
+         "tip": "Pyroclave (Promethium Cache)"
+        }
+       ]
+      },
+      {
+       "label": "Gang tactics",
+       "chips": [
+        {
+         "tip": "You!"
+        },
+        {
+         "tip": "Crossfire",
+         "used": true,
+         "usedLabel": "Picked"
+        },
+        {
+         "tip": "Adrenaline Surge"
+        },
+        {
+         "tip": "Thunderous Charge"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "panel": "Crew (6)",
+     "class": "crew-panel",
+     "fighters": [
+      {
+       "id": "deuteronomy"
+      },
+      {
+       "id": "demeter"
+      },
+      {
+       "id": "macavity"
+      },
+      {
+       "id": "rumpleteaser"
+      },
+      {
+       "id": "mistoffelees"
+      },
+      {
+       "id": "rumpus"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "class": "psalm",
+   "portrait": "images/gangs/the-carrion-psalm.jpg",
+   "name": "The Carrion Psalm",
+   "house": "House Cawdor",
+   "blocks": [
+    {
+     "photo": {
+      "src": "images/2.2/photo-03.jpg",
+      "alt": "The five Carrion Psalm fighters, Deus and Amen among them, on the Anvil beside the Furnace."
+     }
+    },
+    {
+     "sheet": [
+      [
+       "Rating",
+       "1165"
+      ],
+      [
+       "Reputation",
+       "4"
+      ],
+      [
+       "Credits",
+       "85"
+      ],
+      [
+       "Gang size",
+       "8"
+      ]
+     ],
+     "class": ""
+    },
+    {
+     "assets": [
+      {
+       "label": "Territories",
+       "chips": [
+        {
+         "tip": "Tallow Wick (Settlement)"
+        },
+        {
+         "tip": "Turbine 10.2 (Generatorium)"
+        },
+        {
+         "tip": "Banewaters (Synth Still)"
+        },
+        {
+         "tip": "Rendermarch (Corpse Farm)"
+        }
+       ]
+      },
+      {
+       "label": "Gang tactics",
+       "chips": [
+        {
+         "tip": "Suppressing Fire"
+        },
+        {
+         "tip": "Hidden Stash"
+        },
+        {
+         "tip": "Adrenaline Surge",
+         "used": true,
+         "usedLabel": "Picked"
+        },
+        {
+         "tip": "Grenade Bouquet"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "panel": "Crew (5)",
+     "class": "crew-panel",
+     "fighters": [
+      {
+       "id": "mordecai"
+      },
+      {
+       "id": "ezekiel-crows"
+      },
+      {
+       "id": "elijah-emberchoir"
+      },
+      {
+       "id": "gutter-cantor"
+      },
+      {
+       "id": "deus-and-amen"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "rounds": [
+  {
+   "id": "deployment",
+   "no": "",
+   "title": "Deployment",
+   "blocks": [
+    {
+     "text": [
+      "{p:The Carrion Psalm} enter the bullet den through the casting hall and the quench house. The Furnace is still roaring at the heart of the works, and the heat comes off it in waves. Before the night is out, the Cawdor mean to mark their claim on the territory.",
+      "But {t:The Midnight Theatre} are hot on their tail, slipping in through the shell works and the magazine. Deuteronomy's orders are simple. The Theatre do not need to win this fight. They only need to leave the Cawdor bleeding in the dark, too many of them down or tied up to fight back."
+     ]
+    },
+    {
+     "map": {
+      "svg": "<svg aria-label=\"Top-down map of the Cycle 2.2 table: the Furnace at the centre with the Anvil just south of it, containers to the north, the Casting hall, Shell works, Magazine and Quench house in the four corners, with the Carrion Psalm deploying in the Casting hall and Quench house corners and the Midnight Theatre in the Shell works and Magazine corners.\" role=\"img\" viewbox=\"-14 -24 628 668\"><defs><clippath id=\"mat22\"><rect height=\"600\" width=\"600\" x=\"0\" y=\"0\"></rect></clippath></defs><text class=\"m-edge p\" x=\"120\" y=\"-8\">The Carrion Psalm deploy</text><text class=\"m-edge t\" x=\"480\" y=\"-8\">The Midnight Theatre deploy</text><text class=\"m-edge t\" x=\"120\" y=\"638\">The Midnight Theatre deploy</text><text class=\"m-edge p\" x=\"480\" y=\"638\">The Carrion Psalm deploy</text><rect class=\"m-mat\" height=\"600\" width=\"600\" x=\"0\" y=\"0\"></rect><g clip-path=\"url(#mat22)\"><path class=\"m-grid\" d=\"M150 0V600M0 150H600M300 0V600M0 300H600M450 0V600M0 450H600\"></path><path class=\"svg-p\" d=\"M0 0H150A150 150 0 0 1 0 150Z\"></path><path class=\"svg-t\" d=\"M600 0V150A150 150 0 0 1 450 0Z\"></path><path class=\"svg-p\" d=\"M600 600H450A150 150 0 0 1 600 450Z\"></path><path class=\"svg-t\" d=\"M0 600V450A150 150 0 0 1 150 600Z\"></path><polyline class=\"m-div\" points=\"24.2,64.9 24.2,27.4 164.6,27.4 164.6,165.8\"></polyline><polygon class=\"m-solid\" points=\"24.2,208.8 24.2,64.9 45.2,85.2 62.2,116.2 79.1,140.4 107.4,152.8 136.0,161.3 163.4,165.8 163.4,208.8\"></polygon><polyline class=\"m-wall\" points=\"22.5,64.9 22.5,208.8 163.4,208.8 163.4,165.8\"></polyline><polyline class=\"m-ladder\" points=\"69.0,125.9 80.5,117.9\"></polyline><polygon class=\"m-solid\" points=\"220.0,107.2 310.9,159.7 285.9,203.0 195.0,150.5\"></polygon><polygon class=\"m-solid\" points=\"270.0,20.6 360.9,73.1 335.9,116.4 245.0,63.9\"></polygon><polygon class=\"m-top\" points=\"229.4,145.8 283.2,52.7 326.5,77.7 272.7,170.8\"></polygon><polyline class=\"m-div\" points=\"396.1,135.2 396.1,18.6 580.4,18.6 580.4,127.4\"></polyline><polygon class=\"m-solid\" points=\"396.1,136.7 434.5,140.3 461.5,145.0 488.0,154.3 520.7,143.9 541.9,135.2 563.0,128.4 580.4,126.4 580.4,205.0 396.1,205.0\"></polygon><polyline class=\"m-wall\" points=\"395.0,135.2 395.0,205.0 581.5,205.0 580.4,126.4\"></polyline><polyline class=\"m-ladder\" points=\"487.1,154.0 487.1,140.0\"></polyline><polyline class=\"m-wall\" points=\"37.5,275.0 112.5,275.0\"></polyline><polyline class=\"m-wall\" points=\"41.2,368.8 95.0,368.8\"></polyline><polyline class=\"m-wall\" points=\"145.0,255.0 145.0,375.0 125.0,375.0\"></polyline><rect class=\"m-solid\" height=\"182.5\" width=\"102.5\" x=\"47.5\" y=\"402.5\"></rect><polyline class=\"m-wall\" points=\"47.5,402.5 150.0,402.5 150.0,565.0\"></polyline><polyline class=\"m-wall\" points=\"456.2,260.0 456.2,375.0 490.0,375.0\"></polyline><polyline class=\"m-wall\" points=\"497.5,280.0 562.5,280.0\"></polyline><polyline class=\"m-wall\" points=\"522.5,377.5 570.0,377.5\"></polyline><rect class=\"m-solid\" height=\"152.5\" width=\"112.5\" x=\"457.5\" y=\"422.5\"></rect><polyline class=\"m-wall\" points=\"457.5,575.0 457.5,422.5 570.0,422.5\"></polyline><circle class=\"m-plat\" cx=\"300.0\" cy=\"300.0\" r=\"83.6\"></circle><circle class=\"m-tower\" cx=\"300.0\" cy=\"300.0\" r=\"38.9\"></circle><polyline class=\"m-ladder\" points=\"216.2,300.0 200.0,300.0\"></polyline><polyline class=\"m-ladder\" points=\"383.8,300.0 400.0,300.0\"></polyline><polygon class=\"m-plat\" points=\"410.5,479.3 355.3,383.6 244.7,383.6 189.5,479.3 244.7,575.0 355.3,575.0\"></polygon><circle class=\"m-tower\" cx=\"300.0\" cy=\"479.3\" r=\"55\"></circle><rect class=\"m-solid\" height=\"40.0\" rx=\"11.2\" width=\"60.0\" x=\"270.0\" y=\"459.3\"></rect><polyline class=\"m-ladder\" points=\"300.0,575.0 300.0,590.0\"></polyline><polyline class=\"m-plank\" points=\"207.5,402.5 207.5,497.5\"></polyline><polyline class=\"m-plank\" points=\"392.5,402.5 392.5,497.5\"></polyline></g><text class=\"m-lab\" x=\"300.0\" y=\"306.2\">Furnace</text><text class=\"m-lab\" x=\"300.0\" y=\"550.0\">Anvil</text><text class=\"m-lab\" x=\"365.0\" y=\"160.0\">Containers</text><text class=\"m-lab\" x=\"112.5\" y=\"90.0\">Casting hall</text><text class=\"m-lab\" x=\"485.0\" y=\"90.0\">Shell works</text><text class=\"m-lab\" x=\"100.0\" y=\"505.0\">Magazine</text><text class=\"m-lab\" x=\"513.8\" y=\"510.0\">Quench house</text><text class=\"m-tick\" x=\"0\" y=\"618\">0\"</text><text class=\"m-tick\" x=\"150\" y=\"618\">6\"</text><text class=\"m-tick\" x=\"300\" y=\"618\">12\"</text><text class=\"m-tick\" x=\"450\" y=\"618\">18\"</text><text class=\"m-tick\" x=\"600\" y=\"618\">24\"</text></svg>"
+     }
+    }
+   ]
+  }
+ ],
+ "aftermath": [
+  {
+   "todo": "To come."
+  }
+ ],
+ "popovers": [],
+ "fighters": {
+  "deuteronomy": {
+   "name": "Deuteronomy",
+   "portrait": "images/fighters/deuteronomy.jpg",
+   "type": "Master of Shadow (Leader, Wyrd), Wyrd",
+   "cost": "245",
+   "stats": {
+    "M": "5\"",
+    "WS": "3+",
+    "BS": "3+",
+    "S": "3",
+    "T": "3",
+    "W": "3",
+    "I": "4",
+    "A": "3",
+    "Sv": "5+",
+    "Ld": "8",
+    "Cl": "8",
+    "Wil": "9",
+    "Int": "8",
+    "XP": "71"
+   },
+   "weapons": [
+    {
+     "name": "Flechette pistol",
+     "profile": [
+      "4\"",
+      "12\"",
+      "-",
+      "-",
+      "1"
+     ],
+     "traits": "{tip:Light}, {tip:Rapid Fire (1)}, {tip:Toxin (3+)}"
+    },
+    {
+     "name": "Shock stave",
+     "profile": [
+      "E",
+      "-",
+      "S+1",
+      "-",
+      "1"
+     ],
+     "traits": "{tip:Melee}, {tip:Shock (5+)}"
+    },
+    {
+     "name": "Web gauntlet",
+     "profile": [
+      "E",
+      "-",
+      "3",
+      "-",
+      "-"
+     ],
+     "traits": "{tip:Backstab}, {tip:Melee}, {tip:Web}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:A Perfect Void}, {tip:Counter-attack}, {tip:Inspiring}"
+    },
+    {
+     "label": "Special rules",
+     "text": "{tip:Master of Whispers}"
+    }
+   ]
+  },
+  "demeter": {
+   "name": "Demeter",
+   "portrait": "images/fighters/demeter.jpg",
+   "type": "Phantom (Champion)",
+   "cost": "175",
+   "stats": {
+    "M": "5\"",
+    "WS": "3+",
+    "BS": "3+",
+    "S": "3",
+    "T": "3",
+    "W": "2",
+    "I": "4",
+    "A": "2",
+    "Sv": "5+",
+    "Ld": "7",
+    "Cl": "7",
+    "Wil": "8",
+    "Int": "7",
+    "XP": "42"
+   },
+   "weapons": [
+    {
+     "name": "Long rifle",
+     "profile": [
+      "24\"",
+      "48\"",
+      "4",
+      "-1",
+      "1"
+     ],
+     "traits": "{tip:Knockback (6+)}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Wargear",
+     "text": "{tip:Las-projector (long rifle)}"
+    },
+    {
+     "label": "Skills",
+     "text": "{tip:Inspiring}, {tip:Overwatch}"
+    },
+    {
+     "label": "Special rules",
+     "text": "{tip:Master of Whispers}"
+    }
+   ]
+  },
+  "macavity": {
+   "name": "Macavity",
+   "portrait": "images/fighters/macavity.jpg",
+   "type": "Nacht-Ghul (Champion, Loner)",
+   "cost": "190",
+   "stats": {
+    "M": "6\"",
+    "WS": "3+",
+    "BS": "4+",
+    "S": "4",
+    "T": "3",
+    "W": "2",
+    "I": "5",
+    "A": "3",
+    "Sv": "5+",
+    "Ld": "6",
+    "Cl": "8",
+    "Wil": "8",
+    "Int": "7",
+    "XP": "59"
+   },
+   "weapons": [
+    {
+     "name": "Serpent's fangs*",
+     "profile": [
+      "E",
+      "-",
+      "-",
+      "-3",
+      "1"
+     ],
+     "traits": "{tip:Melee}, {tip:Paired (2)}, {tip:Toxin (3+)}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:Inspiring}, {tip:Spring Up}"
+    },
+    {
+     "label": "Special rules",
+     "text": "{tip:From the Shadows}"
+    }
+   ]
+  },
+  "rumpleteaser": {
+   "name": "Rumpleteaser",
+   "portrait": "images/fighters/rumpleteaser.jpg",
+   "type": "Ghost (Ganger, Specialist), Gunner",
+   "cost": "150",
+   "stats": {
+    "M": "5\"",
+    "WS": "4+",
+    "BS": "4+",
+    "S": "3",
+    "T": "3",
+    "W": "1",
+    "I": "4",
+    "A": "1",
+    "Sv": "6+",
+    "Ld": "6",
+    "Cl": "6",
+    "Wil": "7",
+    "Int": "6",
+    "XP": "17"
+   },
+   "weapons": [
+    {
+     "name": "Plasma gun",
+     "profile": [
+      "12\"",
+      "24\"",
+      "5",
+      "-2",
+      "2"
+     ],
+     "traits": "{tip:Ammo (6+)}, {tip:Damage (2)}, {tip:Rapid Fire (1)}, {tip:Unstable}"
+    },
+    {
+     "name": "Autogun",
+     "profile": [
+      "8\"",
+      "24\"",
+      "3",
+      "-",
+      "1"
+     ],
+     "traits": "{tip:Rapid Fire (1)}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:Hip-shooting}"
+    }
+   ]
+  },
+  "mistoffelees": {
+   "name": "Mistoffelees",
+   "portrait": "images/fighters/mistoffelees.jpg",
+   "type": "Psy-Gheist (Prospect, Wyrd)",
+   "cost": "95",
+   "stats": {
+    "M": "6\"",
+    "WS": "5+",
+    "BS": "5+",
+    "S": "3",
+    "T": "3",
+    "W": "1",
+    "I": "4",
+    "A": "1",
+    "Sv": "6+",
+    "Ld": "5",
+    "Cl": "6",
+    "Wil": "7",
+    "Int": "5",
+    "XP": "10"
+   },
+   "weapons": [
+    {
+     "name": "Stub gun",
+     "profile": [
+      "6\"",
+      "12\"",
+      "3",
+      "-",
+      "1"
+     ],
+     "traits": "{tip:Light}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Wargear",
+     "text": "{tip:Psychoteric Wyrm (Rumpus)}"
+    },
+    {
+     "label": "Skills",
+     "text": "{tip:Eternal Slumber}, <span class=\"adv-i sk\" data-tip='Wyrd Power (Single): choose an enemy Fighter within 6\" and Line of Sight. They must make a Willpower check; if failed, they gain the Insanity Condition.' tabindex=\"0\">Terrible Truths</span>"
+    },
+    {
+     "label": "Special rules",
+     "text": "{tip:Whispers in the Dark}"
+    }
+   ]
+  },
+  "rumpus": {
+   "name": "Rumpus",
+   "portrait": "images/fighters/rumpus.jpg",
+   "type": "Psychoteric Wyrm (Beast, Pet). Owner: Mistoffelees",
+   "cost": "*",
+   "stats": {
+    "M": "6\"",
+    "WS": "4+",
+    "BS": "6+",
+    "S": "2",
+    "T": "3",
+    "W": "1",
+    "I": "3",
+    "A": "1",
+    "Sv": "6+",
+    "Ld": "5",
+    "Cl": "6",
+    "Wil": "7",
+    "Int": "5",
+    "XP": "14"
+   },
+   "weapons": [
+    {
+     "name": "Ferocious jaws",
+     "profile": [
+      "E",
+      "-",
+      "S+1",
+      "-1",
+      "1"
+     ],
+     "traits": "{tip:Melee}, {tip:Rending (6+)}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Special rules",
+     "text": "{tip:Psychoteric Node}, {tip:Leash Range (12\")}, {tip:Burrowing}"
+    }
+   ]
+  },
+  "mordecai": {
+   "name": "Mordecai",
+   "portrait": "images/fighters/mordecai.jpg",
+   "type": "Cawdor Word Keeper (Leader, Pious)",
+   "cost": "240",
+   "stats": {
+    "M": "5\"",
+    "WS": "3+",
+    "BS": "3+",
+    "S": "3",
+    "T": "3",
+    "W": "3",
+    "I": "3",
+    "A": "2",
+    "Sv": "5+",
+    "Ld": "8",
+    "Cl": "8",
+    "Wil": "8",
+    "Int": "7",
+    "XP": "69"
+   },
+   "weapons": [
+    {
+     "name": "Autopistol",
+     "profile": [
+      "4\"",
+      "12\"",
+      "3",
+      "-",
+      "1"
+     ],
+     "traits": "{tip:Light}, {tip:Rapid Fire (1)}"
+    },
+    {
+     "name": "Chainglaive*",
+     "profile": [
+      "E",
+      "-",
+      "S+1",
+      "-1",
+      "2"
+     ],
+     "traits": "{tip:Heavy}, {tip:Melee}, {tip:Parry}, {tip:Shred (6+)}, {tip:Unwieldy}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Wargear",
+     "text": "{tip:Mesh armour}, {tip:Bio-booster}"
+    },
+    {
+     "label": "Skills",
+     "text": "{tip:Inspiring}, {tip:Nerves of Steel}"
+    },
+    {
+     "label": "Lasting injuries",
+     "text": "{tip:Personal Enmity (Macavity)}"
+    }
+   ]
+  },
+  "ezekiel-crows": {
+   "name": "Ezekiel Crows",
+   "portrait": "images/fighters/ezekiel-crows.jpg",
+   "type": "Cawdor Firebrand (Champion, Pious)",
+   "cost": "155",
+   "stats": {
+    "M": "5\"",
+    "WS": "3+",
+    "BS": "3+",
+    "S": "3",
+    "T": "3",
+    "W": "2",
+    "I": "3",
+    "A": "2",
+    "Sv": "5+",
+    "Ld": "7",
+    "Cl": "7",
+    "Wil": "6",
+    "Int": "7",
+    "XP": "46"
+   },
+   "weapons": [
+    {
+     "name": "Autopistol",
+     "profile": [
+      "4\"",
+      "12\"",
+      "3",
+      "-",
+      "1"
+     ],
+     "traits": "{tip:Light}, {tip:Rapid Fire (1)}"
+    },
+    {
+     "name": "Cleaver",
+     "profile": [
+      "E",
+      "-",
+      "S",
+      "-1",
+      "2"
+     ],
+     "traits": "{tip:Melee}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Wargear",
+     "text": "{tip:Stimm-slug stash}"
+    },
+    {
+     "label": "Skills",
+     "text": "{tip:Bull Charge}, {tip:Inspiring}"
+    }
+   ]
+  },
+  "elijah-emberchoir": {
+   "name": "Elijah Emberchoir",
+   "portrait": "images/fighters/elijah-emberchoir.jpg",
+   "type": "Redemptionist Deacon (Champion, Fanatic)",
+   "cost": "165",
+   "stats": {
+    "M": "5\"",
+    "WS": "3+",
+    "BS": "3+",
+    "S": "3",
+    "T": "3",
+    "W": "2",
+    "I": "3",
+    "A": "2",
+    "Sv": "5+",
+    "Ld": "7",
+    "Cl": "7",
+    "Wil": "8",
+    "Int": "6",
+    "XP": "39"
+   },
+   "weapons": [
+    {
+     "name": "Autopistol",
+     "profile": [
+      "4\"",
+      "12\"",
+      "3",
+      "-",
+      "1"
+     ],
+     "traits": "{tip:Light}, {tip:Rapid Fire (1)}"
+    },
+    {
+     "name": "Chainaxe/Exterminator",
+     "nameClass": "parent"
+    },
+    {
+     "class": "sub",
+     "name": "Chainaxe",
+     "profile": [
+      "E",
+      "-",
+      "S",
+      "-1",
+      "1"
+     ],
+     "traits": "{tip:Melee}, {tip:Shred (5+)}"
+    },
+    {
+     "class": "sub",
+     "name": "Exterminator",
+     "profile": [
+      "T",
+      "-",
+      "4",
+      "-1",
+      "1"
+     ],
+     "traits": "{tip:Auxiliary}, {tip:Blaze (5+)}, {tip:Single Shot}, {tip:Template}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:Inspiring}, {tip:Rain of Blows}"
+    }
+   ]
+  },
+  "gutter-cantor": {
+   "name": "Gutter Cantor",
+   "portrait": "images/fighters/gutter-cantor.jpg",
+   "type": "Cawdor Brethren (Ganger, Pious, Specialist), Medic",
+   "cost": "70",
+   "stats": {
+    "M": "5\"",
+    "WS": "4+",
+    "BS": "4+",
+    "S": "3",
+    "T": "3",
+    "W": "1",
+    "I": "3",
+    "A": "1",
+    "Sv": "6+",
+    "Ld": "6",
+    "Cl": "6",
+    "Wil": "6",
+    "Int": "6",
+    "XP": "17"
+   },
+   "weapons": [
+    {
+     "name": "Cawdor Polearm/Autogun",
+     "nameClass": "parent"
+    },
+    {
+     "class": "sub",
+     "name": "Polearm*",
+     "profile": [
+      "E",
+      "-",
+      "S+1",
+      "-",
+      "2"
+     ],
+     "traits": "{tip:Heavy}, {tip:Lance}, {tip:Melee}, {tip:Unwieldy}"
+    },
+    {
+     "class": "sub",
+     "name": "Autogun",
+     "profile": [
+      "8\"",
+      "24\"",
+      "3",
+      "-",
+      "1"
+     ],
+     "traits": "{tip:Rapid Fire (1)}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:Medicate}"
+    }
+   ]
+  },
+  "deus-and-amen": {
+   "name": "Deus and Amen",
+   "portrait": "images/fighters/deus-and-amen.jpg",
+   "type": "Cawdor Stig-Shambler (Brute, Loner, Pious)",
+   "cost": "265",
+   "stats": {
+    "M": "4\"",
+    "WS": "4+",
+    "BS": "3+",
+    "S": "5",
+    "T": "4",
+    "W": "4",
+    "I": "3",
+    "A": "2",
+    "Sv": "6+",
+    "Ld": "6",
+    "Cl": "6",
+    "Wil": "6",
+    "Int": "5",
+    "XP": "35"
+   },
+   "statClass": {
+    "BS": "adv"
+   },
+   "weapons": [
+    {
+     "name": "Heavy club",
+     "profile": [
+      "E",
+      "-",
+      "S+2",
+      "-",
+      "2"
+     ],
+     "traits": "{tip:Concussive (5+)}, {tip:Heavy}, {tip:Melee}, {tip:Unwieldy}"
+    },
+    {
+     "name": "Twin-linked heavy stubber",
+     "profile": [
+      "20\"",
+      "40\"",
+      "4",
+      "-1",
+      "1"
+     ],
+     "traits": "{tip:Heavy}, {tip:Rapid Fire (2)}, {tip:Twin-linked}"
+    }
+   ],
+   "foot": [
+    {
+     "label": "Skills",
+     "text": "{tip:Bulging Biceps}, {tip:Juggernaut}"
+    }
+   ]
+  }
+ }
+}
