@@ -68,6 +68,9 @@ for f in sorted(glob.glob(os.path.join(ROOT, 'data/battles/*.json'))):
         attacker = card(r['by'], d['id']) if r.get('by') else None
         for sec in sections:
             hits = wounds = unsaved = None; auto = 0
+            if any((x.get('check') or {}).get('name') == 'To Wound' and re.match(r'(One|Two|Three|Four|Five|Six) wounds?|Wound\b', x.get('result', '')) for x in sec) \
+                    and not any((x.get('check') or {}).get('name') == 'Save' for x in sec):
+                flag('traceability', W, 'wounds caused but no Save row')
             for x in sec:
                 c = x.get('check'); dice = x.get('dice', '')
                 ds = dice.split() if isinstance(dice, str) else []

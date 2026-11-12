@@ -2442,6 +2442,20 @@
           }
          },
          {
+          "dice": "",
+          "result": "Three damage",
+          "check": {
+           "name": "Save",
+           "base": 6,
+           "mods": [
+            [
+             -1,
+             "AP"
+            ]
+           ]
+          }
+         },
+         {
           "label": "Injury",
           "dice": "fw si si",
           "result": "Still seriously injured"
@@ -2874,6 +2888,20 @@
            "base": 3,
            "s": 4,
            "t": 3
+          }
+         },
+         {
+          "dice": "",
+          "result": "Two damage",
+          "check": {
+           "name": "Save",
+           "base": 6,
+           "mods": [
+            [
+             -1,
+             "AP"
+            ]
+           ]
           }
          },
          {
