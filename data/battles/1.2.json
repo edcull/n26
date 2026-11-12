@@ -457,7 +457,7 @@
         "side": "p",
         "face": "deus",
         "name": "Deus and Amen - Twin-linked Heavy Stubber",
-        "result": "Miss",
+        "result": "Missed",
         "resultClass": "ammo",
         "rows": [
          {
@@ -1026,7 +1026,7 @@
         "side": "p",
         "face": "deus",
         "name": "Deus and Amen - Twin-linked Heavy Stubber",
-        "result": "Miss",
+        "result": "Missed",
         "resultClass": "ammo",
         "rows": [
          {
@@ -1054,7 +1054,7 @@
         "side": "t",
         "face": "growltiger",
         "name": "Skimbleshanks - Pistols",
-        "result": "Misses and fails to wound",
+        "result": "Missed, fails to wound",
         "resultClass": "ammo",
         "rows": [
          {
@@ -1062,7 +1062,7 @@
          },
          {
           "dice": "5 f1",
-          "result": "One hit",
+          "result": "Hit",
           "resultClass": "ammo",
           "check": {
            "name": "To Hit",
@@ -1125,7 +1125,7 @@
           "result": "1\" short",
           "resultClass": "ammo",
           "check": {
-           "name": "Charge move",
+           "name": "Charge",
            "base": 3
           }
          },
@@ -1141,7 +1141,7 @@
         "side": "t",
         "face": "demeter",
         "name": "Demeter - Long Rifle",
-        "result": "Elijah takes a wound and is suppressed",
+        "result": "Elijah takes 1 wound and is suppressed",
         "resultClass": "sup",
         "rows": [
          {
@@ -1257,7 +1257,7 @@
         "side": "p",
         "face": "ratsong",
         "name": "Ratsong - Stub Gun",
-        "result": "Miss",
+        "result": "Missed",
         "resultClass": "ammo",
         "rows": [
          {
@@ -1283,12 +1283,12 @@
         "side": "t",
         "face": "deuteronomy",
         "name": "Deuteronomy - Maintain Power",
-        "result": "Rolled 10, passes",
+        "result": "Maintains",
         "resultClass": "ammo",
         "rows": [
          {
-          "dice": "",
-          "result": "Rolled 10, passes",
+          "dice": "3 5",
+          "result": "Maintains",
           "resultClass": "ammo",
           "check": {
            "name": "Willpower",
@@ -1423,7 +1423,7 @@
         "rows": [
          {
           "dice": "3 f1",
-          "result": "One hit",
+          "result": "Hit",
           "resultClass": "ammo",
           "check": {
            "name": "To Hit",
@@ -1704,7 +1704,7 @@
       "rows": [
        {
         "dice": "5 4",
-        "result": "Bottle!",
+        "result": "Bottles",
         "check": {
          "name": "Leadership",
          "base": 8,
@@ -1736,7 +1736,7 @@
         "side": "p",
         "face": "deus",
         "name": "Deus and Amen - Twin-linked Heavy Stubber",
-        "result": "Miss",
+        "result": "Missed",
         "resultClass": "ammo",
         "rows": [
          {
@@ -1765,7 +1765,7 @@
         "side": "t",
         "face": "rumpleteaser",
         "name": "Rumpleteaser - Plasma Gun",
-        "result": "Misses, Out of Ammo",
+        "result": "Missed, Out of Ammo",
         "resultClass": "ammo",
         "rows": [
          {
@@ -1852,15 +1852,15 @@
         "side": "p",
         "face": "mordecai",
         "name": "Mordecai - Charge",
-        "result": "Charge makes it in",
+        "result": "Engaged",
         "resultClass": "ammo",
         "rows": [
          {
           "dice": "5",
-          "result": "Charge makes it in",
+          "result": "Engaged",
           "resultClass": "ammo",
           "check": {
-           "name": "Charge move",
+           "name": "Charge",
            "base": 2
           }
          }
@@ -1908,7 +1908,7 @@
        "roll": {
         "side": "t",
         "face": "mistoffelees",
-        "name": "Mistoffelees - Nerve Test",
+        "name": "Mistoffelees - Nerve Check",
         "result": "Mistoffelees suppressed",
         "resultClass": "sup",
         "rows": [
@@ -1952,7 +1952,7 @@
         "side": "t",
         "face": "deuteronomy",
         "name": "Deuteronomy - Shock Stave",
-        "result": "Mordecai takes a wound",
+        "result": "Mordecai takes 1 wound",
         "rows": [
          {
           "note": "Initiative 4 +2 charge bonus"
@@ -2020,7 +2020,7 @@
         "side": "p",
         "face": "mordecai",
         "name": "Mordecai - Chainglaive",
-        "result": "Miss",
+        "result": "Missed",
         "resultClass": "ammo",
         "rows": [
          {
@@ -2052,7 +2052,7 @@
         "side": "p",
         "face": "ezekiel",
         "name": "Ezekiel - Autopistol",
-        "result": "Rumpleteaser takes a wound and is suppressed",
+        "result": "Rumpleteaser takes 1 wound and is suppressed",
         "resultClass": "sup",
         "rows": [
          {
@@ -2108,7 +2108,7 @@
         "side": "t",
         "face": "jellylorum",
         "name": "Jellylorum - Lasgun",
-        "result": "Miss",
+        "result": "Missed",
         "resultClass": "ammo",
         "rows": [
          {
@@ -2347,7 +2347,7 @@
       "rows": [
        {
         "dice": "6 1",
-        "result": "Passes",
+        "result": "Holds",
         "resultClass": "ammo",
         "check": {
          "name": "Leadership",
@@ -2378,7 +2378,7 @@
         "side": "t",
         "face": "deuteronomy",
         "name": "Deuteronomy - Reaction: Web Gauntlet",
-        "result": "Miss",
+        "result": "Missed",
         "resultClass": "ammo",
         "rows": [
          {
@@ -2410,7 +2410,7 @@
         "side": "t",
         "face": "deuteronomy",
         "name": "Deuteronomy - Counter-attack: Shock Stave",
-        "result": "Miss",
+        "result": "Missed",
         "resultClass": "ammo",
         "rows": [
          {
@@ -2442,7 +2442,7 @@
         "side": "p",
         "face": "mordecai",
         "name": "Mordecai - Chainglaive",
-        "result": "Deuteronomy takes a wound",
+        "result": "Deuteronomy takes 1 wound",
         "rows": [
          {
           "note": "Initiative 1"
@@ -2498,7 +2498,7 @@
         "side": "t",
         "face": "demeter",
         "name": "Demeter - Overwatch",
-        "result": "Deus and Amen take a wound and are suppressed",
+        "result": "Deus and Amen take 1 wound and are suppressed",
         "resultClass": "sup",
         "rows": [
          {
@@ -2574,7 +2574,7 @@
         "side": "t",
         "face": "deuteronomy",
         "name": "Deuteronomy - Shock Stave",
-        "result": "Mordecai takes a wound",
+        "result": "Mordecai takes 1 wound",
         "rows": [
          {
           "note": "Initiative 4"
@@ -2641,7 +2641,7 @@
         "side": "p",
         "face": "mordecai",
         "name": "Mordecai - Chainglaive",
-        "result": "Deuteronomy takes a wound",
+        "result": "Deuteronomy takes 1 wound",
         "rows": [
          {
           "note": "Initiative 1"
@@ -2651,7 +2651,7 @@
          },
          {
           "dice": "6",
-          "result": "One hit",
+          "result": "Hit",
           "resultClass": "ammo",
           "check": {
            "name": "To Hit",
@@ -2752,7 +2752,7 @@
         "side": "t",
         "face": "mistoffelees",
         "name": "Mistoffelees - Stub Gun",
-        "result": "Miss",
+        "result": "Missed",
         "resultClass": "ammo",
         "rows": [
          {
@@ -2778,7 +2778,7 @@
         "side": "p",
         "face": "cantor",
         "name": "Gutter Cantor - Polearm/Autogun",
-        "result": "Miss",
+        "result": "Missed",
         "resultClass": "ammo",
         "rows": [
          {
@@ -3052,7 +3052,7 @@
          },
          {
           "dice": "6",
-          "result": "One hit",
+          "result": "Hit",
           "resultClass": "ammo",
           "check": {
            "name": "To Hit",
@@ -3140,7 +3140,7 @@
          },
          {
           "dice": "3 4",
-          "result": "One hit",
+          "result": "Hit",
           "resultClass": "ammo",
           "check": {
            "name": "To Hit",
@@ -3218,7 +3218,7 @@
         "side": "p",
         "face": "ezekiel",
         "name": "Ezekiel Crows - Charge",
-        "result": "Fails to wound, fails to hit",
+        "result": "Fails to wound, missed",
         "resultClass": "ammo",
         "rows": [
          {
@@ -3275,7 +3275,7 @@
         "side": "t",
         "face": "jellylorum",
         "name": "Jellylorum - Unarmed",
-        "result": "Ezekiel takes a wound",
+        "result": "Ezekiel takes 1 wound",
         "rows": [
          {
           "note": "Initiative 4"
@@ -3324,7 +3324,7 @@
         "side": "t",
         "face": "mistoffelees",
         "name": "Mistoffelees - Stub Gun",
-        "result": "Miss",
+        "result": "Missed",
         "resultClass": "ammo",
         "rows": [
          {
@@ -3350,7 +3350,7 @@
         "side": "p",
         "face": "deus",
         "name": "Deus and Amen - Twin-linked Heavy Stubber",
-        "result": "Miss",
+        "result": "Missed",
         "resultClass": "ammo",
         "rows": [
          {
@@ -3379,7 +3379,7 @@
         "side": "t",
         "face": "demeter",
         "name": "Demeter - Long Rifle",
-        "result": "Miss",
+        "result": "Missed",
         "resultClass": "ammo",
         "rows": [
          {
@@ -3410,7 +3410,7 @@
         "rows": [
          {
           "dice": "4 f1",
-          "result": "One hit",
+          "result": "Hit",
           "resultClass": "ammo",
           "check": {
            "name": "To Hit",

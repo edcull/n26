@@ -658,7 +658,7 @@
         "side": "p",
         "face": "deus",
         "name": "Deus and Amen - Twin-linked Heavy Stubber",
-        "result": "Miss, Out of Ammo",
+        "result": "Missed, Out of Ammo",
         "resultClass": "ammo",
         "rows": [
          {
@@ -743,7 +743,7 @@
         "side": "p",
         "face": "ezekiel",
         "name": "Ezekiel - Autopistol",
-        "result": "Demeter takes a wound and is suppressed",
+        "result": "Demeter takes 1 wound and is suppressed",
         "resultClass": "sup",
         "rows": [
          {
@@ -1085,7 +1085,7 @@
           "result": "1\" short",
           "resultClass": "ammo",
           "check": {
-           "name": "Target",
+           "name": "Charge",
            "base": 4
           }
          },
@@ -1195,7 +1195,7 @@
         "side": "t",
         "face": "macavity",
         "name": "Macavity - Serpent's Fangs",
-        "result": "Ezekiel takes a wound",
+        "result": "Ezekiel takes 1 wound",
         "rows": [
          {
           "note": "Initiative 5"
@@ -1249,7 +1249,7 @@
         "side": "t",
         "face": "macavity",
         "name": "Macavity - Serpent's Fangs",
-        "result": "Mordecai takes a wound",
+        "result": "Mordecai takes 1 wound",
         "rows": [
          {
           "note": "Initiative 5"
@@ -1487,7 +1487,7 @@
         "side": "p",
         "face": "vermin",
         "name": "Vermin Pyre - Flamer/Polearm",
-        "result": "Deuteronomy takes a wound, Out of Ammo",
+        "result": "Deuteronomy takes 1 wound, Out of Ammo",
         "rows": [
          {
           "dice": "5 2",
@@ -1948,7 +1948,7 @@
         "side": "p",
         "face": "deus",
         "name": "Deus and Amen - Twin-linked Heavy Stubber",
-        "result": "Miss",
+        "result": "Missed",
         "resultClass": "ammo",
         "rows": [
          {
@@ -2041,7 +2041,7 @@
         "side": "p",
         "face": "vermin",
         "name": "Vermin Pyre - Flamer/Polearm",
-        "result": "Deuteronomy takes a wound and is suppressed",
+        "result": "Deuteronomy takes 1 wound and is suppressed",
         "resultClass": "sup",
         "rows": [
          {
@@ -2090,12 +2090,12 @@
         "side": "t",
         "face": "deuteronomy",
         "name": "Deuteronomy - Maintain Power",
-        "result": "Deuteronomy takes a wound, is injured and suppressed",
+        "result": "Deuteronomy takes 1 wound, is injured and suppressed",
         "resultClass": "sup",
         "rows": [
          {
           "dice": "1 1",
-          "result": "Maintains, but suffers Perils of the Warp",
+          "result": "Maintains with Perils",
           "check": {
            "name": "Willpower",
            "base": 9,
@@ -2216,11 +2216,11 @@
         "side": "t",
         "face": "rumpleteaser",
         "name": "Rumpleteaser - Plasma Gun",
-        "result": "Deus and Amen take two wounds and are suppressed, weapon jammed",
+        "result": "Deus and Amen take 2 wounds and are suppressed, weapon jammed",
         "rows": [
          {
           "dice": "5 f1a",
-          "result": "One hit",
+          "result": "Hit",
           "resultClass": "ammo",
           "check": {
            "name": "To Hit",
@@ -2279,7 +2279,7 @@
         "side": "p",
         "face": "cantor",
         "name": "Gutter Cantor - Polearm/Autogun",
-        "result": "Miss",
+        "result": "Missed",
         "resultClass": "ammo",
         "rows": [
          {
@@ -2342,7 +2342,7 @@
         "side": "p",
         "face": "ratsong",
         "name": "Ratsong - Stub Gun",
-        "result": "Miss",
+        "result": "Missed",
         "resultClass": "ammo",
         "rows": [
          {
@@ -2633,7 +2633,7 @@
       "rows": [
        {
         "dice": "3 4",
-        "result": "Passes",
+        "result": "Holds",
         "resultClass": "ammo",
         "check": {
          "name": "Leadership",
@@ -2663,7 +2663,7 @@
        "roll": {
         "side": "p",
         "face": "deus",
-        "name": "Deus and Amen - Engage Distance",
+        "name": "Deus and Amen - Engage",
         "result": "Engaged",
         "resultClass": "ammo",
         "rows": [
@@ -2684,7 +2684,7 @@
         "side": "t",
         "face": "macavity",
         "name": "Macavity - Serpent's Fangs",
-        "result": "Miss",
+        "result": "Missed",
         "resultClass": "ammo",
         "rows": [
          {
@@ -3172,7 +3172,7 @@
       "rows": [
        {
         "dice": "2 6",
-        "result": "Passes",
+        "result": "Holds",
         "resultClass": "ammo",
         "check": {
          "name": "Leadership",
@@ -3203,7 +3203,7 @@
         "side": "p",
         "face": "deus",
         "name": "Deus and Amen - Twin-linked Heavy Stubber",
-        "result": "Miss",
+        "result": "Missed",
         "resultClass": "ammo",
         "rows": [
          {
@@ -3276,7 +3276,7 @@
         "side": "p",
         "face": "ratsong",
         "name": "Ratsong - Stub Gun",
-        "result": "Miss",
+        "result": "Missed",
         "resultClass": "ammo",
         "rows": [
          {
@@ -3539,7 +3539,7 @@
         "side": "p",
         "face": "deus",
         "name": "Deus and Amen - Twin-linked Heavy Stubber",
-        "result": "Miss",
+        "result": "Missed",
         "resultClass": "ammo",
         "rows": [
          {
@@ -3565,7 +3565,7 @@
         "side": "t",
         "face": "jellylorum",
         "name": "Jellylorum - Lasgun",
-        "result": "Miss",
+        "result": "Missed",
         "resultClass": "ammo",
         "rows": [
          {
@@ -3591,7 +3591,7 @@
         "side": "p",
         "face": "ezekiel",
         "name": "Ezekiel - Autopistol",
-        "result": "Miss",
+        "result": "Missed",
         "resultClass": "ammo",
         "rows": [
          {
@@ -3621,7 +3621,7 @@
         "rows": [
          {
           "dice": "4 f1",
-          "result": "One hit",
+          "result": "Hit",
           "resultClass": "ammo",
           "check": {
            "name": "To Hit",

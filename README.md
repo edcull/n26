@@ -134,7 +134,7 @@ Other callouts (tests, recovery, powers) keep a plain `name` such as `"Wit - Ner
   - `{"check": {"name": "Save", "base": 6, "mods": [[-1, "AP"]]}}` shows Save **none** (6+ -1 AP); leave `dice` empty then
   - `{"check": {"name": "Save", "base": 5, "none": true}}` shows Save **none** when a rule allows no save at all. Only use it where a save would otherwise have been rolled, and add a note saying which rule, for example "Note: The Graviton Pulse allows no save."
   - Every weapon section that causes a wound has a Save row
-  - `{"check": {"name": "Willpower", "base": 9, "mods": [[3, "Psychoteric Choir"]], "under": true}}` shows Willpower **12** (9 +3 Psychoteric Choir)
+  - `{"check": {"name": "Willpower", "base": 9, "mods": [[3, "Maintain"]], "under": true}}` shows Willpower **12** (9 +3 Maintain)
   - `"who": "Mordecai"` puts the fighter's name first, for callouts that cover several fighters: Mordecai: Leadership **8**
   - `"s": 3, "t": 3` on a To Wound check shows the attacker's Strength against the target's Toughness: To Wound **4+** (S3/T3)
   - `"note": "Toxin"` adds a word in the brackets
@@ -149,6 +149,9 @@ Other callouts (tests, recovery, powers) keep a plain `name` such as `"Wit - Ner
   - A To Wound row that causes no wound reads `Suppressed` for a ranged attack. It reads `-` when the target ignores suppression (Juggernaut, a passed Nerves of Steel test) and for a melee attack
   - Conditions after a comma: `One wound, suppressed`, `Saved, suppressed`, `Three hits, Knockback`. On the dice rows each part after a comma starts a new line
   - Narrative text says "seriously injured"
+  - Tests: `Passes` / `Fails`; powers `Manifests` / `Maintains` (add `with Perils` where it happened); Leadership (bottle) `Holds` / `Bottles`; Cool (nerve) `Passes` / `Suppressed`; charges `Engaged` / `1" short`
+- **Callout names:** `Nerve Check` (`Nerve Checks` for several fighters), `Bottle Check`, `Charge` (row label `Charge`), `Engage`, `Insanity Test` with the Insanity result in a note
+- **Summary lines:** `Missed`, `Fails to wound`, `Missed, Out of Ammo`; wounds by number, `Ezekiel takes 1 wound`, `Deus and Amen take 2 wounds`; nerve and bottle checks `Holds`
 - **`resultClass`** sets the colour:
   - leave it out for red (wounds, damage, injuries, bad outcomes). Damage is always red, even with a condition after it (`One damage, suppressed`)
   - `sup` for yellow (suppressed and other conditions)

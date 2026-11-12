@@ -517,7 +517,7 @@
            "mods": [
             [
              3,
-             "Psychoteric Choir"
+             "Maintain"
             ]
            ]
           }
@@ -802,7 +802,7 @@
          },
          {
           "dice": "3 2 6",
-          "result": "One hit",
+          "result": "Hit",
           "resultClass": "ammo",
           "check": {
            "name": "To Hit",
@@ -880,7 +880,7 @@
         "rows": [
          {
           "dice": "4 f1",
-          "result": "One hit",
+          "result": "Hit",
           "resultClass": "ammo",
           "check": {
            "name": "To Hit",
@@ -913,7 +913,7 @@
         "side": "t",
         "face": "mungojerrie",
         "name": "Mungojerrie - Grav Gun",
-        "result": "Elijah takes a wound",
+        "result": "Elijah takes 1 wound",
         "rows": [
          {
           "dice": "3",
@@ -970,7 +970,7 @@
         "side": "p",
         "face": "mordecai",
         "name": "Mordecai - Autopistol",
-        "result": "Miss",
+        "result": "Missed",
         "resultClass": "ammo",
         "rows": [
          {
@@ -1068,7 +1068,7 @@
        "roll": {
         "side": "p",
         "face": "filth",
-        "name": "Blessed Filth - \"They're Coming for Me\"",
+        "name": "Blessed Filth - Insanity Test",
         "result": "Still subject to Insanity",
         "rows": [
          {
@@ -1080,6 +1080,9 @@
            "base": 6,
            "under": true
           }
+         },
+         {
+          "note": "Note: Insanity result \"They're Coming for Me\"."
          }
         ],
         "resultClass": "sup"
@@ -1118,7 +1121,7 @@
         "rows": [
          {
           "dice": "4 2",
-          "result": "Succeeds",
+          "result": "Passes",
           "resultClass": "ammo",
           "check": {
            "name": "Willpower",
@@ -1190,7 +1193,7 @@
         "side": "t",
         "face": "wit",
         "name": "Wit - Stub Gun",
-        "result": "Miss",
+        "result": "Missed",
         "resultClass": "ammo",
         "rows": [
          {
@@ -1534,7 +1537,7 @@
         "side": "p",
         "face": "ezekiel",
         "name": "Ezekiel Crows - Autopistol",
-        "result": "Miss",
+        "result": "Missed",
         "resultClass": "ammo",
         "rows": [
          {
@@ -1732,7 +1735,7 @@
         "side": "t",
         "face": "wit",
         "name": "Wit - Stub Gun",
-        "result": "Miss",
+        "result": "Missed",
         "resultClass": "ammo",
         "rows": [
          {
@@ -1759,7 +1762,7 @@
        "roll": {
         "side": "p",
         "face": "filth",
-        "name": "Blessed Filth - \"Hide!\"",
+        "name": "Blessed Filth - Insanity Test",
         "result": "Still subject to Insanity",
         "rows": [
          {
@@ -1771,6 +1774,9 @@
            "base": 6,
            "under": true
           }
+         },
+         {
+          "note": "Note: Insanity result \"Hide!\"."
          }
         ],
         "resultClass": "sup"
@@ -2193,8 +2199,8 @@
        "roll": {
         "side": "t",
         "face": "wit",
-        "name": "Wit - Nerve",
-        "result": "Passes",
+        "name": "Wit - Nerve Check",
+        "result": "Holds",
         "resultClass": "ammo",
         "rows": [
          {
@@ -2306,7 +2312,7 @@
            "mods": [
             [
              3,
-             "Psychoteric Choir"
+             "Maintain"
             ]
            ]
           }
@@ -2321,7 +2327,7 @@
        "roll": {
         "side": "p",
         "face": "filth",
-        "name": "Blessed Filth - \"Hide!\"",
+        "name": "Blessed Filth - Insanity Test",
         "result": "Still subject to Insanity",
         "rows": [
          {
@@ -2333,6 +2339,9 @@
            "base": 6,
            "under": true
           }
+         },
+         {
+          "note": "Note: Insanity result \"Hide!\"."
          }
         ],
         "resultClass": "sup"
@@ -2344,7 +2353,7 @@
         "side": "t",
         "face": "wit",
         "name": "Wit - Stub Gun",
-        "result": "Miss",
+        "result": "Missed",
         "resultClass": "ammo",
         "rows": [
          {
@@ -2370,7 +2379,7 @@
         "side": "p",
         "face": "mordecai",
         "name": "Mordecai - Autopistol",
-        "result": "Miss, Out of Ammo",
+        "result": "Missed, Out of Ammo",
         "resultClass": "ammo",
         "rows": [
          {
@@ -2397,7 +2406,7 @@
         "side": "t",
         "face": "jellylorum",
         "name": "Jellylorum - Lasgun",
-        "result": "Miss",
+        "result": "Missed",
         "resultClass": "ammo",
         "rows": [
          {
@@ -2785,7 +2794,7 @@
       "rows": [
        {
         "dice": "1 4",
-        "result": "Passes",
+        "result": "Holds",
         "resultClass": "ammo",
         "check": {
          "name": "Leadership",
@@ -2815,7 +2824,7 @@
         "side": "t",
         "face": "rumpleteaser",
         "name": "Rumpleteaser - Plasma Gun",
-        "result": "Miss, Out of Ammo",
+        "result": "Missed, Out of Ammo",
         "resultClass": "ammo",
         "rows": [
          {
@@ -2964,7 +2973,7 @@
          },
          {
           "dice": "3",
-          "result": "One hit",
+          "result": "Hit",
           "resultClass": "ammo",
           "check": {
            "name": "To Hit",
@@ -3006,7 +3015,7 @@
         "side": "t",
         "face": "jellylorum",
         "name": "Jellylorum - Lasgun",
-        "result": "Miss",
+        "result": "Missed",
         "resultClass": "ammo",
         "rows": [
          {
@@ -3219,7 +3228,7 @@
         "rows": [
          {
           "dice": "4 1",
-          "result": "Perfect Void maintained",
+          "result": "Maintains",
           "resultClass": "ammo",
           "check": {
            "name": "Willpower",
@@ -3236,7 +3245,7 @@
         "side": "t",
         "face": "deuteronomy",
         "name": "Deuteronomy - Flechette Pistol",
-        "result": "Miss",
+        "result": "Missed",
         "resultClass": "ammo",
         "rows": [
          {
@@ -3424,7 +3433,7 @@
         "side": "p",
         "face": "ezekiel",
         "name": "Ezekiel Crows - Reaction",
-        "result": "Miss",
+        "result": "Missed",
         "resultClass": "ammo",
         "rows": [
          {
@@ -3461,7 +3470,7 @@
         "side": "p",
         "face": "filth",
         "name": "Blessed Filth - Long Rifle",
-        "result": "Miss",
+        "result": "Missed",
         "resultClass": "ammo",
         "rows": [
          {
@@ -3486,7 +3495,7 @@
        "roll": {
         "side": "p",
         "face": "filth",
-        "name": "Blessed Filth - \"I'll Get You!\"",
+        "name": "Blessed Filth - Insanity Test",
         "result": "Still subject to Insanity",
         "rows": [
          {
@@ -3498,6 +3507,9 @@
            "base": 6,
            "under": true
           }
+         },
+         {
+          "note": "Note: Insanity result \"I'll Get You!\"."
          }
         ],
         "resultClass": "sup"
@@ -3530,7 +3542,7 @@
         "side": "t",
         "face": "mistoffelees",
         "name": "Mistoffelees - Reaction: Stub Gun",
-        "result": "Miss",
+        "result": "Missed",
         "resultClass": "ammo",
         "rows": [
          {
@@ -3618,7 +3630,7 @@
         "side": "t",
         "face": "wit",
         "name": "Wit - Stub Gun",
-        "result": "Miss",
+        "result": "Missed",
         "resultClass": "ammo",
         "rows": [
          {
@@ -3955,7 +3967,7 @@
       "rows": [
        {
         "dice": "2 5",
-        "result": "Passes",
+        "result": "Holds",
         "resultClass": "ammo",
         "check": {
          "name": "Leadership",
@@ -3974,7 +3986,7 @@
       "rows": [
        {
         "dice": "5 4",
-        "result": "Bottle!",
+        "result": "Bottles",
         "check": {
          "name": "Leadership",
          "base": 8,
