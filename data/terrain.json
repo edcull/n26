@@ -249,6 +249,33 @@
       "class": "m-wall",
       "points": "53.15,-71.05 -90.65,-71.05 -90.65,69.85 -47.75,69.85"
      }
+    ],
+    [
+     "circle",
+     {
+      "class": "m-solid",
+      "cx": "48",
+      "cy": "-71.05",
+      "r": "17"
+     }
+    ],
+    [
+     "circle",
+     {
+      "class": "m-solid",
+      "cx": "-8",
+      "cy": "-71.05",
+      "r": "17"
+     }
+    ],
+    [
+     "circle",
+     {
+      "class": "m-solid",
+      "cx": "-60",
+      "cy": "-71.05",
+      "r": "17"
+     }
     ]
    ],
    "label": "Rendering vats",
@@ -256,7 +283,7 @@
     1.85,
     33.85
    ],
-   "note": "About 7.25\" by 5.6\", origin at its centre. A raised floor along one long side and part of the next, inside thick walls; thin walls round the open floor."
+   "note": "About 7.25\" by 5.6\", origin at its centre. A raised floor along one long side and part of the next, inside thick walls; thin walls round the open floor. Three round vats sit centred in the wall beside the raised floor."
   },
   "bone-yard": {
    "name": "Bone yard",
@@ -629,21 +656,6 @@
       "y": "-21.25",
       "width": "60",
       "height": "42.5"
-     }
-    ]
-   ]
-  },
-  "vat": {
-   "name": "Vat",
-   "note": "A round vat set beside a building, about 1.4\" across. Origin at its centre.",
-   "els": [
-    [
-     "circle",
-     {
-      "class": "m-solid",
-      "cx": "0",
-      "cy": "0",
-      "r": "17"
      }
     ]
    ]
