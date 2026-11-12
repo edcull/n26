@@ -504,7 +504,9 @@
           "result": "Wound",
           "check": {
            "name": "To Wound",
-           "base": 3
+           "base": 3,
+           "s": 4,
+           "t": 3
           }
          },
          {
@@ -586,7 +588,9 @@
           "result": "Wound",
           "check": {
            "name": "To Wound",
-           "base": 4
+           "base": 4,
+           "s": 3,
+           "t": 3
           }
          },
          {
@@ -925,7 +929,9 @@
           "result": "One wound",
           "check": {
            "name": "To Wound",
-           "base": 3
+           "base": 3,
+           "s": 5,
+           "t": 3
           }
          },
          {
@@ -1152,7 +1158,9 @@
           "result": "Wound",
           "check": {
            "name": "To Wound",
-           "base": 3
+           "base": 3,
+           "s": 4,
+           "t": 3
           }
          },
          {
@@ -1221,7 +1229,9 @@
           "result": "Wound",
           "check": {
            "name": "To Wound",
-           "base": 4
+           "base": 4,
+           "s": 3,
+           "t": 3
           }
          },
          {
@@ -1425,7 +1435,9 @@
           "result": "Wound",
           "check": {
            "name": "To Wound",
-           "base": 4
+           "base": 4,
+           "s": 3,
+           "t": 3
           }
          },
          {
@@ -1806,7 +1818,9 @@
           "resultClass": "ammo",
           "check": {
            "name": "To Wound",
-           "base": 3
+           "base": 3,
+           "s": 4,
+           "t": 3
           }
          },
          {
@@ -1985,7 +1999,9 @@
           "resultClass": "ammo",
           "check": {
            "name": "To Wound",
-           "base": 4
+           "base": 4,
+           "s": 3,
+           "t": 3
           }
          }
         ],
@@ -2051,7 +2067,9 @@
           "result": "Two wounds",
           "check": {
            "name": "To Wound",
-           "base": 4
+           "base": 4,
+           "s": 3,
+           "t": 3
           }
          },
          {
@@ -2444,7 +2462,9 @@
           "result": "One wound",
           "check": {
            "name": "To Wound",
-           "base": 3
+           "base": 3,
+           "s": 4,
+           "t": 3
           }
          },
          {
@@ -2493,7 +2513,9 @@
           "result": "Wound",
           "check": {
            "name": "To Wound",
-           "base": 4
+           "base": 4,
+           "s": 4,
+           "t": 4
           }
          },
          {
@@ -2572,7 +2594,9 @@
           "result": "Two wounds",
           "check": {
            "name": "To Wound",
-           "base": 3
+           "base": 3,
+           "s": 4,
+           "t": 3
           }
          },
          {
@@ -2637,7 +2661,9 @@
           "result": "One wound",
           "check": {
            "name": "To Wound",
-           "base": 3
+           "base": 3,
+           "s": 4,
+           "t": 3
           }
          },
          {
@@ -2685,7 +2711,9 @@
           "result": "Two wounds",
           "check": {
            "name": "To Wound",
-           "base": 4
+           "base": 4,
+           "s": 3,
+           "t": 3
           }
          },
          {
@@ -3035,7 +3063,9 @@
           "resultClass": "sup",
           "check": {
            "name": "To Wound",
-           "base": 4
+           "base": 4,
+           "s": 3,
+           "t": 3
           }
          },
          {
@@ -3079,7 +3109,9 @@
           "resultClass": "ammo",
           "check": {
            "name": "To Wound",
-           "base": 3
+           "base": 3,
+           "s": 4,
+           "t": 3
           }
          }
         ],
@@ -3124,7 +3156,9 @@
           "result": "One wound",
           "check": {
            "name": "To Wound",
-           "base": 3
+           "base": 3,
+           "s": 4,
+           "t": 3
           }
          },
          {
@@ -3192,7 +3226,9 @@
           "resultClass": "ammo",
           "check": {
            "name": "To Wound",
-           "base": 4
+           "base": 4,
+           "s": 3,
+           "t": 3
           }
          },
          {
@@ -3245,7 +3281,9 @@
           "result": "Wound",
           "check": {
            "name": "To Wound",
-           "base": 4
+           "base": 4,
+           "s": 3,
+           "t": 3
           }
          },
          {
@@ -3369,7 +3407,9 @@
           "resultClass": "sup",
           "check": {
            "name": "To Wound",
-           "base": 4
+           "base": 4,
+           "s": 3,
+           "t": 3
           }
          }
         ],
