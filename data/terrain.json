@@ -132,23 +132,42 @@
   },
   "tank": {
    "name": "Tank",
+   "note": "3\" by 2.5\": a cylinder lying on its base, origin at its centre; turn 0 lies east to west.",
+   "label": "Tank",
+   "labelAt": [
+    0,
+    48
+   ],
    "els": [
     [
      "rect",
      {
       "class": "m-solid",
-      "height": "59",
-      "rx": "10",
-      "width": "38",
-      "x": "0",
-      "y": "0"
+      "x": "-37.5",
+      "y": "-31.25",
+      "width": "75",
+      "height": "62.5",
+      "rx": "4"
+     }
+    ],
+    [
+     "rect",
+     {
+      "class": "m-top",
+      "x": "-33",
+      "y": "-25",
+      "width": "66",
+      "height": "50",
+      "rx": "7"
+     }
+    ],
+    [
+     "path",
+     {
+      "class": "m-seam",
+      "d": "M-24 -25V25M24 -25V25"
      }
     ]
-   ],
-   "label": "Tank",
-   "labelAt": [
-    19.0,
-    73.4
    ]
   },
   "ruin-west": {
@@ -467,23 +486,6 @@
     90.0
    ]
   },
-  "v1-tank": {
-   "name": "Tank",
-   "els": [
-    [
-     "polygon",
-     {
-      "class": "m-solid",
-      "points": "0,0 50,0 50,32.5 0,32.5"
-     }
-    ]
-   ],
-   "label": "Tank",
-   "labelAt": [
-    25.0,
-    52.5
-   ]
-  },
   "v1-gothic-ruin-west": {
    "name": "Gothic ruin",
    "els": [
@@ -581,23 +583,6 @@
    "labelAt": [
     102.5,
     45.0
-   ]
-  },
-  "v1-still": {
-   "name": "Still",
-   "els": [
-    [
-     "polygon",
-     {
-      "class": "m-solid",
-      "points": "45,35 0,35 0,0 45,0"
-     }
-    ]
-   ],
-   "label": "Still",
-   "labelAt": [
-    22.5,
-    -15.0
    ]
   },
   "v1-stairs-b": {

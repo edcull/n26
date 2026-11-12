@@ -698,17 +698,14 @@
     558.2
    ]
   },
-  [
-   "rect",
-   {
-    "class": "m-solid",
-    "height": "40",
-    "rx": "11.2",
-    "width": "60",
-    "x": "270",
-    "y": "467.5"
-   }
-  ],
+  {
+   "piece": "tank",
+   "at": [
+    300,
+    487.5
+   ],
+   "label": false
+  },
   {
    "piece": "ladder",
    "at": [
