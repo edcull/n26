@@ -52,14 +52,16 @@ export function weaponNumbers(f, key) {
   const leth = +(plain(w.profile?.[4]).match(/^\d+$/) ? plain(w.profile[4]) : 1);
   return { dmg, leth };
 }
-function damageNote(r, fighters) {
-  const f = fighters?.[r.by];
-  const parts = (r.weapons || []).map(k => {
-    const { dmg, leth } = weaponNumbers(f, k);
-    const bits = [dmg > 1 ? `Damage (${dmg})` : '', leth > 1 ? `Lethality (${leth})` : ''].filter(Boolean).join(', ');
-    return bits && (r.weapons.length > 1 ? `${weaponLabel(k)}: ${bits}` : bits);
-  }).filter(Boolean);
-  return parts.length ? `<p class="roll-note">Note: ${parts.join('; ')}</p>` : '';
+function weaponNote(f, k) {
+  const { dmg, leth } = weaponNumbers(f, k);
+  const bits = [dmg > 1 ? `Damage (${dmg})` : '', leth > 1 ? `Lethality (${leth})` : ''].filter(Boolean).join(', ');
+  return bits ? `<p class="roll-note">Note: ${bits}</p>` : '';
+}
+// Which of the callout's weapons a section heading (h6) is about, e.g. "Autopistol (secondary)" -> "Autopistol".
+const ACTION_WORDS = /^(Overwatch|Reaction|Counter-attack|Charge|Coup de Grâce):\s*|\s*\(secondary\)$/g;
+function sectionWeapon(r, h6) {
+  const t = plain(h6).replace(ACTION_WORDS, '').toLowerCase();
+  return (r.weapons || []).find(k => weaponLabel(k).toLowerCase() === t || wkey(k).split('/').includes(t));
 }
 function rollTitle(r, fighters) {
   if (!r.by) return md(r.name);
@@ -73,15 +75,23 @@ export function roll(r, ctx = {}) {
   let n = r.n;
   if (n === undefined) n = Math.max(0, ...r.rows.filter(x => x.dice != null).map(x => (typeof x.dice === 'string' ? diceList(x.dice) : x.dice).length));
   const face = r.face ? `<span class="r-face ${r.side} face-${r.face}" aria-hidden="true"></span>` : '';
-  const body = join(r.rows, it => {
-    if (it.html != null) return it.html;
-    if (it.note != null) return `<p class="roll-note">${md(it.note)}</p>`;
-    if (it.h6 != null) return `<h6>${md(it.h6)}</h6>`;
+  // With several weapons each section (h6) ends with its own weapon's Damage/Lethality note;
+  // with one weapon the note goes at the bottom.
+  const f = ctx.fighters?.[r.by];
+  const perSection = r.by && r.weapons.length > 1 && r.rows.some(it => it.h6 != null && sectionWeapon(r, it.h6));
+  let current = null, body = '';
+  const close = () => { if (perSection && current) body += weaponNote(f, current); current = null; };
+  for (const it of r.rows) {
+    if (it.h6 != null) { close(); current = sectionWeapon(r, it.h6); body += `<h6>${md(it.h6)}</h6>`; continue; }
+    if (it.html != null) { body += it.html; continue; }
+    if (it.note != null) { body += `<p class="roll-note">${md(it.note)}</p>`; continue; }
     const dice = typeof it.dice === 'string' ? join(diceList(it.dice), die) : join(it.dice, d => (typeof d === 'string' ? die(d) : d.html));
     const tag = it.resultTag ?? 'strong';
-    return `<div class="roll-row"><span>${it.check ? checkLabel(it.check) : md(it.label)}</span><div class="dice">${dice}</div><${tag}${it.resultClass ? ` class="${it.resultClass}"` : ''}>${md(it.result)}</${tag}></div>`;
-  });
-  return `<details class="roll"${n !== null ? ` style="--n:${n}"` : ''}><summary>${face}<span class="r-name">${rollTitle(r, ctx.fighters)}</span><span class="r-res ${r.resultClass ?? ''}">${md(r.result)}</span></summary><div class="roll-body">${body}${r.by ? damageNote(r, ctx.fighters) : ''}</div></details>`;
+    body += `<div class="roll-row"><span>${it.check ? checkLabel(it.check) : md(it.label)}</span><div class="dice">${dice}</div><${tag}${it.resultClass ? ` class="${it.resultClass}"` : ''}>${md(it.result)}</${tag}></div>`;
+  }
+  close();
+  if (r.by && !perSection) body += join(r.weapons.length > 1 ? r.weapons : r.weapons.slice(0, 1), k => weaponNote(f, k));
+  return `<details class="roll"${n !== null ? ` style="--n:${n}"` : ''}><summary>${face}<span class="r-name">${rollTitle(r, ctx.fighters)}</span><span class="r-res ${r.resultClass ?? ''}">${md(r.result)}</span></summary><div class="roll-body">${body}</div></details>`;
 }
 
 export function textItems(items, ctx = {}) {

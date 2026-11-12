@@ -122,7 +122,7 @@ An attack names who made it, with what, and at whom:
 - **`weapons`** are the names on the attacker's card, or `"Unarmed"`. List two for a fight with a secondary weapon.
 - **`target`** is a fighter id, or a list for a weapon that hits several. Leave it out if the narrative never says who was aimed at.
 - **`action`** adds a word before the weapon: `Overwatch`, `Reaction`, `Counter-attack`, `Charge`.
-- **The damage note** ("Note: Damage (2), Lethality (2)") is added automatically for any weapon whose Damage or Lethality is above 1.
+- **The damage note** ("Note: Damage (2), Lethality (2)") is added automatically for any weapon whose Damage or Lethality is above 1. With two weapons, each weapon section (its `h6` heading) ends with its own note.
 - **Unsaved wounds** are given as damage on the save row: unsaved wounds × the weapon's Damage, e.g. `Two damage` for one unsaved plasma wound.
 
 Other callouts (tests, recovery, powers) keep a plain `name` such as `"Wit - Nerve"`.
