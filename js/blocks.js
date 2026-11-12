@@ -2,7 +2,7 @@
 // callouts, maps, ledgers.
 import { esc, attr, md, cls, join } from './lib.js';
 import { die, diceList } from './dice.js';
-import { renderMap } from './map.js';
+import { renderMap, mapCaption } from './map.js';
 
 export const raw = b => b.html;
 
@@ -47,7 +47,7 @@ export function block(b, ctx = {}) {
   if (b.text) return `<div class="round-text">${textItems(b.text)}</div>`;
   if (b.ends) return `<div class="${cls('ends', b.class)}">${join(b.ends, photo)}</div>`;
   if (b.photo) return photo(b.photo);
-  if (b.map) return `<figure class="map">${renderMap(b.map, ctx)}${b.map.caption != null ? `<figcaption>${md(b.map.caption)}</figcaption>` : ''}</figure>`;
+  if (b.map) return `<figure class="map">${renderMap(b.map, ctx)}${b.map.caption != null ? `<figcaption>${mapCaption(b.map.caption)}</figcaption>` : ''}</figure>`;
   if (b.vp != null) return `<p class="vp">${md(b.vp)}</p>`;
   if (b.todo != null) return `<p class="todo">${md(b.todo)}</p>`;
   if (b.endsHead != null) return `<h4 class="ends-head">${md(b.endsHead)}</h4>`;

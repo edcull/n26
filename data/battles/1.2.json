@@ -310,7 +310,132 @@
     },
     {
      "map": {
-      "svg": "<svg aria-label=\"Top-down map of the Cycle 1.2 table with terrain, both deployment edges and the 6 inch objective circle at the centre.\" role=\"img\" viewbox=\"-14 -24 628 668\"><text class=\"m-edge p\" x=\"300\" y=\"-8\">The Carrion Psalm edge</text><text class=\"m-edge t\" x=\"300\" y=\"638\">The Midnight Theatre edge</text><rect class=\"m-mat\" height=\"600\" width=\"600\" x=\"0\" y=\"0\"></rect><rect class=\"svg-p\" height=\"75\" width=\"600\" x=\"0\" y=\"0\"></rect><rect class=\"svg-t\" height=\"75\" width=\"600\" x=\"0\" y=\"525\"></rect><g transform=\"rotate(180 300 300)\"><path class=\"m-grid\" d=\"M150 0V600M0 150H600M300 0V600M0 300H600M450 0V600M0 450H600\"></path><polygon class=\"m-solid\" points=\"42.5,132.5 230,132.5 230,205 42.5,205\"></polygon><polyline class=\"m-wall\" points=\"42.5,205 42.5,25 230,25 230,205 42.5,205\"></polyline><polygon class=\"m-rubble\" points=\"190,27.5 227.5,27.5 227.5,75 190,75\"></polygon><polyline class=\"m-run\" points=\"140,110 140,132.5\"></polyline><polygon class=\"m-solid\" points=\"275,60 380,60 380,115 275,115\"></polygon><polygon class=\"m-top\" points=\"292.731,9.94683 392.404,50.217 372.269,100.053 272.596,59.783\"></polygon><polyline class=\"m-run\" points=\"332.5,85 310,142.5\"></polyline><polyline class=\"m-plank\" points=\"275,175 375,175\"></polyline><polygon class=\"m-solid\" points=\"517.5,5 592.5,5 592.5,150 567.5,165 567.5,215 412.5,215 412.5,122.5 510,122.5 510,100\"></polygon><polygon class=\"m-rubble\" points=\"262.5,262.5 340,262.5 340,300 262.5,300\"></polygon><polyline class=\"m-wall\" points=\"255,305 255,255 375,255\"></polyline><polygon class=\"m-solid\" points=\"315,317.5 360,317.5 360,352.5 315,352.5\"></polygon><polygon class=\"m-solid\" points=\"267.5,360 287.5,360 287.5,380 267.5,380\"></polygon><polygon class=\"m-rubble\" points=\"245,430 310,430 310,445 245,445\"></polygon><polyline class=\"m-wall\" points=\"402.5,300 402.5,395 380,395\"></polyline><polyline class=\"m-wall\" points=\"130,250 132.5,312.5 197.5,312.5\"></polyline><polyline class=\"m-wall\" points=\"62.5,305 62.5,370\"></polyline><polyline class=\"m-wall\" points=\"500,247.5 500,292.5\"></polyline><polyline class=\"m-plank\" points=\"455,330 550,335\"></polyline><polygon class=\"m-solid\" points=\"50,390 200,390 200,520 170,500 140,457.5 50,457.5\"></polygon><polyline class=\"m-wall\" points=\"200,570 50,570 50,390 200,390 200,570\"></polyline><circle class=\"m-solid\" cx=\"207\" cy=\"420\" r=\"17\"></circle><circle class=\"m-solid\" cx=\"207\" cy=\"472\" r=\"17\"></circle><circle class=\"m-solid\" cx=\"207\" cy=\"528\" r=\"17\"></circle><polygon class=\"m-solid\" points=\"278.352,503.26 367.003,433.998 431.648,516.74 342.997,586.002\"></polygon><polyline class=\"m-div\" points=\"380.427,556.758 315.783,474.016\"></polyline><polyline class=\"m-div\" points=\"340.409,505.537 391.63,465.519\"></polyline><polyline class=\"m-run\" points=\"495,352.5 495,376.25\"></polyline><polygon class=\"m-plat\" points=\"597.5,465 546.25,553.768 443.75,553.768 392.5,465 443.75,376.232 546.25,376.232\"></polygon><circle class=\"m-tower\" cx=\"495\" cy=\"465\" r=\"58\"></circle><circle class=\"m-turf\" cx=\"300\" cy=\"300\" r=\"150\"></circle><circle class=\"m-centre\" cx=\"300\" cy=\"300\" r=\"6\"></circle></g><text class=\"m-lab\" x=\"487.5\" y=\"432.5\">Ruined tower</text><text class=\"m-lab\" x=\"272.5\" y=\"545\">Containers</text><text class=\"m-lab\" x=\"110\" y=\"430\">Gothic ruin</text><text class=\"m-lab\" x=\"262.5\" y=\"232.5\">Still</text><text class=\"m-lab\" x=\"495\" y=\"175\">Ruined stills</text><text class=\"m-lab\" x=\"272.5\" y=\"77.5\">Stairs</text><text class=\"m-lab\" x=\"105\" y=\"135\">Sealed vent</text><text class=\"m-c\" x=\"532.5\" y=\"335\">6\" from centre</text><circle class=\"tok-t\" cx=\"467.5\" cy=\"535\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"467.5\" y=\"540.5\">Dm</text><circle class=\"tok-t\" cx=\"342.5\" cy=\"537.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"342.5\" y=\"543\">S</text><circle class=\"tok-t\" cx=\"345\" cy=\"567.5\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"345\" y=\"573\">Mi</text><circle class=\"tok-t\" cx=\"151.25\" cy=\"535\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"151.25\" y=\"540.5\">De</text><circle class=\"tok-t\" cx=\"140\" cy=\"567.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"140\" y=\"573\">J</text><circle class=\"tok-t\" cx=\"172.5\" cy=\"570\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"172.5\" y=\"575.5\">Rt</text><circle class=\"tok-p\" cx=\"130\" cy=\"15\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"130\" y=\"20.5\">M</text><circle class=\"tok-p\" cx=\"100\" cy=\"30\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"100\" y=\"35.5\">G</text><circle class=\"tok-p\" cx=\"155\" cy=\"27.5\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"155\" y=\"33\">El</text><circle class=\"tok-p\" cx=\"130\" cy=\"45\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"130\" y=\"50.5\">Ez</text><circle class=\"tok-p\" cx=\"72.5\" cy=\"65\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"72.5\" y=\"70.5\">R</text><circle class=\"tok-p\" cx=\"100\" cy=\"62.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"100\" y=\"68\">B</text><circle class=\"tok-p\" cx=\"317.5\" cy=\"55\" r=\"19\"></circle><text class=\"tok-n two\" x=\"317.5\" y=\"60.5\">DA</text><text class=\"m-tick\" x=\"0\" y=\"618\">0\"</text><text class=\"m-tick\" x=\"150\" y=\"618\">6\"</text><text class=\"m-tick\" x=\"300\" y=\"618\">12\"</text><text class=\"m-tick\" x=\"450\" y=\"618\">18\"</text><text class=\"m-tick\" x=\"600\" y=\"618\">24\"</text></svg>"
+      "viewBox": "-14 -24 628 668",
+      "label": "Top-down map of the Cycle 1.2 table with terrain, both deployment edges and the 6 inch objective circle at the centre.",
+      "items": [
+       {
+        "board": "terrain"
+       },
+       {
+        "el": [
+         "text",
+         {
+          "class": "m-c",
+          "x": "532.5",
+          "y": "335"
+         },
+         "6\" from centre"
+        ]
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 467.5,
+         "y": 535,
+         "t": "Dm"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 342.5,
+         "y": 537.5,
+         "t": "S"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 345,
+         "y": 567.5,
+         "t": "Mi"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 151.25,
+         "y": 535,
+         "t": "De"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 140,
+         "y": 567.5,
+         "t": "J"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 172.5,
+         "y": 570,
+         "t": "Rt"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 130,
+         "y": 15,
+         "t": "M"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 100,
+         "y": 30,
+         "t": "G"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 155,
+         "y": 27.5,
+         "t": "El"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 130,
+         "y": 45,
+         "t": "Ez"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 72.5,
+         "y": 65,
+         "t": "R"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 100,
+         "y": 62.5,
+         "t": "B"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 317.5,
+         "y": 55,
+         "t": "DA",
+         "r": 19
+        }
+       },
+       {
+        "board": "ticks"
+       }
+      ]
      }
     }
    ]
@@ -497,8 +622,201 @@
     },
     {
      "map": {
-      "svg": "<svg aria-label=\"Top-down map of the Cycle 1.2 table with terrain, both deployment edges and the 6 inch objective circle at the centre.\" role=\"img\" viewbox=\"-14 -24 628 668\"><text class=\"m-edge p\" x=\"300\" y=\"-8\">The Carrion Psalm edge</text><text class=\"m-edge t\" x=\"300\" y=\"638\">The Midnight Theatre edge</text><rect class=\"m-mat\" height=\"600\" width=\"600\" x=\"0\" y=\"0\"></rect><rect class=\"svg-p\" height=\"75\" width=\"600\" x=\"0\" y=\"0\"></rect><rect class=\"svg-t\" height=\"75\" width=\"600\" x=\"0\" y=\"525\"></rect><g transform=\"rotate(180 300 300)\"><path class=\"m-grid\" d=\"M150 0V600M0 150H600M300 0V600M0 300H600M450 0V600M0 450H600\"></path><polygon class=\"m-solid\" points=\"42.5,132.5 230,132.5 230,205 42.5,205\"></polygon><polyline class=\"m-wall\" points=\"42.5,205 42.5,25 230,25 230,205 42.5,205\"></polyline><polygon class=\"m-rubble\" points=\"190,27.5 227.5,27.5 227.5,75 190,75\"></polygon><polyline class=\"m-run\" points=\"140,110 140,132.5\"></polyline><polygon class=\"m-solid\" points=\"275,60 380,60 380,115 275,115\"></polygon><polygon class=\"m-top\" points=\"292.731,9.94683 392.404,50.217 372.269,100.053 272.596,59.783\"></polygon><polyline class=\"m-run\" points=\"332.5,85 310,142.5\"></polyline><polyline class=\"m-plank\" points=\"275,175 375,175\"></polyline><polygon class=\"m-solid\" points=\"517.5,5 592.5,5 592.5,150 567.5,165 567.5,215 412.5,215 412.5,122.5 510,122.5 510,100\"></polygon><polygon class=\"m-rubble\" points=\"262.5,262.5 340,262.5 340,300 262.5,300\"></polygon><polyline class=\"m-wall\" points=\"255,305 255,255 375,255\"></polyline><polygon class=\"m-solid\" points=\"315,317.5 360,317.5 360,352.5 315,352.5\"></polygon><polygon class=\"m-solid\" points=\"267.5,360 287.5,360 287.5,380 267.5,380\"></polygon><polygon class=\"m-rubble\" points=\"245,430 310,430 310,445 245,445\"></polygon><polyline class=\"m-wall\" points=\"402.5,300 402.5,395 380,395\"></polyline><polyline class=\"m-wall\" points=\"130,250 132.5,312.5 197.5,312.5\"></polyline><polyline class=\"m-wall\" points=\"62.5,305 62.5,370\"></polyline><polyline class=\"m-wall\" points=\"500,247.5 500,292.5\"></polyline><polyline class=\"m-plank\" points=\"455,330 550,335\"></polyline><polygon class=\"m-solid\" points=\"50,390 200,390 200,520 170,500 140,457.5 50,457.5\"></polygon><polyline class=\"m-wall\" points=\"200,570 50,570 50,390 200,390 200,570\"></polyline><circle class=\"m-solid\" cx=\"207\" cy=\"420\" r=\"17\"></circle><circle class=\"m-solid\" cx=\"207\" cy=\"472\" r=\"17\"></circle><circle class=\"m-solid\" cx=\"207\" cy=\"528\" r=\"17\"></circle><polygon class=\"m-solid\" points=\"278.352,503.26 367.003,433.998 431.648,516.74 342.997,586.002\"></polygon><polyline class=\"m-div\" points=\"380.427,556.758 315.783,474.016\"></polyline><polyline class=\"m-div\" points=\"340.409,505.537 391.63,465.519\"></polyline><polyline class=\"m-run\" points=\"495,352.5 495,376.25\"></polyline><polygon class=\"m-plat\" points=\"597.5,465 546.25,553.768 443.75,553.768 392.5,465 443.75,376.232 546.25,376.232\"></polygon><circle class=\"m-tower\" cx=\"495\" cy=\"465\" r=\"58\"></circle><circle class=\"m-turf\" cx=\"300\" cy=\"300\" r=\"150\"></circle><circle class=\"m-centre\" cx=\"300\" cy=\"300\" r=\"6\"></circle></g><text class=\"m-lab\" x=\"487.5\" y=\"432.5\">Ruined tower</text><text class=\"m-lab\" x=\"272.5\" y=\"545\">Containers</text><text class=\"m-lab\" x=\"110\" y=\"430\">Gothic ruin</text><text class=\"m-lab\" x=\"262.5\" y=\"232.5\">Still</text><text class=\"m-lab\" x=\"495\" y=\"175\">Ruined stills</text><text class=\"m-lab\" x=\"272.5\" y=\"77.5\">Stairs</text><text class=\"m-lab\" x=\"105\" y=\"135\">Sealed vent</text><text class=\"m-c\" x=\"532.5\" y=\"335\">6\" from centre</text><circle class=\"tok-t\" cx=\"430\" cy=\"417.5\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"430\" y=\"423\">Dm</text><circle class=\"tok-t\" cx=\"335\" cy=\"357.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"335\" y=\"363\">S</text><circle class=\"tok-t\" cx=\"310\" cy=\"360\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"310\" y=\"365.5\">Mi</text><circle class=\"tok-t\" cx=\"260\" cy=\"357.5\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"260\" y=\"363\">De</text><circle class=\"tok-t\" cx=\"237.5\" cy=\"440\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"237.5\" y=\"445.5\">J</text><circle class=\"tok-t\" cx=\"225\" cy=\"360\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"225\" y=\"365.5\">Rt</text><circle class=\"tok-p\" cx=\"203.75\" cy=\"187.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"203.75\" y=\"193\">M</text><circle class=\"tok-p\" cx=\"220\" cy=\"147.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"220\" y=\"153\">G</text><circle class=\"tok-p\" cx=\"287.5\" cy=\"145\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"287.5\" y=\"150.5\">El</text><circle class=\"tok-p\" cx=\"245\" cy=\"207.5\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"245\" y=\"213\">Ez</text><circle class=\"tok-p\" cx=\"105\" cy=\"165\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"105\" y=\"170.5\">R</text><circle class=\"tok-p\" cx=\"172.5\" cy=\"125\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"172.5\" y=\"130.5\">B</text><circle class=\"tok-p\" cx=\"365\" cy=\"97.5\" r=\"19\"></circle><text class=\"tok-n two\" x=\"365\" y=\"103\">DA</text><circle class=\"b-s\" cx=\"446.2\" cy=\"410.9\" r=\"8.5\"></circle><text class=\"b-t\" x=\"446.2\" y=\"414.7\">S</text><circle class=\"b-a\" cx=\"207.5\" cy=\"361.2\" r=\"8.5\"></circle><text class=\"b-t\" x=\"207.5\" y=\"365.0\">A</text><circle class=\"b-w\" cx=\"168.7\" cy=\"107.9\" r=\"8.5\"></circle><text class=\"b-t\" x=\"168.7\" y=\"111.7\">W</text><circle class=\"b-i\" cx=\"184.3\" cy=\"112.1\" r=\"8.5\"></circle><text class=\"b-t\" x=\"184.3\" y=\"115.9\">SI</text><text class=\"m-tick\" x=\"0\" y=\"618\">0\"</text><text class=\"m-tick\" x=\"150\" y=\"618\">6\"</text><text class=\"m-tick\" x=\"300\" y=\"618\">12\"</text><text class=\"m-tick\" x=\"450\" y=\"618\">18\"</text><text class=\"m-tick\" x=\"600\" y=\"618\">24\"</text><circle class=\"b-v\" cx=\"272.4\" cy=\"348.7\" r=\"8.5\"></circle><text class=\"b-t\" x=\"272.4\" y=\"352.5\">V</text></svg>",
-      "caption": "<ul class=\"b-key\"><li><span class=\"b b-s\">S</span>Suppressed</li><li><span class=\"b b-w\">W</span>Wounded</li><li><span class=\"b b-a\">A</span>Out of ammo</li><li><span class=\"b b-i\">SI</span>Serious Injury</li><li><span class=\"b b-v\">V</span>Perfect Void</li></ul>"
+      "viewBox": "-14 -24 628 668",
+      "label": "Top-down map of the Cycle 1.2 table with terrain, both deployment edges and the 6 inch objective circle at the centre.",
+      "caption": {
+       "key": [
+        [
+         "s",
+         "S",
+         "Suppressed"
+        ],
+        [
+         "w",
+         "W",
+         "Wounded"
+        ],
+        [
+         "a",
+         "A",
+         "Out of ammo"
+        ],
+        [
+         "i",
+         "SI",
+         "Serious Injury"
+        ],
+        [
+         "v",
+         "V",
+         "Perfect Void"
+        ]
+       ]
+      },
+      "items": [
+       {
+        "board": "terrain"
+       },
+       {
+        "el": [
+         "text",
+         {
+          "class": "m-c",
+          "x": "532.5",
+          "y": "335"
+         },
+         "6\" from centre"
+        ]
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 430,
+         "y": 417.5,
+         "t": "Dm"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 335,
+         "y": 357.5,
+         "t": "S"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 310,
+         "y": 360,
+         "t": "Mi"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 260,
+         "y": 357.5,
+         "t": "De"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 237.5,
+         "y": 440,
+         "t": "J"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 225,
+         "y": 360,
+         "t": "Rt"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 203.75,
+         "y": 187.5,
+         "t": "M"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 220,
+         "y": 147.5,
+         "t": "G"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 287.5,
+         "y": 145,
+         "t": "El"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 245,
+         "y": 207.5,
+         "t": "Ez"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 105,
+         "y": 165,
+         "t": "R"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 172.5,
+         "y": 125,
+         "t": "B"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 365,
+         "y": 97.5,
+         "t": "DA",
+         "r": 19
+        }
+       },
+       {
+        "b": {
+         "k": "s",
+         "x": 446.2,
+         "y": 410.9,
+         "t": "S"
+        }
+       },
+       {
+        "b": {
+         "k": "a",
+         "x": 207.5,
+         "y": 361.2,
+         "t": "A"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 168.7,
+         "y": 107.9,
+         "t": "W"
+        }
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 184.3,
+         "y": 112.1,
+         "t": "SI"
+        }
+       },
+       {
+        "board": "ticks"
+       },
+       {
+        "b": {
+         "k": "v",
+         "x": 272.4,
+         "y": 348.7,
+         "t": "V"
+        }
+       }
+      ]
      }
     },
     {
@@ -916,8 +1234,215 @@
     },
     {
      "map": {
-      "svg": "<svg aria-label=\"Top-down map of the Cycle 1.2 table with terrain, both deployment edges and the 6 inch objective circle at the centre.\" role=\"img\" viewbox=\"-14 -24 628 668\"><text class=\"m-edge p\" x=\"300\" y=\"-8\">The Carrion Psalm edge</text><text class=\"m-edge t\" x=\"300\" y=\"638\">The Midnight Theatre edge</text><rect class=\"m-mat\" height=\"600\" width=\"600\" x=\"0\" y=\"0\"></rect><rect class=\"svg-p\" height=\"75\" width=\"600\" x=\"0\" y=\"0\"></rect><rect class=\"svg-t\" height=\"75\" width=\"600\" x=\"0\" y=\"525\"></rect><g transform=\"rotate(180 300 300)\"><path class=\"m-grid\" d=\"M150 0V600M0 150H600M300 0V600M0 300H600M450 0V600M0 450H600\"></path><polygon class=\"m-solid\" points=\"42.5,132.5 230,132.5 230,205 42.5,205\"></polygon><polyline class=\"m-wall\" points=\"42.5,205 42.5,25 230,25 230,205 42.5,205\"></polyline><polygon class=\"m-rubble\" points=\"190,27.5 227.5,27.5 227.5,75 190,75\"></polygon><polyline class=\"m-run\" points=\"140,110 140,132.5\"></polyline><polygon class=\"m-solid\" points=\"275,60 380,60 380,115 275,115\"></polygon><polygon class=\"m-top\" points=\"292.731,9.94683 392.404,50.217 372.269,100.053 272.596,59.783\"></polygon><polyline class=\"m-run\" points=\"332.5,85 310,142.5\"></polyline><polyline class=\"m-plank\" points=\"275,175 375,175\"></polyline><polygon class=\"m-solid\" points=\"517.5,5 592.5,5 592.5,150 567.5,165 567.5,215 412.5,215 412.5,122.5 510,122.5 510,100\"></polygon><polygon class=\"m-rubble\" points=\"262.5,262.5 340,262.5 340,300 262.5,300\"></polygon><polyline class=\"m-wall\" points=\"255,305 255,255 375,255\"></polyline><polygon class=\"m-solid\" points=\"315,317.5 360,317.5 360,352.5 315,352.5\"></polygon><polygon class=\"m-solid\" points=\"267.5,360 287.5,360 287.5,380 267.5,380\"></polygon><polygon class=\"m-rubble\" points=\"245,430 310,430 310,445 245,445\"></polygon><polyline class=\"m-wall\" points=\"402.5,300 402.5,395 380,395\"></polyline><polyline class=\"m-wall\" points=\"130,250 132.5,312.5 197.5,312.5\"></polyline><polyline class=\"m-wall\" points=\"62.5,305 62.5,370\"></polyline><polyline class=\"m-wall\" points=\"500,247.5 500,292.5\"></polyline><polyline class=\"m-plank\" points=\"455,330 550,335\"></polyline><polygon class=\"m-solid\" points=\"50,390 200,390 200,520 170,500 140,457.5 50,457.5\"></polygon><polyline class=\"m-wall\" points=\"200,570 50,570 50,390 200,390 200,570\"></polyline><circle class=\"m-solid\" cx=\"207\" cy=\"420\" r=\"17\"></circle><circle class=\"m-solid\" cx=\"207\" cy=\"472\" r=\"17\"></circle><circle class=\"m-solid\" cx=\"207\" cy=\"528\" r=\"17\"></circle><polygon class=\"m-solid\" points=\"278.352,503.26 367.003,433.998 431.648,516.74 342.997,586.002\"></polygon><polyline class=\"m-div\" points=\"380.427,556.758 315.783,474.016\"></polyline><polyline class=\"m-div\" points=\"340.409,505.537 391.63,465.519\"></polyline><polyline class=\"m-run\" points=\"495,352.5 495,376.25\"></polyline><polygon class=\"m-plat\" points=\"597.5,465 546.25,553.768 443.75,553.768 392.5,465 443.75,376.232 546.25,376.232\"></polygon><circle class=\"m-tower\" cx=\"495\" cy=\"465\" r=\"58\"></circle><circle class=\"m-turf\" cx=\"300\" cy=\"300\" r=\"150\"></circle><circle class=\"m-centre\" cx=\"300\" cy=\"300\" r=\"6\"></circle></g><text class=\"m-lab\" x=\"487.5\" y=\"432.5\">Ruined tower</text><text class=\"m-lab\" x=\"272.5\" y=\"545\">Containers</text><text class=\"m-lab\" x=\"110\" y=\"430\">Gothic ruin</text><text class=\"m-lab\" x=\"262.5\" y=\"232.5\">Still</text><text class=\"m-lab\" x=\"495\" y=\"175\">Ruined stills</text><text class=\"m-lab\" x=\"272.5\" y=\"77.5\">Stairs</text><text class=\"m-lab\" x=\"105\" y=\"135\">Sealed vent</text><text class=\"m-c\" x=\"532.5\" y=\"335\">6\" from centre</text><circle class=\"tok-t\" cx=\"435\" cy=\"407.5\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"435\" y=\"413\">Dm</text><circle class=\"tok-t\" cx=\"408.75\" cy=\"300\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"408.75\" y=\"305.5\">S</text><circle class=\"tok-t\" cx=\"367.5\" cy=\"332.5\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"367.5\" y=\"338\">Mi</text><circle class=\"tok-t\" cx=\"347.5\" cy=\"390\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"347.5\" y=\"395.5\">De</text><circle class=\"tok-t\" cx=\"337.5\" cy=\"436.25\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"337.5\" y=\"441.75\">J</text><circle class=\"tok-t\" cx=\"236.25\" cy=\"357.5\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"236.25\" y=\"363\">Rt</text><circle class=\"tok-p\" cx=\"300\" cy=\"220\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"300\" y=\"225.5\">M</text><circle class=\"tok-p\" cx=\"222.5\" cy=\"155\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"222.5\" y=\"160.5\">G</text><circle class=\"tok-p\" cx=\"252.5\" cy=\"165\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"252.5\" y=\"170.5\">Ez</text><circle class=\"tok-p\" cx=\"162.5\" cy=\"152.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"162.5\" y=\"158\">R</text><circle class=\"tok-p\" cx=\"172.5\" cy=\"125\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"172.5\" y=\"130.5\">B</text><circle class=\"tok-p\" cx=\"367.5\" cy=\"160\" r=\"19\"></circle><text class=\"tok-n two\" x=\"367.5\" y=\"165.5\">DA</text><text aria-label=\"Out of Action\" class=\"ooa-e\" x=\"385\" y=\"264.5\">💀</text><circle class=\"b-w\" cx=\"415.9\" cy=\"284.0\" r=\"8.5\"></circle><text class=\"b-t\" x=\"415.9\" y=\"287.8\">W</text><circle class=\"b-i\" cx=\"425.9\" cy=\"296.7\" r=\"8.5\"></circle><text class=\"b-t\" x=\"425.9\" y=\"300.5\">SI</text><circle class=\"b-a\" cx=\"252.5\" cy=\"350.9\" r=\"8.5\"></circle><text class=\"b-t\" x=\"252.5\" y=\"354.7\">A</text><circle class=\"b-w\" cx=\"269.1\" cy=\"170.5\" r=\"8.5\"></circle><text class=\"b-t\" x=\"269.1\" y=\"174.3\">W</text><circle class=\"b-w\" cx=\"168.7\" cy=\"107.9\" r=\"8.5\"></circle><text class=\"b-t\" x=\"168.7\" y=\"111.7\">W</text><circle class=\"b-i\" cx=\"184.3\" cy=\"112.1\" r=\"8.5\"></circle><text class=\"b-t\" x=\"184.3\" y=\"115.9\">SI</text><text class=\"m-tick\" x=\"0\" y=\"618\">0\"</text><text class=\"m-tick\" x=\"150\" y=\"618\">6\"</text><text class=\"m-tick\" x=\"300\" y=\"618\">12\"</text><text class=\"m-tick\" x=\"450\" y=\"618\">18\"</text><text class=\"m-tick\" x=\"600\" y=\"618\">24\"</text><circle class=\"b-v\" cx=\"359.9\" cy=\"381.2\" r=\"8.5\"></circle><text class=\"b-t\" x=\"359.9\" y=\"385.0\">V</text></svg>",
-      "caption": "<ul class=\"b-key\"><li><span class=\"b b-w\">W</span>Wounded</li><li><span class=\"b b-a\">A</span>Out of ammo</li><li><span class=\"b b-i\">SI</span>Serious Injury</li><li><span aria-hidden=\"true\" class=\"ooa-k\">💀</span>Out of Action</li><li><span class=\"b b-v\">V</span>Perfect Void</li></ul>"
+      "viewBox": "-14 -24 628 668",
+      "label": "Top-down map of the Cycle 1.2 table with terrain, both deployment edges and the 6 inch objective circle at the centre.",
+      "caption": {
+       "key": [
+        [
+         "w",
+         "W",
+         "Wounded"
+        ],
+        [
+         "a",
+         "A",
+         "Out of ammo"
+        ],
+        [
+         "i",
+         "SI",
+         "Serious Injury"
+        ],
+        [
+         "ooa",
+         "💀",
+         "Out of Action"
+        ],
+        [
+         "v",
+         "V",
+         "Perfect Void"
+        ]
+       ]
+      },
+      "items": [
+       {
+        "board": "terrain"
+       },
+       {
+        "el": [
+         "text",
+         {
+          "class": "m-c",
+          "x": "532.5",
+          "y": "335"
+         },
+         "6\" from centre"
+        ]
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 435,
+         "y": 407.5,
+         "t": "Dm"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 408.75,
+         "y": 300,
+         "t": "S"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 367.5,
+         "y": 332.5,
+         "t": "Mi"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 347.5,
+         "y": 390,
+         "t": "De"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 337.5,
+         "y": 436.25,
+         "t": "J"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 236.25,
+         "y": 357.5,
+         "t": "Rt"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 300,
+         "y": 220,
+         "t": "M"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 222.5,
+         "y": 155,
+         "t": "G"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 252.5,
+         "y": 165,
+         "t": "Ez"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 162.5,
+         "y": 152.5,
+         "t": "R"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 172.5,
+         "y": 125,
+         "t": "B"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 367.5,
+         "y": 160,
+         "t": "DA",
+         "r": 19
+        }
+       },
+       {
+        "ooa": [
+         385,
+         264.5
+        ]
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 415.9,
+         "y": 284.0,
+         "t": "W"
+        }
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 425.9,
+         "y": 296.7,
+         "t": "SI"
+        }
+       },
+       {
+        "b": {
+         "k": "a",
+         "x": 252.5,
+         "y": 350.9,
+         "t": "A"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 269.1,
+         "y": 170.5,
+         "t": "W"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 168.7,
+         "y": 107.9,
+         "t": "W"
+        }
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 184.3,
+         "y": 112.1,
+         "t": "SI"
+        }
+       },
+       {
+        "board": "ticks"
+       },
+       {
+        "b": {
+         "k": "v",
+         "x": 359.9,
+         "y": 381.2,
+         "t": "V"
+        }
+       }
+      ]
      }
     },
     {
@@ -1243,8 +1768,188 @@
     },
     {
      "map": {
-      "svg": "<svg aria-label=\"Top-down map of the Cycle 1.2 table with terrain, both deployment edges and the 6 inch objective circle at the centre.\" role=\"img\" viewbox=\"-14 -24 628 668\"><text class=\"m-edge p\" x=\"300\" y=\"-8\">The Carrion Psalm edge</text><text class=\"m-edge t\" x=\"300\" y=\"638\">The Midnight Theatre edge</text><rect class=\"m-mat\" height=\"600\" width=\"600\" x=\"0\" y=\"0\"></rect><rect class=\"svg-p\" height=\"75\" width=\"600\" x=\"0\" y=\"0\"></rect><rect class=\"svg-t\" height=\"75\" width=\"600\" x=\"0\" y=\"525\"></rect><g transform=\"rotate(180 300 300)\"><path class=\"m-grid\" d=\"M150 0V600M0 150H600M300 0V600M0 300H600M450 0V600M0 450H600\"></path><polygon class=\"m-solid\" points=\"42.5,132.5 230,132.5 230,205 42.5,205\"></polygon><polyline class=\"m-wall\" points=\"42.5,205 42.5,25 230,25 230,205 42.5,205\"></polyline><polygon class=\"m-rubble\" points=\"190,27.5 227.5,27.5 227.5,75 190,75\"></polygon><polyline class=\"m-run\" points=\"140,110 140,132.5\"></polyline><polygon class=\"m-solid\" points=\"275,60 380,60 380,115 275,115\"></polygon><polygon class=\"m-top\" points=\"292.731,9.94683 392.404,50.217 372.269,100.053 272.596,59.783\"></polygon><polyline class=\"m-run\" points=\"332.5,85 310,142.5\"></polyline><polyline class=\"m-plank\" points=\"275,175 375,175\"></polyline><polygon class=\"m-solid\" points=\"517.5,5 592.5,5 592.5,150 567.5,165 567.5,215 412.5,215 412.5,122.5 510,122.5 510,100\"></polygon><polygon class=\"m-rubble\" points=\"262.5,262.5 340,262.5 340,300 262.5,300\"></polygon><polyline class=\"m-wall\" points=\"255,305 255,255 375,255\"></polyline><polygon class=\"m-solid\" points=\"315,317.5 360,317.5 360,352.5 315,352.5\"></polygon><polygon class=\"m-solid\" points=\"267.5,360 287.5,360 287.5,380 267.5,380\"></polygon><polygon class=\"m-rubble\" points=\"245,430 310,430 310,445 245,445\"></polygon><polyline class=\"m-wall\" points=\"402.5,300 402.5,395 380,395\"></polyline><polyline class=\"m-wall\" points=\"130,250 132.5,312.5 197.5,312.5\"></polyline><polyline class=\"m-wall\" points=\"62.5,305 62.5,370\"></polyline><polyline class=\"m-wall\" points=\"500,247.5 500,292.5\"></polyline><polyline class=\"m-plank\" points=\"455,330 550,335\"></polyline><polygon class=\"m-solid\" points=\"50,390 200,390 200,520 170,500 140,457.5 50,457.5\"></polygon><polyline class=\"m-wall\" points=\"200,570 50,570 50,390 200,390 200,570\"></polyline><circle class=\"m-solid\" cx=\"207\" cy=\"420\" r=\"17\"></circle><circle class=\"m-solid\" cx=\"207\" cy=\"472\" r=\"17\"></circle><circle class=\"m-solid\" cx=\"207\" cy=\"528\" r=\"17\"></circle><polygon class=\"m-solid\" points=\"278.352,503.26 367.003,433.998 431.648,516.74 342.997,586.002\"></polygon><polyline class=\"m-div\" points=\"380.427,556.758 315.783,474.016\"></polyline><polyline class=\"m-div\" points=\"340.409,505.537 391.63,465.519\"></polyline><polyline class=\"m-run\" points=\"495,352.5 495,376.25\"></polyline><polygon class=\"m-plat\" points=\"597.5,465 546.25,553.768 443.75,553.768 392.5,465 443.75,376.232 546.25,376.232\"></polygon><circle class=\"m-tower\" cx=\"495\" cy=\"465\" r=\"58\"></circle><circle class=\"m-turf\" cx=\"300\" cy=\"300\" r=\"150\"></circle><circle class=\"m-centre\" cx=\"300\" cy=\"300\" r=\"6\"></circle></g><text class=\"m-lab\" x=\"487.5\" y=\"432.5\">Ruined tower</text><text class=\"m-lab\" x=\"272.5\" y=\"545\">Containers</text><text class=\"m-lab\" x=\"110\" y=\"430\">Gothic ruin</text><text class=\"m-lab\" x=\"262.5\" y=\"232.5\">Still</text><text class=\"m-lab\" x=\"495\" y=\"175\">Ruined stills</text><text class=\"m-lab\" x=\"272.5\" y=\"77.5\">Stairs</text><text class=\"m-lab\" x=\"105\" y=\"135\">Sealed vent</text><text class=\"m-c\" x=\"532.5\" y=\"335\">6\" from centre</text><circle class=\"tok-t\" cx=\"437.5\" cy=\"407.5\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"437.5\" y=\"413\">Dm</text><circle class=\"tok-t\" cx=\"327.5\" cy=\"357.5\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"327.5\" y=\"363\">Mi</text><circle class=\"tok-t\" cx=\"390\" cy=\"325\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"390\" y=\"330.5\">De</text><circle class=\"tok-t\" cx=\"332.5\" cy=\"440\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"332.5\" y=\"445.5\">J</text><circle class=\"tok-t\" cx=\"231.25\" cy=\"357.5\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"231.25\" y=\"363\">Rt</text><circle class=\"tok-p\" cx=\"405\" cy=\"300\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"405\" y=\"305.5\">M</text><circle class=\"tok-p\" cx=\"220\" cy=\"250\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"220\" y=\"255.5\">G</text><circle class=\"tok-p\" cx=\"218.75\" cy=\"282.5\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"218.75\" y=\"288\">Ez</text><circle class=\"tok-p\" cx=\"101.25\" cy=\"156.25\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"101.25\" y=\"161.75\">R</text><circle class=\"tok-p\" cx=\"370\" cy=\"227.5\" r=\"19\"></circle><text class=\"tok-n two\" x=\"370\" y=\"233\">DA</text><text aria-label=\"Out of Action\" class=\"ooa-e\" x=\"427.5\" y=\"312\">💀</text><circle class=\"b-i\" cx=\"235.2\" cy=\"340.4\" r=\"8.5\"></circle><text class=\"b-t\" x=\"235.2\" y=\"344.2\">I</text><circle class=\"b-s\" cx=\"247.5\" cy=\"350.9\" r=\"8.5\"></circle><text class=\"b-t\" x=\"247.5\" y=\"354.7\">S</text><circle class=\"b-a\" cx=\"245.9\" cy=\"367.0\" r=\"8.5\"></circle><text class=\"b-t\" x=\"245.9\" y=\"370.8\">A</text><circle class=\"b-w\" cx=\"414.0\" cy=\"285.0\" r=\"8.5\"></circle><text class=\"b-t\" x=\"414.0\" y=\"288.8\">W</text><text class=\"m-tick\" x=\"0\" y=\"618\">0\"</text><text class=\"m-tick\" x=\"150\" y=\"618\">6\"</text><text class=\"m-tick\" x=\"300\" y=\"618\">12\"</text><text class=\"m-tick\" x=\"450\" y=\"618\">18\"</text><text class=\"m-tick\" x=\"600\" y=\"618\">24\"</text><circle class=\"b-v\" cx=\"402.4\" cy=\"316.2\" r=\"8.5\"></circle><text class=\"b-t\" x=\"402.4\" y=\"320.0\">V</text></svg>",
-      "caption": "<ul class=\"b-key\"><li><span class=\"b b-s\">S</span>Suppressed</li><li><span class=\"b b-w\">W</span>Wounded</li><li><span class=\"b b-a\">A</span>Out of ammo</li><li><span class=\"b b-i\">I</span>Injured, 0 wounds</li><li><span aria-hidden=\"true\" class=\"ooa-k\">💀</span>Out of Action</li><li><span class=\"b b-v\">V</span>Perfect Void</li></ul>"
+      "viewBox": "-14 -24 628 668",
+      "label": "Top-down map of the Cycle 1.2 table with terrain, both deployment edges and the 6 inch objective circle at the centre.",
+      "caption": {
+       "key": [
+        [
+         "s",
+         "S",
+         "Suppressed"
+        ],
+        [
+         "w",
+         "W",
+         "Wounded"
+        ],
+        [
+         "a",
+         "A",
+         "Out of ammo"
+        ],
+        [
+         "i",
+         "I",
+         "Injured, 0 wounds"
+        ],
+        [
+         "ooa",
+         "💀",
+         "Out of Action"
+        ],
+        [
+         "v",
+         "V",
+         "Perfect Void"
+        ]
+       ]
+      },
+      "items": [
+       {
+        "board": "terrain"
+       },
+       {
+        "el": [
+         "text",
+         {
+          "class": "m-c",
+          "x": "532.5",
+          "y": "335"
+         },
+         "6\" from centre"
+        ]
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 437.5,
+         "y": 407.5,
+         "t": "Dm"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 327.5,
+         "y": 357.5,
+         "t": "Mi"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 390,
+         "y": 325,
+         "t": "De"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 332.5,
+         "y": 440,
+         "t": "J"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 231.25,
+         "y": 357.5,
+         "t": "Rt"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 405,
+         "y": 300,
+         "t": "M"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 220,
+         "y": 250,
+         "t": "G"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 218.75,
+         "y": 282.5,
+         "t": "Ez"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 101.25,
+         "y": 156.25,
+         "t": "R"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 370,
+         "y": 227.5,
+         "t": "DA",
+         "r": 19
+        }
+       },
+       {
+        "ooa": [
+         427.5,
+         312
+        ]
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 235.2,
+         "y": 340.4,
+         "t": "I"
+        }
+       },
+       {
+        "b": {
+         "k": "s",
+         "x": 247.5,
+         "y": 350.9,
+         "t": "S"
+        }
+       },
+       {
+        "b": {
+         "k": "a",
+         "x": 245.9,
+         "y": 367.0,
+         "t": "A"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 414.0,
+         "y": 285.0,
+         "t": "W"
+        }
+       },
+       {
+        "board": "ticks"
+       },
+       {
+        "b": {
+         "k": "v",
+         "x": 402.4,
+         "y": 316.2,
+         "t": "V"
+        }
+       }
+      ]
      }
     },
     {
@@ -1575,8 +2280,206 @@
     },
     {
      "map": {
-      "svg": "<svg aria-label=\"Top-down map of the Cycle 1.2 table with terrain, both deployment edges and the 6 inch objective circle at the centre.\" role=\"img\" viewbox=\"-14 -24 628 668\"><text class=\"m-edge p\" x=\"300\" y=\"-8\">The Carrion Psalm edge</text><text class=\"m-edge t\" x=\"300\" y=\"638\">The Midnight Theatre edge</text><rect class=\"m-mat\" height=\"600\" width=\"600\" x=\"0\" y=\"0\"></rect><rect class=\"svg-p\" height=\"75\" width=\"600\" x=\"0\" y=\"0\"></rect><rect class=\"svg-t\" height=\"75\" width=\"600\" x=\"0\" y=\"525\"></rect><g transform=\"rotate(180 300 300)\"><path class=\"m-grid\" d=\"M150 0V600M0 150H600M300 0V600M0 300H600M450 0V600M0 450H600\"></path><polygon class=\"m-solid\" points=\"42.5,132.5 230,132.5 230,205 42.5,205\"></polygon><polyline class=\"m-wall\" points=\"42.5,205 42.5,25 230,25 230,205 42.5,205\"></polyline><polygon class=\"m-rubble\" points=\"190,27.5 227.5,27.5 227.5,75 190,75\"></polygon><polyline class=\"m-run\" points=\"140,110 140,132.5\"></polyline><polygon class=\"m-solid\" points=\"275,60 380,60 380,115 275,115\"></polygon><polygon class=\"m-top\" points=\"292.731,9.94683 392.404,50.217 372.269,100.053 272.596,59.783\"></polygon><polyline class=\"m-run\" points=\"332.5,85 310,142.5\"></polyline><polyline class=\"m-plank\" points=\"275,175 375,175\"></polyline><polygon class=\"m-solid\" points=\"517.5,5 592.5,5 592.5,150 567.5,165 567.5,215 412.5,215 412.5,122.5 510,122.5 510,100\"></polygon><polygon class=\"m-rubble\" points=\"262.5,262.5 340,262.5 340,300 262.5,300\"></polygon><polyline class=\"m-wall\" points=\"255,305 255,255 375,255\"></polyline><polygon class=\"m-solid\" points=\"315,317.5 360,317.5 360,352.5 315,352.5\"></polygon><polygon class=\"m-solid\" points=\"267.5,360 287.5,360 287.5,380 267.5,380\"></polygon><polygon class=\"m-rubble\" points=\"245,430 310,430 310,445 245,445\"></polygon><polyline class=\"m-wall\" points=\"402.5,300 402.5,395 380,395\"></polyline><polyline class=\"m-wall\" points=\"130,250 132.5,312.5 197.5,312.5\"></polyline><polyline class=\"m-wall\" points=\"62.5,305 62.5,370\"></polyline><polyline class=\"m-wall\" points=\"500,247.5 500,292.5\"></polyline><polyline class=\"m-plank\" points=\"455,330 550,335\"></polyline><polygon class=\"m-solid\" points=\"50,390 200,390 200,520 170,500 140,457.5 50,457.5\"></polygon><polyline class=\"m-wall\" points=\"200,570 50,570 50,390 200,390 200,570\"></polyline><circle class=\"m-solid\" cx=\"207\" cy=\"420\" r=\"17\"></circle><circle class=\"m-solid\" cx=\"207\" cy=\"472\" r=\"17\"></circle><circle class=\"m-solid\" cx=\"207\" cy=\"528\" r=\"17\"></circle><polygon class=\"m-solid\" points=\"278.352,503.26 367.003,433.998 431.648,516.74 342.997,586.002\"></polygon><polyline class=\"m-div\" points=\"380.427,556.758 315.783,474.016\"></polyline><polyline class=\"m-div\" points=\"340.409,505.537 391.63,465.519\"></polyline><polyline class=\"m-run\" points=\"495,352.5 495,376.25\"></polyline><polygon class=\"m-plat\" points=\"597.5,465 546.25,553.768 443.75,553.768 392.5,465 443.75,376.232 546.25,376.232\"></polygon><circle class=\"m-tower\" cx=\"495\" cy=\"465\" r=\"58\"></circle><circle class=\"m-turf\" cx=\"300\" cy=\"300\" r=\"150\"></circle><circle class=\"m-centre\" cx=\"300\" cy=\"300\" r=\"6\"></circle></g><text class=\"m-lab\" x=\"487.5\" y=\"432.5\">Ruined tower</text><text class=\"m-lab\" x=\"272.5\" y=\"545\">Containers</text><text class=\"m-lab\" x=\"110\" y=\"430\">Gothic ruin</text><text class=\"m-lab\" x=\"262.5\" y=\"232.5\">Still</text><text class=\"m-lab\" x=\"495\" y=\"175\">Ruined stills</text><text class=\"m-lab\" x=\"272.5\" y=\"77.5\">Stairs</text><text class=\"m-lab\" x=\"105\" y=\"135\">Sealed vent</text><text class=\"m-c\" x=\"532.5\" y=\"335\">6\" from centre</text><circle class=\"tok-t\" cx=\"430\" cy=\"406.25\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"430\" y=\"411.75\">Dm</text><circle class=\"tok-t\" cx=\"320\" cy=\"358.75\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"320\" y=\"364.25\">Mi</text><circle class=\"tok-t\" cx=\"410\" cy=\"325\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"410\" y=\"330.5\">De</text><circle class=\"tok-t\" cx=\"265\" cy=\"437.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"265\" y=\"443\">J</text><circle class=\"tok-t\" cx=\"236.25\" cy=\"437.5\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"236.25\" y=\"443\">Rt</text><circle class=\"tok-p\" cx=\"405\" cy=\"297.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"405\" y=\"303\">M</text><circle class=\"tok-p\" cx=\"213.75\" cy=\"357.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"213.75\" y=\"363\">G</text><circle class=\"tok-p\" cx=\"207.5\" cy=\"390\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"207.5\" y=\"395.5\">Ez</text><circle class=\"tok-p\" cx=\"102.5\" cy=\"148.75\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"102.5\" y=\"154.25\">R</text><circle class=\"tok-p\" cx=\"365\" cy=\"182.5\" r=\"19\"></circle><text class=\"tok-n two\" x=\"365\" y=\"188\">DA</text><circle class=\"b-w\" cx=\"413.1\" cy=\"342.2\" r=\"8.5\"></circle><text class=\"b-t\" x=\"413.1\" y=\"346.0\">W2</text><circle class=\"b-i\" cx=\"226.2\" cy=\"451.8\" r=\"8.5\"></circle><text class=\"b-t\" x=\"226.2\" y=\"455.6\">I</text><circle class=\"b-s\" cx=\"218.7\" cy=\"437.5\" r=\"8.5\"></circle><text class=\"b-t\" x=\"218.7\" y=\"441.3\">S</text><circle class=\"b-a\" cx=\"226.2\" cy=\"423.2\" r=\"8.5\"></circle><text class=\"b-t\" x=\"226.2\" y=\"427.0\">A</text><circle class=\"b-w\" cx=\"401.9\" cy=\"280.3\" r=\"8.5\"></circle><text class=\"b-t\" x=\"401.9\" y=\"284.1\">W2</text><circle class=\"b-w\" cx=\"380.6\" cy=\"164.3\" r=\"8.5\"></circle><text class=\"b-t\" x=\"380.6\" y=\"168.1\">W</text><circle class=\"b-s\" cx=\"388.9\" cy=\"184.8\" r=\"8.5\"></circle><text class=\"b-t\" x=\"388.9\" y=\"188.6\">S</text><text class=\"m-tick\" x=\"0\" y=\"618\">0\"</text><text class=\"m-tick\" x=\"150\" y=\"618\">6\"</text><text class=\"m-tick\" x=\"300\" y=\"618\">12\"</text><text class=\"m-tick\" x=\"450\" y=\"618\">18\"</text><text class=\"m-tick\" x=\"600\" y=\"618\">24\"</text><circle class=\"b-v\" cx=\"422.4\" cy=\"316.2\" r=\"8.5\"></circle><text class=\"b-t\" x=\"422.4\" y=\"320.0\">V</text></svg>",
-      "caption": "<ul class=\"b-key\"><li><span class=\"b b-s\">S</span>Suppressed</li><li><span class=\"b b-w\">W</span>Wounded</li><li><span class=\"b b-w\">W2</span>Wounded, number shows wounds taken</li><li><span class=\"b b-a\">A</span>Out of ammo</li><li><span class=\"b b-i\">I</span>Injured, 0 wounds</li><li><span class=\"b b-v\">V</span>Perfect Void</li></ul>"
+      "viewBox": "-14 -24 628 668",
+      "label": "Top-down map of the Cycle 1.2 table with terrain, both deployment edges and the 6 inch objective circle at the centre.",
+      "caption": {
+       "key": [
+        [
+         "s",
+         "S",
+         "Suppressed"
+        ],
+        [
+         "w",
+         "W",
+         "Wounded"
+        ],
+        [
+         "w",
+         "W2",
+         "Wounded, number shows wounds taken"
+        ],
+        [
+         "a",
+         "A",
+         "Out of ammo"
+        ],
+        [
+         "i",
+         "I",
+         "Injured, 0 wounds"
+        ],
+        [
+         "v",
+         "V",
+         "Perfect Void"
+        ]
+       ]
+      },
+      "items": [
+       {
+        "board": "terrain"
+       },
+       {
+        "el": [
+         "text",
+         {
+          "class": "m-c",
+          "x": "532.5",
+          "y": "335"
+         },
+         "6\" from centre"
+        ]
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 430,
+         "y": 406.25,
+         "t": "Dm"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 320,
+         "y": 358.75,
+         "t": "Mi"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 410,
+         "y": 325,
+         "t": "De"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 265,
+         "y": 437.5,
+         "t": "J"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 236.25,
+         "y": 437.5,
+         "t": "Rt"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 405,
+         "y": 297.5,
+         "t": "M"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 213.75,
+         "y": 357.5,
+         "t": "G"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 207.5,
+         "y": 390,
+         "t": "Ez"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 102.5,
+         "y": 148.75,
+         "t": "R"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 365,
+         "y": 182.5,
+         "t": "DA",
+         "r": 19
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 413.1,
+         "y": 342.2,
+         "t": "W2"
+        }
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 226.2,
+         "y": 451.8,
+         "t": "I"
+        }
+       },
+       {
+        "b": {
+         "k": "s",
+         "x": 218.7,
+         "y": 437.5,
+         "t": "S"
+        }
+       },
+       {
+        "b": {
+         "k": "a",
+         "x": 226.2,
+         "y": 423.2,
+         "t": "A"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 401.9,
+         "y": 280.3,
+         "t": "W2"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 380.6,
+         "y": 164.3,
+         "t": "W"
+        }
+       },
+       {
+        "b": {
+         "k": "s",
+         "x": 388.9,
+         "y": 184.8,
+         "t": "S"
+        }
+       },
+       {
+        "board": "ticks"
+       },
+       {
+        "b": {
+         "k": "v",
+         "x": 422.4,
+         "y": 316.2,
+         "t": "V"
+        }
+       }
+      ]
      }
     },
     {
@@ -1882,8 +2785,188 @@
     },
     {
      "map": {
-      "svg": "<svg aria-label=\"Top-down map of the Cycle 1.2 table with terrain, both deployment edges and the 6 inch objective circle at the centre.\" role=\"img\" viewbox=\"-14 -24 628 668\"><text class=\"m-edge p\" x=\"300\" y=\"-8\">The Carrion Psalm edge</text><text class=\"m-edge t\" x=\"300\" y=\"638\">The Midnight Theatre edge</text><rect class=\"m-mat\" height=\"600\" width=\"600\" x=\"0\" y=\"0\"></rect><rect class=\"svg-p\" height=\"75\" width=\"600\" x=\"0\" y=\"0\"></rect><rect class=\"svg-t\" height=\"75\" width=\"600\" x=\"0\" y=\"525\"></rect><g transform=\"rotate(180 300 300)\"><path class=\"m-grid\" d=\"M150 0V600M0 150H600M300 0V600M0 300H600M450 0V600M0 450H600\"></path><polygon class=\"m-solid\" points=\"42.5,132.5 230,132.5 230,205 42.5,205\"></polygon><polyline class=\"m-wall\" points=\"42.5,205 42.5,25 230,25 230,205 42.5,205\"></polyline><polygon class=\"m-rubble\" points=\"190,27.5 227.5,27.5 227.5,75 190,75\"></polygon><polyline class=\"m-run\" points=\"140,110 140,132.5\"></polyline><polygon class=\"m-solid\" points=\"275,60 380,60 380,115 275,115\"></polygon><polygon class=\"m-top\" points=\"292.731,9.94683 392.404,50.217 372.269,100.053 272.596,59.783\"></polygon><polyline class=\"m-run\" points=\"332.5,85 310,142.5\"></polyline><polyline class=\"m-plank\" points=\"275,175 375,175\"></polyline><polygon class=\"m-solid\" points=\"517.5,5 592.5,5 592.5,150 567.5,165 567.5,215 412.5,215 412.5,122.5 510,122.5 510,100\"></polygon><polygon class=\"m-rubble\" points=\"262.5,262.5 340,262.5 340,300 262.5,300\"></polygon><polyline class=\"m-wall\" points=\"255,305 255,255 375,255\"></polyline><polygon class=\"m-solid\" points=\"315,317.5 360,317.5 360,352.5 315,352.5\"></polygon><polygon class=\"m-solid\" points=\"267.5,360 287.5,360 287.5,380 267.5,380\"></polygon><polygon class=\"m-rubble\" points=\"245,430 310,430 310,445 245,445\"></polygon><polyline class=\"m-wall\" points=\"402.5,300 402.5,395 380,395\"></polyline><polyline class=\"m-wall\" points=\"130,250 132.5,312.5 197.5,312.5\"></polyline><polyline class=\"m-wall\" points=\"62.5,305 62.5,370\"></polyline><polyline class=\"m-wall\" points=\"500,247.5 500,292.5\"></polyline><polyline class=\"m-plank\" points=\"455,330 550,335\"></polyline><polygon class=\"m-solid\" points=\"50,390 200,390 200,520 170,500 140,457.5 50,457.5\"></polygon><polyline class=\"m-wall\" points=\"200,570 50,570 50,390 200,390 200,570\"></polyline><circle class=\"m-solid\" cx=\"207\" cy=\"420\" r=\"17\"></circle><circle class=\"m-solid\" cx=\"207\" cy=\"472\" r=\"17\"></circle><circle class=\"m-solid\" cx=\"207\" cy=\"528\" r=\"17\"></circle><polygon class=\"m-solid\" points=\"278.352,503.26 367.003,433.998 431.648,516.74 342.997,586.002\"></polygon><polyline class=\"m-div\" points=\"380.427,556.758 315.783,474.016\"></polyline><polyline class=\"m-div\" points=\"340.409,505.537 391.63,465.519\"></polyline><polyline class=\"m-run\" points=\"495,352.5 495,376.25\"></polyline><polygon class=\"m-plat\" points=\"597.5,465 546.25,553.768 443.75,553.768 392.5,465 443.75,376.232 546.25,376.232\"></polygon><circle class=\"m-tower\" cx=\"495\" cy=\"465\" r=\"58\"></circle><circle class=\"m-turf\" cx=\"300\" cy=\"300\" r=\"150\"></circle><circle class=\"m-centre\" cx=\"300\" cy=\"300\" r=\"6\"></circle></g><text class=\"m-lab\" x=\"487.5\" y=\"432.5\">Ruined tower</text><text class=\"m-lab\" x=\"272.5\" y=\"545\">Containers</text><text class=\"m-lab\" x=\"110\" y=\"430\">Gothic ruin</text><text class=\"m-lab\" x=\"262.5\" y=\"232.5\">Still</text><text class=\"m-lab\" x=\"495\" y=\"175\">Ruined stills</text><text class=\"m-lab\" x=\"272.5\" y=\"77.5\">Stairs</text><text class=\"m-lab\" x=\"105\" y=\"135\">Sealed vent</text><text class=\"m-c\" x=\"300\" y=\"215\">6\" from centre</text><circle class=\"tok-t\" cx=\"436.25\" cy=\"407.5\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"436.25\" y=\"413\">Dm</text><circle class=\"tok-t\" cx=\"341.25\" cy=\"482.5\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"341.25\" y=\"488\">Mi</text><circle class=\"tok-t\" cx=\"352.5\" cy=\"455\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"352.5\" y=\"460.5\">J</text><circle class=\"tok-t\" cx=\"126.25\" cy=\"507.5\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"126.25\" y=\"513\">Rt</text><circle class=\"tok-p\" cx=\"405\" cy=\"297.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"405\" y=\"303\">M</text><circle class=\"tok-p\" cx=\"205\" cy=\"362.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"205\" y=\"368\">G</text><circle class=\"tok-p\" cx=\"237.5\" cy=\"440\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"237.5\" y=\"445.5\">Ez</text><circle class=\"tok-p\" cx=\"101.25\" cy=\"152.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"101.25\" y=\"158\">R</text><circle class=\"tok-p\" cx=\"372.5\" cy=\"260\" r=\"19\"></circle><text class=\"tok-n two\" x=\"372.5\" y=\"265.5\">DA</text><text aria-label=\"Out of Action\" class=\"ooa-e\" x=\"350\" y=\"407\">💀</text><circle class=\"b-s\" cx=\"334.6\" cy=\"498.7\" r=\"8.5\"></circle><text class=\"b-t\" x=\"334.6\" y=\"502.5\">S</text><circle class=\"b-i\" cx=\"137.6\" cy=\"494.2\" r=\"8.5\"></circle><text class=\"b-t\" x=\"137.6\" y=\"498.0\">I</text><circle class=\"b-a\" cx=\"143.7\" cy=\"509.2\" r=\"8.5\"></circle><text class=\"b-t\" x=\"143.7\" y=\"513.0\">A</text><circle class=\"b-w\" cx=\"421.2\" cy=\"290.9\" r=\"8.5\"></circle><text class=\"b-t\" x=\"421.2\" y=\"294.7\">W2</text><circle class=\"b-w\" cx=\"253.7\" cy=\"433.4\" r=\"8.5\"></circle><text class=\"b-t\" x=\"253.7\" y=\"437.2\">W</text><circle class=\"b-w\" cx=\"394.8\" cy=\"251.0\" r=\"8.5\"></circle><text class=\"b-t\" x=\"394.8\" y=\"254.8\">W</text><text class=\"m-tick\" x=\"0\" y=\"618\">0\"</text><text class=\"m-tick\" x=\"150\" y=\"618\">6\"</text><text class=\"m-tick\" x=\"300\" y=\"618\">12\"</text><text class=\"m-tick\" x=\"450\" y=\"618\">18\"</text><text class=\"m-tick\" x=\"600\" y=\"618\">24\"</text></svg>",
-      "caption": "<ul class=\"b-key\"><li><span class=\"b b-s\">S</span>Suppressed</li><li><span class=\"b b-w\">W</span>Wounded</li><li><span class=\"b b-w\">W2</span>Wounded, number shows wounds taken</li><li><span class=\"b b-a\">A</span>Out of ammo</li><li><span class=\"b b-i\">I</span>Injured, 0 wounds</li><li><span aria-hidden=\"true\" class=\"ooa-k\">💀</span>Out of Action</li></ul>"
+      "viewBox": "-14 -24 628 668",
+      "label": "Top-down map of the Cycle 1.2 table with terrain, both deployment edges and the 6 inch objective circle at the centre.",
+      "caption": {
+       "key": [
+        [
+         "s",
+         "S",
+         "Suppressed"
+        ],
+        [
+         "w",
+         "W",
+         "Wounded"
+        ],
+        [
+         "w",
+         "W2",
+         "Wounded, number shows wounds taken"
+        ],
+        [
+         "a",
+         "A",
+         "Out of ammo"
+        ],
+        [
+         "i",
+         "I",
+         "Injured, 0 wounds"
+        ],
+        [
+         "ooa",
+         "💀",
+         "Out of Action"
+        ]
+       ]
+      },
+      "items": [
+       {
+        "board": "terrain"
+       },
+       {
+        "el": [
+         "text",
+         {
+          "class": "m-c",
+          "x": "300",
+          "y": "215"
+         },
+         "6\" from centre"
+        ]
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 436.25,
+         "y": 407.5,
+         "t": "Dm"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 341.25,
+         "y": 482.5,
+         "t": "Mi"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 352.5,
+         "y": 455,
+         "t": "J"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 126.25,
+         "y": 507.5,
+         "t": "Rt"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 405,
+         "y": 297.5,
+         "t": "M"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 205,
+         "y": 362.5,
+         "t": "G"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 237.5,
+         "y": 440,
+         "t": "Ez"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 101.25,
+         "y": 152.5,
+         "t": "R"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 372.5,
+         "y": 260,
+         "t": "DA",
+         "r": 19
+        }
+       },
+       {
+        "ooa": [
+         350,
+         407
+        ]
+       },
+       {
+        "b": {
+         "k": "s",
+         "x": 334.6,
+         "y": 498.7,
+         "t": "S"
+        }
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 137.6,
+         "y": 494.2,
+         "t": "I"
+        }
+       },
+       {
+        "b": {
+         "k": "a",
+         "x": 143.7,
+         "y": 509.2,
+         "t": "A"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 421.2,
+         "y": 290.9,
+         "t": "W2"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 253.7,
+         "y": 433.4,
+         "t": "W"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 394.8,
+         "y": 251.0,
+         "t": "W"
+        }
+       },
+       {
+        "board": "ticks"
+       }
+      ]
      }
     },
     {
@@ -2914,5 +3997,418 @@
     }
    ]
   }
+ },
+ "board": {
+  "terrain": [
+   [
+    "text",
+    {
+     "class": "m-edge p",
+     "x": "300",
+     "y": "-8"
+    },
+    "The Carrion Psalm edge"
+   ],
+   [
+    "text",
+    {
+     "class": "m-edge t",
+     "x": "300",
+     "y": "638"
+    },
+    "The Midnight Theatre edge"
+   ],
+   [
+    "rect",
+    {
+     "class": "m-mat",
+     "height": "600",
+     "width": "600",
+     "x": "0",
+     "y": "0"
+    }
+   ],
+   [
+    "rect",
+    {
+     "class": "svg-p",
+     "height": "75",
+     "width": "600",
+     "x": "0",
+     "y": "0"
+    }
+   ],
+   [
+    "rect",
+    {
+     "class": "svg-t",
+     "height": "75",
+     "width": "600",
+     "x": "0",
+     "y": "525"
+    }
+   ],
+   [
+    "g",
+    {
+     "transform": "rotate(180 300 300)"
+    },
+    [
+     [
+      "path",
+      {
+       "class": "m-grid",
+       "d": "M150 0V600M0 150H600M300 0V600M0 300H600M450 0V600M0 450H600"
+      }
+     ],
+     [
+      "polygon",
+      {
+       "class": "m-solid",
+       "points": "42.5,132.5 230,132.5 230,205 42.5,205"
+      }
+     ],
+     [
+      "polyline",
+      {
+       "class": "m-wall",
+       "points": "42.5,205 42.5,25 230,25 230,205 42.5,205"
+      }
+     ],
+     [
+      "polygon",
+      {
+       "class": "m-rubble",
+       "points": "190,27.5 227.5,27.5 227.5,75 190,75"
+      }
+     ],
+     [
+      "polyline",
+      {
+       "class": "m-run",
+       "points": "140,110 140,132.5"
+      }
+     ],
+     [
+      "polygon",
+      {
+       "class": "m-solid",
+       "points": "275,60 380,60 380,115 275,115"
+      }
+     ],
+     [
+      "polygon",
+      {
+       "class": "m-top",
+       "points": "292.731,9.94683 392.404,50.217 372.269,100.053 272.596,59.783"
+      }
+     ],
+     [
+      "polyline",
+      {
+       "class": "m-run",
+       "points": "332.5,85 310,142.5"
+      }
+     ],
+     [
+      "polyline",
+      {
+       "class": "m-plank",
+       "points": "275,175 375,175"
+      }
+     ],
+     [
+      "polygon",
+      {
+       "class": "m-solid",
+       "points": "517.5,5 592.5,5 592.5,150 567.5,165 567.5,215 412.5,215 412.5,122.5 510,122.5 510,100"
+      }
+     ],
+     [
+      "polygon",
+      {
+       "class": "m-rubble",
+       "points": "262.5,262.5 340,262.5 340,300 262.5,300"
+      }
+     ],
+     [
+      "polyline",
+      {
+       "class": "m-wall",
+       "points": "255,305 255,255 375,255"
+      }
+     ],
+     [
+      "polygon",
+      {
+       "class": "m-solid",
+       "points": "315,317.5 360,317.5 360,352.5 315,352.5"
+      }
+     ],
+     [
+      "polygon",
+      {
+       "class": "m-solid",
+       "points": "267.5,360 287.5,360 287.5,380 267.5,380"
+      }
+     ],
+     [
+      "polygon",
+      {
+       "class": "m-rubble",
+       "points": "245,430 310,430 310,445 245,445"
+      }
+     ],
+     [
+      "polyline",
+      {
+       "class": "m-wall",
+       "points": "402.5,300 402.5,395 380,395"
+      }
+     ],
+     [
+      "polyline",
+      {
+       "class": "m-wall",
+       "points": "130,250 132.5,312.5 197.5,312.5"
+      }
+     ],
+     [
+      "polyline",
+      {
+       "class": "m-wall",
+       "points": "62.5,305 62.5,370"
+      }
+     ],
+     [
+      "polyline",
+      {
+       "class": "m-wall",
+       "points": "500,247.5 500,292.5"
+      }
+     ],
+     [
+      "polyline",
+      {
+       "class": "m-plank",
+       "points": "455,330 550,335"
+      }
+     ],
+     [
+      "polygon",
+      {
+       "class": "m-solid",
+       "points": "50,390 200,390 200,520 170,500 140,457.5 50,457.5"
+      }
+     ],
+     [
+      "polyline",
+      {
+       "class": "m-wall",
+       "points": "200,570 50,570 50,390 200,390 200,570"
+      }
+     ],
+     [
+      "circle",
+      {
+       "class": "m-solid",
+       "cx": "207",
+       "cy": "420",
+       "r": "17"
+      }
+     ],
+     [
+      "circle",
+      {
+       "class": "m-solid",
+       "cx": "207",
+       "cy": "472",
+       "r": "17"
+      }
+     ],
+     [
+      "circle",
+      {
+       "class": "m-solid",
+       "cx": "207",
+       "cy": "528",
+       "r": "17"
+      }
+     ],
+     [
+      "polygon",
+      {
+       "class": "m-solid",
+       "points": "278.352,503.26 367.003,433.998 431.648,516.74 342.997,586.002"
+      }
+     ],
+     [
+      "polyline",
+      {
+       "class": "m-div",
+       "points": "380.427,556.758 315.783,474.016"
+      }
+     ],
+     [
+      "polyline",
+      {
+       "class": "m-div",
+       "points": "340.409,505.537 391.63,465.519"
+      }
+     ],
+     [
+      "polyline",
+      {
+       "class": "m-run",
+       "points": "495,352.5 495,376.25"
+      }
+     ],
+     [
+      "polygon",
+      {
+       "class": "m-plat",
+       "points": "597.5,465 546.25,553.768 443.75,553.768 392.5,465 443.75,376.232 546.25,376.232"
+      }
+     ],
+     [
+      "circle",
+      {
+       "class": "m-tower",
+       "cx": "495",
+       "cy": "465",
+       "r": "58"
+      }
+     ],
+     [
+      "circle",
+      {
+       "class": "m-turf",
+       "cx": "300",
+       "cy": "300",
+       "r": "150"
+      }
+     ],
+     [
+      "circle",
+      {
+       "class": "m-centre",
+       "cx": "300",
+       "cy": "300",
+       "r": "6"
+      }
+     ]
+    ]
+   ],
+   [
+    "text",
+    {
+     "class": "m-lab",
+     "x": "487.5",
+     "y": "432.5"
+    },
+    "Ruined tower"
+   ],
+   [
+    "text",
+    {
+     "class": "m-lab",
+     "x": "272.5",
+     "y": "545"
+    },
+    "Containers"
+   ],
+   [
+    "text",
+    {
+     "class": "m-lab",
+     "x": "110",
+     "y": "430"
+    },
+    "Gothic ruin"
+   ],
+   [
+    "text",
+    {
+     "class": "m-lab",
+     "x": "262.5",
+     "y": "232.5"
+    },
+    "Still"
+   ],
+   [
+    "text",
+    {
+     "class": "m-lab",
+     "x": "495",
+     "y": "175"
+    },
+    "Ruined stills"
+   ],
+   [
+    "text",
+    {
+     "class": "m-lab",
+     "x": "272.5",
+     "y": "77.5"
+    },
+    "Stairs"
+   ],
+   [
+    "text",
+    {
+     "class": "m-lab",
+     "x": "105",
+     "y": "135"
+    },
+    "Sealed vent"
+   ]
+  ],
+  "ticks": [
+   [
+    "text",
+    {
+     "class": "m-tick",
+     "x": "0",
+     "y": "618"
+    },
+    "0\""
+   ],
+   [
+    "text",
+    {
+     "class": "m-tick",
+     "x": "150",
+     "y": "618"
+    },
+    "6\""
+   ],
+   [
+    "text",
+    {
+     "class": "m-tick",
+     "x": "300",
+     "y": "618"
+    },
+    "12\""
+   ],
+   [
+    "text",
+    {
+     "class": "m-tick",
+     "x": "450",
+     "y": "618"
+    },
+    "18\""
+   ],
+   [
+    "text",
+    {
+     "class": "m-tick",
+     "x": "600",
+     "y": "618"
+    },
+    "24\""
+   ]
+  ]
  }
 }

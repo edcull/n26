@@ -325,8 +325,141 @@
     },
     {
      "map": {
-      "svg": "<svg aria-label=\"Deployment positions for Cycle 2.1: the Carrion Psalm across the containers quarter and the north side of the manufactorum, and Deuteronomy, Mistoffelees, Rumpus and Wit around the rendering vats.\" role=\"img\" viewbox=\"-14 -24 628 668\"><defs><clippath id=\"mat21d\"><rect height=\"600\" width=\"600\" x=\"0\" y=\"0\"></rect></clippath></defs><text class=\"m-edge p\" x=\"450\" y=\"-8\">The Carrion Psalm deploy</text><text class=\"m-edge t\" x=\"150\" y=\"638\">The Midnight Theatre deploy</text><rect class=\"m-mat\" height=\"600\" width=\"600\" x=\"0\" y=\"0\"></rect><g clip-path=\"url(#mat21d)\"><path class=\"m-grid\" d=\"M150 0V600M0 150H600M300 0V600M0 300H600M450 0V600M0 450H600\"></path><path class=\"svg-p\" d=\"M600 0H300V150A150 150 0 0 1 450 300H600Z\"></path><path class=\"svg-t\" d=\"M0 600H300V450A150 150 0 0 1 150 300H0Z\"></path><circle class=\"m-plat\" cx=\"93.5\" cy=\"101.2\" r=\"83.6\"></circle><circle class=\"m-tower\" cx=\"93.5\" cy=\"101.2\" r=\"38.9\"></circle><polyline class=\"m-ladder\" points=\"144.3,167.6 152.8,178.7\"></polyline><circle class=\"m-solid\" cx=\"244.2\" cy=\"30.0\" r=\"9.7\"></circle><circle class=\"m-solid\" cx=\"244.2\" cy=\"56.2\" r=\"9.7\"></circle><polyline class=\"m-wall\" points=\"319.0,68.1 411.4,68.8 410.9,19.4\"></polyline><rect class=\"m-solid\" height=\"50.0\" width=\"104.1\" x=\"460.9\" y=\"13.8\"></rect><rect class=\"m-solid\" height=\"50.0\" width=\"103.5\" x=\"462.6\" y=\"96.9\"></rect><rect class=\"m-top\" height=\"107.6\" width=\"49.3\" x=\"491.6\" y=\"26.2\"></rect><rect class=\"m-solid\" height=\"59.0\" rx=\"10\" width=\"38.0\" x=\"163.4\" y=\"197.6\"></rect><polyline class=\"m-wall\" points=\"9.8,230.7 88.3,230.7\"></polyline><rect class=\"m-solid\" height=\"136.0\" width=\"99.3\" x=\"31.7\" y=\"254.0\"></rect><polyline class=\"m-wall\" points=\"129.8,252.9 129.8,391.1 27.1,391.1\"></polyline><polyline class=\"m-wall\" points=\"8.1,320.9 57.1,320.9\"></polyline><rect class=\"m-solid\" height=\"152.7\" width=\"95.8\" x=\"455.1\" y=\"177.9\"></rect><polyline class=\"m-wall\" points=\"456.2,176.4 456.2,331.7 553.6,331.7\"></polyline><polyline class=\"m-wall\" points=\"512.6,241.0 600.0,241.0\"></polyline><polyline class=\"m-div\" points=\"209.0,229.7 209.0,113.1 393.3,113.1 393.3,221.9\"></polyline><polygon class=\"m-solid\" points=\"209.0,231.2 247.4,234.8 274.4,239.5 300.9,248.8 333.6,238.4 354.8,229.7 375.9,222.9 393.3,220.9 393.3,299.5 209.0,299.5\"></polygon><polyline class=\"m-wall\" points=\"207.9,229.7 207.9,299.5 394.4,299.5 393.3,220.9\"></polyline><polyline class=\"m-ladder\" points=\"300.0,248.5 300.0,234.5\"></polyline><polyline class=\"m-div\" points=\"318.0,357.7 355.5,357.7 355.5,498.1 217.1,498.1\"></polyline><polygon class=\"m-solid\" points=\"174.2,357.7 318.0,357.7 297.7,378.7 266.7,395.7 242.5,412.6 230.1,440.9 221.6,469.5 217.1,496.9 174.2,496.9\"></polygon><polyline class=\"m-wall\" points=\"318.0,356.0 174.2,356.0 174.2,496.9 217.1,496.9\"></polyline><polyline class=\"m-ladder\" points=\"257.0,402.5 265.0,414.0\"></polyline><polyline class=\"m-wall\" points=\"179.3,533.6 179.3,577.1\"></polyline><polyline class=\"m-wall\" points=\"247.6,535.9 338.6,533.6 339.1,573.7\"></polyline><polygon class=\"m-plat\" points=\"490.5,364.5 598.9,423.4 598.9,542.2 490.5,600.0 385.0,542.2 385.0,422.3\"></polygon><circle class=\"m-tower\" cx=\"491.5\" cy=\"482.4\" r=\"55\"></circle><polyline class=\"m-ladder\" points=\"443.0,390.5 449.8,402.8\"></polyline><polyline class=\"m-wall\" points=\"465.9,367.4 572.1,367.4\"></polyline><polyline class=\"m-div\" points=\"396.7,430.8 394.5,541.0\"></polyline><rect class=\"m-solid\" height=\"15.8\" width=\"9.2\" x=\"30.6\" y=\"431.9\"></rect><rect class=\"m-solid\" height=\"15.8\" width=\"9.2\" x=\"83.7\" y=\"432.5\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"26.0\" y=\"479.2\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"83.1\" y=\"479.8\"></rect><rect class=\"m-solid\" height=\"16.1\" width=\"9.2\" x=\"28.3\" y=\"515.8\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.3\" x=\"81.9\" y=\"514.7\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"30.6\" y=\"551.9\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"82.5\" y=\"548.5\"></rect><polyline class=\"m-wall\" points=\"128.1,421.1 128.1,488.4\"></polyline><polyline class=\"m-wall\" points=\"128.1,506.7 128.1,572.5\"></polyline></g><circle class=\"m-centre\" cx=\"300\" cy=\"300\" r=\"6\"></circle><circle class=\"m-obj\" cx=\"300\" cy=\"125\" r=\"9\"></circle><circle class=\"m-obj-dot\" cx=\"300\" cy=\"125\" r=\"3\"></circle><circle class=\"m-obj\" cx=\"300\" cy=\"484\" r=\"9\"></circle><circle class=\"m-obj-dot\" cx=\"300\" cy=\"484\" r=\"3\"></circle><text class=\"m-lab\" x=\"93.5\" y=\"104.4\">Smoke stack</text><text class=\"m-lab\" x=\"514.1\" y=\"160.9\">Containers</text><text class=\"m-lab\" x=\"182.4\" y=\"271.0\">Tank</text><text class=\"m-lab\" x=\"81.9\" y=\"322.1\">Ruin</text><text class=\"m-lab\" x=\"502.7\" y=\"258.1\">Gothic ruin</text><text class=\"m-lab\" x=\"303.0\" y=\"175.3\">Manufactorum</text><text class=\"m-lab\" x=\"266.7\" y=\"460.9\">Rendering vats</text><text class=\"m-lab\" x=\"490.5\" y=\"483.8\">Starch silo</text><text class=\"m-lab\" x=\"60.6\" y=\"585.1\">Bone yard</text><circle class=\"tok-p\" cx=\"334.0\" cy=\"35.4\" r=\"19\"></circle><text class=\"tok-n two\" x=\"334.0\" y=\"40.9\">DA</text><circle class=\"tok-p\" cx=\"331.0\" cy=\"91.4\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"331.0\" y=\"96.9\">El</text><circle class=\"tok-p\" cx=\"363.5\" cy=\"91.4\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"363.5\" y=\"96.9\">M</text><circle class=\"tok-p\" cx=\"419.4\" cy=\"88.4\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"419.4\" y=\"93.9\">G</text><circle class=\"b-pk\" cx=\"407.0\" cy=\"79.6\" r=\"8.5\"></circle><text class=\"b-t\" x=\"407.0\" y=\"83.4\">P</text><circle class=\"tok-p\" cx=\"333.0\" cy=\"127.7\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"333.0\" y=\"133.2\">V</text><circle class=\"tok-p\" cx=\"373.3\" cy=\"128.7\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"373.3\" y=\"134.2\">Ez</text><circle class=\"tok-p\" cx=\"412.6\" cy=\"133.6\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"412.6\" y=\"139.1\">R</text><circle class=\"tok-p\" cx=\"439.1\" cy=\"169.9\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"439.1\" y=\"175.4\">B</text><circle class=\"tok-t\" cx=\"197.4\" cy=\"454.8\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"197.4\" y=\"460.3\">De</text><circle class=\"tok-t\" cx=\"238.7\" cy=\"481.3\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"238.7\" y=\"486.8\">Mi</text><circle class=\"tok-t\" cx=\"266.2\" cy=\"481.3\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"266.2\" y=\"486.8\">Rp</text><circle class=\"tok-t\" cx=\"291.7\" cy=\"515.7\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"291.7\" y=\"521.2\">W</text><text class=\"m-tick\" x=\"0\" y=\"618\">0\"</text><text class=\"m-tick\" x=\"150\" y=\"618\">6\"</text><text class=\"m-tick\" x=\"300\" y=\"618\">12\"</text><text class=\"m-tick\" x=\"450\" y=\"618\">18\"</text><text class=\"m-tick\" x=\"600\" y=\"618\">24\"</text></svg>",
-      "caption": "<ul class=\"b-key\"><li><span class=\"b b-pk\">P</span>The Package</li></ul>"
+      "viewBox": "-14 -24 628 668",
+      "label": "Deployment positions for Cycle 2.1: the Carrion Psalm across the containers quarter and the north side of the manufactorum, and Deuteronomy, Mistoffelees, Rumpus and Wit around the rendering vats.",
+      "clip": "mat21d",
+      "caption": {
+       "key": [
+        [
+         "pk",
+         "P",
+         "The Package"
+        ]
+       ]
+      },
+      "items": [
+       {
+        "board": "terrain"
+       },
+       {
+        "clip": [
+         {
+          "board": "terrain-2"
+         }
+        ]
+       },
+       {
+        "board": "terrain-3"
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 334.0,
+         "y": 35.4,
+         "t": "DA",
+         "r": 19
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 331.0,
+         "y": 91.4,
+         "t": "El"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 363.5,
+         "y": 91.4,
+         "t": "M"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 419.4,
+         "y": 88.4,
+         "t": "G"
+        }
+       },
+       {
+        "b": {
+         "k": "pk",
+         "x": 407.0,
+         "y": 79.6,
+         "t": "P"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 333.0,
+         "y": 127.7,
+         "t": "V"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 373.3,
+         "y": 128.7,
+         "t": "Ez"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 412.6,
+         "y": 133.6,
+         "t": "R"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 439.1,
+         "y": 169.9,
+         "t": "B"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 197.4,
+         "y": 454.8,
+         "t": "De"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 238.7,
+         "y": 481.3,
+         "t": "Mi"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 266.2,
+         "y": 481.3,
+         "t": "Rp"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 291.7,
+         "y": 515.7,
+         "t": "W"
+        }
+       },
+       {
+        "board": "ticks"
+       }
+      ]
      }
     }
    ]
@@ -444,8 +577,176 @@
     },
     {
      "map": {
-      "svg": "<svg aria-label=\"Positions at the end of round 1: the Carrion Psalm spread from the smoke stack to the gothic ruin, with Ratsong on the north objective and Blessed Filth on the gothic ruin roof; the Midnight Theatre around the rendering vats, with Wit on the south objective, Rumpus in the street below Blessed Filth, and Mungojerrie arriving at the edge of the bone yard.\" role=\"img\" viewbox=\"-14 -24 628 668\"><defs><clippath id=\"mat21r1\"><rect height=\"600\" width=\"600\" x=\"0\" y=\"0\"></rect></clippath></defs><text class=\"m-edge p\" x=\"450\" y=\"-8\">The Carrion Psalm deploy</text><text class=\"m-edge t\" x=\"150\" y=\"638\">The Midnight Theatre deploy</text><rect class=\"m-mat\" height=\"600\" width=\"600\" x=\"0\" y=\"0\"></rect><g clip-path=\"url(#mat21r1)\"><path class=\"m-grid\" d=\"M150 0V600M0 150H600M300 0V600M0 300H600M450 0V600M0 450H600\"></path><path class=\"svg-p\" d=\"M600 0H300V150A150 150 0 0 1 450 300H600Z\"></path><path class=\"svg-t\" d=\"M0 600H300V450A150 150 0 0 1 150 300H0Z\"></path><circle class=\"m-plat\" cx=\"93.5\" cy=\"101.2\" r=\"83.6\"></circle><circle class=\"m-tower\" cx=\"93.5\" cy=\"101.2\" r=\"38.9\"></circle><polyline class=\"m-ladder\" points=\"144.3,167.6 152.8,178.7\"></polyline><circle class=\"m-solid\" cx=\"244.2\" cy=\"30.0\" r=\"9.7\"></circle><circle class=\"m-solid\" cx=\"244.2\" cy=\"56.2\" r=\"9.7\"></circle><polyline class=\"m-wall\" points=\"319.0,68.1 411.4,68.8 410.9,19.4\"></polyline><rect class=\"m-solid\" height=\"50.0\" width=\"104.1\" x=\"460.9\" y=\"13.8\"></rect><rect class=\"m-solid\" height=\"50.0\" width=\"103.5\" x=\"462.6\" y=\"96.9\"></rect><rect class=\"m-top\" height=\"107.6\" width=\"49.3\" x=\"491.6\" y=\"26.2\"></rect><rect class=\"m-solid\" height=\"59.0\" rx=\"10\" width=\"38.0\" x=\"163.4\" y=\"197.6\"></rect><polyline class=\"m-wall\" points=\"9.8,230.7 88.3,230.7\"></polyline><rect class=\"m-solid\" height=\"136.0\" width=\"99.3\" x=\"31.7\" y=\"254.0\"></rect><polyline class=\"m-wall\" points=\"129.8,252.9 129.8,391.1 27.1,391.1\"></polyline><polyline class=\"m-wall\" points=\"8.1,320.9 57.1,320.9\"></polyline><rect class=\"m-solid\" height=\"152.7\" width=\"95.8\" x=\"455.1\" y=\"177.9\"></rect><polyline class=\"m-wall\" points=\"456.2,176.4 456.2,331.7 553.6,331.7\"></polyline><polyline class=\"m-wall\" points=\"512.6,241.0 600.0,241.0\"></polyline><polyline class=\"m-div\" points=\"209.0,229.7 209.0,113.1 393.3,113.1 393.3,221.9\"></polyline><polygon class=\"m-solid\" points=\"209.0,231.2 247.4,234.8 274.4,239.5 300.9,248.8 333.6,238.4 354.8,229.7 375.9,222.9 393.3,220.9 393.3,299.5 209.0,299.5\"></polygon><polyline class=\"m-wall\" points=\"207.9,229.7 207.9,299.5 394.4,299.5 393.3,220.9\"></polyline><polyline class=\"m-ladder\" points=\"300.0,248.5 300.0,234.5\"></polyline><polyline class=\"m-div\" points=\"318.0,357.7 355.5,357.7 355.5,498.1 217.1,498.1\"></polyline><polygon class=\"m-solid\" points=\"174.2,357.7 318.0,357.7 297.7,378.7 266.7,395.7 242.5,412.6 230.1,440.9 221.6,469.5 217.1,496.9 174.2,496.9\"></polygon><polyline class=\"m-wall\" points=\"318.0,356.0 174.2,356.0 174.2,496.9 217.1,496.9\"></polyline><polyline class=\"m-ladder\" points=\"257.0,402.5 265.0,414.0\"></polyline><polyline class=\"m-wall\" points=\"179.3,533.6 179.3,577.1\"></polyline><polyline class=\"m-wall\" points=\"247.6,535.9 338.6,533.6 339.1,573.7\"></polyline><polygon class=\"m-plat\" points=\"490.5,364.5 598.9,423.4 598.9,542.2 490.5,600.0 385.0,542.2 385.0,422.3\"></polygon><circle class=\"m-tower\" cx=\"491.5\" cy=\"482.4\" r=\"55\"></circle><polyline class=\"m-ladder\" points=\"443.0,390.5 449.8,402.8\"></polyline><polyline class=\"m-wall\" points=\"465.9,367.4 572.1,367.4\"></polyline><polyline class=\"m-div\" points=\"396.7,430.8 394.5,541.0\"></polyline><rect class=\"m-solid\" height=\"15.8\" width=\"9.2\" x=\"30.6\" y=\"431.9\"></rect><rect class=\"m-solid\" height=\"15.8\" width=\"9.2\" x=\"83.7\" y=\"432.5\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"26.0\" y=\"479.2\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"83.1\" y=\"479.8\"></rect><rect class=\"m-solid\" height=\"16.1\" width=\"9.2\" x=\"28.3\" y=\"515.8\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.3\" x=\"81.9\" y=\"514.7\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"30.6\" y=\"551.9\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"82.5\" y=\"548.5\"></rect><polyline class=\"m-wall\" points=\"128.1,421.1 128.1,488.4\"></polyline><polyline class=\"m-wall\" points=\"128.1,506.7 128.1,572.5\"></polyline></g><circle class=\"m-centre\" cx=\"300\" cy=\"300\" r=\"6\"></circle><circle class=\"m-obj\" cx=\"300\" cy=\"125\" r=\"9\"></circle><circle class=\"m-obj-dot\" cx=\"300\" cy=\"125\" r=\"3\"></circle><circle class=\"m-obj\" cx=\"300\" cy=\"484\" r=\"9\"></circle><circle class=\"m-obj-dot\" cx=\"300\" cy=\"484\" r=\"3\"></circle><text class=\"m-lab\" x=\"93.5\" y=\"104.4\">Smoke stack</text><text class=\"m-lab\" x=\"514.1\" y=\"160.9\">Containers</text><text class=\"m-lab\" x=\"182.4\" y=\"271.0\">Tank</text><text class=\"m-lab\" x=\"81.9\" y=\"322.1\">Ruin</text><text class=\"m-lab\" x=\"502.7\" y=\"258.1\">Gothic ruin</text><text class=\"m-lab\" x=\"303.0\" y=\"175.3\">Manufactorum</text><text class=\"m-lab\" x=\"266.7\" y=\"460.9\">Rendering vats</text><text class=\"m-lab\" x=\"490.5\" y=\"483.8\">Starch silo</text><text class=\"m-lab\" x=\"60.6\" y=\"585.1\">Bone yard</text><circle class=\"tok-p\" cx=\"205.2\" cy=\"86.8\" r=\"19\"></circle><text class=\"tok-n two\" x=\"205.2\" y=\"92.3\">DA</text><circle class=\"tok-p\" cx=\"251.5\" cy=\"89.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"251.5\" y=\"95.0\">G</text><circle class=\"b-pk\" cx=\"239.1\" cy=\"80.7\" r=\"8.5\"></circle><text class=\"b-t\" x=\"239.1\" y=\"84.5\">P</text><circle class=\"tok-p\" cx=\"187.7\" cy=\"118.2\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"187.7\" y=\"123.7\">M</text><circle class=\"tok-p\" cx=\"182.1\" cy=\"145.8\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"182.1\" y=\"151.3\">El</text><circle class=\"tok-p\" cx=\"313.4\" cy=\"98.8\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"313.4\" y=\"104.3\">R</text><circle class=\"tok-p\" cx=\"414.2\" cy=\"209.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"414.2\" y=\"215.0\">V</text><circle class=\"tok-p\" cx=\"414.2\" cy=\"251.1\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"414.2\" y=\"256.6\">Ez</text><circle class=\"tok-p\" cx=\"468.7\" cy=\"224.3\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"468.7\" y=\"229.8\">B</text><circle class=\"tok-t\" cx=\"196.0\" cy=\"369.2\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"196.0\" y=\"374.7\">De</text><circle class=\"tok-t\" cx=\"384.6\" cy=\"312.9\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"384.6\" y=\"318.4\">Rp</text><circle class=\"tok-t\" cx=\"337.4\" cy=\"384.9\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"337.4\" y=\"390.4\">Mi</text><circle class=\"tok-t\" cx=\"287.5\" cy=\"509.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"287.5\" y=\"515.0\">W</text><circle class=\"b-n\" cx=\"481.1\" cy=\"215.5\" r=\"8.5\"></circle><text class=\"b-t\" x=\"481.1\" y=\"219.3\">In</text><circle class=\"tok-t\" cx=\"14.3\" cy=\"436.0\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"14.3\" y=\"441.5\">Mj</text><text class=\"m-tick\" x=\"0\" y=\"618\">0\"</text><text class=\"m-tick\" x=\"150\" y=\"618\">6\"</text><text class=\"m-tick\" x=\"300\" y=\"618\">12\"</text><text class=\"m-tick\" x=\"450\" y=\"618\">18\"</text><text class=\"m-tick\" x=\"600\" y=\"618\">24\"</text><circle class=\"b-v\" cx=\"208.4\" cy=\"360.4\" r=\"8.5\"></circle><text class=\"b-t\" x=\"208.4\" y=\"364.2\">V</text></svg>",
-      "caption": "<p>Positions at the end of round 1</p><ul class=\"b-key\"><li><span class=\"b b-pk\">P</span>The Package</li><li><span class=\"b b-n\">In</span>Insanity</li><li><span class=\"b b-v\">V</span>Perfect Void</li></ul>"
+      "viewBox": "-14 -24 628 668",
+      "label": "Positions at the end of round 1: the Carrion Psalm spread from the smoke stack to the gothic ruin, with Ratsong on the north objective and Blessed Filth on the gothic ruin roof; the Midnight Theatre around the rendering vats, with Wit on the south objective, Rumpus in the street below Blessed Filth, and Mungojerrie arriving at the edge of the bone yard.",
+      "clip": "mat21r1",
+      "caption": {
+       "text": "Positions at the end of round 1",
+       "key": [
+        [
+         "pk",
+         "P",
+         "The Package"
+        ],
+        [
+         "n",
+         "In",
+         "Insanity"
+        ],
+        [
+         "v",
+         "V",
+         "Perfect Void"
+        ]
+       ]
+      },
+      "items": [
+       {
+        "board": "terrain"
+       },
+       {
+        "clip": [
+         {
+          "board": "terrain-2"
+         }
+        ]
+       },
+       {
+        "board": "terrain-3"
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 205.2,
+         "y": 86.8,
+         "t": "DA",
+         "r": 19
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 251.5,
+         "y": 89.5,
+         "t": "G"
+        }
+       },
+       {
+        "b": {
+         "k": "pk",
+         "x": 239.1,
+         "y": 80.7,
+         "t": "P"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 187.7,
+         "y": 118.2,
+         "t": "M"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 182.1,
+         "y": 145.8,
+         "t": "El"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 313.4,
+         "y": 98.8,
+         "t": "R"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 414.2,
+         "y": 209.5,
+         "t": "V"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 414.2,
+         "y": 251.1,
+         "t": "Ez"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 468.7,
+         "y": 224.3,
+         "t": "B"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 196.0,
+         "y": 369.2,
+         "t": "De"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 384.6,
+         "y": 312.9,
+         "t": "Rp"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 337.4,
+         "y": 384.9,
+         "t": "Mi"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 287.5,
+         "y": 509.5,
+         "t": "W"
+        }
+       },
+       {
+        "b": {
+         "k": "n",
+         "x": 481.1,
+         "y": 215.5,
+         "t": "In"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 14.3,
+         "y": 436.0,
+         "t": "Mj"
+        }
+       },
+       {
+        "board": "ticks"
+       },
+       {
+        "b": {
+         "k": "v",
+         "x": 208.4,
+         "y": 360.4,
+         "t": "V"
+        }
+       }
+      ]
      }
     },
     {
@@ -764,8 +1065,232 @@
     },
     {
      "map": {
-      "svg": "<svg aria-label=\"Positions at the end of round 2: the Carrion Psalm around the tank and the north objective, with the graviton pulse beside Elijah; the Midnight Theatre around the rendering vats, with Mungojerrie at the bone yard and Growltiger arriving on the south edge.\" role=\"img\" viewbox=\"-14 -24 628 668\"><defs><clippath id=\"mat21r2\"><rect height=\"600\" width=\"600\" x=\"0\" y=\"0\"></rect></clippath></defs><text class=\"m-edge p\" x=\"450\" y=\"-8\">The Carrion Psalm deploy</text><text class=\"m-edge t\" x=\"150\" y=\"638\">The Midnight Theatre deploy</text><rect class=\"m-mat\" height=\"600\" width=\"600\" x=\"0\" y=\"0\"></rect><g clip-path=\"url(#mat21r2)\"><path class=\"m-grid\" d=\"M150 0V600M0 150H600M300 0V600M0 300H600M450 0V600M0 450H600\"></path><path class=\"svg-p\" d=\"M600 0H300V150A150 150 0 0 1 450 300H600Z\"></path><path class=\"svg-t\" d=\"M0 600H300V450A150 150 0 0 1 150 300H0Z\"></path><circle class=\"m-plat\" cx=\"93.5\" cy=\"101.2\" r=\"83.6\"></circle><circle class=\"m-tower\" cx=\"93.5\" cy=\"101.2\" r=\"38.9\"></circle><polyline class=\"m-ladder\" points=\"144.3,167.6 152.8,178.7\"></polyline><circle class=\"m-solid\" cx=\"244.2\" cy=\"30.0\" r=\"9.7\"></circle><circle class=\"m-solid\" cx=\"244.2\" cy=\"56.2\" r=\"9.7\"></circle><polyline class=\"m-wall\" points=\"319.0,68.1 411.4,68.8 410.9,19.4\"></polyline><rect class=\"m-solid\" height=\"50.0\" width=\"104.1\" x=\"460.9\" y=\"13.8\"></rect><rect class=\"m-solid\" height=\"50.0\" width=\"103.5\" x=\"462.6\" y=\"96.9\"></rect><rect class=\"m-top\" height=\"107.6\" width=\"49.3\" x=\"491.6\" y=\"26.2\"></rect><rect class=\"m-solid\" height=\"59.0\" rx=\"10\" width=\"38.0\" x=\"163.4\" y=\"197.6\"></rect><polyline class=\"m-wall\" points=\"9.8,230.7 88.3,230.7\"></polyline><rect class=\"m-solid\" height=\"136.0\" width=\"99.3\" x=\"31.7\" y=\"254.0\"></rect><polyline class=\"m-wall\" points=\"129.8,252.9 129.8,391.1 27.1,391.1\"></polyline><polyline class=\"m-wall\" points=\"8.1,320.9 57.1,320.9\"></polyline><rect class=\"m-solid\" height=\"152.7\" width=\"95.8\" x=\"455.1\" y=\"177.9\"></rect><polyline class=\"m-wall\" points=\"456.2,176.4 456.2,331.7 553.6,331.7\"></polyline><polyline class=\"m-wall\" points=\"512.6,241.0 600.0,241.0\"></polyline><polyline class=\"m-div\" points=\"209.0,229.7 209.0,113.1 393.3,113.1 393.3,221.9\"></polyline><polygon class=\"m-solid\" points=\"209.0,231.2 247.4,234.8 274.4,239.5 300.9,248.8 333.6,238.4 354.8,229.7 375.9,222.9 393.3,220.9 393.3,299.5 209.0,299.5\"></polygon><polyline class=\"m-wall\" points=\"207.9,229.7 207.9,299.5 394.4,299.5 393.3,220.9\"></polyline><polyline class=\"m-ladder\" points=\"300.0,248.5 300.0,234.5\"></polyline><polyline class=\"m-div\" points=\"318.0,357.7 355.5,357.7 355.5,498.1 217.1,498.1\"></polyline><polygon class=\"m-solid\" points=\"174.2,357.7 318.0,357.7 297.7,378.7 266.7,395.7 242.5,412.6 230.1,440.9 221.6,469.5 217.1,496.9 174.2,496.9\"></polygon><polyline class=\"m-wall\" points=\"318.0,356.0 174.2,356.0 174.2,496.9 217.1,496.9\"></polyline><polyline class=\"m-ladder\" points=\"257.0,402.5 265.0,414.0\"></polyline><polyline class=\"m-wall\" points=\"179.3,533.6 179.3,577.1\"></polyline><polyline class=\"m-wall\" points=\"247.6,535.9 338.6,533.6 339.1,573.7\"></polyline><polygon class=\"m-plat\" points=\"490.5,364.5 598.9,423.4 598.9,542.2 490.5,600.0 385.0,542.2 385.0,422.3\"></polygon><circle class=\"m-tower\" cx=\"491.5\" cy=\"482.4\" r=\"55\"></circle><polyline class=\"m-ladder\" points=\"443.0,390.5 449.8,402.8\"></polyline><polyline class=\"m-wall\" points=\"465.9,367.4 572.1,367.4\"></polyline><polyline class=\"m-div\" points=\"396.7,430.8 394.5,541.0\"></polyline><rect class=\"m-solid\" height=\"15.8\" width=\"9.2\" x=\"30.6\" y=\"431.9\"></rect><rect class=\"m-solid\" height=\"15.8\" width=\"9.2\" x=\"83.7\" y=\"432.5\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"26.0\" y=\"479.2\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"83.1\" y=\"479.8\"></rect><rect class=\"m-solid\" height=\"16.1\" width=\"9.2\" x=\"28.3\" y=\"515.8\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.3\" x=\"81.9\" y=\"514.7\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"30.6\" y=\"551.9\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"82.5\" y=\"548.5\"></rect><polyline class=\"m-wall\" points=\"128.1,421.1 128.1,488.4\"></polyline><polyline class=\"m-wall\" points=\"128.1,506.7 128.1,572.5\"></polyline></g><circle class=\"m-centre\" cx=\"300\" cy=\"300\" r=\"6\"></circle><circle class=\"m-obj\" cx=\"300\" cy=\"125\" r=\"9\"></circle><circle class=\"m-obj-dot\" cx=\"300\" cy=\"125\" r=\"3\"></circle><circle class=\"m-obj\" cx=\"300\" cy=\"484\" r=\"9\"></circle><circle class=\"m-obj-dot\" cx=\"300\" cy=\"484\" r=\"3\"></circle><text class=\"m-lab\" x=\"93.5\" y=\"104.4\">Smoke stack</text><text class=\"m-lab\" x=\"514.1\" y=\"160.9\">Containers</text><text class=\"m-lab\" x=\"182.4\" y=\"271.0\">Tank</text><text class=\"m-lab\" x=\"81.9\" y=\"322.1\">Ruin</text><text class=\"m-lab\" x=\"502.7\" y=\"258.1\">Gothic ruin</text><text class=\"m-lab\" x=\"303.0\" y=\"175.3\">Manufactorum</text><text class=\"m-lab\" x=\"266.7\" y=\"460.9\">Rendering vats</text><text class=\"m-lab\" x=\"490.5\" y=\"483.8\">Starch silo</text><text class=\"m-lab\" x=\"60.6\" y=\"585.1\">Bone yard</text><circle class=\"m-grav\" cx=\"89.8\" cy=\"227.8\" r=\"42.6\"></circle><circle class=\"tok-p\" cx=\"300.0\" cy=\"94.4\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"300.0\" y=\"99.9\">R</text><circle class=\"tok-p\" cx=\"142.6\" cy=\"194.4\" r=\"19\"></circle><text class=\"tok-n two\" x=\"142.6\" y=\"199.9\">DA</text><circle class=\"tok-p\" cx=\"192.6\" cy=\"169.4\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"192.6\" y=\"174.9\">G</text><circle class=\"b-pk\" cx=\"180.2\" cy=\"160.6\" r=\"8.5\"></circle><text class=\"b-t\" x=\"180.2\" y=\"164.4\">P</text><circle class=\"tok-p\" cx=\"173.1\" cy=\"189.8\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"173.1\" y=\"195.3\">M</text><circle class=\"tok-p\" cx=\"100.9\" cy=\"217.6\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"100.9\" y=\"223.1\">El</text><circle class=\"tok-p\" cx=\"438.9\" cy=\"321.3\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"438.9\" y=\"326.8\">V</text><circle class=\"tok-p\" cx=\"402.8\" cy=\"307.4\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"402.8\" y=\"312.9\">Ez</text><circle class=\"tok-p\" cx=\"540.7\" cy=\"250.0\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"540.7\" y=\"255.5\">B</text><circle class=\"tok-t\" cx=\"305.6\" cy=\"313.0\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"305.6\" y=\"318.5\">Rp</text><circle class=\"tok-t\" cx=\"188.9\" cy=\"370.4\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"188.9\" y=\"375.9\">De</text><circle class=\"tok-t\" cx=\"368.5\" cy=\"396.3\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"368.5\" y=\"401.8\">Mi</text><circle class=\"tok-t\" cx=\"11.1\" cy=\"437.0\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"11.1\" y=\"442.5\">Mj</text><circle class=\"tok-t\" cx=\"363.0\" cy=\"512.0\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"363.0\" y=\"517.5\">W</text><circle class=\"tok-t\" cx=\"214.8\" cy=\"585.2\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"214.8\" y=\"590.7\">G</text><circle class=\"b-w\" cx=\"88.5\" cy=\"208.8\" r=\"8.5\"></circle><text class=\"b-t\" x=\"88.5\" y=\"212.6\">W</text><circle class=\"b-s\" cx=\"73.5\" cy=\"208.8\" r=\"8.5\"></circle><text class=\"b-t\" x=\"73.5\" y=\"212.6\">S</text><circle class=\"b-s\" cx=\"185.5\" cy=\"181.0\" r=\"8.5\"></circle><text class=\"b-t\" x=\"185.5\" y=\"184.8\">S</text><circle class=\"b-a\" cx=\"451.3\" cy=\"312.5\" r=\"8.5\"></circle><text class=\"b-t\" x=\"451.3\" y=\"316.3\">A</text><circle class=\"b-n\" cx=\"553.1\" cy=\"241.2\" r=\"8.5\"></circle><text class=\"b-t\" x=\"553.1\" y=\"245.0\">In</text><circle class=\"b-i\" cx=\"318.0\" cy=\"304.2\" r=\"8.5\"></circle><text class=\"b-t\" x=\"318.0\" y=\"308.0\">I</text><circle class=\"b-i\" cx=\"380.9\" cy=\"387.5\" r=\"8.5\"></circle><text class=\"b-t\" x=\"380.9\" y=\"391.3\">I</text><circle class=\"b-a\" cx=\"23.5\" cy=\"428.2\" r=\"8.5\"></circle><text class=\"b-t\" x=\"23.5\" y=\"432.0\">A</text><text class=\"m-tick\" x=\"0\" y=\"618\">0\"</text><text class=\"m-tick\" x=\"150\" y=\"618\">6\"</text><text class=\"m-tick\" x=\"300\" y=\"618\">12\"</text><text class=\"m-tick\" x=\"450\" y=\"618\">18\"</text><text class=\"m-tick\" x=\"600\" y=\"618\">24\"</text><circle class=\"b-v\" cx=\"201.3\" cy=\"361.6\" r=\"8.5\"></circle><text class=\"b-t\" x=\"201.3\" y=\"365.4\">V</text></svg>",
-      "caption": "<p>Positions at the end of round 2</p><ul class=\"b-key\"><li><span class=\"b b-pk\">P</span>The Package</li><li><span class=\"b b-s\">S</span>Suppressed</li><li><span class=\"b b-w\">W</span>Wounded</li><li><span class=\"b b-i\">I</span>Injured</li><li><span class=\"b b-a\">A</span>Out of ammo</li><li><span class=\"b b-n\">In</span>Insanity</li><li><span class=\"b\" style=\"background:#7fd4f5\"> </span>Graviton pulse</li><li><span class=\"b b-v\">V</span>Perfect Void</li></ul>"
+      "viewBox": "-14 -24 628 668",
+      "label": "Positions at the end of round 2: the Carrion Psalm around the tank and the north objective, with the graviton pulse beside Elijah; the Midnight Theatre around the rendering vats, with Mungojerrie at the bone yard and Growltiger arriving on the south edge.",
+      "clip": "mat21r2",
+      "caption": "<p>Positions at the end of round 2</p><ul class=\"b-key\"><li><span class=\"b b-pk\">P</span>The Package</li><li><span class=\"b b-s\">S</span>Suppressed</li><li><span class=\"b b-w\">W</span>Wounded</li><li><span class=\"b b-i\">I</span>Injured</li><li><span class=\"b b-a\">A</span>Out of ammo</li><li><span class=\"b b-n\">In</span>Insanity</li><li><span class=\"b\" style=\"background:#7fd4f5\"> </span>Graviton pulse</li><li><span class=\"b b-v\">V</span>Perfect Void</li></ul>",
+      "items": [
+       {
+        "board": "terrain"
+       },
+       {
+        "clip": [
+         {
+          "board": "terrain-2"
+         }
+        ]
+       },
+       {
+        "board": "terrain-3"
+       },
+       {
+        "el": [
+         "circle",
+         {
+          "class": "m-grav",
+          "cx": "89.8",
+          "cy": "227.8",
+          "r": "42.6"
+         }
+        ]
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 300.0,
+         "y": 94.4,
+         "t": "R"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 142.6,
+         "y": 194.4,
+         "t": "DA",
+         "r": 19
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 192.6,
+         "y": 169.4,
+         "t": "G"
+        }
+       },
+       {
+        "b": {
+         "k": "pk",
+         "x": 180.2,
+         "y": 160.6,
+         "t": "P"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 173.1,
+         "y": 189.8,
+         "t": "M"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 100.9,
+         "y": 217.6,
+         "t": "El"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 438.9,
+         "y": 321.3,
+         "t": "V"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 402.8,
+         "y": 307.4,
+         "t": "Ez"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 540.7,
+         "y": 250.0,
+         "t": "B"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 305.6,
+         "y": 313.0,
+         "t": "Rp"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 188.9,
+         "y": 370.4,
+         "t": "De"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 368.5,
+         "y": 396.3,
+         "t": "Mi"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 11.1,
+         "y": 437.0,
+         "t": "Mj"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 363.0,
+         "y": 512.0,
+         "t": "W"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 214.8,
+         "y": 585.2,
+         "t": "G"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 88.5,
+         "y": 208.8,
+         "t": "W"
+        }
+       },
+       {
+        "b": {
+         "k": "s",
+         "x": 73.5,
+         "y": 208.8,
+         "t": "S"
+        }
+       },
+       {
+        "b": {
+         "k": "s",
+         "x": 185.5,
+         "y": 181.0,
+         "t": "S"
+        }
+       },
+       {
+        "b": {
+         "k": "a",
+         "x": 451.3,
+         "y": 312.5,
+         "t": "A"
+        }
+       },
+       {
+        "b": {
+         "k": "n",
+         "x": 553.1,
+         "y": 241.2,
+         "t": "In"
+        }
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 318.0,
+         "y": 304.2,
+         "t": "I"
+        }
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 380.9,
+         "y": 387.5,
+         "t": "I"
+        }
+       },
+       {
+        "b": {
+         "k": "a",
+         "x": 23.5,
+         "y": 428.2,
+         "t": "A"
+        }
+       },
+       {
+        "board": "ticks"
+       },
+       {
+        "b": {
+         "k": "v",
+         "x": 201.3,
+         "y": 361.6,
+         "t": "V"
+        }
+       }
+      ]
      }
     },
     {
@@ -1005,8 +1530,276 @@
     },
     {
      "map": {
-      "svg": "<svg aria-label=\"Positions at the end of round 3: the Carrion Psalm pushing down the west street and east past the gothic ruin, with Ratsong on the north objective; the Midnight Theatre around the rendering vats and along the south edge, with Demeter, Rumpleteaser and Jellylorum arriving.\" role=\"img\" viewbox=\"-14 -24 628 668\"><defs><clippath id=\"mat21r3\"><rect height=\"600\" width=\"600\" x=\"0\" y=\"0\"></rect></clippath></defs><text class=\"m-edge p\" x=\"450\" y=\"-8\">The Carrion Psalm deploy</text><text class=\"m-edge t\" x=\"150\" y=\"638\">The Midnight Theatre deploy</text><rect class=\"m-mat\" height=\"600\" width=\"600\" x=\"0\" y=\"0\"></rect><g clip-path=\"url(#mat21r3)\"><path class=\"m-grid\" d=\"M150 0V600M0 150H600M300 0V600M0 300H600M450 0V600M0 450H600\"></path><path class=\"svg-p\" d=\"M600 0H300V150A150 150 0 0 1 450 300H600Z\"></path><path class=\"svg-t\" d=\"M0 600H300V450A150 150 0 0 1 150 300H0Z\"></path><circle class=\"m-plat\" cx=\"93.5\" cy=\"101.2\" r=\"83.6\"></circle><circle class=\"m-tower\" cx=\"93.5\" cy=\"101.2\" r=\"38.9\"></circle><polyline class=\"m-ladder\" points=\"144.3,167.6 152.8,178.7\"></polyline><circle class=\"m-solid\" cx=\"244.2\" cy=\"30.0\" r=\"9.7\"></circle><circle class=\"m-solid\" cx=\"244.2\" cy=\"56.2\" r=\"9.7\"></circle><polyline class=\"m-wall\" points=\"319.0,68.1 411.4,68.8 410.9,19.4\"></polyline><rect class=\"m-solid\" height=\"50.0\" width=\"104.1\" x=\"460.9\" y=\"13.8\"></rect><rect class=\"m-solid\" height=\"50.0\" width=\"103.5\" x=\"462.6\" y=\"96.9\"></rect><rect class=\"m-top\" height=\"107.6\" width=\"49.3\" x=\"491.6\" y=\"26.2\"></rect><rect class=\"m-solid\" height=\"59.0\" rx=\"10\" width=\"38.0\" x=\"163.4\" y=\"197.6\"></rect><polyline class=\"m-wall\" points=\"9.8,230.7 88.3,230.7\"></polyline><rect class=\"m-solid\" height=\"136.0\" width=\"99.3\" x=\"31.7\" y=\"254.0\"></rect><polyline class=\"m-wall\" points=\"129.8,252.9 129.8,391.1 27.1,391.1\"></polyline><polyline class=\"m-wall\" points=\"8.1,320.9 57.1,320.9\"></polyline><rect class=\"m-solid\" height=\"152.7\" width=\"95.8\" x=\"455.1\" y=\"177.9\"></rect><polyline class=\"m-wall\" points=\"456.2,176.4 456.2,331.7 553.6,331.7\"></polyline><polyline class=\"m-wall\" points=\"512.6,241.0 600.0,241.0\"></polyline><polyline class=\"m-div\" points=\"209.0,229.7 209.0,113.1 393.3,113.1 393.3,221.9\"></polyline><polygon class=\"m-solid\" points=\"209.0,231.2 247.4,234.8 274.4,239.5 300.9,248.8 333.6,238.4 354.8,229.7 375.9,222.9 393.3,220.9 393.3,299.5 209.0,299.5\"></polygon><polyline class=\"m-wall\" points=\"207.9,229.7 207.9,299.5 394.4,299.5 393.3,220.9\"></polyline><polyline class=\"m-ladder\" points=\"300.0,248.5 300.0,234.5\"></polyline><polyline class=\"m-div\" points=\"318.0,357.7 355.5,357.7 355.5,498.1 217.1,498.1\"></polyline><polygon class=\"m-solid\" points=\"174.2,357.7 318.0,357.7 297.7,378.7 266.7,395.7 242.5,412.6 230.1,440.9 221.6,469.5 217.1,496.9 174.2,496.9\"></polygon><polyline class=\"m-wall\" points=\"318.0,356.0 174.2,356.0 174.2,496.9 217.1,496.9\"></polyline><polyline class=\"m-ladder\" points=\"257.0,402.5 265.0,414.0\"></polyline><polyline class=\"m-wall\" points=\"179.3,533.6 179.3,577.1\"></polyline><polyline class=\"m-wall\" points=\"247.6,535.9 338.6,533.6 339.1,573.7\"></polyline><polygon class=\"m-plat\" points=\"490.5,364.5 598.9,423.4 598.9,542.2 490.5,600.0 385.0,542.2 385.0,422.3\"></polygon><circle class=\"m-tower\" cx=\"491.5\" cy=\"482.4\" r=\"55\"></circle><polyline class=\"m-ladder\" points=\"443.0,390.5 449.8,402.8\"></polyline><polyline class=\"m-wall\" points=\"465.9,367.4 572.1,367.4\"></polyline><polyline class=\"m-div\" points=\"396.7,430.8 394.5,541.0\"></polyline><rect class=\"m-solid\" height=\"15.8\" width=\"9.2\" x=\"30.6\" y=\"431.9\"></rect><rect class=\"m-solid\" height=\"15.8\" width=\"9.2\" x=\"83.7\" y=\"432.5\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"26.0\" y=\"479.2\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"83.1\" y=\"479.8\"></rect><rect class=\"m-solid\" height=\"16.1\" width=\"9.2\" x=\"28.3\" y=\"515.8\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.3\" x=\"81.9\" y=\"514.7\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"30.6\" y=\"551.9\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"82.5\" y=\"548.5\"></rect><polyline class=\"m-wall\" points=\"128.1,421.1 128.1,488.4\"></polyline><polyline class=\"m-wall\" points=\"128.1,506.7 128.1,572.5\"></polyline></g><circle class=\"m-centre\" cx=\"300\" cy=\"300\" r=\"6\"></circle><circle class=\"m-obj\" cx=\"300\" cy=\"125\" r=\"9\"></circle><circle class=\"m-obj-dot\" cx=\"300\" cy=\"125\" r=\"3\"></circle><circle class=\"m-obj\" cx=\"300\" cy=\"484\" r=\"9\"></circle><circle class=\"m-obj-dot\" cx=\"300\" cy=\"484\" r=\"3\"></circle><text class=\"m-lab\" x=\"93.5\" y=\"104.4\">Smoke stack</text><text class=\"m-lab\" x=\"514.1\" y=\"160.9\">Containers</text><text class=\"m-lab\" x=\"182.4\" y=\"271.0\">Tank</text><text class=\"m-lab\" x=\"81.9\" y=\"322.1\">Ruin</text><text class=\"m-lab\" x=\"502.7\" y=\"258.1\">Gothic ruin</text><text class=\"m-lab\" x=\"303.0\" y=\"175.3\">Manufactorum</text><text class=\"m-lab\" x=\"266.7\" y=\"460.9\">Rendering vats</text><text class=\"m-lab\" x=\"490.5\" y=\"483.8\">Starch silo</text><text class=\"m-lab\" x=\"60.6\" y=\"585.1\">Bone yard</text><circle class=\"tok-p\" cx=\"300.0\" cy=\"94.4\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"300.0\" y=\"99.9\">R</text><circle class=\"tok-p\" cx=\"31.5\" cy=\"303.7\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"31.5\" y=\"309.2\">El</text><circle class=\"tok-p\" cx=\"38.9\" cy=\"361.1\" r=\"19\"></circle><text class=\"tok-n two\" x=\"38.9\" y=\"366.6\">DA</text><circle class=\"tok-p\" cx=\"146.3\" cy=\"345.4\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"146.3\" y=\"350.9\">G</text><circle class=\"tok-p\" cx=\"146.3\" cy=\"377.8\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"146.3\" y=\"383.3\">M</text><circle class=\"tok-p\" cx=\"437.0\" cy=\"314.8\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"437.0\" y=\"320.3\">V</text><circle class=\"tok-p\" cx=\"474.1\" cy=\"313.9\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"474.1\" y=\"319.4\">B</text><circle class=\"tok-p\" cx=\"394.4\" cy=\"411.1\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"394.4\" y=\"416.6\">Ez</text><circle class=\"tok-t\" cx=\"587.5\" cy=\"48.1\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"587.5\" y=\"53.6\">Dm</text><circle class=\"tok-t\" cx=\"336.1\" cy=\"374.1\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"336.1\" y=\"379.6\">Rp</text><circle class=\"tok-t\" cx=\"192.6\" cy=\"427.8\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"192.6\" y=\"433.3\">De</text><circle class=\"tok-t\" cx=\"290.7\" cy=\"469.4\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"290.7\" y=\"474.9\">Mi</text><circle class=\"tok-t\" cx=\"12.5\" cy=\"438.0\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"12.5\" y=\"443.5\">Mj</text><circle class=\"tok-t\" cx=\"12.5\" cy=\"586.1\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"12.5\" y=\"591.6\">Rt</text><circle class=\"tok-t\" cx=\"366.7\" cy=\"585.2\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"366.7\" y=\"590.7\">G</text><circle class=\"tok-t\" cx=\"460.2\" cy=\"581.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"460.2\" y=\"587.0\">W</text><circle class=\"tok-t\" cx=\"585.2\" cy=\"587.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"585.2\" y=\"593.0\">J</text><circle class=\"b-w\" cx=\"43.9\" cy=\"294.9\" r=\"8.5\"></circle><text class=\"b-t\" x=\"43.9\" y=\"298.7\">W</text><circle class=\"b-pk\" cx=\"133.9\" cy=\"336.6\" r=\"8.5\"></circle><text class=\"b-t\" x=\"133.9\" y=\"340.4\">P</text><circle class=\"b-n\" cx=\"486.5\" cy=\"305.1\" r=\"8.5\"></circle><text class=\"b-t\" x=\"486.5\" y=\"308.9\">In</text><circle class=\"b-s\" cx=\"406.8\" cy=\"402.3\" r=\"8.5\"></circle><text class=\"b-t\" x=\"406.8\" y=\"406.1\">S</text><circle class=\"b-i\" cx=\"348.5\" cy=\"365.3\" r=\"8.5\"></circle><text class=\"b-t\" x=\"348.5\" y=\"369.1\">I</text><circle class=\"b-i\" cx=\"303.1\" cy=\"460.6\" r=\"8.5\"></circle><text class=\"b-t\" x=\"303.1\" y=\"464.4\">I</text><circle class=\"b-i\" cx=\"24.9\" cy=\"429.2\" r=\"8.5\"></circle><text class=\"b-t\" x=\"24.9\" y=\"433.0\">SI</text><circle class=\"b-a\" cx=\"379.1\" cy=\"576.4\" r=\"8.5\"></circle><text class=\"b-t\" x=\"379.1\" y=\"580.2\">A</text><circle class=\"b-a\" cx=\"205.0\" cy=\"419.0\" r=\"8.5\"></circle><text class=\"b-t\" x=\"205.0\" y=\"422.8\">A</text><text class=\"m-tick\" x=\"0\" y=\"618\">0\"</text><text class=\"m-tick\" x=\"150\" y=\"618\">6\"</text><text class=\"m-tick\" x=\"300\" y=\"618\">12\"</text><text class=\"m-tick\" x=\"450\" y=\"618\">18\"</text><text class=\"m-tick\" x=\"600\" y=\"618\">24\"</text></svg>",
-      "caption": "<p>Positions at the end of round 3</p><ul class=\"b-key\"><li><span class=\"b b-pk\">P</span>The Package</li><li><span class=\"b b-s\">S</span>Suppressed</li><li><span class=\"b b-w\">W</span>Wounded</li><li><span class=\"b b-i\">I</span>Injured</li><li><span class=\"b b-i\">SI</span>Seriously Injured</li><li><span class=\"b b-a\">A</span>Out of ammo</li><li><span class=\"b b-n\">In</span>Insanity</li></ul>"
+      "viewBox": "-14 -24 628 668",
+      "label": "Positions at the end of round 3: the Carrion Psalm pushing down the west street and east past the gothic ruin, with Ratsong on the north objective; the Midnight Theatre around the rendering vats and along the south edge, with Demeter, Rumpleteaser and Jellylorum arriving.",
+      "clip": "mat21r3",
+      "caption": {
+       "text": "Positions at the end of round 3",
+       "key": [
+        [
+         "pk",
+         "P",
+         "The Package"
+        ],
+        [
+         "s",
+         "S",
+         "Suppressed"
+        ],
+        [
+         "w",
+         "W",
+         "Wounded"
+        ],
+        [
+         "i",
+         "I",
+         "Injured"
+        ],
+        [
+         "i",
+         "SI",
+         "Seriously Injured"
+        ],
+        [
+         "a",
+         "A",
+         "Out of ammo"
+        ],
+        [
+         "n",
+         "In",
+         "Insanity"
+        ]
+       ]
+      },
+      "items": [
+       {
+        "board": "terrain"
+       },
+       {
+        "clip": [
+         {
+          "board": "terrain-2"
+         }
+        ]
+       },
+       {
+        "board": "terrain-3"
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 300.0,
+         "y": 94.4,
+         "t": "R"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 31.5,
+         "y": 303.7,
+         "t": "El"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 38.9,
+         "y": 361.1,
+         "t": "DA",
+         "r": 19
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 146.3,
+         "y": 345.4,
+         "t": "G"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 146.3,
+         "y": 377.8,
+         "t": "M"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 437.0,
+         "y": 314.8,
+         "t": "V"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 474.1,
+         "y": 313.9,
+         "t": "B"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 394.4,
+         "y": 411.1,
+         "t": "Ez"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 587.5,
+         "y": 48.1,
+         "t": "Dm"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 336.1,
+         "y": 374.1,
+         "t": "Rp"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 192.6,
+         "y": 427.8,
+         "t": "De"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 290.7,
+         "y": 469.4,
+         "t": "Mi"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 12.5,
+         "y": 438.0,
+         "t": "Mj"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 12.5,
+         "y": 586.1,
+         "t": "Rt"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 366.7,
+         "y": 585.2,
+         "t": "G"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 460.2,
+         "y": 581.5,
+         "t": "W"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 585.2,
+         "y": 587.5,
+         "t": "J"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 43.9,
+         "y": 294.9,
+         "t": "W"
+        }
+       },
+       {
+        "b": {
+         "k": "pk",
+         "x": 133.9,
+         "y": 336.6,
+         "t": "P"
+        }
+       },
+       {
+        "b": {
+         "k": "n",
+         "x": 486.5,
+         "y": 305.1,
+         "t": "In"
+        }
+       },
+       {
+        "b": {
+         "k": "s",
+         "x": 406.8,
+         "y": 402.3,
+         "t": "S"
+        }
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 348.5,
+         "y": 365.3,
+         "t": "I"
+        }
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 303.1,
+         "y": 460.6,
+         "t": "I"
+        }
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 24.9,
+         "y": 429.2,
+         "t": "SI"
+        }
+       },
+       {
+        "b": {
+         "k": "a",
+         "x": 379.1,
+         "y": 576.4,
+         "t": "A"
+        }
+       },
+       {
+        "b": {
+         "k": "a",
+         "x": 205.0,
+         "y": 419.0,
+         "t": "A"
+        }
+       },
+       {
+        "board": "ticks"
+       }
+      ]
      }
     },
     {
@@ -1311,8 +2104,279 @@
     },
     {
      "map": {
-      "svg": "<svg aria-label=\"Positions at the end of round 4: Macavity on the north objective and Mistoffelees on the south; the Carrion Psalm pushed into the bone yard and the Theatre's corner, with Gutter Cantor at the west edge after delivering the package; Growltiger out of action south of the rendering vats.\" role=\"img\" viewbox=\"-14 -24 628 668\"><defs><clippath id=\"mat21r4\"><rect height=\"600\" width=\"600\" x=\"0\" y=\"0\"></rect></clippath></defs><text class=\"m-edge p\" x=\"450\" y=\"-8\">The Carrion Psalm deploy</text><text class=\"m-edge t\" x=\"150\" y=\"638\">The Midnight Theatre deploy</text><rect class=\"m-mat\" height=\"600\" width=\"600\" x=\"0\" y=\"0\"></rect><g clip-path=\"url(#mat21r4)\"><path class=\"m-grid\" d=\"M150 0V600M0 150H600M300 0V600M0 300H600M450 0V600M0 450H600\"></path><path class=\"svg-p\" d=\"M600 0H300V150A150 150 0 0 1 450 300H600Z\"></path><path class=\"svg-t\" d=\"M0 600H300V450A150 150 0 0 1 150 300H0Z\"></path><circle class=\"m-plat\" cx=\"93.5\" cy=\"101.2\" r=\"83.6\"></circle><circle class=\"m-tower\" cx=\"93.5\" cy=\"101.2\" r=\"38.9\"></circle><polyline class=\"m-ladder\" points=\"144.3,167.6 152.8,178.7\"></polyline><circle class=\"m-solid\" cx=\"244.2\" cy=\"30.0\" r=\"9.7\"></circle><circle class=\"m-solid\" cx=\"244.2\" cy=\"56.2\" r=\"9.7\"></circle><polyline class=\"m-wall\" points=\"319.0,68.1 411.4,68.8 410.9,19.4\"></polyline><rect class=\"m-solid\" height=\"50.0\" width=\"104.1\" x=\"460.9\" y=\"13.8\"></rect><rect class=\"m-solid\" height=\"50.0\" width=\"103.5\" x=\"462.6\" y=\"96.9\"></rect><rect class=\"m-top\" height=\"107.6\" width=\"49.3\" x=\"491.6\" y=\"26.2\"></rect><rect class=\"m-solid\" height=\"59.0\" rx=\"10\" width=\"38.0\" x=\"163.4\" y=\"197.6\"></rect><polyline class=\"m-wall\" points=\"9.8,230.7 88.3,230.7\"></polyline><rect class=\"m-solid\" height=\"136.0\" width=\"99.3\" x=\"31.7\" y=\"254.0\"></rect><polyline class=\"m-wall\" points=\"129.8,252.9 129.8,391.1 27.1,391.1\"></polyline><polyline class=\"m-wall\" points=\"8.1,320.9 57.1,320.9\"></polyline><rect class=\"m-solid\" height=\"152.7\" width=\"95.8\" x=\"455.1\" y=\"177.9\"></rect><polyline class=\"m-wall\" points=\"456.2,176.4 456.2,331.7 553.6,331.7\"></polyline><polyline class=\"m-wall\" points=\"512.6,241.0 600.0,241.0\"></polyline><polyline class=\"m-div\" points=\"209.0,229.7 209.0,113.1 393.3,113.1 393.3,221.9\"></polyline><polygon class=\"m-solid\" points=\"209.0,231.2 247.4,234.8 274.4,239.5 300.9,248.8 333.6,238.4 354.8,229.7 375.9,222.9 393.3,220.9 393.3,299.5 209.0,299.5\"></polygon><polyline class=\"m-wall\" points=\"207.9,229.7 207.9,299.5 394.4,299.5 393.3,220.9\"></polyline><polyline class=\"m-ladder\" points=\"300.0,248.5 300.0,234.5\"></polyline><polyline class=\"m-div\" points=\"318.0,357.7 355.5,357.7 355.5,498.1 217.1,498.1\"></polyline><polygon class=\"m-solid\" points=\"174.2,357.7 318.0,357.7 297.7,378.7 266.7,395.7 242.5,412.6 230.1,440.9 221.6,469.5 217.1,496.9 174.2,496.9\"></polygon><polyline class=\"m-wall\" points=\"318.0,356.0 174.2,356.0 174.2,496.9 217.1,496.9\"></polyline><polyline class=\"m-ladder\" points=\"257.0,402.5 265.0,414.0\"></polyline><polyline class=\"m-wall\" points=\"179.3,533.6 179.3,577.1\"></polyline><polyline class=\"m-wall\" points=\"247.6,535.9 338.6,533.6 339.1,573.7\"></polyline><polygon class=\"m-plat\" points=\"490.5,364.5 598.9,423.4 598.9,542.2 490.5,600.0 385.0,542.2 385.0,422.3\"></polygon><circle class=\"m-tower\" cx=\"491.5\" cy=\"482.4\" r=\"55\"></circle><polyline class=\"m-ladder\" points=\"443.0,390.5 449.8,402.8\"></polyline><polyline class=\"m-wall\" points=\"465.9,367.4 572.1,367.4\"></polyline><polyline class=\"m-div\" points=\"396.7,430.8 394.5,541.0\"></polyline><rect class=\"m-solid\" height=\"15.8\" width=\"9.2\" x=\"30.6\" y=\"431.9\"></rect><rect class=\"m-solid\" height=\"15.8\" width=\"9.2\" x=\"83.7\" y=\"432.5\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"26.0\" y=\"479.2\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"83.1\" y=\"479.8\"></rect><rect class=\"m-solid\" height=\"16.1\" width=\"9.2\" x=\"28.3\" y=\"515.8\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.3\" x=\"81.9\" y=\"514.7\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"30.6\" y=\"551.9\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"82.5\" y=\"548.5\"></rect><polyline class=\"m-wall\" points=\"128.1,421.1 128.1,488.4\"></polyline><polyline class=\"m-wall\" points=\"128.1,506.7 128.1,572.5\"></polyline></g><circle class=\"m-centre\" cx=\"300\" cy=\"300\" r=\"6\"></circle><circle class=\"m-obj\" cx=\"300\" cy=\"125\" r=\"9\"></circle><circle class=\"m-obj-dot\" cx=\"300\" cy=\"125\" r=\"3\"></circle><circle class=\"m-obj\" cx=\"300\" cy=\"484\" r=\"9\"></circle><circle class=\"m-obj-dot\" cx=\"300\" cy=\"484\" r=\"3\"></circle><text class=\"m-lab\" x=\"93.5\" y=\"104.4\">Smoke stack</text><text class=\"m-lab\" x=\"514.1\" y=\"160.9\">Containers</text><text class=\"m-lab\" x=\"182.4\" y=\"271.0\">Tank</text><text class=\"m-lab\" x=\"81.9\" y=\"322.1\">Ruin</text><text class=\"m-lab\" x=\"502.7\" y=\"258.1\">Gothic ruin</text><text class=\"m-lab\" x=\"303.0\" y=\"175.3\">Manufactorum</text><text class=\"m-lab\" x=\"266.7\" y=\"460.9\">Rendering vats</text><text class=\"m-lab\" x=\"490.5\" y=\"483.8\">Starch silo</text><text class=\"m-lab\" x=\"60.6\" y=\"585.1\">Bone yard</text><circle class=\"tok-p\" cx=\"199.1\" cy=\"133.3\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"199.1\" y=\"138.8\">R</text><circle class=\"tok-p\" cx=\"12.5\" cy=\"375.9\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"12.5\" y=\"381.4\">G</text><circle class=\"tok-p\" cx=\"147.2\" cy=\"375.9\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"147.2\" y=\"381.4\">M</text><circle class=\"tok-p\" cx=\"60.2\" cy=\"464.8\" r=\"19\"></circle><text class=\"tok-n two\" x=\"60.2\" y=\"470.3\">DA</text><circle class=\"tok-p\" cx=\"12.5\" cy=\"490.7\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"12.5\" y=\"496.2\">El</text><circle class=\"tok-p\" cx=\"476.9\" cy=\"316.7\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"476.9\" y=\"322.2\">B</text><circle class=\"tok-p\" cx=\"580.6\" cy=\"360.2\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"580.6\" y=\"365.7\">V</text><circle class=\"tok-p\" cx=\"366.7\" cy=\"560.2\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"366.7\" y=\"565.7\">Ez</text><circle class=\"tok-t\" cx=\"303.7\" cy=\"94.4\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"303.7\" y=\"99.9\">Mc</text><circle class=\"tok-t\" cx=\"585.2\" cy=\"42.6\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"585.2\" y=\"48.1\">Dm</text><circle class=\"tok-t\" cx=\"338.0\" cy=\"372.2\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"338.0\" y=\"377.7\">Rp</text><circle class=\"tok-t\" cx=\"192.6\" cy=\"433.3\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"192.6\" y=\"438.8\">De</text><circle class=\"tok-t\" cx=\"281.5\" cy=\"472.2\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"281.5\" y=\"477.7\">Mi</text><circle class=\"tok-t\" cx=\"59.3\" cy=\"512.0\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"59.3\" y=\"517.5\">Mj</text><circle class=\"tok-t\" cx=\"148.1\" cy=\"586.1\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"148.1\" y=\"591.6\">Rt</text><circle class=\"tok-t\" cx=\"546.3\" cy=\"529.1\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"546.3\" y=\"534.6\">W</text><circle class=\"tok-t\" cx=\"585.2\" cy=\"584.3\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"585.2\" y=\"589.8\">J</text><text aria-label=\"Out of Action\" class=\"ooa-e\" x=\"365.7\" y=\"591\">💀</text><circle class=\"b-w\" cx=\"24.9\" cy=\"481.9\" r=\"8.5\"></circle><text class=\"b-t\" x=\"24.9\" y=\"485.7\">W</text><circle class=\"b-a\" cx=\"159.6\" cy=\"367.1\" r=\"8.5\"></circle><text class=\"b-t\" x=\"159.6\" y=\"370.9\">A</text><circle class=\"b-n\" cx=\"489.3\" cy=\"307.9\" r=\"8.5\"></circle><text class=\"b-t\" x=\"489.3\" y=\"311.7\">In</text><circle class=\"b-i\" cx=\"350.4\" cy=\"363.4\" r=\"8.5\"></circle><text class=\"b-t\" x=\"350.4\" y=\"367.2\">I</text><circle class=\"b-i\" cx=\"293.9\" cy=\"463.4\" r=\"8.5\"></circle><text class=\"b-t\" x=\"293.9\" y=\"467.2\">I</text><circle class=\"b-i\" cx=\"71.7\" cy=\"503.2\" r=\"8.5\"></circle><text class=\"b-t\" x=\"71.7\" y=\"507.0\">SI</text><circle class=\"b-a\" cx=\"160.5\" cy=\"577.3\" r=\"8.5\"></circle><text class=\"b-t\" x=\"160.5\" y=\"581.1\">A</text><text class=\"m-tick\" x=\"0\" y=\"618\">0\"</text><text class=\"m-tick\" x=\"150\" y=\"618\">6\"</text><text class=\"m-tick\" x=\"300\" y=\"618\">12\"</text><text class=\"m-tick\" x=\"450\" y=\"618\">18\"</text><text class=\"m-tick\" x=\"600\" y=\"618\">24\"</text><circle class=\"b-v\" cx=\"205.0\" cy=\"424.5\" r=\"8.5\"></circle><text class=\"b-t\" x=\"205.0\" y=\"428.3\">V</text></svg>",
-      "caption": "<p>Positions at the end of round 4</p><ul class=\"b-key\"><li><span class=\"b b-s\">S</span>Suppressed</li><li><span class=\"b b-w\">W</span>Wounded</li><li><span class=\"b b-i\">I</span>Injured</li><li><span class=\"b b-i\">SI</span>Seriously Injured</li><li><span class=\"b b-a\">A</span>Out of ammo</li><li><span class=\"b b-n\">In</span>Insanity</li><li><span aria-hidden=\"true\" class=\"ooa-k\">💀</span>Out of Action</li><li><span class=\"b b-v\">V</span>Perfect Void</li></ul>"
+      "viewBox": "-14 -24 628 668",
+      "label": "Positions at the end of round 4: Macavity on the north objective and Mistoffelees on the south; the Carrion Psalm pushed into the bone yard and the Theatre's corner, with Gutter Cantor at the west edge after delivering the package; Growltiger out of action south of the rendering vats.",
+      "clip": "mat21r4",
+      "caption": {
+       "text": "Positions at the end of round 4",
+       "key": [
+        [
+         "s",
+         "S",
+         "Suppressed"
+        ],
+        [
+         "w",
+         "W",
+         "Wounded"
+        ],
+        [
+         "i",
+         "I",
+         "Injured"
+        ],
+        [
+         "i",
+         "SI",
+         "Seriously Injured"
+        ],
+        [
+         "a",
+         "A",
+         "Out of ammo"
+        ],
+        [
+         "n",
+         "In",
+         "Insanity"
+        ],
+        [
+         "ooa",
+         "💀",
+         "Out of Action"
+        ],
+        [
+         "v",
+         "V",
+         "Perfect Void"
+        ]
+       ]
+      },
+      "items": [
+       {
+        "board": "terrain"
+       },
+       {
+        "clip": [
+         {
+          "board": "terrain-2"
+         }
+        ]
+       },
+       {
+        "board": "terrain-3"
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 199.1,
+         "y": 133.3,
+         "t": "R"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 12.5,
+         "y": 375.9,
+         "t": "G"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 147.2,
+         "y": 375.9,
+         "t": "M"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 60.2,
+         "y": 464.8,
+         "t": "DA",
+         "r": 19
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 12.5,
+         "y": 490.7,
+         "t": "El"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 476.9,
+         "y": 316.7,
+         "t": "B"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 580.6,
+         "y": 360.2,
+         "t": "V"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 366.7,
+         "y": 560.2,
+         "t": "Ez"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 303.7,
+         "y": 94.4,
+         "t": "Mc"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 585.2,
+         "y": 42.6,
+         "t": "Dm"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 338.0,
+         "y": 372.2,
+         "t": "Rp"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 192.6,
+         "y": 433.3,
+         "t": "De"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 281.5,
+         "y": 472.2,
+         "t": "Mi"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 59.3,
+         "y": 512.0,
+         "t": "Mj"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 148.1,
+         "y": 586.1,
+         "t": "Rt"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 546.3,
+         "y": 529.1,
+         "t": "W"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 585.2,
+         "y": 584.3,
+         "t": "J"
+        }
+       },
+       {
+        "ooa": [
+         365.7,
+         591
+        ]
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 24.9,
+         "y": 481.9,
+         "t": "W"
+        }
+       },
+       {
+        "b": {
+         "k": "a",
+         "x": 159.6,
+         "y": 367.1,
+         "t": "A"
+        }
+       },
+       {
+        "b": {
+         "k": "n",
+         "x": 489.3,
+         "y": 307.9,
+         "t": "In"
+        }
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 350.4,
+         "y": 363.4,
+         "t": "I"
+        }
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 293.9,
+         "y": 463.4,
+         "t": "I"
+        }
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 71.7,
+         "y": 503.2,
+         "t": "SI"
+        }
+       },
+       {
+        "b": {
+         "k": "a",
+         "x": 160.5,
+         "y": 577.3,
+         "t": "A"
+        }
+       },
+       {
+        "board": "ticks"
+       },
+       {
+        "b": {
+         "k": "v",
+         "x": 205.0,
+         "y": 424.5,
+         "t": "V"
+        }
+       }
+      ]
      }
     },
     {
@@ -1904,8 +2968,291 @@
     },
     {
      "map": {
-      "svg": "<svg aria-label=\"Positions at the end of round 5: Demeter and Macavity at the north objective, Mordecai engaged with Mistoffelees by the south objective, Ezekiel locked with Rumpleteaser and Rumpus, and Ratsong, Mungojerrie and Jellylorum out of action. Wit has fled.\" role=\"img\" viewbox=\"-14 -24 628 668\"><defs><clippath id=\"mat21r5\"><rect height=\"600\" width=\"600\" x=\"0\" y=\"0\"></rect></clippath></defs><text class=\"m-edge p\" x=\"450\" y=\"-8\">The Carrion Psalm deploy</text><text class=\"m-edge t\" x=\"150\" y=\"638\">The Midnight Theatre deploy</text><rect class=\"m-mat\" height=\"600\" width=\"600\" x=\"0\" y=\"0\"></rect><g clip-path=\"url(#mat21r5)\"><path class=\"m-grid\" d=\"M150 0V600M0 150H600M300 0V600M0 300H600M450 0V600M0 450H600\"></path><path class=\"svg-p\" d=\"M600 0H300V150A150 150 0 0 1 450 300H600Z\"></path><path class=\"svg-t\" d=\"M0 600H300V450A150 150 0 0 1 150 300H0Z\"></path><circle class=\"m-plat\" cx=\"93.5\" cy=\"101.2\" r=\"83.6\"></circle><circle class=\"m-tower\" cx=\"93.5\" cy=\"101.2\" r=\"38.9\"></circle><polyline class=\"m-ladder\" points=\"144.3,167.6 152.8,178.7\"></polyline><circle class=\"m-solid\" cx=\"244.2\" cy=\"30.0\" r=\"9.7\"></circle><circle class=\"m-solid\" cx=\"244.2\" cy=\"56.2\" r=\"9.7\"></circle><polyline class=\"m-wall\" points=\"319.0,68.1 411.4,68.8 410.9,19.4\"></polyline><rect class=\"m-solid\" height=\"50.0\" width=\"104.1\" x=\"460.9\" y=\"13.8\"></rect><rect class=\"m-solid\" height=\"50.0\" width=\"103.5\" x=\"462.6\" y=\"96.9\"></rect><rect class=\"m-top\" height=\"107.6\" width=\"49.3\" x=\"491.6\" y=\"26.2\"></rect><rect class=\"m-solid\" height=\"59.0\" rx=\"10\" width=\"38.0\" x=\"163.4\" y=\"197.6\"></rect><polyline class=\"m-wall\" points=\"9.8,230.7 88.3,230.7\"></polyline><rect class=\"m-solid\" height=\"136.0\" width=\"99.3\" x=\"31.7\" y=\"254.0\"></rect><polyline class=\"m-wall\" points=\"129.8,252.9 129.8,391.1 27.1,391.1\"></polyline><polyline class=\"m-wall\" points=\"8.1,320.9 57.1,320.9\"></polyline><rect class=\"m-solid\" height=\"152.7\" width=\"95.8\" x=\"455.1\" y=\"177.9\"></rect><polyline class=\"m-wall\" points=\"456.2,176.4 456.2,331.7 553.6,331.7\"></polyline><polyline class=\"m-wall\" points=\"512.6,241.0 600.0,241.0\"></polyline><polyline class=\"m-div\" points=\"209.0,229.7 209.0,113.1 393.3,113.1 393.3,221.9\"></polyline><polygon class=\"m-solid\" points=\"209.0,231.2 247.4,234.8 274.4,239.5 300.9,248.8 333.6,238.4 354.8,229.7 375.9,222.9 393.3,220.9 393.3,299.5 209.0,299.5\"></polygon><polyline class=\"m-wall\" points=\"207.9,229.7 207.9,299.5 394.4,299.5 393.3,220.9\"></polyline><polyline class=\"m-ladder\" points=\"300.0,248.5 300.0,234.5\"></polyline><polyline class=\"m-div\" points=\"318.0,357.7 355.5,357.7 355.5,498.1 217.1,498.1\"></polyline><polygon class=\"m-solid\" points=\"174.2,357.7 318.0,357.7 297.7,378.7 266.7,395.7 242.5,412.6 230.1,440.9 221.6,469.5 217.1,496.9 174.2,496.9\"></polygon><polyline class=\"m-wall\" points=\"318.0,356.0 174.2,356.0 174.2,496.9 217.1,496.9\"></polyline><polyline class=\"m-ladder\" points=\"257.0,402.5 265.0,414.0\"></polyline><polyline class=\"m-wall\" points=\"179.3,533.6 179.3,577.1\"></polyline><polyline class=\"m-wall\" points=\"247.6,535.9 338.6,533.6 339.1,573.7\"></polyline><polygon class=\"m-plat\" points=\"490.5,364.5 598.9,423.4 598.9,542.2 490.5,600.0 385.0,542.2 385.0,422.3\"></polygon><circle class=\"m-tower\" cx=\"491.5\" cy=\"482.4\" r=\"55\"></circle><polyline class=\"m-ladder\" points=\"443.0,390.5 449.8,402.8\"></polyline><polyline class=\"m-wall\" points=\"465.9,367.4 572.1,367.4\"></polyline><polyline class=\"m-div\" points=\"396.7,430.8 394.5,541.0\"></polyline><rect class=\"m-solid\" height=\"15.8\" width=\"9.2\" x=\"30.6\" y=\"431.9\"></rect><rect class=\"m-solid\" height=\"15.8\" width=\"9.2\" x=\"83.7\" y=\"432.5\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"26.0\" y=\"479.2\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"83.1\" y=\"479.8\"></rect><rect class=\"m-solid\" height=\"16.1\" width=\"9.2\" x=\"28.3\" y=\"515.8\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.3\" x=\"81.9\" y=\"514.7\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"30.6\" y=\"551.9\"></rect><rect class=\"m-solid\" height=\"16.0\" width=\"9.2\" x=\"82.5\" y=\"548.5\"></rect><polyline class=\"m-wall\" points=\"128.1,421.1 128.1,488.4\"></polyline><polyline class=\"m-wall\" points=\"128.1,506.7 128.1,572.5\"></polyline></g><circle class=\"m-centre\" cx=\"300\" cy=\"300\" r=\"6\"></circle><circle class=\"m-obj\" cx=\"300\" cy=\"125\" r=\"9\"></circle><circle class=\"m-obj-dot\" cx=\"300\" cy=\"125\" r=\"3\"></circle><circle class=\"m-obj\" cx=\"300\" cy=\"484\" r=\"9\"></circle><circle class=\"m-obj-dot\" cx=\"300\" cy=\"484\" r=\"3\"></circle><text class=\"m-lab\" x=\"93.5\" y=\"104.4\">Smoke stack</text><text class=\"m-lab\" x=\"514.1\" y=\"160.9\">Containers</text><text class=\"m-lab\" x=\"182.4\" y=\"271.0\">Tank</text><text class=\"m-lab\" x=\"81.9\" y=\"322.1\">Ruin</text><text class=\"m-lab\" x=\"502.7\" y=\"258.1\">Gothic ruin</text><text class=\"m-lab\" x=\"303.0\" y=\"175.3\">Manufactorum</text><text class=\"m-lab\" x=\"266.7\" y=\"460.9\">Rendering vats</text><text class=\"m-lab\" x=\"490.5\" y=\"483.8\">Starch silo</text><text class=\"m-lab\" x=\"60.6\" y=\"585.1\">Bone yard</text><circle class=\"tok-p\" cx=\"15.7\" cy=\"406.5\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"15.7\" y=\"412.0\">G</text><circle class=\"tok-p\" cx=\"62.0\" cy=\"473.1\" r=\"19\"></circle><text class=\"tok-n two\" x=\"62.0\" y=\"478.6\">DA</text><circle class=\"tok-p\" cx=\"113.0\" cy=\"497.2\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"113.0\" y=\"502.7\">El</text><circle class=\"tok-p\" cx=\"472.2\" cy=\"313.9\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"472.2\" y=\"319.4\">B</text><circle class=\"tok-p\" cx=\"587.5\" cy=\"480.6\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"587.5\" y=\"486.1\">V</text><circle class=\"tok-p\" cx=\"355.6\" cy=\"527.8\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"355.6\" y=\"533.3\">Ez</text><circle class=\"tok-p\" cx=\"313.9\" cy=\"460.2\" r=\"12.5\"></circle><text class=\"tok-n\" x=\"313.9\" y=\"465.7\">M</text><circle class=\"tok-t\" cx=\"199.1\" cy=\"112.0\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"199.1\" y=\"117.5\">Mc</text><circle class=\"tok-t\" cx=\"338.0\" cy=\"100.0\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"338.0\" y=\"105.5\">Dm</text><circle class=\"tok-t\" cx=\"188.9\" cy=\"467.6\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"188.9\" y=\"473.1\">De</text><circle class=\"tok-t\" cx=\"338.0\" cy=\"477.8\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"338.0\" y=\"483.3\">Mi</text><circle class=\"tok-t\" cx=\"373.1\" cy=\"508.3\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"373.1\" y=\"513.8\">Rp</text><circle class=\"tok-t\" cx=\"336.1\" cy=\"515.7\" r=\"12.5\"></circle><text class=\"tok-n two\" x=\"336.1\" y=\"521.2\">Rt</text><text aria-label=\"Out of Action\" class=\"ooa-e\" x=\"199.1\" y=\"140.3\">💀</text><text aria-label=\"Out of Action\" class=\"ooa-e\" x=\"63.0\" y=\"512.5\">💀</text><text aria-label=\"Out of Action\" class=\"ooa-e\" x=\"502.8\" y=\"563.4\">💀</text><circle class=\"b-w\" cx=\"125.4\" cy=\"488.4\" r=\"8.5\"></circle><text class=\"b-t\" x=\"125.4\" y=\"492.2\">W</text><circle class=\"b-a\" cx=\"140.4\" cy=\"488.4\" r=\"8.5\"></circle><text class=\"b-t\" x=\"140.4\" y=\"492.2\">A</text><circle class=\"b-a\" cx=\"301.5\" cy=\"451.4\" r=\"8.5\"></circle><text class=\"b-t\" x=\"301.5\" y=\"455.2\">A</text><circle class=\"b-a\" cx=\"575.1\" cy=\"471.8\" r=\"8.5\"></circle><text class=\"b-t\" x=\"575.1\" y=\"475.6\">A</text><circle class=\"b-n\" cx=\"484.6\" cy=\"305.1\" r=\"8.5\"></circle><text class=\"b-t\" x=\"484.6\" y=\"308.9\">In</text><circle class=\"b-s\" cx=\"176.5\" cy=\"458.8\" r=\"8.5\"></circle><text class=\"b-t\" x=\"176.5\" y=\"462.6\">S</text><circle class=\"b-v\" cx=\"161.5\" cy=\"458.8\" r=\"8.5\"></circle><text class=\"b-t\" x=\"161.5\" y=\"462.6\">V</text><circle class=\"b-i\" cx=\"350.4\" cy=\"469.0\" r=\"8.5\"></circle><text class=\"b-t\" x=\"350.4\" y=\"472.8\">SI</text><circle class=\"b-i\" cx=\"385.5\" cy=\"499.5\" r=\"8.5\"></circle><text class=\"b-t\" x=\"385.5\" y=\"503.3\">I</text><circle class=\"b-i\" cx=\"323.7\" cy=\"506.9\" r=\"8.5\"></circle><text class=\"b-t\" x=\"323.7\" y=\"510.7\">I</text><circle class=\"b-s\" cx=\"308.7\" cy=\"506.9\" r=\"8.5\"></circle><text class=\"b-t\" x=\"308.7\" y=\"510.7\">S</text><circle class=\"b-a\" cx=\"293.7\" cy=\"506.9\" r=\"8.5\"></circle><text class=\"b-t\" x=\"293.7\" y=\"510.7\">A</text><text class=\"m-tick\" x=\"0\" y=\"618\">0\"</text><text class=\"m-tick\" x=\"150\" y=\"618\">6\"</text><text class=\"m-tick\" x=\"300\" y=\"618\">12\"</text><text class=\"m-tick\" x=\"450\" y=\"618\">18\"</text><text class=\"m-tick\" x=\"600\" y=\"618\">24\"</text></svg>",
-      "caption": "<p>Positions at the end of round 5</p><ul class=\"b-key\"><li><span class=\"b b-s\">S</span>Suppressed</li><li><span class=\"b b-w\">W</span>Wounded</li><li><span class=\"b b-i\">I</span>Injured</li><li><span class=\"b b-i\">SI</span>Seriously Injured</li><li><span class=\"b b-a\">A</span>Out of ammo</li><li><span class=\"b b-n\">In</span>Insanity</li><li><span class=\"b b-v\">V</span>Perfect Void</li><li><span aria-hidden=\"true\" class=\"ooa-k\">💀</span>Out of Action</li></ul>"
+      "viewBox": "-14 -24 628 668",
+      "label": "Positions at the end of round 5: Demeter and Macavity at the north objective, Mordecai engaged with Mistoffelees by the south objective, Ezekiel locked with Rumpleteaser and Rumpus, and Ratsong, Mungojerrie and Jellylorum out of action. Wit has fled.",
+      "clip": "mat21r5",
+      "caption": {
+       "text": "Positions at the end of round 5",
+       "key": [
+        [
+         "s",
+         "S",
+         "Suppressed"
+        ],
+        [
+         "w",
+         "W",
+         "Wounded"
+        ],
+        [
+         "i",
+         "I",
+         "Injured"
+        ],
+        [
+         "i",
+         "SI",
+         "Seriously Injured"
+        ],
+        [
+         "a",
+         "A",
+         "Out of ammo"
+        ],
+        [
+         "n",
+         "In",
+         "Insanity"
+        ],
+        [
+         "v",
+         "V",
+         "Perfect Void"
+        ],
+        [
+         "ooa",
+         "💀",
+         "Out of Action"
+        ]
+       ]
+      },
+      "items": [
+       {
+        "board": "terrain"
+       },
+       {
+        "clip": [
+         {
+          "board": "terrain-2"
+         }
+        ]
+       },
+       {
+        "board": "terrain-3"
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 15.7,
+         "y": 406.5,
+         "t": "G"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 62.0,
+         "y": 473.1,
+         "t": "DA",
+         "r": 19
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 113.0,
+         "y": 497.2,
+         "t": "El"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 472.2,
+         "y": 313.9,
+         "t": "B"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 587.5,
+         "y": 480.6,
+         "t": "V"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 355.6,
+         "y": 527.8,
+         "t": "Ez"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 313.9,
+         "y": 460.2,
+         "t": "M"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 199.1,
+         "y": 112.0,
+         "t": "Mc"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 338.0,
+         "y": 100.0,
+         "t": "Dm"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 188.9,
+         "y": 467.6,
+         "t": "De"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 338.0,
+         "y": 477.8,
+         "t": "Mi"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 373.1,
+         "y": 508.3,
+         "t": "Rp"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 336.1,
+         "y": 515.7,
+         "t": "Rt"
+        }
+       },
+       {
+        "ooa": [
+         199.1,
+         140.3
+        ]
+       },
+       {
+        "ooa": [
+         63.0,
+         512.5
+        ]
+       },
+       {
+        "ooa": [
+         502.8,
+         563.4
+        ]
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 125.4,
+         "y": 488.4,
+         "t": "W"
+        }
+       },
+       {
+        "b": {
+         "k": "a",
+         "x": 140.4,
+         "y": 488.4,
+         "t": "A"
+        }
+       },
+       {
+        "b": {
+         "k": "a",
+         "x": 301.5,
+         "y": 451.4,
+         "t": "A"
+        }
+       },
+       {
+        "b": {
+         "k": "a",
+         "x": 575.1,
+         "y": 471.8,
+         "t": "A"
+        }
+       },
+       {
+        "b": {
+         "k": "n",
+         "x": 484.6,
+         "y": 305.1,
+         "t": "In"
+        }
+       },
+       {
+        "b": {
+         "k": "s",
+         "x": 176.5,
+         "y": 458.8,
+         "t": "S"
+        }
+       },
+       {
+        "b": {
+         "k": "v",
+         "x": 161.5,
+         "y": 458.8,
+         "t": "V"
+        }
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 350.4,
+         "y": 469.0,
+         "t": "SI"
+        }
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 385.5,
+         "y": 499.5,
+         "t": "I"
+        }
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 323.7,
+         "y": 506.9,
+         "t": "I"
+        }
+       },
+       {
+        "b": {
+         "k": "s",
+         "x": 308.7,
+         "y": 506.9,
+         "t": "S"
+        }
+       },
+       {
+        "b": {
+         "k": "a",
+         "x": 293.7,
+         "y": 506.9,
+         "t": "A"
+        }
+       },
+       {
+        "board": "ticks"
+       }
+      ]
      }
     },
     {
@@ -3316,5 +4663,582 @@
     }
    ]
   }
+ },
+ "board": {
+  "terrain": [
+   [
+    "text",
+    {
+     "class": "m-edge p",
+     "x": "450",
+     "y": "-8"
+    },
+    "The Carrion Psalm deploy"
+   ],
+   [
+    "text",
+    {
+     "class": "m-edge t",
+     "x": "150",
+     "y": "638"
+    },
+    "The Midnight Theatre deploy"
+   ],
+   [
+    "rect",
+    {
+     "class": "m-mat",
+     "height": "600",
+     "width": "600",
+     "x": "0",
+     "y": "0"
+    }
+   ]
+  ],
+  "terrain-2": [
+   [
+    "path",
+    {
+     "class": "m-grid",
+     "d": "M150 0V600M0 150H600M300 0V600M0 300H600M450 0V600M0 450H600"
+    }
+   ],
+   [
+    "path",
+    {
+     "class": "svg-p",
+     "d": "M600 0H300V150A150 150 0 0 1 450 300H600Z"
+    }
+   ],
+   [
+    "path",
+    {
+     "class": "svg-t",
+     "d": "M0 600H300V450A150 150 0 0 1 150 300H0Z"
+    }
+   ],
+   [
+    "circle",
+    {
+     "class": "m-plat",
+     "cx": "93.5",
+     "cy": "101.2",
+     "r": "83.6"
+    }
+   ],
+   [
+    "circle",
+    {
+     "class": "m-tower",
+     "cx": "93.5",
+     "cy": "101.2",
+     "r": "38.9"
+    }
+   ],
+   [
+    "polyline",
+    {
+     "class": "m-ladder",
+     "points": "144.3,167.6 152.8,178.7"
+    }
+   ],
+   [
+    "circle",
+    {
+     "class": "m-solid",
+     "cx": "244.2",
+     "cy": "30.0",
+     "r": "9.7"
+    }
+   ],
+   [
+    "circle",
+    {
+     "class": "m-solid",
+     "cx": "244.2",
+     "cy": "56.2",
+     "r": "9.7"
+    }
+   ],
+   [
+    "polyline",
+    {
+     "class": "m-wall",
+     "points": "319.0,68.1 411.4,68.8 410.9,19.4"
+    }
+   ],
+   [
+    "rect",
+    {
+     "class": "m-solid",
+     "height": "50.0",
+     "width": "104.1",
+     "x": "460.9",
+     "y": "13.8"
+    }
+   ],
+   [
+    "rect",
+    {
+     "class": "m-solid",
+     "height": "50.0",
+     "width": "103.5",
+     "x": "462.6",
+     "y": "96.9"
+    }
+   ],
+   [
+    "rect",
+    {
+     "class": "m-top",
+     "height": "107.6",
+     "width": "49.3",
+     "x": "491.6",
+     "y": "26.2"
+    }
+   ],
+   [
+    "rect",
+    {
+     "class": "m-solid",
+     "height": "59.0",
+     "rx": "10",
+     "width": "38.0",
+     "x": "163.4",
+     "y": "197.6"
+    }
+   ],
+   [
+    "polyline",
+    {
+     "class": "m-wall",
+     "points": "9.8,230.7 88.3,230.7"
+    }
+   ],
+   [
+    "rect",
+    {
+     "class": "m-solid",
+     "height": "136.0",
+     "width": "99.3",
+     "x": "31.7",
+     "y": "254.0"
+    }
+   ],
+   [
+    "polyline",
+    {
+     "class": "m-wall",
+     "points": "129.8,252.9 129.8,391.1 27.1,391.1"
+    }
+   ],
+   [
+    "polyline",
+    {
+     "class": "m-wall",
+     "points": "8.1,320.9 57.1,320.9"
+    }
+   ],
+   [
+    "rect",
+    {
+     "class": "m-solid",
+     "height": "152.7",
+     "width": "95.8",
+     "x": "455.1",
+     "y": "177.9"
+    }
+   ],
+   [
+    "polyline",
+    {
+     "class": "m-wall",
+     "points": "456.2,176.4 456.2,331.7 553.6,331.7"
+    }
+   ],
+   [
+    "polyline",
+    {
+     "class": "m-wall",
+     "points": "512.6,241.0 600.0,241.0"
+    }
+   ],
+   [
+    "polyline",
+    {
+     "class": "m-div",
+     "points": "209.0,229.7 209.0,113.1 393.3,113.1 393.3,221.9"
+    }
+   ],
+   [
+    "polygon",
+    {
+     "class": "m-solid",
+     "points": "209.0,231.2 247.4,234.8 274.4,239.5 300.9,248.8 333.6,238.4 354.8,229.7 375.9,222.9 393.3,220.9 393.3,299.5 209.0,299.5"
+    }
+   ],
+   [
+    "polyline",
+    {
+     "class": "m-wall",
+     "points": "207.9,229.7 207.9,299.5 394.4,299.5 393.3,220.9"
+    }
+   ],
+   [
+    "polyline",
+    {
+     "class": "m-ladder",
+     "points": "300.0,248.5 300.0,234.5"
+    }
+   ],
+   [
+    "polyline",
+    {
+     "class": "m-div",
+     "points": "318.0,357.7 355.5,357.7 355.5,498.1 217.1,498.1"
+    }
+   ],
+   [
+    "polygon",
+    {
+     "class": "m-solid",
+     "points": "174.2,357.7 318.0,357.7 297.7,378.7 266.7,395.7 242.5,412.6 230.1,440.9 221.6,469.5 217.1,496.9 174.2,496.9"
+    }
+   ],
+   [
+    "polyline",
+    {
+     "class": "m-wall",
+     "points": "318.0,356.0 174.2,356.0 174.2,496.9 217.1,496.9"
+    }
+   ],
+   [
+    "polyline",
+    {
+     "class": "m-ladder",
+     "points": "257.0,402.5 265.0,414.0"
+    }
+   ],
+   [
+    "polyline",
+    {
+     "class": "m-wall",
+     "points": "179.3,533.6 179.3,577.1"
+    }
+   ],
+   [
+    "polyline",
+    {
+     "class": "m-wall",
+     "points": "247.6,535.9 338.6,533.6 339.1,573.7"
+    }
+   ],
+   [
+    "polygon",
+    {
+     "class": "m-plat",
+     "points": "490.5,364.5 598.9,423.4 598.9,542.2 490.5,600.0 385.0,542.2 385.0,422.3"
+    }
+   ],
+   [
+    "circle",
+    {
+     "class": "m-tower",
+     "cx": "491.5",
+     "cy": "482.4",
+     "r": "55"
+    }
+   ],
+   [
+    "polyline",
+    {
+     "class": "m-ladder",
+     "points": "443.0,390.5 449.8,402.8"
+    }
+   ],
+   [
+    "polyline",
+    {
+     "class": "m-wall",
+     "points": "465.9,367.4 572.1,367.4"
+    }
+   ],
+   [
+    "polyline",
+    {
+     "class": "m-div",
+     "points": "396.7,430.8 394.5,541.0"
+    }
+   ],
+   [
+    "rect",
+    {
+     "class": "m-solid",
+     "height": "15.8",
+     "width": "9.2",
+     "x": "30.6",
+     "y": "431.9"
+    }
+   ],
+   [
+    "rect",
+    {
+     "class": "m-solid",
+     "height": "15.8",
+     "width": "9.2",
+     "x": "83.7",
+     "y": "432.5"
+    }
+   ],
+   [
+    "rect",
+    {
+     "class": "m-solid",
+     "height": "16.0",
+     "width": "9.2",
+     "x": "26.0",
+     "y": "479.2"
+    }
+   ],
+   [
+    "rect",
+    {
+     "class": "m-solid",
+     "height": "16.0",
+     "width": "9.2",
+     "x": "83.1",
+     "y": "479.8"
+    }
+   ],
+   [
+    "rect",
+    {
+     "class": "m-solid",
+     "height": "16.1",
+     "width": "9.2",
+     "x": "28.3",
+     "y": "515.8"
+    }
+   ],
+   [
+    "rect",
+    {
+     "class": "m-solid",
+     "height": "16.0",
+     "width": "9.3",
+     "x": "81.9",
+     "y": "514.7"
+    }
+   ],
+   [
+    "rect",
+    {
+     "class": "m-solid",
+     "height": "16.0",
+     "width": "9.2",
+     "x": "30.6",
+     "y": "551.9"
+    }
+   ],
+   [
+    "rect",
+    {
+     "class": "m-solid",
+     "height": "16.0",
+     "width": "9.2",
+     "x": "82.5",
+     "y": "548.5"
+    }
+   ],
+   [
+    "polyline",
+    {
+     "class": "m-wall",
+     "points": "128.1,421.1 128.1,488.4"
+    }
+   ],
+   [
+    "polyline",
+    {
+     "class": "m-wall",
+     "points": "128.1,506.7 128.1,572.5"
+    }
+   ]
+  ],
+  "terrain-3": [
+   [
+    "circle",
+    {
+     "class": "m-centre",
+     "cx": "300",
+     "cy": "300",
+     "r": "6"
+    }
+   ],
+   [
+    "circle",
+    {
+     "class": "m-obj",
+     "cx": "300",
+     "cy": "125",
+     "r": "9"
+    }
+   ],
+   [
+    "circle",
+    {
+     "class": "m-obj-dot",
+     "cx": "300",
+     "cy": "125",
+     "r": "3"
+    }
+   ],
+   [
+    "circle",
+    {
+     "class": "m-obj",
+     "cx": "300",
+     "cy": "484",
+     "r": "9"
+    }
+   ],
+   [
+    "circle",
+    {
+     "class": "m-obj-dot",
+     "cx": "300",
+     "cy": "484",
+     "r": "3"
+    }
+   ],
+   [
+    "text",
+    {
+     "class": "m-lab",
+     "x": "93.5",
+     "y": "104.4"
+    },
+    "Smoke stack"
+   ],
+   [
+    "text",
+    {
+     "class": "m-lab",
+     "x": "514.1",
+     "y": "160.9"
+    },
+    "Containers"
+   ],
+   [
+    "text",
+    {
+     "class": "m-lab",
+     "x": "182.4",
+     "y": "271.0"
+    },
+    "Tank"
+   ],
+   [
+    "text",
+    {
+     "class": "m-lab",
+     "x": "81.9",
+     "y": "322.1"
+    },
+    "Ruin"
+   ],
+   [
+    "text",
+    {
+     "class": "m-lab",
+     "x": "502.7",
+     "y": "258.1"
+    },
+    "Gothic ruin"
+   ],
+   [
+    "text",
+    {
+     "class": "m-lab",
+     "x": "303.0",
+     "y": "175.3"
+    },
+    "Manufactorum"
+   ],
+   [
+    "text",
+    {
+     "class": "m-lab",
+     "x": "266.7",
+     "y": "460.9"
+    },
+    "Rendering vats"
+   ],
+   [
+    "text",
+    {
+     "class": "m-lab",
+     "x": "490.5",
+     "y": "483.8"
+    },
+    "Starch silo"
+   ],
+   [
+    "text",
+    {
+     "class": "m-lab",
+     "x": "60.6",
+     "y": "585.1"
+    },
+    "Bone yard"
+   ]
+  ],
+  "ticks": [
+   [
+    "text",
+    {
+     "class": "m-tick",
+     "x": "0",
+     "y": "618"
+    },
+    "0\""
+   ],
+   [
+    "text",
+    {
+     "class": "m-tick",
+     "x": "150",
+     "y": "618"
+    },
+    "6\""
+   ],
+   [
+    "text",
+    {
+     "class": "m-tick",
+     "x": "300",
+     "y": "618"
+    },
+    "12\""
+   ],
+   [
+    "text",
+    {
+     "class": "m-tick",
+     "x": "450",
+     "y": "618"
+    },
+    "18\""
+   ],
+   [
+    "text",
+    {
+     "class": "m-tick",
+     "x": "600",
+     "y": "618"
+    },
+    "24\""
+   ]
+  ]
  }
 }

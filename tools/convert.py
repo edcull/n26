@@ -6,6 +6,10 @@ so the rendered page still matches; tools/convert.py --report lists those.
 """
 import json, os, re, subprocess, sys
 from bs4 import BeautifulSoup, NavigableString, Tag
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import maps as mapconv
+BOARD = {}
+MAPS = []
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC_REV = '0f622e9'   # last commit where the pages were hand-written HTML
@@ -265,8 +269,11 @@ def round_block(c):
         return {'photo': photo(c)}
     if c.name == 'figure' and k == ['map']:
         svg = c.find('svg'); cap = c.find('figcaption')
-        b = {'map': {'svg': str(svg)}}
-        if cap is not None: b['map']['caption'] = inline(cap)
+        mp = mapconv.parse(str(svg))
+        if mp: MAPS.append(mp)
+        b = {'map': mp if mp else {'svg': str(svg)}}
+        if mp is None: raw_count['map svg'] = raw_count.get('map svg', 0) + 1
+        if cap is not None: b['map']['caption'] = map_caption(cap)
         if len(kids(c)) != (2 if cap is not None else 1): return raw(c, 'map shape')
         return b
     if c.name == 'p' and k == ['vp']:
@@ -278,6 +285,28 @@ def round_block(c):
     if c.name == 'details' and k == ['roll']:
         return {'roll': roll(c)}
     return raw(c, f'round block {c.name}.{".".join(k)}')
+
+
+def map_caption(cap):
+    ch = kids(cap)
+    ul = [x for x in ch if x.name == 'ul' and cls(x) == ['b-key']]
+    ps = [x for x in ch if x.name == 'p' and not x.attrs]
+    if len(ch) != len(ul) + len(ps) or len(ul) > 1 or len(ps) > 1 or (ul and ch[-1] is not ul[0]):
+        return inline(cap)
+    out = {}
+    if ps: out['text'] = inline(ps[0])
+    if ul:
+        key = []
+        for li in kids(ul[0]):
+            sp = li.find('span'); label = ''.join(str(x) for x in li.contents[1:])
+            if cls(sp)[:1] == ['b'] and len(cls(sp)) == 2:
+                key.append([cls(sp)[1][2:], sp.get_text(), label])
+            elif cls(sp) == ['ooa-k']:
+                key.append(['ooa', sp.get_text(), label])
+            else:
+                return inline(cap)
+        out['key'] = key
+    return out
 
 
 def rnd(art):
@@ -370,7 +399,7 @@ def fighter_ref(art):
 
 # ---------------------------------------------------------------- page
 def battle(page):
-    FIGHTERS.clear()
+    FIGHTERS.clear(); BOARD.clear(); MAPS.clear()
     html = source(page)
     s = BeautifulSoup(html, 'lxml')
     d = {'page': 'battle', 'id': page, 'title': s.title.get_text()}
@@ -410,6 +439,8 @@ def battle(page):
         if FIGHTERS.get(fid) != f: raise ValueError('popover differs ' + fid)
         d['popovers'].append(fid)
     d['fighters'] = dict(FIGHTERS)
+    if MAPS: mapconv.finish(MAPS, BOARD)
+    if BOARD: d['board'] = dict(BOARD)
     return d
 
 

@@ -37,12 +37,12 @@ function chip(c) {
   return tip(c.tip, c.used ? 'chip used' : 'chip', c.used ? TICK(c.usedLabel) + esc(c.tip.replace(/ #\d+$/, '')) : null);
 }
 
-function round(r) {
+function round(r, d) {
   return `<article class="round" id="${r.id}">
         <div class="round-no" aria-hidden="true">${esc(r.no)}</div>
         <div class="round-body">
           <div><h3>${md(r.title)}</h3></div>
-          ${blocks(r.blocks)}
+          ${blocks(r.blocks, { board: d.board })}
         </div>
       </article>`;
 }
@@ -51,7 +51,7 @@ export function render(d) {
   document.title = d.title;
   const gangOf = {};
   for (const g of d.gangs) for (const b of g.blocks) for (const r of b.fighters || []) gangOf[r.id] ??= g.class;
-  const turns = d.rounds.length ? `<div class="rounds">${join(d.rounds, round)}</div>` : blocks(d.turnsBlocks || []);
+  const turns = d.rounds.length ? `<div class="rounds">${join(d.rounds, r => round(r, d))}</div>` : blocks(d.turnsBlocks || []);
   return hero(d) + '\n' + nav(navItems(d)) + `
 <main class="wrap">
   <section id="intro">
