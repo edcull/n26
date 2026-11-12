@@ -40,18 +40,10 @@ function weaponRows(f, key) {
   for (let j = i + 1; j < ws.length && ws[j].profile && /\bsub\b/.test(ws[j].class || ''); j++) subs.push(ws[j]);
   return subs;
 }
-const profileText = w => `SR ${plain(w.profile[0])} · LR ${plain(w.profile[1])} · Str ${plain(w.profile[2])} · AP ${plain(w.profile[3])} · L ${plain(w.profile[4])}${w.traits ? ' · ' + plain(w.traits) : ''}`;
-function weaponTip(f, key) {
-  const rows = weaponRows(f, key);
-  const text = rows.length > 1 ? rows.map(w => `${weaponLabel(w.name)}: ${profileText(w)}`).join(' / ') : rows[0] ? profileText(rows[0]) : '';
-  return `<span class="sk" tabindex="0" data-tip="${attr(text)}">${esc(weaponLabel(key))}</span>`;
-}
-const STATS = ['M', 'WS', 'BS', 'S', 'T', 'W', 'I', 'A', 'Sv'];
-function fighterTip(fighters, id) {
+// Fighter names in an attack title open the same pop-up card as names in the narrative.
+function fighterLink(fighters, id) {
   const f = fighters?.[id];
-  if (!f) return esc(id);
-  const text = `${plain(f.type)}: ${STATS.map(k => `${k} ${plain(f.stats[k])}`).join(' · ')}`;
-  return `<span class="sk" tabindex="0" data-tip="${attr(text)}">${esc(f.name)}</span>`;
+  return `<button type="button" class="fname" popovertarget="fc-${id}">${esc(f ? f.name : id)}</button>`;
 }
 export function weaponNumbers(f, key) {
   const rows = weaponRows(f, key);
@@ -73,8 +65,8 @@ function rollTitle(r, fighters) {
   if (!r.by) return md(r.name);
   const f = fighters?.[r.by];
   const targets = r.target == null ? [] : [].concat(r.target);
-  return `${fighterTip(fighters, r.by)} - ${r.action ? esc(r.action) + ': ' : ''}${r.weapons.map(k => weaponTip(f, k)).join(' and ')}` +
-    (targets.length ? ` → ${targets.map(t => fighterTip(fighters, t)).join(' and ')}` : '');
+  return `${fighterLink(fighters, r.by)} - ${r.action ? esc(r.action) + ': ' : ''}${r.weapons.map(k => esc(weaponLabel(k))).join(' and ')}` +
+    (targets.length ? ` → ${targets.map(t => fighterLink(fighters, t)).join(' and ')}` : '');
 }
 
 export function roll(r, ctx = {}) {

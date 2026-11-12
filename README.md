@@ -118,10 +118,7 @@ An attack names who made it, with what, and at whom:
   "result": "Ezekiel seriously injured, Out of Ammo", "rows": [...]}}
 ```
 
-- **The title** is drawn from these fields as "Rumpleteaser - Plasma Gun → Ezekiel Crows":
-  - each fighter's name has a tooltip with their stat line
-  - each weapon has a tooltip with its profile, taken from the fighter's card at this point in the campaign
-  - a combi-weapon's tooltip lists both profiles
+- **The title** is drawn from these fields as "Rumpleteaser - Plasma Gun → Ezekiel Crows". The fighters' names open their full cards, which list the weapons.
 - **`weapons`** are the names on the attacker's card, or `"Unarmed"`. List two for a fight with a secondary weapon.
 - **`target`** is a fighter id, or a list for a weapon that hits several. Leave it out if the narrative never says who was aimed at.
 - **`action`** adds a word before the weapon: `Overwatch`, `Reaction`, `Counter-attack`, `Charge`.

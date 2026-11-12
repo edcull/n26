@@ -46,6 +46,12 @@ export function render(d) {
   document.title = d.title;
   const gangOf = {};
   for (const g of d.gangs) for (const b of g.blocks) for (const r of b.fighters || []) gangOf[r.id] ??= g.class;
+  // every fighter named in an attack title needs a pop-up card on the page
+  const pops = [...d.popovers];
+  JSON.stringify(d.rounds, (k, v) => {
+    if (v && typeof v === 'object' && v.by) for (const id of [v.by].concat(v.target ?? [])) if (!pops.includes(id) && d.fighters[id]) pops.push(id);
+    return v;
+  });
   const turns = d.rounds.length ? `<div class="rounds">${join(d.rounds, r => round(r, d))}</div>` : blocks(d.turnsBlocks || []);
   return hero({ kicker: d.kicker, cycle: d.cycle, name: d.name, sides: d.sides }) + '\n' + nav(navItems(d)) + `
 <main class="wrap">
@@ -74,5 +80,5 @@ export function render(d) {
     ${blocks(d.aftermath || [], { fighters: d.fighters })}
   </section>
 </main>
-` + join(d.popovers, id => fighterPopover(id, d.fighters[id], gangOf[id]) + '\n');
+` + join(pops, id => fighterPopover(id, d.fighters[id], gangOf[id] ?? d.fighters[id].gang) + '\n');
 }
