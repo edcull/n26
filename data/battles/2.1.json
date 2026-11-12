@@ -2144,7 +2144,7 @@
          },
          {
           "dice": "2 4 6",
-          "result": "Two hits",
+          "result": "Two hits, Knockback",
           "resultClass": "ammo",
           "check": {
            "name": "To Hit",
@@ -2181,7 +2181,7 @@
           "result": "Out of Action"
          },
          {
-          "note": "Note: Bull Charge gives +1 Strength in melee. The stimm-slug gives +2 Movement, +2 Strength and +2 Toughness.<br/>Growltiger suffers a hand injury."
+          "note": "Note: Bull Charge for +1 Strength and Knockback (6+) on the charge. The stimm-slug gives +2 Movement, +2 Strength and +2 Toughness.<br/>Growltiger suffers a hand injury."
          }
         ],
         "n": 3,
@@ -2890,7 +2890,7 @@
          },
          {
           "dice": "2 6 6",
-          "result": "Two hits",
+          "result": "Two hits, Knockback",
           "resultClass": "ammo",
           "check": {
            "name": "To Hit",
@@ -2925,6 +2925,9 @@
           "label": "Injury",
           "dice": "fw fw",
           "result": "Injured"
+         },
+         {
+          "note": "Note: Bull Charge for +1 Strength and Knockback (6+) on the charge."
          },
          {
           "h6": "Autopistol (secondary)"
