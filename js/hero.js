@@ -20,7 +20,7 @@ export function hero(d) {
 `;
 }
 
-const HOME = '<li><a class="home" href="index.html" aria-label="Campaign"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M2 7.5 8 2.5l6 5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M3.8 6.4V13.5h3V10h2.4v3.5h3V6.4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg><span class="home-t">Campaign</span></a></li>';
+const HOME = '<li><a class="home" href="./" aria-label="Campaign"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M2 7.5 8 2.5l6 5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M3.8 6.4V13.5h3V10h2.4v3.5h3V6.4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg><span class="home-t">Campaign</span></a></li>';
 
 // items: [{href, text, class?}] | {br:true} | {round:n}
 export function nav(items, label = 'Report sections') {

@@ -12,5 +12,88 @@
   "2.1",
   "status",
   "2.2"
- ]
+ ],
+ "home": "index",
+ "pages": {
+  "index": {
+   "template": "report",
+   "data": "data/pages/index.json",
+   "css": [
+    "css/pages/index.css"
+   ],
+   "title": "Ash and Shadow"
+  },
+  "status": {
+   "template": "report",
+   "data": "data/pages/status.json",
+   "css": [
+    "css/site.css",
+    "css/pages/status.css"
+   ],
+   "title": "Campaign Status"
+  },
+  "setup": {
+   "template": "report",
+   "data": "data/pages/setup.json",
+   "css": [
+    "css/site.css",
+    "css/pages/setup.css"
+   ],
+   "title": "Campaign Setup"
+  },
+  "1.1": {
+   "template": "battle",
+   "data": "data/battles/1.1.json",
+   "css": [
+    "css/site.css",
+    "css/pages/1.1.css"
+   ],
+   "title": "Cycle 1.1: The Pyroclave Ploy"
+  },
+  "1.2": {
+   "template": "battle",
+   "data": "data/battles/1.2.json",
+   "css": [
+    "css/site.css",
+    "css/pages/1.2.css"
+   ],
+   "title": "Cycle 1.2: The Banewaters Brawl"
+  },
+  "1-post": {
+   "template": "post",
+   "data": "data/post/1.json",
+   "css": [
+    "css/site.css",
+    "css/pages/1-post.css"
+   ],
+   "title": "Cycle 1: Post-cycle Phase"
+  },
+  "2.1": {
+   "template": "battle",
+   "data": "data/battles/2.1.json",
+   "css": [
+    "css/site.css",
+    "css/pages/2.1.css"
+   ],
+   "title": "Cycle 2.1: The Rendermarch Raid"
+  },
+  "2.2": {
+   "template": "battle",
+   "data": "data/battles/2.2.json",
+   "css": [
+    "css/site.css",
+    "css/pages/2.2.css"
+   ],
+   "title": "Cycle 2.2: The Hollowpoint Hit"
+  },
+  "2-post": {
+   "template": "post",
+   "data": "data/post/2.json",
+   "css": [
+    "css/site.css",
+    "css/pages/2-post.css"
+   ],
+   "title": "Cycle 2 Post-cycle"
+  }
+ }
 }

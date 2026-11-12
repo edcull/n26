@@ -493,14 +493,14 @@
   "label": "Cycle 1 results",
   "battles": [
    {
-    "href": "1.1.html",
+    "page": "1.1",
     "name": "The Pyroclave Ploy",
     "challenger": "p",
     "stakes": "Pyroclave (Promethium Cache)",
     "winner": "t"
    },
    {
-    "href": "1.2.html",
+    "page": "1.2",
     "name": "The Banewaters Brawl",
     "challenger": "t",
     "stakes": "Banewaters (Synth Still)",
