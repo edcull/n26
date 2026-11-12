@@ -93,13 +93,20 @@
   },
   "walled-ruin": {
    "name": "Walled ruin",
-   "note": "8\" by 8\", origin at its centre. A raised floor runs along the south wall, 3\" deep at the ends and 2\" in the middle; a 3\" by 2\" upper floor sits in its east corner, drawn lighter.",
+   "note": "8\" by 8\", origin at its centre. Thick walls round the raised floor, thin walls round the open floor. A raised floor runs along the south wall, 3\" deep at the ends and 2\" in the middle; a 3\" by 2\" upper floor sits in its east corner, drawn lighter.",
    "label": "Walled ruin",
    "labelAt": [
     0,
     -30
    ],
    "els": [
+    [
+     "polyline",
+     {
+      "class": "m-div",
+      "points": "-100,25 -100,-100 100,-100 100,25"
+     }
+    ],
     [
      "polygon",
      {
@@ -121,7 +128,7 @@
      "polyline",
      {
       "class": "m-wall",
-      "points": "-100,-100 100,-100 100,100 -100,100 -100,-100"
+      "points": "-100,25 -100,100 100,100 100,25"
      }
     ]
    ]
