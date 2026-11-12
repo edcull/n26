@@ -185,7 +185,7 @@ Terrain is built from pieces in `data/terrain.json`. Each piece is drawn once at
 
 A board run draws the pieces where it holds `{"pieces": true}`, and their labels where it holds `{"labels": true}`. The labels are drawn per map: if a fighter token, badge or skull would cover one, it steps to the nearest clear spot.
 
-Pieces shared between boards: `round-platform` (smoke stack, furnace), `hex-platform` (raised platform, sealed vent, starch silo, anvil; on every board so far), `manufactorum` (manufactorum, shell works), `rendering-vats` (rendering vats, casting hall), `container` and `container-lid`. The extras a board adds to a piece, such as its ladders, the anvil's tank or a wall, are loose SVG next to it. The `v1-` pieces are the first cycle's drawings.
+Pieces shared between boards: `round-platform` (smoke stack, furnace), `hex-platform` (raised platform, sealed vent, starch silo, anvil; on every board so far; 8" across the flats, 9" point to point, 4" tower), `manufactorum` (manufactorum, shell works), `rendering-vats` (rendering vats, casting hall), `container` and `container-lid`. The extras a board adds to a piece, such as its ladders, the anvil's tank or a wall, are loose SVG next to it. The `v1-` pieces are the first cycle's drawings.
 
 ## Post-cycle phase (`data/post/<cycle>.json`)
 
