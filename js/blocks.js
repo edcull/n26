@@ -14,14 +14,14 @@ export function photo(p) {
 //   {name:"To Hit", base:4, mods:[[1,"Aim"]]}           -> To Hit <b>3+</b> (4+ +1 Aim)
 //   {name:"Save", base:6, mods:[[-1,"AP"]]}              -> Save <b>none</b> (6+ -1 AP)
 //   {name:"Willpower", base:9, mods:[[3,"Psychoteric Choir"]], under:true}  -> Willpower <b>12</b> (9 +3 Psychoteric Choir)
-//   {name:"To Wound", base:4, s:3, t:3}                 -> To Wound <b>4+</b> (S3-T3)
+//   {name:"To Wound", base:4, s:3, t:3}                 -> To Wound <b>4+</b> (S3/T3)
 // "under" tests (Leadership, Cool, Willpower, Strength) pass on the stat or less, so bonuses raise the
 // number; the rest need the number or more, so bonuses lower it. "who" names the fighter, "note" adds a word.
 export function checkLabel(c) {
   const sum = (c.mods || []).reduce((t, [v]) => t + v, 0);
   const show = n => (c.under ? `${n}` : n > 6 && c.name === 'Save' ? 'none' : `${n}+`);
   const total = c.under ? c.base + sum : c.base - sum;
-  const detail = [c.s != null ? `S${c.s}-T${c.t}` : '', c.mods?.length ? [show(c.base), ...c.mods.map(([v, why]) => `${v > 0 ? '+' : ''}${v} ${why}`)].join(' ') : '', c.note || ''].filter(Boolean).join(', ');
+  const detail = [c.s != null ? `S${c.s}/T${c.t}` : '', c.mods?.length ? [show(c.base), ...c.mods.map(([v, why]) => `${v > 0 ? '+' : ''}${v} ${why}`)].join(' ') : '', c.note || ''].filter(Boolean).join(', ');
   return `${c.who ? esc(c.who) + ': ' : ''}${esc(c.name)} <b>${show(total)}</b>${detail ? ` (${esc(detail)})` : ''}`;
 }
 

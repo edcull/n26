@@ -1470,7 +1470,9 @@
           "resultClass": "sup",
           "check": {
            "name": "To Wound",
-           "base": 3
+           "base": 3,
+           "s": 4,
+           "t": 3
           }
          },
          {
@@ -2111,7 +2113,9 @@
           "result": "Wound",
           "check": {
            "name": "To Wound",
-           "base": 3
+           "base": 3,
+           "s": 4,
+           "t": 3
           }
          },
          {
@@ -3240,12 +3244,14 @@
           }
          },
          {
-          "dice": "4",
-          "result": "Fails to wound",
+          "dice": "3",
+          "result": "-",
           "resultClass": "ammo",
           "check": {
            "name": "To Wound",
-           "base": 5
+           "base": 4,
+           "s": 4,
+           "t": 4
           }
          },
          {
