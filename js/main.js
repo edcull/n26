@@ -1,12 +1,13 @@
-// Entry point: every page is an empty shell whose <body data-page data-src>
-// says which template to use and which JSON file to load.
-import { setRules } from './lib.js';
+// The whole site is index.html. ?p=<page id> picks a page from data/campaign.json
+// ("pages"), which says which template draws it, which JSON it reads and which
+// stylesheets it needs. With no ?p the campaign's home page is shown.
+import { setRules, esc, pageHref } from './lib.js';
 import { fightersAt } from './roster.js';
 
-const PAGES = {
+const TEMPLATES = {
   battle: () => import('./pages/battle.js'),
-  report: () => import('./pages/report.js'),
   post: () => import('./pages/post.js'),
+  report: () => import('./pages/report.js'),
 };
 
 async function getJSON(url) {
@@ -15,10 +16,28 @@ async function getJSON(url) {
   return r.json();
 }
 
+function loadCss(hrefs) {
+  return Promise.all(hrefs.map(href => new Promise(resolve => {
+    const l = document.createElement('link');
+    l.rel = 'stylesheet'; l.href = href;
+    l.onload = l.onerror = resolve;
+    document.head.appendChild(l);
+  })));
+}
+
 (async () => {
-  const { page, src } = document.body.dataset;
   try {
-    const [rules, data, mod, campaign] = await Promise.all([getJSON('data/rules.json'), getJSON(src), PAGES[page](), getJSON('data/campaign.json')]);
+    const campaign = await getJSON('data/campaign.json');
+    const id = new URLSearchParams(location.search).get('p') || campaign.home;
+    const cfg = campaign.pages[id];
+    if (!cfg) {
+      document.title = 'Page not found';
+      document.body.insertAdjacentHTML('afterbegin', `<p style="padding:2rem">No page called “${esc(id)}”. <a href="${pageHref(campaign.home)}">Back to the campaign</a>.</p>`);
+      window.__rendered = true;
+      return;
+    }
+    document.title = cfg.title;
+    const [rules, data, mod] = await Promise.all([getJSON('data/rules.json'), getJSON(cfg.data), TEMPLATES[cfg.template](), loadCss(cfg.css)]);
     setRules(rules);
     if (data.roster) {
       const gangs = await Promise.all(campaign.gangs.map(g => getJSON(`data/gangs/${g}.json`)));
@@ -26,11 +45,11 @@ async function getJSON(url) {
       data.gangInfo = Object.fromEntries(gangs.map(g => [g.id, g]));
     }
     document.body.insertAdjacentHTML('afterbegin', mod.render(data));
-    if (location.hash) document.getElementById(location.hash.slice(1))?.scrollIntoView();
+    if (location.hash) document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView();
     window.__rendered = true;
   } catch (e) {
     console.error(e);
-    document.body.insertAdjacentHTML('afterbegin', `<p style="padding:2rem;color:#f88">Could not load this page: ${e.message}</p>`);
+    document.body.insertAdjacentHTML('afterbegin', `<p style="padding:2rem;color:#f88">Could not load this page: ${esc(e.message)}</p>`);
     window.__renderError = true;
   }
 })();

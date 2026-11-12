@@ -25,7 +25,7 @@
    "children": [
     {
      "card": {
-      "href": "status.html",
+      "page": "status",
       "img": "images/index/status.jpg",
       "alt": "Map of the campaign area and who holds each territory after Cycle 2.1.",
       "info": [
@@ -53,7 +53,7 @@
    "children": [
     {
      "card": {
-      "href": "1.1.html",
+      "page": "1.1",
       "img": "images/index/1.1.jpg",
       "alt": "The end of the battle, with Deuteronomy holding the centre of the raised platform.",
       "info": [
@@ -81,7 +81,7 @@
     },
     {
      "card": {
-      "href": "1.2.html",
+      "page": "1.2",
       "img": "images/index/1.2.jpg",
       "alt": "Mordecai and Deuteronomy in combat beside the rubble, with Delaque fighters around the ruined tower.",
       "info": [
@@ -109,7 +109,7 @@
     },
     {
      "card": {
-      "href": "1-post.html",
+      "page": "1-post",
       "img": "images/index/1-post.jpg",
       "alt": "Mordecai, the Cawdor Word Keeper, and a Delaque fighter in a ruined hab doorway.",
       "info": [
@@ -137,7 +137,7 @@
    "children": [
     {
      "card": {
-      "href": "2.1.html",
+      "page": "2.1",
       "img": "images/index/2.1.jpg",
       "alt": "The end of the Rendermarch Raid: Deuteronomy on the vats' upper floor, Mordecai engaged with Mistoffelees on the wall, and Deus and Amen with the Psalm by the bone yard.",
       "info": [
@@ -165,7 +165,7 @@
     },
     {
      "card": {
-      "href": "2.2.html",
+      "page": "2.2",
       "placeholder": "Photo to come",
       "info": [
        {
@@ -192,7 +192,7 @@
     },
     {
      "card": {
-      "href": "2-post.html",
+      "page": "2-post",
       "placeholder": "Photo to come",
       "info": [
        {

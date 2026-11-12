@@ -1,7 +1,7 @@
 // Post-cycle, status, setup and home pages: data/pages/<id>.json
 // A page is a hero header, optional section nav, and a tree of blocks: layout
 // containers {tag, class, attrs, children} holding content blocks.
-import { esc, attr, md, cls, join } from '../lib.js';
+import { esc, attr, md, cls, join, pageHref } from '../lib.js';
 import { hero, nav } from '../hero.js';
 import { fighterCard } from '../fighter.js';
 import { photo, sheet, assets } from '../blocks.js';
@@ -34,7 +34,7 @@ function node(b, d) {
   if (b.card) {
     const c = b.card;
     const media = c.img != null ? `<img src="${attr(c.img)}" alt="${attr(c.alt)}">` : `<div class="ph" aria-hidden="true">${esc(c.placeholder)}</div>`;
-    return `<a class="battle" href="${attr(c.href)}">\n${media}\n<div class="info">\n${join(c.info, i => `<${i.tag}${i.class ? ` class="${i.class}"` : ''}>${md(i.html)}</${i.tag}>\n`)}</div>\n</a>`;
+    return `<a class="battle" href="${attr(pageHref(c.page))}">\n${media}\n<div class="info">\n${join(c.info, i => `<${i.tag}${i.class ? ` class="${i.class}"` : ''}>${md(i.html)}</${i.tag}>\n`)}</div>\n</a>`;
   }
   if (b.tcard) return `<article class="${cls('t-card', b.tcard.class)}">${join(b.tcard.parts, p => `<${p.tag}${p.class ? ` class="${p.class}"` : ''}>${md(p.html)}</${p.tag}>`)}</article>`;
   if (b.xppop) {

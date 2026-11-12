@@ -3,15 +3,18 @@
 Battle reports for a two-gang Necromunda campaign, served by GitHub Pages at
 https://edcull.github.io/n26/.
 
-Every page is a small HTML shell. The content lives in JSON under `data/`, and
-shared JavaScript templates in `js/` build the page in the browser.
+The whole site is one page, `index.html`. `?p=<page id>` picks what it shows
+(`./?p=2.1`, `./?p=status`); with no `?p` it shows the campaign home. The
+content lives in JSON under `data/`, and shared JavaScript templates in `js/`
+build each page in the browser. Section links work as usual: `./?p=2.1#round-3`.
 
 ## Layout
 
 | Path | What it holds |
 |---|---|
-| `index.html`, `1.1.html` … | Page shells. Each names a template and a data file: `<body data-page="battle" data-src="data/battles/2.1.json">` |
-| `data/campaign.json` | Campaign name, the gangs, and the timeline of points that fighter histories hang off |
+| `index.html` | The only real page: loads `js/main.js`, which reads `data/campaign.json` to find the requested page |
+| `1.1.html`, `status.html` … | Redirects from the old addresses to `./?p=<id>`, so existing links keep working |
+| `data/campaign.json` | Campaign name, the gangs, the timeline of points that fighter histories hang off, and `pages`: every page id with its template (`battle`, `post` or `report`), data file, stylesheets and title |
 | `data/gangs/<gang>.json` | A gang (name, house, colour, portraits) and every fighter it has had, each stored once with their history |
 | `data/battles/<id>.json` | One battle report: setup, gang panels, rounds, maps, aftermath |
 | `data/post/<cycle>.json` | A post-cycle phase: results, actions, income, advancements, trading post, rosters |
@@ -149,8 +152,13 @@ Fighters come from the gang files, as in battle reports. On the status page, `"x
 
 ## Adding a battle
 
-1. Add the battle's id to the timeline in `data/campaign.json`. Add entries to the gang files for anything that changed since the last point.
-2. Copy the newest battle's JSON to `data/battles/<new id>.json`, set `"roster"` to the new id, and edit it.
-3. Copy its shell, for example `2.2.html`, to `<new id>.html`. Change `data-src`, and the `<title>` used before the page loads. Add a `css/pages/<id>.css` link only if the page needs its own styles.
+1. Copy the newest battle's JSON to `data/battles/<new id>.json`, set `"roster"` to the new id, and edit it.
+2. In `data/campaign.json`:
+   - add the id to `timeline`
+   - add a `pages` entry, for example `"2.3": {"template": "battle", "data": "data/battles/2.3.json", "css": ["css/site.css"], "title": "Cycle 2.3: …"}`
+   - add `css/pages/<id>.css` to `css` only if the battle needs its own styles
+3. Add entries to the gang files for anything that changed since the last point.
 4. Put the photos in `images/<new id>/`.
-5. Add a card for it under the right cycle in `data/pages/index.json`.
+5. Add a card for it under the right cycle in `data/pages/index.json` (`{"card": {"page": "2.3", …}}`).
+
+A post-cycle phase is the same, with `"template": "post"` and its data in `data/post/`. Links between pages use page ids (`"page": "2.3"`), never file names.

@@ -29,3 +29,6 @@ export function md(s) {
 
 export const cls = (...xs) => xs.flat().filter(Boolean).join(' ');
 export const join = (xs, f) => (xs || []).map(f).join('');
+
+// Every page is index.html; ?p=<page id> picks which one (ids are listed in data/campaign.json).
+export const pageHref = id => (id === 'index' ? './' : `./?p=${encodeURIComponent(id)}`);

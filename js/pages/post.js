@@ -1,7 +1,7 @@
 // Post-cycle page: data/post/<cycle>.json
 // results of the cycle's battles, then for each gang: story, post-cycle actions,
 // income, XP advancements, trading post and the full roster afterwards.
-import { esc, attr, md, join } from '../lib.js';
+import { esc, attr, md, join, pageHref } from '../lib.js';
 import { hero, nav } from '../hero.js';
 import { fighterCard } from '../fighter.js';
 import { sheet, assets } from '../blocks.js';
@@ -76,7 +76,7 @@ export function render(d) {
   const results = `<section id="results">
 <h2>Results</h2>
 ${ledger(d.results.label, 'ledger results', th('Battle') + th('Challenger') + th('Stakes', 'm-hide') + th('Winner'),
-    join(d.results.battles, b => tr(td(`<a href="${attr(b.href)}">${esc(b.name)}</a>`) + td(side(b.challenger).name, b.challenger) + td(b.stakes, 'm-hide') + td(side(b.winner).name, b.winner))))}
+    join(d.results.battles, b => tr(td(`<a href="${attr(pageHref(b.page))}">${esc(b.name)}</a>`) + td(side(b.challenger).name, b.challenger) + td(b.stakes, 'm-hide') + td(side(b.winner).name, b.winner))))}
 </section>`;
   const items = [{ href: '#results', text: 'Results' }, ...d.gangs.map(e => ({ href: '#' + e.section, text: d.gangInfo[e.gang].name }))];
   return hero(d.hero) + '\n' + nav(items, 'Page sections') + `\n<main class="wrap">\n${results}\n${join(d.gangs, e => gangBlock(e, d) + '\n')}</main>\n`;
