@@ -233,29 +233,29 @@
      "polyline",
      {
       "class": "m-div",
-      "points": "53.15,-69.35 90.65,-69.35 90.65,71.05 -47.75,71.05"
+      "points": "-75,-37.5 -75,-87.5 75,-87.5 75,37.5"
      }
     ],
     [
      "polygon",
      {
       "class": "m-solid",
-      "points": "-90.65,-69.35 53.15,-69.35 32.85,-48.35 1.85,-31.35 -22.35,-14.45 -34.75,13.85 -43.25,42.45 -47.75,69.85 -90.65,69.85"
+      "points": "-75,87.5 -75,-37.5 -40,-37.5 -40,-30 -28,-10 -12,12.5 10,12.5 10,18 45,28 75,37.5 75,87.5"
      }
     ],
     [
      "polyline",
      {
       "class": "m-wall",
-      "points": "53.15,-71.05 -90.65,-71.05 -90.65,69.85 -47.75,69.85"
+      "points": "-75,-37.5 -75,87.5 75,87.5 75,37.5"
      }
     ],
     [
      "circle",
      {
       "class": "m-solid",
-      "cx": "48",
-      "cy": "-71.05",
+      "cx": "-75",
+      "cy": "-55",
       "r": "17"
      }
     ],
@@ -263,8 +263,8 @@
      "circle",
      {
       "class": "m-solid",
-      "cx": "-8",
-      "cy": "-71.05",
+      "cx": "-75",
+      "cy": "0",
       "r": "17"
      }
     ],
@@ -272,18 +272,18 @@
      "circle",
      {
       "class": "m-solid",
-      "cx": "-60",
-      "cy": "-71.05",
+      "cx": "-75",
+      "cy": "52",
       "r": "17"
      }
     ]
    ],
    "label": "Rendering vats",
    "labelAt": [
-    1.85,
-    33.85
+    25,
+    62
    ],
-   "note": "About 7.25\" by 5.6\", origin at its centre. A raised floor along one long side and part of the next, inside thick walls; thin walls round the open floor. Three round vats sit centred in the wall beside the raised floor."
+   "note": "6\" by 7\", origin at its centre. A raised floor along the south wall, 2\" deep at the east end and 3\" in the middle, running 5\" up the west wall; thick walls round it, thin walls round the open floor. Three round vats sit centred in the west wall."
   },
   "bone-yard": {
    "name": "Bone yard",
