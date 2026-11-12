@@ -2091,7 +2091,7 @@
          {
           "label": "Injury",
           "dice": "fw",
-          "result": "Injured, suppressed",
+          "result": "Suppressed",
           "resultClass": "sup"
          }
         ],
