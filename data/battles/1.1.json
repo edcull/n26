@@ -4312,17 +4312,15 @@
    "turn": -30.1
   },
   {
-   "piece": "v1-gothic-ruin-west",
+   "piece": "rendering-vats",
    "at": [
-    15.0,
-    80.0
-   ]
-  },
-  {
-   "piece": "v1-walled-yard",
-   "at": [
-    15.0,
-    32.5
+    97.5,
+    121.25
+   ],
+   "label": "Gothic ruin",
+   "labelAt": [
+    62.5,
+    190
    ]
   },
   [

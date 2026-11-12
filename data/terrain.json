@@ -486,40 +486,6 @@
     90.0
    ]
   },
-  "v1-gothic-ruin-west": {
-   "name": "Gothic ruin",
-   "els": [
-    [
-     "polygon",
-     {
-      "class": "m-solid",
-      "points": "0,0 55,0 100,70 165,70 165,130 0,130"
-     }
-    ]
-   ],
-   "label": "Gothic ruin",
-   "labelAt": [
-    47.5,
-    110.0
-   ]
-  },
-  "v1-walled-yard": {
-   "name": "Walled yard",
-   "els": [
-    [
-     "polyline",
-     {
-      "class": "m-wall",
-      "points": "0,47.5 0,0 165,0 165,117.5"
-     }
-    ]
-   ],
-   "label": "Walled yard",
-   "labelAt": [
-    95.0,
-    35.0
-   ]
-  },
   "v1-gothic-ruin-east": {
    "name": "Gothic ruin",
    "els": [
