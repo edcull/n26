@@ -4713,12 +4713,39 @@
    }
   ],
   {
-   "piece": "starch-silo",
+   "piece": "hex-platform",
    "at": [
-    385.0,
-    364.5
+    491.5,
+    482.4
+   ],
+   "turn": 90,
+   "label": "Starch silo",
+   "labelAt": [
+    490.5,
+    483.8
    ]
   },
+  [
+   "polyline",
+   {
+    "class": "m-ladder",
+    "points": "443,390.5 449.8,402.8"
+   }
+  ],
+  [
+   "polyline",
+   {
+    "class": "m-wall",
+    "points": "465.9,367.4 572.1,367.4"
+   }
+  ],
+  [
+   "polyline",
+   {
+    "class": "m-div",
+    "points": "396.7,430.8 394.5,541"
+   }
+  ],
   {
    "piece": "bone-yard",
    "at": [

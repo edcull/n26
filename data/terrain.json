@@ -59,6 +59,27 @@
     3.2
    ]
   },
+  "hex-platform": {
+   "name": "Hex platform",
+   "els": [
+    [
+     "polygon",
+     {
+      "class": "m-plat",
+      "points": "110.5,0 55.3,-95.7 -55.3,-95.7 -110.5,0 -55.3,95.7 55.3,95.7"
+     }
+    ],
+    [
+     "circle",
+     {
+      "class": "m-tower",
+      "cx": "0",
+      "cy": "0",
+      "r": "55"
+     }
+    ]
+   ]
+  },
   "tank": {
    "name": "Tank",
    "els": [
@@ -231,53 +252,6 @@
     104.9
    ]
   },
-  "starch-silo": {
-   "name": "Starch silo",
-   "els": [
-    [
-     "polygon",
-     {
-      "class": "m-plat",
-      "points": "105.5,0 213.9,58.9 213.9,177.7 105.5,235.5 0,177.7 0,57.8"
-     }
-    ],
-    [
-     "circle",
-     {
-      "class": "m-tower",
-      "cx": "106.5",
-      "cy": "117.9",
-      "r": "55"
-     }
-    ],
-    [
-     "polyline",
-     {
-      "class": "m-ladder",
-      "points": "58,26 64.8,38.3"
-     }
-    ],
-    [
-     "polyline",
-     {
-      "class": "m-wall",
-      "points": "80.9,2.9 187.1,2.9"
-     }
-    ],
-    [
-     "polyline",
-     {
-      "class": "m-div",
-      "points": "11.7,66.3 9.5,176.5"
-     }
-    ]
-   ],
-   "label": "Starch silo",
-   "labelAt": [
-    105.5,
-    119.3
-   ]
-  },
   "bone-yard": {
    "name": "Bone yard",
    "els": [
@@ -434,50 +408,6 @@
    "labelAt": [
     56.3,
     87.5
-   ]
-  },
-  "anvil": {
-   "name": "Anvil",
-   "els": [
-    [
-     "polygon",
-     {
-      "class": "m-plat",
-      "points": "221,95.7 165.8,0 55.2,0 0,95.7 55.2,191.4 165.8,191.4"
-     }
-    ],
-    [
-     "circle",
-     {
-      "class": "m-tower",
-      "cx": "110.5",
-      "cy": "95.7",
-      "r": "55"
-     }
-    ],
-    [
-     "rect",
-     {
-      "class": "m-solid",
-      "height": "40",
-      "rx": "11.2",
-      "width": "60",
-      "x": "80.5",
-      "y": "75.7"
-     }
-    ],
-    [
-     "polyline",
-     {
-      "class": "m-ladder",
-      "points": "110.5,191.4 110.5,206.4"
-     }
-    ]
-   ],
-   "label": "Anvil",
-   "labelAt": [
-    110.5,
-    166.4
    ]
   },
   "v1-ruined-floor": {
@@ -682,50 +612,6 @@
     88.6
    ]
   },
-  "v1-hex-tower": {
-   "name": "Hex tower",
-   "els": [
-    [
-     "polygon",
-     {
-      "class": "m-plat",
-      "points": "205,110 153.75,198.75 51.25,198.75 0,110 51.25,21.25 153.75,21.25"
-     }
-    ],
-    [
-     "circle",
-     {
-      "class": "m-tower",
-      "cx": "102.5",
-      "cy": "110",
-      "r": "62"
-     }
-    ],
-    [
-     "polyline",
-     {
-      "class": "m-run",
-      "points": "102.5,0 102.5,21.25"
-     }
-    ],
-    [
-     "polyline",
-     {
-      "class": "m-run",
-      "points": "95,198.75 95,222.5"
-     }
-    ],
-    [
-     "circle",
-     {
-      "class": "m-centre",
-      "cx": "102.5",
-      "cy": "110",
-      "r": "22"
-     }
-    ]
-   ]
-  },
   "v1-ruined-tower-b": {
    "name": "Ruined tower",
    "els": [
@@ -909,39 +795,6 @@
    "labelAt": [
     104.1,
     63.5
-   ]
-  },
-  "v1-sealed-vent": {
-   "name": "Sealed vent",
-   "els": [
-    [
-     "polyline",
-     {
-      "class": "m-run",
-      "points": "102.5,201.3 102.5,177.55"
-     }
-    ],
-    [
-     "polygon",
-     {
-      "class": "m-plat",
-      "points": "0,88.8 51.25,0.032 153.75,0.032 205,88.8 153.75,177.568 51.25,177.568"
-     }
-    ],
-    [
-     "circle",
-     {
-      "class": "m-tower",
-      "cx": "102.5",
-      "cy": "88.8",
-      "r": "58"
-     }
-    ]
-   ],
-   "label": "Sealed vent",
-   "labelAt": [
-    102.5,
-    88.8
    ]
   }
  }

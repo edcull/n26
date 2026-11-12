@@ -670,12 +670,35 @@
    }
   ],
   {
-   "piece": "anvil",
+   "piece": "hex-platform",
    "at": [
-    189.5,
-    383.6
+    300,
+    479.3
+   ],
+   "label": "Anvil",
+   "labelAt": [
+    300,
+    550
    ]
   },
+  [
+   "rect",
+   {
+    "class": "m-solid",
+    "height": "40",
+    "rx": "11.2",
+    "width": "60",
+    "x": "270",
+    "y": "459.3"
+   }
+  ],
+  [
+   "polyline",
+   {
+    "class": "m-ladder",
+    "points": "300,575 300,590"
+   }
+  ],
   [
    "polyline",
    {

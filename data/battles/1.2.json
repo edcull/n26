@@ -4287,11 +4287,23 @@
    ]
   },
   {
-   "piece": "v1-sealed-vent",
+   "piece": "hex-platform",
    "at": [
-    2.5,
-    46.2
+    110.5,
+    135
+   ],
+   "label": "Sealed vent",
+   "labelAt": [
+    110.5,
+    135
    ]
-  }
+  },
+  [
+   "polyline",
+   {
+    "class": "m-run",
+    "points": "110.5,254.45 110.5,230.7"
+   }
+  ]
  ]
 }

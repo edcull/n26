@@ -46,7 +46,8 @@ function labelsSvg(terrain, lib, marks) {
     const [x, y] = labelSpot(p, piece);
     const w = Math.max(...lines.map(l => l.length)) * 7.6 + 6, h = LINE * (lines.length - 1) + 15;
     const box = (dx, dy) => ({ l: x + dx - w / 2, r: x + dx + w / 2, t: y + dy - 12, b: y + dy - 12 + h });
-    const hits = b => marks.some(m => m.x + m.r > b.l && m.x - m.r < b.r && m.y + m.r > b.t && m.y - m.r < b.b) ||
+    const hits = b => marks.some(m => m.box ? m.box.r > b.l && m.box.l < b.r && m.box.b > b.t && m.box.t < b.b
+      : m.x + m.r > b.l && m.x - m.r < b.r && m.y + m.r > b.t && m.y - m.r < b.b) ||
       boxes.some(o => o.r > b.l && o.l < b.r && o.b > b.t && o.t < b.b);
     let d = [0, 0];
     if (hits(box(0, 0))) {
@@ -88,6 +89,10 @@ export function renderMap(m, ctx = {}) {
     if (it.tok) item.marks.push({ x: +it.tok.x, y: +it.tok.y, r: +(it.tok.r ?? 12.5) + 2 });
     if (it.b) item.marks.push({ x: +it.b.x, y: +it.b.y, r: 10 });
     if (it.ooa) item.marks.push({ x: +it.ooa[0], y: +it.ooa[1] - 6, r: 10 });
+    if (it.el && it.el[0] === 'text' && typeof it.el[2] === 'string') {   // a map's own text, such as the yellow Cache marker
+      const x = +it.el[1].x, y = +it.el[1].y, w = it.el[2].length * 7.6 + 6;
+      item.marks.push({ box: { l: x - w / 2, r: x + w / 2, t: y - 12, b: y + 3 } });
+    }
     if (it.clip) it.clip.forEach(mark);
   };
   m.items.forEach(mark);
