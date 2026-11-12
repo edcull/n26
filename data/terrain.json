@@ -715,6 +715,29 @@
     104.1,
     63.5
    ]
+  },
+  "barricade": {
+   "name": "Barricade",
+   "note": "3\" by 0.75\", origin at its centre.",
+   "els": [
+    [
+     "rect",
+     {
+      "class": "m-solid",
+      "x": "-37.5",
+      "y": "-9.38",
+      "width": "75",
+      "height": "18.75"
+     }
+    ],
+    [
+     "path",
+     {
+      "class": "m-seam",
+      "d": "M-12.5 -9.38V9.38M12.5 -9.38V9.38"
+     }
+    ]
+   ]
   }
  }
 }

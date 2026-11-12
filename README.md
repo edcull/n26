@@ -182,11 +182,11 @@ Terrain is built from pieces in `data/terrain.json`. Each piece is drawn once at
 - `"turn": 90`: turned clockwise about its origin, in degrees (the 2.2 containers sit at 30)
 - `"stacked": true`: drawn lighter, for a piece stacked on another (a container on two containers)
 - `"label"`: the name on this board (text, a list of lines, or `false` for none). `"labelAt": [x, y]` puts it somewhere other than the piece's own label spot
-- `["polyline", {"class": "m-wall", "points": "…"}, …]`: loose SVG for the small bits, such as walls, barricades, ladders and planks
+- `["polyline", {"class": "m-wall", "points": "…"}, …]`: loose SVG for the small bits, such as walls and ladders
 
 A board run draws the pieces where it holds `{"pieces": true}`, and their labels where it holds `{"labels": true}`. The labels are drawn per map: if a fighter token, badge or skull would cover one, it steps to the nearest clear spot.
 
-Pieces shared between boards: `round-platform` (smoke stack, furnace; 7" across, 3" tower), `hex-platform` (raised platform, sealed vent, starch silo, anvil; on every board so far; 8" across the flats, 9" point to point, 4" tower), `manufactorum` (manufactorum, shell works), `rendering-vats` (rendering vats, casting hall), `container` (2" by 4", origin at its centre; stacked ones drawn lighter). The extras a board adds to a piece, such as its ladders, the anvil's tank or a wall, are loose SVG next to it. The `v1-` pieces are the first cycle's drawings.
+Pieces shared between boards: `round-platform` (smoke stack, furnace; 7" across, 3" tower), `hex-platform` (raised platform, sealed vent, starch silo, anvil; on every board so far; 8" across the flats, 9" point to point, 4" tower), `manufactorum` (manufactorum, shell works), `rendering-vats` (rendering vats, casting hall), `container` (2" by 4", origin at its centre; stacked ones drawn lighter), `barricade` (3" by 0.75", origin at its centre). The extras a board adds to a piece, such as its ladders, the anvil's tank or a wall, are loose SVG next to it. The `v1-` pieces are the first cycle's drawings.
 
 ## Post-cycle phase (`data/post/<cycle>.json`)
 

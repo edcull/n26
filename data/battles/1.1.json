@@ -4274,13 +4274,14 @@
     "points": "247.5,540 305,540"
    }
   ],
-  [
-   "polyline",
-   {
-    "class": "m-plank",
-    "points": "142.5,440 220,395"
-   }
-  ],
+  {
+   "piece": "barricade",
+   "at": [
+    181.25,
+    417.5
+   ],
+   "turn": -30.1
+  },
   {
    "piece": "v1-gothic-ruin-west",
    "at": [
@@ -4309,13 +4310,14 @@
     30.0
    ]
   },
-  [
-   "polyline",
-   {
-    "class": "m-plank",
-    "points": "340,202.5 397.5,170"
-   }
-  ],
+  {
+   "piece": "barricade",
+   "at": [
+    368.75,
+    186.25
+   ],
+   "turn": -29.5
+  },
   {
    "piece": "container",
    "at": [
