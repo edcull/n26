@@ -443,7 +443,9 @@
           "resultClass": "sup",
           "check": {
            "name": "To Wound",
-           "base": 3
+           "base": 3,
+           "s": 5,
+           "t": 3
           }
          },
          {
@@ -702,7 +704,9 @@
           "result": "Wound",
           "check": {
            "name": "To Wound",
-           "base": 5
+           "base": 5,
+           "s": 3,
+           "t": 4
           }
          },
          {
@@ -756,13 +760,14 @@
           "result": "Two wounds",
           "check": {
            "name": "To Wound",
-           "base": 4
+           "base": 4,
+           "s": 3,
+           "t": 3
           }
          },
          {
           "dice": "2 5",
           "result": "One damage, suppressed",
-          "resultClass": "sup",
           "check": {
            "name": "Save",
            "base": 5,
@@ -1002,7 +1007,9 @@
           "result": "Three wounds",
           "check": {
            "name": "To Wound",
-           "base": 3
+           "base": 3,
+           "s": 4,
+           "t": 3
           }
          },
          {
@@ -1116,7 +1123,9 @@
           "result": "Wound",
           "check": {
            "name": "To Wound",
-           "base": 4
+           "base": 4,
+           "s": 3,
+           "t": 3
           }
          },
          {
@@ -1132,7 +1141,7 @@
          },
          {
           "dice": "3 4 6",
-          "result": "Three hits and Knockback",
+          "result": "Three hits, Knockback",
           "resultClass": "ammo",
           "check": {
            "name": "To Hit",
@@ -1144,7 +1153,9 @@
           "result": "Three wounds",
           "check": {
            "name": "To Wound",
-           "base": 3
+           "base": 3,
+           "s": 4,
+           "t": 3
           }
          },
          {
@@ -1303,7 +1314,7 @@
          },
          {
           "dice": "2 3 6",
-          "result": "Two hits and Knockback",
+          "result": "Two hits, Knockback",
           "resultClass": "ammo",
           "check": {
            "name": "To Hit",
@@ -1312,11 +1323,13 @@
          },
          {
           "dice": "1 2",
-          "result": "Fails to wound",
+          "result": "-",
           "resultClass": "ammo",
           "check": {
            "name": "To Wound",
-           "base": 3
+           "base": 3,
+           "s": 4,
+           "t": 3
           }
          },
          {
@@ -1375,7 +1388,9 @@
           "resultClass": "sup",
           "check": {
            "name": "To Wound",
-           "base": 4
+           "base": 4,
+           "s": 3,
+           "t": 3
           }
          }
         ],
@@ -1406,11 +1421,13 @@
          },
          {
           "dice": "4",
-          "result": "Fails to wound",
+          "result": "-",
           "resultClass": "ammo",
           "check": {
            "name": "To Wound",
-           "base": 5
+           "base": 5,
+           "s": 3,
+           "t": 4
           }
          },
          {
@@ -1453,7 +1470,9 @@
           "resultClass": "sup",
           "check": {
            "name": "To Wound",
-           "base": 3
+           "base": 3,
+           "s": 4,
+           "t": 3
           }
          },
          {
@@ -1472,11 +1491,12 @@
         "rows": [
          {
           "dice": "5 2",
-          "result": "Hit",
-          "resultClass": "ammo",
+          "result": "One wound",
           "check": {
            "name": "To Wound",
-           "base": 3
+           "base": 3,
+           "s": 4,
+           "t": 3
           }
          },
          {
@@ -1538,7 +1558,9 @@
           "resultClass": "sup",
           "check": {
            "name": "To Wound",
-           "base": 3
+           "base": 3,
+           "s": 4,
+           "t": 3
           }
          }
         ],
@@ -1977,7 +1999,9 @@
           "result": "Wound",
           "check": {
            "name": "To Wound",
-           "base": 3
+           "base": 3,
+           "s": 4,
+           "t": 3
           }
          },
          {
@@ -2025,13 +2049,14 @@
           "result": "Wound",
           "check": {
            "name": "To Wound",
-           "base": 3
+           "base": 3,
+           "s": 4,
+           "t": 3
           }
          },
          {
           "dice": "3",
           "result": "One damage, suppressed",
-          "resultClass": "sup",
           "check": {
            "name": "Save",
            "base": 5,
@@ -2087,7 +2112,9 @@
           "result": "Wound",
           "check": {
            "name": "To Wound",
-           "base": 3
+           "base": 3,
+           "s": 4,
+           "t": 3
           }
          },
          {
@@ -2214,13 +2241,14 @@
           "result": "Wound",
           "check": {
            "name": "To Wound",
-           "base": 3
+           "base": 3,
+           "s": 5,
+           "t": 4
           }
          },
          {
           "dice": "",
           "result": "Two damage, suppressed",
-          "resultClass": "sup",
           "check": {
            "name": "Save",
            "base": 6,
@@ -2295,7 +2323,9 @@
           "resultClass": "sup",
           "check": {
            "name": "To Wound",
-           "base": 4
+           "base": 4,
+           "s": 3,
+           "t": 3
           }
          }
         ],
@@ -2707,7 +2737,9 @@
           "result": "Two wounds",
           "check": {
            "name": "To Wound",
-           "base": 2
+           "base": 2,
+           "s": 7,
+           "t": 3
           }
          },
          {
@@ -2758,7 +2790,9 @@
           "resultClass": "sup",
           "check": {
            "name": "To Wound",
-           "base": 3
+           "base": 3,
+           "s": 4,
+           "t": 3
           }
          }
         ],
@@ -2826,7 +2860,9 @@
           "result": "Wound",
           "check": {
            "name": "To Wound",
-           "base": 4
+           "base": 4,
+           "s": 3,
+           "t": 3
           }
          },
          {
@@ -2866,11 +2902,13 @@
          },
          {
           "dice": "2",
-          "result": "Suppresses",
+          "result": "Suppressed",
           "resultClass": "sup",
           "check": {
            "name": "To Wound",
-           "base": 4
+           "base": 4,
+           "s": 3,
+           "t": 3
           }
          }
         ],
@@ -3205,12 +3243,14 @@
           }
          },
          {
-          "dice": "4",
-          "result": "Fails to wound",
+          "dice": "3",
+          "result": "-",
           "resultClass": "ammo",
           "check": {
            "name": "To Wound",
-           "base": 5
+           "base": 4,
+           "s": 4,
+           "t": 4
           }
          },
          {
@@ -3463,7 +3503,9 @@
           "result": "Wound",
           "check": {
            "name": "To Wound",
-           "base": 3
+           "base": 3,
+           "s": 4,
+           "t": 3
           }
          },
          {
@@ -3626,7 +3668,9 @@
           "resultClass": "sup",
           "check": {
            "name": "To Wound",
-           "base": 4
+           "base": 4,
+           "s": 3,
+           "t": 3
           }
          }
         ],

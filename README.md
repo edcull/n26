@@ -118,14 +118,11 @@ An attack names who made it, with what, and at whom:
   "result": "Ezekiel seriously injured, Out of Ammo", "rows": [...]}}
 ```
 
-- **The title** is drawn from these fields as "Rumpleteaser - Plasma Gun → Ezekiel Crows":
-  - each fighter's name has a tooltip with their stat line
-  - each weapon has a tooltip with its profile, taken from the fighter's card at this point in the campaign
-  - a combi-weapon's tooltip lists both profiles
+- **The title** is drawn from these fields as "Rumpleteaser - Plasma Gun → Ezekiel Crows". The fighters' names open their full cards, which list the weapons.
 - **`weapons`** are the names on the attacker's card, or `"Unarmed"`. List two for a fight with a secondary weapon.
 - **`target`** is a fighter id, or a list for a weapon that hits several. Leave it out if the narrative never says who was aimed at.
 - **`action`** adds a word before the weapon: `Overwatch`, `Reaction`, `Counter-attack`, `Charge`.
-- **The damage note** ("Note: Damage (2), Lethality (2)") is added automatically for any weapon whose Damage or Lethality is above 1.
+- **The damage note** ("Note: Damage (2), Lethality (2)") is added automatically for any weapon whose Damage or Lethality is above 1. With two weapons, each weapon section (its `h6` heading) ends with its own note. Any `Note:` rows at the end of a section (or of a one-weapon callout) are merged with it into a single note.
 - **Unsaved wounds** are given as damage on the save row: unsaved wounds × the weapon's Damage, e.g. `Two damage` for one unsaved plasma wound.
 
 Other callouts (tests, recovery, powers) keep a plain `name` such as `"Wit - Nerve"`.
@@ -137,6 +134,7 @@ Other callouts (tests, recovery, powers) keep a plain `name` such as `"Wit - Ner
   - `{"check": {"name": "Save", "base": 6, "mods": [[-1, "AP"]]}}` shows Save **none** (6+ -1 AP); leave `dice` empty then
   - `{"check": {"name": "Willpower", "base": 9, "mods": [[3, "Psychoteric Choir"]], "under": true}}` shows Willpower **12** (9 +3 Psychoteric Choir)
   - `"who": "Mordecai"` puts the fighter's name first, for callouts that cover several fighters: Mordecai: Leadership **8**
+  - `"s": 3, "t": 3` on a To Wound check shows the attacker's Strength against the target's Toughness: To Wound **4+** (S3/T3)
   - `"note": "Toxin"` adds a word in the brackets
 - **How the final number is worked out:**
   - Rolls you need to equal or beat (To Hit, To Wound, Save, Ammo, Charge …): modifiers are added to the dice, so the template shows the lowered target. A 4+ with +1 shows **3+**.
@@ -146,10 +144,11 @@ Other callouts (tests, recovery, powers) keep a plain `name` such as `"Wit - Ner
   - Count words when counting, otherwise `Hit` / `Miss` / `Wound`: `Two hits`, `One wound`, `Hit`, `Miss`
   - Unsaved wounds on the save row as damage: `One damage`, `Two damage, suppressed`
   - `Serious injury`, `Out of Action`, `Out of Ammo`
-  - Conditions after a comma: `One wound, suppressed`, `Saved, suppressed`
+  - A To Wound row that causes no wound reads `Suppressed` for a ranged attack. It reads `-` when the target ignores suppression (Juggernaut, a passed Nerves of Steel test) and for a melee attack
+  - Conditions after a comma: `One wound, suppressed`, `Saved, suppressed`, `Three hits, Knockback`. On the dice rows each part after a comma starts a new line
   - Narrative text says "seriously injured"
 - **`resultClass`** sets the colour:
-  - leave it out for red (wounds, injuries, bad outcomes)
+  - leave it out for red (wounds, damage, injuries, bad outcomes). Damage is always red, even with a condition after it (`One damage, suppressed`)
   - `sup` for yellow (suppressed and other conditions)
   - `ammo` for neutral (hits, misses, saves, passes)
 - **Notes** start with `Note:`. Initiative lines in fights are written `Initiative 3 +2 charge bonus`.
