@@ -1962,7 +1962,7 @@
          },
          {
           "dice": "1 6 2 5",
-          "result": "Two hits, one auto wound",
+          "result": "Two hits, two auto wounds",
           "resultClass": "ammo",
           "check": {
            "name": "To Hit",
@@ -1982,6 +1982,9 @@
             ]
            ]
           }
+         },
+         {
+          "note": "Note: Shock (5+), a hit roll of 5 or 6 wounds automatically."
          },
          {
           "h6": "Web Gauntlet (secondary)"
@@ -2614,6 +2617,9 @@
             ]
            ]
           }
+         },
+         {
+          "note": "Note: Shock (5+), a hit roll of 5 or 6 wounds automatically."
          },
          {
           "h6": "Web Gauntlet (secondary)"
