@@ -93,7 +93,7 @@
   },
   "walled-ruin": {
    "name": "Walled ruin",
-   "note": "8\" by 8\", origin at its centre. A raised floor runs along the south wall, 3\" deep at the ends and 2\" in the middle, with a 3\" by 2\" block in its east corner and a ladder down at its lowest point.",
+   "note": "8\" by 8\", origin at its centre. A raised floor runs along the south wall, 3\" deep at the ends and 2\" in the middle; a 3\" by 2\" upper floor sits in its east corner, drawn lighter.",
    "label": "Walled ruin",
    "labelAt": [
     0,
@@ -110,18 +110,11 @@
     [
      "rect",
      {
-      "class": "m-rubble",
+      "class": "m-top",
       "x": "25",
       "y": "50",
       "width": "75",
       "height": "50"
-     }
-    ],
-    [
-     "polyline",
-     {
-      "class": "m-ladder",
-      "points": "0,50 0,34"
      }
     ],
     [
@@ -251,13 +244,6 @@
      {
       "class": "m-wall",
       "points": "143.8,0 0,0 0,140.9 42.9,140.9"
-     }
-    ],
-    [
-     "polyline",
-     {
-      "class": "m-ladder",
-      "points": "82.8,46.5 90.8,58"
      }
     ]
    ],
@@ -662,6 +648,19 @@
    "labelAt": [
     104.1,
     63.5
+   ]
+  },
+  "ladder": {
+   "name": "Ladder",
+   "note": "Added to other pieces. Origin at its middle; turn 0 runs north to south.",
+   "els": [
+    [
+     "polyline",
+     {
+      "class": "m-rungs",
+      "points": "0,-7.5 0,7.5"
+     }
+    ]
    ]
   }
  }

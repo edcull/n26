@@ -547,6 +547,14 @@
    ]
   },
   {
+   "piece": "ladder",
+   "at": [
+    74.75,
+    121.9
+   ],
+   "turn": 55.2
+  },
+  {
    "piece": "container",
    "at": [
     252.97,
@@ -586,6 +594,13 @@
    "labelAt": [
     485,
     90
+   ]
+  },
+  {
+   "piece": "ladder",
+   "at": [
+    488.25,
+    153.8
    ]
   },
   [
@@ -656,20 +671,22 @@
     306.2
    ]
   },
-  [
-   "polyline",
-   {
-    "class": "m-ladder",
-    "points": "212.3,300 196.1,300"
-   }
-  ],
-  [
-   "polyline",
-   {
-    "class": "m-ladder",
-    "points": "387.7,300 403.9,300"
-   }
-  ],
+  {
+   "piece": "ladder",
+   "at": [
+    204.2,
+    300.0
+   ],
+   "turn": -90.0
+  },
+  {
+   "piece": "ladder",
+   "at": [
+    395.8,
+    300.0
+   ],
+   "turn": -90.0
+  },
   {
    "piece": "hex-platform",
    "at": [
@@ -693,13 +710,13 @@
     "y": "467.5"
    }
   ],
-  [
-   "polyline",
-   {
-    "class": "m-ladder",
-    "points": "300,583.2 300,598.2"
-   }
-  ],
+  {
+   "piece": "ladder",
+   "at": [
+    300.0,
+    590.7
+   ]
+  },
   {
    "piece": "barricade",
    "at": [
