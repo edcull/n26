@@ -134,6 +134,7 @@ Other callouts (tests, recovery, powers) keep a plain `name` such as `"Wit - Ner
   - `{"check": {"name": "Save", "base": 6, "mods": [[-1, "AP"]]}}` shows Save **none** (6+ -1 AP); leave `dice` empty then
   - `{"check": {"name": "Willpower", "base": 9, "mods": [[3, "Psychoteric Choir"]], "under": true}}` shows Willpower **12** (9 +3 Psychoteric Choir)
   - `"who": "Mordecai"` puts the fighter's name first, for callouts that cover several fighters: Mordecai: Leadership **8**
+  - `"s": 3, "t": 3` on a To Wound check shows the attacker's Strength against the target's Toughness: To Wound **4+** (S3-T3)
   - `"note": "Toxin"` adds a word in the brackets
 - **How the final number is worked out:**
   - Rolls you need to equal or beat (To Hit, To Wound, Save, Ammo, Charge …): modifiers are added to the dice, so the template shows the lowered target. A 4+ with +1 shows **3+**.
