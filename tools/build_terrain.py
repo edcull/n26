@@ -152,7 +152,7 @@ spec11 = [([4, 19], 'v1-ruined-floor', 'Ruined floor'), ([6], 'v1-tank', 'Tank')
           ([10, 11, 14, 15], 'v1-ruined-tower', ['Ruined', 'tower']), ([21], 'v1-gothic-ruin-west', ('Gothic ruin', (62.5, 190))),
           ([23], 'v1-walled-yard', 'Walled yard'), ([26], 'v1-gothic-ruin-east', ('Gothic ruin', (472.5, 87.5))),
           ([29, 30, 31, 32], 'v1-containers', 'Containers'), ([36, 37, 38], 'v1-stairs', 'Stairs'),
-          ([40, 41, 42, 43, 44], 'v1-hex-tower', None)]
+          ([40, 41, 42, 43, 44], 'v1-hex-tower', None)   # named Hex tower in the library afterwards]
 textidx = {i for i, e in enumerate(t) if e[0] == 'text' and e[1].get('class') == 'm-lab'}
 ter = build('1.1', t, spec11, labs, raw_keep={0, 1, 2, 3} | textidx)
 d['terrain'] = ter
