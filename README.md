@@ -146,7 +146,7 @@ Other callouts (tests, recovery, powers) keep a plain `name` such as `"Wit - Ner
   - Conditions after a comma: `One wound, suppressed`, `Saved, suppressed`
   - Narrative text says "seriously injured"
 - **`resultClass`** sets the colour:
-  - leave it out for red (wounds, injuries, bad outcomes)
+  - leave it out for red (wounds, damage, injuries, bad outcomes). Damage is always red, even with a condition after it (`One damage, suppressed`)
   - `sup` for yellow (suppressed and other conditions)
   - `ammo` for neutral (hits, misses, saves, passes)
 - **Notes** start with `Note:`. Initiative lines in fights are written `Initiative 3 +2 charge bonus`.

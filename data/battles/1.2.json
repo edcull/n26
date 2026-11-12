@@ -1158,7 +1158,6 @@
          {
           "dice": "2",
           "result": "One damage, suppressed",
-          "resultClass": "sup",
           "check": {
            "name": "Save",
            "base": 5,
@@ -1328,7 +1327,6 @@
          {
           "dice": "1 2 6",
           "result": "Two damage",
-          "resultClass": "ammo",
           "check": {
            "name": "Save",
            "base": 5,
@@ -2501,7 +2499,6 @@
          {
           "dice": "",
           "result": "One damage, suppressed, activation interrupted",
-          "resultClass": "sup",
           "check": {
            "name": "Save",
            "base": 6,

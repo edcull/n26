@@ -762,7 +762,6 @@
          {
           "dice": "2 5",
           "result": "One damage, suppressed",
-          "resultClass": "sup",
           "check": {
            "name": "Save",
            "base": 5,
@@ -2031,7 +2030,6 @@
          {
           "dice": "3",
           "result": "One damage, suppressed",
-          "resultClass": "sup",
           "check": {
            "name": "Save",
            "base": 5,
@@ -2220,7 +2218,6 @@
          {
           "dice": "",
           "result": "Two damage, suppressed",
-          "resultClass": "sup",
           "check": {
            "name": "Save",
            "base": 6,
