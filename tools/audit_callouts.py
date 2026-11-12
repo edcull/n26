@@ -31,9 +31,9 @@ def colour_ok(res, cls):
     if re.search(r'damage', res, re.I): return cls is None
     if res == '-': return cls == 'ammo'
     if re.search(r'not suppressed', res, re.I): return cls == 'ammo'
-    if re.match(r'(One|Two|Three|Four|Five|Six) hits?\b|Hits?\b', res) or re.match(r'^(Misses and )?fails to (wound|hit)(, fails to (wound|hit))?$', res, re.I): return cls == 'ammo'
+    if re.match(r'(One|Two|Three|Four|Five|Six) hits?\b|Hits?\b', res) or re.match(r'^(missed|fails to wound)(, (missed|fails to wound))?$', res, re.I): return cls == 'ammo'
+    if re.search(r'wound|injur|Out of Action|out of action|Perils|Warp|Unstable|Bottle|Executed|Stays down|Grievous|No save|Void drops', res, re.I): return cls is None   # harm is red even with a condition after it
     if re.search(r'suppress|Insanity|webbed|break free', res, re.I): return cls == 'sup'
-    if re.search(r'wound|injur|Out of Action|out of action|Perils|Warp|Unstable|Bottle|Executed|Stays down|Grievous|No save|Void drops', res, re.I): return cls is None
     return cls == 'ammo'
 
 for f in sorted(glob.glob(os.path.join(ROOT, 'data/battles/*.json'))):
@@ -52,6 +52,21 @@ for f in sorted(glob.glob(os.path.join(ROOT, 'data/battles/*.json'))):
         W = f"{d['id']} {rnd} | {strip(title)[:46]}"
         # ---------- conformity
         if not r.get('by') and ' - ' not in r.get('name', ''): flag('conformity', W, 'title not "Fighter - Action"')
+        allnotes = ' '.join(x.get('note', '') for x in r['rows'])
+        for word, trait in (('Knockback', 'Knockback'), ('auto wound', 'Shock')):
+            if any(word in str(x.get('result', '')) for x in r['rows']) and trait not in allnotes: flag('clarity', W, f'{word} with no {trait} note')
+        if r.get('by'):   # suppression goes on the last row of each weapon's chain (To Wound, Save or Injury)
+            secs = [[]]
+            for x in r['rows']:
+                if 'h6' in x: secs.append([])
+                secs[-1].append(x)
+            for sec in secs:
+                chain = [x for x in sec if (x.get('check') or {}).get('name') in ('To Hit', 'To Wound', 'Save', 'Strength', 'Cool') or x.get('label') == 'Injury']
+                for i, x in enumerate(chain[:-1]):
+                    if re.search(r'(?<!not )suppressed', str(x.get('result', '')), re.I) and (chain[-1].get('check') or {}).get('name') != 'Cool':
+                        flag('conformity', W, f'suppressed on {(x.get("check") or {}).get("name") or x.get("label")}, not the last row')
+        for k in r.get('weapons', []):   # a combi weapon names the profile used (Autogun when shooting, Polearm in melee)
+            if '/' in k: flag('conformity', W, f'combi weapon {k!r}: name the profile used')
         if not colour_ok(r['result'], r.get('resultClass') or None): flag('conformity', W, f'summary colour {r.get("resultClass") or "red"} for {r["result"]!r}')
         for x in r['rows']:
             if 'note' in x and not ALLOWED_NOTE.match(x['note']): flag('conformity', W, f'note style: {x["note"][:50]!r}')
@@ -81,7 +96,7 @@ for f in sorted(glob.glob(os.path.join(ROOT, 'data/battles/*.json'))):
                     n, _ = lead_count(x['result'])
                     if x['result'].startswith('Miss') and succ: flag('traceability', W, f'To Hit {t}+ rolled {dice}: has a success but says {x["result"]!r}')
                     elif n is not None and n != expect: flag('traceability', W, f'To Hit {t}+ rolled {dice}: expected {expect} hits, says {x["result"]!r}')
-                    hits = n if n is not None else (0 if x['result'].startswith('Miss') else None)
+                    hits = n if n is not None else (None if 'Unstable' in x['result'] else 0 if x['result'].startswith('Miss') else None)   # Unstable: the wound roll is on the firer
                     auto = 1 if 'auto wound' in x['result'] else 0
                 if c and c['name'] == 'To Wound' and ds:
                     t = total(c); succ = sum(1 for v in ds if v.isdigit() and int(v) >= t)
