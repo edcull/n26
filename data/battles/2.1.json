@@ -4639,24 +4639,25 @@
   {
    "piece": "container",
    "at": [
-    460.9,
-    13.8
+    513.4,
+    38.8
    ]
   },
   {
    "piece": "container",
    "at": [
-    462.6,
-    96.9
+    515.1,
+    121.9
    ]
   },
   {
-   "piece": "container-lid",
+   "piece": "container",
    "at": [
-    540.9,
-    26.2
+    515.9,
+    79.95
    ],
    "turn": 90,
+   "stacked": true,
    "label": "Containers",
    "labelAt": [
     514.1,

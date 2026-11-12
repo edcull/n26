@@ -3,29 +3,15 @@
  "pieces": {
   "container": {
    "name": "Container",
+   "note": "2\" by 4\". Stacked on another it is drawn lighter: \"stacked\": true.",
    "els": [
     [
      "rect",
      {
       "class": "m-solid",
-      "x": "0",
-      "y": "0",
-      "width": "105",
-      "height": "50"
-     }
-    ]
-   ]
-  },
-  "container-lid": {
-   "name": "Container lid",
-   "els": [
-    [
-     "rect",
-     {
-      "class": "m-top",
-      "x": "0",
-      "y": "0",
-      "width": "107.5",
+      "x": "-50",
+      "y": "-25",
+      "width": "100",
       "height": "50"
      }
     ]
@@ -545,44 +531,6 @@
     57.5
    ]
   },
-  "v1-containers": {
-   "name": "Containers",
-   "els": [
-    [
-     "polygon",
-     {
-      "class": "m-solid",
-      "points": "36.618,54.487 115.239,127.802 78.582,167.113 -0.039,93.798"
-     }
-    ],
-    [
-     "polygon",
-     {
-      "class": "m-solid",
-      "points": "92.831,1.997 192.504,42.267 172.369,92.103 72.696,51.833"
-     }
-    ],
-    [
-     "polygon",
-     {
-      "class": "m-top",
-      "points": "32.507,48.756 128.291,-0.048 152.693,47.844 56.909,96.648"
-     }
-    ],
-    [
-     "polyline",
-     {
-      "class": "m-run",
-      "points": "92.6,78.55 102.6,98.3"
-     }
-    ]
-   ],
-   "label": "Containers",
-   "labelAt": [
-    92.6,
-    53.3
-   ]
-  },
   "v1-stairs": {
    "name": "Stairs",
    "els": [
@@ -650,37 +598,6 @@
    "labelAt": [
     117.5,
     37.5
-   ]
-  },
-  "v1-containers-b": {
-   "name": "Containers",
-   "els": [
-    [
-     "polygon",
-     {
-      "class": "m-solid",
-      "points": "117.4,82.5 12.4,82.5 12.4,27.5 117.4,27.5"
-     }
-    ],
-    [
-     "polygon",
-     {
-      "class": "m-top",
-      "points": "99.669,132.553 -0.004,92.283 20.131,42.447 119.804,82.717"
-     }
-    ],
-    [
-     "polyline",
-     {
-      "class": "m-run",
-      "points": "59.9,57.5 82.4,0"
-     }
-    ]
-   ],
-   "label": "Containers",
-   "labelAt": [
-    64.9,
-    87.5
    ]
   },
   "v1-gothic-ruin-b": {

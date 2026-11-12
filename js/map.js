@@ -5,7 +5,8 @@
 //   map.caption   - {text, key:[[badgeKind, letter, label], ...]} or plain markup
 // Terrain is built from placed pieces (data/terrain.json):
 //   battle.terrain - in drawing order: [tag, attrs, body] loose SVG (walls, ladders, planks…)
-//                    | {piece, at:[x,y], turn?, label?, labelAt?} a library piece, turned (degrees) about its origin
+//                    | {piece, at:[x,y], turn?, label?, labelAt?, stacked?} a library piece, turned (degrees) about its origin;
+//                      stacked draws it lighter, sitting on top of another
 //   a board run draws them with {pieces:true}, and their labels with {labels:true}.
 //   label: text, a list of lines, or false; labelAt: [x,y] where it sits instead of the piece's own label spot.
 //   On each map a label that a token would cover steps to the nearest clear spot nearby.
@@ -32,7 +33,7 @@ function pieceSvg(p, lib) {
   const piece = lib[p.piece];
   if (!piece) throw new Error('Unknown terrain piece ' + p.piece);
   const t = `translate(${fmt(p.at[0])} ${fmt(p.at[1])})${p.turn ? ` rotate(${fmt(p.turn)})` : ''}`;
-  return svgEl(['g', { class: 'piece', transform: t }, piece.els]);
+  return svgEl(['g', { class: p.stacked ? 'piece stacked' : 'piece', transform: t }, piece.els]);
 }
 // Labels: one text line per entry, 17.5 apart. Tokens and badges on this map push a label aside.
 const LINE = 17.5;

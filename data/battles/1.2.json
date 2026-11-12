@@ -4182,12 +4182,33 @@
    ]
   },
   {
-   "piece": "v1-containers-b",
+   "piece": "container",
    "at": [
-    207.6,
-    457.5
+    272.5,
+    512.5
    ]
   },
+  {
+   "piece": "container",
+   "at": [
+    267.5,
+    545.0
+   ],
+   "turn": 22.0,
+   "stacked": true,
+   "label": "Containers",
+   "labelAt": [
+    272.5,
+    545.0
+   ]
+  },
+  [
+   "polyline",
+   {
+    "class": "m-run",
+    "points": "267.5,515.0 290.0,457.5"
+   }
+  ],
   [
    "polyline",
    {
