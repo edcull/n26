@@ -147,6 +147,7 @@ Other callouts (tests, recovery, powers) keep a plain `name` such as `"Wit - Ner
   - Unsaved wounds on the save row as damage: `One damage`, `Two damage, suppressed`
   - `Serious injury`, `Out of Action`, `Out of Ammo`
   - A To Wound row that causes no wound reads `Suppressed` for a ranged attack. It reads `-` when the target ignores suppression (Juggernaut, a passed Nerves of Steel test) and for a melee attack
+  - Suppression goes on the last row of the chain: `Suppressed` on To Wound when nothing wounds, `One damage, suppressed` or `Saved, suppressed` on the Save row, `Injured, suppressed` on the Injury row
   - Conditions after a comma: `One wound, suppressed`, `Saved, suppressed`, `Three hits, Knockback`. On the dice rows each part after a comma starts a new line
   - Narrative text says "seriously injured"
   - Tests: `Passes` / `Fails`; powers `Manifests` / `Maintains` (add `with Perils` where it happened); Leadership (bottle) `Holds` / `Bottles`; Cool (nerve) `Passes` / `Suppressed`; charges `Engaged` / `1" short`

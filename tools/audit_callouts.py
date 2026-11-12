@@ -55,6 +55,16 @@ for f in sorted(glob.glob(os.path.join(ROOT, 'data/battles/*.json'))):
         allnotes = ' '.join(x.get('note', '') for x in r['rows'])
         for word, trait in (('Knockback', 'Knockback'), ('auto wound', 'Shock')):
             if any(word in str(x.get('result', '')) for x in r['rows']) and trait not in allnotes: flag('clarity', W, f'{word} with no {trait} note')
+        if r.get('by'):   # suppression goes on the last row of each weapon's chain (To Wound, Save or Injury)
+            secs = [[]]
+            for x in r['rows']:
+                if 'h6' in x: secs.append([])
+                secs[-1].append(x)
+            for sec in secs:
+                chain = [x for x in sec if (x.get('check') or {}).get('name') in ('To Hit', 'To Wound', 'Save', 'Strength', 'Cool') or x.get('label') == 'Injury']
+                for i, x in enumerate(chain[:-1]):
+                    if re.search(r'(?<!not )suppressed', str(x.get('result', '')), re.I) and (chain[-1].get('check') or {}).get('name') != 'Cool':
+                        flag('conformity', W, f'suppressed on {(x.get("check") or {}).get("name") or x.get("label")}, not the last row')
         for k in r.get('weapons', []):   # a combi weapon names the profile used (Autogun when shooting, Polearm in melee)
             if '/' in k: flag('conformity', W, f'combi weapon {k!r}: name the profile used')
         if not colour_ok(r['result'], r.get('resultClass') or None): flag('conformity', W, f'summary colour {r.get("resultClass") or "red"} for {r["result"]!r}')

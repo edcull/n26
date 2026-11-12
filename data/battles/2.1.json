@@ -913,7 +913,7 @@
         "side": "t",
         "face": "mungojerrie",
         "name": "Mungojerrie - Grav Gun",
-        "result": "Elijah takes 1 wound",
+        "result": "Elijah takes 1 wound and is suppressed",
         "rows": [
          {
           "dice": "3",
@@ -926,7 +926,7 @@
          },
          {
           "dice": "5",
-          "result": "One wound, suppressed",
+          "result": "One wound",
           "check": {
            "name": "Strength",
            "base": 3,
@@ -935,7 +935,7 @@
          },
          {
           "dice": "",
-          "result": "One damage",
+          "result": "One damage, suppressed",
           "check": {
            "name": "Save",
            "base": 5,
