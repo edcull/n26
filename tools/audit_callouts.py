@@ -52,6 +52,9 @@ for f in sorted(glob.glob(os.path.join(ROOT, 'data/battles/*.json'))):
         W = f"{d['id']} {rnd} | {strip(title)[:46]}"
         # ---------- conformity
         if not r.get('by') and ' - ' not in r.get('name', ''): flag('conformity', W, 'title not "Fighter - Action"')
+        allnotes = ' '.join(x.get('note', '') for x in r['rows'])
+        for word, trait in (('Knockback', 'Knockback'), ('auto wound', 'Shock')):
+            if any(word in str(x.get('result', '')) for x in r['rows']) and trait not in allnotes: flag('clarity', W, f'{word} with no {trait} note')
         for k in r.get('weapons', []):   # a combi weapon names the profile used (Autogun when shooting, Polearm in melee)
             if '/' in k: flag('conformity', W, f'combi weapon {k!r}: name the profile used')
         if not colour_ok(r['result'], r.get('resultClass') or None): flag('conformity', W, f'summary colour {r.get("resultClass") or "red"} for {r["result"]!r}')

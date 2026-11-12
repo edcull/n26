@@ -1176,6 +1176,9 @@
             ]
            ]
           }
+         },
+         {
+          "note": "Note: Knockback (6+), a hit roll of 6 knocks the target 1\" back."
          }
         ],
         "by": "demeter",
@@ -1835,7 +1838,7 @@
           }
          },
          {
-          "note": "Note: Mordecai was not suppressed, did not take a wound and did not roll an Injury die, so his activation is not interrupted."
+          "note": "Note: Mordecai was not suppressed, did not take a wound and did not roll an Injury die, so his activation is not interrupted. Knockback (6+), a hit roll of 6 knocks the target 1\" back."
          }
         ],
         "by": "demeter",
@@ -2538,7 +2541,7 @@
           }
          },
          {
-          "note": "Note: Overwatch finishes Deus and Amen's activation."
+          "note": "Note: Overwatch finishes Deus and Amen's activation. Knockback (6+), a hit roll of 6 knocks the target 1\" back."
          }
         ],
         "by": "demeter",
