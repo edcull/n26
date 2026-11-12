@@ -143,13 +143,14 @@ Other callouts (tests, recovery, powers) keep a plain `name` such as `"Wit - Ner
   - `"under": true` tests (Leadership, Cool, Willpower, Strength) pass on the stat or less, so a bonus raises the number.
 - **Rows with no number** keep a plain `label`: `Injury`, `Recovery`, `Perils`.
 - **Results:**
-  - Count words when counting, otherwise `Hit` / `Miss` / `Wound`: `Two hits`, `One wound`, `Hit`, `Miss`
+  - Count words when counting, otherwise `Hit` / `Miss` / `Wound`: `Two hits`, `One wound`, `Hit`, `Miss`. To Hit rows only ever say `Miss`, `Hit` or `Two hits` (and so on), with any extra after a comma: `Hit, Out of Ammo`, `Miss, Unstable!`, `Two hits, one auto wound`
   - Unsaved wounds on the save row as damage: `One damage`, `Two damage, suppressed`
   - `Serious injury`, `Out of Action`, `Out of Ammo`
   - A To Wound row that causes no wound reads `Suppressed` for a ranged attack. It reads `-` when the target ignores suppression (Juggernaut, a passed Nerves of Steel test) and for a melee attack
   - Conditions after a comma: `One wound, suppressed`, `Saved, suppressed`, `Three hits, Knockback`. On the dice rows each part after a comma starts a new line
   - Narrative text says "seriously injured"
   - Tests: `Passes` / `Fails`; powers `Manifests` / `Maintains` (add `with Perils` where it happened); Leadership (bottle) `Holds` / `Bottles`; Cool (nerve) `Passes` / `Suppressed`; charges `Engaged` / `1" short`
+- **Combi weapons** (Polearm/Autogun, Chainaxe/Exterminator, Polearm/Flamer): `weapons` names the profile used, `Autogun` or `Flamer` for a shot, `Polearm` or `Chainaxe` in melee
 - **Callout names:** `Nerve Check` (`Nerve Checks` for several fighters), `Bottle Check`, `Charge` (row label `Charge`), `Engage`, `Insanity Test` with the Insanity result in a note
 - **Summary lines:** `Missed`, `Fails to wound`, `Missed, Out of Ammo`; wounds by number, `Ezekiel takes 1 wound`, `Deus and Amen take 2 wounds`; nerve and bottle checks `Holds`
 - **`resultClass`** sets the colour:

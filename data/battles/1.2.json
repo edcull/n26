@@ -1962,7 +1962,7 @@
          },
          {
           "dice": "1 6 2 5",
-          "result": "Two hits, auto wound",
+          "result": "Two hits, one auto wound",
           "resultClass": "ammo",
           "check": {
            "name": "To Hit",
@@ -1971,7 +1971,7 @@
          },
          {
           "dice": "6 2",
-          "result": "One saved, takes a wound",
+          "result": "One damage",
           "check": {
            "name": "Save",
            "base": 5,
@@ -2777,7 +2777,7 @@
        "roll": {
         "side": "p",
         "face": "cantor",
-        "name": "Gutter Cantor - Polearm/Autogun",
+        "name": "Gutter Cantor - Autogun",
         "result": "Missed",
         "resultClass": "ammo",
         "rows": [
@@ -2793,7 +2793,7 @@
         ],
         "by": "gutter-cantor",
         "weapons": [
-         "Cawdor Polearm/Autogun"
+         "Autogun"
         ],
         "target": "mistoffelees"
        }
@@ -3404,7 +3404,7 @@
        "roll": {
         "side": "p",
         "face": "cantor",
-        "name": "Gutter Cantor - Polearm/Autogun",
+        "name": "Gutter Cantor - Autogun",
         "result": "Mistoffelees suppressed",
         "resultClass": "sup",
         "rows": [
@@ -3431,7 +3431,7 @@
         ],
         "by": "gutter-cantor",
         "weapons": [
-         "Cawdor Polearm/Autogun"
+         "Autogun"
         ],
         "target": "mistoffelees"
        }

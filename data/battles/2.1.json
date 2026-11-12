@@ -917,7 +917,7 @@
         "rows": [
          {
           "dice": "3",
-          "result": "Misses, scatters onto the wall by Elijah",
+          "result": "Miss, scatters onto the wall by Elijah",
           "resultClass": "ammo",
           "check": {
            "name": "To Hit",
@@ -3340,7 +3340,7 @@
         "rows": [
          {
           "dice": "5 f1a",
-          "result": "One hit, Out of Ammo",
+          "result": "Hit, Out of Ammo",
           "resultClass": "ammo",
           "check": {
            "name": "To Hit",

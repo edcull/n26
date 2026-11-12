@@ -52,6 +52,8 @@ for f in sorted(glob.glob(os.path.join(ROOT, 'data/battles/*.json'))):
         W = f"{d['id']} {rnd} | {strip(title)[:46]}"
         # ---------- conformity
         if not r.get('by') and ' - ' not in r.get('name', ''): flag('conformity', W, 'title not "Fighter - Action"')
+        for k in r.get('weapons', []):   # a combi weapon names the profile used (Autogun when shooting, Polearm in melee)
+            if '/' in k: flag('conformity', W, f'combi weapon {k!r}: name the profile used')
         if not colour_ok(r['result'], r.get('resultClass') or None): flag('conformity', W, f'summary colour {r.get("resultClass") or "red"} for {r["result"]!r}')
         for x in r['rows']:
             if 'note' in x and not ALLOWED_NOTE.match(x['note']): flag('conformity', W, f'note style: {x["note"][:50]!r}')
@@ -81,7 +83,7 @@ for f in sorted(glob.glob(os.path.join(ROOT, 'data/battles/*.json'))):
                     n, _ = lead_count(x['result'])
                     if x['result'].startswith('Miss') and succ: flag('traceability', W, f'To Hit {t}+ rolled {dice}: has a success but says {x["result"]!r}')
                     elif n is not None and n != expect: flag('traceability', W, f'To Hit {t}+ rolled {dice}: expected {expect} hits, says {x["result"]!r}')
-                    hits = n if n is not None else (0 if x['result'].startswith('Miss') else None)
+                    hits = n if n is not None else (None if 'Unstable' in x['result'] else 0 if x['result'].startswith('Miss') else None)   # Unstable: the wound roll is on the firer
                     auto = 1 if 'auto wound' in x['result'] else 0
                 if c and c['name'] == 'To Wound' and ds:
                     t = total(c); succ = sum(1 for v in ds if v.isdigit() and int(v) >= t)

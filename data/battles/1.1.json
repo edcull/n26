@@ -431,7 +431,7 @@
         "rows": [
          {
           "dice": "1 f2",
-          "result": "Unstable!",
+          "result": "Miss, Unstable!",
           "check": {
            "name": "To Hit",
            "base": 4
@@ -445,7 +445,8 @@
            "name": "To Wound",
            "base": 3,
            "s": 5,
-           "t": 3
+           "t": 3,
+           "who": "Rumpleteaser"
           }
          },
          {
@@ -458,7 +459,7 @@
           }
          },
          {
-          "note": "Note: Rumpleteaser uses Hip-shooting to rush to the barricade and fire on Mordecai."
+          "note": "Note: Rumpleteaser uses Hip-shooting to rush to the barricade and fire on Mordecai. Unstable: the overcharge hits Rumpleteaser himself."
          }
         ],
         "by": "rumpleteaser",
@@ -1369,7 +1370,7 @@
        "roll": {
         "side": "p",
         "face": "cantor",
-        "name": "Gutter Cantor - Polearm/Autogun",
+        "name": "Gutter Cantor - Autogun",
         "result": "Deuteronomy suppressed",
         "resultClass": "sup",
         "rows": [
@@ -1396,7 +1397,7 @@
         ],
         "by": "gutter-cantor",
         "weapons": [
-         "Cawdor Polearm/Autogun"
+         "Autogun"
         ],
         "target": "deuteronomy"
        }
@@ -1486,7 +1487,7 @@
        "roll": {
         "side": "p",
         "face": "vermin",
-        "name": "Vermin Pyre - Flamer/Polearm",
+        "name": "Vermin Pyre - Flamer",
         "result": "Deuteronomy takes 1 wound, Out of Ammo",
         "rows": [
          {
@@ -1528,8 +1529,7 @@
         ],
         "by": "vermin-pyre",
         "weapons": [
-         "Flamer",
-         "Polearm*"
+         "Flamer"
         ],
         "target": "deuteronomy"
        }
@@ -2040,7 +2040,7 @@
        "roll": {
         "side": "p",
         "face": "vermin",
-        "name": "Vermin Pyre - Flamer/Polearm",
+        "name": "Vermin Pyre - Flamer",
         "result": "Deuteronomy takes 1 wound and is suppressed",
         "resultClass": "sup",
         "rows": [
@@ -2078,8 +2078,7 @@
         ],
         "by": "vermin-pyre",
         "weapons": [
-         "Flamer",
-         "Polearm*"
+         "Flamer"
         ],
         "target": "deuteronomy"
        }
@@ -2278,7 +2277,7 @@
        "roll": {
         "side": "p",
         "face": "cantor",
-        "name": "Gutter Cantor - Polearm/Autogun",
+        "name": "Gutter Cantor - Autogun",
         "result": "Missed",
         "resultClass": "ammo",
         "rows": [
@@ -2294,7 +2293,7 @@
         ],
         "by": "gutter-cantor",
         "weapons": [
-         "Cawdor Polearm/Autogun"
+         "Autogun"
         ],
         "target": "rumpleteaser"
        }
@@ -2844,7 +2843,7 @@
        "roll": {
         "side": "p",
         "face": "cantor",
-        "name": "Gutter Cantor - Polearm/Autogun",
+        "name": "Gutter Cantor - Autogun",
         "result": "Demeter suppressed, Out of Ammo",
         "resultClass": "sup",
         "rows": [
@@ -2879,7 +2878,7 @@
         ],
         "by": "gutter-cantor",
         "weapons": [
-         "Cawdor Polearm/Autogun"
+         "Autogun"
         ],
         "target": "demeter"
        }
@@ -3651,7 +3650,7 @@
        "roll": {
         "side": "p",
         "face": "cantor",
-        "name": "Gutter Cantor - Polearm/Autogun",
+        "name": "Gutter Cantor - Autogun",
         "result": "Demeter suppressed",
         "resultClass": "sup",
         "rows": [
@@ -3678,7 +3677,7 @@
         ],
         "by": "gutter-cantor",
         "weapons": [
-         "Cawdor Polearm/Autogun"
+         "Autogun"
         ],
         "target": "demeter"
        }
