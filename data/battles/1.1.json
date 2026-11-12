@@ -1314,7 +1314,7 @@
          },
          {
           "dice": "2 3 6",
-          "result": "Two hits, Knockback",
+          "result": "Two hits",
           "resultClass": "ammo",
           "check": {
            "name": "To Hit",
@@ -1333,7 +1333,7 @@
           }
          },
          {
-          "note": "Note: Unwieldy strikes at Initiative 1. Knockback (6+), a hit roll of 6 knocks the target 1\" back."
+          "note": "Note: Unwieldy strikes at Initiative 1."
          }
         ],
         "by": "mordecai",
