@@ -585,10 +585,10 @@
   },
   "stairs": {
    "name": "Stairs",
-   "note": "4.5\" by 4\", origin at its centre. A railed landing on the east half; two flights of stairs side by side run down from it to the west, the upper one drawn lighter.",
+   "note": "4.5\" by 4\", origin at its centre. A 2\" railed landing on the east end; two 2.5\" flights of stairs side by side run down from it to the west, the upper one drawn lighter.",
    "label": "Stairs",
    "labelAt": [
-    28,
+    31,
     5
    ],
    "els": [
@@ -598,7 +598,7 @@
       "class": "m-top",
       "x": "-56.25",
       "y": "-50",
-      "width": "56.25",
+      "width": "62.5",
       "height": "50"
      }
     ],
@@ -608,7 +608,7 @@
       "class": "m-solid",
       "x": "-56.25",
       "y": "0",
-      "width": "56.25",
+      "width": "62.5",
       "height": "50"
      }
     ],
@@ -616,16 +616,16 @@
      "path",
      {
       "class": "m-seam",
-      "d": "M-45 -50V0 M-34 -50V0 M-23 -50V0 M-12 -50V0 M-45 0V50 M-34 0V50 M-23 0V50 M-12 0V50"
+      "d": "M-43.75 -50V0 M-43.75 0V50 M-31.25 -50V0 M-31.25 0V50 M-18.75 -50V0 M-18.75 0V50 M-6.25 -50V0 M-6.25 0V50"
      }
     ],
     [
      "rect",
      {
       "class": "m-solid",
-      "x": "0",
+      "x": "6.25",
       "y": "-50",
-      "width": "56.25",
+      "width": "50",
       "height": "100"
      }
     ],
@@ -640,7 +640,7 @@
      "polyline",
      {
       "class": "m-div",
-      "points": "-56.25,0 0,0"
+      "points": "-56.25,0 6.25,0"
      }
     ]
    ]
