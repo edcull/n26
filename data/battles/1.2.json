@@ -457,19 +457,27 @@
         "side": "p",
         "face": "deus",
         "name": "Deus and Amen - Twin-linked Heavy Stubber",
-        "result": "Misses",
+        "result": "Miss",
         "resultClass": "ammo",
         "rows": [
          {
-          "label": "To Hit (4+)",
           "dice": "2 f1 f2",
-          "result": "Misses",
-          "resultClass": "ammo"
+          "result": "Miss",
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 4
+          }
          },
          {
           "note": "Note: Bulging Biceps to move at Initiative and fire a heavy weapon."
          }
-        ]
+        ],
+        "by": "deus-and-amen",
+        "weapons": [
+         "Twin-linked heavy stubber"
+        ],
+        "target": "skimbleshanks"
        }
       },
       "As soon as the Cawdor make their presence known, {@demeter|Demeter} climbs the ruined tower to find a vantage point to cover the Theatre's advance.",
@@ -483,23 +491,43 @@
         "resultClass": "sup",
         "rows": [
          {
-          "label": "To Hit (4+)",
           "dice": "5",
-          "result": "Hits",
-          "resultClass": "ammo"
+          "result": "Hit",
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 4
+          }
          },
          {
-          "label": "To Wound (3+)",
           "dice": "3",
-          "result": "Wounds"
+          "result": "Wound",
+          "check": {
+           "name": "To Wound",
+           "base": 3
+          }
          },
          {
-          "label": "Save (5+ +1 cover)",
           "dice": "6",
-          "result": "Saved, Suppressed",
-          "resultClass": "sup"
+          "result": "Saved, suppressed",
+          "resultClass": "sup",
+          "check": {
+           "name": "Save",
+           "base": 5,
+           "mods": [
+            [
+             1,
+             "Cover"
+            ]
+           ]
+          }
          }
-        ]
+        ],
+        "by": "blessed-filth",
+        "weapons": [
+         "Long rifle"
+        ],
+        "target": "demeter"
        }
       },
       "The shot cracks against the iron bars in front of {@demeter|Demeter}, forcing him to duck back and stay behind cover. Below him, {@skimbleshanks|Skimbleshanks} rushes forward through the hail of lead from {@deus-and-amen|Deus}, getting out of the narrow alleyway killzone and into the cover of a ruined wall.",
@@ -514,10 +542,20 @@
         "resultClass": "ammo",
         "rows": [
          {
-          "label": "Willpower 9 +1",
           "dice": "1 3",
           "result": "Manifests",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "Willpower",
+           "base": 9,
+           "under": true,
+           "mods": [
+            [
+             1,
+             "Psychoteric Choir"
+            ]
+           ]
+          }
          },
          {
           "note": "Note: +1 from Psychoteric Choir, for being within 3\" of two friendlies.<br/>Rules note: I got this wrong. Deuteronomy should have taken a Maintain (Single) action for the Continuous Effect to persist after his activation."
@@ -535,27 +573,47 @@
         "result": "Blessed Filth seriously injured",
         "rows": [
          {
-          "label": "To Hit (4+)",
           "dice": "5",
-          "result": "Hits",
-          "resultClass": "ammo"
+          "result": "Hit",
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 4
+          }
          },
          {
-          "label": "To Wound (4+)",
           "dice": "6",
-          "result": "Wounds"
+          "result": "Wound",
+          "check": {
+           "name": "To Wound",
+           "base": 4
+          }
          },
          {
-          "label": "Save (6+ +1 cover)",
           "dice": "2",
-          "result": "Takes one wound"
+          "result": "One damage",
+          "check": {
+           "name": "Save",
+           "base": 6,
+           "mods": [
+            [
+             1,
+             "Cover"
+            ]
+           ]
+          }
          },
          {
           "label": "Injury",
           "dice": "si",
-          "result": "Seriously Injured"
+          "result": "Serious injury"
          }
-        ]
+        ],
+        "by": "jellylorum",
+        "weapons": [
+         "Lasgun"
+        ],
+        "target": "blessed-filth"
        }
       },
       "The las-bolt strikes true and the Psalm's sniper crumples. Not wanting to get caught in a shooting war with the Delaque, {@mordecai|Mordecai} rushes forward into the clearing. He drives his congregation on, calling on the faithful to keep pace.",
@@ -569,21 +627,32 @@
         "resultClass": "ammo",
         "rows": [
          {
-          "label": "To Hit (4+)",
           "dice": "2 f1",
-          "result": "Missed",
-          "resultClass": "ammo"
+          "result": "Miss",
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 4
+          }
          },
          {
-          "label": "Ammo (6+)",
           "dice": "5",
           "result": "Out of Ammo",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "Ammo",
+           "base": 6
+          }
          },
          {
           "note": "Note: Rumpleteaser uses Hip-shooting to rush to the wall and fire on Deus."
          }
-        ]
+        ],
+        "by": "rumpleteaser",
+        "weapons": [
+         "Plasma gun"
+        ],
+        "target": "deus-and-amen"
        }
       },
       "The bolt flashes past {@deus-and-amen|Deus} and off into the dark, and the coils of the plasma gun fade to a dull glow. {@ezekiel-crows|Ezekiel Crows} rushes into the clearing, confident in the protection of the God-Emperor.",
@@ -843,33 +912,60 @@
         "result": "Ezekiel seriously injured, Out of Ammo",
         "rows": [
          {
-          "label": "To Hit (4+)",
           "dice": "6 f2",
           "result": "Two hits",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 4
+          }
          },
          {
-          "label": "To Wound (3+)",
           "dice": "2 3",
-          "result": "One wound"
+          "result": "One wound",
+          "check": {
+           "name": "To Wound",
+           "base": 3
+          }
          },
          {
-          "label": "Save (5+ +1 cover AP -2)",
           "dice": "5",
-          "result": "Two wounds"
+          "result": "Two damage",
+          "check": {
+           "name": "Save",
+           "base": 5,
+           "mods": [
+            [
+             1,
+             "Cover"
+            ],
+            [
+             -2,
+             "AP"
+            ]
+           ]
+          }
          },
          {
           "label": "Injury",
           "dice": "si si",
-          "result": "Seriously Injured"
+          "result": "Serious injury"
          },
          {
-          "label": "Ammo (6+)",
           "dice": "4",
           "result": "Out of Ammo",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "Ammo",
+           "base": 6
+          }
          }
-        ]
+        ],
+        "by": "rumpleteaser",
+        "weapons": [
+         "Plasma gun"
+        ],
+        "target": "ezekiel-crows"
        }
       },
       "The plasma bolt drops {@ezekiel-crows|Ezekiel} in the middle of the clearing, and seeing their champion fall shakes the Psalm.",
@@ -880,22 +976,37 @@
         "resultClass": "sup",
         "rows": [
          {
-          "label": "Mordecai (Cool 8)",
           "dice": "3 4",
           "result": "Passes",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "Cool",
+           "base": 8,
+           "under": true,
+           "who": "Mordecai"
+          }
          },
          {
-          "label": "Elijah (Cool 7)",
           "dice": "4 6",
           "result": "Suppressed",
-          "resultClass": "sup"
+          "resultClass": "sup",
+          "check": {
+           "name": "Cool",
+           "base": 7,
+           "under": true,
+           "who": "Elijah"
+          }
          },
          {
-          "label": "Gutter Cantor (Cool 6)",
           "dice": "2 6",
           "result": "Suppressed",
-          "resultClass": "sup"
+          "resultClass": "sup",
+          "check": {
+           "name": "Cool",
+           "base": 6,
+           "under": true,
+           "who": "Gutter Cantor"
+          }
          },
          {
           "note": "Rules note: I got this wrong. Nerve tests should only be taken when a friendly fighter is taken Out of Action, not Seriously Injured, so these tests should not have happened."
@@ -909,18 +1020,25 @@
         "side": "p",
         "face": "deus",
         "name": "Deus and Amen - Twin-linked Heavy Stubber",
-        "result": "Misses",
+        "result": "Miss",
         "resultClass": "ammo",
         "rows": [
          {
-          "label": "To Hit (4+)",
           "dice": "3 f2 f2",
-          "result": "Misses",
-          "resultClass": "ammo"
+          "result": "Miss",
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 4
+          }
          },
          {
           "note": "Note: Bulging Biceps to move at Initiative and fire a heavy weapon."
          }
+        ],
+        "by": "deus-and-amen",
+        "weapons": [
+         "Twin-linked heavy stubber"
         ]
        }
       },
@@ -937,33 +1055,54 @@
           "h6": "Flechette Pistol"
          },
          {
-          "label": "To Hit (4+)",
           "dice": "5 f1",
           "result": "One hit",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 4
+          }
          },
          {
-          "label": "To Wound (3+ Toxin)",
           "dice": "2",
           "result": "Fails to wound",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Wound",
+           "base": 3,
+           "note": "Toxin"
+          }
          },
          {
-          "label": "Nerves of Steel (Cool 8)",
           "dice": "2 5",
           "result": "Not suppressed",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "Cool",
+           "base": 8,
+           "under": true,
+           "note": "Nerves of Steel"
+          }
          },
          {
           "h6": "Autopistol"
          },
          {
-          "label": "To Hit (4+)",
           "dice": "2 f2",
-          "result": "Misses",
-          "resultClass": "ammo"
+          "result": "Miss",
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 4
+          }
          }
-        ]
+        ],
+        "by": "skimbleshanks",
+        "weapons": [
+         "Flechette pistol",
+         "Autopistol"
+        ],
+        "target": "mordecai"
        }
       },
       "{@mordecai|Mordecai} barely flinches. {@elijah-emberchoir|Elijah} won't stay down any longer. Driven by Redemptionist zeal, he breaks from cover and charges at {@skimbleshanks|Skimbleshanks}.",
@@ -972,14 +1111,17 @@
         "side": "p",
         "face": "elijah",
         "name": "Elijah Emberchoir - Charge",
-        "result": "1\" short!",
+        "result": "1\" short",
         "resultClass": "ammo",
         "rows": [
          {
-          "label": "Charge move (3+)",
           "dice": "2",
-          "result": "1\" short!",
-          "resultClass": "ammo"
+          "result": "1\" short",
+          "resultClass": "ammo",
+          "check": {
+           "name": "Charge move",
+           "base": 3
+          }
          },
          {
           "note": "Note: Used the Adrenaline Surge tactic for an extra action, allowing him to charge from suppressed."
@@ -997,23 +1139,43 @@
         "resultClass": "sup",
         "rows": [
          {
-          "label": "To Hit (3+)",
           "dice": "6",
           "result": "Hits and Knockback",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          }
          },
          {
-          "label": "To Wound (3+)",
           "dice": "6",
-          "result": "Wounds"
+          "result": "Wound",
+          "check": {
+           "name": "To Wound",
+           "base": 3
+          }
          },
          {
-          "label": "Save (5+ AP -1)",
           "dice": "2",
-          "result": "Takes one wound and Suppressed",
-          "resultClass": "sup"
+          "result": "One damage, suppressed",
+          "resultClass": "sup",
+          "check": {
+           "name": "Save",
+           "base": 5,
+           "mods": [
+            [
+             -1,
+             "AP"
+            ]
+           ]
+          }
          }
-        ]
+        ],
+        "by": "demeter",
+        "weapons": [
+         "Long rifle"
+        ],
+        "target": "elijah-emberchoir"
        }
       },
       "In the middle of the clearing, {@ezekiel-crows|Ezekiel} crawls back towards {@gutter-cantor|Gutter Cantor}, who drags him into cover and gets him back on his feet.",
@@ -1047,23 +1209,37 @@
         "resultClass": "sup",
         "rows": [
          {
-          "label": "To Hit (4+)",
           "dice": "5",
-          "result": "Hits",
-          "resultClass": "ammo"
+          "result": "Hit",
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 4
+          }
          },
          {
-          "label": "To Wound (4+)",
           "dice": "4",
-          "result": "Wounds"
+          "result": "Wound",
+          "check": {
+           "name": "To Wound",
+           "base": 4
+          }
          },
          {
-          "label": "Save (5+)",
           "dice": "6",
-          "result": "Saved, Suppressed",
-          "resultClass": "sup"
+          "result": "Saved, suppressed",
+          "resultClass": "sup",
+          "check": {
+           "name": "Save",
+           "base": 5
+          }
          }
-        ]
+        ],
+        "by": "jellylorum",
+        "weapons": [
+         "Lasgun"
+        ],
+        "target": "elijah-emberchoir"
        }
       },
       "Up on the sealed vent, {@ratsong|Ratsong} moves to the crates beside the fallen {@blessed-filth|Blessed Filth} and takes a shot at {@rumpleteaser|Rumpleteaser}, but the stub gun can't reach that far.",
@@ -1072,16 +1248,24 @@
         "side": "p",
         "face": "ratsong",
         "name": "Ratsong - Stub Gun",
-        "result": "Misses",
+        "result": "Miss",
         "resultClass": "ammo",
         "rows": [
          {
-          "label": "To Hit (5+)",
           "dice": "3",
-          "result": "Misses",
-          "resultClass": "ammo"
+          "result": "Miss",
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 5
+          }
          }
-        ]
+        ],
+        "by": "ratsong",
+        "weapons": [
+         "Stub gun"
+        ],
+        "target": "rumpleteaser"
        }
       },
       "{@deuteronomy|Deuteronomy} keeps the Perfect Void wrapped around him.",
@@ -1094,10 +1278,20 @@
         "resultClass": "ammo",
         "rows": [
          {
-          "label": "Willpower 9 +1",
           "dice": "",
           "result": "Rolled 10, passes",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "Willpower",
+           "base": 9,
+           "under": true,
+           "mods": [
+            [
+             1,
+             "Psychoteric Choir"
+            ]
+           ]
+          }
          },
          {
           "note": "Note: +1 Willpower from Psychoteric Choir."
@@ -1114,31 +1308,52 @@
         "result": "Elijah seriously injured",
         "rows": [
          {
-          "label": "To Hit (3+)",
           "dice": "6 f3",
           "result": "Three hits",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          }
          },
          {
-          "label": "To Wound (3+ Toxin)",
           "dice": "4 4 6",
-          "result": "Three wounds"
+          "result": "Three wounds",
+          "check": {
+           "name": "To Wound",
+           "base": 3,
+           "note": "Toxin"
+          }
          },
          {
-          "label": "Save (5+ AP -1)",
           "dice": "1 2 6",
-          "result": "1 saved",
-          "resultClass": "ammo"
+          "result": "Two damage",
+          "resultClass": "ammo",
+          "check": {
+           "name": "Save",
+           "base": 5,
+           "mods": [
+            [
+             -1,
+             "AP"
+            ]
+           ]
+          }
          },
          {
           "label": "Injury",
           "dice": "fw si",
-          "result": "Seriously Injured"
+          "result": "Serious injury"
          },
          {
           "note": "Note: Battlefield effect increases the AP of Toxin weapons by 1."
          }
-        ]
+        ],
+        "by": "deuteronomy",
+        "weapons": [
+         "Flechette pistol"
+        ],
+        "target": "elijah-emberchoir"
        }
       },
       "The poisoned needles find the gaps in {@elijah-emberchoir|Elijah}'s armour and he collapses. Up on the vent, {@ratsong|Ratsong} tries to get {@blessed-filth|Blessed Filth} back on his feet, but the sniper is too badly hurt.",
@@ -1152,7 +1367,7 @@
          {
           "label": "Recovery",
           "dice": "si si ooa",
-          "result": "Still Seriously Injured"
+          "result": "Still seriously injured"
          },
          {
           "note": "Note: +1 die from the Tend Wounds action, +1 die from Ratsong assisting."
@@ -1169,9 +1384,19 @@
         "result": "Elijah out of action",
         "rows": [
          {
-          "label": "Willpower 7 +1",
           "dice": "2 6",
-          "result": "Elijah Out of Action (Grievous Wound)"
+          "result": "Elijah Out of Action (Grievous Wound)",
+          "check": {
+           "name": "Willpower",
+           "base": 7,
+           "under": true,
+           "mods": [
+            [
+             1,
+             "Psychoteric Choir"
+            ]
+           ]
+          }
          },
          {
           "note": "Note: +1 Willpower from Psychoteric Choir."
@@ -1189,27 +1414,41 @@
         "result": "Skimbleshanks seriously injured",
         "rows": [
          {
-          "label": "To Hit (3+)",
           "dice": "3 f1",
           "result": "One hit",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          }
          },
          {
-          "label": "To Wound (4+)",
           "dice": "5",
-          "result": "Wounds"
+          "result": "Wound",
+          "check": {
+           "name": "To Wound",
+           "base": 4
+          }
          },
          {
-          "label": "Save (6+)",
           "dice": "1",
-          "result": "Takes one wound"
+          "result": "One damage",
+          "check": {
+           "name": "Save",
+           "base": 6
+          }
          },
          {
           "label": "Injury",
           "dice": "si",
-          "result": "Serious Injury"
+          "result": "Serious injury"
          }
-        ]
+        ],
+        "by": "mordecai",
+        "weapons": [
+         "Autopistol"
+        ],
+        "target": "skimbleshanks"
        }
       }
      ],
@@ -1454,12 +1693,17 @@
       "result": "The Psalm bottle, Blessed Filth flees",
       "rows": [
        {
-        "label": "Mordecai (Leadership 8)",
         "dice": "5 4",
-        "result": "Bottle!"
+        "result": "Bottle!",
+        "check": {
+         "name": "Leadership",
+         "base": 8,
+         "under": true,
+         "who": "Mordecai"
+        }
        },
        {
-        "note": "Blessed Filth flees. He later recovers and does not succumb to his wounds."
+        "note": "Note: Blessed Filth flees. He later recovers and does not succumb to his wounds."
        }
       ]
      }
@@ -1482,19 +1726,27 @@
         "side": "p",
         "face": "deus",
         "name": "Deus and Amen - Twin-linked Heavy Stubber",
-        "result": "Misses",
+        "result": "Miss",
         "resultClass": "ammo",
         "rows": [
          {
-          "label": "To Hit (4+)",
           "dice": "3 f2 f3",
-          "result": "Misses",
-          "resultClass": "ammo"
+          "result": "Miss",
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 4
+          }
          },
          {
           "note": "Note: Bulging Biceps to move at Initiative and fire a heavy weapon."
          }
-        ]
+        ],
+        "by": "deus-and-amen",
+        "weapons": [
+         "Twin-linked heavy stubber"
+        ],
+        "target": "mistoffelees"
        }
       },
       "{@rumpleteaser|Rumpleteaser} gets his plasma gun working again and takes another shot at {@ezekiel-crows|Ezekiel}, but it goes wide and the gun runs dry once more.",
@@ -1507,18 +1759,29 @@
         "resultClass": "ammo",
         "rows": [
          {
-          "label": "To Hit (4+)",
           "dice": "2 f3",
-          "result": "Misses",
-          "resultClass": "ammo"
+          "result": "Miss",
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 4
+          }
          },
          {
-          "label": "Ammo (6+)",
           "dice": "5",
           "result": "Out of Ammo",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "Ammo",
+           "base": 6
+          }
          }
-        ]
+        ],
+        "by": "rumpleteaser",
+        "weapons": [
+         "Plasma gun"
+        ],
+        "target": "ezekiel-crows"
        }
       },
       "{@mordecai|Mordecai} sees {@skimbleshanks|Skimbleshanks} lying at the foot of the wall and charges across the open ground to finish him. It's the moment {@demeter|Demeter} has been waiting for, and he fires on Overwatch.",
@@ -1531,27 +1794,44 @@
         "resultClass": "ammo",
         "rows": [
          {
-          "label": "To Hit (3+)",
           "dice": "6",
           "result": "Hits with Knockback",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          }
          },
          {
-          "label": "To Wound (3+)",
           "dice": "2",
           "result": "Fails to wound",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Wound",
+           "base": 3
+          }
          },
          {
-          "label": "Nerves of Steel (Cool 8)",
           "dice": "6 1",
           "result": "Not suppressed",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "Cool",
+           "base": 8,
+           "under": true,
+           "note": "Nerves of Steel"
+          }
          },
          {
           "note": "Note: Mordecai was not suppressed, did not take a wound and did not roll an Injury die, so his activation is not interrupted."
          }
-        ]
+        ],
+        "by": "demeter",
+        "weapons": [
+         "Long rifle"
+        ],
+        "target": "mordecai",
+        "action": "Overwatch"
        }
       },
       "The round hits {@mordecai|Mordecai} and knocks him back a step, but it doesn't stop him.",
@@ -1564,10 +1844,13 @@
         "resultClass": "ammo",
         "rows": [
          {
-          "label": "Charge move (2+)",
           "dice": "5",
           "result": "Charge makes it in",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "Charge move",
+           "base": 2
+          }
          }
         ]
        }
@@ -1577,19 +1860,28 @@
        "roll": {
         "side": "p",
         "face": "mordecai",
-        "name": "Mordecai - Coup de Grace",
+        "name": "Mordecai - Coup de Grâce",
         "result": "Skimbleshanks out of action",
         "rows": [
          {
-          "label": "Mordecai (Str 3)",
           "dice": "2",
           "result": "",
-          "resultClass": "ammo"
+          "check": {
+           "name": "Strength",
+           "base": 3,
+           "under": true,
+           "who": "Mordecai"
+          }
          },
          {
-          "label": "Skimbleshanks (Str 3)",
           "dice": "2",
-          "result": "Skimbleshanks out of action"
+          "result": "Skimbleshanks out of action",
+          "check": {
+           "name": "Strength",
+           "base": 3,
+           "under": true,
+           "who": "Skimbleshanks"
+          }
          },
          {
           "note": "Note: Skimbleshanks is later captured."
@@ -1607,10 +1899,14 @@
         "resultClass": "sup",
         "rows": [
          {
-          "label": "Cool 6",
           "dice": "3 5",
           "result": "Suppressed",
-          "resultClass": "sup"
+          "resultClass": "sup",
+          "check": {
+           "name": "Cool",
+           "base": 6,
+           "under": true
+          }
          }
         ]
        }
@@ -1625,10 +1921,14 @@
         "resultClass": "ammo",
         "rows": [
          {
-          "label": "Willpower 9",
           "dice": "1 6",
           "result": "Maintains",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "Willpower",
+           "base": 9,
+           "under": true
+          }
          }
         ]
        }
@@ -1647,32 +1947,56 @@
           "h6": "Shock Stave"
          },
          {
-          "label": "To Hit (3+)",
           "dice": "1 6 2 5",
           "result": "Two hits, auto wound",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          }
          },
          {
-          "label": "Save (5+ +1 Parry)",
           "dice": "6 2",
-          "result": "One saved, takes a wound"
+          "result": "One saved, takes a wound",
+          "check": {
+           "name": "Save",
+           "base": 5,
+           "mods": [
+            [
+             1,
+             "Parry"
+            ]
+           ]
+          }
          },
          {
           "h6": "Web Gauntlet (secondary)"
          },
          {
-          "label": "To Hit (3+)",
           "dice": "5",
-          "result": "Hits",
-          "resultClass": "ammo"
+          "result": "Hit",
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          }
          },
          {
-          "label": "To Wound (4+)",
           "dice": "2",
           "result": "Fails to wound",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Wound",
+           "base": 4
+          }
          }
-        ]
+        ],
+        "by": "deuteronomy",
+        "weapons": [
+         "Shock stave",
+         "Web gauntlet"
+        ],
+        "target": "mordecai"
        }
       },
       {
@@ -1680,7 +2004,7 @@
         "side": "p",
         "face": "mordecai",
         "name": "Mordecai - Chainglaive",
-        "result": "Misses",
+        "result": "Miss",
         "resultClass": "ammo",
         "rows": [
          {
@@ -1690,12 +2014,20 @@
           "h6": "Chainglaive"
          },
          {
-          "label": "To Hit (3+)",
           "dice": "1",
-          "result": "Misses",
-          "resultClass": "ammo"
+          "result": "Miss",
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          }
          }
-        ]
+        ],
+        "by": "mordecai",
+        "weapons": [
+         "Chainglaive*"
+        ],
+        "target": "deuteronomy"
        }
       },
       "Back on his feet, {@ezekiel-crows|Ezekiel} advances across the clearing and empties his autopistol at {@rumpleteaser|Rumpleteaser} behind the wall.",
@@ -1708,20 +2040,35 @@
         "resultClass": "sup",
         "rows": [
          {
-          "label": "To Hit (3+)",
           "dice": "6 f3",
           "result": "Three hits",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          }
          },
          {
-          "label": "To Wound (4+)",
           "dice": "6 4 3",
-          "result": "Two wounds"
+          "result": "Two wounds",
+          "check": {
+           "name": "To Wound",
+           "base": 4
+          }
          },
          {
-          "label": "Save (6+ +1 cover)",
           "dice": "5 3",
-          "result": "One wound caused"
+          "result": "One damage",
+          "check": {
+           "name": "Save",
+           "base": 6,
+           "mods": [
+            [
+             1,
+             "Cover"
+            ]
+           ]
+          }
          },
          {
           "label": "Injury",
@@ -1729,7 +2076,12 @@
           "result": "Suppressed",
           "resultClass": "sup"
          }
-        ]
+        ],
+        "by": "ezekiel-crows",
+        "weapons": [
+         "Autopistol"
+        ],
+        "target": "rumpleteaser"
        }
       },
       "{@jellylorum|Jellylorum} takes careful aim at {@ratsong|Ratsong} up on the vent.",
@@ -1738,16 +2090,30 @@
         "side": "t",
         "face": "jellylorum",
         "name": "Jellylorum - Lasgun",
-        "result": "Misses",
+        "result": "Miss",
         "resultClass": "ammo",
         "rows": [
          {
-          "label": "To Hit (4+ +1 aimed shot)",
           "dice": "2",
-          "result": "Misses",
-          "resultClass": "ammo"
+          "result": "Miss",
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 4,
+           "mods": [
+            [
+             1,
+             "Aim"
+            ]
+           ]
+          }
          }
-        ]
+        ],
+        "by": "jellylorum",
+        "weapons": [
+         "Lasgun"
+        ],
+        "target": "ratsong"
        }
       },
       "{@gutter-cantor|Gutter Cantor} follows close behind {@ezekiel-crows|Ezekiel} and binds another of his wounds.",
@@ -1962,10 +2328,15 @@
       "resultClass": "ammo",
       "rows": [
        {
-        "label": "Deuteronomy (Leadership 8)",
         "dice": "6 1",
         "result": "Passes",
-        "resultClass": "ammo"
+        "resultClass": "ammo",
+        "check": {
+         "name": "Leadership",
+         "base": 8,
+         "under": true,
+         "who": "Deuteronomy"
+        }
        }
       ]
      }
@@ -1989,7 +2360,7 @@
         "side": "t",
         "face": "deuteronomy",
         "name": "Deuteronomy - Reaction: Web Gauntlet",
-        "result": "Misses",
+        "result": "Miss",
         "resultClass": "ammo",
         "rows": [
          {
@@ -1999,12 +2370,21 @@
           "h6": "Reaction: Web Gauntlet"
          },
          {
-          "label": "To Hit (3+)",
           "dice": "2",
-          "result": "Misses",
-          "resultClass": "ammo"
+          "result": "Miss",
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          }
          }
-        ]
+        ],
+        "by": "deuteronomy",
+        "weapons": [
+         "Web gauntlet"
+        ],
+        "target": "mordecai",
+        "action": "Reaction"
        }
       },
       {
@@ -2012,7 +2392,7 @@
         "side": "t",
         "face": "deuteronomy",
         "name": "Deuteronomy - Counter-attack: Shock Stave",
-        "result": "Misses",
+        "result": "Miss",
         "resultClass": "ammo",
         "rows": [
          {
@@ -2022,12 +2402,21 @@
           "h6": "Counter-attack: Shock Stave"
          },
          {
-          "label": "To Hit (3+)",
           "dice": "2",
-          "result": "Misses",
-          "resultClass": "ammo"
+          "result": "Miss",
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          }
          }
-        ]
+        ],
+        "by": "deuteronomy",
+        "weapons": [
+         "Shock stave"
+        ],
+        "target": "mordecai",
+        "action": "Counter-attack"
        }
       },
       {
@@ -2044,22 +2433,42 @@
           "h6": "Chainglaive"
          },
          {
-          "label": "To Hit (3+)",
           "dice": "4 5",
           "result": "Two hits",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          }
          },
          {
-          "label": "To Wound (3+)",
           "dice": "1 3",
-          "result": "One wound"
+          "result": "One wound",
+          "check": {
+           "name": "To Wound",
+           "base": 3
+          }
          },
          {
-          "label": "Save (5+ AP -1)",
           "dice": "1",
-          "result": "Takes one wound"
+          "result": "One damage",
+          "check": {
+           "name": "Save",
+           "base": 5,
+           "mods": [
+            [
+             -1,
+             "AP"
+            ]
+           ]
+          }
          }
-        ]
+        ],
+        "by": "mordecai",
+        "weapons": [
+         "Chainglaive*"
+        ],
+        "target": "deuteronomy"
        }
       },
       "The chainglaive finally bites into {@deuteronomy|Deuteronomy}. Behind the wall, {@jellylorum|Jellylorum} reaches {@rumpleteaser|Rumpleteaser} and patches up his wound.",
@@ -2073,26 +2482,47 @@
         "resultClass": "sup",
         "rows": [
          {
-          "label": "To Hit (3+)",
           "dice": "6",
           "result": "Hits with Knockback",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          }
          },
          {
-          "label": "To Wound (4+)",
           "dice": "5",
-          "result": "Wounds"
+          "result": "Wound",
+          "check": {
+           "name": "To Wound",
+           "base": 4
+          }
          },
          {
-          "label": "Save (6+ AP -1)",
           "dice": "",
-          "result": "One wound caused, Suppressed and activation interrupted",
-          "resultClass": "sup"
+          "result": "One damage, suppressed, activation interrupted",
+          "resultClass": "sup",
+          "check": {
+           "name": "Save",
+           "base": 6,
+           "mods": [
+            [
+             -1,
+             "AP"
+            ]
+           ]
+          }
          },
          {
           "note": "Note: Overwatch finishes Deus and Amen's activation."
          }
-        ]
+        ],
+        "by": "demeter",
+        "weapons": [
+         "Long rifle"
+        ],
+        "target": "deus-and-amen",
+        "action": "Overwatch"
        }
       },
       "{@demeter|Demeter}'s shot hits the Stig-Shambler before he can fire, and {@deus-and-amen|Amen} staggers to a halt. {@deuteronomy|Deuteronomy} keeps the Perfect Void in place.",
@@ -2101,14 +2531,18 @@
         "side": "t",
         "face": "deuteronomy",
         "name": "Deuteronomy - Maintain Power",
-        "result": "Maintained",
+        "result": "Maintains",
         "resultClass": "ammo",
         "rows": [
          {
-          "label": "Willpower 9",
           "dice": "4 4",
-          "result": "Maintained",
-          "resultClass": "ammo"
+          "result": "Maintains",
+          "resultClass": "ammo",
+          "check": {
+           "name": "Willpower",
+           "base": 9,
+           "under": true
+          }
          }
         ]
        }
@@ -2128,31 +2562,55 @@
           "h6": "Shock Stave"
          },
          {
-          "label": "To Hit (3+)",
           "dice": "2 3 5",
           "result": "Two hits, one auto wound",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          }
          },
          {
-          "label": "To Wound (3+)",
           "dice": "5",
-          "result": "Two wounds"
+          "result": "Two wounds",
+          "check": {
+           "name": "To Wound",
+           "base": 3
+          }
          },
          {
-          "label": "Save (5+ +1 Parry)",
           "dice": "3 6",
-          "result": "Causes one wound"
+          "result": "One damage",
+          "check": {
+           "name": "Save",
+           "base": 5,
+           "mods": [
+            [
+             1,
+             "Parry"
+            ]
+           ]
+          }
          },
          {
           "h6": "Web Gauntlet (secondary)"
          },
          {
-          "label": "To Hit (3+)",
           "dice": "1",
-          "result": "Misses",
-          "resultClass": "ammo"
+          "result": "Miss",
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          }
          }
-        ]
+        ],
+        "by": "deuteronomy",
+        "weapons": [
+         "Shock stave",
+         "Web gauntlet"
+        ],
+        "target": "mordecai"
        }
       },
       {
@@ -2169,22 +2627,42 @@
           "h6": "Chainglaive"
          },
          {
-          "label": "To Hit (3+)",
           "dice": "6",
           "result": "One hit",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          }
          },
          {
-          "label": "To Wound (3+)",
           "dice": "6",
-          "result": "One wound"
+          "result": "One wound",
+          "check": {
+           "name": "To Wound",
+           "base": 3
+          }
          },
          {
-          "label": "Save (5+ AP -1)",
           "dice": "2",
-          "result": "Takes one wound"
+          "result": "One damage",
+          "check": {
+           "name": "Save",
+           "base": 5,
+           "mods": [
+            [
+             -1,
+             "AP"
+            ]
+           ]
+          }
          }
-        ]
+        ],
+        "by": "mordecai",
+        "weapons": [
+         "Chainglaive*"
+        ],
+        "target": "deuteronomy"
        }
       },
       "{@ezekiel-crows|Ezekiel} pushes forward and fires at {@rumpleteaser|Rumpleteaser} again, undoing {@jellylorum|Jellylorum}'s work.",
@@ -2197,28 +2675,48 @@
         "resultClass": "sup",
         "rows": [
          {
-          "label": "To Hit (3+)",
           "dice": "6 f2",
           "result": "Two hits",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          }
          },
          {
-          "label": "To Wound (4+)",
           "dice": "5 6",
-          "result": "Two wounds"
+          "result": "Two wounds",
+          "check": {
+           "name": "To Wound",
+           "base": 4
+          }
          },
          {
-          "label": "Save (6+ +1 cover)",
           "dice": "2 5",
-          "result": "One wound"
+          "result": "One damage",
+          "check": {
+           "name": "Save",
+           "base": 6,
+           "mods": [
+            [
+             1,
+             "Cover"
+            ]
+           ]
+          }
          },
          {
           "label": "Injury",
           "dice": "fw",
-          "result": "Injured and Suppressed",
+          "result": "Injured, suppressed",
           "resultClass": "sup"
          }
-        ]
+        ],
+        "by": "ezekiel-crows",
+        "weapons": [
+         "Autopistol"
+        ],
+        "target": "rumpleteaser"
        }
       },
       "{@mistoffelees|Mistoffelees} leans out of cover and takes an aimed shot at {@ezekiel-crows|Ezekiel}.",
@@ -2227,16 +2725,24 @@
         "side": "t",
         "face": "mistoffelees",
         "name": "Mistoffelees - Stub Gun",
-        "result": "Misses",
+        "result": "Miss",
         "resultClass": "ammo",
         "rows": [
          {
-          "label": "To Hit (4+)",
           "dice": "2",
-          "result": "Misses",
-          "resultClass": "ammo"
+          "result": "Miss",
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 4
+          }
          }
-        ]
+        ],
+        "by": "mistoffelees",
+        "weapons": [
+         "Stub gun"
+        ],
+        "target": "ezekiel-crows"
        }
       },
       "{@gutter-cantor|Gutter Cantor} moves up beside {@ezekiel-crows|Ezekiel} and fires back at {@mistoffelees|Mistoffelees}.",
@@ -2245,16 +2751,24 @@
         "side": "p",
         "face": "cantor",
         "name": "Gutter Cantor - Polearm/Autogun",
-        "result": "Misses",
+        "result": "Miss",
         "resultClass": "ammo",
         "rows": [
          {
-          "label": "To Hit (4+)",
           "dice": "1 f3",
-          "result": "Misses",
-          "resultClass": "ammo"
+          "result": "Miss",
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 4
+          }
          }
-        ]
+        ],
+        "by": "gutter-cantor",
+        "weapons": [
+         "Cawdor Polearm/Autogun"
+        ],
+        "target": "mistoffelees"
        }
       },
       "{@ratsong|Ratsong} stays behind the crates on the vent, out of sight."
@@ -2510,21 +3024,33 @@
           "h6": "Reaction: Web Gauntlet"
          },
          {
-          "label": "To Hit (3+)",
           "dice": "6",
           "result": "One hit",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          }
          },
          {
-          "label": "To Wound (4+)",
           "dice": "6",
           "result": "Mordecai webbed",
-          "resultClass": "sup"
+          "resultClass": "sup",
+          "check": {
+           "name": "To Wound",
+           "base": 4
+          }
          },
          {
           "note": "Note: Mordecai is subject to the Webbed condition: he cannot move and suffers -1 to all hit rolls."
          }
-        ]
+        ],
+        "by": "deuteronomy",
+        "weapons": [
+         "Web gauntlet"
+        ],
+        "target": "mordecai",
+        "action": "Reaction"
        }
       },
       {
@@ -2542,18 +3068,30 @@
           "h6": "Counter-attack: Shock Stave"
          },
          {
-          "label": "To Hit (3+)",
           "dice": "3",
-          "result": "Hits",
-          "resultClass": "ammo"
+          "result": "Hit",
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          }
          },
          {
-          "label": "To Wound (3+)",
           "dice": "2",
           "result": "Fails to wound",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Wound",
+           "base": 3
+          }
          }
-        ]
+        ],
+        "by": "deuteronomy",
+        "weapons": [
+         "Shock stave"
+        ],
+        "target": "mordecai",
+        "action": "Counter-attack"
        }
       },
       {
@@ -2570,25 +3108,39 @@
           "h6": "Chainglaive"
          },
          {
-          "label": "To Hit (3+, -1 Webbed)",
           "dice": "3 4",
           "result": "One hit",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 3,
+           "mods": [
+            [
+             -1,
+             "Webbed"
+            ]
+           ]
+          }
          },
          {
-          "label": "To Wound (3+)",
           "dice": "3",
-          "result": "One wound"
+          "result": "One wound",
+          "check": {
+           "name": "To Wound",
+           "base": 3
+          }
          },
          {
           "label": "Injury",
           "dice": "si si",
-          "result": "Seriously Injured"
-         },
-         {
-          "note": "Note: The chainglaive is Lethality 2."
+          "result": "Serious injury"
          }
-        ]
+        ],
+        "by": "mordecai",
+        "weapons": [
+         "Chainglaive*"
+        ],
+        "target": "deuteronomy"
        }
       },
       {
@@ -2600,10 +3152,14 @@
         "resultClass": "sup",
         "rows": [
          {
-          "label": "Strength 3",
           "dice": "2",
           "result": "Fails to break free",
-          "resultClass": "sup"
+          "resultClass": "sup",
+          "check": {
+           "name": "Strength",
+           "base": 3,
+           "under": true
+          }
          }
         ]
        }
@@ -2625,27 +3181,43 @@
           "h6": "Autopistol"
          },
          {
-          "label": "To Hit (3+)",
           "dice": "4",
-          "result": "Hits",
-          "resultClass": "ammo"
+          "result": "Hit",
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          }
          },
          {
-          "label": "To Wound (4+)",
           "dice": "3",
           "result": "Fails to wound",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Wound",
+           "base": 4
+          }
          },
          {
           "h6": "Cleaver"
          },
          {
-          "label": "To Hit (3+)",
           "dice": "1 2 1",
-          "result": "Fails to hit!",
-          "resultClass": "ammo"
+          "result": "Miss",
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          }
          }
-        ]
+        ],
+        "by": "ezekiel-crows",
+        "weapons": [
+         "Autopistol",
+         "Cleaver"
+        ],
+        "target": "jellylorum",
+        "action": "Charge"
        }
       },
       "Every swing of the cleaver misses. {@jellylorum|Jellylorum} steps inside his reach and hits him with his bare hands.",
@@ -2663,22 +3235,36 @@
           "h6": "Unarmed"
          },
          {
-          "label": "To Hit (4+)",
           "dice": "6",
-          "result": "Hits",
-          "resultClass": "ammo"
+          "result": "Hit",
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 4
+          }
          },
          {
-          "label": "To Wound (4+)",
           "dice": "6",
-          "result": "Wounds"
+          "result": "Wound",
+          "check": {
+           "name": "To Wound",
+           "base": 4
+          }
          },
          {
-          "label": "Save (5+)",
           "dice": "2",
-          "result": "Causes one wound"
+          "result": "One damage",
+          "check": {
+           "name": "Save",
+           "base": 5
+          }
          }
-        ]
+        ],
+        "by": "jellylorum",
+        "weapons": [
+         "Unarmed"
+        ],
+        "target": "ezekiel-crows"
        }
       },
       "{@mistoffelees|Mistoffelees} fires at {@mordecai|Mordecai}, then slips back into the shadows.",
@@ -2687,16 +3273,24 @@
         "side": "t",
         "face": "mistoffelees",
         "name": "Mistoffelees - Stub Gun",
-        "result": "Misses",
+        "result": "Miss",
         "resultClass": "ammo",
         "rows": [
          {
-          "label": "To Hit (5+)",
           "dice": "3",
-          "result": "Misses",
-          "resultClass": "ammo"
+          "result": "Miss",
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 5
+          }
          }
-        ]
+        ],
+        "by": "mistoffelees",
+        "weapons": [
+         "Stub gun"
+        ],
+        "target": "mordecai"
        }
       },
       "{@deus-and-amen|Deus} pushes Amen forward and fires at {@demeter|Demeter} in the tower.",
@@ -2709,15 +3303,23 @@
         "resultClass": "ammo",
         "rows": [
          {
-          "label": "To Hit (4+)",
           "dice": "2 f2 f2",
           "result": "Miss",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 4
+          }
          },
          {
           "note": "Note: Bulging Biceps to move at Initiative and fire a heavy weapon. Twin-linked to re-roll the Rapid Fire dice."
          }
-        ]
+        ],
+        "by": "deus-and-amen",
+        "weapons": [
+         "Twin-linked heavy stubber"
+        ],
+        "target": "demeter"
        }
       },
       "{@demeter|Demeter} takes an aimed shot at {@mordecai|Mordecai}, a chance to take down the Psalm's leader in return.",
@@ -2726,16 +3328,24 @@
         "side": "t",
         "face": "demeter",
         "name": "Demeter - Long Rifle",
-        "result": "Misses!",
+        "result": "Miss",
         "resultClass": "ammo",
         "rows": [
          {
-          "label": "To Hit (2+)",
           "dice": "1",
-          "result": "Misses!",
-          "resultClass": "ammo"
+          "result": "Miss",
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 2
+          }
          }
-        ]
+        ],
+        "by": "demeter",
+        "weapons": [
+         "Long rifle"
+        ],
+        "target": "mordecai"
        }
       },
       "{@gutter-cantor|Gutter Cantor} takes aim at {@mistoffelees|Mistoffelees}.",
@@ -2748,18 +3358,29 @@
         "resultClass": "sup",
         "rows": [
          {
-          "label": "To Hit (3+)",
           "dice": "4 f1",
           "result": "One hit",
-          "resultClass": "ammo"
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          }
          },
          {
-          "label": "To Wound (4+)",
           "dice": "1",
           "result": "Suppressed",
-          "resultClass": "sup"
+          "resultClass": "sup",
+          "check": {
+           "name": "To Wound",
+           "base": 4
+          }
          }
-        ]
+        ],
+        "by": "gutter-cantor",
+        "weapons": [
+         "Cawdor Polearm/Autogun"
+        ],
+        "target": "mistoffelees"
        }
       },
       "Still held fast by the webbing, {@mordecai|Mordecai} cannot follow up, and {@deuteronomy|Deuteronomy} crawls away from him towards {@jellylorum|Jellylorum}. His wounds are too deep, and he passes out before he gets there. It's a lesson he won't forget.",
@@ -2979,10 +3600,15 @@
       "resultClass": "ammo",
       "rows": [
        {
-        "label": "Demeter (Leadership 7)",
         "dice": "1 3",
         "result": "Holds",
-        "resultClass": "ammo"
+        "resultClass": "ammo",
+        "check": {
+         "name": "Leadership",
+         "base": 7,
+         "under": true,
+         "who": "Demeter"
+        }
        }
       ]
      }
