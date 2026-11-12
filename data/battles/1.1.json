@@ -1501,7 +1501,7 @@
          },
          {
           "dice": "2",
-          "result": "One wound",
+          "result": "One damage",
           "check": {
            "name": "Save",
            "base": 5,
@@ -2119,7 +2119,7 @@
          },
          {
           "dice": "",
-          "result": "One wound",
+          "result": "One damage",
           "check": {
            "name": "Save",
            "base": 5,
@@ -2813,23 +2813,25 @@
         "rows": [
          {
           "dice": "3",
-          "result": "",
+          "result": "6",
           "check": {
            "name": "Strength",
            "base": 3,
            "under": true,
            "who": "Ezekiel"
-          }
+          },
+          "resultClass": "ammo"
          },
          {
           "dice": "1",
-          "result": "Macavity out of action",
+          "result": "5",
           "check": {
            "name": "Strength",
            "base": 4,
            "under": true,
            "who": "Macavity"
-          }
+          },
+          "resultClass": "ammo"
          },
          {
           "note": "Note: Macavity receives the Lesson Learnt lasting injury."
@@ -3655,7 +3657,7 @@
         "rows": [
          {
           "dice": "5 f2",
-          "result": "Hit",
+          "result": "Two hits",
           "resultClass": "ammo",
           "check": {
            "name": "To Hit",

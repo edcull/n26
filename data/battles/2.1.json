@@ -935,6 +935,15 @@
           }
          },
          {
+          "dice": "",
+          "result": "One damage",
+          "check": {
+           "name": "Save",
+           "base": 5,
+           "none": true
+          }
+         },
+         {
           "dice": "4",
           "result": "Out of Ammo",
           "resultClass": "ammo",
@@ -944,7 +953,7 @@
           }
          },
          {
-          "note": "Note: The graviton pulse stays in place."
+          "note": "Note: The Graviton Pulse allows no save, and stays in place."
          }
         ],
         "by": "mungojerrie",
@@ -2130,7 +2139,7 @@
          },
          {
           "dice": "2 4 6",
-          "result": "Three hits",
+          "result": "Two hits",
           "resultClass": "ammo",
           "check": {
            "name": "To Hit",
@@ -2138,8 +2147,8 @@
           }
          },
          {
-          "dice": "2 3 6",
-          "result": "Three wounds",
+          "dice": "2 6",
+          "result": "Two wounds",
           "check": {
            "name": "To Wound",
            "base": 2,
@@ -2148,8 +2157,22 @@
           }
          },
          {
+          "dice": "",
+          "result": "Two damage",
+          "check": {
+           "name": "Save",
+           "base": 6,
+           "mods": [
+            [
+             -1,
+             "AP"
+            ]
+           ]
+          }
+         },
+         {
           "label": "Injury",
-          "dice": "fw fw fw si ooa ooa",
+          "dice": "fw fw si ooa",
           "result": "Out of Action"
          },
          {
@@ -2425,6 +2448,20 @@
            "base": 3,
            "s": 4,
            "t": 3
+          }
+         },
+         {
+          "dice": "",
+          "result": "Three damage",
+          "check": {
+           "name": "Save",
+           "base": 6,
+           "mods": [
+            [
+             -1,
+             "AP"
+            ]
+           ]
           }
          },
          {
@@ -2860,6 +2897,20 @@
            "base": 3,
            "s": 4,
            "t": 3
+          }
+         },
+         {
+          "dice": "",
+          "result": "Two damage",
+          "check": {
+           "name": "Save",
+           "base": 6,
+           "mods": [
+            [
+             -1,
+             "AP"
+            ]
+           ]
           }
          },
          {

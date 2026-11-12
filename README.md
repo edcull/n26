@@ -132,6 +132,8 @@ Other callouts (tests, recovery, powers) keep a plain `name` such as `"Wit - Ner
 - **Tests on a roll row** are data, not text. The template shows the final number in bold, then the base and modifiers:
   - `{"check": {"name": "To Hit", "base": 4, "mods": [[1, "Aim"]]}}` shows To Hit **3+** (4+ +1 Aim)
   - `{"check": {"name": "Save", "base": 6, "mods": [[-1, "AP"]]}}` shows Save **none** (6+ -1 AP); leave `dice` empty then
+  - `{"check": {"name": "Save", "base": 5, "none": true}}` shows Save **none** when a rule allows no save at all. Only use it where a save would otherwise have been rolled, and add a note saying which rule, for example "Note: The Graviton Pulse allows no save."
+  - Every weapon section that causes a wound has a Save row
   - `{"check": {"name": "Willpower", "base": 9, "mods": [[3, "Psychoteric Choir"]], "under": true}}` shows Willpower **12** (9 +3 Psychoteric Choir)
   - `"who": "Mordecai"` puts the fighter's name first, for callouts that cover several fighters: Mordecai: Leadership **8**
   - `"s": 3, "t": 3` on a To Wound check shows the attacker's Strength against the target's Toughness: To Wound **4+** (S3/T3)
