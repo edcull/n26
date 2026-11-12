@@ -4686,10 +4686,15 @@
    ]
   },
   {
-   "piece": "manufactorum",
+   "piece": "walled-ruin",
    "at": [
-    207.9,
-    113.1
+    301.15,
+    206.3
+   ],
+   "label": "Manufactorum",
+   "labelAt": [
+    303,
+    175.3
    ]
   },
   {

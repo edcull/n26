@@ -4247,10 +4247,19 @@
    }
   ],
   {
-   "piece": "v1-ruined-tower",
+   "piece": "walled-ruin",
    "at": [
-    375.0,
-    382.5
+    473.75,
+    481.25
+   ],
+   "turn": 90,
+   "label": [
+    "Ruined",
+    "tower"
+   ],
+   "labelAt": [
+    420,
+    517.5
    ]
   },
   [

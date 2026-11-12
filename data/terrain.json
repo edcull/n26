@@ -17,6 +17,29 @@
     ]
    ]
   },
+  "barricade": {
+   "name": "Barricade",
+   "note": "3\" by 0.75\", origin at its centre.",
+   "els": [
+    [
+     "rect",
+     {
+      "class": "m-solid",
+      "x": "-37.5",
+      "y": "-9.38",
+      "width": "75",
+      "height": "18.75"
+     }
+    ],
+    [
+     "path",
+     {
+      "class": "m-seam",
+      "d": "M-12.5 -9.38V9.38M12.5 -9.38V9.38"
+     }
+    ]
+   ]
+  },
   "round-platform": {
    "name": "Round platform",
    "els": [
@@ -67,6 +90,48 @@
     ]
    ],
    "note": "8\" across the flats, 9\" point to point; the tower is 4\" across."
+  },
+  "walled-ruin": {
+   "name": "Walled ruin",
+   "note": "8\" by 8\", origin at its centre. A raised floor runs along the south wall, 3\" deep at the ends and 2\" in the middle, with a 3\" by 2\" block in its east corner and a ladder down at its lowest point.",
+   "label": "Walled ruin",
+   "labelAt": [
+    0,
+    -30
+   ],
+   "els": [
+    [
+     "polygon",
+     {
+      "class": "m-solid",
+      "points": "-100,100 -100,25 0,50 100,25 100,100"
+     }
+    ],
+    [
+     "rect",
+     {
+      "class": "m-rubble",
+      "x": "25",
+      "y": "50",
+      "width": "75",
+      "height": "50"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-ladder",
+      "points": "0,50 0,34"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-wall",
+      "points": "-100,-100 100,-100 100,100 -100,100 -100,-100"
+     }
+    ]
+   ]
   },
   "tank": {
    "name": "Tank",
@@ -162,44 +227,6 @@
    "labelAt": [
     47.6,
     81.7
-   ]
-  },
-  "manufactorum": {
-   "name": "Manufactorum",
-   "els": [
-    [
-     "polyline",
-     {
-      "class": "m-div",
-      "points": "1.1,116.6 1.1,0 185.4,0 185.4,108.8"
-     }
-    ],
-    [
-     "polygon",
-     {
-      "class": "m-solid",
-      "points": "1.1,118.1 39.5,121.7 66.5,126.4 93,135.7 125.7,125.3 146.9,116.6 168,109.8 185.4,107.8 185.4,186.4 1.1,186.4"
-     }
-    ],
-    [
-     "polyline",
-     {
-      "class": "m-wall",
-      "points": "0,116.6 0,186.4 186.5,186.4 185.4,107.8"
-     }
-    ],
-    [
-     "polyline",
-     {
-      "class": "m-ladder",
-      "points": "92.1,135.4 92.1,121.4"
-     }
-    ]
-   ],
-   "label": "Manufactorum",
-   "labelAt": [
-    95.1,
-    62.2
    ]
   },
   "rendering-vats": {
@@ -439,47 +466,6 @@
     52.5
    ]
   },
-  "v1-ruined-tower": {
-   "name": "Ruined tower",
-   "els": [
-    [
-     "polygon",
-     {
-      "class": "m-floor",
-      "points": "0,0 90,0 90,80 0,80"
-     }
-    ],
-    [
-     "polygon",
-     {
-      "class": "m-solid",
-      "points": "0,80 90,80 90,197.5 0,197.5"
-     }
-    ],
-    [
-     "polyline",
-     {
-      "class": "m-wall",
-      "points": "0,197.5 0,0 197.5,0 197.5,197.5 0,197.5"
-     }
-    ],
-    [
-     "polygon",
-     {
-      "class": "m-rubble",
-      "points": "137.5,0 197.5,0 197.5,42.5 137.5,42.5"
-     }
-    ]
-   ],
-   "label": [
-    "Ruined",
-    "tower"
-   ],
-   "labelAt": [
-    45.0,
-    135.0
-   ]
-  },
   "v1-gothic-ruin-west": {
    "name": "Gothic ruin",
    "els": [
@@ -560,44 +546,6 @@
    "labelAt": [
     44.0,
     88.6
-   ]
-  },
-  "v1-ruined-tower-b": {
-   "name": "Ruined tower",
-   "els": [
-    [
-     "polygon",
-     {
-      "class": "m-solid",
-      "points": "187.5,72.5 0,72.5 0,0 187.5,0"
-     }
-    ],
-    [
-     "polyline",
-     {
-      "class": "m-wall",
-      "points": "187.5,0 187.5,180 0,180 0,0 187.5,0"
-     }
-    ],
-    [
-     "polygon",
-     {
-      "class": "m-rubble",
-      "points": "40,177.5 2.5,177.5 2.5,130 40,130"
-     }
-    ],
-    [
-     "polyline",
-     {
-      "class": "m-run",
-      "points": "90,95 90,72.5"
-     }
-    ]
-   ],
-   "label": "Ruined tower",
-   "labelAt": [
-    117.5,
-    37.5
    ]
   },
   "v1-gothic-ruin-b": {
@@ -714,29 +662,6 @@
    "labelAt": [
     104.1,
     63.5
-   ]
-  },
-  "barricade": {
-   "name": "Barricade",
-   "note": "3\" by 0.75\", origin at its centre.",
-   "els": [
-    [
-     "rect",
-     {
-      "class": "m-solid",
-      "x": "-37.5",
-      "y": "-9.38",
-      "width": "75",
-      "height": "18.75"
-     }
-    ],
-    [
-     "path",
-     {
-      "class": "m-seam",
-      "d": "M-12.5 -9.38V9.38M12.5 -9.38V9.38"
-     }
-    ]
    ]
   }
  }

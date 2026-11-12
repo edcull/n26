@@ -4175,10 +4175,16 @@
  "roster": "1.2",
  "terrain": [
   {
-   "piece": "v1-ruined-tower-b",
+   "piece": "walled-ruin",
    "at": [
-    370.0,
-    395.0
+    463.75,
+    485
+   ],
+   "turn": 180,
+   "label": "Ruined tower",
+   "labelAt": [
+    487.5,
+    432.5
    ]
   },
   {
