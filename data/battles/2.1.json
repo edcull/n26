@@ -1137,7 +1137,7 @@
         "side": "p",
         "face": "vermin",
         "name": "Vermin Pyre - Flamer",
-        "result": "Mistoffelees injured",
+        "result": "Mistoffelees injured and suppressed, Out of Ammo",
         "rows": [
          {
           "dice": "4",
@@ -1166,7 +1166,7 @@
          {
           "label": "Injury",
           "dice": "fw",
-          "result": "Injured"
+          "result": "Injured, suppressed"
          },
          {
           "dice": "4",
