@@ -4270,6 +4270,13 @@
    ],
    "turn": -90
   },
+  {
+   "piece": "rubble-block",
+   "at": [
+    542.5,
+    403.75
+   ]
+  },
   [
    "polyline",
    {

@@ -4195,6 +4195,14 @@
    ]
   },
   {
+   "piece": "rubble-block",
+   "at": [
+    391.25,
+    548.75
+   ],
+   "turn": 90
+  },
+  {
    "piece": "container",
    "at": [
     272.5,
