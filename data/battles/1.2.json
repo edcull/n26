@@ -1,0 +1,3776 @@
+{
+ "page": "battle",
+ "id": "1.2",
+ "title": "Cycle 1.2: The Banewaters Brawl",
+ "kicker": "Ash and Shadow · Battle report",
+ "cycle": "Cycle 1.2",
+ "name": "The Banewaters Brawl",
+ "sides": [
+  {
+   "img": "images/gangs/the-midnight-theatre.jpg",
+   "name": "The Midnight Theatre",
+   "note": "6 fighters · 715 rating"
+  },
+  {
+   "img": "images/gangs/the-carrion-psalm.jpg",
+   "name": "The Carrion Psalm",
+   "note": "7 fighters · 875 rating"
+  }
+ ],
+ "intro": [
+  "Nobody claims the Banewaters. It is a sump of toxic runoff where old synth stills still drip into the sludge, and the locals give it a wide berth. Most of the stills are long dead, but one still works, and anyone with the right buyers could turn what it brews into credits.",
+  "So when {t:The Midnight Theatre} quietly lay claim to it, it should have meant nothing. The Delaque like places nobody watches, and a working still in a forgotten sump suits them well. Their whisper network already has buyers lined up.",
+  "But {p:The Carrion Psalm} have not forgotten the Pyroclave. That promethium was meant for their fires, a blessing tricked out of worthy hands by Delaque deceit. {@mordecai|Mordecai} has had his people watching the Theatre ever since, and when word comes that the Delaque are heading into the Banewaters, the Psalm get there first and wait for them in the dark."
+ ],
+ "introHeading": "Intro",
+ "setup": {
+  "facts": [
+   [
+    "At stake",
+    "Synth Still territory"
+   ],
+   [
+    "Battlefield effect",
+    "Increase the AP of Toxin (X) weapons by 1"
+   ],
+   [
+    "Challenger",
+    "{t:The Midnight Theatre}"
+   ],
+   [
+    "Table",
+    "2' × 2' - Centre objective 6\" rather than 9\""
+   ],
+   [
+    "Deployment",
+    "Face Off: the winner of a roll-off picks a battlefield edge and their opponent takes the opposite one. Each gang deploys between its own edge and a line 9\" from the centre line. On a 2' table that is a 3\" strip along each edge, 18\" apart."
+   ],
+   [
+    "Objective",
+    "Turf War: from round three onwards, a gang wins in the Check for Victory step if it is the only one with models that are not Seriously Injured within 6\" of the centre (9\" in the book). If only one gang still has models on the battlefield, they win; if neither does, it is a draw."
+   ],
+   [
+    "Theatre side quest",
+    "{t:Settle a Score:} once both crews are deployed, one enemy model other than their Leader is picked at random. If it has been taken Out of Action, or has left the battlefield for any reason, by the Check for Victory step of any End phase, the side job is done. Target: {p:Ratsong}."
+   ],
+   [
+    "Psalm side quest",
+    "{p:Settle a Score:} once both crews are deployed, one enemy model other than their Leader is picked at random. If it has been taken Out of Action, or has left the battlefield for any reason, by the Check for Victory step of any End phase, the side job is done. Target: {t:Skimbleshanks}."
+   ],
+   [
+    "Crews",
+    "Scouting Force: Both gangs use Hybrid (D3+5). Both gangs rolled a 1, for 6 fighters each.<br/>{t:Theatre:} 6 fighters, 715 rating<br/>{p:Psalm:} 7 fighters, 875 rating, including Ratsong as an extra Bonepicker from Without Number"
+   ]
+  ],
+  "blocks": [
+   {
+    "photo": {
+     "src": "images/1.2/photo-01.jpg",
+     "alt": "The table seen from above at an angle, with ruins and stacked containers in the foreground and the sealed vent in the far corner.",
+     "caption": "The Banewaters still."
+    }
+   }
+  ]
+ },
+ "setupAfter": [],
+ "gangs": [
+  {
+   "class": "theatre",
+   "portrait": "images/gangs/the-midnight-theatre.jpg",
+   "name": "The Midnight Theatre",
+   "house": "House Delaque",
+   "blocks": [
+    {
+     "photo": {
+      "src": "images/1.2/photo-02.jpg",
+      "alt": "The six Midnight Theatre fighters in long dark coats and purple guns, posed around the still."
+     }
+    },
+    {
+     "sheet": [
+      [
+       "Rating",
+       "1000"
+      ],
+      [
+       "Reputation",
+       "2"
+      ],
+      [
+       "Credits",
+       "40"
+      ],
+      [
+       "Trade points",
+       "0"
+      ],
+      [
+       "Wealth",
+       "1040"
+      ],
+      [
+       "Gang size",
+       "8"
+      ]
+     ],
+     "class": ""
+    },
+    {
+     "assets": [
+      {
+       "label": "Territories",
+       "chips": [
+        {
+         "tip": "Settlement"
+        },
+        {
+         "tip": "Rogue Doc Shop"
+        },
+        {
+         "tip": "Promethium Cache"
+        }
+       ]
+      },
+      {
+       "label": "Gang tactics",
+       "chips": [
+        {
+         "tip": "You!"
+        },
+        {
+         "tip": "Crossfire",
+         "used": true,
+         "usedLabel": "Used"
+        },
+        {
+         "tip": "Adrenaline Surge"
+        },
+        {
+         "tip": "Thunderous Charge"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "panel": "Crew (6)",
+     "class": "crew-panel",
+     "fighters": [
+      {
+       "id": "deuteronomy"
+      },
+      {
+       "id": "demeter"
+      },
+      {
+       "id": "rumpleteaser"
+      },
+      {
+       "id": "skimbleshanks"
+      },
+      {
+       "id": "jellylorum"
+      },
+      {
+       "id": "mistoffelees"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "class": "psalm",
+   "portrait": "images/gangs/the-carrion-psalm.jpg",
+   "name": "The Carrion Psalm",
+   "house": "House Cawdor",
+   "blocks": [
+    {
+     "photo": {
+      "src": "images/1.2/photo-03.jpg",
+      "alt": "The seven Carrion Psalm fighters in red and yellow robes, posed around the still."
+     }
+    },
+    {
+     "sheet": [
+      [
+       "Rating",
+       "1000"
+      ],
+      [
+       "Reputation",
+       "2"
+      ],
+      [
+       "Credits",
+       "20"
+      ],
+      [
+       "Trade points",
+       "0"
+      ],
+      [
+       "Wealth",
+       "1020"
+      ],
+      [
+       "Gang size",
+       "8"
+      ]
+     ],
+     "class": ""
+    },
+    {
+     "assets": [
+      {
+       "label": "Territories",
+       "chips": [
+        {
+         "tip": "Settlement"
+        },
+        {
+         "tip": "Generatorium"
+        }
+       ]
+      },
+      {
+       "label": "Gang tactics",
+       "chips": [
+        {
+         "tip": "Suppressing Fire"
+        },
+        {
+         "tip": "Hidden Stash"
+        },
+        {
+         "tip": "Adrenaline Surge",
+         "used": true,
+         "usedLabel": "Used"
+        },
+        {
+         "tip": "Grenade Bouquet"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "panel": "Crew (7)",
+     "class": "crew-panel",
+     "fighters": [
+      {
+       "id": "mordecai"
+      },
+      {
+       "id": "ezekiel-crows"
+      },
+      {
+       "id": "elijah-emberchoir"
+      },
+      {
+       "id": "blessed-filth"
+      },
+      {
+       "id": "gutter-cantor"
+      },
+      {
+       "id": "ratsong"
+      },
+      {
+       "id": "deus-and-amen"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "rounds": [
+  {
+   "id": "deployment",
+   "no": "",
+   "title": "Deployment",
+   "blocks": [
+    {
+     "text": [
+      "{t:The Midnight Theatre} navigate the toxic sump waters and approach from the south, through the ruins of an old Synth Still manufactorum complex. Their target is a functioning still in a relatively clear area of the ruins. {p:The Carrion Psalm} lie waiting near a sealed ventilation tunnel on the opposite side of the clearing."
+     ]
+    },
+    {
+     "ends": [
+      {
+       "src": "images/1.2/photo-04.jpg",
+       "alt": "Delaque fighters deployed either side of the stacked containers and inside the ruined tower.",
+       "caption": "The Midnight Theatre come to claim the still…"
+      },
+      {
+       "src": "images/1.2/photo-05.jpg",
+       "alt": "Cawdor fighters on the sealed vent, beneath it beside the stairs, and the Stig-Shambler by the ruined stills.",
+       "caption": "…but the Carrion Psalm lie in wait."
+      }
+     ]
+    },
+    {
+     "map": {
+      "viewBox": "-14 -24 628 668",
+      "label": "Top-down map of the Cycle 1.2 table with terrain, both deployment edges and the 6 inch objective circle at the centre.",
+      "items": [
+       {
+        "board": "terrain"
+       },
+       {
+        "el": [
+         "text",
+         {
+          "class": "m-c",
+          "x": "532.5",
+          "y": "335"
+         },
+         "6\" from centre"
+        ]
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 467.5,
+         "y": 535,
+         "t": "Dm"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 342.5,
+         "y": 537.5,
+         "t": "S"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 345,
+         "y": 567.5,
+         "t": "Mi"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 151.25,
+         "y": 535,
+         "t": "De"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 140,
+         "y": 567.5,
+         "t": "J"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 172.5,
+         "y": 570,
+         "t": "Rt"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 130,
+         "y": 15,
+         "t": "M"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 100,
+         "y": 30,
+         "t": "G"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 155,
+         "y": 27.5,
+         "t": "El"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 130,
+         "y": 45,
+         "t": "Ez"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 72.5,
+         "y": 65,
+         "t": "R"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 100,
+         "y": 62.5,
+         "t": "B"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 317.5,
+         "y": 55,
+         "t": "DA",
+         "r": 19
+        }
+       },
+       {
+        "board": "ticks"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "round-1",
+   "no": "1",
+   "title": "Round 1: Snipers' duel",
+   "blocks": [
+    {
+     "split": [
+      "tall",
+      "two"
+     ],
+     "text": [
+      "{@mordecai|Mordecai} gives the word and {@deus-and-amen|Deus} kicks Amen forward. He charges his twin heavy stubbers and swings them round to open fire at the shapes in the shadows. Rounds fly across the clearing and kick up rubble and debris around {@skimbleshanks|Skimbleshanks} and {@mistoffelees|Mistoffelees}.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "deus",
+        "name": "Deus and Amen - Twin-linked Heavy Stubber",
+        "result": "Misses",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "2 f1 f2",
+          "result": "Misses",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: Bulging Biceps to move at Initiative and fire a heavy weapon."
+         }
+        ]
+       }
+      },
+      "As soon as the Cawdor make their presence known, {@demeter|Demeter} climbs the ruined tower to find a vantage point to cover the Theatre's advance.",
+      "But {@blessed-filth|Blessed Filth} is watching from the top of the sealed vent. The Psalm's sniper takes position behind a stack of crates and fires.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "filth",
+        "name": "Blessed Filth - Long Rifle",
+        "result": "Demeter suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "5",
+          "result": "Hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "3",
+          "result": "Wounds"
+         },
+         {
+          "label": "Save (5+ +1 cover)",
+          "dice": "6",
+          "result": "Saved, Suppressed",
+          "resultClass": "sup"
+         }
+        ]
+       }
+      },
+      "The shot cracks against the iron bars in front of {@demeter|Demeter}, forcing him to duck back and stay behind cover. Below him, {@skimbleshanks|Skimbleshanks} rushes forward through the hail of lead from {@deus-and-amen|Deus}, getting out of the narrow alleyway killzone and into the cover of a ruined wall.",
+      "On the sealed vent, {@ratsong|Ratsong} scurries up behind some crates to keep {@blessed-filth|Blessed Filth}'s flank covered.",
+      "With the battle now underway, {@deuteronomy|Deuteronomy} draws on the voices of the Psychoteric Choir and reaches into the dark, wrapping himself in a Perfect Void.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "deuteronomy",
+        "name": "Deuteronomy - Perfect Void",
+        "result": "Perfect Void manifested",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "Willpower 9 +1",
+          "dice": "1 3",
+          "result": "Manifests",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: +1 from Psychoteric Choir, for being within 3\" of two friendlies.<br/>Rules note: I got this wrong. Deuteronomy should have taken a Maintain (Single) action for the Continuous Effect to persist after his activation."
+         }
+        ]
+       }
+      },
+      "Cloaked in silence, he follows the advance towards the centre. Opposite, {@elijah-emberchoir|Elijah Emberchoir} strides forward into the central clearing, reciting a hymn of Redemption.",
+      "{@jellylorum|Jellylorum} follows the main Delaque advance, staying back to provide support. He notices {@blessed-filth|Blessed Filth} on the vent above and raises his lasgun.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "jellylorum",
+        "name": "Jellylorum - Lasgun",
+        "result": "Blessed Filth seriously injured",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "5",
+          "result": "Hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (4+)",
+          "dice": "6",
+          "result": "Wounds"
+         },
+         {
+          "label": "Save (6+ +1 cover)",
+          "dice": "2",
+          "result": "Takes one wound"
+         },
+         {
+          "label": "Injury",
+          "dice": "si",
+          "result": "Seriously Injured"
+         }
+        ]
+       }
+      },
+      "The las-bolt strikes true and the Psalm's sniper crumples. Not wanting to get caught in a shooting war with the Delaque, {@mordecai|Mordecai} rushes forward into the clearing. He drives his congregation on, calling on the faithful to keep pace.",
+      "{@rumpleteaser|Rumpleteaser} rushes forward into the cover of the wall around the still and hip-shoots his plasma gun at {@deus-and-amen|Deus}, just visible atop Amen as he strides through the ruins.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "rumpleteaser",
+        "name": "Rumpleteaser - Plasma Gun",
+        "result": "Missed, Out of Ammo",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "2 f1",
+          "result": "Missed",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "Ammo (6+)",
+          "dice": "5",
+          "result": "Out of Ammo",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: Rumpleteaser uses Hip-shooting to rush to the wall and fire on Deus."
+         }
+        ]
+       }
+      },
+      "The bolt flashes past {@deus-and-amen|Deus} and off into the dark, and the coils of the plasma gun fade to a dull glow. {@ezekiel-crows|Ezekiel Crows} rushes into the clearing, confident in the protection of the God-Emperor.",
+      "{@mistoffelees|Mistoffelees} follows {@skimbleshanks|Skimbleshanks}' lead and rushes into cover beside him. Finally, {@gutter-cantor|Gutter Cantor} follows his Word Keeper and takes his place at his side. Both gangs now stand within reach of the centre."
+     ],
+     "ports": [
+      {
+       "src": "images/1.2/photo-06.jpg",
+       "alt": "View out of the ruined tower, past a blurred Delaque fighter, to Cawdor fighters advancing from the foot of the stairs.",
+       "class": "port",
+       "caption": "Demeter covers the advance."
+      },
+      {
+       "src": "images/1.2/photo-07.jpg",
+       "alt": "Blessed Filth behind crates on the sealed vent, seen from ground level past a blurred Delaque fighter.",
+       "class": "port",
+       "caption": "Blessed Filth falls to Jellylorum's lasgun."
+      },
+      {
+       "src": "images/1.2/photo-08.jpg",
+       "alt": "Deus riding Amen, just visible over rubble beyond the still, aiming the heavy stubber.",
+       "class": "port",
+       "caption": "Deus riding Amen through the ruins."
+      }
+     ]
+    },
+    {
+     "endsHead": "Positions at the end of round 1"
+    },
+    {
+     "photo": {
+      "src": "images/1.2/photo-09.jpg",
+      "alt": "The table at the end of round 1, with Cawdor fighters on and around the sealed vent and Delaque fighters gathered behind the ruined wall.",
+      "caption": "Both gangs approach the still."
+     }
+    },
+    {
+     "map": {
+      "viewBox": "-14 -24 628 668",
+      "label": "Top-down map of the Cycle 1.2 table with terrain, both deployment edges and the 6 inch objective circle at the centre.",
+      "caption": {
+       "key": [
+        [
+         "s",
+         "S",
+         "Suppressed"
+        ],
+        [
+         "w",
+         "W",
+         "Wounded"
+        ],
+        [
+         "a",
+         "A",
+         "Out of ammo"
+        ],
+        [
+         "i",
+         "SI",
+         "Serious Injury"
+        ],
+        [
+         "v",
+         "V",
+         "Perfect Void"
+        ]
+       ]
+      },
+      "items": [
+       {
+        "board": "terrain"
+       },
+       {
+        "el": [
+         "text",
+         {
+          "class": "m-c",
+          "x": "532.5",
+          "y": "335"
+         },
+         "6\" from centre"
+        ]
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 430,
+         "y": 417.5,
+         "t": "Dm"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 335,
+         "y": 357.5,
+         "t": "S"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 310,
+         "y": 360,
+         "t": "Mi"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 260,
+         "y": 357.5,
+         "t": "De"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 237.5,
+         "y": 440,
+         "t": "J"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 225,
+         "y": 360,
+         "t": "Rt"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 203.75,
+         "y": 187.5,
+         "t": "M"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 220,
+         "y": 147.5,
+         "t": "G"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 287.5,
+         "y": 145,
+         "t": "El"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 245,
+         "y": 207.5,
+         "t": "Ez"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 105,
+         "y": 165,
+         "t": "R"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 172.5,
+         "y": 125,
+         "t": "B"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 365,
+         "y": 97.5,
+         "t": "DA",
+         "r": 19
+        }
+       },
+       {
+        "b": {
+         "k": "s",
+         "x": 446.2,
+         "y": 410.9,
+         "t": "S"
+        }
+       },
+       {
+        "b": {
+         "k": "a",
+         "x": 207.5,
+         "y": 361.2,
+         "t": "A"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 168.7,
+         "y": 107.9,
+         "t": "W"
+        }
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 184.3,
+         "y": 112.1,
+         "t": "SI"
+        }
+       },
+       {
+        "board": "ticks"
+       },
+       {
+        "b": {
+         "k": "v",
+         "x": 272.4,
+         "y": 348.7,
+         "t": "V"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "vp": "End phase: both gangs have fighters within 6\" of the centre, so the turf is still contested."
+    }
+   ]
+  },
+  {
+   "id": "round-2",
+   "no": "2",
+   "title": "Round 2: Eternal Slumber",
+   "blocks": [
+    {
+     "split": [
+      "tall"
+     ],
+     "text": [
+      "The Theatre are quicker off the mark. {@demeter|Demeter} is still pinned behind the iron bars of the tower and can't watch over the clearing, so {@rumpleteaser|Rumpleteaser} takes matters into his own hands. He slams a fresh cell into his plasma gun, leans out from the wall around the still and fires at {@ezekiel-crows|Ezekiel} as he crosses the clearing.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "rumpleteaser",
+        "name": "Rumpleteaser - Plasma Gun",
+        "result": "Ezekiel seriously injured, Out of Ammo",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "6 f2",
+          "result": "Two hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "2 3",
+          "result": "One wound"
+         },
+         {
+          "label": "Save (5+ +1 cover AP -2)",
+          "dice": "5",
+          "result": "Two wounds"
+         },
+         {
+          "label": "Injury",
+          "dice": "si si",
+          "result": "Seriously Injured"
+         },
+         {
+          "label": "Ammo (6+)",
+          "dice": "4",
+          "result": "Out of Ammo",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "The plasma bolt drops {@ezekiel-crows|Ezekiel} in the middle of the clearing, and seeing their champion fall shakes the Psalm.",
+      {
+       "roll": {
+        "name": "The Carrion Psalm - Nerve Checks",
+        "result": "Elijah and Gutter Cantor suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "Mordecai (Cool 8)",
+          "dice": "3 4",
+          "result": "Passes",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "Elijah (Cool 7)",
+          "dice": "4 6",
+          "result": "Suppressed",
+          "resultClass": "sup"
+         },
+         {
+          "label": "Gutter Cantor (Cool 6)",
+          "dice": "2 6",
+          "result": "Suppressed",
+          "resultClass": "sup"
+         },
+         {
+          "note": "Rules note: I got this wrong. Nerve tests should only be taken when a friendly fighter is taken Out of Action, not Seriously Injured, so these tests should not have happened."
+         }
+        ]
+       }
+      },
+      "{@mordecai|Mordecai} holds his nerve, but {@elijah-emberchoir|Elijah} and {@gutter-cantor|Gutter Cantor} hesitate and drop into cover. {@deus-and-amen|Deus} pushes Amen further into the ruins and rakes the wall around the still with stubber fire, but the rounds only chew into the stonework.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "deus",
+        "name": "Deus and Amen - Twin-linked Heavy Stubber",
+        "result": "Misses",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "3 f2 f2",
+          "result": "Misses",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: Bulging Biceps to move at Initiative and fire a heavy weapon."
+         }
+        ]
+       }
+      },
+      "{@skimbleshanks|Skimbleshanks} slips along to the next section of wall and opens fire on {@mordecai|Mordecai} with both pistols.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "growltiger",
+        "name": "Skimbleshanks - Pistols",
+        "result": "Misses and fails to wound",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "h6": "Flechette Pistol"
+         },
+         {
+          "label": "To Hit (4+)",
+          "dice": "5 f1",
+          "result": "One hit",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+ Toxin)",
+          "dice": "2",
+          "result": "Fails to wound",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "Nerves of Steel (Cool 8)",
+          "dice": "2 5",
+          "result": "Not suppressed",
+          "resultClass": "ammo"
+         },
+         {
+          "h6": "Autopistol"
+         },
+         {
+          "label": "To Hit (4+)",
+          "dice": "2 f2",
+          "result": "Misses",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "{@mordecai|Mordecai} barely flinches. {@elijah-emberchoir|Elijah} won't stay down any longer. Driven by Redemptionist zeal, he breaks from cover and charges at {@skimbleshanks|Skimbleshanks}.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "elijah",
+        "name": "Elijah Emberchoir - Charge",
+        "result": "1\" short!",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "Charge move (3+)",
+          "dice": "2",
+          "result": "1\" short!",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: Used the Adrenaline Surge tactic for an extra action, allowing him to charge from suppressed."
+         }
+        ]
+       }
+      },
+      "He stumbles to a halt an inch short of the Ghost, alone in the open, and {@demeter|Demeter} finally has a clear shot from the tower.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "demeter",
+        "name": "Demeter - Long Rifle",
+        "result": "Elijah takes a wound and is suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "To Hit (3+)",
+          "dice": "6",
+          "result": "Hits and Knockback",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "6",
+          "result": "Wounds"
+         },
+         {
+          "label": "Save (5+ AP -1)",
+          "dice": "2",
+          "result": "Takes one wound and Suppressed",
+          "resultClass": "sup"
+         }
+        ]
+       }
+      },
+      "In the middle of the clearing, {@ezekiel-crows|Ezekiel} crawls back towards {@gutter-cantor|Gutter Cantor}, who drags him into cover and gets him back on his feet.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "ezekiel",
+        "name": "Ezekiel Crows - Recovery",
+        "result": "Recovers",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "Recovery",
+          "dice": "fw si",
+          "result": "Recovers",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: +1 die from Gutter Cantor assisting."
+         }
+        ]
+       }
+      },
+      "{@jellylorum|Jellylorum} steps out from behind the Theatre's line and puts a las-bolt into {@elijah-emberchoir|Elijah}, but it glances off the Deacon's armour. The impact still forces him to keep his head down.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "jellylorum",
+        "name": "Jellylorum - Lasgun",
+        "result": "Elijah suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "5",
+          "result": "Hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (4+)",
+          "dice": "4",
+          "result": "Wounds"
+         },
+         {
+          "label": "Save (5+)",
+          "dice": "6",
+          "result": "Saved, Suppressed",
+          "resultClass": "sup"
+         }
+        ]
+       }
+      },
+      "Up on the sealed vent, {@ratsong|Ratsong} moves to the crates beside the fallen {@blessed-filth|Blessed Filth} and takes a shot at {@rumpleteaser|Rumpleteaser}, but the stub gun can't reach that far.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "ratsong",
+        "name": "Ratsong - Stub Gun",
+        "result": "Misses",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (5+)",
+          "dice": "3",
+          "result": "Misses",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "{@deuteronomy|Deuteronomy} keeps the Perfect Void wrapped around him.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "deuteronomy",
+        "name": "Deuteronomy - Maintain Power",
+        "result": "Rolled 10, passes",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "Willpower 9 +1",
+          "dice": "",
+          "result": "Rolled 10, passes",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: +1 Willpower from Psychoteric Choir."
+         }
+        ]
+       }
+      },
+      "He walks calmly towards the wounded Deacon and raises his flechette pistol.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "deuteronomy",
+        "name": "Deuteronomy - Flechette Pistol",
+        "result": "Elijah seriously injured",
+        "rows": [
+         {
+          "label": "To Hit (3+)",
+          "dice": "6 f3",
+          "result": "Three hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+ Toxin)",
+          "dice": "4 4 6",
+          "result": "Three wounds"
+         },
+         {
+          "label": "Save (5+ AP -1)",
+          "dice": "1 2 6",
+          "result": "1 saved",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "Injury",
+          "dice": "fw si",
+          "result": "Seriously Injured"
+         },
+         {
+          "note": "Note: Battlefield effect increases the AP of Toxin weapons by 1."
+         }
+        ]
+       }
+      },
+      "The poisoned needles find the gaps in {@elijah-emberchoir|Elijah}'s armour and he collapses. Up on the vent, {@ratsong|Ratsong} tries to get {@blessed-filth|Blessed Filth} back on his feet, but the sniper is too badly hurt.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "filth",
+        "name": "Blessed Filth - Recovery",
+        "result": "Still seriously injured",
+        "rows": [
+         {
+          "label": "Recovery",
+          "dice": "si si ooa",
+          "result": "Still Seriously Injured"
+         },
+         {
+          "note": "Note: +1 die from the Tend Wounds action, +1 die from Ratsong assisting."
+         }
+        ]
+       }
+      },
+      "{@mistoffelees|Mistoffelees} creeps up to the fallen Deacon, kneels beside him and whispers. {@elijah-emberchoir|Elijah} slips into an Eternal Slumber, out of the fight.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "mistoffelees",
+        "name": "Mistoffelees - Eternal Slumber",
+        "result": "Elijah out of action",
+        "rows": [
+         {
+          "label": "Willpower 7 +1",
+          "dice": "2 6",
+          "result": "Elijah Out of Action (Grievous Wound)"
+         },
+         {
+          "note": "Note: +1 Willpower from Psychoteric Choir."
+         }
+        ]
+       }
+      },
+      "{@gutter-cantor|Gutter Cantor} shakes off his fear and tends to {@ezekiel-crows|Ezekiel}'s wounds.",
+      "{@mordecai|Mordecai} has watched his Deacon fall. He strides forward and fires on {@skimbleshanks|Skimbleshanks}, still standing by the wall where {@elijah-emberchoir|Elijah} fell short, and the Ghost goes down.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "mordecai",
+        "name": "Mordecai - Autopistol",
+        "result": "Skimbleshanks seriously injured",
+        "rows": [
+         {
+          "label": "To Hit (3+)",
+          "dice": "3 f1",
+          "result": "One hit",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (4+)",
+          "dice": "5",
+          "result": "Wounds"
+         },
+         {
+          "label": "Save (6+)",
+          "dice": "1",
+          "result": "Takes one wound"
+         },
+         {
+          "label": "Injury",
+          "dice": "si",
+          "result": "Serious Injury"
+         }
+        ]
+       }
+      }
+     ],
+     "ports": [
+      {
+       "src": "images/1.2/photo-10.jpg",
+       "alt": "Ezekiel Crows lying fallen at the foot of the stairs, with Gutter Cantor standing beside him and Mordecai to the right.",
+       "class": "port",
+       "caption": "Ezekiel down, with Gutter Cantor close by."
+      }
+     ]
+    },
+    {
+     "photo": {
+      "src": "images/1.2/photo-11.jpg",
+      "alt": "Elijah lying fallen on the deck plates, with Mistoffelees reaching out towards him and Skimbleshanks raising his pistols nearby.",
+      "caption": "Mistoffelees and Skimbleshanks over the fallen Elijah."
+     }
+    },
+    {
+     "endsHead": "Positions at the end of round 2"
+    },
+    {
+     "map": {
+      "viewBox": "-14 -24 628 668",
+      "label": "Top-down map of the Cycle 1.2 table with terrain, both deployment edges and the 6 inch objective circle at the centre.",
+      "caption": {
+       "key": [
+        [
+         "w",
+         "W",
+         "Wounded"
+        ],
+        [
+         "a",
+         "A",
+         "Out of ammo"
+        ],
+        [
+         "i",
+         "SI",
+         "Serious Injury"
+        ],
+        [
+         "ooa",
+         "💀",
+         "Out of Action"
+        ],
+        [
+         "v",
+         "V",
+         "Perfect Void"
+        ]
+       ]
+      },
+      "items": [
+       {
+        "board": "terrain"
+       },
+       {
+        "el": [
+         "text",
+         {
+          "class": "m-c",
+          "x": "532.5",
+          "y": "335"
+         },
+         "6\" from centre"
+        ]
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 435,
+         "y": 407.5,
+         "t": "Dm"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 408.75,
+         "y": 300,
+         "t": "S"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 367.5,
+         "y": 332.5,
+         "t": "Mi"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 347.5,
+         "y": 390,
+         "t": "De"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 337.5,
+         "y": 436.25,
+         "t": "J"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 236.25,
+         "y": 357.5,
+         "t": "Rt"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 300,
+         "y": 220,
+         "t": "M"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 222.5,
+         "y": 155,
+         "t": "G"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 252.5,
+         "y": 165,
+         "t": "Ez"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 162.5,
+         "y": 152.5,
+         "t": "R"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 172.5,
+         "y": 125,
+         "t": "B"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 367.5,
+         "y": 160,
+         "t": "DA",
+         "r": 19
+        }
+       },
+       {
+        "ooa": [
+         385,
+         264.5
+        ]
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 415.9,
+         "y": 284.0,
+         "t": "W"
+        }
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 425.9,
+         "y": 296.7,
+         "t": "SI"
+        }
+       },
+       {
+        "b": {
+         "k": "a",
+         "x": 252.5,
+         "y": 350.9,
+         "t": "A"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 269.1,
+         "y": 170.5,
+         "t": "W"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 168.7,
+         "y": 107.9,
+         "t": "W"
+        }
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 184.3,
+         "y": 112.1,
+         "t": "SI"
+        }
+       },
+       {
+        "board": "ticks"
+       },
+       {
+        "b": {
+         "k": "v",
+         "x": 359.9,
+         "y": 381.2,
+         "t": "V"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "vp": "End phase: both gangs have fighters within 6\" of the centre, so the turf is still contested."
+    },
+    {
+     "roll": {
+      "name": "The Carrion Psalm - Bottle Check",
+      "result": "The Psalm bottle, Blessed Filth flees",
+      "rows": [
+       {
+        "label": "Mordecai (Leadership 8)",
+        "dice": "5 4",
+        "result": "Bottle!"
+       },
+       {
+        "note": "Blessed Filth flees. He later recovers and does not succumb to his wounds."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "round-3",
+   "no": "3",
+   "title": "Round 3: Settling the score",
+   "blocks": [
+    {
+     "split": [
+      "tall"
+     ],
+     "text": [
+      "Shaken but not broken, the Psalm act first. {@deus-and-amen|Deus} drives Amen on through the ruins and sprays stubber fire at {@mistoffelees|Mistoffelees}. Up in the tower, {@demeter|Demeter} holds his fire, waiting for a better target.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "deus",
+        "name": "Deus and Amen - Twin-linked Heavy Stubber",
+        "result": "Misses",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "3 f2 f3",
+          "result": "Misses",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: Bulging Biceps to move at Initiative and fire a heavy weapon."
+         }
+        ]
+       }
+      },
+      "{@rumpleteaser|Rumpleteaser} gets his plasma gun working again and takes another shot at {@ezekiel-crows|Ezekiel}, but it goes wide and the gun runs dry once more.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "rumpleteaser",
+        "name": "Rumpleteaser - Plasma Gun",
+        "result": "Misses, Out of Ammo",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "2 f3",
+          "result": "Misses",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "Ammo (6+)",
+          "dice": "5",
+          "result": "Out of Ammo",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "{@mordecai|Mordecai} sees {@skimbleshanks|Skimbleshanks} lying at the foot of the wall and charges across the open ground to finish him. It's the moment {@demeter|Demeter} has been waiting for, and he fires on Overwatch.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "demeter",
+        "name": "Demeter - Overwatch",
+        "result": "Mordecai not suppressed",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (3+)",
+          "dice": "6",
+          "result": "Hits with Knockback",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "2",
+          "result": "Fails to wound",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "Nerves of Steel (Cool 8)",
+          "dice": "6 1",
+          "result": "Not suppressed",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: Mordecai was not suppressed, did not take a wound and did not roll an Injury die, so his activation is not interrupted."
+         }
+        ]
+       }
+      },
+      "The round hits {@mordecai|Mordecai} and knocks him back a step, but it doesn't stop him.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "mordecai",
+        "name": "Mordecai - Charge",
+        "result": "Charge makes it in",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "Charge move (2+)",
+          "dice": "5",
+          "result": "Charge makes it in",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "He reaches {@skimbleshanks|Skimbleshanks}, stands over him and raises his chainglaive.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "mordecai",
+        "name": "Mordecai - Coup de Grace",
+        "result": "Skimbleshanks out of action",
+        "rows": [
+         {
+          "label": "Mordecai (Str 3)",
+          "dice": "2",
+          "result": "",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "Skimbleshanks (Str 3)",
+          "dice": "2",
+          "result": "Skimbleshanks out of action"
+         },
+         {
+          "note": "Note: Skimbleshanks is later captured."
+         }
+        ]
+       }
+      },
+      "He brings it down, and the Ghost won't get up again. Seeing one of their own executed shakes the Delaque, and {@mistoffelees|Mistoffelees} freezes.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "mistoffelees",
+        "name": "Mistoffelees - Nerve Test",
+        "result": "Mistoffelees suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "Cool 6",
+          "dice": "3 5",
+          "result": "Suppressed",
+          "resultClass": "sup"
+         }
+        ]
+       }
+      },
+      "{@deuteronomy|Deuteronomy} keeps the Perfect Void in place and charges {@mordecai|Mordecai}, his shock stave crackling.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "deuteronomy",
+        "name": "Deuteronomy - Maintain Power",
+        "result": "Maintains",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "Willpower 9",
+          "dice": "1 6",
+          "result": "Maintains",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      {
+       "roll": {
+        "side": "t",
+        "face": "deuteronomy",
+        "name": "Deuteronomy - Shock Stave",
+        "result": "Mordecai takes a wound",
+        "rows": [
+         {
+          "note": "Initiative 4 +2 charge bonus"
+         },
+         {
+          "h6": "Shock Stave"
+         },
+         {
+          "label": "To Hit (3+)",
+          "dice": "1 6 2 5",
+          "result": "Two hits, auto wound",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "Save (5+ +1 Parry)",
+          "dice": "6 2",
+          "result": "One saved, takes a wound"
+         },
+         {
+          "h6": "Web Gauntlet (secondary)"
+         },
+         {
+          "label": "To Hit (3+)",
+          "dice": "5",
+          "result": "Hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (4+)",
+          "dice": "2",
+          "result": "Fails to wound",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      {
+       "roll": {
+        "side": "p",
+        "face": "mordecai",
+        "name": "Mordecai - Chainglaive",
+        "result": "Misses",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "note": "Initiative 1"
+         },
+         {
+          "h6": "Chainglaive"
+         },
+         {
+          "label": "To Hit (3+)",
+          "dice": "1",
+          "result": "Misses",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "Back on his feet, {@ezekiel-crows|Ezekiel} advances across the clearing and empties his autopistol at {@rumpleteaser|Rumpleteaser} behind the wall.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "ezekiel",
+        "name": "Ezekiel - Autopistol",
+        "result": "Rumpleteaser takes a wound and is suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "To Hit (3+)",
+          "dice": "6 f3",
+          "result": "Three hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (4+)",
+          "dice": "6 4 3",
+          "result": "Two wounds"
+         },
+         {
+          "label": "Save (6+ +1 cover)",
+          "dice": "5 3",
+          "result": "One wound caused"
+         },
+         {
+          "label": "Injury",
+          "dice": "fw",
+          "result": "Suppressed",
+          "resultClass": "sup"
+         }
+        ]
+       }
+      },
+      "{@jellylorum|Jellylorum} takes careful aim at {@ratsong|Ratsong} up on the vent.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "jellylorum",
+        "name": "Jellylorum - Lasgun",
+        "result": "Misses",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (4+ +1 aimed shot)",
+          "dice": "2",
+          "result": "Misses",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "{@gutter-cantor|Gutter Cantor} follows close behind {@ezekiel-crows|Ezekiel} and binds another of his wounds.",
+      "Still shaken, {@mistoffelees|Mistoffelees} slips back into cover.",
+      "{@ratsong|Ratsong} ducks back behind the crates."
+     ],
+     "ports": [
+      {
+       "src": "images/1.2/photo-12.jpg",
+       "alt": "Mordecai standing over the fallen Skimbleshanks with his chainglaive.",
+       "class": "port",
+       "caption": "Mordecai stands over Skimbleshanks."
+      }
+     ]
+    },
+    {
+     "endsHead": "Positions at the end of round 3"
+    },
+    {
+     "map": {
+      "viewBox": "-14 -24 628 668",
+      "label": "Top-down map of the Cycle 1.2 table with terrain, both deployment edges and the 6 inch objective circle at the centre.",
+      "caption": {
+       "key": [
+        [
+         "s",
+         "S",
+         "Suppressed"
+        ],
+        [
+         "w",
+         "W",
+         "Wounded"
+        ],
+        [
+         "a",
+         "A",
+         "Out of ammo"
+        ],
+        [
+         "i",
+         "I",
+         "Injured, 0 wounds"
+        ],
+        [
+         "ooa",
+         "💀",
+         "Out of Action"
+        ],
+        [
+         "v",
+         "V",
+         "Perfect Void"
+        ]
+       ]
+      },
+      "items": [
+       {
+        "board": "terrain"
+       },
+       {
+        "el": [
+         "text",
+         {
+          "class": "m-c",
+          "x": "532.5",
+          "y": "335"
+         },
+         "6\" from centre"
+        ]
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 437.5,
+         "y": 407.5,
+         "t": "Dm"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 327.5,
+         "y": 357.5,
+         "t": "Mi"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 390,
+         "y": 325,
+         "t": "De"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 332.5,
+         "y": 440,
+         "t": "J"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 231.25,
+         "y": 357.5,
+         "t": "Rt"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 405,
+         "y": 300,
+         "t": "M"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 220,
+         "y": 250,
+         "t": "G"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 218.75,
+         "y": 282.5,
+         "t": "Ez"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 101.25,
+         "y": 156.25,
+         "t": "R"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 370,
+         "y": 227.5,
+         "t": "DA",
+         "r": 19
+        }
+       },
+       {
+        "ooa": [
+         427.5,
+         312
+        ]
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 235.2,
+         "y": 340.4,
+         "t": "I"
+        }
+       },
+       {
+        "b": {
+         "k": "s",
+         "x": 247.5,
+         "y": 350.9,
+         "t": "S"
+        }
+       },
+       {
+        "b": {
+         "k": "a",
+         "x": 245.9,
+         "y": 367.0,
+         "t": "A"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 414.0,
+         "y": 285.0,
+         "t": "W"
+        }
+       },
+       {
+        "board": "ticks"
+       },
+       {
+        "b": {
+         "k": "v",
+         "x": 402.4,
+         "y": 316.2,
+         "t": "V"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "vp": "End phase: both gangs have fighters within 6\" of the centre, so the turf is still contested."
+    },
+    {
+     "roll": {
+      "name": "The Midnight Theatre - Bottle Check",
+      "result": "The Theatre hold",
+      "resultClass": "ammo",
+      "rows": [
+       {
+        "label": "Deuteronomy (Leadership 8)",
+        "dice": "6 1",
+        "result": "Passes",
+        "resultClass": "ammo"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "round-4",
+   "no": "4",
+   "title": "Round 4: Glaive and stave",
+   "blocks": [
+    {
+     "split": [
+      "tall"
+     ],
+     "text": [
+      "The Delaque move first, but {@rumpleteaser|Rumpleteaser}'s plasma gun is empty and he's wounded, so he falls back behind the wall rather than waste the turn.",
+      "In the middle of the clearing, {@mordecai|Mordecai} and {@deuteronomy|Deuteronomy} are still locked in combat. Mordecai swings his chainglaive.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "deuteronomy",
+        "name": "Deuteronomy - Reaction: Web Gauntlet",
+        "result": "Misses",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "note": "Initiative 4"
+         },
+         {
+          "h6": "Reaction: Web Gauntlet"
+         },
+         {
+          "label": "To Hit (3+)",
+          "dice": "2",
+          "result": "Misses",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      {
+       "roll": {
+        "side": "t",
+        "face": "deuteronomy",
+        "name": "Deuteronomy - Counter-attack: Shock Stave",
+        "result": "Misses",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "note": "Initiative 1"
+         },
+         {
+          "h6": "Counter-attack: Shock Stave"
+         },
+         {
+          "label": "To Hit (3+)",
+          "dice": "2",
+          "result": "Misses",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      {
+       "roll": {
+        "side": "p",
+        "face": "mordecai",
+        "name": "Mordecai - Chainglaive",
+        "result": "Deuteronomy takes a wound",
+        "rows": [
+         {
+          "note": "Initiative 1"
+         },
+         {
+          "h6": "Chainglaive"
+         },
+         {
+          "label": "To Hit (3+)",
+          "dice": "4 5",
+          "result": "Two hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "1 3",
+          "result": "One wound"
+         },
+         {
+          "label": "Save (5+ AP -1)",
+          "dice": "1",
+          "result": "Takes one wound"
+         }
+        ]
+       }
+      },
+      "The chainglaive finally bites into {@deuteronomy|Deuteronomy}. Behind the wall, {@jellylorum|Jellylorum} reaches {@rumpleteaser|Rumpleteaser} and patches up his wound.",
+      "{@deus-and-amen|Deus} swings Amen round towards the tower to fire on {@demeter|Demeter}, but the sniper has been watching him.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "demeter",
+        "name": "Demeter - Overwatch",
+        "result": "Deus and Amen take a wound and are suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "To Hit (3+)",
+          "dice": "6",
+          "result": "Hits with Knockback",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (4+)",
+          "dice": "5",
+          "result": "Wounds"
+         },
+         {
+          "label": "Save (6+ AP -1)",
+          "dice": "",
+          "result": "One wound caused, Suppressed and activation interrupted",
+          "resultClass": "sup"
+         },
+         {
+          "note": "Note: Overwatch finishes Deus and Amen's activation."
+         }
+        ]
+       }
+      },
+      "{@demeter|Demeter}'s shot hits the Stig-Shambler before he can fire, and {@deus-and-amen|Amen} staggers to a halt. {@deuteronomy|Deuteronomy} keeps the Perfect Void in place.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "deuteronomy",
+        "name": "Deuteronomy - Maintain Power",
+        "result": "Maintained",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "Willpower 9",
+          "dice": "4 4",
+          "result": "Maintained",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "Then he strikes back at {@mordecai|Mordecai}.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "deuteronomy",
+        "name": "Deuteronomy - Shock Stave",
+        "result": "Mordecai takes a wound",
+        "rows": [
+         {
+          "note": "Initiative 4"
+         },
+         {
+          "h6": "Shock Stave"
+         },
+         {
+          "label": "To Hit (3+)",
+          "dice": "2 3 5",
+          "result": "Two hits, one auto wound",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "5",
+          "result": "Two wounds"
+         },
+         {
+          "label": "Save (5+ +1 Parry)",
+          "dice": "3 6",
+          "result": "Causes one wound"
+         },
+         {
+          "h6": "Web Gauntlet (secondary)"
+         },
+         {
+          "label": "To Hit (3+)",
+          "dice": "1",
+          "result": "Misses",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      {
+       "roll": {
+        "side": "p",
+        "face": "mordecai",
+        "name": "Mordecai - Chainglaive",
+        "result": "Deuteronomy takes a wound",
+        "rows": [
+         {
+          "note": "Initiative 1"
+         },
+         {
+          "h6": "Chainglaive"
+         },
+         {
+          "label": "To Hit (3+)",
+          "dice": "6",
+          "result": "One hit",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "6",
+          "result": "One wound"
+         },
+         {
+          "label": "Save (5+ AP -1)",
+          "dice": "2",
+          "result": "Takes one wound"
+         }
+        ]
+       }
+      },
+      "{@ezekiel-crows|Ezekiel} pushes forward and fires at {@rumpleteaser|Rumpleteaser} again, undoing {@jellylorum|Jellylorum}'s work.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "ezekiel",
+        "name": "Ezekiel - Autopistol",
+        "result": "Rumpleteaser injured and suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "To Hit (3+)",
+          "dice": "6 f2",
+          "result": "Two hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (4+)",
+          "dice": "5 6",
+          "result": "Two wounds"
+         },
+         {
+          "label": "Save (6+ +1 cover)",
+          "dice": "2 5",
+          "result": "One wound"
+         },
+         {
+          "label": "Injury",
+          "dice": "fw",
+          "result": "Injured and Suppressed",
+          "resultClass": "sup"
+         }
+        ]
+       }
+      },
+      "{@mistoffelees|Mistoffelees} leans out of cover and takes an aimed shot at {@ezekiel-crows|Ezekiel}.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "mistoffelees",
+        "name": "Mistoffelees - Stub Gun",
+        "result": "Misses",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "2",
+          "result": "Misses",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "{@gutter-cantor|Gutter Cantor} moves up beside {@ezekiel-crows|Ezekiel} and fires back at {@mistoffelees|Mistoffelees}.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "cantor",
+        "name": "Gutter Cantor - Polearm/Autogun",
+        "result": "Misses",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "1 f3",
+          "result": "Misses",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "{@ratsong|Ratsong} stays behind the crates on the vent, out of sight."
+     ],
+     "ports": [
+      {
+       "src": "images/1.2/photo-13.jpg",
+       "alt": "Deus and Amen seen through the window of the ruined tower, past a blurred Delaque fighter.",
+       "class": "port",
+       "caption": "Demeter stops Amen in his tracks."
+      }
+     ]
+    },
+    {
+     "photo": {
+      "src": "images/1.2/photo-14.jpg",
+      "alt": "The table during round 4, with Mordecai and Deuteronomy locked in combat beside the rubble and Delaque fighters in and around the ruined tower.",
+      "caption": "Mordecai and Deuteronomy locked in combat."
+     }
+    },
+    {
+     "endsHead": "Positions at the end of round 4"
+    },
+    {
+     "map": {
+      "viewBox": "-14 -24 628 668",
+      "label": "Top-down map of the Cycle 1.2 table with terrain, both deployment edges and the 6 inch objective circle at the centre.",
+      "caption": {
+       "key": [
+        [
+         "s",
+         "S",
+         "Suppressed"
+        ],
+        [
+         "w",
+         "W",
+         "Wounded"
+        ],
+        [
+         "w",
+         "W2",
+         "Wounded, number shows wounds taken"
+        ],
+        [
+         "a",
+         "A",
+         "Out of ammo"
+        ],
+        [
+         "i",
+         "I",
+         "Injured, 0 wounds"
+        ],
+        [
+         "v",
+         "V",
+         "Perfect Void"
+        ]
+       ]
+      },
+      "items": [
+       {
+        "board": "terrain"
+       },
+       {
+        "el": [
+         "text",
+         {
+          "class": "m-c",
+          "x": "532.5",
+          "y": "335"
+         },
+         "6\" from centre"
+        ]
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 430,
+         "y": 406.25,
+         "t": "Dm"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 320,
+         "y": 358.75,
+         "t": "Mi"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 410,
+         "y": 325,
+         "t": "De"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 265,
+         "y": 437.5,
+         "t": "J"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 236.25,
+         "y": 437.5,
+         "t": "Rt"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 405,
+         "y": 297.5,
+         "t": "M"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 213.75,
+         "y": 357.5,
+         "t": "G"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 207.5,
+         "y": 390,
+         "t": "Ez"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 102.5,
+         "y": 148.75,
+         "t": "R"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 365,
+         "y": 182.5,
+         "t": "DA",
+         "r": 19
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 413.1,
+         "y": 342.2,
+         "t": "W2"
+        }
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 226.2,
+         "y": 451.8,
+         "t": "I"
+        }
+       },
+       {
+        "b": {
+         "k": "s",
+         "x": 218.7,
+         "y": 437.5,
+         "t": "S"
+        }
+       },
+       {
+        "b": {
+         "k": "a",
+         "x": 226.2,
+         "y": 423.2,
+         "t": "A"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 401.9,
+         "y": 280.3,
+         "t": "W2"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 380.6,
+         "y": 164.3,
+         "t": "W"
+        }
+       },
+       {
+        "b": {
+         "k": "s",
+         "x": 388.9,
+         "y": 184.8,
+         "t": "S"
+        }
+       },
+       {
+        "board": "ticks"
+       },
+       {
+        "b": {
+         "k": "v",
+         "x": 422.4,
+         "y": 316.2,
+         "t": "V"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "vp": "End phase: both gangs have fighters within 6\" of the centre, so the turf is still contested."
+    }
+   ]
+  },
+  {
+   "id": "round-5",
+   "no": "5",
+   "title": "Round 5: Mordecai's gamble",
+   "blocks": [
+    {
+     "text": [
+      "The Psalm strike first. {@deuteronomy|Deuteronomy} is quicker, and both men know it, but {@mordecai|Mordecai} has no choice: the Delaque leader has to fall. He swings his chainglaive.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "deuteronomy",
+        "name": "Deuteronomy - Reaction: Web Gauntlet",
+        "result": "Mordecai webbed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "note": "Initiative 4"
+         },
+         {
+          "h6": "Reaction: Web Gauntlet"
+         },
+         {
+          "label": "To Hit (3+)",
+          "dice": "6",
+          "result": "One hit",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (4+)",
+          "dice": "6",
+          "result": "Mordecai webbed",
+          "resultClass": "sup"
+         },
+         {
+          "note": "Note: Mordecai is subject to the Webbed condition: he cannot move and suffers -1 to all hit rolls."
+         }
+        ]
+       }
+      },
+      {
+       "roll": {
+        "side": "t",
+        "face": "deuteronomy",
+        "name": "Deuteronomy - Counter-attack: Shock Stave",
+        "result": "Fails to wound",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "note": "Initiative 1"
+         },
+         {
+          "h6": "Counter-attack: Shock Stave"
+         },
+         {
+          "label": "To Hit (3+)",
+          "dice": "3",
+          "result": "Hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "2",
+          "result": "Fails to wound",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      {
+       "roll": {
+        "side": "p",
+        "face": "mordecai",
+        "name": "Mordecai - Chainglaive",
+        "result": "Deuteronomy seriously injured",
+        "rows": [
+         {
+          "note": "Initiative 1"
+         },
+         {
+          "h6": "Chainglaive"
+         },
+         {
+          "label": "To Hit (3+, -1 Webbed)",
+          "dice": "3 4",
+          "result": "One hit",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "3",
+          "result": "One wound"
+         },
+         {
+          "label": "Injury",
+          "dice": "si si",
+          "result": "Seriously Injured"
+         },
+         {
+          "note": "Note: The chainglaive is Lethality 2."
+         }
+        ]
+       }
+      },
+      {
+       "roll": {
+        "side": "p",
+        "face": "mordecai",
+        "name": "Mordecai - Webbed",
+        "result": "Fails to break free",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "Strength 3",
+          "dice": "2",
+          "result": "Fails to break free",
+          "resultClass": "sup"
+         }
+        ]
+       }
+      },
+      "{@deuteronomy|Deuteronomy}'s web gauntlet snares {@mordecai|Mordecai} in sticky strands, but even webbed, his swing finds its mark. The glaive cuts through Deuteronomy's coat and the Master of Shadow collapses in the clearing. {@rumpleteaser|Rumpleteaser} falls back again, still unable to reload.",
+      "{@ezekiel-crows|Ezekiel} spots {@jellylorum|Jellylorum} on his own and charges him.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "ezekiel",
+        "name": "Ezekiel Crows - Charge",
+        "result": "Fails to wound, fails to hit",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "note": "Initiative 3 +2 charge bonus"
+         },
+         {
+          "h6": "Autopistol"
+         },
+         {
+          "label": "To Hit (3+)",
+          "dice": "4",
+          "result": "Hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (4+)",
+          "dice": "3",
+          "result": "Fails to wound",
+          "resultClass": "ammo"
+         },
+         {
+          "h6": "Cleaver"
+         },
+         {
+          "label": "To Hit (3+)",
+          "dice": "1 2 1",
+          "result": "Fails to hit!",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "Every swing of the cleaver misses. {@jellylorum|Jellylorum} steps inside his reach and hits him with his bare hands.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "jellylorum",
+        "name": "Jellylorum - Unarmed",
+        "result": "Ezekiel takes a wound",
+        "rows": [
+         {
+          "note": "Initiative 4"
+         },
+         {
+          "h6": "Unarmed"
+         },
+         {
+          "label": "To Hit (4+)",
+          "dice": "6",
+          "result": "Hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (4+)",
+          "dice": "6",
+          "result": "Wounds"
+         },
+         {
+          "label": "Save (5+)",
+          "dice": "2",
+          "result": "Causes one wound"
+         }
+        ]
+       }
+      },
+      "{@mistoffelees|Mistoffelees} fires at {@mordecai|Mordecai}, then slips back into the shadows.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "mistoffelees",
+        "name": "Mistoffelees - Stub Gun",
+        "result": "Misses",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (5+)",
+          "dice": "3",
+          "result": "Misses",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "{@deus-and-amen|Deus} pushes Amen forward and fires at {@demeter|Demeter} in the tower.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "deus",
+        "name": "Deus and Amen - Twin-linked Heavy Stubber",
+        "result": "Miss",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "2 f2 f2",
+          "result": "Miss",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: Bulging Biceps to move at Initiative and fire a heavy weapon. Twin-linked to re-roll the Rapid Fire dice."
+         }
+        ]
+       }
+      },
+      "{@demeter|Demeter} takes an aimed shot at {@mordecai|Mordecai}, a chance to take down the Psalm's leader in return.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "demeter",
+        "name": "Demeter - Long Rifle",
+        "result": "Misses!",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (2+)",
+          "dice": "1",
+          "result": "Misses!",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "{@gutter-cantor|Gutter Cantor} takes aim at {@mistoffelees|Mistoffelees}.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "cantor",
+        "name": "Gutter Cantor - Polearm/Autogun",
+        "result": "Mistoffelees suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "To Hit (3+)",
+          "dice": "4 f1",
+          "result": "One hit",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (4+)",
+          "dice": "1",
+          "result": "Suppressed",
+          "resultClass": "sup"
+         }
+        ]
+       }
+      },
+      "Still held fast by the webbing, {@mordecai|Mordecai} cannot follow up, and {@deuteronomy|Deuteronomy} crawls away from him towards {@jellylorum|Jellylorum}. His wounds are too deep, and he passes out before he gets there. It's a lesson he won't forget.",
+      "{@ratsong|Ratsong} stays safe on the vent, and {@jellylorum|Jellylorum} slips back into the dark. When the smoke clears, only the Psalm are left standing in the clearing around the still."
+     ]
+    },
+    {
+     "endsHead": "Positions at the end of round 5"
+    },
+    {
+     "ends": [
+      {
+       "src": "images/1.2/photo-15.jpg",
+       "alt": "The table at the end of round 5, with Cawdor fighters holding the centre and the Out of Action models waiting at the table edge.",
+       "caption": "The Psalm hold the centre, with the fallen at the table edge."
+      },
+      {
+       "src": "images/1.2/photo-16.jpg",
+       "alt": "Looking down on the centre of the table, with Delaque fighters pulled back to the ruined tower and the containers.",
+       "caption": "The Theatre pull back to the tower and the containers."
+      }
+     ]
+    },
+    {
+     "map": {
+      "viewBox": "-14 -24 628 668",
+      "label": "Top-down map of the Cycle 1.2 table with terrain, both deployment edges and the 6 inch objective circle at the centre.",
+      "caption": {
+       "key": [
+        [
+         "s",
+         "S",
+         "Suppressed"
+        ],
+        [
+         "w",
+         "W",
+         "Wounded"
+        ],
+        [
+         "w",
+         "W2",
+         "Wounded, number shows wounds taken"
+        ],
+        [
+         "a",
+         "A",
+         "Out of ammo"
+        ],
+        [
+         "i",
+         "I",
+         "Injured, 0 wounds"
+        ],
+        [
+         "ooa",
+         "💀",
+         "Out of Action"
+        ]
+       ]
+      },
+      "items": [
+       {
+        "board": "terrain"
+       },
+       {
+        "el": [
+         "text",
+         {
+          "class": "m-c",
+          "x": "300",
+          "y": "215"
+         },
+         "6\" from centre"
+        ]
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 436.25,
+         "y": 407.5,
+         "t": "Dm"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 341.25,
+         "y": 482.5,
+         "t": "Mi"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 352.5,
+         "y": 455,
+         "t": "J"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 126.25,
+         "y": 507.5,
+         "t": "Rt"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 405,
+         "y": 297.5,
+         "t": "M"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 205,
+         "y": 362.5,
+         "t": "G"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 237.5,
+         "y": 440,
+         "t": "Ez"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 101.25,
+         "y": 152.5,
+         "t": "R"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 372.5,
+         "y": 260,
+         "t": "DA",
+         "r": 19
+        }
+       },
+       {
+        "ooa": [
+         350,
+         407
+        ]
+       },
+       {
+        "b": {
+         "k": "s",
+         "x": 334.6,
+         "y": 498.7,
+         "t": "S"
+        }
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 137.6,
+         "y": 494.2,
+         "t": "I"
+        }
+       },
+       {
+        "b": {
+         "k": "a",
+         "x": 143.7,
+         "y": 509.2,
+         "t": "A"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 421.2,
+         "y": 290.9,
+         "t": "W2"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 253.7,
+         "y": 433.4,
+         "t": "W"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 394.8,
+         "y": 251.0,
+         "t": "W"
+        }
+       },
+       {
+        "board": "ticks"
+       }
+      ]
+     }
+    },
+    {
+     "vp": "End phase: only the Psalm have fighters within 6\" of the centre. <b>The Carrion Psalm win.</b>"
+    },
+    {
+     "roll": {
+      "name": "The Midnight Theatre - Bottle Check",
+      "result": "The Theatre hold",
+      "resultClass": "ammo",
+      "rows": [
+       {
+        "label": "Demeter (Leadership 7)",
+        "dice": "1 3",
+        "result": "Holds",
+        "resultClass": "ammo"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "aftermath": [
+  {
+   "result": "{p:The Carrion Psalm} take the Synth Still"
+  },
+  {
+   "prose": [
+    "The Delaque slip back into the ruins, dragging {@deuteronomy|Deuteronomy} with them, and the Banewaters belong to the Psalm. Old Deuteronomy has lived many lives, and this won't be his last. He recovers, but losing to the Word Keeper is a lesson he won't forget. {@skimbleshanks|Skimbleshanks} isn't so lucky. The Psalm carry him away from the clearing, and he is executed. On the Psalm's side, {@blessed-filth|Blessed Filth} makes a full recovery, but {@elijah-emberchoir|Elijah} is left with a Grievous Wound from the poisoned needles and the Eternal Slumber."
+   ]
+  },
+  {
+   "table": {
+    "label": "Post-battle ledger",
+    "class": "ledger",
+    "head": [
+     {
+      "html": "Gang"
+     },
+     {
+      "html": "Territory"
+     },
+     {
+      "html": "Side quest"
+     },
+     {
+      "html": "Casualties"
+     },
+     {
+      "html": "Credits",
+      "class": "num"
+     },
+     {
+      "html": "Reputation",
+      "class": "num"
+     }
+    ],
+    "rows": [
+     {
+      "cells": [
+       {
+        "html": "The Carrion Psalm",
+        "class": "p"
+       },
+       {
+        "html": "Synth Still"
+       },
+       {
+        "html": "Settle a Score: completed"
+       },
+       {
+        "html": "Elijah: Grievous Wound<br/>Blessed Filth: recovers"
+       },
+       {
+        "html": "+70",
+        "class": "num"
+       },
+       {
+        "html": "+1",
+        "class": "num"
+       }
+      ]
+     },
+     {
+      "cells": [
+       {
+        "html": "The Midnight Theatre",
+        "class": "t"
+       },
+       {
+        "html": "–"
+       },
+       {
+        "html": "Settle a Score: failed"
+       },
+       {
+        "html": "Deuteronomy: Lesson Learnt<br/>Skimbleshanks: captured and executed"
+       },
+       {
+        "html": "+20",
+        "class": "num"
+       },
+       {
+        "html": "–",
+        "class": "num"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "captures": [
+    {
+     "side": "t",
+     "face": "growltiger",
+     "name": "Skimbleshanks - Captured",
+     "result": "Executed",
+     "rows": [
+      {
+       "label": "Captured",
+       "dice": "1",
+       "result": "Executed"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "h3": "Experience",
+   "class": "xp-head"
+  },
+  {
+   "xp": [
+    {
+     "title": "The Midnight Theatre",
+     "class": "t",
+     "table": {
+      "label": null,
+      "class": "ledger xp",
+      "head": [
+       {
+        "html": "Fighter"
+       },
+       {
+        "html": "Earned from"
+       },
+       {
+        "html": "XP",
+        "class": "num"
+       }
+      ],
+      "rows": [
+       {
+        "cells": [
+         {
+          "html": "Deuteronomy",
+          "class": "t"
+         },
+         {
+          "html": "Participation +1, Elijah Serious Injury +1, Lesson Learnt +3"
+         },
+         {
+          "html": "+5",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Demeter",
+          "class": "t"
+         },
+         {
+          "html": "Participation +1"
+         },
+         {
+          "html": "+1",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Rumpleteaser",
+          "class": "t"
+         },
+         {
+          "html": "Participation +1, Ezekiel Serious Injury +1"
+         },
+         {
+          "html": "+2",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Skimbleshanks",
+          "class": "t"
+         },
+         {
+          "html": "Participation +1"
+         },
+         {
+          "html": "+1",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Jellylorum",
+          "class": "t"
+         },
+         {
+          "html": "Participation +1, Blessed Filth Serious Injury +1"
+         },
+         {
+          "html": "+2",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Mistoffelees",
+          "class": "t"
+         },
+         {
+          "html": "Participation +1, Elijah Out of Action +3"
+         },
+         {
+          "html": "+4",
+          "class": "num"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "The Carrion Psalm",
+     "class": "p",
+     "table": {
+      "label": null,
+      "class": "ledger xp",
+      "head": [
+       {
+        "html": "Fighter"
+       },
+       {
+        "html": "Earned from"
+       },
+       {
+        "html": "XP",
+        "class": "num"
+       }
+      ],
+      "rows": [
+       {
+        "cells": [
+         {
+          "html": "Mordecai",
+          "class": "p"
+         },
+         {
+          "html": "Participation +1, Skimbleshanks Serious Injury +1, Skimbleshanks Out of Action +2, Deuteronomy Serious Injury +1"
+         },
+         {
+          "html": "+5",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Ezekiel Crows",
+          "class": "p"
+         },
+         {
+          "html": "Participation +1"
+         },
+         {
+          "html": "+1",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Elijah Emberchoir",
+          "class": "p"
+         },
+         {
+          "html": "Participation +1"
+         },
+         {
+          "html": "+1",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Blessed Filth",
+          "class": "p"
+         },
+         {
+          "html": "Participation +1"
+         },
+         {
+          "html": "+1",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Gutter Cantor",
+          "class": "p"
+         },
+         {
+          "html": "Participation +1, Recovery assist +1"
+         },
+         {
+          "html": "+2",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Ratsong",
+          "class": "p"
+         },
+         {
+          "html": "Participation +1"
+         },
+         {
+          "html": "+1",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Deus and Amen",
+          "class": "p"
+         },
+         {
+          "html": "Participation +1"
+         },
+         {
+          "html": "+1",
+          "class": "num"
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "popovers": [
+  "blessed-filth",
+  "demeter",
+  "deus-and-amen",
+  "deuteronomy",
+  "elijah-emberchoir",
+  "ezekiel-crows",
+  "gutter-cantor",
+  "jellylorum",
+  "mistoffelees",
+  "mordecai",
+  "ratsong",
+  "rumpleteaser",
+  "skimbleshanks"
+ ],
+ "board": {
+  "terrain": [
+   [
+    "text",
+    {
+     "class": "m-edge p",
+     "x": "300",
+     "y": "-8"
+    },
+    "The Carrion Psalm edge"
+   ],
+   [
+    "text",
+    {
+     "class": "m-edge t",
+     "x": "300",
+     "y": "638"
+    },
+    "The Midnight Theatre edge"
+   ],
+   [
+    "rect",
+    {
+     "class": "m-mat",
+     "height": "600",
+     "width": "600",
+     "x": "0",
+     "y": "0"
+    }
+   ],
+   [
+    "rect",
+    {
+     "class": "svg-p",
+     "height": "75",
+     "width": "600",
+     "x": "0",
+     "y": "0"
+    }
+   ],
+   [
+    "rect",
+    {
+     "class": "svg-t",
+     "height": "75",
+     "width": "600",
+     "x": "0",
+     "y": "525"
+    }
+   ],
+   [
+    "g",
+    {
+     "transform": "rotate(180 300 300)"
+    },
+    [
+     [
+      "path",
+      {
+       "class": "m-grid",
+       "d": "M150 0V600M0 150H600M300 0V600M0 300H600M450 0V600M0 450H600"
+      }
+     ],
+     [
+      "polygon",
+      {
+       "class": "m-solid",
+       "points": "42.5,132.5 230,132.5 230,205 42.5,205"
+      }
+     ],
+     [
+      "polyline",
+      {
+       "class": "m-wall",
+       "points": "42.5,205 42.5,25 230,25 230,205 42.5,205"
+      }
+     ],
+     [
+      "polygon",
+      {
+       "class": "m-rubble",
+       "points": "190,27.5 227.5,27.5 227.5,75 190,75"
+      }
+     ],
+     [
+      "polyline",
+      {
+       "class": "m-run",
+       "points": "140,110 140,132.5"
+      }
+     ],
+     [
+      "polygon",
+      {
+       "class": "m-solid",
+       "points": "275,60 380,60 380,115 275,115"
+      }
+     ],
+     [
+      "polygon",
+      {
+       "class": "m-top",
+       "points": "292.731,9.94683 392.404,50.217 372.269,100.053 272.596,59.783"
+      }
+     ],
+     [
+      "polyline",
+      {
+       "class": "m-run",
+       "points": "332.5,85 310,142.5"
+      }
+     ],
+     [
+      "polyline",
+      {
+       "class": "m-plank",
+       "points": "275,175 375,175"
+      }
+     ],
+     [
+      "polygon",
+      {
+       "class": "m-solid",
+       "points": "517.5,5 592.5,5 592.5,150 567.5,165 567.5,215 412.5,215 412.5,122.5 510,122.5 510,100"
+      }
+     ],
+     [
+      "polygon",
+      {
+       "class": "m-rubble",
+       "points": "262.5,262.5 340,262.5 340,300 262.5,300"
+      }
+     ],
+     [
+      "polyline",
+      {
+       "class": "m-wall",
+       "points": "255,305 255,255 375,255"
+      }
+     ],
+     [
+      "polygon",
+      {
+       "class": "m-solid",
+       "points": "315,317.5 360,317.5 360,352.5 315,352.5"
+      }
+     ],
+     [
+      "polygon",
+      {
+       "class": "m-solid",
+       "points": "267.5,360 287.5,360 287.5,380 267.5,380"
+      }
+     ],
+     [
+      "polygon",
+      {
+       "class": "m-rubble",
+       "points": "245,430 310,430 310,445 245,445"
+      }
+     ],
+     [
+      "polyline",
+      {
+       "class": "m-wall",
+       "points": "402.5,300 402.5,395 380,395"
+      }
+     ],
+     [
+      "polyline",
+      {
+       "class": "m-wall",
+       "points": "130,250 132.5,312.5 197.5,312.5"
+      }
+     ],
+     [
+      "polyline",
+      {
+       "class": "m-wall",
+       "points": "62.5,305 62.5,370"
+      }
+     ],
+     [
+      "polyline",
+      {
+       "class": "m-wall",
+       "points": "500,247.5 500,292.5"
+      }
+     ],
+     [
+      "polyline",
+      {
+       "class": "m-plank",
+       "points": "455,330 550,335"
+      }
+     ],
+     [
+      "polygon",
+      {
+       "class": "m-solid",
+       "points": "50,390 200,390 200,520 170,500 140,457.5 50,457.5"
+      }
+     ],
+     [
+      "polyline",
+      {
+       "class": "m-wall",
+       "points": "200,570 50,570 50,390 200,390 200,570"
+      }
+     ],
+     [
+      "circle",
+      {
+       "class": "m-solid",
+       "cx": "207",
+       "cy": "420",
+       "r": "17"
+      }
+     ],
+     [
+      "circle",
+      {
+       "class": "m-solid",
+       "cx": "207",
+       "cy": "472",
+       "r": "17"
+      }
+     ],
+     [
+      "circle",
+      {
+       "class": "m-solid",
+       "cx": "207",
+       "cy": "528",
+       "r": "17"
+      }
+     ],
+     [
+      "polygon",
+      {
+       "class": "m-solid",
+       "points": "278.352,503.26 367.003,433.998 431.648,516.74 342.997,586.002"
+      }
+     ],
+     [
+      "polyline",
+      {
+       "class": "m-div",
+       "points": "380.427,556.758 315.783,474.016"
+      }
+     ],
+     [
+      "polyline",
+      {
+       "class": "m-div",
+       "points": "340.409,505.537 391.63,465.519"
+      }
+     ],
+     [
+      "polyline",
+      {
+       "class": "m-run",
+       "points": "495,352.5 495,376.25"
+      }
+     ],
+     [
+      "polygon",
+      {
+       "class": "m-plat",
+       "points": "597.5,465 546.25,553.768 443.75,553.768 392.5,465 443.75,376.232 546.25,376.232"
+      }
+     ],
+     [
+      "circle",
+      {
+       "class": "m-tower",
+       "cx": "495",
+       "cy": "465",
+       "r": "58"
+      }
+     ],
+     [
+      "circle",
+      {
+       "class": "m-turf",
+       "cx": "300",
+       "cy": "300",
+       "r": "150"
+      }
+     ],
+     [
+      "circle",
+      {
+       "class": "m-centre",
+       "cx": "300",
+       "cy": "300",
+       "r": "6"
+      }
+     ]
+    ]
+   ],
+   [
+    "text",
+    {
+     "class": "m-lab",
+     "x": "487.5",
+     "y": "432.5"
+    },
+    "Ruined tower"
+   ],
+   [
+    "text",
+    {
+     "class": "m-lab",
+     "x": "272.5",
+     "y": "545"
+    },
+    "Containers"
+   ],
+   [
+    "text",
+    {
+     "class": "m-lab",
+     "x": "110",
+     "y": "430"
+    },
+    "Gothic ruin"
+   ],
+   [
+    "text",
+    {
+     "class": "m-lab",
+     "x": "262.5",
+     "y": "232.5"
+    },
+    "Still"
+   ],
+   [
+    "text",
+    {
+     "class": "m-lab",
+     "x": "495",
+     "y": "175"
+    },
+    "Ruined stills"
+   ],
+   [
+    "text",
+    {
+     "class": "m-lab",
+     "x": "272.5",
+     "y": "77.5"
+    },
+    "Stairs"
+   ],
+   [
+    "text",
+    {
+     "class": "m-lab",
+     "x": "105",
+     "y": "135"
+    },
+    "Sealed vent"
+   ]
+  ],
+  "ticks": [
+   [
+    "text",
+    {
+     "class": "m-tick",
+     "x": "0",
+     "y": "618"
+    },
+    "0\""
+   ],
+   [
+    "text",
+    {
+     "class": "m-tick",
+     "x": "150",
+     "y": "618"
+    },
+    "6\""
+   ],
+   [
+    "text",
+    {
+     "class": "m-tick",
+     "x": "300",
+     "y": "618"
+    },
+    "12\""
+   ],
+   [
+    "text",
+    {
+     "class": "m-tick",
+     "x": "450",
+     "y": "618"
+    },
+    "18\""
+   ],
+   [
+    "text",
+    {
+     "class": "m-tick",
+     "x": "600",
+     "y": "618"
+    },
+    "24\""
+   ]
+  ]
+ },
+ "roster": "1.2"
+}

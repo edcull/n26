@@ -1,0 +1,1915 @@
+{
+ "page": "report",
+ "id": "status",
+ "title": "Campaign Status",
+ "hero": {
+  "kicker": "Ash and Shadow",
+  "name": "Campaign status",
+  "sides": [
+   {
+    "img": "images/gangs/the-carrion-psalm.jpg",
+    "name": "The Carrion Psalm",
+    "note": "House Cawdor · 1165 rating"
+   },
+   {
+    "img": "images/gangs/the-midnight-theatre.jpg",
+    "name": "The Midnight Theatre",
+    "note": "House Delaque · 1165 rating"
+   }
+  ]
+ },
+ "nav": [
+  {
+   "href": "#triumphs",
+   "text": "Triumphs"
+  },
+  {
+   "href": "#territories",
+   "text": "Territories"
+  },
+  {
+   "href": "#psalm-roster",
+   "text": "Psalm roster"
+  },
+  {
+   "href": "#theatre-roster",
+   "text": "Theatre roster"
+  }
+ ],
+ "navLabel": "Page sections",
+ "main": [
+  {
+   "tag": "section",
+   "attrs": {
+    "id": "triumphs"
+   },
+   "children": [
+    {
+     "h2": "Triumphs"
+    },
+    {
+     "tag": "div",
+     "class": "triumphs",
+     "children": [
+      {
+       "p": "Triumphs are awarded at the end of the campaign, and tied gangs all receive the Triumph.",
+       "class": "tri-note"
+      },
+      {
+       "table": {
+        "head": [
+         {
+          "cells": [
+           {
+            "html": "Triumph"
+           },
+           {
+            "html": "Psalm",
+            "class": "num"
+           },
+           {
+            "html": "Theatre",
+            "class": "num"
+           },
+           {
+            "html": "Leading"
+           }
+          ]
+         }
+        ],
+        "body": [
+         {
+          "cells": [
+           {
+            "html": "<span class=\"tri-name\">Dominator</span><span class=\"crit\">Most Territories</span>"
+           },
+           {
+            "html": "4",
+            "class": "num p"
+           },
+           {
+            "html": "3",
+            "class": "num t"
+           },
+           {
+            "html": "<span class=\"p lead\">The Carrion Psalm</span>"
+           }
+          ]
+         },
+         {
+          "cells": [
+           {
+            "html": "<span class=\"tri-name\">Slaughterer</span><span class=\"crit\">Most enemy models taken Out of Action</span>"
+           },
+           {
+            "html": "5",
+            "class": "num p"
+           },
+           {
+            "html": "4",
+            "class": "num t"
+           },
+           {
+            "html": "<span class=\"p lead\">The Carrion Psalm</span>"
+           }
+          ]
+         },
+         {
+          "cells": [
+           {
+            "html": "<span class=\"tri-name\">Creditor</span><span class=\"crit\">Highest Wealth</span>"
+           },
+           {
+            "html": "1250",
+            "class": "num p"
+           },
+           {
+            "html": "1255",
+            "class": "num t"
+           },
+           {
+            "html": "<span class=\"t lead\">The Midnight Theatre</span>"
+           }
+          ]
+         },
+         {
+          "cells": [
+           {
+            "html": "<span class=\"tri-name\">Warmonger</span><span class=\"crit\">Most battles fought</span>"
+           },
+           {
+            "html": "3",
+            "class": "num p"
+           },
+           {
+            "html": "3",
+            "class": "num t"
+           },
+           {
+            "html": "Tied"
+           }
+          ]
+         },
+         {
+          "cells": [
+           {
+            "html": "<span class=\"tri-name\">Powerbroker</span><span class=\"crit\">Highest Reputation</span>"
+           },
+           {
+            "html": "4",
+            "class": "num p"
+           },
+           {
+            "html": "2",
+            "class": "num t"
+           },
+           {
+            "html": "<span class=\"p lead\">The Carrion Psalm</span>"
+           }
+          ]
+         }
+        ]
+       },
+       "wrap": "tri-scroll",
+       "label": "Triumph standings"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "attrs": {
+    "id": "territories"
+   },
+   "children": [
+    {
+     "h2": "Territories"
+    },
+    {
+     "photo": {
+      "src": "images/status/photo-01.jpg",
+      "alt": "Map of the campaign area. The Carrion Psalm hold Tallow Wick, Turbine 10.2, Banewaters and the Rendermarch; the Midnight Theatre hold Heaviside Hab-layer, Rippershop and the Pyroclave; Hollowpoint, the Wormways and the Broken Crown are unclaimed."
+     }
+    },
+    {
+     "tag": "div",
+     "class": "t-cols",
+     "children": [
+      {
+       "tag": "div",
+       "class": "t-col",
+       "children": [
+        {
+         "h3": "Held by {p:The Carrion Psalm}",
+         "class": "t-group"
+        },
+        {
+         "tag": "div",
+         "class": "t-grid",
+         "children": [
+          {
+           "tcard": {
+            "class": "psalm",
+            "parts": [
+             {
+              "tag": "h3",
+              "html": "Tallow Wick"
+             },
+             {
+              "tag": "p",
+              "html": "Settlement",
+              "class": "t-type"
+             },
+             {
+              "tag": "h4",
+              "html": "Boons"
+             },
+             {
+              "tag": "ul",
+              "html": "<li><b>Income:</b> 15 credits.</li><li><b>Recruit:</b> instead of income, recruit a Ganger for 25 credits less (minimum 0).</li>"
+             },
+             {
+              "tag": "h4",
+              "html": "Battlefield effect"
+             },
+             {
+              "tag": "p",
+              "html": "None",
+              "class": "t-none"
+             }
+            ]
+           }
+          },
+          {
+           "tcard": {
+            "class": "psalm",
+            "parts": [
+             {
+              "tag": "h3",
+              "html": "Turbine 10.2"
+             },
+             {
+              "tag": "p",
+              "html": "Generatorium",
+              "class": "t-type"
+             },
+             {
+              "tag": "h4",
+              "html": "Boons"
+             },
+             {
+              "tag": "ul",
+              "html": "<li><b>Income:</b> 15 credits.</li><li><b>Reputation:</b> +1 Reputation while held.</li>"
+             },
+             {
+              "tag": "h4",
+              "html": "Battlefield effect (when staked)"
+             },
+             {
+              "tag": "p",
+              "html": "<b>Power Glow:</b> the Visibility (X\") rule has no effect."
+             }
+            ]
+           }
+          },
+          {
+           "tcard": {
+            "class": "psalm",
+            "parts": [
+             {
+              "tag": "h3",
+              "html": "Banewaters"
+             },
+             {
+              "tag": "p",
+              "html": "Synth Still",
+              "class": "t-type"
+             },
+             {
+              "tag": "h4",
+              "html": "Boons"
+             },
+             {
+              "tag": "ul",
+              "html": "<li><b>Income:</b> 20 credits.</li>"
+             },
+             {
+              "tag": "h4",
+              "html": "Battlefield effect (when staked)"
+             },
+             {
+              "tag": "p",
+              "html": "<b>Toxic Vats:</b> +1 AP for weapons with Toxin (X+)."
+             }
+            ]
+           }
+          },
+          {
+           "tcard": {
+            "class": "psalm",
+            "parts": [
+             {
+              "tag": "h3",
+              "html": "Rendermarch"
+             },
+             {
+              "tag": "p",
+              "html": "Corpse Farm",
+              "class": "t-type"
+             },
+             {
+              "tag": "h4",
+              "html": "Boons"
+             },
+             {
+              "tag": "ul",
+              "html": "<li><b>Income:</b> 25 credits.</li>"
+             },
+             {
+              "tag": "h4",
+              "html": "Battlefield effect (when staked)"
+             },
+             {
+              "tag": "p",
+              "html": "<b>Paid in Kind:</b> gangs earn 10 credits for each enemy model they take Out of Action."
+             }
+            ]
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "div",
+       "class": "t-col",
+       "children": [
+        {
+         "h3": "Held by {t:The Midnight Theatre}",
+         "class": "t-group"
+        },
+        {
+         "tag": "div",
+         "class": "t-grid",
+         "children": [
+          {
+           "tcard": {
+            "class": "theatre",
+            "parts": [
+             {
+              "tag": "h3",
+              "html": "Heaviside Hab-layer"
+             },
+             {
+              "tag": "p",
+              "html": "Settlement",
+              "class": "t-type"
+             },
+             {
+              "tag": "h4",
+              "html": "Boons"
+             },
+             {
+              "tag": "ul",
+              "html": "<li><b>Income:</b> 15 credits.</li><li><b>Recruit:</b> instead of income, recruit a Ganger for 25 credits less (minimum 0).</li>"
+             },
+             {
+              "tag": "h4",
+              "html": "Battlefield effect"
+             },
+             {
+              "tag": "p",
+              "html": "None",
+              "class": "t-none"
+             }
+            ]
+           }
+          },
+          {
+           "tcard": {
+            "class": "theatre",
+            "parts": [
+             {
+              "tag": "h3",
+              "html": "Rippershop"
+             },
+             {
+              "tag": "p",
+              "html": "Rogue Doc Shop",
+              "class": "t-type"
+             },
+             {
+              "tag": "h4",
+              "html": "Boons"
+             },
+             {
+              "tag": "ul",
+              "html": "<li><b>Income:</b> 15 credits.</li><li><b>Recruit:</b> instead of income, if the gang has no Rogue Doc, recruit one for 30 credits less.</li>"
+             },
+             {
+              "tag": "h4",
+              "html": "Battlefield effect (when staked)"
+             },
+             {
+              "tag": "p",
+              "html": "<b>Supplies Everywhere:</b> a fighter offering assistance adds two Injury dice instead of one."
+             }
+            ]
+           }
+          },
+          {
+           "tcard": {
+            "class": "theatre",
+            "parts": [
+             {
+              "tag": "h3",
+              "html": "Pyroclave"
+             },
+             {
+              "tag": "p",
+              "html": "Promethium Cache",
+              "class": "t-type"
+             },
+             {
+              "tag": "h4",
+              "html": "Boons"
+             },
+             {
+              "tag": "ul",
+              "html": "<li><b>Income:</b> 15 credits.</li><li><b>Equipment:</b> instead of income, add three hazard suits to the Stash for free.</li>"
+             },
+             {
+              "tag": "h4",
+              "html": "Battlefield effect (when staked)"
+             },
+             {
+              "tag": "p",
+              "html": "<b>Plentiful Promethium:</b> improve Blaze (X+) by 1, so Blaze (5+) becomes Blaze (4+)."
+             }
+            ]
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "h3": "Unclaimed",
+     "class": "t-group"
+    },
+    {
+     "tag": "div",
+     "class": "t-grid",
+     "children": [
+      {
+       "tcard": {
+        "class": "",
+        "parts": [
+         {
+          "tag": "h3",
+          "html": "Hollowpoint"
+         },
+         {
+          "tag": "p",
+          "html": "Bullet Den",
+          "class": "t-type"
+         },
+         {
+          "tag": "h4",
+          "html": "Boons"
+         },
+         {
+          "tag": "ul",
+          "html": "<li><b>Income:</b> 15 credits.</li><li><b>Recruit:</b> instead of income, if the gang has no Ammo-Jack, recruit one for 30 credits less.</li>"
+         },
+         {
+          "tag": "h4",
+          "html": "Battlefield effect (when staked)"
+         },
+         {
+          "tag": "p",
+          "html": "<b>Plentiful Ammo:</b> once per round, each gang may make a Reload action as a Free action."
+         }
+        ]
+       }
+      },
+      {
+       "tcard": {
+        "class": "",
+        "parts": [
+         {
+          "tag": "h3",
+          "html": "The Wormways"
+         },
+         {
+          "tag": "p",
+          "html": "Tunnels",
+          "class": "t-type"
+         },
+         {
+          "tag": "h4",
+          "html": "Boons"
+         },
+         {
+          "tag": "ul",
+          "html": "<li><b>Income:</b> 20 credits.</li>"
+         },
+         {
+          "tag": "h4",
+          "html": "Battlefield effect (when staked)"
+         },
+         {
+          "tag": "p",
+          "html": "<b>Twisting Tunnels:</b> the Tunnel Warfare rule is in effect."
+         }
+        ]
+       }
+      },
+      {
+       "tcard": {
+        "class": "",
+        "parts": [
+         {
+          "tag": "h3",
+          "html": "The Broken Crown"
+         },
+         {
+          "tag": "p",
+          "html": "Collapsed Dome",
+          "class": "t-type"
+         },
+         {
+          "tag": "h4",
+          "html": "Boons"
+         },
+         {
+          "tag": "ul",
+          "html": "<li><b>Income:</b> 20 credits.</li>"
+         },
+         {
+          "tag": "h4",
+          "html": "Battlefield effect (when staked)"
+         },
+         {
+          "tag": "p",
+          "html": "<b>Dangerous Footing:</b> a natural 1 on an Agility test also inflicts a Str -, AP -, L1 hit that automatically Wounds with no saves."
+         }
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "attrs": {
+    "id": "psalm-roster"
+   },
+   "children": [
+    {
+     "tag": "div",
+     "class": "gangs",
+     "children": [
+      {
+       "tag": "div",
+       "class": "gang psalm",
+       "children": [
+        {
+         "gangHead": {
+          "portrait": "images/gangs/the-carrion-psalm.jpg",
+          "alt": "The Carrion Psalm gang portrait",
+          "tag": "h3",
+          "name": "The Carrion Psalm",
+          "house": "House Cawdor"
+         }
+        },
+        {
+         "photo": {
+          "src": "images/2.1/photo-02.jpg",
+          "alt": "The eight Carrion Psalm fighters in a ruined hab: three on the upper walkway, and Deus and Amen with four more among the crates below."
+         }
+        },
+        {
+         "sheet": [
+          [
+           "Rating",
+           "1165"
+          ],
+          [
+           "Reputation",
+           "4"
+          ],
+          [
+           "Credits",
+           "85"
+          ],
+          [
+           "Gang size",
+           "8"
+          ]
+         ],
+         "class": ""
+        },
+        {
+         "assets": [
+          {
+           "label": "Territories",
+           "chips": [
+            {
+             "tip": "Tallow Wick (Settlement)"
+            },
+            {
+             "tip": "Turbine 10.2 (Generatorium)"
+            },
+            {
+             "tip": "Banewaters (Synth Still)"
+            },
+            {
+             "tip": "Rendermarch (Corpse Farm)"
+            }
+           ]
+          },
+          {
+           "label": "Gang tactics",
+           "chips": [
+            {
+             "tip": "Suppressing Fire"
+            },
+            {
+             "tip": "Hidden Stash"
+            },
+            {
+             "tip": "Adrenaline Surge"
+            },
+            {
+             "tip": "Grenade Bouquet"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "fighters": [
+          {
+           "id": "mordecai"
+          },
+          {
+           "id": "ezekiel-crows"
+          },
+          {
+           "id": "elijah-emberchoir"
+          },
+          {
+           "id": "vermin-pyre"
+          },
+          {
+           "id": "blessed-filth"
+          },
+          {
+           "id": "gutter-cantor"
+          },
+          {
+           "id": "ratsong"
+          },
+          {
+           "id": "deus-and-amen"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "tag": "section",
+   "attrs": {
+    "id": "theatre-roster"
+   },
+   "children": [
+    {
+     "tag": "div",
+     "class": "gangs",
+     "children": [
+      {
+       "tag": "div",
+       "class": "gang theatre",
+       "children": [
+        {
+         "gangHead": {
+          "portrait": "images/gangs/the-midnight-theatre.jpg",
+          "alt": "The Midnight Theatre gang portrait",
+          "tag": "h3",
+          "name": "The Midnight Theatre",
+          "house": "House Delaque"
+         }
+        },
+        {
+         "photo": {
+          "src": "images/2.1/photo-03.jpg",
+          "alt": "The Midnight Theatre in a ruined hab: Wit, Deuteronomy, Mistoffelees and Rumpus on the upper walkway, and the six reinforcements among the crates below."
+         }
+        },
+        {
+         "sheet": [
+          [
+           "Rating",
+           "1165"
+          ],
+          [
+           "Reputation",
+           "2"
+          ],
+          [
+           "Credits",
+           "90"
+          ],
+          [
+           "Gang size",
+           "9"
+          ]
+         ],
+         "class": ""
+        },
+        {
+         "assets": [
+          {
+           "label": "Territories",
+           "chips": [
+            {
+             "tip": "Heaviside Hab-layer (Settlement)"
+            },
+            {
+             "tip": "Rippershop (Rogue Doc Shop)"
+            },
+            {
+             "tip": "Pyroclave (Promethium Cache)"
+            }
+           ]
+          },
+          {
+           "label": "Gang tactics",
+           "chips": [
+            {
+             "tip": "You!"
+            },
+            {
+             "tip": "Crossfire"
+            },
+            {
+             "tip": "Adrenaline Surge"
+            },
+            {
+             "tip": "Thunderous Charge"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "fighters": [
+          {
+           "id": "deuteronomy"
+          },
+          {
+           "id": "demeter"
+          },
+          {
+           "id": "macavity"
+          },
+          {
+           "id": "rumpleteaser"
+          },
+          {
+           "id": "mungojerrie"
+          },
+          {
+           "id": "jellylorum"
+          },
+          {
+           "id": "growltiger"
+          },
+          {
+           "id": "mistoffelees"
+          },
+          {
+           "id": "rumpus"
+          },
+          {
+           "id": "wit"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "after": [
+  {
+   "xppop": {
+    "id": "mordecai",
+    "title": "Mordecai: XP",
+    "table": {
+     "body": [
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Starting XP</span><span class=\"xp-why\">Campaign setup</span>"
+        },
+        {
+         "html": "61",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 1.1: The Pyroclave Ploy</span><span class=\"xp-why\">Participation +1</span>"
+        },
+        {
+         "html": "+1",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 1.2: The Banewaters Brawl</span><span class=\"xp-why\">Participation +1, Skimbleshanks Serious Injury +1, Skimbleshanks Out of Action +2, Deuteronomy Serious Injury +1</span>"
+        },
+        {
+         "html": "+5",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 2.1: The Rendermarch Raid</span><span class=\"xp-why\">Participation +1, Mistoffelees Serious Injury +1</span>"
+        },
+        {
+         "html": "+2",
+         "class": "num"
+        }
+       ]
+      }
+     ],
+     "foot": [
+      {
+       "cells": [
+        {
+         "html": "Total"
+        },
+        {
+         "html": "69",
+         "class": "num"
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "xppop": {
+    "id": "ezekiel-crows",
+    "title": "Ezekiel Crows: XP",
+    "table": {
+     "body": [
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Starting XP</span><span class=\"xp-why\">Campaign setup</span>"
+        },
+        {
+         "html": "37",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 1.1: The Pyroclave Ploy</span><span class=\"xp-why\">Participation +1, Macavity Out of Action +3</span>"
+        },
+        {
+         "html": "+4",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 1.2: The Banewaters Brawl</span><span class=\"xp-why\">Participation +1</span>"
+        },
+        {
+         "html": "+1",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 2.1: The Rendermarch Raid</span><span class=\"xp-why\">Participation +1, Rumpus Serious Injury +1, Growltiger Out of Action +2</span>"
+        },
+        {
+         "html": "+4",
+         "class": "num"
+        }
+       ]
+      }
+     ],
+     "foot": [
+      {
+       "cells": [
+        {
+         "html": "Total"
+        },
+        {
+         "html": "46",
+         "class": "num"
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "xppop": {
+    "id": "elijah-emberchoir",
+    "title": "Elijah Emberchoir: XP",
+    "table": {
+     "body": [
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Starting XP</span><span class=\"xp-why\">Campaign setup</span>"
+        },
+        {
+         "html": "37",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 1.2: The Banewaters Brawl</span><span class=\"xp-why\">Participation +1</span>"
+        },
+        {
+         "html": "+1",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 2.1: The Rendermarch Raid</span><span class=\"xp-why\">Participation +1</span>"
+        },
+        {
+         "html": "+1",
+         "class": "num"
+        }
+       ]
+      }
+     ],
+     "foot": [
+      {
+       "cells": [
+        {
+         "html": "Total"
+        },
+        {
+         "html": "39",
+         "class": "num"
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "xppop": {
+    "id": "vermin-pyre",
+    "title": "Vermin Pyre: XP",
+    "table": {
+     "body": [
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Starting XP</span><span class=\"xp-why\">Campaign setup</span>"
+        },
+        {
+         "html": "13",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 1.1: The Pyroclave Ploy</span><span class=\"xp-why\">Participation +1, Objective +1</span>"
+        },
+        {
+         "html": "+2",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 2.1: The Rendermarch Raid</span><span class=\"xp-why\">Participation +1, Jellylorum Out of Action +2</span>"
+        },
+        {
+         "html": "+3",
+         "class": "num"
+        }
+       ]
+      }
+     ],
+     "foot": [
+      {
+       "cells": [
+        {
+         "html": "Total"
+        },
+        {
+         "html": "18",
+         "class": "num"
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "xppop": {
+    "id": "blessed-filth",
+    "title": "Blessed Filth: XP",
+    "table": {
+     "body": [
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Starting XP</span><span class=\"xp-why\">Campaign setup</span>"
+        },
+        {
+         "html": "13",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 1.2: The Banewaters Brawl</span><span class=\"xp-why\">Participation +1</span>"
+        },
+        {
+         "html": "+1",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 2.1: The Rendermarch Raid</span><span class=\"xp-why\">Participation +1</span>"
+        },
+        {
+         "html": "+1",
+         "class": "num"
+        }
+       ]
+      }
+     ],
+     "foot": [
+      {
+       "cells": [
+        {
+         "html": "Total"
+        },
+        {
+         "html": "15",
+         "class": "num"
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "xppop": {
+    "id": "gutter-cantor",
+    "title": "Gutter Cantor: XP",
+    "table": {
+     "body": [
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Starting XP</span><span class=\"xp-why\">Campaign setup</span>"
+        },
+        {
+         "html": "13",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 1.1: The Pyroclave Ploy</span><span class=\"xp-why\">Participation +1</span>"
+        },
+        {
+         "html": "+1",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 1.2: The Banewaters Brawl</span><span class=\"xp-why\">Participation +1, Recovery assist +1</span>"
+        },
+        {
+         "html": "+2",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 2.1: The Rendermarch Raid</span><span class=\"xp-why\">Participation +1</span>"
+        },
+        {
+         "html": "+1",
+         "class": "num"
+        }
+       ]
+      }
+     ],
+     "foot": [
+      {
+       "cells": [
+        {
+         "html": "Total"
+        },
+        {
+         "html": "17",
+         "class": "num"
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "xppop": {
+    "id": "ratsong",
+    "title": "Ratsong: XP",
+    "table": {
+     "body": [
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Starting XP</span><span class=\"xp-why\">Campaign setup</span>"
+        },
+        {
+         "html": "1",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 1.1: The Pyroclave Ploy</span><span class=\"xp-why\">Participation +1</span>"
+        },
+        {
+         "html": "+1",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 1.2: The Banewaters Brawl</span><span class=\"xp-why\">Participation +1</span>"
+        },
+        {
+         "html": "+1",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 1 post-cycle</span><span class=\"xp-why\">Train</span>"
+        },
+        {
+         "html": "+2",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 2.1: The Rendermarch Raid</span><span class=\"xp-why\">Participation +1, Objective +1</span>"
+        },
+        {
+         "html": "+2",
+         "class": "num"
+        }
+       ]
+      }
+     ],
+     "foot": [
+      {
+       "cells": [
+        {
+         "html": "Total"
+        },
+        {
+         "html": "7",
+         "class": "num"
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "xppop": {
+    "id": "deus-and-amen",
+    "title": "Deus and Amen: XP",
+    "table": {
+     "body": [
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Starting XP</span><span class=\"xp-why\">Campaign setup</span>"
+        },
+        {
+         "html": "25",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 1.1: The Pyroclave Ploy</span><span class=\"xp-why\">Participation +1, 2 Serious Injuries +2</span>"
+        },
+        {
+         "html": "+3",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 1.2: The Banewaters Brawl</span><span class=\"xp-why\">Participation +1</span>"
+        },
+        {
+         "html": "+1",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 1 post-cycle</span><span class=\"xp-why\">Train</span>"
+        },
+        {
+         "html": "+2",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 2.1: The Rendermarch Raid</span><span class=\"xp-why\">Participation +1, Mungojerrie Serious Injury +1, Mungojerrie Out of Action +2</span>"
+        },
+        {
+         "html": "+4",
+         "class": "num"
+        }
+       ]
+      }
+     ],
+     "foot": [
+      {
+       "cells": [
+        {
+         "html": "Total"
+        },
+        {
+         "html": "35",
+         "class": "num"
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "xppop": {
+    "id": "deuteronomy",
+    "title": "Deuteronomy: XP",
+    "table": {
+     "body": [
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Starting XP</span><span class=\"xp-why\">Campaign setup</span>"
+        },
+        {
+         "html": "61",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 1.1: The Pyroclave Ploy</span><span class=\"xp-why\">Participation +1, Vermin Pyre Out of Action +2, Objective +1</span>"
+        },
+        {
+         "html": "+4",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 1.2: The Banewaters Brawl</span><span class=\"xp-why\">Participation +1, Elijah Serious Injury +1, Lesson Learnt +3</span>"
+        },
+        {
+         "html": "+5",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 2.1: The Rendermarch Raid</span><span class=\"xp-why\">Participation +1</span>"
+        },
+        {
+         "html": "+1",
+         "class": "num"
+        }
+       ]
+      }
+     ],
+     "foot": [
+      {
+       "cells": [
+        {
+         "html": "Total"
+        },
+        {
+         "html": "71",
+         "class": "num"
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "xppop": {
+    "id": "demeter",
+    "title": "Demeter: XP",
+    "table": {
+     "body": [
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Starting XP</span><span class=\"xp-why\">Campaign setup</span>"
+        },
+        {
+         "html": "37",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 1.1: The Pyroclave Ploy</span><span class=\"xp-why\">Participation +1, Ezekiel Serious Injury +1</span>"
+        },
+        {
+         "html": "+2",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 1.2: The Banewaters Brawl</span><span class=\"xp-why\">Participation +1</span>"
+        },
+        {
+         "html": "+1",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 2.1: The Rendermarch Raid</span><span class=\"xp-why\">Participation +1, Objective +1</span>"
+        },
+        {
+         "html": "+2",
+         "class": "num"
+        }
+       ]
+      }
+     ],
+     "foot": [
+      {
+       "cells": [
+        {
+         "html": "Total"
+        },
+        {
+         "html": "42",
+         "class": "num"
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "xppop": {
+    "id": "macavity",
+    "title": "Macavity: XP",
+    "table": {
+     "body": [
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Starting XP</span><span class=\"xp-why\">Campaign setup</span>"
+        },
+        {
+         "html": "49",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 1.1: The Pyroclave Ploy</span><span class=\"xp-why\">Participation +1, Mordecai Out of Action +3, Lesson Learnt +2</span>"
+        },
+        {
+         "html": "+6",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 2.1: The Rendermarch Raid</span><span class=\"xp-why\">Participation +1, Ratsong Out of Action +2, Objective +1</span>"
+        },
+        {
+         "html": "+4",
+         "class": "num"
+        }
+       ]
+      }
+     ],
+     "foot": [
+      {
+       "cells": [
+        {
+         "html": "Total"
+        },
+        {
+         "html": "59",
+         "class": "num"
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "xppop": {
+    "id": "rumpleteaser",
+    "title": "Rumpleteaser: XP",
+    "table": {
+     "body": [
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Starting XP</span><span class=\"xp-why\">Campaign setup</span>"
+        },
+        {
+         "html": "13",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 1.1: The Pyroclave Ploy</span><span class=\"xp-why\">Participation +1</span>"
+        },
+        {
+         "html": "+1",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 1.2: The Banewaters Brawl</span><span class=\"xp-why\">Participation +1, Ezekiel Serious Injury +1</span>"
+        },
+        {
+         "html": "+2",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 2.1: The Rendermarch Raid</span><span class=\"xp-why\">Participation +1</span>"
+        },
+        {
+         "html": "+1",
+         "class": "num"
+        }
+       ]
+      }
+     ],
+     "foot": [
+      {
+       "cells": [
+        {
+         "html": "Total"
+        },
+        {
+         "html": "17",
+         "class": "num"
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "xppop": {
+    "id": "mungojerrie",
+    "title": "Mungojerrie: XP",
+    "table": {
+     "body": [
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Starting XP</span><span class=\"xp-why\">Campaign setup</span>"
+        },
+        {
+         "html": "13",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 2.1: The Rendermarch Raid</span><span class=\"xp-why\">Participation +1</span>"
+        },
+        {
+         "html": "+1",
+         "class": "num"
+        }
+       ]
+      }
+     ],
+     "foot": [
+      {
+       "cells": [
+        {
+         "html": "Total"
+        },
+        {
+         "html": "14",
+         "class": "num"
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "xppop": {
+    "id": "jellylorum",
+    "title": "Jellylorum: XP",
+    "table": {
+     "body": [
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Starting XP</span><span class=\"xp-why\">Campaign setup</span>"
+        },
+        {
+         "html": "13",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 1.1: The Pyroclave Ploy</span><span class=\"xp-why\">Participation +1, Recovery assist +1</span>"
+        },
+        {
+         "html": "+2",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 1.2: The Banewaters Brawl</span><span class=\"xp-why\">Participation +1, Blessed Filth Serious Injury +1</span>"
+        },
+        {
+         "html": "+2",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 1 post-cycle</span><span class=\"xp-why\">Train</span>"
+        },
+        {
+         "html": "+2",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 2.1: The Rendermarch Raid</span><span class=\"xp-why\">Participation +1</span>"
+        },
+        {
+         "html": "+1",
+         "class": "num"
+        }
+       ]
+      }
+     ],
+     "foot": [
+      {
+       "cells": [
+        {
+         "html": "Total"
+        },
+        {
+         "html": "20",
+         "class": "num"
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "xppop": {
+    "id": "growltiger",
+    "title": "Growltiger: XP",
+    "table": {
+     "body": [
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Starting XP</span><span class=\"xp-why\">Recruited in the Cycle 1 post-cycle phase</span>"
+        },
+        {
+         "html": "13",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 2.1: The Rendermarch Raid</span><span class=\"xp-why\">Participation +1</span>"
+        },
+        {
+         "html": "+1",
+         "class": "num"
+        }
+       ]
+      }
+     ],
+     "foot": [
+      {
+       "cells": [
+        {
+         "html": "Total"
+        },
+        {
+         "html": "14",
+         "class": "num"
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "xppop": {
+    "id": "mistoffelees",
+    "title": "Mistoffelees: XP",
+    "table": {
+     "body": [
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Starting XP</span><span class=\"xp-why\">Campaign setup</span>"
+        },
+        {
+         "html": "4",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 1.2: The Banewaters Brawl</span><span class=\"xp-why\">Participation +1, Elijah Out of Action +3</span>"
+        },
+        {
+         "html": "+4",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 2.1: The Rendermarch Raid</span><span class=\"xp-why\">Participation +1, Objective +1</span>"
+        },
+        {
+         "html": "+2",
+         "class": "num"
+        }
+       ]
+      }
+     ],
+     "foot": [
+      {
+       "cells": [
+        {
+         "html": "Total"
+        },
+        {
+         "html": "10",
+         "class": "num"
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "xppop": {
+    "id": "rumpus",
+    "title": "Rumpus: XP",
+    "table": {
+     "body": [
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Starting XP</span><span class=\"xp-why\">Recruited in the Cycle 1 post-cycle phase</span>"
+        },
+        {
+         "html": "13",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 2.1: The Rendermarch Raid</span><span class=\"xp-why\">Participation +1</span>"
+        },
+        {
+         "html": "+1",
+         "class": "num"
+        }
+       ]
+      }
+     ],
+     "foot": [
+      {
+       "cells": [
+        {
+         "html": "Total"
+        },
+        {
+         "html": "14",
+         "class": "num"
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "xppop": {
+    "id": "wit",
+    "title": "Wit: XP",
+    "table": {
+     "body": [
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Starting XP</span><span class=\"xp-why\">Recruited in the Cycle 1 post-cycle phase</span>"
+        },
+        {
+         "html": "13",
+         "class": "num"
+        }
+       ]
+      },
+      {
+       "cells": [
+        {
+         "html": "<span class=\"xp-src\">Cycle 2.1: The Rendermarch Raid</span><span class=\"xp-why\">Participation +1, Objective +1</span>"
+        },
+        {
+         "html": "+2",
+         "class": "num"
+        }
+       ]
+      }
+     ],
+     "foot": [
+      {
+       "cells": [
+        {
+         "html": "Total"
+        },
+        {
+         "html": "15",
+         "class": "num"
+        }
+       ]
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "xpButtons": true,
+ "roster": "status"
+}

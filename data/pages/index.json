@@ -1,0 +1,214 @@
+{
+ "page": "report",
+ "id": "index",
+ "title": "Ash and Shadow",
+ "hero": {
+  "kicker": "Necromunda campaign",
+  "name": "Ash and Shadow",
+  "gangs": [
+   {
+    "img": "images/gangs/the-carrion-psalm-thumb.jpg",
+    "name": "The Carrion Psalm",
+    "note": "House Cawdor · Gang rating 1165"
+   },
+   {
+    "img": "images/gangs/the-midnight-theatre-thumb.jpg",
+    "name": "The Midnight Theatre",
+    "note": "House Delaque · Gang rating 1165"
+   }
+  ]
+ },
+ "main": [
+  {
+   "tag": "div",
+   "class": "battles",
+   "children": [
+    {
+     "card": {
+      "href": "status.html",
+      "img": "images/index/status.jpg",
+      "alt": "Map of the campaign area and who holds each territory after Cycle 2.1.",
+      "info": [
+       {
+        "tag": "span",
+        "html": "Campaign status",
+        "class": "num"
+       },
+       {
+        "tag": "p",
+        "html": "Triumphs · Territories · Current rosters",
+        "class": "meta"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "h2": "Cycle 1"
+  },
+  {
+   "tag": "div",
+   "class": "battles",
+   "children": [
+    {
+     "card": {
+      "href": "1.1.html",
+      "img": "images/index/1.1.jpg",
+      "alt": "The end of the battle, with Deuteronomy holding the centre of the raised platform.",
+      "info": [
+       {
+        "tag": "h3",
+        "html": "The Pyroclave Ploy"
+       },
+       {
+        "tag": "p",
+        "html": "{p:The Carrion Psalm} <span class=\"vs\">challenge</span> {t:The Midnight Theatre}",
+        "class": "meta"
+       },
+       {
+        "tag": "p",
+        "html": "Sniping Range · King of the Hive · Stakes: Pyroclave (Promethium Cache)",
+        "class": "meta"
+       },
+       {
+        "tag": "p",
+        "html": "The Midnight Theatre won",
+        "class": "result"
+       }
+      ]
+     }
+    },
+    {
+     "card": {
+      "href": "1.2.html",
+      "img": "images/index/1.2.jpg",
+      "alt": "Mordecai and Deuteronomy in combat beside the rubble, with Delaque fighters around the ruined tower.",
+      "info": [
+       {
+        "tag": "h3",
+        "html": "The Banewaters Brawl"
+       },
+       {
+        "tag": "p",
+        "html": "{t:The Midnight Theatre} <span class=\"vs\">challenge</span> {p:The Carrion Psalm}",
+        "class": "meta"
+       },
+       {
+        "tag": "p",
+        "html": "Face Off · Turf War · Stakes: Banewaters (Synth Still)",
+        "class": "meta"
+       },
+       {
+        "tag": "p",
+        "html": "The Carrion Psalm won",
+        "class": "result"
+       }
+      ]
+     }
+    },
+    {
+     "card": {
+      "href": "1-post.html",
+      "img": "images/index/1-post.jpg",
+      "alt": "Mordecai, the Cawdor Word Keeper, and a Delaque fighter in a ruined hab doorway.",
+      "info": [
+       {
+        "tag": "span",
+        "html": "Post-cycle phase",
+        "class": "num"
+       },
+       {
+        "tag": "p",
+        "html": "Actions · Income · Advancements · Trading post · Rosters",
+        "class": "meta"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "h2": "Cycle 2"
+  },
+  {
+   "tag": "div",
+   "class": "battles",
+   "children": [
+    {
+     "card": {
+      "href": "2.1.html",
+      "img": "images/index/2.1.jpg",
+      "alt": "The end of the Rendermarch Raid: Deuteronomy on the vats' upper floor, Mordecai engaged with Mistoffelees on the wall, and Deus and Amen with the Psalm by the bone yard.",
+      "info": [
+       {
+        "tag": "h3",
+        "html": "The Rendermarch Raid"
+       },
+       {
+        "tag": "p",
+        "html": "{p:The Carrion Psalm} <span class=\"vs\">challenge</span> {t:The Midnight Theatre}",
+        "class": "meta"
+       },
+       {
+        "tag": "p",
+        "html": "Free for All · Flank 'Em · Stakes: Rendermarch (Corpse Farm)",
+        "class": "meta"
+       },
+       {
+        "tag": "p",
+        "html": "The Carrion Psalm won",
+        "class": "result"
+       }
+      ]
+     }
+    },
+    {
+     "card": {
+      "href": "2.2.html",
+      "placeholder": "Photo to come",
+      "info": [
+       {
+        "tag": "h3",
+        "html": "The Hollowpoint Hit"
+       },
+       {
+        "tag": "p",
+        "html": "{t:The Midnight Theatre} <span class=\"vs\">challenge</span> {p:The Carrion Psalm}",
+        "class": "meta"
+       },
+       {
+        "tag": "p",
+        "html": "Chance Encounter · Object Lesson · Stakes: Hollowpoint (Bullet Den)",
+        "class": "meta"
+       },
+       {
+        "tag": "p",
+        "html": "To be played",
+        "class": "result"
+       }
+      ]
+     }
+    },
+    {
+     "card": {
+      "href": "2-post.html",
+      "placeholder": "Photo to come",
+      "info": [
+       {
+        "tag": "span",
+        "html": "Post-cycle phase",
+        "class": "num"
+       },
+       {
+        "tag": "p",
+        "html": "Actions · Income · Advancements · Trading post · Rosters",
+        "class": "meta"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

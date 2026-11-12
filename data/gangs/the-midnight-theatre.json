@@ -1,0 +1,998 @@
+{
+ "id": "the-midnight-theatre",
+ "name": "The Midnight Theatre",
+ "house": "House Delaque",
+ "side": "t",
+ "class": "theatre",
+ "portrait": "images/gangs/the-midnight-theatre.jpg",
+ "thumb": "images/gangs/the-midnight-theatre-thumb.jpg",
+ "fighters": {
+  "deuteronomy": [
+   {
+    "at": "setup",
+    "name": "Deuteronomy",
+    "portrait": "images/fighters/deuteronomy.jpg",
+    "type": "Master of Shadow (Leader, Wyrd), Wyrd",
+    "cost": "245",
+    "stats": {
+     "M": "5\"",
+     "WS": "3+",
+     "BS": "3+",
+     "S": "3",
+     "T": "3",
+     "W": "3",
+     "I": "4",
+     "A": "3",
+     "Sv": "5+",
+     "Ld": "8",
+     "Cl": "8",
+     "Wil": "9",
+     "Int": "8",
+     "XP": "61"
+    },
+    "weapons": [
+     {
+      "name": "Flechette pistol",
+      "profile": [
+       "4\"",
+       "12\"",
+       "-",
+       "-",
+       "1"
+      ],
+      "traits": "{tip:Light}, {tip:Rapid Fire (1)}, {tip:Toxin (3+)}"
+     },
+     {
+      "name": "Shock stave",
+      "profile": [
+       "E",
+       "-",
+       "S+1",
+       "-",
+       "1"
+      ],
+      "traits": "{tip:Melee}, {tip:Shock (5+)}"
+     },
+     {
+      "name": "Web gauntlet",
+      "profile": [
+       "E",
+       "-",
+       "3",
+       "-",
+       "-"
+      ],
+      "traits": "{tip:Backstab}, {tip:Melee}, {tip:Web}"
+     }
+    ],
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:A Perfect Void}, {tip:Counter-attack}, {tip:Inspiring}"
+     },
+     {
+      "label": "Special rules",
+      "text": "{tip:Master of Whispers}"
+     }
+    ]
+   },
+   {
+    "at": "1.2",
+    "stats": {
+     "XP": "65"
+    }
+   },
+   {
+    "at": "1-post",
+    "stats": {
+     "XP": "70"
+    },
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:A Perfect Void}, {tip:Counter-attack}, {tip:Inspiring}"
+     },
+     {
+      "label": "Special rules",
+      "text": "{tip:Master of Whispers}"
+     },
+     {
+      "label": "Lasting injuries",
+      "text": "{tip:Lesson Learnt}"
+     }
+    ]
+   },
+   {
+    "at": "2.1",
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:A Perfect Void}, {tip:Counter-attack}, {tip:Inspiring}"
+     },
+     {
+      "label": "Special rules",
+      "text": "{tip:Master of Whispers}"
+     }
+    ]
+   },
+   {
+    "at": "status",
+    "stats": {
+     "XP": "71"
+    }
+   }
+  ],
+  "demeter": [
+   {
+    "at": "setup",
+    "name": "Demeter",
+    "portrait": "images/fighters/demeter.jpg",
+    "type": "Phantom (Champion)",
+    "cost": "155",
+    "stats": {
+     "M": "5\"",
+     "WS": "3+",
+     "BS": "3+",
+     "S": "3",
+     "T": "3",
+     "W": "2",
+     "I": "4",
+     "A": "2",
+     "Sv": "5+",
+     "Ld": "7",
+     "Cl": "7",
+     "Wil": "8",
+     "Int": "7",
+     "XP": "37"
+    },
+    "weapons": [
+     {
+      "name": "Long rifle",
+      "profile": [
+       "24\"",
+       "48\"",
+       "4",
+       "-1",
+       "1"
+      ],
+      "traits": "{tip:Knockback (6+)}"
+     }
+    ],
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Inspiring}, {tip:Overwatch}"
+     },
+     {
+      "label": "Special rules",
+      "text": "{tip:Master of Whispers}"
+     }
+    ]
+   },
+   {
+    "at": "1.2",
+    "stats": {
+     "XP": "39"
+    }
+   },
+   {
+    "at": "1-post",
+    "cost": "175",
+    "stats": {
+     "XP": "40"
+    },
+    "foot": [
+     {
+      "label": "Wargear",
+      "text": "{tip.new-i:Las-projector (long rifle)}"
+     },
+     {
+      "label": "Skills",
+      "text": "{tip:Inspiring}, {tip:Overwatch}"
+     },
+     {
+      "label": "Special rules",
+      "text": "{tip:Master of Whispers}"
+     }
+    ]
+   },
+   {
+    "at": "2.1",
+    "foot": [
+     {
+      "label": "Wargear",
+      "text": "{tip:Las-projector (long rifle)}"
+     },
+     {
+      "label": "Skills",
+      "text": "{tip:Inspiring}, {tip:Overwatch}"
+     },
+     {
+      "label": "Special rules",
+      "text": "{tip:Master of Whispers}"
+     }
+    ]
+   },
+   {
+    "at": "status",
+    "stats": {
+     "XP": "42"
+    }
+   }
+  ],
+  "macavity": [
+   {
+    "at": "setup",
+    "name": "Macavity",
+    "portrait": "images/fighters/macavity.jpg",
+    "type": "Nacht-Ghul (Champion, Loner)",
+    "cost": "190",
+    "stats": {
+     "M": "6\"",
+     "WS": "3+",
+     "BS": "4+",
+     "S": "4",
+     "T": "3",
+     "W": "2",
+     "I": "5",
+     "A": "3",
+     "Sv": "5+",
+     "Ld": "6",
+     "Cl": "8",
+     "Wil": "8",
+     "Int": "7",
+     "XP": "49"
+    },
+    "weapons": [
+     {
+      "name": "Serpent's fangs*",
+      "profile": [
+       "E",
+       "-",
+       "-",
+       "-3",
+       "1"
+      ],
+      "traits": "{tip:Melee}, {tip:Paired (2)}, {tip:Toxin (3+)}"
+     }
+    ],
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Inspiring}, {tip:Spring Up}"
+     },
+     {
+      "label": "Special rules",
+      "text": "{tip:From the Shadows}"
+     }
+    ]
+   },
+   {
+    "at": "1-post",
+    "stats": {
+     "XP": "55"
+    },
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Inspiring}, {tip:Spring Up}"
+     },
+     {
+      "label": "Special rules",
+      "text": "{tip:From the Shadows}"
+     },
+     {
+      "label": "Lasting injuries",
+      "text": "{tip:Lesson Learnt}"
+     }
+    ]
+   },
+   {
+    "at": "2.1",
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Inspiring}, {tip:Spring Up}"
+     },
+     {
+      "label": "Special rules",
+      "text": "{tip:From the Shadows}"
+     }
+    ]
+   },
+   {
+    "at": "status",
+    "stats": {
+     "XP": "59"
+    }
+   }
+  ],
+  "rumpleteaser": [
+   {
+    "at": "setup",
+    "name": "Rumpleteaser",
+    "portrait": "images/fighters/rumpleteaser.jpg",
+    "type": "Ghost (Ganger, Specialist), Gunner",
+    "cost": "130",
+    "stats": {
+     "M": "5\"",
+     "WS": "4+",
+     "BS": "4+",
+     "S": "3",
+     "T": "3",
+     "W": "1",
+     "I": "4",
+     "A": "1",
+     "Sv": "6+",
+     "Ld": "6",
+     "Cl": "6",
+     "Wil": "7",
+     "Int": "6",
+     "XP": "13"
+    },
+    "weapons": [
+     {
+      "name": "Plasma gun",
+      "profile": [
+       "12\"",
+       "24\"",
+       "5",
+       "-2",
+       "2"
+      ],
+      "traits": "{tip:Ammo (6+)}, {tip:Damage (2)}, {tip:Rapid Fire (1)}, {tip:Unstable}"
+     }
+    ],
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Hip-shooting}"
+     }
+    ]
+   },
+   {
+    "at": "1.2",
+    "stats": {
+     "XP": "14"
+    }
+   },
+   {
+    "at": "1-post",
+    "cost": "150",
+    "stats": {
+     "XP": "16"
+    },
+    "weapons": [
+     {
+      "name": "Plasma gun",
+      "profile": [
+       "12\"",
+       "24\"",
+       "5",
+       "-2",
+       "2"
+      ],
+      "traits": "{tip:Ammo (6+)}, {tip:Damage (2)}, {tip:Rapid Fire (1)}, {tip:Unstable}"
+     },
+     {
+      "class": "new",
+      "name": "Autogun",
+      "profile": [
+       "8\"",
+       "24\"",
+       "3",
+       "-",
+       "1"
+      ],
+      "traits": "{tip:Rapid Fire (1)}"
+     }
+    ]
+   },
+   {
+    "at": "2.1",
+    "weapons": [
+     {
+      "name": "Plasma gun",
+      "profile": [
+       "12\"",
+       "24\"",
+       "5",
+       "-2",
+       "2"
+      ],
+      "traits": "{tip:Ammo (6+)}, {tip:Damage (2)}, {tip:Rapid Fire (1)}, {tip:Unstable}"
+     },
+     {
+      "name": "Autogun",
+      "profile": [
+       "8\"",
+       "24\"",
+       "3",
+       "-",
+       "1"
+      ],
+      "traits": "{tip:Rapid Fire (1)}"
+     }
+    ]
+   },
+   {
+    "at": "status",
+    "stats": {
+     "XP": "17"
+    }
+   }
+  ],
+  "jellylorum": [
+   {
+    "at": "setup",
+    "name": "Jellylorum",
+    "portrait": "images/fighters/jellylorum.jpg",
+    "type": "Ghost (Ganger, Specialist), Medic",
+    "cost": "60",
+    "stats": {
+     "M": "5\"",
+     "WS": "4+",
+     "BS": "4+",
+     "S": "3",
+     "T": "3",
+     "W": "1",
+     "I": "4",
+     "A": "1",
+     "Sv": "6+",
+     "Ld": "6",
+     "Cl": "6",
+     "Wil": "7",
+     "Int": "6",
+     "XP": "13"
+    },
+    "weapons": [
+     {
+      "name": "Lasgun",
+      "profile": [
+       "16\"",
+       "24\"",
+       "3",
+       "-",
+       "1"
+      ],
+      "traits": "No traits"
+     }
+    ],
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Medicate}"
+     }
+    ]
+   },
+   {
+    "at": "1.2",
+    "stats": {
+     "XP": "15"
+    }
+   },
+   {
+    "at": "1-post",
+    "cost": "70",
+    "stats": {
+     "XP": "19"
+    },
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip.adv-i:Lie Low}, {tip:Medicate}"
+     }
+    ]
+   },
+   {
+    "at": "status",
+    "stats": {
+     "WS": "5+",
+     "XP": "20"
+    },
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip.adv-i:Lie Low}, {tip:Medicate}"
+     },
+     {
+      "label": "Lasting injuries",
+      "text": "{tip:Hand Injury}"
+     }
+    ],
+    "typeExtra": "<span class=\"benched\">In recovery</span>",
+    "statClass": {
+     "WS": "inj"
+    }
+   }
+  ],
+  "mungojerrie": [
+   {
+    "at": "setup",
+    "name": "Mungojerrie",
+    "portrait": "images/fighters/mungojerrie.jpg",
+    "type": "Ghost (Ganger, Specialist), Gunner",
+    "cost": "95",
+    "stats": {
+     "M": "5\"",
+     "WS": "4+",
+     "BS": "4+",
+     "S": "3",
+     "T": "3",
+     "W": "1",
+     "I": "4",
+     "A": "1",
+     "Sv": "6+",
+     "Ld": "6",
+     "Cl": "6",
+     "Wil": "7",
+     "Int": "6",
+     "XP": "13"
+    },
+    "weapons": [
+     {
+      "name": "Grav gun",
+      "profile": [
+       "9\"",
+       "18\"",
+       "-",
+       "-",
+       "2"
+      ],
+      "traits": "{tip:Ammo (5+)}, {tip:Blast (3\")}, {tip:Graviton Pulse}"
+     }
+    ],
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Hip-shooting}"
+     }
+    ]
+   },
+   {
+    "at": "1-post",
+    "cost": "105",
+    "weapons": [
+     {
+      "name": "Grav gun",
+      "profile": [
+       "9\"",
+       "18\"",
+       "-",
+       "-",
+       "2"
+      ],
+      "traits": "{tip:Ammo (5+)}, {tip:Blast (3\")}, {tip:Graviton Pulse}"
+     },
+     {
+      "class": "new",
+      "name": "Autopistol",
+      "profile": [
+       "4\"",
+       "12\"",
+       "3",
+       "-",
+       "1"
+      ],
+      "traits": "{tip:Light}, {tip:Rapid Fire (1)}"
+     }
+    ]
+   },
+   {
+    "at": "2.1",
+    "weapons": [
+     {
+      "name": "Grav gun",
+      "profile": [
+       "9\"",
+       "18\"",
+       "-",
+       "-",
+       "2"
+      ],
+      "traits": "{tip:Ammo (5+)}, {tip:Blast (3\")}, {tip:Graviton Pulse}"
+     },
+     {
+      "name": "Autopistol",
+      "profile": [
+       "4\"",
+       "12\"",
+       "3",
+       "-",
+       "1"
+      ],
+      "traits": "{tip:Light}, {tip:Rapid Fire (1)}"
+     }
+    ]
+   },
+   {
+    "at": "status",
+    "stats": {
+     "XP": "14"
+    },
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Hip-shooting}"
+     },
+     {
+      "label": "Lasting injuries",
+      "text": "{tip:Critical Injury}"
+     }
+    ],
+    "typeExtra": "<span class=\"benched crit\">Critical injury</span>"
+   }
+  ],
+  "skimbleshanks": [
+   {
+    "at": "setup",
+    "name": "Skimbleshanks",
+    "portrait": "images/fighters/skimbleshanks.jpg",
+    "type": "Ghost (Ganger, Specialist), Gunslinger",
+    "cost": "90",
+    "stats": {
+     "M": "5\"",
+     "WS": "4+",
+     "BS": "4+",
+     "S": "3",
+     "T": "3",
+     "W": "1",
+     "I": "4",
+     "A": "1",
+     "Sv": "6+",
+     "Ld": "6",
+     "Cl": "6",
+     "Wil": "7",
+     "Int": "6",
+     "XP": "13"
+    },
+    "weapons": [
+     {
+      "name": "Autopistol",
+      "profile": [
+       "4\"",
+       "12\"",
+       "3",
+       "-",
+       "1"
+      ],
+      "traits": "{tip:Light}, {tip:Rapid Fire (1)}"
+     },
+     {
+      "name": "Flechette pistol",
+      "profile": [
+       "4\"",
+       "12\"",
+       "-",
+       "-",
+       "1"
+      ],
+      "traits": "{tip:Light}, {tip:Rapid Fire (1)}, {tip:Toxin (3+)}"
+     }
+    ],
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Gunfighter}"
+     }
+    ]
+   }
+  ],
+  "mistoffelees": [
+   {
+    "at": "setup",
+    "name": "Mistoffelees",
+    "portrait": "images/fighters/mistoffelees.jpg",
+    "type": "Psy-Gheist (Prospect, Wyrd)",
+    "cost": "35",
+    "stats": {
+     "M": "6\"",
+     "WS": "5+",
+     "BS": "5+",
+     "S": "3",
+     "T": "3",
+     "W": "1",
+     "I": "4",
+     "A": "1",
+     "Sv": "6+",
+     "Ld": "5",
+     "Cl": "6",
+     "Wil": "7",
+     "Int": "5",
+     "XP": "4"
+    },
+    "weapons": [
+     {
+      "name": "Stub gun",
+      "profile": [
+       "6\"",
+       "12\"",
+       "3",
+       "-",
+       "1"
+      ],
+      "traits": "{tip:Light}"
+     }
+    ],
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Eternal Slumber}"
+     },
+     {
+      "label": "Special rules",
+      "text": "{tip:Whispers in the Dark}"
+     }
+    ]
+   },
+   {
+    "at": "1-post",
+    "cost": "95",
+    "stats": {
+     "XP": "8"
+    },
+    "foot": [
+     {
+      "label": "Wargear",
+      "text": "{tip.new-i:Psychoteric Wyrm (Rumpus)}"
+     },
+     {
+      "label": "Skills",
+      "text": "{tip:Eternal Slumber}, {tip.adv-i:Terrible Truths}"
+     },
+     {
+      "label": "Special rules",
+      "text": "{tip:Whispers in the Dark}"
+     }
+    ]
+   },
+   {
+    "at": "2.1",
+    "foot": [
+     {
+      "label": "Wargear",
+      "text": "{tip:Psychoteric Wyrm (Rumpus)}"
+     },
+     {
+      "label": "Skills",
+      "text": "{tip:Eternal Slumber}, {tip.adv-i:Terrible Truths}"
+     },
+     {
+      "label": "Special rules",
+      "text": "{tip:Whispers in the Dark}"
+     }
+    ]
+   },
+   {
+    "at": "status",
+    "stats": {
+     "XP": "10<i aria-label=\"new XP line\" class=\"up\">▲</i>"
+    },
+    "typeExtra": "<span class=\"benched lvl\">Advancement due</span>",
+    "statClass": {
+     "XP": "lvl"
+    }
+   },
+   {
+    "at": "2.2",
+    "stats": {
+     "XP": "10"
+    },
+    "typeExtra": null,
+    "statClass": null
+   }
+  ],
+  "growltiger": [
+   {
+    "at": "1-post",
+    "name": "Growltiger",
+    "nameClass": "new-i",
+    "portrait": "images/fighters/skimbleshanks.jpg",
+    "type": "Ghost (Ganger, Specialist), Gunslinger",
+    "cost": "90",
+    "stats": {
+     "M": "5\"",
+     "WS": "4+",
+     "BS": "4+",
+     "S": "3",
+     "T": "3",
+     "W": "1",
+     "I": "4",
+     "A": "1",
+     "Sv": "6+",
+     "Ld": "6",
+     "Cl": "6",
+     "Wil": "7",
+     "Int": "6",
+     "XP": "13"
+    },
+    "weapons": [
+     {
+      "name": "Autopistol",
+      "profile": [
+       "4\"",
+       "12\"",
+       "3",
+       "-",
+       "1"
+      ],
+      "traits": "{tip:Light}, {tip:Rapid Fire (1)}"
+     },
+     {
+      "name": "Flechette pistol",
+      "profile": [
+       "4\"",
+       "12\"",
+       "-",
+       "-",
+       "1"
+      ],
+      "traits": "{tip:Light}, {tip:Rapid Fire (1)}, {tip:Toxin (3+)}"
+     }
+    ],
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Gunfighter}"
+     }
+    ]
+   },
+   {
+    "at": "2.1",
+    "nameClass": null,
+    "portrait": "images/fighters/growltiger.jpg"
+   },
+   {
+    "at": "status",
+    "stats": {
+     "WS": "5+",
+     "XP": "14"
+    },
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Gunfighter}"
+     },
+     {
+      "label": "Lasting injuries",
+      "text": "{tip:Hand Injury}"
+     }
+    ],
+    "typeExtra": "<span class=\"benched\">In recovery</span>",
+    "statClass": {
+     "WS": "inj"
+    }
+   }
+  ],
+  "rumpus": [
+   {
+    "at": "1-post",
+    "name": "Rumpus",
+    "nameClass": "new-i",
+    "portrait": "images/fighters/rumpus.jpg",
+    "type": "Psychoteric Wyrm (Beast, Pet). Owner: Mistoffelees",
+    "cost": "*",
+    "stats": {
+     "M": "6\"",
+     "WS": "4+",
+     "BS": "6+",
+     "S": "2",
+     "T": "3",
+     "W": "1",
+     "I": "3",
+     "A": "1",
+     "Sv": "6+",
+     "Ld": "5",
+     "Cl": "6",
+     "Wil": "7",
+     "Int": "5",
+     "XP": "13"
+    },
+    "weapons": [
+     {
+      "name": "Ferocious jaws",
+      "profile": [
+       "E",
+       "-",
+       "S+1",
+       "-1",
+       "1"
+      ],
+      "traits": "{tip:Melee}, {tip:Rending (6+)}"
+     }
+    ],
+    "foot": [
+     {
+      "label": "Special rules",
+      "text": "{tip:Psychoteric Node}, {tip:Leash Range (12\")}, {tip:Burrowing}"
+     }
+    ]
+   },
+   {
+    "at": "2.1",
+    "nameClass": null
+   },
+   {
+    "at": "status",
+    "stats": {
+     "XP": "14"
+    }
+   }
+  ],
+  "wit": [
+   {
+    "at": "1-post",
+    "name": "Wit",
+    "nameClass": "new-i",
+    "portrait": "images/fighters/wit.jpg",
+    "type": "Whisper Merchant (Hanger-on, Support)",
+    "cost": "45",
+    "stats": {
+     "M": "5\"",
+     "WS": "5+",
+     "BS": "4+",
+     "S": "3",
+     "T": "3",
+     "W": "1",
+     "I": "3",
+     "A": "1",
+     "Sv": "6+",
+     "Ld": "5",
+     "Cl": "7",
+     "Wil": "6",
+     "Int": "8",
+     "XP": "13"
+    },
+    "weapons": [
+     {
+      "name": "Stub gun",
+      "profile": [
+       "6\"",
+       "12\"",
+       "3",
+       "-",
+       "1"
+      ],
+      "traits": "{tip:Light}"
+     }
+    ],
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Lie Low}"
+     },
+     {
+      "label": "Special rules",
+      "text": "{tip:Ally of House Delaque}, {tip:Useful Lies}"
+     },
+     {
+      "html": "<b class=\"sk\" data-tip=\"Useful Lies uses remaining. After six uses the Whisper Merchant calls in their debt: the gang must pay their Credit Cost again or remove them.\" tabindex=\"0\">Charges</b> <span aria-label=\"6 of 6 charges\" class=\"charges\">●●●●●●</span> 6 of 6"
+     }
+    ]
+   },
+   {
+    "at": "2.1",
+    "nameClass": null
+   },
+   {
+    "at": "status",
+    "stats": {
+     "XP": "15"
+    },
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Lie Low}"
+     },
+     {
+      "label": "Special rules",
+      "text": "{tip:Ally of House Delaque}, {tip:Useful Lies}"
+     },
+     {
+      "html": "<b class=\"sk\" data-tip=\"Useful Lies uses remaining. After six uses the Whisper Merchant calls in their debt: the gang must pay their Credit Cost again or remove them.\" tabindex=\"0\">Charges</b> <span aria-label=\"5 of 6 charges\" class=\"charges\">●●●●●<i>○</i></span> 5 of 6"
+     }
+    ]
+   }
+  ]
+ }
+}

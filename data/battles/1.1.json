@@ -1,0 +1,3989 @@
+{
+ "page": "battle",
+ "id": "1.1",
+ "title": "Cycle 1.1: The Pyroclave Ploy",
+ "kicker": "Ash and Shadow · Battle report",
+ "cycle": "Cycle 1.1",
+ "name": "The Pyroclave Ploy",
+ "sides": [
+  {
+   "img": "images/gangs/the-carrion-psalm.jpg",
+   "name": "The Carrion Psalm",
+   "note": "6 fighters · 775 rating"
+  },
+  {
+   "img": "images/gangs/the-midnight-theatre.jpg",
+   "name": "The Midnight Theatre",
+   "note": "5 fighters · 780 rating"
+  }
+ ],
+ "intro": [
+  "On the far side of the local dome, near the Broken Crown, an abandoned collapsed dome, lies the Pyroclave, a forgotten promethium cache that no gang currently claims. The tanks are old and the seals are weeping rust, but there is still fuel inside them, and in the underhive fuel is worth fighting over.",
+  "{t:The Midnight Theatre} know exactly what it is worth, and exactly who would want it. To the Cawdor, promethium is more than fuel. It feeds the braziers of their shrines and the sacred flames that burn away the unclean. So the Delaque let the rumour slip: a whisper in a drinking hole, a careless word overheard at a trading post. An unclaimed cache, out by the Broken Crown, there for the taking.",
+  "It reaches {p:The Carrion Psalm}, just as the Delaque meant it to. {@mordecai|Mordecai}, their Word Keeper, gathers his congregation and leads them out across the dome to claim it in the Emperor's name. In the ruins to the west, the Theatre are already waiting. The cache is the bait. The Psalm are the prey."
+ ],
+ "introHeading": "Intro",
+ "setup": {
+  "facts": [
+   [
+    "At stake",
+    "Unclaimed promethium cache"
+   ],
+   [
+    "Battlefield effect",
+    "Improve Blaze (X) effects by one"
+   ],
+   [
+    "Challenger",
+    "{p:The Carrion Psalm}"
+   ],
+   [
+    "Table",
+    "2' × 2' - Deployment on board edges"
+   ],
+   [
+    "Deployment",
+    "Sniping Range: the winner of a roll-off picks a battlefield edge and their opponent takes the opposite one. Each gang deploys between its own edge and a line 12\" from the centre line. On a 2' table that leaves just the edges, 24\" apart."
+   ],
+   [
+    "Objective",
+    "King of the Hive: one objective sits at the centre of the battlefield. In the Check for Victory step of each End phase it scores 1 VP for the gang controlling it, and the first gang to 3 VP wins. If only one gang still has models on the battlefield, they win; if neither does, it is a draw."
+   ],
+   [
+    "Psalm side quest",
+    "{p:Protect the Future:} once both crews are deployed, one of your Prospects is picked at random (or a Ganger if there are none). If they are still on the battlefield when the battle ends, the side job is done."
+   ],
+   [
+    "Theatre side quest",
+    "{t:Crippling Strike:} if, in the Check for Victory step of any End phase, at least half of the enemy models on the battlefield are Seriously Injured or Engaged, the side job is done."
+   ],
+   [
+    "Crews",
+    "Strike Force: Both gangs use Custom (5)<br/>{p:Psalm:} 6 fighters, 775 rating, including Ratsong as an extra Bonepicker from Without Number<br/>{t:Theatre:} 5 fighters, 780 rating"
+   ]
+  ],
+  "blocks": [
+   {
+    "photo": {
+     "src": "images/1.1/photo-01.jpg",
+     "alt": "The 2 foot by 2 foot mat dressed with gothic ruins, shipping containers, walkways and a raised circular platform near the middle.",
+     "caption": "The promethium cache known as the Pyroclave."
+    }
+   }
+  ]
+ },
+ "setupAfter": [],
+ "gangs": [
+  {
+   "class": "psalm",
+   "portrait": "images/gangs/the-carrion-psalm.jpg",
+   "name": "The Carrion Psalm",
+   "house": "House Cawdor",
+   "blocks": [
+    {
+     "photo": {
+      "src": "images/1.1/photo-02.jpg",
+      "alt": "The six Carrion Psalm fighters in red and yellow robes, posed on the platform with Deus and Amen on the right."
+     }
+    },
+    {
+     "sheet": [
+      [
+       "Rating",
+       "1000"
+      ],
+      [
+       "Reputation",
+       "2"
+      ],
+      [
+       "Credits",
+       "0"
+      ],
+      [
+       "Trade points",
+       "0"
+      ],
+      [
+       "Wealth",
+       "1000"
+      ],
+      [
+       "Gang size",
+       "8"
+      ]
+     ],
+     "class": ""
+    },
+    {
+     "assets": [
+      {
+       "label": "Territories",
+       "chips": [
+        {
+         "tip": "Settlement"
+        },
+        {
+         "tip": "Generatorium"
+        }
+       ]
+      },
+      {
+       "label": "Gang tactics",
+       "chips": [
+        {
+         "tip": "Suppressing Fire"
+        },
+        {
+         "tip": "Hidden Stash",
+         "used": true,
+         "usedLabel": "Used"
+        },
+        {
+         "tip": "Adrenaline Surge"
+        },
+        {
+         "tip": "Grenade Bouquet"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "panel": "Crew (6)",
+     "class": "crew-panel",
+     "fighters": [
+      {
+       "id": "mordecai"
+      },
+      {
+       "id": "ezekiel-crows"
+      },
+      {
+       "id": "vermin-pyre"
+      },
+      {
+       "id": "gutter-cantor"
+      },
+      {
+       "id": "ratsong"
+      },
+      {
+       "id": "deus-and-amen"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "class": "theatre",
+   "portrait": "images/gangs/the-midnight-theatre.jpg",
+   "name": "The Midnight Theatre",
+   "house": "House Delaque",
+   "blocks": [
+    {
+     "photo": {
+      "src": "images/1.1/photo-03.jpg",
+      "alt": "The five Midnight Theatre fighters in long dark coats, posed on the platform among barrels and crates."
+     }
+    },
+    {
+     "sheet": [
+      [
+       "Rating",
+       "1000"
+      ],
+      [
+       "Reputation",
+       "1"
+      ],
+      [
+       "Credits",
+       "0"
+      ],
+      [
+       "Trade points",
+       "0"
+      ],
+      [
+       "Wealth",
+       "1000"
+      ],
+      [
+       "Gang size",
+       "8"
+      ]
+     ],
+     "class": ""
+    },
+    {
+     "assets": [
+      {
+       "label": "Territories",
+       "chips": [
+        {
+         "tip": "Settlement"
+        },
+        {
+         "tip": "Rogue Doc Shop"
+        }
+       ]
+      },
+      {
+       "label": "Gang tactics",
+       "chips": [
+        {
+         "tip": "You!"
+        },
+        {
+         "tip": "Crossfire"
+        },
+        {
+         "tip": "Adrenaline Surge"
+        },
+        {
+         "tip": "Thunderous Charge",
+         "used": true,
+         "usedLabel": "Used"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "panel": "Crew (5)",
+     "class": "crew-panel",
+     "fighters": [
+      {
+       "id": "deuteronomy"
+      },
+      {
+       "id": "demeter"
+      },
+      {
+       "id": "macavity"
+      },
+      {
+       "id": "rumpleteaser"
+      },
+      {
+       "id": "jellylorum"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "rounds": [
+  {
+   "id": "deployment",
+   "no": "",
+   "title": "Deployment",
+   "blocks": [
+    {
+     "text": [
+      "{p:The Carrion Psalm} approach from the east, through the ruined factory buildings and past an old promethium tank. {@mordecai|Mordecai} expects snipers covering the approach, but finds the ruined tower empty.",
+      "{t:The Midnight Theatre} lie in wait in the shadows of the old Gothic ruins to the west of the fuel cache. {@macavity|Macavity}'s not there. He's already slipped into the dark, flanking the Cawdor as they near, ready to strike From the Shadows."
+     ]
+    },
+    {
+     "map": {
+      "viewBox": "-14 -24 628 668",
+      "label": "Top-down map of the deployment on opposite table edges.",
+      "items": [
+       {
+        "board": "terrain"
+       },
+       {
+        "el": [
+         "text",
+         {
+          "class": "m-c",
+          "x": "300",
+          "y": "267.5"
+         },
+         "Cache"
+        ]
+       },
+       {
+        "el": [
+         "text",
+         {
+          "class": "m-lab",
+          "x": "325",
+          "y": "373.75"
+         },
+         "Raised platform"
+        ]
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 182.5,
+         "y": 580,
+         "t": "DA",
+         "r": 19
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 300,
+         "y": 587.5,
+         "t": "Ez"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 332.5,
+         "y": 587.5,
+         "t": "M"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 357.5,
+         "y": 587.5,
+         "t": "V"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 417.5,
+         "y": 587.5,
+         "t": "G"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 447.5,
+         "y": 587.5,
+         "t": "R"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 127.5,
+         "y": 12.5,
+         "t": "De"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 157.5,
+         "y": 12.5,
+         "t": "Dm"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 265,
+         "y": 12.5,
+         "t": "Rt"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 292.5,
+         "y": 12.5,
+         "t": "J"
+        }
+       },
+       {
+        "board": "ticks"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "round-1",
+   "no": "1",
+   "title": "Round 1: The trap is sprung",
+   "blocks": [
+    {
+     "split": [
+      "tall",
+      "none"
+     ],
+     "text": [
+      "The silence is broken by the whir of plasma coils charging.",
+      "Seeing the glow behind a barricade directly ahead, {@mordecai|Mordecai} moves off to the left to stay out of the line of fire. He leaves {@deus-and-amen|Deus and Amen} to deal with the threat. {@ezekiel-crows|Ezekiel} takes the lead, advancing on the platform as the most likely location for the cache. He takes {@vermin-pyre|Vermin Pyre} with him: he'll know the good promethium cylinders when he sees them.",
+      "{@gutter-cantor|Gutter Cantor} is tasked with guiding the gang's newest prospect, {@ratsong|Ratsong}, and they move through the ruins to investigate the cargo containers.",
+      "Meanwhile {@rumpleteaser|Rumpleteaser} glances to {@jellylorum|Jellylorum} next to him and silently curses as he misjudges his shot and overcharges the plasma gun. He ducks back behind the barricade, cycling the coolant through the coils.",
+      "{@demeter|Demeter} and {@deuteronomy|Deuteronomy} move through the ruins to get into position.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "rumpleteaser",
+        "name": "Rumpleteaser - Plasma Gun",
+        "result": "Rumpleteaser suppressed, Out of Ammo",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "1 f2",
+          "result": "Unstable!"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "2",
+          "result": "Suppressed",
+          "resultClass": "sup"
+         },
+         {
+          "label": "Ammo (6+)",
+          "dice": "5",
+          "result": "Out of Ammo",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: Rumpleteaser uses Hip-shooting to rush to the barricade and fire on Mordecai."
+         }
+        ]
+       }
+      }
+     ],
+     "ports": []
+    },
+    {
+     "endsHead": "Positions at the end of round 1"
+    },
+    {
+     "ends": [
+      {
+       "src": "images/1.1/photo-04.jpg",
+       "alt": "Two pairs of Delaque miniatures among the ruins, either side of the raised platform.",
+       "caption": "The Midnight Theatre lay the trap…"
+      },
+      {
+       "src": "images/1.1/photo-05.jpg",
+       "alt": "Cawdor miniatures advancing in two groups either side of a ruined tower, with Delaque miniatures in the distance beyond the platform.",
+       "caption": "…and the Carrion Psalm are drawn in like rats."
+      }
+     ]
+    },
+    {
+     "map": {
+      "viewBox": "-14 -24 628 668",
+      "label": "Top-down map of fighter positions at the end of round 1.",
+      "caption": {
+       "key": [
+        [
+         "s",
+         "S",
+         "Suppressed"
+        ],
+        [
+         "a",
+         "A",
+         "Out of ammo"
+        ]
+       ]
+      },
+      "items": [
+       {
+        "board": "terrain"
+       },
+       {
+        "el": [
+         "text",
+         {
+          "class": "m-c",
+          "x": "300",
+          "y": "267.5"
+         },
+         "Cache"
+        ]
+       },
+       {
+        "el": [
+         "text",
+         {
+          "class": "m-lab",
+          "x": "325",
+          "y": "373.75"
+         },
+         "Raised platform"
+        ]
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 235,
+         "y": 497.5,
+         "t": "M"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 190,
+         "y": 457.5,
+         "t": "Ez"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 210,
+         "y": 482.5,
+         "t": "V"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 495,
+         "y": 520,
+         "t": "G"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 515,
+         "y": 480,
+         "t": "R"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 332.5,
+         "y": 577.5,
+         "t": "DA",
+         "r": 19
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 130,
+         "y": 117.5,
+         "t": "De"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 157.5,
+         "y": 107.5,
+         "t": "Dm"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 352.5,
+         "y": 175,
+         "t": "Rt"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 387.5,
+         "y": 155,
+         "t": "J"
+        }
+       },
+       {
+        "b": {
+         "k": "s",
+         "x": 343.0,
+         "y": 189.7,
+         "t": "S"
+        }
+       },
+       {
+        "b": {
+         "k": "a",
+         "x": 335.0,
+         "y": 175.7,
+         "t": "A"
+        }
+       },
+       {
+        "board": "ticks"
+       }
+      ]
+     }
+    },
+    {
+     "vp": "End phase: nobody reached the Cache, so no VP. Score <b>0–0</b>."
+    }
+   ]
+  },
+  {
+   "id": "round-2",
+   "no": "2",
+   "title": "Round 2: Closing in",
+   "blocks": [
+    {
+     "split": [
+      "tall",
+      "two"
+     ],
+     "text": [
+      "{@macavity|Macavity} stays out of sight, working his way round behind the Cawdor lines.",
+      "{@deus-and-amen|Deus} swings Amen round to face the barricade and opens up with the twin-linked stubber.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "deus",
+        "name": "Deus and Amen - Twin-linked Heavy Stubber",
+        "result": "Miss, Out of Ammo",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "2 f1a f2",
+          "result": "Miss, Out of Ammo",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: Bulging Biceps to move at Initiative and fire a heavy weapon. Twin-link allowed a re-roll of the Rapid Fire dice."
+         }
+        ]
+       }
+      },
+      "The rounds rattle off the barricade without finding a Delaque until the stubber jams.",
+      "When {@deus-and-amen|Deus}'s gun stops firing, {@jellylorum|Jellylorum} leans out from the barricade to cover {@rumpleteaser|Rumpleteaser} while he gets his plasma gun working again.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "jellylorum",
+        "name": "Jellylorum - Lasgun",
+        "result": "Saved",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "5",
+          "result": "Hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (5+)",
+          "dice": "6",
+          "result": "Wounds"
+         },
+         {
+          "label": "Save (6+ +1 cover)",
+          "dice": "5",
+          "result": "Saved",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: Juggernaut prevents suppression."
+         }
+        ]
+       }
+      },
+      "The las-bolt hits {@deus-and-amen|Amen} square in the chest, but the Stig-Shambler barely notices.",
+      "On the right flank, {@gutter-cantor|Gutter Cantor} and {@ratsong|Ratsong} push forward between the containers.",
+      "On the far side, {@demeter|Demeter} climbs into the Gothic ruin to find a sniper's perch. {@ezekiel-crows|Ezekiel Crows} spots him against the stonework and fires his autopistol.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "ezekiel",
+        "name": "Ezekiel - Autopistol",
+        "result": "Demeter takes a wound and is suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "To Hit (3+)",
+          "dice": "4 f2",
+          "result": "Two hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (4+)",
+          "dice": "4 6",
+          "result": "Two wounds"
+         },
+         {
+          "label": "Save (5+ +2 cover)",
+          "dice": "2 5",
+          "result": "Takes a wound and is suppressed",
+          "resultClass": "sup"
+         }
+        ]
+       }
+      },
+      "{@demeter|Demeter} ducks back behind the rubble, wounded. {@mordecai|Mordecai} and {@vermin-pyre|Vermin Pyre} reach the foot of the near ladder, ready to climb up and claim the Cache.",
+      "On the opposite side, {@deuteronomy|Deuteronomy} reaches the foot of the other ladder. Both gangs are now one climb away from the prize."
+     ],
+     "ports": [
+      {
+       "src": "images/1.1/photo-06.jpg",
+       "alt": "View past a blurred Deus and Amen, along the side of the central tower, to two Delaque miniatures behind a barricade.",
+       "class": "port",
+       "caption": "Deus empties his twin heavy stubbers."
+      },
+      {
+       "src": "images/1.1/photo-07.jpg",
+       "alt": "A Delaque sniper on top of the Gothic ruin, seen through the framework of the stairs.",
+       "class": "port",
+       "caption": "Ezekiel spots the Delaque sniper."
+      }
+     ]
+    },
+    {
+     "endsHead": "Positions at the end of round 2"
+    },
+    {
+     "map": {
+      "viewBox": "-14 -24 628 668",
+      "label": "Top-down map of fighter positions at the end of round 2.",
+      "caption": {
+       "key": [
+        [
+         "a",
+         "A",
+         "Out of ammo"
+        ],
+        [
+         "w",
+         "W",
+         "Wounded"
+        ],
+        [
+         "s",
+         "S",
+         "Suppressed"
+        ]
+       ]
+      },
+      "items": [
+       {
+        "board": "terrain"
+       },
+       {
+        "el": [
+         "text",
+         {
+          "class": "m-c",
+          "x": "300",
+          "y": "267.5"
+         },
+         "Cache"
+        ]
+       },
+       {
+        "el": [
+         "text",
+         {
+          "class": "m-lab",
+          "x": "325",
+          "y": "373.75"
+         },
+         "Raised platform"
+        ]
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 275,
+         "y": 427.5,
+         "t": "M"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 240,
+         "y": 415,
+         "t": "Ez"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 310,
+         "y": 425,
+         "t": "V"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 492.5,
+         "y": 340,
+         "t": "G"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 520,
+         "y": 355,
+         "t": "R"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 332.5,
+         "y": 505,
+         "t": "DA",
+         "r": 19
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 300,
+         "y": 176.25,
+         "t": "De"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 122.5,
+         "y": 177.5,
+         "t": "Dm"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 355,
+         "y": 172.5,
+         "t": "Rt"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 380,
+         "y": 157.5,
+         "t": "J"
+        }
+       },
+       {
+        "b": {
+         "k": "a",
+         "x": 354.8,
+         "y": 496.0,
+         "t": "A"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 133.9,
+         "y": 164.2,
+         "t": "W"
+        }
+       },
+       {
+        "b": {
+         "k": "s",
+         "x": 139.9,
+         "y": 179.2,
+         "t": "S"
+        }
+       },
+       {
+        "board": "ticks"
+       }
+      ]
+     }
+    },
+    {
+     "vp": "End phase: nobody reached the Cache, so no VP. Score <b>0–0</b>."
+    }
+   ]
+  },
+  {
+   "id": "round-3",
+   "no": "3",
+   "title": "Round 3: From the shadows",
+   "blocks": [
+    {
+     "split": [
+      "tall",
+      "two"
+     ],
+     "text": [
+      "With every Cawdor eye on the platform, {@macavity|Macavity} finally shows himself, stepping out of the shadows behind the Psalm's line.",
+      "{@deus-and-amen|Deus} clears the jam and turns the stubber back on the barricade.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "deus",
+        "name": "Deus and Amen - Twin-linked Heavy Stubber",
+        "result": "Rumpleteaser seriously injured",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "4 f1 f2",
+          "result": "Three hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "3 5 5",
+          "result": "Three wounds"
+         },
+         {
+          "label": "Save (6+ +1 cover AP -1)",
+          "dice": "6 6 2",
+          "result": "Takes a wound"
+         },
+         {
+          "label": "Injury roll",
+          "dice": "si",
+          "result": "Serious Injury"
+         },
+         {
+          "note": "Note: Used Hidden Stash for a free reload action. Bulging Biceps to move at Initiative and fire a heavy weapon. Twin-linked to re-roll the Rapid Fire dice."
+         }
+        ]
+       }
+      },
+      "This time the burst finds {@rumpleteaser|Rumpleteaser}, and he slumps against the barricade. {@jellylorum|Jellylorum}, right beside him, holds his nerve.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "jellylorum",
+        "name": "Jellylorum - Nerve Check",
+        "result": "Holds",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "Cool 6",
+          "dice": "2 3",
+          "result": "Passes",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Rules note: I got this wrong. Nerve tests should only be taken when a friendly fighter is taken Out of Action, not Seriously Injured, so this test should not have happened."
+         }
+        ]
+       }
+      },
+      "{@macavity|Macavity} goes for the nearest Cawdor, but it's further than it looked from the shadows, and the charge falls short. He's left standing among the Psalm with nowhere to hide.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "macavity",
+        "name": "Macavity - Charge",
+        "result": "1\" short",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "Target (4+)",
+          "dice": "2 3",
+          "result": "1\" short",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: Used the Thunderous Charge tactic to roll 2D6 and pick one."
+         }
+        ]
+       }
+      },
+      "{@demeter|Demeter} is still pinned in the ruin and can't help him. {@ezekiel-crows|Ezekiel} turns and charges the Nacht-Ghul, cleaver raised.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "ezekiel",
+        "name": "Ezekiel Crows - Charge",
+        "result": "Macavity injured",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "note": "Initiative 3 +2 charge bonus"
+         },
+         {
+          "h6": "Autopistol"
+         },
+         {
+          "label": "To Hit (3+)",
+          "dice": "5",
+          "result": "Hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (4+)",
+          "dice": "6",
+          "result": "Wounds"
+         },
+         {
+          "label": "Save (5+)",
+          "dice": "3",
+          "result": "Causes one wound"
+         },
+         {
+          "h6": "Cleaver"
+         },
+         {
+          "label": "To Hit (3+)",
+          "dice": "3 4 6",
+          "result": "Three hits and Knockback",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "4 5 5",
+          "result": "Three wounds"
+         },
+         {
+          "label": "Save (5+ AP -1)",
+          "dice": "2 3 6",
+          "result": "Two wounds caused"
+         },
+         {
+          "label": "Injury",
+          "dice": "fw fw fw fw",
+          "result": "Injured",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: Bull Charge for +1 Strength and Knockback (6+) on the charge. Lethality 2 hits."
+         }
+        ]
+       }
+      },
+      {
+       "roll": {
+        "side": "t",
+        "face": "macavity",
+        "name": "Macavity - Serpent's Fangs",
+        "result": "Ezekiel takes a wound",
+        "rows": [
+         {
+          "note": "Initiative 5"
+         },
+         {
+          "h6": "Serpent's Fangs"
+         },
+         {
+          "label": "To Hit (3+)",
+          "dice": "5",
+          "result": "Hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+ Toxin)",
+          "dice": "4",
+          "result": "Wounds"
+         },
+         {
+          "label": "Save (5+ AP -3)",
+          "dice": "",
+          "result": "Causes one wound"
+         }
+        ]
+       }
+      },
+      "Both of them draw blood. {@mordecai|Mordecai} sees his chance to finish {@macavity|Macavity} off and charges in with his chainglaive.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "macavity",
+        "name": "Macavity - Serpent's Fangs",
+        "result": "Mordecai takes a wound",
+        "rows": [
+         {
+          "note": "Initiative 5"
+         },
+         {
+          "h6": "Serpent's Fangs"
+         },
+         {
+          "label": "To Hit (3+)",
+          "dice": "3",
+          "result": "Hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+ Toxin)",
+          "dice": "5",
+          "result": "Wounds"
+         },
+         {
+          "label": "Save (5+ +1 Parry AP -3)",
+          "dice": "",
+          "result": "Causes one wound"
+         }
+        ]
+       }
+      },
+      {
+       "roll": {
+        "side": "p",
+        "face": "mordecai",
+        "name": "Mordecai - Chainglaive",
+        "result": "Fails to wound",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "note": "Initiative 1 +2 charge bonus"
+         },
+         {
+          "label": "To Hit (3+)",
+          "dice": "2 3 6",
+          "result": "Two hits and Knockback",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "1 2",
+          "result": "Fails to wound",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: Unwieldy strikes at Initiative 1."
+         }
+        ]
+       }
+      },
+      "{@macavity|Macavity} is too quick for him. He twists away from the glaive and cuts {@mordecai|Mordecai} in return. Back at the barricade, {@jellylorum|Jellylorum} drags {@rumpleteaser|Rumpleteaser} back to his feet.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "rumpleteaser",
+        "name": "Rumpleteaser - Recovery",
+        "result": "Recovers",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "Recovery",
+          "dice": "fw fw si",
+          "result": "Recovers",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: +1 die from the Tend Wounds action, +1 die from Jellylorum assisting."
+         }
+        ]
+       }
+      },
+      "{@gutter-cantor|Gutter Cantor} leaves {@ratsong|Ratsong} behind the containers and climbs onto their roof. From up there he can see {@deuteronomy|Deuteronomy} at the foot of the far ladder, and he opens fire.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "cantor",
+        "name": "Gutter Cantor - Polearm/Autogun",
+        "result": "Deuteronomy suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "4 f1",
+          "result": "Hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (4+)",
+          "dice": "3",
+          "result": "Suppressed",
+          "resultClass": "sup"
+         }
+        ]
+       }
+      },
+      "{@jellylorum|Jellylorum} turns his lasgun on {@deus-and-amen|Deus and Amen}, but the Stig-Shambler shrugs off the hit.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "jellylorum",
+        "name": "Jellylorum - Lasgun",
+        "result": "Fails to wound",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "5",
+          "result": "Hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (5+)",
+          "dice": "4",
+          "result": "Fails to wound",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: Juggernaut prevents suppression."
+         }
+        ]
+       }
+      },
+      "{@deuteronomy|Deuteronomy} climbs the ladder anyway and stands at the edge of the platform. He reaches into the Warp to wrap himself in a Perfect Void, but the Warp bites back and he staggers.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "deuteronomy",
+        "name": "Deuteronomy - Perfect Void",
+        "result": "Manifested and suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "Willpower 9",
+          "dice": "1 1",
+          "result": "Manifests with Perils"
+         },
+         {
+          "label": "Perils",
+          "dice": "1",
+          "result": "Warp Surge! Suffers a S4 AP -2 L1 hit"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "2",
+          "result": "Suppressed",
+          "resultClass": "sup"
+         },
+         {
+          "note": "Rules note: I got this wrong. Deuteronomy should have taken a Maintain (Single) action for the Continuous Effect to persist after his activation."
+         }
+        ]
+       }
+      },
+      "On the other ladder, {@vermin-pyre|Vermin Pyre} reaches the top, levels his flamer across the platform at {@deuteronomy|Deuteronomy} and opens fire.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "vermin",
+        "name": "Vermin Pyre - Flamer/Polearm",
+        "result": "Deuteronomy takes a wound, Out of Ammo",
+        "rows": [
+         {
+          "label": "To Wound (3+)",
+          "dice": "5 2",
+          "result": "Hit",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "Save (5+ +2 cover)",
+          "dice": "2",
+          "result": "One wound caused"
+         },
+         {
+          "label": "Ammo (6+)",
+          "dice": "5",
+          "result": "Out of Ammo",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: Blaze (4+) causes an extra hit. +2 cover from Perfect Void."
+         }
+        ]
+       }
+      },
+      "The flames catch {@deuteronomy|Deuteronomy} and Vermin's tank runs dry. From the Gothic ruin, {@demeter|Demeter} finally gets a clear shot at the wounded {@ezekiel-crows|Ezekiel}.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "demeter",
+        "name": "Demeter - Long Rifle",
+        "result": "Ezekiel suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "To Hit (3+)",
+          "dice": "5",
+          "result": "Hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "1",
+          "result": "Suppressed",
+          "resultClass": "sup"
+         }
+        ]
+       }
+      }
+     ],
+     "ports": [
+      {
+       "src": "images/1.1/photo-08.jpg",
+       "alt": "Macavity at the very edge of the table, with the stairs and distant Cawdor fighters ahead of him.",
+       "class": "port",
+       "caption": "Macavity emerges from the shadows."
+      },
+      {
+       "src": "images/1.1/photo-09.jpg",
+       "alt": "Deus and Amen seen from behind, aiming the stubber past the central tower with Vermin Pyre beside him.",
+       "class": "port",
+       "caption": "Deus takes down Rumpleteaser."
+      }
+     ]
+    },
+    {
+     "endsHead": "The fight at the barricade"
+    },
+    {
+     "ends": [
+      {
+       "src": "images/1.1/photo-10.jpg",
+       "alt": "Close-up of Macavity and Ezekiel Crows fighting beside the barricade.",
+       "caption": "Macavity and Ezekiel Crows in combat."
+      }
+     ],
+     "class": "single"
+    },
+    {
+     "endsHead": "Positions at the end of round 3"
+    },
+    {
+     "photo": {
+      "src": "images/1.1/photo-11.jpg",
+      "alt": "The whole table at the end of round 3, with Vermin Pyre and Deuteronomy on the platform and the fight at the barricade in the corner.",
+      "caption": "The whole table at the end of round 3."
+     }
+    },
+    {
+     "map": {
+      "viewBox": "-14 -24 628 668",
+      "label": "Top-down map of fighter positions at the end of round 3.",
+      "caption": {
+       "key": [
+        [
+         "w",
+         "W",
+         "Wounded"
+        ],
+        [
+         "s",
+         "S",
+         "Suppressed"
+        ],
+        [
+         "a",
+         "A",
+         "Out of ammo"
+        ],
+        [
+         "i",
+         "I",
+         "Injured, 0 wounds"
+        ],
+        [
+         "v",
+         "V",
+         "Perfect Void"
+        ]
+       ]
+      },
+      "items": [
+       {
+        "board": "terrain"
+       },
+       {
+        "el": [
+         "text",
+         {
+          "class": "m-c",
+          "x": "300",
+          "y": "267.5"
+         },
+         "Cache"
+        ]
+       },
+       {
+        "el": [
+         "text",
+         {
+          "class": "m-lab",
+          "x": "325",
+          "y": "373.75"
+         },
+         "Raised platform"
+        ]
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 250,
+         "y": 435,
+         "t": "M"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 227.5,
+         "y": 410,
+         "t": "Ez"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 302.5,
+         "y": 335,
+         "t": "V"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 442.5,
+         "y": 287.5,
+         "t": "G"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 492.5,
+         "y": 350,
+         "t": "R"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 335,
+         "y": 430,
+         "t": "DA",
+         "r": 19
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 300,
+         "y": 231.25,
+         "t": "De"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 122.5,
+         "y": 177.5,
+         "t": "Dm"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 222.5,
+         "y": 440,
+         "t": "Mc"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 355,
+         "y": 172.5,
+         "t": "Rt"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 380,
+         "y": 157.5,
+         "t": "J"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 267.2,
+         "y": 431.9,
+         "t": "W"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 222.1,
+         "y": 393.4,
+         "t": "W"
+        }
+       },
+       {
+        "b": {
+         "k": "s",
+         "x": 238.0,
+         "y": 396.0,
+         "t": "S"
+        }
+       },
+       {
+        "b": {
+         "k": "a",
+         "x": 318.7,
+         "y": 328.4,
+         "t": "A"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 311.4,
+         "y": 217.9,
+         "t": "W"
+        }
+       },
+       {
+        "b": {
+         "k": "s",
+         "x": 317.4,
+         "y": 232.9,
+         "t": "S"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 138.7,
+         "y": 170.9,
+         "t": "W"
+        }
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 205.3,
+         "y": 443.1,
+         "t": "I"
+        }
+       },
+       {
+        "board": "ticks"
+       },
+       {
+        "b": {
+         "k": "v",
+         "x": 285.0,
+         "y": 225.2,
+         "t": "V",
+         "ty": 229.1
+        }
+       }
+      ]
+     }
+    },
+    {
+     "vp": "End phase: the Psalm scored 1 VP at the Cache. Score <b>1–0</b> to the Psalm."
+    }
+   ]
+  },
+  {
+   "id": "round-4",
+   "no": "4",
+   "title": "Round 4: First blood",
+   "blocks": [
+    {
+     "split": [
+      "tall",
+      "none"
+     ],
+     "text": [
+      "{@macavity|Macavity} doesn't wait for the Psalm to regroup. He turns from {@ezekiel-crows|Ezekiel} and goes for {@mordecai|Mordecai}, who is already bleeding from their last exchange.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "macavity",
+        "name": "Macavity - Serpent's Fangs",
+        "result": "Mordecai out of action",
+        "rows": [
+         {
+          "note": "Initiative 5 +2 charge bonus"
+         },
+         {
+          "h6": "Serpent's Fangs"
+         },
+         {
+          "label": "To Hit (3+)",
+          "dice": "1 2 3 4 5 6",
+          "result": "Four hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+ Toxin)",
+          "dice": "1 2 5 6",
+          "result": "Two wounds"
+         },
+         {
+          "label": "Save (5+ +1 Parry AP -3)",
+          "dice": "",
+          "result": "Two wounds caused"
+         },
+         {
+          "label": "Injury",
+          "dice": "ooa",
+          "result": "Out of Action"
+         },
+         {
+          "note": "Note: Mordecai suffers the Personal Enmity lasting injury."
+         }
+        ],
+        "n": 4
+       }
+      },
+      "The fangs find their mark and the Word Keeper goes down. Losing their leader shakes the Psalm, but {@ezekiel-crows|Ezekiel}, wounded beside him, holds his ground.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "ezekiel",
+        "name": "Ezekiel Crows - Nerve Check",
+        "result": "Holds",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "Cool 7",
+          "dice": "3 2",
+          "result": "Passes",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "{@deus-and-amen|Deus} wants revenge. He drags Amen round towards the Nacht-Ghul and fires the stubber.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "deus",
+        "name": "Deus and Amen - Twin-linked Heavy Stubber",
+        "result": "Misses",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "2 f2 f3",
+          "result": "Misses",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: Uses Bulging Biceps to move at Initiative and fire a heavy weapon."
+         }
+        ]
+       }
+      },
+      "Up in the Gothic ruin, {@demeter|Demeter} takes careful aim at {@ezekiel-crows|Ezekiel}.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "demeter",
+        "name": "Demeter - Long Rifle",
+        "result": "Ezekiel seriously injured",
+        "rows": [
+         {
+          "label": "To Hit (3+ +1 aim)",
+          "dice": "4",
+          "result": "Hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "5",
+          "result": "Wounds"
+         },
+         {
+          "label": "Save (5+ +1 cover AP -1)",
+          "dice": "4",
+          "result": "Causes one wound"
+         },
+         {
+          "label": "Injury",
+          "dice": "si",
+          "result": "Seriously Injured"
+         }
+        ]
+       }
+      },
+      "{@ezekiel-crows|Ezekiel} goes down. On the platform, {@vermin-pyre|Vermin Pyre} slams a fresh canister into his flamer and turns it on {@deuteronomy|Deuteronomy} again.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "vermin",
+        "name": "Vermin Pyre - Flamer/Polearm",
+        "result": "Deuteronomy takes a wound and is suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "To Wound (3+)",
+          "dice": "4 2",
+          "result": "Wounds"
+         },
+         {
+          "label": "Save (5+ +2 cover AP -1)",
+          "dice": "3",
+          "result": "Causes one wound and Suppressed",
+          "resultClass": "sup"
+         },
+         {
+          "note": "Note: Blaze (4+) causes an extra hit. +2 cover from Perfect Void."
+         }
+        ]
+       }
+      },
+      "Burnt and pinned at the edge of the platform, {@deuteronomy|Deuteronomy} tries to keep hold of the Perfect Void.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "deuteronomy",
+        "name": "Deuteronomy - Maintain Power",
+        "result": "Deuteronomy takes a wound, is injured and suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "Willpower 9",
+          "dice": "1 1",
+          "result": "Maintains, but suffers Perils of the Warp"
+         },
+         {
+          "label": "Perils",
+          "dice": "1",
+          "result": "Warp Surge! Suffers a S4 AP -2 L1 hit"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "4",
+          "result": "Wounds"
+         },
+         {
+          "label": "Save (5+ AP -2)",
+          "dice": "",
+          "result": "One wound caused"
+         },
+         {
+          "label": "Injury",
+          "dice": "fw",
+          "result": "Injured",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "The Warp hits him again and he drops to his knees, but he still raises his flechette pistol and fires back at {@vermin-pyre|Vermin Pyre}.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "deuteronomy",
+        "name": "Deuteronomy - Flechette Pistol",
+        "result": "Vermin Pyre out of action",
+        "rows": [
+         {
+          "label": "To Hit (3+)",
+          "dice": "4 f3",
+          "result": "Three hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+ Toxin)",
+          "dice": "3 5 5",
+          "result": "Three wounds"
+         },
+         {
+          "label": "Save (6+)",
+          "dice": "3 5 5",
+          "result": "Takes three wounds"
+         },
+         {
+          "label": "Injury",
+          "dice": "ooa fw fw",
+          "result": "Out of Action"
+         },
+         {
+          "note": "Note: Vermin Pyre suffers the Hobbled lasting injury."
+         }
+        ]
+       }
+      },
+      "The poison does its work and Vermin Pyre falls from the platform. Below it, {@ezekiel-crows|Ezekiel} crawls into cover and gets himself back up.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "ezekiel",
+        "name": "Ezekiel Crows - Recovery",
+        "result": "Recovers",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "Recovery",
+          "dice": "fw si",
+          "result": "Recovers",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: +1 die from the Tend Wounds action."
+         }
+        ]
+       }
+      },
+      "{@rumpleteaser|Rumpleteaser} is back in the fight. With {@deus-and-amen|Deus} busy with {@macavity|Macavity}, he fires his plasma gun at the Stig-Shambler.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "rumpleteaser",
+        "name": "Rumpleteaser - Plasma Gun",
+        "result": "Deus and Amen take two wounds and are suppressed, weapon jammed",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "5 f1a",
+          "result": "One hit",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "Ammo (6+)",
+          "dice": "1",
+          "result": "Weapon jammed",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "4",
+          "result": "Wounds"
+         },
+         {
+          "label": "Save (6+ +1 cover AP -2)",
+          "dice": "",
+          "result": "Causes two wounds and Suppressed"
+         }
+        ]
+       }
+      },
+      "The bolt hits {@deus-and-amen|Deus and Amen} hard, but the heat of the shot has warped the coils out of alignment. The plasma gun can no longer hold a charge. {@gutter-cantor|Gutter Cantor} creeps to the edge of the container roof and fires down at {@rumpleteaser|Rumpleteaser}.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "cantor",
+        "name": "Gutter Cantor - Polearm/Autogun",
+        "result": "Misses",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "3 f1",
+          "result": "Misses",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "{@jellylorum|Jellylorum} fires back from the barricade, forcing {@gutter-cantor|Gutter Cantor} flat against the roof.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "jellylorum",
+        "name": "Jellylorum - Lasgun",
+        "result": "Gutter Cantor suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "5",
+          "result": "Hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (4+)",
+          "dice": "1",
+          "result": "Suppressed",
+          "resultClass": "sup"
+         }
+        ]
+       }
+      },
+      "{@ratsong|Ratsong} darts between the containers to take a shot at {@jellylorum|Jellylorum}, but his stub gun doesn't have the range.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "ratsong",
+        "name": "Ratsong - Stub Gun",
+        "result": "Misses",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (5+)",
+          "dice": "3",
+          "result": "Misses",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      }
+     ],
+     "ports": []
+    },
+    {
+     "endsHead": "The fight at the barricade"
+    },
+    {
+     "ends": [
+      {
+       "src": "images/1.1/photo-12.jpg",
+       "alt": "Macavity standing over the fallen Mordecai by the barricade, with Deus and Amen aiming in the foreground and Demeter on the Gothic ruin behind.",
+       "caption": "Mordecai falls to Macavity."
+      }
+     ],
+     "class": "single"
+    },
+    {
+     "endsHead": "Positions at the end of round 4"
+    },
+    {
+     "map": {
+      "viewBox": "-14 -24 628 668",
+      "label": "Top-down map of fighter positions at the end of round 4.",
+      "caption": {
+       "key": [
+        [
+         "i",
+         "I",
+         "Injured, 0 wounds"
+        ],
+        [
+         "s",
+         "S",
+         "Suppressed"
+        ],
+        [
+         "w",
+         "W2",
+         "Wounded, number shows wounds taken"
+        ],
+        [
+         "w",
+         "W",
+         "Wounded"
+        ],
+        [
+         "a",
+         "J",
+         "Gun jammed"
+        ],
+        [
+         "ooa",
+         "💀",
+         "Out of Action"
+        ],
+        [
+         "v",
+         "V",
+         "Perfect Void"
+        ]
+       ]
+      },
+      "items": [
+       {
+        "board": "terrain"
+       },
+       {
+        "el": [
+         "text",
+         {
+          "class": "m-c",
+          "x": "300",
+          "y": "267.5"
+         },
+         "Cache"
+        ]
+       },
+       {
+        "el": [
+         "text",
+         {
+          "class": "m-lab",
+          "x": "325",
+          "y": "373.75"
+         },
+         "Raised platform"
+        ]
+       },
+       {
+        "ooa": [
+         250,
+         442
+        ]
+       },
+       {
+        "ooa": [
+         302.5,
+         342
+        ]
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 227.5,
+         "y": 410,
+         "t": "Ez"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 412.5,
+         "y": 265,
+         "t": "G"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 475,
+         "y": 262.5,
+         "t": "R"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 290,
+         "y": 430,
+         "t": "DA",
+         "r": 19
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 300,
+         "y": 231.25,
+         "t": "De"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 122.5,
+         "y": 177.5,
+         "t": "Dm"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 222.5,
+         "y": 440,
+         "t": "Mc"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 355,
+         "y": 172.5,
+         "t": "Rt"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 380,
+         "y": 157.5,
+         "t": "J"
+        }
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 230.4,
+         "y": 392.7,
+         "t": "I"
+        }
+       },
+       {
+        "b": {
+         "k": "s",
+         "x": 395.0,
+         "y": 265.7,
+         "t": "S"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 313.7,
+         "y": 425.9,
+         "t": "W2"
+        }
+       },
+       {
+        "b": {
+         "k": "s",
+         "x": 306.9,
+         "y": 447.0,
+         "t": "S"
+        }
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 311.4,
+         "y": 217.9,
+         "t": "I"
+        }
+       },
+       {
+        "b": {
+         "k": "s",
+         "x": 317.4,
+         "y": 232.9,
+         "t": "S"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 138.7,
+         "y": 170.9,
+         "t": "W"
+        }
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 219.6,
+         "y": 457.3,
+         "t": "I"
+        }
+       },
+       {
+        "b": {
+         "k": "a",
+         "x": 340.0,
+         "y": 181.5,
+         "t": "J"
+        }
+       },
+       {
+        "board": "ticks"
+       },
+       {
+        "b": {
+         "k": "v",
+         "x": 285.0,
+         "y": 225.2,
+         "t": "V",
+         "ty": 229.1
+        }
+       }
+      ]
+     }
+    },
+    {
+     "vp": "End phase: the Psalm pass their bottle test and no VP is scored. Score <b>1–0</b> to the Psalm."
+    },
+    {
+     "roll": {
+      "name": "The Carrion Psalm - Bottle Check",
+      "result": "The Psalm hold",
+      "resultClass": "ammo",
+      "rows": [
+       {
+        "label": "Mordecai (Leadership 8)",
+        "dice": "3 4",
+        "result": "Passes",
+        "resultClass": "ammo"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "round-5",
+   "no": "5",
+   "title": "Round 5: An eye for an eye",
+   "blocks": [
+    {
+     "split": [
+      "tall",
+      "none"
+     ],
+     "text": [
+      "{@macavity|Macavity} is wounded and right next to {@deus-and-amen|Deus}. Deus drives Amen into him, swinging the great club.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "deus",
+        "name": "Deus and Amen - Engage Distance",
+        "result": "Engaged",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "Engage (4+)",
+          "dice": "5",
+          "result": "Engaged",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      {
+       "roll": {
+        "side": "t",
+        "face": "macavity",
+        "name": "Macavity - Serpent's Fangs",
+        "result": "Miss",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "note": "Initiative 5"
+         },
+         {
+          "h6": "Serpent's Fangs"
+         },
+         {
+          "label": "To Hit (3+)",
+          "dice": "2",
+          "result": "Miss",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      {
+       "roll": {
+        "side": "p",
+        "face": "deus",
+        "name": "Deus and Amen - Heavy Club",
+        "result": "Macavity seriously injured",
+        "rows": [
+         {
+          "note": "Initiative 1"
+         },
+         {
+          "h6": "Heavy Club"
+         },
+         {
+          "label": "To Hit (4+)",
+          "dice": "4 6",
+          "result": "Two hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (2+)",
+          "dice": "2 3",
+          "result": "Two wounds"
+         },
+         {
+          "label": "Save (5+)",
+          "dice": "3 4",
+          "result": "Two wounds"
+         },
+         {
+          "label": "Injury",
+          "dice": "si si fw fw",
+          "result": "Seriously Injured"
+         },
+         {
+          "note": "Note: Unwieldy, so Initiative 1. No charge bonus to Initiative or attacks. Lethality 2 weapon."
+         }
+        ]
+       }
+      },
+      "The club smashes {@macavity|Macavity} to the ground. {@demeter|Demeter} sees {@ezekiel-crows|Ezekiel} heading for the fallen Nacht-Ghul and fires to stop him.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "demeter",
+        "name": "Demeter - Long Rifle",
+        "result": "Ezekiel suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "To Hit (2+)",
+          "dice": "4",
+          "result": "Hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "1",
+          "result": "Suppressed",
+          "resultClass": "sup"
+         }
+        ]
+       }
+      },
+      "{@ezekiel-crows|Ezekiel} keeps coming anyway. He reaches {@macavity|Macavity} and brings his cleaver down.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "ezekiel",
+        "name": "Ezekiel Crows - Coup de Grace",
+        "result": "Macavity out of action",
+        "rows": [
+         {
+          "label": "Ezekiel (Str 3)",
+          "dice": "3",
+          "result": "",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "Macavity (Str 4)",
+          "dice": "1",
+          "result": "Macavity out of action"
+         },
+         {
+          "note": "Note: Macavity receives the Lesson Learnt lasting injury."
+         }
+        ]
+       }
+      },
+      "{@gutter-cantor|Gutter Cantor} empties his autogun at {@demeter|Demeter}, forcing him down, but runs out of ammunition.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "cantor",
+        "name": "Gutter Cantor - Polearm/Autogun",
+        "result": "Demeter suppressed, Out of Ammo",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "5 f1a",
+          "result": "Hits, Out of Ammo",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (4+)",
+          "dice": "4",
+          "result": "Wounds"
+         },
+         {
+          "label": "Save (5+)",
+          "dice": "6",
+          "result": "Saved, Suppressed",
+          "resultClass": "sup"
+         }
+        ]
+       }
+      },
+      "{@jellylorum|Jellylorum} fires back at {@gutter-cantor|Gutter Cantor}, then heads for the foot of the ladder.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "jellylorum",
+        "name": "Jellylorum - Lasgun",
+        "result": "Gutter Cantor suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "6",
+          "result": "Hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (4+)",
+          "dice": "2",
+          "result": "Suppresses",
+          "resultClass": "sup"
+         }
+        ]
+       }
+      },
+      "With his plasma gun useless, {@rumpleteaser|Rumpleteaser} falls back into the shadows.",
+      "{@ratsong|Ratsong} makes his way back towards the platform ladder.",
+      "{@deuteronomy|Deuteronomy} gathers what strength he has left and walks to the centre of the platform. He stands over the Cache, and for now it's his."
+     ],
+     "ports": []
+    },
+    {
+     "endsHead": "The end of Macavity"
+    },
+    {
+     "ends": [
+      {
+       "src": "images/1.1/photo-13.jpg",
+       "alt": "Macavity tipped over at the barricade beside Deus and Amen.",
+       "caption": "Macavity goes down."
+      }
+     ],
+     "class": "single"
+    },
+    {
+     "endsHead": "Positions at the end of round 5"
+    },
+    {
+     "map": {
+      "viewBox": "-14 -24 628 668",
+      "label": "Top-down map of fighter positions at the end of round 5.",
+      "caption": {
+       "key": [
+        [
+         "i",
+         "I",
+         "Injured, 0 wounds"
+        ],
+        [
+         "s",
+         "S",
+         "Suppressed"
+        ],
+        [
+         "a",
+         "A",
+         "Out of ammo"
+        ],
+        [
+         "w",
+         "W2",
+         "Wounded, number shows wounds taken"
+        ],
+        [
+         "w",
+         "W",
+         "Wounded"
+        ],
+        [
+         "a",
+         "J",
+         "Gun jammed"
+        ],
+        [
+         "ooa",
+         "💀",
+         "Out of Action"
+        ]
+       ]
+      },
+      "items": [
+       {
+        "board": "terrain"
+       },
+       {
+        "el": [
+         "text",
+         {
+          "class": "m-c",
+          "x": "300",
+          "y": "267.5"
+         },
+         "Cache"
+        ]
+       },
+       {
+        "el": [
+         "text",
+         {
+          "class": "m-lab",
+          "x": "325",
+          "y": "373.75"
+         },
+         "Raised platform"
+        ]
+       },
+       {
+        "ooa": [
+         222.5,
+         447
+        ]
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 227.5,
+         "y": 410,
+         "t": "Ez"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 412.5,
+         "y": 265,
+         "t": "G"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 390,
+         "y": 352.5,
+         "t": "R"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 252.5,
+         "y": 430,
+         "t": "DA",
+         "r": 19
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 300,
+         "y": 300,
+         "t": "De"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 122.5,
+         "y": 177.5,
+         "t": "Dm"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 472.5,
+         "y": 112.5,
+         "t": "Rt"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 305,
+         "y": 175,
+         "t": "J"
+        }
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 210.3,
+         "y": 406.6,
+         "t": "I"
+        }
+       },
+       {
+        "b": {
+         "k": "s",
+         "x": 220.4,
+         "y": 394.0,
+         "t": "S"
+        }
+       },
+       {
+        "b": {
+         "k": "s",
+         "x": 423.9,
+         "y": 251.7,
+         "t": "S"
+        }
+       },
+       {
+        "b": {
+         "k": "a",
+         "x": 429.9,
+         "y": 266.7,
+         "t": "A"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 271.2,
+         "y": 445.0,
+         "t": "W2"
+        }
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 316.2,
+         "y": 293.4,
+         "t": "I"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 133.9,
+         "y": 164.2,
+         "t": "W"
+        }
+       },
+       {
+        "b": {
+         "k": "s",
+         "x": 139.9,
+         "y": 179.2,
+         "t": "S"
+        }
+       },
+       {
+        "b": {
+         "k": "a",
+         "x": 488.7,
+         "y": 105.9,
+         "t": "J"
+        }
+       },
+       {
+        "board": "ticks"
+       }
+      ]
+     }
+    },
+    {
+     "vp": "End phase: the Theatre scored 1 VP at the Cache. Score <b>1–1</b>."
+    },
+    {
+     "roll": {
+      "name": "The Midnight Theatre - Bottle Check",
+      "result": "The Theatre hold",
+      "resultClass": "ammo",
+      "rows": [
+       {
+        "label": "Deuteronomy (Leadership 8)",
+        "dice": "2 6",
+        "result": "Passes",
+        "resultClass": "ammo"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "round-6",
+   "no": "6",
+   "title": "Round 6: King of the platform",
+   "blocks": [
+    {
+     "split": [
+      "tall",
+      "none"
+     ],
+     "text": [
+      "{@deus-and-amen|Deus and Amen} move up and fire at {@demeter|Demeter}'s position in the ruin.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "deus",
+        "name": "Deus and Amen - Twin-linked Heavy Stubber",
+        "result": "Miss",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "2 f1 f2",
+          "result": "Miss",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: Bulging Biceps to move at Initiative and fire a heavy weapon."
+         }
+        ]
+       }
+      },
+      "{@demeter|Demeter} fires back at {@deus-and-amen|Deus}, but the shot only glances off Amen.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "demeter",
+        "name": "Demeter - Long Rifle",
+        "result": "Fails to wound",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (3+)",
+          "dice": "5",
+          "result": "Hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (5+)",
+          "dice": "4",
+          "result": "Fails to wound",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: Juggernaut prevents becoming suppressed."
+         }
+        ]
+       }
+      },
+      "{@ezekiel-crows|Ezekiel} limps to the foot of the ladder, with {@deuteronomy|Deuteronomy} standing at the top.",
+      "{@jellylorum|Jellylorum} climbs up to his leader and patches up his worst wound so {@deuteronomy|Deuteronomy} can stand again.",
+      "{@gutter-cantor|Gutter Cantor} reloads his autogun.",
+      "{@rumpleteaser|Rumpleteaser} stays in the shadows, his plasma gun still unable to hold a charge.",
+      "{@ratsong|Ratsong} reaches the bottom of the ladder and takes a hopeful shot at {@demeter|Demeter}.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "ratsong",
+        "name": "Ratsong - Stub Gun",
+        "result": "Misses",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (5+)",
+          "dice": "3",
+          "result": "Misses",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      }
+     ],
+     "ports": []
+    },
+    {
+     "endsHead": "Positions at the end of round 6"
+    },
+    {
+     "map": {
+      "viewBox": "-14 -24 628 668",
+      "label": "Top-down map of fighter positions at the end of round 6.",
+      "caption": {
+       "key": [
+        [
+         "i",
+         "I",
+         "Injured, 0 wounds"
+        ],
+        [
+         "w",
+         "W2",
+         "Wounded, number shows wounds taken"
+        ],
+        [
+         "w",
+         "W",
+         "Wounded"
+        ],
+        [
+         "a",
+         "J",
+         "Gun jammed"
+        ]
+       ]
+      },
+      "items": [
+       {
+        "board": "terrain"
+       },
+       {
+        "el": [
+         "text",
+         {
+          "class": "m-c",
+          "x": "300",
+          "y": "342.5"
+         },
+         "Cache"
+        ]
+       },
+       {
+        "el": [
+         "text",
+         {
+          "class": "m-lab",
+          "x": "325",
+          "y": "373.75"
+         },
+         "Raised platform"
+        ]
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 292.5,
+         "y": 422.5,
+         "t": "Ez"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 412.5,
+         "y": 265,
+         "t": "G"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 322.5,
+         "y": 420,
+         "t": "R"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 247.5,
+         "y": 360,
+         "t": "DA",
+         "r": 19
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 300,
+         "y": 300,
+         "t": "De"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 122.5,
+         "y": 177.5,
+         "t": "Dm"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 472.5,
+         "y": 112.5,
+         "t": "Rt"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 307.5,
+         "y": 265,
+         "t": "J"
+        }
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 275.1,
+         "y": 424.0,
+         "t": "I"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 269.8,
+         "y": 351.0,
+         "t": "W2"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 296.3,
+         "y": 317.1,
+         "t": "W2"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 138.7,
+         "y": 170.9,
+         "t": "W"
+        }
+       },
+       {
+        "b": {
+         "k": "a",
+         "x": 488.7,
+         "y": 105.9,
+         "t": "J"
+        }
+       },
+       {
+        "board": "ticks"
+       }
+      ]
+     }
+    },
+    {
+     "vp": "End phase: the Theatre scored 1 VP at the Cache. Score <b>2–1</b> to the Theatre."
+    }
+   ]
+  },
+  {
+   "id": "round-7",
+   "no": "7",
+   "title": "Round 7: Out of time",
+   "blocks": [
+    {
+     "split": [
+      "tall",
+      "none"
+     ],
+     "text": [
+      "{@demeter|Demeter} has had enough of {@gutter-cantor|Gutter Cantor} on the container roof and takes careful aim.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "demeter",
+        "name": "Demeter - Long Rifle",
+        "result": "Gutter Cantor injured and suppressed",
+        "rows": [
+         {
+          "label": "To Hit (2+)",
+          "dice": "5",
+          "result": "Hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+)",
+          "dice": "4",
+          "result": "Wounds"
+         },
+         {
+          "label": "Save (6+)",
+          "dice": "3",
+          "result": "Takes one wound"
+         },
+         {
+          "label": "Injury",
+          "dice": "fw",
+          "result": "Injured and Suppressed"
+         }
+        ]
+       }
+      },
+      "{@deus-and-amen|Deus and Amen} fire back at {@demeter|Demeter}, but miss again.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "deus",
+        "name": "Deus and Amen - Twin-linked Heavy Stubber",
+        "result": "Miss",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "1 f1 f1",
+          "result": "Miss",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "{@jellylorum|Jellylorum} moves to fire on {@gutter-cantor|Gutter Cantor} as well.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "jellylorum",
+        "name": "Jellylorum - Lasgun",
+        "result": "Miss",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "3",
+          "result": "Miss",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "{@ezekiel-crows|Ezekiel} climbs to the top of the ladder and fires at the Delaque on the platform.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "ezekiel",
+        "name": "Ezekiel - Autopistol",
+        "result": "Miss",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "To Hit (3+)",
+          "dice": "2 f2",
+          "result": "Miss",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "{@deuteronomy|Deuteronomy} barely looks at him. He raises his flechette pistol and fires back.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "deuteronomy",
+        "name": "Deuteronomy - Flechette Pistol",
+        "result": "Ezekiel suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "To Hit (3+)",
+          "dice": "4 f1",
+          "result": "One hit",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (3+ Toxin)",
+          "dice": "2",
+          "result": "Suppressed",
+          "resultClass": "sup"
+         }
+        ]
+       }
+      },
+      "Wounded on the container roof, {@gutter-cantor|Gutter Cantor} fires one last burst at {@demeter|Demeter}.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "cantor",
+        "name": "Gutter Cantor - Polearm/Autogun",
+        "result": "Demeter suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "label": "To Hit (4+)",
+          "dice": "5 f2",
+          "result": "Hits",
+          "resultClass": "ammo"
+         },
+         {
+          "label": "To Wound (4+)",
+          "dice": "1 3",
+          "result": "Suppressed",
+          "resultClass": "sup"
+         }
+        ]
+       }
+      },
+      "{@rumpleteaser|Rumpleteaser} stays in the shadows. The Theatre already have what they came for.",
+      "{@ratsong|Ratsong} waits at the bottom of the ladder, unable to get past {@ezekiel-crows|Ezekiel} at the top. Up on the platform, {t:The Midnight Theatre} still hold the Cache, and the Psalm have run out of time."
+     ],
+     "ports": []
+    },
+    {
+     "endsHead": "Positions at the end of round 7"
+    },
+    {
+     "map": {
+      "viewBox": "-14 -24 628 668",
+      "label": "Top-down map of fighter positions at the end of round 7.",
+      "caption": {
+       "key": [
+        [
+         "i",
+         "I",
+         "Injured, 0 wounds"
+        ],
+        [
+         "s",
+         "S",
+         "Suppressed"
+        ],
+        [
+         "w",
+         "W2",
+         "Wounded, number shows wounds taken"
+        ],
+        [
+         "w",
+         "W",
+         "Wounded"
+        ],
+        [
+         "a",
+         "J",
+         "Gun jammed"
+        ]
+       ]
+      },
+      "items": [
+       {
+        "board": "terrain"
+       },
+       {
+        "el": [
+         "text",
+         {
+          "class": "m-c",
+          "x": "300",
+          "y": "267.5"
+         },
+         "Cache"
+        ]
+       },
+       {
+        "el": [
+         "text",
+         {
+          "class": "m-lab",
+          "x": "300",
+          "y": "227.5"
+         },
+         "Raised platform"
+        ]
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 297.5,
+         "y": 370,
+         "t": "Ez"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 412.5,
+         "y": 265,
+         "t": "G"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 295,
+         "y": 422.5,
+         "t": "R"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 247.5,
+         "y": 360,
+         "t": "DA",
+         "r": 19
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 300,
+         "y": 300,
+         "t": "De"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 122.5,
+         "y": 177.5,
+         "t": "Dm"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 472.5,
+         "y": 112.5,
+         "t": "Rt"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 367.5,
+         "y": 267.5,
+         "t": "J"
+        }
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 314.3,
+         "y": 365.1,
+         "t": "I"
+        }
+       },
+       {
+        "b": {
+         "k": "s",
+         "x": 311.1,
+         "y": 381.0,
+         "t": "S"
+        }
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 430.0,
+         "y": 264.0,
+         "t": "I"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 224.0,
+         "y": 355.3,
+         "t": "W2"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 316.2,
+         "y": 293.4,
+         "t": "W2"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 133.9,
+         "y": 164.2,
+         "t": "W"
+        }
+       },
+       {
+        "b": {
+         "k": "s",
+         "x": 139.9,
+         "y": 179.2,
+         "t": "S"
+        }
+       },
+       {
+        "b": {
+         "k": "a",
+         "x": 488.7,
+         "y": 105.9,
+         "t": "J"
+        }
+       },
+       {
+        "board": "ticks"
+       }
+      ]
+     }
+    },
+    {
+     "vp": "End phase: the Theatre scored 1 VP at the Cache. Final score <b>3–1</b> to the Theatre."
+    }
+   ]
+  }
+ ],
+ "aftermath": [
+  {
+   "result": "{t:The Midnight Theatre} take the promethium cache"
+  },
+  {
+   "prose": [
+    "When the shooting stops, {@deuteronomy|Deuteronomy} is still standing over the Cache, and the Pyroclave belongs to the Theatre. The Psalm carry their wounded back east. {@mordecai|Mordecai} survives {@macavity|Macavity}'s fangs, but he comes away with a burning hatred for the Nacht-Ghul. {@vermin-pyre|Vermin Pyre} is left Hobbled by his fall from the platform. Macavity was cut down by {@ezekiel-crows|Ezekiel}'s cleaver, but he recovers and is wiser for it. The Psalm leave convinced that the promethium should have been theirs."
+   ]
+  },
+  {
+   "photo": {
+    "src": "images/1.1/photo-14.jpg",
+    "alt": "The table at the end of the battle, with Deuteronomy holding the Cache, Ezekiel Crows on the platform edge, Gutter Cantor on the container, and Deus and Amen and Ratsong at the foot of the ladder.",
+    "class": "final",
+    "caption": "The end of the battle, with Deuteronomy holding the Cache."
+   }
+  },
+  {
+   "table": {
+    "label": "Post-battle ledger",
+    "class": "ledger",
+    "head": [
+     {
+      "html": "Gang"
+     },
+     {
+      "html": "Territory"
+     },
+     {
+      "html": "Side quest"
+     },
+     {
+      "html": "Lasting injuries"
+     },
+     {
+      "html": "Credits",
+      "class": "num"
+     },
+     {
+      "html": "Reputation",
+      "class": "num"
+     }
+    ],
+    "rows": [
+     {
+      "cells": [
+       {
+        "html": "The Midnight Theatre",
+        "class": "t"
+       },
+       {
+        "html": "Promethium Cache"
+       },
+       {
+        "html": "Crippling Strike: failed"
+       },
+       {
+        "html": "Macavity: Lesson Learnt, 2 XP"
+       },
+       {
+        "html": "+40",
+        "class": "num"
+       },
+       {
+        "html": "+1",
+        "class": "num"
+       }
+      ]
+     },
+     {
+      "cells": [
+       {
+        "html": "The Carrion Psalm",
+        "class": "p"
+       },
+       {
+        "html": "–"
+       },
+       {
+        "html": "Protect the Future: completed"
+       },
+       {
+        "html": "Mordecai: Personal Enmity, hatred for the Nacht-Ghul<br/>Vermin Pyre: Hobbled"
+       },
+       {
+        "html": "+20",
+        "class": "num"
+       },
+       {
+        "html": "–",
+        "class": "num"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "h3": "Experience",
+   "class": "xp-head"
+  },
+  {
+   "xp": [
+    {
+     "title": "The Midnight Theatre",
+     "class": "t",
+     "table": {
+      "label": null,
+      "class": "ledger xp",
+      "head": [
+       {
+        "html": "Fighter"
+       },
+       {
+        "html": "Earned from"
+       },
+       {
+        "html": "XP",
+        "class": "num"
+       }
+      ],
+      "rows": [
+       {
+        "cells": [
+         {
+          "html": "Macavity",
+          "class": "t"
+         },
+         {
+          "html": "Participation +1, Mordecai Out of Action +3, Lesson Learnt +2"
+         },
+         {
+          "html": "+6",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Deuteronomy",
+          "class": "t"
+         },
+         {
+          "html": "Participation +1, Vermin Pyre Out of Action +2, Objective +1"
+         },
+         {
+          "html": "+4",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Jellylorum",
+          "class": "t"
+         },
+         {
+          "html": "Participation +1, Recovery assist +1"
+         },
+         {
+          "html": "+2",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Rumpleteaser",
+          "class": "t"
+         },
+         {
+          "html": "Participation +1"
+         },
+         {
+          "html": "+1",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Demeter",
+          "class": "t"
+         },
+         {
+          "html": "Participation +1, Ezekiel Serious Injury +1"
+         },
+         {
+          "html": "+2",
+          "class": "num"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "The Carrion Psalm",
+     "class": "p",
+     "table": {
+      "label": null,
+      "class": "ledger xp",
+      "head": [
+       {
+        "html": "Fighter"
+       },
+       {
+        "html": "Earned from"
+       },
+       {
+        "html": "XP",
+        "class": "num"
+       }
+      ],
+      "rows": [
+       {
+        "cells": [
+         {
+          "html": "Ratsong",
+          "class": "p"
+         },
+         {
+          "html": "Participation +1"
+         },
+         {
+          "html": "+1",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Deus and Amen",
+          "class": "p"
+         },
+         {
+          "html": "Participation +1, 2 Serious Injuries +2"
+         },
+         {
+          "html": "+3",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Mordecai",
+          "class": "p"
+         },
+         {
+          "html": "Participation +1"
+         },
+         {
+          "html": "+1",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Vermin Pyre",
+          "class": "p"
+         },
+         {
+          "html": "Participation +1, Objective +1"
+         },
+         {
+          "html": "+2",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Gutter Cantor",
+          "class": "p"
+         },
+         {
+          "html": "Participation +1"
+         },
+         {
+          "html": "+1",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Ezekiel Crows",
+          "class": "p"
+         },
+         {
+          "html": "Participation +1, Macavity Out of Action +3"
+         },
+         {
+          "html": "+4",
+          "class": "num"
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "popovers": [
+  "demeter",
+  "deus-and-amen",
+  "deuteronomy",
+  "ezekiel-crows",
+  "gutter-cantor",
+  "jellylorum",
+  "macavity",
+  "mordecai",
+  "ratsong",
+  "rumpleteaser",
+  "vermin-pyre"
+ ],
+ "board": {
+  "terrain": [
+   [
+    "text",
+    {
+     "class": "m-edge t",
+     "x": "300",
+     "y": "-8"
+    },
+    "The Midnight Theatre edge"
+   ],
+   [
+    "text",
+    {
+     "class": "m-edge p",
+     "x": "300",
+     "y": "638"
+    },
+    "The Carrion Psalm edge"
+   ],
+   [
+    "rect",
+    {
+     "class": "m-mat",
+     "height": "600",
+     "width": "600",
+     "x": "0",
+     "y": "0"
+    }
+   ],
+   [
+    "path",
+    {
+     "class": "m-grid",
+     "d": "M150 0V600M0 150H600M300 0V600M0 300H600M450 0V600M0 450H600"
+    }
+   ],
+   [
+    "polygon",
+    {
+     "class": "m-floor",
+     "points": "12.5,505 30,482.5 75,470 117.5,475 125,525 180,545 180,590 12.5,590"
+    }
+   ],
+   [
+    "text",
+    {
+     "class": "m-lab",
+     "x": "75",
+     "y": "560"
+    },
+    "Ruined floor"
+   ],
+   [
+    "polygon",
+    {
+     "class": "m-solid",
+     "points": "125,465 175,465 175,497.5 125,497.5"
+    }
+   ],
+   [
+    "text",
+    {
+     "class": "m-lab",
+     "x": "150",
+     "y": "517.5"
+    },
+    "Tank"
+   ],
+   [
+    "polyline",
+    {
+     "class": "m-wall",
+     "points": "30,405 75,410"
+    }
+   ],
+   [
+    "polyline",
+    {
+     "class": "m-wall",
+     "points": "50,227.5 50,290"
+    }
+   ],
+   [
+    "polygon",
+    {
+     "class": "m-floor",
+     "points": "375,382.5 465,382.5 465,462.5 375,462.5"
+    }
+   ],
+   [
+    "polygon",
+    {
+     "class": "m-solid",
+     "points": "375,462.5 465,462.5 465,580 375,580"
+    }
+   ],
+   [
+    "text",
+    {
+     "class": "m-lab",
+     "x": "420",
+     "y": "517.5"
+    },
+    "Ruined"
+   ],
+   [
+    "text",
+    {
+     "class": "m-lab",
+     "x": "420",
+     "y": "535"
+    },
+    "tower"
+   ],
+   [
+    "polyline",
+    {
+     "class": "m-wall",
+     "points": "375,580 375,382.5 572.5,382.5 572.5,580 375,580"
+    }
+   ],
+   [
+    "polygon",
+    {
+     "class": "m-rubble",
+     "points": "512.5,382.5 572.5,382.5 572.5,425 512.5,425"
+    }
+   ],
+   [
+    "polyline",
+    {
+     "class": "m-wall",
+     "points": "222.5,452.5 307.5,452.5 307.5,485"
+    }
+   ],
+   [
+    "polygon",
+    {
+     "class": "m-rubble",
+     "points": "245,462.5 297.5,462.5 297.5,490 245,490"
+    }
+   ],
+   [
+    "polyline",
+    {
+     "class": "m-wall",
+     "points": "247.5,540 305,540"
+    }
+   ],
+   [
+    "polyline",
+    {
+     "class": "m-wall",
+     "points": "15,500 15,587.5 185,587.5"
+    }
+   ],
+   [
+    "polyline",
+    {
+     "class": "m-plank",
+     "points": "142.5,440 220,395"
+    }
+   ],
+   [
+    "polygon",
+    {
+     "class": "m-solid",
+     "points": "15,80 70,80 115,150 180,150 180,210 15,210"
+    }
+   ],
+   [
+    "text",
+    {
+     "class": "m-lab",
+     "x": "62.5",
+     "y": "190"
+    },
+    "Gothic ruin"
+   ],
+   [
+    "polyline",
+    {
+     "class": "m-wall",
+     "points": "15,80 15,32.5 180,32.5 180,150"
+    }
+   ],
+   [
+    "text",
+    {
+     "class": "m-lab",
+     "x": "110",
+     "y": "67.5"
+    },
+    "Walled yard"
+   ],
+   [
+    "polyline",
+    {
+     "class": "m-wall",
+     "points": "250,7.5 250,132.5 310,132.5"
+    }
+   ],
+   [
+    "polygon",
+    {
+     "class": "m-solid",
+     "points": "387.5,30 557.5,30 557.5,140 387.5,140"
+    }
+   ],
+   [
+    "text",
+    {
+     "class": "m-lab",
+     "x": "472.5",
+     "y": "87.5"
+    },
+    "Gothic ruin"
+   ],
+   [
+    "polyline",
+    {
+     "class": "m-plank",
+     "points": "340,202.5 397.5,170"
+    }
+   ],
+   [
+    "polygon",
+    {
+     "class": "m-solid",
+     "points": "411.518,233.687 490.139,307.002 453.482,346.313 374.861,272.998"
+    }
+   ],
+   [
+    "polygon",
+    {
+     "class": "m-solid",
+     "points": "467.731,181.197 567.404,221.467 547.269,271.303 447.596,231.033"
+    }
+   ],
+   [
+    "polygon",
+    {
+     "class": "m-top",
+     "points": "407.407,227.956 503.191,179.152 527.593,227.044 431.809,275.848"
+    }
+   ],
+   [
+    "polyline",
+    {
+     "class": "m-run",
+     "points": "467.5,257.75 477.5,277.5"
+    }
+   ],
+   [
+    "text",
+    {
+     "class": "m-lab",
+     "x": "467.5",
+     "y": "232.5"
+    },
+    "Containers"
+   ],
+   [
+    "polyline",
+    {
+     "class": "m-wall",
+     "points": "555,297.5 565,367.5"
+    }
+   ],
+   [
+    "polyline",
+    {
+     "class": "m-wall",
+     "points": "347.5,340 387.5,307.5"
+    }
+   ],
+   [
+    "polygon",
+    {
+     "class": "m-solid",
+     "points": "81.0464,321.259 181.285,270.185 228.954,363.741 128.715,414.815"
+    }
+   ],
+   [
+    "polyline",
+    {
+     "class": "m-div",
+     "points": "171,393.25 123.5,299.75"
+    }
+   ],
+   [
+    "polyline",
+    {
+     "class": "m-div",
+     "points": "141.5,335.25 199.5,305.75"
+    }
+   ],
+   [
+    "text",
+    {
+     "class": "m-lab",
+     "x": "125",
+     "y": "358.75"
+    },
+    "Stairs"
+   ],
+   [
+    "polygon",
+    {
+     "class": "m-plat",
+     "points": "402.5,300 351.25,388.75 248.75,388.75 197.5,300 248.75,211.25 351.25,211.25"
+    }
+   ],
+   [
+    "circle",
+    {
+     "class": "m-tower",
+     "cx": "300",
+     "cy": "300",
+     "r": "62"
+    }
+   ],
+   [
+    "polyline",
+    {
+     "class": "m-run",
+     "points": "300,190 300,211.25"
+    }
+   ],
+   [
+    "polyline",
+    {
+     "class": "m-run",
+     "points": "292.5,388.75 292.5,412.5"
+    }
+   ],
+   [
+    "circle",
+    {
+     "class": "m-centre",
+     "cx": "300",
+     "cy": "300",
+     "r": "22"
+    }
+   ]
+  ],
+  "ticks": [
+   [
+    "text",
+    {
+     "class": "m-tick",
+     "x": "0",
+     "y": "618"
+    },
+    "0\""
+   ],
+   [
+    "text",
+    {
+     "class": "m-tick",
+     "x": "150",
+     "y": "618"
+    },
+    "6\""
+   ],
+   [
+    "text",
+    {
+     "class": "m-tick",
+     "x": "300",
+     "y": "618"
+    },
+    "12\""
+   ],
+   [
+    "text",
+    {
+     "class": "m-tick",
+     "x": "450",
+     "y": "618"
+    },
+    "18\""
+   ],
+   [
+    "text",
+    {
+     "class": "m-tick",
+     "x": "600",
+     "y": "618"
+    },
+    "24\""
+   ]
+  ]
+ },
+ "roster": "1.1"
+}
