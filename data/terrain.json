@@ -537,37 +537,6 @@
     57.5
    ]
   },
-  "v1-stairs": {
-   "name": "Stairs",
-   "els": [
-    [
-     "polygon",
-     {
-      "class": "m-solid",
-      "points": "0.046,51.059 100.285,-0.015 147.954,93.541 47.715,144.615"
-     }
-    ],
-    [
-     "polyline",
-     {
-      "class": "m-div",
-      "points": "90,123.05 42.5,29.55"
-     }
-    ],
-    [
-     "polyline",
-     {
-      "class": "m-div",
-      "points": "60.5,65.05 118.5,35.55"
-     }
-    ]
-   ],
-   "label": "Stairs",
-   "labelAt": [
-    44.0,
-    88.6
-   ]
-  },
   "v1-gothic-ruin-b": {
    "name": "Gothic ruin",
    "els": [
@@ -583,37 +552,6 @@
    "labelAt": [
     102.5,
     45.0
-   ]
-  },
-  "v1-stairs-b": {
-   "name": "Stairs",
-   "els": [
-    [
-     "polygon",
-     {
-      "class": "m-solid",
-      "points": "153.248,82.74 64.597,152.002 -0.048,69.26 88.603,-0.002"
-     }
-    ],
-    [
-     "polyline",
-     {
-      "class": "m-div",
-      "points": "51.173,29.242 115.817,111.984"
-     }
-    ],
-    [
-     "polyline",
-     {
-      "class": "m-div",
-      "points": "91.191,80.463 39.97,120.481"
-     }
-    ]
-   ],
-   "label": "Stairs",
-   "labelAt": [
-    104.1,
-    63.5
    ]
   },
   "ladder": {
@@ -641,6 +579,68 @@
       "y": "-21.25",
       "width": "60",
       "height": "42.5"
+     }
+    ]
+   ]
+  },
+  "stairs": {
+   "name": "Stairs",
+   "note": "4.5\" by 4\", origin at its centre. A railed landing on the east half; two flights of stairs side by side run down from it to the west, the upper one drawn lighter.",
+   "label": "Stairs",
+   "labelAt": [
+    28,
+    5
+   ],
+   "els": [
+    [
+     "rect",
+     {
+      "class": "m-top",
+      "x": "-56.25",
+      "y": "-50",
+      "width": "56.25",
+      "height": "50"
+     }
+    ],
+    [
+     "rect",
+     {
+      "class": "m-solid",
+      "x": "-56.25",
+      "y": "0",
+      "width": "56.25",
+      "height": "50"
+     }
+    ],
+    [
+     "path",
+     {
+      "class": "m-seam",
+      "d": "M-45 -50V0 M-34 -50V0 M-23 -50V0 M-12 -50V0 M-45 0V50 M-34 0V50 M-23 0V50 M-12 0V50"
+     }
+    ],
+    [
+     "rect",
+     {
+      "class": "m-solid",
+      "x": "0",
+      "y": "-50",
+      "width": "56.25",
+      "height": "100"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-div",
+      "points": "-56.25,-50 56.25,-50 56.25,50 -56.25,50"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-div",
+      "points": "-56.25,0 0,0"
      }
     ]
    ]
