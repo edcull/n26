@@ -3164,6 +3164,20 @@
           }
          },
          {
+          "dice": "2",
+          "result": "One damage",
+          "check": {
+           "name": "Save",
+           "base": 5,
+           "mods": [
+            [
+             -1,
+             "AP"
+            ]
+           ]
+          }
+         },
+         {
           "label": "Injury",
           "dice": "si si",
           "result": "Serious injury"
