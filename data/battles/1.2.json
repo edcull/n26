@@ -1071,7 +1071,7 @@
          },
          {
           "dice": "2",
-          "result": "Fails to wound",
+          "result": "-",
           "resultClass": "ammo",
           "check": {
            "name": "To Wound",
@@ -1814,7 +1814,7 @@
          },
          {
           "dice": "2",
-          "result": "Fails to wound",
+          "result": "-",
           "resultClass": "ammo",
           "check": {
            "name": "To Wound",
@@ -1995,7 +1995,7 @@
          },
          {
           "dice": "2",
-          "result": "Fails to wound",
+          "result": "-",
           "resultClass": "ammo",
           "check": {
            "name": "To Wound",
@@ -3105,7 +3105,7 @@
          },
          {
           "dice": "2",
-          "result": "Fails to wound",
+          "result": "-",
           "resultClass": "ammo",
           "check": {
            "name": "To Wound",
@@ -3222,7 +3222,7 @@
          },
          {
           "dice": "3",
-          "result": "Fails to wound",
+          "result": "-",
           "resultClass": "ammo",
           "check": {
            "name": "To Wound",

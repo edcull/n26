@@ -1323,7 +1323,7 @@
          },
          {
           "dice": "1 2",
-          "result": "Fails to wound",
+          "result": "-",
           "resultClass": "ammo",
           "check": {
            "name": "To Wound",
@@ -1421,7 +1421,7 @@
          },
          {
           "dice": "4",
-          "result": "Fails to wound",
+          "result": "-",
           "resultClass": "ammo",
           "check": {
            "name": "To Wound",
@@ -1491,8 +1491,7 @@
         "rows": [
          {
           "dice": "5 2",
-          "result": "Hit",
-          "resultClass": "ammo",
+          "result": "One wound",
           "check": {
            "name": "To Wound",
            "base": 3,
@@ -2903,7 +2902,7 @@
          },
          {
           "dice": "2",
-          "result": "Suppresses",
+          "result": "Suppressed",
           "resultClass": "sup",
           "check": {
            "name": "To Wound",

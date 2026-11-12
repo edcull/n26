@@ -144,6 +144,7 @@ Other callouts (tests, recovery, powers) keep a plain `name` such as `"Wit - Ner
   - Count words when counting, otherwise `Hit` / `Miss` / `Wound`: `Two hits`, `One wound`, `Hit`, `Miss`
   - Unsaved wounds on the save row as damage: `One damage`, `Two damage, suppressed`
   - `Serious injury`, `Out of Action`, `Out of Ammo`
+  - A To Wound row that causes no wound reads `Suppressed` for a ranged attack. It reads `-` when the target ignores suppression (Juggernaut, a passed Nerves of Steel test) and for a melee attack
   - Conditions after a comma: `One wound, suppressed`, `Saved, suppressed`, `Three hits, Knockback`. On the dice rows each part after a comma starts a new line
   - Narrative text says "seriously injured"
 - **`resultClass`** sets the colour:
