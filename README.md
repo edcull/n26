@@ -13,7 +13,7 @@ build each page in the browser. Section links work as usual: `./?p=2.1#round-3`.
 | Path | What it holds |
 |---|---|
 | `index.html` | The only real page: loads `js/main.js`, which reads `data/campaign.json` to find the requested page |
-| `1.1.html`, `status.html` … | Redirects from the old addresses to `./?p=<id>`, so existing links keep working |
+| `404.html` | GitHub Pages' "not found" page. It sends old addresses such as `2.1.html#round-3` on to `./?p=2.1#round-3` |
 | `data/campaign.json` | Campaign name, the gangs, the timeline of points that fighter histories hang off, and `pages`: every page id with its template (`battle`, `post` or `report`), data file, stylesheets and title |
 | `data/gangs/<gang>.json` | A gang (name, house, colour, portraits) and every fighter it has had, each stored once with their history |
 | `data/battles/<id>.json` | One battle report: setup, gang panels, rounds, maps, aftermath |

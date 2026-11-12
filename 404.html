@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ash and Shadow</title>
+<script>
+// GitHub Pages serves this for any missing address. Old page addresses such as
+// /n26/2.1.html#round-3 now live at /n26/?p=2.1#round-3, so send them there.
+var m = location.pathname.match(/^(.*\/)([^\/]+)\.html$/);
+if (m && m[2] !== 'index' && m[2] !== '404') location.replace(m[1] + '?p=' + encodeURIComponent(m[2]) + location.hash);
+</script>
+</head>
+<body style="background:#172226;color:#ebe6d8;font-family:sans-serif;padding:2rem">
+<p>Page not found. <a href="./" style="color:#f0b323">Back to the campaign</a>.</p>
+</body>
+</html>
