@@ -935,6 +935,15 @@
           }
          },
          {
+          "dice": "",
+          "result": "One damage",
+          "check": {
+           "name": "Save",
+           "base": 5,
+           "none": true
+          }
+         },
+         {
           "dice": "4",
           "result": "Out of Ammo",
           "resultClass": "ammo",
@@ -944,7 +953,7 @@
           }
          },
          {
-          "note": "Note: The graviton pulse stays in place."
+          "note": "Note: The Graviton Pulse allows no save, and stays in place."
          }
         ],
         "by": "mungojerrie",
