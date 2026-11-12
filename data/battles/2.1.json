@@ -4708,8 +4708,13 @@
   {
    "piece": "rendering-vats",
    "at": [
-    174.2,
-    356.0
+    264.85,
+    427.05
+   ],
+   "label": "Rendering vats",
+   "labelAt": [
+    266.7,
+    460.9
    ]
   },
   {

@@ -4317,10 +4317,37 @@
    "turn": 3.0
   },
   {
-   "piece": "v1-ruined-stills",
+   "piece": "rendering-vats",
    "at": [
-    376.0,
-    30.0
+    475,
+    120
+   ],
+   "turn": -90,
+   "label": "Ruined stills",
+   "labelAt": [
+    495,
+    175
+   ]
+  },
+  {
+   "piece": "vat",
+   "at": [
+    393,
+    180
+   ]
+  },
+  {
+   "piece": "vat",
+   "at": [
+    393,
+    128
+   ]
+  },
+  {
+   "piece": "vat",
+   "at": [
+    393,
+    72
    ]
   },
   {

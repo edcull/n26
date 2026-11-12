@@ -227,35 +227,36 @@
    ]
   },
   "rendering-vats": {
-   "name": "Rendering vats",
+   "name": "Vat house",
    "els": [
     [
      "polyline",
      {
       "class": "m-div",
-      "points": "143.8,1.7 181.3,1.7 181.3,142.1 42.9,142.1"
+      "points": "53.15,-69.35 90.65,-69.35 90.65,71.05 -47.75,71.05"
      }
     ],
     [
      "polygon",
      {
       "class": "m-solid",
-      "points": "0,1.7 143.8,1.7 123.5,22.7 92.5,39.7 68.3,56.6 55.9,84.9 47.4,113.5 42.9,140.9 0,140.9"
+      "points": "-90.65,-69.35 53.15,-69.35 32.85,-48.35 1.85,-31.35 -22.35,-14.45 -34.75,13.85 -43.25,42.45 -47.75,69.85 -90.65,69.85"
      }
     ],
     [
      "polyline",
      {
       "class": "m-wall",
-      "points": "143.8,0 0,0 0,140.9 42.9,140.9"
+      "points": "53.15,-71.05 -90.65,-71.05 -90.65,69.85 -47.75,69.85"
      }
     ]
    ],
    "label": "Rendering vats",
    "labelAt": [
-    92.5,
-    104.9
-   ]
+    1.85,
+    33.85
+   ],
+   "note": "About 7.25\" by 5.6\", origin at its centre. A raised floor along one long side and part of the next, inside thick walls; thin walls round the open floor."
   },
   "bone-yard": {
    "name": "Bone yard",
@@ -572,57 +573,6 @@
     -15.0
    ]
   },
-  "v1-ruined-stills": {
-   "name": "Ruined stills",
-   "els": [
-    [
-     "polygon",
-     {
-      "class": "m-solid",
-      "points": "174,180 24,180 24,50 54,70 84,112.5 174,112.5"
-     }
-    ],
-    [
-     "polyline",
-     {
-      "class": "m-wall",
-      "points": "24,0 174,0 174,180 24,180 24,0"
-     }
-    ],
-    [
-     "circle",
-     {
-      "class": "m-solid",
-      "cx": "17",
-      "cy": "150",
-      "r": "17"
-     }
-    ],
-    [
-     "circle",
-     {
-      "class": "m-solid",
-      "cx": "17",
-      "cy": "98",
-      "r": "17"
-     }
-    ],
-    [
-     "circle",
-     {
-      "class": "m-solid",
-      "cx": "17",
-      "cy": "42",
-      "r": "17"
-     }
-    ]
-   ],
-   "label": "Ruined stills",
-   "labelAt": [
-    119.0,
-    145.0
-   ]
-  },
   "v1-stairs-b": {
    "name": "Stairs",
    "els": [
@@ -679,6 +629,21 @@
       "y": "-21.25",
       "width": "60",
       "height": "42.5"
+     }
+    ]
+   ]
+  },
+  "vat": {
+   "name": "Vat",
+   "note": "A round vat set beside a building, about 1.4\" across. Origin at its centre.",
+   "els": [
+    [
+     "circle",
+     {
+      "class": "m-solid",
+      "cx": "0",
+      "cy": "0",
+      "r": "17"
      }
     ]
    ]
