@@ -472,7 +472,12 @@
          {
           "note": "Note: Bulging Biceps to move at Initiative and fire a heavy weapon."
          }
-        ]
+        ],
+        "by": "deus-and-amen",
+        "weapons": [
+         "Twin-linked heavy stubber"
+        ],
+        "target": "skimbleshanks"
        }
       },
       "As soon as the Cawdor make their presence known, {@demeter|Demeter} climbs the ruined tower to find a vantage point to cover the Theatre's advance.",
@@ -517,7 +522,12 @@
            ]
           }
          }
-        ]
+        ],
+        "by": "blessed-filth",
+        "weapons": [
+         "Long rifle"
+        ],
+        "target": "demeter"
        }
       },
       "The shot cracks against the iron bars in front of {@demeter|Demeter}, forcing him to duck back and stay behind cover. Below him, {@skimbleshanks|Skimbleshanks} rushes forward through the hail of lead from {@deus-and-amen|Deus}, getting out of the narrow alleyway killzone and into the cover of a ruined wall.",
@@ -581,7 +591,7 @@
          },
          {
           "dice": "2",
-          "result": "One wound",
+          "result": "One damage",
           "check": {
            "name": "Save",
            "base": 6,
@@ -598,7 +608,12 @@
           "dice": "si",
           "result": "Serious injury"
          }
-        ]
+        ],
+        "by": "jellylorum",
+        "weapons": [
+         "Lasgun"
+        ],
+        "target": "blessed-filth"
        }
       },
       "The las-bolt strikes true and the Psalm's sniper crumples. Not wanting to get caught in a shooting war with the Delaque, {@mordecai|Mordecai} rushes forward into the clearing. He drives his congregation on, calling on the faithful to keep pace.",
@@ -632,7 +647,12 @@
          {
           "note": "Note: Rumpleteaser uses Hip-shooting to rush to the wall and fire on Deus."
          }
-        ]
+        ],
+        "by": "rumpleteaser",
+        "weapons": [
+         "Plasma gun"
+        ],
+        "target": "deus-and-amen"
        }
       },
       "The bolt flashes past {@deus-and-amen|Deus} and off into the dark, and the coils of the plasma gun fade to a dull glow. {@ezekiel-crows|Ezekiel Crows} rushes into the clearing, confident in the protection of the God-Emperor.",
@@ -910,7 +930,7 @@
          },
          {
           "dice": "5",
-          "result": "Two wounds",
+          "result": "Two damage",
           "check": {
            "name": "Save",
            "base": 5,
@@ -940,7 +960,12 @@
            "base": 6
           }
          }
-        ]
+        ],
+        "by": "rumpleteaser",
+        "weapons": [
+         "Plasma gun"
+        ],
+        "target": "ezekiel-crows"
        }
       },
       "The plasma bolt drops {@ezekiel-crows|Ezekiel} in the middle of the clearing, and seeing their champion fall shakes the Psalm.",
@@ -1010,6 +1035,10 @@
          {
           "note": "Note: Bulging Biceps to move at Initiative and fire a heavy weapon."
          }
+        ],
+        "by": "deus-and-amen",
+        "weapons": [
+         "Twin-linked heavy stubber"
         ]
        }
       },
@@ -1067,7 +1096,13 @@
            "base": 4
           }
          }
-        ]
+        ],
+        "by": "skimbleshanks",
+        "weapons": [
+         "Flechette pistol",
+         "Autopistol"
+        ],
+        "target": "mordecai"
        }
       },
       "{@mordecai|Mordecai} barely flinches. {@elijah-emberchoir|Elijah} won't stay down any longer. Driven by Redemptionist zeal, he breaks from cover and charges at {@skimbleshanks|Skimbleshanks}.",
@@ -1122,7 +1157,7 @@
          },
          {
           "dice": "2",
-          "result": "One wound, suppressed",
+          "result": "One damage, suppressed",
           "resultClass": "sup",
           "check": {
            "name": "Save",
@@ -1135,7 +1170,12 @@
            ]
           }
          }
-        ]
+        ],
+        "by": "demeter",
+        "weapons": [
+         "Long rifle"
+        ],
+        "target": "elijah-emberchoir"
        }
       },
       "In the middle of the clearing, {@ezekiel-crows|Ezekiel} crawls back towards {@gutter-cantor|Gutter Cantor}, who drags him into cover and gets him back on his feet.",
@@ -1194,7 +1234,12 @@
            "base": 5
           }
          }
-        ]
+        ],
+        "by": "jellylorum",
+        "weapons": [
+         "Lasgun"
+        ],
+        "target": "elijah-emberchoir"
        }
       },
       "Up on the sealed vent, {@ratsong|Ratsong} moves to the crates beside the fallen {@blessed-filth|Blessed Filth} and takes a shot at {@rumpleteaser|Rumpleteaser}, but the stub gun can't reach that far.",
@@ -1215,7 +1260,12 @@
            "base": 5
           }
          }
-        ]
+        ],
+        "by": "ratsong",
+        "weapons": [
+         "Stub gun"
+        ],
+        "target": "rumpleteaser"
        }
       },
       "{@deuteronomy|Deuteronomy} keeps the Perfect Void wrapped around him.",
@@ -1277,7 +1327,7 @@
          },
          {
           "dice": "1 2 6",
-          "result": "1 saved",
+          "result": "Two damage",
           "resultClass": "ammo",
           "check": {
            "name": "Save",
@@ -1298,7 +1348,12 @@
          {
           "note": "Note: Battlefield effect increases the AP of Toxin weapons by 1."
          }
-        ]
+        ],
+        "by": "deuteronomy",
+        "weapons": [
+         "Flechette pistol"
+        ],
+        "target": "elijah-emberchoir"
        }
       },
       "The poisoned needles find the gaps in {@elijah-emberchoir|Elijah}'s armour and he collapses. Up on the vent, {@ratsong|Ratsong} tries to get {@blessed-filth|Blessed Filth} back on his feet, but the sniper is too badly hurt.",
@@ -1377,7 +1432,7 @@
          },
          {
           "dice": "1",
-          "result": "One wound",
+          "result": "One damage",
           "check": {
            "name": "Save",
            "base": 6
@@ -1388,7 +1443,12 @@
           "dice": "si",
           "result": "Serious injury"
          }
-        ]
+        ],
+        "by": "mordecai",
+        "weapons": [
+         "Autopistol"
+        ],
+        "target": "skimbleshanks"
        }
       }
      ],
@@ -1681,7 +1741,12 @@
          {
           "note": "Note: Bulging Biceps to move at Initiative and fire a heavy weapon."
          }
-        ]
+        ],
+        "by": "deus-and-amen",
+        "weapons": [
+         "Twin-linked heavy stubber"
+        ],
+        "target": "mistoffelees"
        }
       },
       "{@rumpleteaser|Rumpleteaser} gets his plasma gun working again and takes another shot at {@ezekiel-crows|Ezekiel}, but it goes wide and the gun runs dry once more.",
@@ -1711,7 +1776,12 @@
            "base": 6
           }
          }
-        ]
+        ],
+        "by": "rumpleteaser",
+        "weapons": [
+         "Plasma gun"
+        ],
+        "target": "ezekiel-crows"
        }
       },
       "{@mordecai|Mordecai} sees {@skimbleshanks|Skimbleshanks} lying at the foot of the wall and charges across the open ground to finish him. It's the moment {@demeter|Demeter} has been waiting for, and he fires on Overwatch.",
@@ -1755,7 +1825,13 @@
          {
           "note": "Note: Mordecai was not suppressed, did not take a wound and did not roll an Injury die, so his activation is not interrupted."
          }
-        ]
+        ],
+        "by": "demeter",
+        "weapons": [
+         "Long rifle"
+        ],
+        "target": "mordecai",
+        "action": "Overwatch"
        }
       },
       "The round hits {@mordecai|Mordecai} and knocks him back a step, but it doesn't stop him.",
@@ -1914,7 +1990,13 @@
            "base": 4
           }
          }
-        ]
+        ],
+        "by": "deuteronomy",
+        "weapons": [
+         "Shock stave",
+         "Web gauntlet"
+        ],
+        "target": "mordecai"
        }
       },
       {
@@ -1940,7 +2022,12 @@
            "base": 3
           }
          }
-        ]
+        ],
+        "by": "mordecai",
+        "weapons": [
+         "Chainglaive*"
+        ],
+        "target": "deuteronomy"
        }
       },
       "Back on his feet, {@ezekiel-crows|Ezekiel} advances across the clearing and empties his autopistol at {@rumpleteaser|Rumpleteaser} behind the wall.",
@@ -1971,7 +2058,7 @@
          },
          {
           "dice": "5 3",
-          "result": "One wound",
+          "result": "One damage",
           "check": {
            "name": "Save",
            "base": 6,
@@ -1989,7 +2076,12 @@
           "result": "Suppressed",
           "resultClass": "sup"
          }
-        ]
+        ],
+        "by": "ezekiel-crows",
+        "weapons": [
+         "Autopistol"
+        ],
+        "target": "rumpleteaser"
        }
       },
       "{@jellylorum|Jellylorum} takes careful aim at {@ratsong|Ratsong} up on the vent.",
@@ -2016,7 +2108,12 @@
            ]
           }
          }
-        ]
+        ],
+        "by": "jellylorum",
+        "weapons": [
+         "Lasgun"
+        ],
+        "target": "ratsong"
        }
       },
       "{@gutter-cantor|Gutter Cantor} follows close behind {@ezekiel-crows|Ezekiel} and binds another of his wounds.",
@@ -2281,7 +2378,13 @@
            "base": 3
           }
          }
-        ]
+        ],
+        "by": "deuteronomy",
+        "weapons": [
+         "Web gauntlet"
+        ],
+        "target": "mordecai",
+        "action": "Reaction"
        }
       },
       {
@@ -2307,7 +2410,13 @@
            "base": 3
           }
          }
-        ]
+        ],
+        "by": "deuteronomy",
+        "weapons": [
+         "Shock stave"
+        ],
+        "target": "mordecai",
+        "action": "Counter-attack"
        }
       },
       {
@@ -2342,7 +2451,7 @@
          },
          {
           "dice": "1",
-          "result": "One wound",
+          "result": "One damage",
           "check": {
            "name": "Save",
            "base": 5,
@@ -2354,7 +2463,12 @@
            ]
           }
          }
-        ]
+        ],
+        "by": "mordecai",
+        "weapons": [
+         "Chainglaive*"
+        ],
+        "target": "deuteronomy"
        }
       },
       "The chainglaive finally bites into {@deuteronomy|Deuteronomy}. Behind the wall, {@jellylorum|Jellylorum} reaches {@rumpleteaser|Rumpleteaser} and patches up his wound.",
@@ -2386,7 +2500,7 @@
          },
          {
           "dice": "",
-          "result": "One wound, suppressed, activation interrupted",
+          "result": "One damage, suppressed, activation interrupted",
           "resultClass": "sup",
           "check": {
            "name": "Save",
@@ -2402,7 +2516,13 @@
          {
           "note": "Note: Overwatch finishes Deus and Amen's activation."
          }
-        ]
+        ],
+        "by": "demeter",
+        "weapons": [
+         "Long rifle"
+        ],
+        "target": "deus-and-amen",
+        "action": "Overwatch"
        }
       },
       "{@demeter|Demeter}'s shot hits the Stig-Shambler before he can fire, and {@deus-and-amen|Amen} staggers to a halt. {@deuteronomy|Deuteronomy} keeps the Perfect Void in place.",
@@ -2460,7 +2580,7 @@
          },
          {
           "dice": "3 6",
-          "result": "One wound",
+          "result": "One damage",
           "check": {
            "name": "Save",
            "base": 5,
@@ -2484,7 +2604,13 @@
            "base": 3
           }
          }
-        ]
+        ],
+        "by": "deuteronomy",
+        "weapons": [
+         "Shock stave",
+         "Web gauntlet"
+        ],
+        "target": "mordecai"
        }
       },
       {
@@ -2519,7 +2645,7 @@
          },
          {
           "dice": "2",
-          "result": "One wound",
+          "result": "One damage",
           "check": {
            "name": "Save",
            "base": 5,
@@ -2531,7 +2657,12 @@
            ]
           }
          }
-        ]
+        ],
+        "by": "mordecai",
+        "weapons": [
+         "Chainglaive*"
+        ],
+        "target": "deuteronomy"
        }
       },
       "{@ezekiel-crows|Ezekiel} pushes forward and fires at {@rumpleteaser|Rumpleteaser} again, undoing {@jellylorum|Jellylorum}'s work.",
@@ -2562,7 +2693,7 @@
          },
          {
           "dice": "2 5",
-          "result": "One wound",
+          "result": "One damage",
           "check": {
            "name": "Save",
            "base": 6,
@@ -2580,7 +2711,12 @@
           "result": "Injured, suppressed",
           "resultClass": "sup"
          }
-        ]
+        ],
+        "by": "ezekiel-crows",
+        "weapons": [
+         "Autopistol"
+        ],
+        "target": "rumpleteaser"
        }
       },
       "{@mistoffelees|Mistoffelees} leans out of cover and takes an aimed shot at {@ezekiel-crows|Ezekiel}.",
@@ -2601,7 +2737,12 @@
            "base": 4
           }
          }
-        ]
+        ],
+        "by": "mistoffelees",
+        "weapons": [
+         "Stub gun"
+        ],
+        "target": "ezekiel-crows"
        }
       },
       "{@gutter-cantor|Gutter Cantor} moves up beside {@ezekiel-crows|Ezekiel} and fires back at {@mistoffelees|Mistoffelees}.",
@@ -2622,7 +2763,12 @@
            "base": 4
           }
          }
-        ]
+        ],
+        "by": "gutter-cantor",
+        "weapons": [
+         "Cawdor Polearm/Autogun"
+        ],
+        "target": "mistoffelees"
        }
       },
       "{@ratsong|Ratsong} stays behind the crates on the vent, out of sight."
@@ -2898,7 +3044,13 @@
          {
           "note": "Note: Mordecai is subject to the Webbed condition: he cannot move and suffers -1 to all hit rolls."
          }
-        ]
+        ],
+        "by": "deuteronomy",
+        "weapons": [
+         "Web gauntlet"
+        ],
+        "target": "mordecai",
+        "action": "Reaction"
        }
       },
       {
@@ -2933,7 +3085,13 @@
            "base": 3
           }
          }
-        ]
+        ],
+        "by": "deuteronomy",
+        "weapons": [
+         "Shock stave"
+        ],
+        "target": "mordecai",
+        "action": "Counter-attack"
        }
       },
       {
@@ -2976,11 +3134,13 @@
           "label": "Injury",
           "dice": "si si",
           "result": "Serious injury"
-         },
-         {
-          "note": "Note: The chainglaive is Lethality 2."
          }
-        ]
+        ],
+        "by": "mordecai",
+        "weapons": [
+         "Chainglaive*"
+        ],
+        "target": "deuteronomy"
        }
       },
       {
@@ -3050,7 +3210,14 @@
            "base": 3
           }
          }
-        ]
+        ],
+        "by": "ezekiel-crows",
+        "weapons": [
+         "Autopistol",
+         "Cleaver"
+        ],
+        "target": "jellylorum",
+        "action": "Charge"
        }
       },
       "Every swing of the cleaver misses. {@jellylorum|Jellylorum} steps inside his reach and hits him with his bare hands.",
@@ -3086,13 +3253,18 @@
          },
          {
           "dice": "2",
-          "result": "One wound",
+          "result": "One damage",
           "check": {
            "name": "Save",
            "base": 5
           }
          }
-        ]
+        ],
+        "by": "jellylorum",
+        "weapons": [
+         "Unarmed"
+        ],
+        "target": "ezekiel-crows"
        }
       },
       "{@mistoffelees|Mistoffelees} fires at {@mordecai|Mordecai}, then slips back into the shadows.",
@@ -3113,7 +3285,12 @@
            "base": 5
           }
          }
-        ]
+        ],
+        "by": "mistoffelees",
+        "weapons": [
+         "Stub gun"
+        ],
+        "target": "mordecai"
        }
       },
       "{@deus-and-amen|Deus} pushes Amen forward and fires at {@demeter|Demeter} in the tower.",
@@ -3137,7 +3314,12 @@
          {
           "note": "Note: Bulging Biceps to move at Initiative and fire a heavy weapon. Twin-linked to re-roll the Rapid Fire dice."
          }
-        ]
+        ],
+        "by": "deus-and-amen",
+        "weapons": [
+         "Twin-linked heavy stubber"
+        ],
+        "target": "demeter"
        }
       },
       "{@demeter|Demeter} takes an aimed shot at {@mordecai|Mordecai}, a chance to take down the Psalm's leader in return.",
@@ -3158,7 +3340,12 @@
            "base": 2
           }
          }
-        ]
+        ],
+        "by": "demeter",
+        "weapons": [
+         "Long rifle"
+        ],
+        "target": "mordecai"
        }
       },
       "{@gutter-cantor|Gutter Cantor} takes aim at {@mistoffelees|Mistoffelees}.",
@@ -3188,7 +3375,12 @@
            "base": 4
           }
          }
-        ]
+        ],
+        "by": "gutter-cantor",
+        "weapons": [
+         "Cawdor Polearm/Autogun"
+        ],
+        "target": "mistoffelees"
        }
       },
       "Still held fast by the webbing, {@mordecai|Mordecai} cannot follow up, and {@deuteronomy|Deuteronomy} crawls away from him towards {@jellylorum|Jellylorum}. His wounds are too deep, and he passes out before he gets there. It's a lesson he won't forget.",

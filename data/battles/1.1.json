@@ -458,7 +458,12 @@
          {
           "note": "Note: Rumpleteaser uses Hip-shooting to rush to the barricade and fire on Mordecai."
          }
-        ]
+        ],
+        "by": "rumpleteaser",
+        "weapons": [
+         "Plasma gun"
+        ],
+        "target": "mordecai"
        }
       }
      ],
@@ -666,6 +671,10 @@
          {
           "note": "Note: Bulging Biceps to move at Initiative and fire a heavy weapon. Twin-link allowed a re-roll of the Rapid Fire dice."
          }
+        ],
+        "by": "deus-and-amen",
+        "weapons": [
+         "Twin-linked heavy stubber"
         ]
        }
       },
@@ -714,7 +723,12 @@
          {
           "note": "Note: Juggernaut prevents suppression."
          }
-        ]
+        ],
+        "by": "jellylorum",
+        "weapons": [
+         "Lasgun"
+        ],
+        "target": "deus-and-amen"
        }
       },
       "The las-bolt hits {@deus-and-amen|Amen} square in the chest, but the Stig-Shambler barely notices.",
@@ -747,7 +761,7 @@
          },
          {
           "dice": "2 5",
-          "result": "One wound, suppressed",
+          "result": "One damage, suppressed",
           "resultClass": "sup",
           "check": {
            "name": "Save",
@@ -760,7 +774,12 @@
            ]
           }
          }
-        ]
+        ],
+        "by": "ezekiel-crows",
+        "weapons": [
+         "Autopistol"
+        ],
+        "target": "demeter"
        }
       },
       "{@demeter|Demeter} ducks back behind the rubble, wounded. {@mordecai|Mordecai} and {@vermin-pyre|Vermin Pyre} reach the foot of the near ladder, ready to climb up and claim the Cache.",
@@ -988,7 +1007,7 @@
          },
          {
           "dice": "6 6 2",
-          "result": "One wound",
+          "result": "One damage",
           "check": {
            "name": "Save",
            "base": 6,
@@ -1012,7 +1031,12 @@
          {
           "note": "Note: Used Hidden Stash for a free reload action. Bulging Biceps to move at Initiative and fire a heavy weapon. Twin-linked to re-roll the Rapid Fire dice."
          }
-        ]
+        ],
+        "by": "deus-and-amen",
+        "weapons": [
+         "Twin-linked heavy stubber"
+        ],
+        "target": "rumpleteaser"
        }
       },
       "This time the burst finds {@rumpleteaser|Rumpleteaser}, and he slumps against the barricade. {@jellylorum|Jellylorum}, right beside him, holds his nerve.",
@@ -1097,7 +1121,7 @@
          },
          {
           "dice": "3",
-          "result": "One wound",
+          "result": "One damage",
           "check": {
            "name": "Save",
            "base": 5
@@ -1125,7 +1149,7 @@
          },
          {
           "dice": "2 3 6",
-          "result": "Two wounds",
+          "result": "Two damage",
           "check": {
            "name": "Save",
            "base": 5,
@@ -1143,9 +1167,16 @@
           "result": "Injured"
          },
          {
-          "note": "Note: Bull Charge for +1 Strength and Knockback (6+) on the charge. Lethality 2 hits."
+          "note": "Note: Bull Charge for +1 Strength and Knockback (6+) on the charge."
          }
-        ]
+        ],
+        "by": "ezekiel-crows",
+        "weapons": [
+         "Autopistol",
+         "Cleaver"
+        ],
+        "target": "macavity",
+        "action": "Charge"
        }
       },
       {
@@ -1181,7 +1212,7 @@
          },
          {
           "dice": "",
-          "result": "One wound",
+          "result": "One damage",
           "check": {
            "name": "Save",
            "base": 5,
@@ -1193,7 +1224,12 @@
            ]
           }
          }
-        ]
+        ],
+        "by": "macavity",
+        "weapons": [
+         "Serpent's fangs*"
+        ],
+        "target": "ezekiel-crows"
        }
       },
       "Both of them draw blood. {@mordecai|Mordecai} sees his chance to finish {@macavity|Macavity} off and charges in with his chainglaive.",
@@ -1230,7 +1266,7 @@
          },
          {
           "dice": "",
-          "result": "One wound",
+          "result": "One damage",
           "check": {
            "name": "Save",
            "base": 5,
@@ -1246,7 +1282,12 @@
            ]
           }
          }
-        ]
+        ],
+        "by": "macavity",
+        "weapons": [
+         "Serpent's fangs*"
+        ],
+        "target": "mordecai"
        }
       },
       {
@@ -1281,7 +1322,12 @@
          {
           "note": "Note: Unwieldy strikes at Initiative 1."
          }
-        ]
+        ],
+        "by": "mordecai",
+        "weapons": [
+         "Chainglaive*"
+        ],
+        "target": "macavity"
        }
       },
       "{@macavity|Macavity} is too quick for him. He twists away from the glaive and cuts {@mordecai|Mordecai} in return. Back at the barricade, {@jellylorum|Jellylorum} drags {@rumpleteaser|Rumpleteaser} back to his feet.",
@@ -1332,7 +1378,12 @@
            "base": 4
           }
          }
-        ]
+        ],
+        "by": "gutter-cantor",
+        "weapons": [
+         "Cawdor Polearm/Autogun"
+        ],
+        "target": "deuteronomy"
        }
       },
       "{@jellylorum|Jellylorum} turns his lasgun on {@deus-and-amen|Deus and Amen}, but the Stig-Shambler shrugs off the hit.",
@@ -1365,7 +1416,12 @@
          {
           "note": "Note: Juggernaut prevents suppression."
          }
-        ]
+        ],
+        "by": "jellylorum",
+        "weapons": [
+         "Lasgun"
+        ],
+        "target": "deus-and-amen"
        }
       },
       "{@deuteronomy|Deuteronomy} climbs the ladder anyway and stands at the edge of the platform. He reaches into the Warp to wrap himself in a Perfect Void, but the Warp bites back and he staggers.",
@@ -1449,7 +1505,13 @@
          {
           "note": "Note: Blaze (4+) causes an extra hit. +2 cover from Perfect Void."
          }
-        ]
+        ],
+        "by": "vermin-pyre",
+        "weapons": [
+         "Flamer",
+         "Polearm*"
+        ],
+        "target": "deuteronomy"
        }
       },
       "The flames catch {@deuteronomy|Deuteronomy} and Vermin's tank runs dry. From the Gothic ruin, {@demeter|Demeter} finally gets a clear shot at the wounded {@ezekiel-crows|Ezekiel}.",
@@ -1479,7 +1541,12 @@
            "base": 3
           }
          }
-        ]
+        ],
+        "by": "demeter",
+        "weapons": [
+         "Long rifle"
+        ],
+        "target": "ezekiel-crows"
        }
       }
      ],
@@ -1798,7 +1865,7 @@
          },
          {
           "dice": "",
-          "result": "Two wounds",
+          "result": "Two damage",
           "check": {
            "name": "Save",
            "base": 5,
@@ -1823,7 +1890,12 @@
           "note": "Note: Mordecai suffers the Personal Enmity lasting injury."
          }
         ],
-        "n": 4
+        "n": 4,
+        "by": "macavity",
+        "weapons": [
+         "Serpent's fangs*"
+        ],
+        "target": "mordecai"
        }
       },
       "The fangs find their mark and the Word Keeper goes down. Losing their leader shakes the Psalm, but {@ezekiel-crows|Ezekiel}, wounded beside him, holds his ground.",
@@ -1869,7 +1941,12 @@
          {
           "note": "Note: Uses Bulging Biceps to move at Initiative and fire a heavy weapon."
          }
-        ]
+        ],
+        "by": "deus-and-amen",
+        "weapons": [
+         "Twin-linked heavy stubber"
+        ],
+        "target": "macavity"
        }
       },
       "Up in the Gothic ruin, {@demeter|Demeter} takes careful aim at {@ezekiel-crows|Ezekiel}.",
@@ -1905,7 +1982,7 @@
          },
          {
           "dice": "4",
-          "result": "One wound",
+          "result": "One damage",
           "check": {
            "name": "Save",
            "base": 5,
@@ -1926,7 +2003,12 @@
           "dice": "si",
           "result": "Serious injury"
          }
-        ]
+        ],
+        "by": "demeter",
+        "weapons": [
+         "Long rifle"
+        ],
+        "target": "ezekiel-crows"
        }
       },
       "{@ezekiel-crows|Ezekiel} goes down. On the platform, {@vermin-pyre|Vermin Pyre} slams a fresh canister into his flamer and turns it on {@deuteronomy|Deuteronomy} again.",
@@ -1948,7 +2030,7 @@
          },
          {
           "dice": "3",
-          "result": "One wound, suppressed",
+          "result": "One damage, suppressed",
           "resultClass": "sup",
           "check": {
            "name": "Save",
@@ -1968,7 +2050,13 @@
          {
           "note": "Note: Blaze (4+) causes an extra hit. +2 cover from Perfect Void."
          }
-        ]
+        ],
+        "by": "vermin-pyre",
+        "weapons": [
+         "Flamer",
+         "Polearm*"
+        ],
+        "target": "deuteronomy"
        }
       },
       "Burnt and pinned at the edge of the platform, {@deuteronomy|Deuteronomy} tries to keep hold of the Perfect Void.",
@@ -2052,7 +2140,7 @@
          },
          {
           "dice": "3 5 5",
-          "result": "Three wounds",
+          "result": "Three damage",
           "check": {
            "name": "Save",
            "base": 6
@@ -2066,7 +2154,12 @@
          {
           "note": "Note: Vermin Pyre suffers the Hobbled lasting injury."
          }
-        ]
+        ],
+        "by": "deuteronomy",
+        "weapons": [
+         "Flechette pistol"
+        ],
+        "target": "vermin-pyre"
        }
       },
       "The poison does its work and Vermin Pyre falls from the platform. Below it, {@ezekiel-crows|Ezekiel} crawls into cover and gets himself back up.",
@@ -2126,7 +2219,7 @@
          },
          {
           "dice": "",
-          "result": "Two wounds, suppressed",
+          "result": "Two damage, suppressed",
           "resultClass": "sup",
           "check": {
            "name": "Save",
@@ -2144,7 +2237,12 @@
           }
          }
         ],
-        "resultClass": "sup"
+        "resultClass": "sup",
+        "by": "rumpleteaser",
+        "weapons": [
+         "Plasma gun"
+        ],
+        "target": "deus-and-amen"
        }
       },
       "The bolt hits {@deus-and-amen|Deus and Amen} hard, but the heat of the shot has warped the coils out of alignment. The plasma gun can no longer hold a charge. {@gutter-cantor|Gutter Cantor} creeps to the edge of the container roof and fires down at {@rumpleteaser|Rumpleteaser}.",
@@ -2165,7 +2263,12 @@
            "base": 4
           }
          }
-        ]
+        ],
+        "by": "gutter-cantor",
+        "weapons": [
+         "Cawdor Polearm/Autogun"
+        ],
+        "target": "rumpleteaser"
        }
       },
       "{@jellylorum|Jellylorum} fires back from the barricade, forcing {@gutter-cantor|Gutter Cantor} flat against the roof.",
@@ -2195,7 +2298,12 @@
            "base": 4
           }
          }
-        ]
+        ],
+        "by": "jellylorum",
+        "weapons": [
+         "Lasgun"
+        ],
+        "target": "gutter-cantor"
        }
       },
       "{@ratsong|Ratsong} darts between the containers to take a shot at {@jellylorum|Jellylorum}, but his stub gun doesn't have the range.",
@@ -2216,7 +2324,12 @@
            "base": 5
           }
          }
-        ]
+        ],
+        "by": "ratsong",
+        "weapons": [
+         "Stub gun"
+        ],
+        "target": "jellylorum"
        }
       }
      ],
@@ -2559,7 +2672,12 @@
            "base": 3
           }
          }
-        ]
+        ],
+        "by": "macavity",
+        "weapons": [
+         "Serpent's fangs*"
+        ],
+        "target": "deus-and-amen"
        }
       },
       {
@@ -2594,7 +2712,7 @@
          },
          {
           "dice": "3 4",
-          "result": "Two wounds",
+          "result": "Two damage",
           "check": {
            "name": "Save",
            "base": 5
@@ -2606,9 +2724,14 @@
           "result": "Serious injury"
          },
          {
-          "note": "Note: Unwieldy, so Initiative 1. No charge bonus to Initiative or attacks. Lethality 2 weapon."
+          "note": "Note: Unwieldy, so Initiative 1. No charge bonus to Initiative or attacks."
          }
-        ]
+        ],
+        "by": "deus-and-amen",
+        "weapons": [
+         "Heavy club"
+        ],
+        "target": "macavity"
        }
       },
       "The club smashes {@macavity|Macavity} to the ground. {@demeter|Demeter} sees {@ezekiel-crows|Ezekiel} heading for the fallen Nacht-Ghul and fires to stop him.",
@@ -2638,7 +2761,12 @@
            "base": 3
           }
          }
-        ]
+        ],
+        "by": "demeter",
+        "weapons": [
+         "Long rifle"
+        ],
+        "target": "ezekiel-crows"
        }
       },
       "{@ezekiel-crows|Ezekiel} keeps coming anyway. He reaches {@macavity|Macavity} and brings his cleaver down.",
@@ -2710,7 +2838,12 @@
            "base": 5
           }
          }
-        ]
+        ],
+        "by": "gutter-cantor",
+        "weapons": [
+         "Cawdor Polearm/Autogun"
+        ],
+        "target": "demeter"
        }
       },
       "{@jellylorum|Jellylorum} fires back at {@gutter-cantor|Gutter Cantor}, then heads for the foot of the ladder.",
@@ -2740,7 +2873,12 @@
            "base": 4
           }
          }
-        ]
+        ],
+        "by": "jellylorum",
+        "weapons": [
+         "Lasgun"
+        ],
+        "target": "gutter-cantor"
        }
       },
       "With his plasma gun useless, {@rumpleteaser|Rumpleteaser} falls back into the shadows.",
@@ -3040,7 +3178,12 @@
          {
           "note": "Note: Bulging Biceps to move at Initiative and fire a heavy weapon."
          }
-        ]
+        ],
+        "by": "deus-and-amen",
+        "weapons": [
+         "Twin-linked heavy stubber"
+        ],
+        "target": "demeter"
        }
       },
       "{@demeter|Demeter} fires back at {@deus-and-amen|Deus}, but the shot only glances off Amen.",
@@ -3073,7 +3216,12 @@
          {
           "note": "Note: Juggernaut prevents becoming suppressed."
          }
-        ]
+        ],
+        "by": "demeter",
+        "weapons": [
+         "Long rifle"
+        ],
+        "target": "deus-and-amen"
        }
       },
       "{@ezekiel-crows|Ezekiel} limps to the foot of the ladder, with {@deuteronomy|Deuteronomy} standing at the top.",
@@ -3098,7 +3246,12 @@
            "base": 5
           }
          }
-        ]
+        ],
+        "by": "ratsong",
+        "weapons": [
+         "Stub gun"
+        ],
+        "target": "demeter"
        }
       }
      ],
@@ -3315,7 +3468,7 @@
          },
          {
           "dice": "3",
-          "result": "One wound",
+          "result": "One damage",
           "check": {
            "name": "Save",
            "base": 6
@@ -3328,7 +3481,12 @@
           "resultClass": "sup"
          }
         ],
-        "resultClass": "sup"
+        "resultClass": "sup",
+        "by": "demeter",
+        "weapons": [
+         "Long rifle"
+        ],
+        "target": "gutter-cantor"
        }
       },
       "{@deus-and-amen|Deus and Amen} fire back at {@demeter|Demeter}, but miss again.",
@@ -3349,7 +3507,12 @@
            "base": 4
           }
          }
-        ]
+        ],
+        "by": "deus-and-amen",
+        "weapons": [
+         "Twin-linked heavy stubber"
+        ],
+        "target": "demeter"
        }
       },
       "{@jellylorum|Jellylorum} moves to fire on {@gutter-cantor|Gutter Cantor} as well.",
@@ -3370,7 +3533,12 @@
            "base": 4
           }
          }
-        ]
+        ],
+        "by": "jellylorum",
+        "weapons": [
+         "Lasgun"
+        ],
+        "target": "gutter-cantor"
        }
       },
       "{@ezekiel-crows|Ezekiel} climbs to the top of the ladder and fires at the Delaque on the platform.",
@@ -3391,6 +3559,10 @@
            "base": 3
           }
          }
+        ],
+        "by": "ezekiel-crows",
+        "weapons": [
+         "Autopistol"
         ]
        }
       },
@@ -3422,7 +3594,12 @@
            "note": "Toxin"
           }
          }
-        ]
+        ],
+        "by": "deuteronomy",
+        "weapons": [
+         "Flechette pistol"
+        ],
+        "target": "ezekiel-crows"
        }
       },
       "Wounded on the container roof, {@gutter-cantor|Gutter Cantor} fires one last burst at {@demeter|Demeter}.",
@@ -3452,7 +3629,12 @@
            "base": 4
           }
          }
-        ]
+        ],
+        "by": "gutter-cantor",
+        "weapons": [
+         "Cawdor Polearm/Autogun"
+        ],
+        "target": "demeter"
        }
       },
       "{@rumpleteaser|Rumpleteaser} stays in the shadows. The Theatre already have what they came for.",

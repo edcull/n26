@@ -37,7 +37,7 @@ function round(r, d) {
         <div class="round-no" aria-hidden="true">${esc(r.no)}</div>
         <div class="round-body">
           <div><h3>${md(r.title)}</h3></div>
-          ${blocks(r.blocks, { board: d.board })}
+          ${blocks(r.blocks, { board: d.board, fighters: d.fighters })}
         </div>
       </article>`;
 }
@@ -71,7 +71,7 @@ export function render(d) {
   </section>
   <section id="aftermath">
     <h2>Aftermath</h2>
-    ${blocks(d.aftermath || [])}
+    ${blocks(d.aftermath || [], { fighters: d.fighters })}
   </section>
 </main>
 ` + join(d.popovers, id => fighterPopover(id, d.fighters[id], gangOf[id]) + '\n');

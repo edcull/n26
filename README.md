@@ -109,6 +109,27 @@ Each fighter is stored once, under their id, as a list of entries along the camp
 - **`side`:** `p` or `t`. Together with `face`, it picks the round portrait.
 - **`resultClass`:** colours the result. `ammo` is yellow and `sup` is suppressed.
 
+### Attack callouts
+
+An attack names who made it, with what, and at whom:
+
+```json
+{"roll": {"side": "t", "face": "rumpleteaser", "by": "rumpleteaser", "weapons": ["Plasma gun"], "target": "ezekiel-crows",
+  "result": "Ezekiel seriously injured, Out of Ammo", "rows": [...]}}
+```
+
+- **The title** is drawn from these fields as "Rumpleteaser - Plasma Gun → Ezekiel Crows":
+  - each fighter's name has a tooltip with their stat line
+  - each weapon has a tooltip with its profile, taken from the fighter's card at this point in the campaign
+  - a combi-weapon's tooltip lists both profiles
+- **`weapons`** are the names on the attacker's card, or `"Unarmed"`. List two for a fight with a secondary weapon.
+- **`target`** is a fighter id, or a list for a weapon that hits several. Leave it out if the narrative never says who was aimed at.
+- **`action`** adds a word before the weapon: `Overwatch`, `Reaction`, `Counter-attack`, `Charge`.
+- **The damage note** ("Note: Damage (2), Lethality (2)") is added automatically for any weapon whose Damage or Lethality is above 1.
+- **Unsaved wounds** are given as damage on the save row: unsaved wounds × the weapon's Damage, e.g. `Two damage` for one unsaved plasma wound.
+
+Other callouts (tests, recovery, powers) keep a plain `name` such as `"Wit - Nerve"`.
+
 ### Callout style
 
 - **Tests on a roll row** are data, not text. The template shows the final number in bold, then the base and modifiers:
@@ -123,6 +144,7 @@ Each fighter is stored once, under their id, as a list of entries along the camp
 - **Rows with no number** keep a plain `label`: `Injury`, `Recovery`, `Perils`.
 - **Results:**
   - Count words when counting, otherwise `Hit` / `Miss` / `Wound`: `Two hits`, `One wound`, `Hit`, `Miss`
+  - Unsaved wounds on the save row as damage: `One damage`, `Two damage, suppressed`
   - `Serious injury`, `Out of Action`, `Out of Ammo`
   - Conditions after a comma: `One wound, suppressed`, `Saved, suppressed`
   - Narrative text says "seriously injured"

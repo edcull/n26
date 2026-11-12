@@ -825,7 +825,7 @@
          },
          {
           "dice": "",
-          "result": "No save",
+          "result": "One damage",
           "check": {
            "name": "Save",
            "base": 6,
@@ -842,7 +842,12 @@
           "dice": "fw si",
           "result": "Serious injury"
          }
-        ]
+        ],
+        "by": "ezekiel-crows",
+        "weapons": [
+         "Cleaver"
+        ],
+        "target": "rumpus"
        }
       },
       "The cleaver comes down hard, and {@rumpus|Rumpus} is left writhing in the dust.",
@@ -889,7 +894,12 @@
            "base": 4
           }
          }
-        ]
+        ],
+        "by": "elijah-emberchoir",
+        "weapons": [
+         "Autopistol"
+        ],
+        "target": "mungojerrie"
        }
       },
       "The round cracks off the gravestones beside the Ghost and sends him diving for cover.",
@@ -932,7 +942,12 @@
          {
           "note": "Note: The graviton pulse stays in place."
          }
-        ]
+        ],
+        "by": "mungojerrie",
+        "weapons": [
+         "Grav gun"
+        ],
+        "target": "elijah-emberchoir"
        }
       },
       "{@elijah-emberchoir|Elijah} is crushed against the wall, and the graviton field hangs beside him, warping everything it touches.",
@@ -954,7 +969,12 @@
            "base": 3
           }
          }
-        ]
+        ],
+        "by": "mordecai",
+        "weapons": [
+         "Autopistol"
+        ],
+        "target": "deuteronomy"
        }
       },
       "The shot goes wide. In the vats, {@deuteronomy|Deuteronomy} keeps his concentration and holds the Void in place.",
@@ -1020,7 +1040,12 @@
            ]
           }
          }
-        ]
+        ],
+        "by": "deuteronomy",
+        "weapons": [
+         "Flechette pistol"
+        ],
+        "target": "mordecai"
        }
       },
       "Needles rattle off the tank around {@mordecai|Mordecai}. His armour turns the one that finds him, but he is forced to duck, and {@deuteronomy|Deuteronomy} slips back out of sight.",
@@ -1108,7 +1133,7 @@
          },
          {
           "dice": "",
-          "result": "One wound",
+          "result": "One damage",
           "check": {
            "name": "Save",
            "base": 6,
@@ -1134,7 +1159,12 @@
            "base": 6
           }
          }
-        ]
+        ],
+        "by": "vermin-pyre",
+        "weapons": [
+         "Flamer"
+        ],
+        "target": "mistoffelees"
        }
       },
       "The flames wash over the wall. {@mistoffelees|Mistoffelees} falls back burnt and smoking, and Vermin's flamer splutters empty.",
@@ -1156,7 +1186,12 @@
            "base": 4
           }
          }
-        ]
+        ],
+        "by": "wit",
+        "weapons": [
+         "Stub gun"
+        ],
+        "target": "vermin-pyre"
        }
       },
       "{@deus-and-amen|Deus} pushes Amen forward, but the Stig-Shambler finds nothing to shoot at. {@gutter-cantor|Gutter Cantor} moves up beside his Word Keeper, and {@ratsong|Ratsong} stays crouched on the objective."
@@ -1466,7 +1501,12 @@
            "base": 4
           }
          }
-        ]
+        ],
+        "by": "mistoffelees",
+        "weapons": [
+         "Stub gun"
+        ],
+        "target": "vermin-pyre"
        }
       },
       "The round forces Vermin into cover, and {@mistoffelees|Mistoffelees} pulls back behind the wall with {@rumpus|Rumpus}.",
@@ -1488,7 +1528,12 @@
            "base": 3
           }
          }
-        ]
+        ],
+        "by": "ezekiel-crows",
+        "weapons": [
+         "Autopistol"
+        ],
+        "target": "wit"
        }
       },
       "{@growltiger|Growltiger} has just reached the south edge, and he answers with both pistols at once.",
@@ -1533,7 +1578,13 @@
            "base": 4
           }
          }
-        ]
+        ],
+        "by": "growltiger",
+        "weapons": [
+         "Flechette pistol",
+         "Autopistol"
+        ],
+        "target": "ezekiel-crows"
        }
       },
       "The flechettes go wide, but the autopistol round slams into {@ezekiel-crows|Ezekiel} and knocks him down behind cover. Then {@growltiger|Growltiger}'s autopistol clicks empty.",
@@ -1585,7 +1636,12 @@
            "base": 3
           }
          }
-        ]
+        ],
+        "by": "deuteronomy",
+        "weapons": [
+         "Flechette pistol"
+        ],
+        "target": "ezekiel-crows"
        }
       },
       "The needles keep the Firebrand pinned, and {@deuteronomy|Deuteronomy}'s pistol is empty.",
@@ -1617,7 +1673,7 @@
          },
          {
           "dice": "",
-          "result": "No save",
+          "result": "Four damage",
           "check": {
            "name": "Save",
            "base": 6,
@@ -1638,7 +1694,12 @@
           "note": "Note: Bulging Biceps to move at Initiative and fire a heavy weapon. Twin-linked to re-roll the Rapid Fire dice."
          }
         ],
-        "n": 4
+        "n": 4,
+        "by": "deus-and-amen",
+        "weapons": [
+         "Twin-linked heavy stubber"
+        ],
+        "target": "mungojerrie"
        }
       },
       "Six rounds find the Ghost, and he goes down among the graves.",
@@ -1660,7 +1721,12 @@
            "base": 4
           }
          }
-        ]
+        ],
+        "by": "wit",
+        "weapons": [
+         "Stub gun"
+        ],
+        "target": "ezekiel-crows"
        }
       },
       "Then he ducks back into cover. His real mission still lies ahead of him: he is trying to slip past the Psalm and into their ground to spread his unrest.",
@@ -2023,7 +2089,12 @@
            "base": 6
           }
          }
-        ]
+        ],
+        "by": "rumpleteaser",
+        "weapons": [
+         "Plasma gun"
+        ],
+        "target": "mordecai"
        }
       },
       "The bolt sears past the Word Keeper and forces him down, but the coils burn out and the plasma gun goes dark.",
@@ -2067,7 +2138,12 @@
           "note": "Note: Bull Charge gives +1 Strength in melee. The stimm-slug gives +2 Movement, +2 Strength and +2 Toughness.<br/>Growltiger suffers a hand injury."
          }
         ],
-        "n": 3
+        "n": 3,
+        "by": "ezekiel-crows",
+        "weapons": [
+         "Cleaver"
+        ],
+        "target": "growltiger"
        }
       },
       "The cleaver falls again and again. When {@ezekiel-crows|Ezekiel} steps back, {@growltiger|Growltiger} isn't getting up.",
@@ -2136,7 +2212,12 @@
            "base": 5
           }
          }
-        ]
+        ],
+        "by": "vermin-pyre",
+        "weapons": [
+         "Flamer"
+        ],
+        "target": "jellylorum"
        }
       },
       "The flames lick at the Medic and drive him into cover. This time the flamer keeps burning.",
@@ -2232,7 +2313,12 @@
            "base": 4
           }
          }
-        ]
+        ],
+        "by": "wit",
+        "weapons": [
+         "Stub gun"
+        ],
+        "target": "ezekiel-crows"
        }
       },
       "{@mordecai|Mordecai} fires at {@rumpleteaser|Rumpleteaser}.",
@@ -2253,7 +2339,12 @@
            "base": 3
           }
          }
-        ]
+        ],
+        "by": "mordecai",
+        "weapons": [
+         "Autopistol"
+        ],
+        "target": "rumpleteaser"
        }
       },
       "The shot goes wide, and the Word Keeper's autopistol runs dry.",
@@ -2275,7 +2366,12 @@
            "base": 4
           }
          }
-        ]
+        ],
+        "by": "jellylorum",
+        "weapons": [
+         "Lasgun"
+        ],
+        "target": "vermin-pyre"
        }
       },
       "{@deus-and-amen|Deus and Amen} crash through the bone yard and turn the heavy stubbers on the fallen {@mungojerrie|Mungojerrie}.",
@@ -2314,7 +2410,12 @@
           "dice": "fw si si",
           "result": "Still seriously injured"
          }
-        ]
+        ],
+        "by": "deus-and-amen",
+        "weapons": [
+         "Twin-linked heavy stubber"
+        ],
+        "target": "mungojerrie"
        }
       },
       "{@mungojerrie|Mungojerrie} lies still among the graves, alive, but only just.",
@@ -2676,7 +2777,12 @@
            "base": 6
           }
          }
-        ]
+        ],
+        "by": "rumpleteaser",
+        "weapons": [
+         "Plasma gun"
+        ],
+        "target": "ezekiel-crows"
        }
       },
       "The bolt goes wide, and the plasma gun overheats again.",
@@ -2757,11 +2863,14 @@
            "name": "To Wound",
            "base": 4
           }
-         },
-         {
-          "note": "Note: The cleaver is Lethality 2."
          }
-        ]
+        ],
+        "by": "ezekiel-crows",
+        "weapons": [
+         "Cleaver",
+         "Autopistol"
+        ],
+        "target": "rumpleteaser"
        }
       },
       "The cleaver bites twice, and the autopistol in his other hand keeps the Ghost pinned. {@rumpleteaser|Rumpleteaser} lashes out with his fists.",
@@ -2802,7 +2911,13 @@
            "base": 5
           }
          }
-        ]
+        ],
+        "by": "rumpleteaser",
+        "weapons": [
+         "Unarmed"
+        ],
+        "target": "ezekiel-crows",
+        "action": "Reaction"
        }
       },
       "The blow glances off {@ezekiel-crows|Ezekiel}'s armour.",
@@ -2824,7 +2939,12 @@
            "base": 4
           }
          }
-        ]
+        ],
+        "by": "jellylorum",
+        "weapons": [
+         "Lasgun"
+        ],
+        "target": "vermin-pyre"
        }
       },
       "{@vermin-pyre|Vermin Pyre} steps up and torches {@wit|Wit} and {@jellylorum|Jellylorum} together.",
@@ -2860,7 +2980,7 @@
          },
          {
           "dice": "",
-          "result": "No save",
+          "result": "Two damage",
           "check": {
            "name": "Save",
            "base": 6,
@@ -2889,6 +3009,14 @@
          {
           "note": "Note: Jellylorum suffers a hand injury."
          }
+        ],
+        "by": "vermin-pyre",
+        "weapons": [
+         "Flamer"
+        ],
+        "target": [
+         "wit",
+         "jellylorum"
         ]
        }
       },
@@ -2929,7 +3057,7 @@
          },
          {
           "dice": "",
-          "result": "No save",
+          "result": "One damage",
           "check": {
            "name": "Save",
            "base": 6,
@@ -2950,7 +3078,12 @@
           "note": "Note: Ratsong suffers an eye injury."
          }
         ],
-        "n": 4
+        "n": 4,
+        "by": "macavity",
+        "weapons": [
+         "Serpent's fangs*"
+        ],
+        "target": "ratsong"
        }
       },
       "The Nacht-Ghul's fangs find the Bonepicker's face, and {@ratsong|Ratsong} goes down.",
@@ -3031,7 +3164,12 @@
            "base": 3
           }
          }
-        ]
+        ],
+        "by": "deuteronomy",
+        "weapons": [
+         "Flechette pistol"
+        ],
+        "target": "deus-and-amen"
        }
       },
       "{@gutter-cantor|Gutter Cantor} fires back at {@deuteronomy|Deuteronomy}.",
@@ -3086,7 +3224,12 @@
            "note": "Nerves of Steel"
           }
          }
-        ]
+        ],
+        "by": "gutter-cantor",
+        "weapons": [
+         "Autogun"
+        ],
+        "target": "deuteronomy"
        }
       },
       "The rounds spark off the window frame. {@deuteronomy|Deuteronomy}'s cover holds, but his nerve doesn't, and he drops below the sill.",
@@ -3118,7 +3261,12 @@
            "base": 4
           }
          }
-        ]
+        ],
+        "by": "elijah-emberchoir",
+        "weapons": [
+         "Autopistol"
+        ],
+        "target": "deuteronomy"
        }
       },
       "The round keeps the Master of Shadow pinned, and {@elijah-emberchoir|Elijah}'s autopistol runs dry.",
@@ -3172,7 +3320,12 @@
            ]
           }
          }
-        ]
+        ],
+        "by": "rumpus",
+        "weapons": [
+         "Ferocious jaws"
+        ],
+        "target": "ezekiel-crows"
        }
       },
       "{@ezekiel-crows|Ezekiel}'s armour turns the bite, and he swings back at the Wyrm.",
@@ -3202,7 +3355,13 @@
            ]
           }
          }
-        ]
+        ],
+        "by": "ezekiel-crows",
+        "weapons": [
+         "Cleaver"
+        ],
+        "target": "rumpus",
+        "action": "Reaction"
        }
       },
       "The cleaver misses.",
@@ -3224,7 +3383,12 @@
            "base": 4
           }
          }
-        ]
+        ],
+        "by": "blessed-filth",
+        "weapons": [
+         "Long rifle"
+        ],
+        "target": "vermin-pyre"
        }
       },
       "The shot goes wide, and the madness doesn't let go.",
@@ -3291,7 +3455,13 @@
            "base": 5
           }
          }
-        ]
+        ],
+        "by": "mistoffelees",
+        "weapons": [
+         "Stub gun"
+        ],
+        "target": "mordecai",
+        "action": "Reaction"
        }
       },
       "Then the chainglaive comes round.",
@@ -3324,7 +3494,7 @@
          },
          {
           "dice": "",
-          "result": "No save",
+          "result": "One damage",
           "check": {
            "name": "Save",
            "base": 6,
@@ -3340,11 +3510,13 @@
           "label": "Injury",
           "dice": "fw si si",
           "result": "Serious injury"
-         },
-         {
-          "note": "Note: Lethality 2 with Shred."
          }
-        ]
+        ],
+        "by": "mordecai",
+        "weapons": [
+         "Chainglaive*"
+        ],
+        "target": "mistoffelees"
        }
       },
       "Its teeth tear through {@mistoffelees|Mistoffelees}' coat, and he collapses at {@mordecai|Mordecai}'s feet. Not even Mr. Mistoffelees can conjure his way out of this one.",
@@ -3366,7 +3538,12 @@
            "base": 4
           }
          }
-        ]
+        ],
+        "by": "wit",
+        "weapons": [
+         "Stub gun"
+        ],
+        "target": "vermin-pyre"
        }
       }
      ],
