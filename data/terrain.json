@@ -132,21 +132,21 @@
   },
   "tank": {
    "name": "Tank",
-   "note": "3\" by 2.5\": a cylinder lying on its base, origin at its centre; turn 0 lies east to west.",
+   "note": "A 2\" by 1.5\" cylinder lying on a 2.5\" by 2\" base, origin at its centre; turn 0 lies east to west.",
    "label": "Tank",
    "labelAt": [
     0,
-    48
+    42
    ],
    "els": [
     [
      "rect",
      {
       "class": "m-solid",
-      "x": "-37.5",
-      "y": "-31.25",
-      "width": "75",
-      "height": "62.5",
+      "x": "-31.25",
+      "y": "-25",
+      "width": "62.5",
+      "height": "50",
       "rx": "4"
      }
     ],
@@ -154,10 +154,10 @@
      "rect",
      {
       "class": "m-top",
-      "x": "-33",
-      "y": "-25",
-      "width": "66",
-      "height": "50",
+      "x": "-25",
+      "y": "-18.75",
+      "width": "50",
+      "height": "37.5",
       "rx": "7"
      }
     ],
@@ -165,7 +165,7 @@
      "path",
      {
       "class": "m-seam",
-      "d": "M-24 -25V25M24 -25V25"
+      "d": "M-17 -18.75V18.75M17 -18.75V18.75"
      }
     ]
    ]
