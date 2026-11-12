@@ -53,9 +53,10 @@ export function weaponNumbers(f, key) {
   const leth = +(plain(w.profile?.[4]).match(/^\d+$/) ? plain(w.profile[4]) : 1);
   return { dmg, leth };
 }
-function weaponBits(f, k) {
+// Damage only matters if the section dealt damage, Lethality only if it led to an Injury roll.
+function weaponBits(f, k, seen) {
   const { dmg, leth } = weaponNumbers(f, k);
-  return [dmg > 1 ? `Damage (${dmg})` : '', leth > 1 ? `Lethality (${leth})` : ''].filter(Boolean).join(', ');
+  return [dmg > 1 && seen.damage ? `Damage (${dmg})` : '', leth > 1 && seen.injury ? `Lethality (${leth})` : ''].filter(Boolean).join(', ');
 }
 // Which of the callout's weapons a section heading (h6) is about, e.g. "Autopistol (secondary)" -> "Autopistol".
 const ACTION_WORDS = /^(Overwatch|Reaction|Counter-attack|Charge|Coup de Grâce):\s*|\s*\(secondary\)$/g;
@@ -81,13 +82,14 @@ export function roll(r, ctx = {}) {
   const perSection = r.by && r.weapons.length > 1 && r.rows.some(it => it.h6 != null && sectionWeapon(r, it.h6));
   // Notes that end a weapon section (or the callout) are merged with that weapon's
   // Damage/Lethality into one "Note: …" line.
-  let current = null, body = '', notes = [];
+  let current = null, body = '', notes = [], seen = { damage: false, injury: false };
   const sentence = t => (/[.!?]$/.test(t) ? t : t + '.');
   const flushNotes = () => { body += join(notes, n => `<p class="roll-note">${md(n)}</p>`); notes = []; };
   const close = weapons => {
     const merged = notes.filter(n => /^Note: /.test(n)).map(n => sentence(n.slice(6)));
     const other = notes.filter(n => !/^Note: /.test(n));
-    const bits = weapons.map(k => weaponBits(f, k)).filter(Boolean).map(sentence);
+    const bits = weapons.map(k => weaponBits(f, k, seen)).filter(Boolean).map(sentence);
+    seen = { damage: false, injury: false };
     notes = other; flushNotes();
     if (merged.length || bits.length) body += `<p class="roll-note">Note: ${md([...merged, ...bits].join(' '))}</p>`;
   };
@@ -99,6 +101,8 @@ export function roll(r, ctx = {}) {
     }
     flushNotes();
     if (it.html != null) { body += it.html; continue; }
+    if (/damage/i.test(it.result || '')) seen.damage = true;
+    if (it.label === 'Injury') seen.injury = true;
     const dice = typeof it.dice === 'string' ? join(diceList(it.dice), die) : join(it.dice, d => (typeof d === 'string' ? die(d) : d.html));
     const tag = it.resultTag ?? 'strong';
     body += `<div class="roll-row"><span>${it.check ? checkLabel(it.check) : md(it.label)}</span><div class="dice">${dice}</div><${tag}${it.resultClass ? ` class="${it.resultClass}"` : ''}>${md(it.result).replace(/, /g, ',<br>')}</${tag}></div>`;
