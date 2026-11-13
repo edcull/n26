@@ -81,12 +81,12 @@
     {
      "fighter": "Ratsong",
      "injuries": "Eye Injury",
-     "action": "In recovery"
+     "action": "Recovery"
     },
     {
      "fighter": "Deus and Amen",
      "injuries": "Head Injury",
-     "action": "In recovery"
+     "action": "Recovery"
     }
    ],
    "income": [
@@ -218,12 +218,12 @@
     {
      "fighter": "Jellylorum",
      "injuries": "Hand Injury",
-     "action": "In recovery"
+     "action": "Recovery"
     },
     {
      "fighter": "Growltiger",
      "injuries": "Hand Injury",
-     "action": "In recovery"
+     "action": "Recovery"
     },
     {
      "fighter": "Mistoffelees",
@@ -233,7 +233,7 @@
     {
      "fighter": "Rumpus",
      "injuries": "Grievous Wound",
-     "action": "In recovery"
+     "action": "Recovery"
     },
     {
      "fighter": "Wit",
