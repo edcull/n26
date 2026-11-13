@@ -2039,7 +2039,7 @@
         "resultClass": "ammo",
         "rows": [
          {
-          "note": "Initiative 3"
+          "note": "Initiative 1"
          },
          {
           "h6": "Autopistol"
@@ -2075,6 +2075,9 @@
            "t": 3
           },
           "resultClass": "ammo"
+         },
+         {
+          "note": "Note: Unwieldy strikes at Initiative 1."
          }
         ],
         "by": "mordecai",
