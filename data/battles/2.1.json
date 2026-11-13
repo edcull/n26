@@ -364,7 +364,7 @@
         "tok": {
          "s": "p",
          "x": 331.0,
-         "y": 91.4,
+         "y": 89.8,
          "t": "El"
         }
        },
@@ -372,7 +372,7 @@
         "tok": {
          "s": "p",
          "x": 363.5,
-         "y": 91.4,
+         "y": 89.8,
          "t": "M"
         }
        },
@@ -411,7 +411,7 @@
        {
         "tok": {
          "s": "p",
-         "x": 412.6,
+         "x": 417.6,
          "y": 133.6,
          "t": "R"
         }
@@ -419,7 +419,7 @@
        {
         "tok": {
          "s": "p",
-         "x": 439.1,
+         "x": 430.4,
          "y": 169.9,
          "t": "B"
         }
@@ -452,7 +452,7 @@
         "tok": {
          "s": "t",
          "x": 291.7,
-         "y": 515.7,
+         "y": 518.5,
          "t": "W"
         }
        },
@@ -526,7 +526,7 @@
        }
       },
       "Cloaked in silence, {@deuteronomy|Deuteronomy} moves up to a broken window in the rendering vats, where he can watch the Cawdor come.",
-      "Across the yard, {@blessed-filth|Blessed Filth} scrambles up the side of the Gothic ruin and onto its roof, looking for a clear line of fire down the street.",
+      "Across the yard, {@blessed-filth|Blessed Filth} scrambles up the side of the ruined warehouse and onto its roof, looking for a clear line of fire down the street.",
       "He is not alone for long. The rubble at the foot of the wall shifts, and {@rumpus|Rumpus} bursts out of the ground right below him. Behind the walls of the vats, {@mistoffelees|Mistoffelees} closes his eyes and reaches into the sniper's mind.",
       {
        "roll": {
@@ -584,7 +584,7 @@
       },
       {
        "src": "images/2.1/photo-07.jpg",
-       "alt": "Blessed Filth on the roof of the Gothic ruin with his long rifle, Rumpus surfacing in the street below, and Mistoffelees behind the wall of the rendering vats in the foreground.",
+       "alt": "Blessed Filth on the roof of the ruined warehouse with his long rifle, Rumpus surfacing in the street below, and Mistoffelees behind the wall of the rendering vats in the foreground.",
        "class": "port",
        "caption": "Blessed Filth on the roof, with Rumpus below and Mistoffelees behind the vats wall."
       }
@@ -600,7 +600,7 @@
     {
      "map": {
       "viewBox": "-14 -24 628 668",
-      "label": "Positions at the end of round 1: the Carrion Psalm spread from the smoke stack to the gothic ruin, with Ratsong on the north objective and Blessed Filth on the gothic ruin roof; the Midnight Theatre around the rendering vats, with Wit on the south objective, Rumpus in the street below Blessed Filth, and Mungojerrie arriving at the edge of the bone yard.",
+      "label": "Positions at the end of round 1: the Carrion Psalm spread from the smoke stack to the ruined warehouse, with Ratsong on the north objective and Blessed Filth on the ruined warehouse roof; the Midnight Theatre around the rendering vats, with Wit on the south objective, Rumpus in the street below Blessed Filth, and Mungojerrie arriving at the edge of the bone yard.",
       "clip": "mat21r1",
       "caption": {
        "text": "Positions at the end of round 1",
@@ -640,7 +640,7 @@
         "tok": {
          "s": "p",
          "x": 205.2,
-         "y": 86.8,
+         "y": 83.3,
          "t": "DA",
          "r": 19
         }
@@ -664,7 +664,7 @@
        {
         "tok": {
          "s": "p",
-         "x": 187.7,
+         "x": 184.6,
          "y": 118.2,
          "t": "M"
         }
@@ -681,14 +681,14 @@
         "tok": {
          "s": "p",
          "x": 313.4,
-         "y": 98.8,
+         "y": 89.8,
          "t": "R"
         }
        },
        {
         "tok": {
          "s": "p",
-         "x": 414.2,
+         "x": 417.6,
          "y": 209.5,
          "t": "V"
         }
@@ -696,7 +696,7 @@
        {
         "tok": {
          "s": "p",
-         "x": 414.2,
+         "x": 417.6,
          "y": 251.1,
          "t": "Ez"
         }
@@ -721,14 +721,14 @@
         "tok": {
          "s": "t",
          "x": 384.6,
-         "y": 312.9,
+         "y": 322.8,
          "t": "Rp"
         }
        },
        {
         "tok": {
          "s": "t",
-         "x": 337.4,
+         "x": 335.9,
          "y": 384.9,
          "t": "Mi"
         }
@@ -737,7 +737,7 @@
         "tok": {
          "s": "t",
          "x": 287.5,
-         "y": 509.5,
+         "y": 518.5,
          "t": "W"
         }
        },
@@ -1062,7 +1062,7 @@
        }
       },
       "Needles rattle off the tank around {@mordecai|Mordecai}. His armour turns the one that finds him, but he is forced to duck, and {@deuteronomy|Deuteronomy} slips back out of sight.",
-      "On the roof of the Gothic ruin, {@blessed-filth|Blessed Filth} is still in the grip of the Terrible Truths. He can hear them on the ladder, he is sure of it. They are coming for him.",
+      "On the roof of the ruined warehouse, {@blessed-filth|Blessed Filth} is still in the grip of the Terrible Truths. He can hear them on the ladder, he is sure of it. They are coming for him.",
       {
        "roll": {
         "side": "p",
@@ -1217,7 +1217,7 @@
      "ports": [
       {
        "src": "images/2.1/photo-09.jpg",
-       "alt": "Ezekiel Crows and Vermin Pyre advancing beside the Gothic ruin, with Blessed Filth on its roof and a blurred Rumpus in the foreground.",
+       "alt": "Ezekiel Crows and Vermin Pyre advancing beside the ruined warehouse, with Blessed Filth on its roof and a blurred Rumpus in the foreground.",
        "class": "port",
        "caption": "Ezekiel closes on the Wyrm."
       }
@@ -1265,7 +1265,7 @@
         "tok": {
          "s": "p",
          "x": 300.0,
-         "y": 94.4,
+         "y": 89.8,
          "t": "R"
         }
        },
@@ -1281,7 +1281,7 @@
        {
         "tok": {
          "s": "p",
-         "x": 192.6,
+         "x": 184.6,
          "y": 169.4,
          "t": "G"
         }
@@ -1289,7 +1289,7 @@
        {
         "b": {
          "k": "pk",
-         "x": 180.2,
+         "x": 172.2,
          "y": 160.6,
          "t": "P"
         }
@@ -1313,7 +1313,7 @@
        {
         "tok": {
          "s": "p",
-         "x": 438.9,
+         "x": 430.4,
          "y": 321.3,
          "t": "V"
         }
@@ -1321,8 +1321,8 @@
        {
         "tok": {
          "s": "p",
-         "x": 402.8,
-         "y": 307.4,
+         "x": 414.9,
+         "y": 315.5,
          "t": "Ez"
         }
        },
@@ -1338,14 +1338,14 @@
         "tok": {
          "s": "t",
          "x": 305.6,
-         "y": 313.0,
+         "y": 322.8,
          "t": "Rp"
         }
        },
        {
         "tok": {
          "s": "t",
-         "x": 188.9,
+         "x": 193.9,
          "y": 370.4,
          "t": "De"
         }
@@ -1369,8 +1369,8 @@
        {
         "tok": {
          "s": "t",
-         "x": 363.0,
-         "y": 512.0,
+         "x": 364.4,
+         "y": 513.3,
          "t": "W"
         }
        },
@@ -1401,7 +1401,7 @@
        {
         "b": {
          "k": "s",
-         "x": 185.5,
+         "x": 177.5,
          "y": 181.0,
          "t": "S"
         }
@@ -1409,7 +1409,7 @@
        {
         "b": {
          "k": "a",
-         "x": 451.3,
+         "x": 442.8,
          "y": 312.5,
          "t": "A"
         }
@@ -1426,7 +1426,7 @@
         "b": {
          "k": "i",
          "x": 318.0,
-         "y": 304.2,
+         "y": 314.0,
          "t": "I"
         }
        },
@@ -1452,7 +1452,7 @@
        {
         "b": {
          "k": "v",
-         "x": 201.3,
+         "x": 206.3,
          "y": 361.6,
          "t": "V"
         }
@@ -1610,7 +1610,7 @@
        }
       },
       "The flechettes go wide, but the autopistol round slams into {@ezekiel-crows|Ezekiel} and knocks him down behind cover. Then {@growltiger|Growltiger}'s autopistol clicks empty.",
-      "Still reeling from the graviton hit, {@elijah-emberchoir|Elijah Emberchoir} picks himself up and moves into cover by the Ruin.",
+      "Still reeling from the graviton hit, {@elijah-emberchoir|Elijah Emberchoir} picks himself up and moves into cover by the ruined altar.",
       "In the vats, {@deuteronomy|Deuteronomy}'s hold on the Perfect Void slips.",
       {
        "roll": {
@@ -1787,14 +1787,14 @@
     {
      "photo": {
       "src": "images/2.1/photo-11.jpg",
-      "alt": "Deus and Amen peering round the Ruin with the heavy stubber, Mordecai and Gutter Cantor in the street, Mungojerrie in the bone yard and a Delaque fighter on the vats' upper floor.",
-      "caption": "Mordecai and Gutter run down the street, with Deus and Amen behind the Ruin."
+      "alt": "Deus and Amen peering round the ruined altar with the heavy stubber, Mordecai and Gutter Cantor in the street, Mungojerrie in the bone yard and a Delaque fighter on the vats' upper floor.",
+      "caption": "Mordecai and Gutter run down the street, with Deus and Amen behind the ruined altar."
      }
     },
     {
      "map": {
       "viewBox": "-14 -24 628 668",
-      "label": "Positions at the end of round 3: the Carrion Psalm pushing down the west street and east past the gothic ruin, with Ratsong on the north objective; the Midnight Theatre around the rendering vats and along the south edge, with Demeter, Rumpleteaser and Jellylorum arriving.",
+      "label": "Positions at the end of round 3: the Carrion Psalm pushing down the west street and east past the ruined warehouse, with Ratsong on the north objective; the Midnight Theatre around the rendering vats and along the south edge, with Demeter, Rumpleteaser and Jellylorum arriving.",
       "clip": "mat21r3",
       "caption": {
        "text": "Positions at the end of round 3",
@@ -1854,7 +1854,7 @@
         "tok": {
          "s": "p",
          "x": 300.0,
-         "y": 94.4,
+         "y": 89.8,
          "t": "R"
         }
        },
@@ -1894,7 +1894,7 @@
        {
         "tok": {
          "s": "p",
-         "x": 437.0,
+         "x": 430.4,
          "y": 314.8,
          "t": "V"
         }
@@ -1934,7 +1934,7 @@
        {
         "tok": {
          "s": "t",
-         "x": 192.6,
+         "x": 193.9,
          "y": 427.8,
          "t": "De"
         }
@@ -2054,7 +2054,7 @@
        {
         "b": {
          "k": "a",
-         "x": 205.0,
+         "x": 206.3,
          "y": 419.0,
          "t": "A"
         }
@@ -2321,7 +2321,7 @@
       },
       "Then he reloads his flechette pistol.",
       "At the north end of the manufactorum, {@ratsong|Ratsong} looks round and sees shapes moving in every shadow. The little Bonepicker abandons the objective, and {@macavity|Macavity} runs in to take it.",
-      "On the roof of the Gothic ruin, {@blessed-filth|Blessed Filth} is still trying to hide.",
+      "On the roof of the ruined warehouse, {@blessed-filth|Blessed Filth} is still trying to hide.",
       {
        "roll": {
         "side": "p",
@@ -2572,7 +2572,7 @@
        {
         "tok": {
          "s": "p",
-         "x": 199.1,
+         "x": 184.6,
          "y": 133.3,
          "t": "R"
         }
@@ -2621,8 +2621,8 @@
        {
         "tok": {
          "s": "p",
-         "x": 580.6,
-         "y": 360.2,
+         "x": 584.7,
+         "y": 356.7,
          "t": "V"
         }
        },
@@ -2638,7 +2638,7 @@
         "tok": {
          "s": "t",
          "x": 303.7,
-         "y": 94.4,
+         "y": 89.8,
          "t": "Mc"
         }
        },
@@ -2653,7 +2653,7 @@
        {
         "tok": {
          "s": "t",
-         "x": 338.0,
+         "x": 335.9,
          "y": 372.2,
          "t": "Rp"
         }
@@ -2661,7 +2661,7 @@
        {
         "tok": {
          "s": "t",
-         "x": 192.6,
+         "x": 193.9,
          "y": 433.3,
          "t": "De"
         }
@@ -2739,7 +2739,7 @@
        {
         "b": {
          "k": "i",
-         "x": 350.4,
+         "x": 348.3,
          "y": 363.4,
          "t": "I"
         }
@@ -2774,7 +2774,7 @@
        {
         "b": {
          "k": "v",
-         "x": 205.0,
+         "x": 206.3,
          "y": 424.5,
          "t": "V"
         }
@@ -3466,7 +3466,7 @@
        }
       },
       "The cleaver misses.",
-      "\"I'll get you!\" On the roof of the Gothic ruin, {@blessed-filth|Blessed Filth} spins round and fires at the nearest figure he can see. It's {@vermin-pyre|Vermin Pyre}.",
+      "\"I'll get you!\" On the roof of the ruined warehouse, {@blessed-filth|Blessed Filth} spins round and fires at the nearest figure he can see. It's {@vermin-pyre|Vermin Pyre}.",
       {
        "roll": {
         "side": "p",
@@ -3793,7 +3793,7 @@
        {
         "tok": {
          "s": "t",
-         "x": 199.1,
+         "x": 184.6,
          "y": 112.0,
          "t": "Mc"
         }
@@ -3802,14 +3802,14 @@
         "tok": {
          "s": "t",
          "x": 338.0,
-         "y": 100.0,
+         "y": 89.8,
          "t": "Dm"
         }
        },
        {
         "tok": {
          "s": "t",
-         "x": 188.9,
+         "x": 193.9,
          "y": 467.6,
          "t": "De"
         }
@@ -3817,7 +3817,7 @@
        {
         "tok": {
          "s": "t",
-         "x": 338.0,
+         "x": 335.9,
          "y": 477.8,
          "t": "Mi"
         }
@@ -3833,8 +3833,8 @@
        {
         "tok": {
          "s": "t",
-         "x": 336.1,
-         "y": 515.7,
+         "x": 335.7,
+         "y": 517.2,
          "t": "Rt"
         }
        },
@@ -3899,7 +3899,7 @@
        {
         "b": {
          "k": "s",
-         "x": 176.5,
+         "x": 181.5,
          "y": 458.8,
          "t": "S"
         }
@@ -3907,7 +3907,7 @@
        {
         "b": {
          "k": "v",
-         "x": 161.5,
+         "x": 166.5,
          "y": 458.8,
          "t": "V"
         }
@@ -3915,7 +3915,7 @@
        {
         "b": {
          "k": "i",
-         "x": 350.4,
+         "x": 348.3,
          "y": 469.0,
          "t": "SI"
         }
@@ -3931,16 +3931,16 @@
        {
         "b": {
          "k": "i",
-         "x": 323.7,
-         "y": 506.9,
+         "x": 323.3,
+         "y": 508.4,
          "t": "I"
         }
        },
        {
         "b": {
          "k": "s",
-         "x": 308.7,
-         "y": 506.9,
+         "x": 308.3,
+         "y": 508.4,
          "t": "S"
         }
        },
@@ -4493,353 +4493,9 @@
      "d": "M0 600H300V450A150 150 0 0 1 150 300H0Z"
     }
    ],
-   [
-    "circle",
-    {
-     "class": "m-plat",
-     "cx": "93.5",
-     "cy": "101.2",
-     "r": "83.6"
-    }
-   ],
-   [
-    "circle",
-    {
-     "class": "m-tower",
-     "cx": "93.5",
-     "cy": "101.2",
-     "r": "38.9"
-    }
-   ],
-   [
-    "polyline",
-    {
-     "class": "m-ladder",
-     "points": "144.3,167.6 152.8,178.7"
-    }
-   ],
-   [
-    "circle",
-    {
-     "class": "m-solid",
-     "cx": "244.2",
-     "cy": "30.0",
-     "r": "9.7"
-    }
-   ],
-   [
-    "circle",
-    {
-     "class": "m-solid",
-     "cx": "244.2",
-     "cy": "56.2",
-     "r": "9.7"
-    }
-   ],
-   [
-    "polyline",
-    {
-     "class": "m-wall",
-     "points": "319.0,68.1 411.4,68.8 410.9,19.4"
-    }
-   ],
-   [
-    "rect",
-    {
-     "class": "m-solid",
-     "height": "50.0",
-     "width": "104.1",
-     "x": "460.9",
-     "y": "13.8"
-    }
-   ],
-   [
-    "rect",
-    {
-     "class": "m-solid",
-     "height": "50.0",
-     "width": "103.5",
-     "x": "462.6",
-     "y": "96.9"
-    }
-   ],
-   [
-    "rect",
-    {
-     "class": "m-top",
-     "height": "107.6",
-     "width": "49.3",
-     "x": "491.6",
-     "y": "26.2"
-    }
-   ],
-   [
-    "rect",
-    {
-     "class": "m-solid",
-     "height": "59.0",
-     "rx": "10",
-     "width": "38.0",
-     "x": "163.4",
-     "y": "197.6"
-    }
-   ],
-   [
-    "polyline",
-    {
-     "class": "m-wall",
-     "points": "9.8,230.7 88.3,230.7"
-    }
-   ],
-   [
-    "rect",
-    {
-     "class": "m-solid",
-     "height": "136.0",
-     "width": "99.3",
-     "x": "31.7",
-     "y": "254.0"
-    }
-   ],
-   [
-    "polyline",
-    {
-     "class": "m-wall",
-     "points": "129.8,252.9 129.8,391.1 27.1,391.1"
-    }
-   ],
-   [
-    "polyline",
-    {
-     "class": "m-wall",
-     "points": "8.1,320.9 57.1,320.9"
-    }
-   ],
-   [
-    "rect",
-    {
-     "class": "m-solid",
-     "height": "152.7",
-     "width": "95.8",
-     "x": "455.1",
-     "y": "177.9"
-    }
-   ],
-   [
-    "polyline",
-    {
-     "class": "m-wall",
-     "points": "456.2,176.4 456.2,331.7 553.6,331.7"
-    }
-   ],
-   [
-    "polyline",
-    {
-     "class": "m-wall",
-     "points": "512.6,241.0 600.0,241.0"
-    }
-   ],
-   [
-    "polyline",
-    {
-     "class": "m-div",
-     "points": "209.0,229.7 209.0,113.1 393.3,113.1 393.3,221.9"
-    }
-   ],
-   [
-    "polygon",
-    {
-     "class": "m-solid",
-     "points": "209.0,231.2 247.4,234.8 274.4,239.5 300.9,248.8 333.6,238.4 354.8,229.7 375.9,222.9 393.3,220.9 393.3,299.5 209.0,299.5"
-    }
-   ],
-   [
-    "polyline",
-    {
-     "class": "m-wall",
-     "points": "207.9,229.7 207.9,299.5 394.4,299.5 393.3,220.9"
-    }
-   ],
-   [
-    "polyline",
-    {
-     "class": "m-ladder",
-     "points": "300.0,248.5 300.0,234.5"
-    }
-   ],
-   [
-    "polyline",
-    {
-     "class": "m-div",
-     "points": "318.0,357.7 355.5,357.7 355.5,498.1 217.1,498.1"
-    }
-   ],
-   [
-    "polygon",
-    {
-     "class": "m-solid",
-     "points": "174.2,357.7 318.0,357.7 297.7,378.7 266.7,395.7 242.5,412.6 230.1,440.9 221.6,469.5 217.1,496.9 174.2,496.9"
-    }
-   ],
-   [
-    "polyline",
-    {
-     "class": "m-wall",
-     "points": "318.0,356.0 174.2,356.0 174.2,496.9 217.1,496.9"
-    }
-   ],
-   [
-    "polyline",
-    {
-     "class": "m-ladder",
-     "points": "257.0,402.5 265.0,414.0"
-    }
-   ],
-   [
-    "polyline",
-    {
-     "class": "m-wall",
-     "points": "179.3,533.6 179.3,577.1"
-    }
-   ],
-   [
-    "polyline",
-    {
-     "class": "m-wall",
-     "points": "247.6,535.9 338.6,533.6 339.1,573.7"
-    }
-   ],
-   [
-    "polygon",
-    {
-     "class": "m-plat",
-     "points": "490.5,364.5 598.9,423.4 598.9,542.2 490.5,600.0 385.0,542.2 385.0,422.3"
-    }
-   ],
-   [
-    "circle",
-    {
-     "class": "m-tower",
-     "cx": "491.5",
-     "cy": "482.4",
-     "r": "55"
-    }
-   ],
-   [
-    "polyline",
-    {
-     "class": "m-ladder",
-     "points": "443.0,390.5 449.8,402.8"
-    }
-   ],
-   [
-    "polyline",
-    {
-     "class": "m-wall",
-     "points": "465.9,367.4 572.1,367.4"
-    }
-   ],
-   [
-    "polyline",
-    {
-     "class": "m-div",
-     "points": "396.7,430.8 394.5,541.0"
-    }
-   ],
-   [
-    "rect",
-    {
-     "class": "m-solid",
-     "height": "15.8",
-     "width": "9.2",
-     "x": "30.6",
-     "y": "431.9"
-    }
-   ],
-   [
-    "rect",
-    {
-     "class": "m-solid",
-     "height": "15.8",
-     "width": "9.2",
-     "x": "83.7",
-     "y": "432.5"
-    }
-   ],
-   [
-    "rect",
-    {
-     "class": "m-solid",
-     "height": "16.0",
-     "width": "9.2",
-     "x": "26.0",
-     "y": "479.2"
-    }
-   ],
-   [
-    "rect",
-    {
-     "class": "m-solid",
-     "height": "16.0",
-     "width": "9.2",
-     "x": "83.1",
-     "y": "479.8"
-    }
-   ],
-   [
-    "rect",
-    {
-     "class": "m-solid",
-     "height": "16.1",
-     "width": "9.2",
-     "x": "28.3",
-     "y": "515.8"
-    }
-   ],
-   [
-    "rect",
-    {
-     "class": "m-solid",
-     "height": "16.0",
-     "width": "9.3",
-     "x": "81.9",
-     "y": "514.7"
-    }
-   ],
-   [
-    "rect",
-    {
-     "class": "m-solid",
-     "height": "16.0",
-     "width": "9.2",
-     "x": "30.6",
-     "y": "551.9"
-    }
-   ],
-   [
-    "rect",
-    {
-     "class": "m-solid",
-     "height": "16.0",
-     "width": "9.2",
-     "x": "82.5",
-     "y": "548.5"
-    }
-   ],
-   [
-    "polyline",
-    {
-     "class": "m-wall",
-     "points": "128.1,421.1 128.1,488.4"
-    }
-   ],
-   [
-    "polyline",
-    {
-     "class": "m-wall",
-     "points": "128.1,506.7 128.1,572.5"
-    }
-   ]
+   {
+    "pieces": true
+   }
   ],
   "terrain-3": [
    [
@@ -4887,87 +4543,9 @@
      "r": "3"
     }
    ],
-   [
-    "text",
-    {
-     "class": "m-lab",
-     "x": "93.5",
-     "y": "104.4"
-    },
-    "Smoke stack"
-   ],
-   [
-    "text",
-    {
-     "class": "m-lab",
-     "x": "514.1",
-     "y": "160.9"
-    },
-    "Containers"
-   ],
-   [
-    "text",
-    {
-     "class": "m-lab",
-     "x": "182.4",
-     "y": "271.0"
-    },
-    "Tank"
-   ],
-   [
-    "text",
-    {
-     "class": "m-lab",
-     "x": "81.9",
-     "y": "322.1"
-    },
-    "Ruin"
-   ],
-   [
-    "text",
-    {
-     "class": "m-lab",
-     "x": "502.7",
-     "y": "258.1"
-    },
-    "Gothic ruin"
-   ],
-   [
-    "text",
-    {
-     "class": "m-lab",
-     "x": "303.0",
-     "y": "175.3"
-    },
-    "Manufactorum"
-   ],
-   [
-    "text",
-    {
-     "class": "m-lab",
-     "x": "266.7",
-     "y": "460.9"
-    },
-    "Rendering vats"
-   ],
-   [
-    "text",
-    {
-     "class": "m-lab",
-     "x": "490.5",
-     "y": "483.8"
-    },
-    "Starch silo"
-   ],
-   [
-    "text",
-    {
-     "class": "m-lab",
-     "x": "60.6",
-     "y": "585.1"
-    },
-    "Bone yard"
-   ]
+   {
+    "labels": true
+   }
   ],
   "ticks": [
    [
@@ -5017,5 +4595,206 @@
    ]
   ]
  },
- "roster": "2.1"
+ "roster": "2.1",
+ "terrain": [
+  {
+   "piece": "round-platform",
+   "at": [
+    93.5,
+    101.2
+   ]
+  },
+  {
+   "piece": "ladder",
+   "at": [
+    150.92,
+    176.25
+   ],
+   "turn": -37.4
+  },
+  [
+   "circle",
+   {
+    "class": "m-solid",
+    "cx": "244.2",
+    "cy": "30.0",
+    "r": "9.7"
+   }
+  ],
+  [
+   "circle",
+   {
+    "class": "m-solid",
+    "cx": "244.2",
+    "cy": "56.2",
+    "r": "9.7"
+   }
+  ],
+  {
+   "piece": "wall-large",
+   "at": [
+    411.4,
+    68.8
+   ],
+   "turn": -90.0
+  },
+  {
+   "piece": "container",
+   "at": [
+    513.4,
+    38.8
+   ]
+  },
+  {
+   "piece": "container",
+   "at": [
+    515.1,
+    121.9
+   ]
+  },
+  {
+   "piece": "container",
+   "at": [
+    515.9,
+    79.95
+   ],
+   "turn": 90,
+   "stacked": true,
+   "label": "Containers",
+   "labelAt": [
+    514.1,
+    160.9
+   ]
+  },
+  {
+   "piece": "tank",
+   "at": [
+    179.9,
+    227.1
+   ],
+   "turn": 90,
+   "label": "Tank",
+   "labelAt": [
+    179.9,
+    281
+   ]
+  },
+  {
+   "piece": "gothic-ruin-small",
+   "at": [
+    81.4,
+    322.4
+   ],
+   "turn": 180,
+   "label": "Ruined altar",
+   "labelAt": [
+    81.9,
+    322.1
+   ]
+  },
+  {
+   "piece": "gothic-ruin-large",
+   "at": [
+    503.15,
+    254.6
+   ],
+   "turn": 180,
+   "label": "Ruined warehouse",
+   "labelAt": [
+    502.7,
+    258.1
+   ]
+  },
+  {
+   "piece": "walled-ruin",
+   "at": [
+    301.15,
+    206.3
+   ],
+   "label": "Manufactorum",
+   "labelAt": [
+    303,
+    175.3
+   ]
+  },
+  {
+   "piece": "ladder",
+   "at": [
+    301.15,
+    248.3
+   ]
+  },
+  {
+   "piece": "rendering-vats",
+   "at": [
+    264.85,
+    427.05
+   ],
+   "label": "Rendering vats",
+   "labelAt": [
+    266.7,
+    460.9
+   ],
+   "turn": 90
+  },
+  {
+   "piece": "ladder",
+   "at": [
+    261.0,
+    408.25
+   ],
+   "turn": -34.8
+  },
+  [
+   "polyline",
+   {
+    "class": "m-wall",
+    "points": "179.3,533.6 179.3,577.1"
+   }
+  ],
+  {
+   "piece": "wall-small",
+   "at": [
+    338.6,
+    533.6
+   ],
+   "turn": -90.0
+  },
+  {
+   "piece": "hex-platform",
+   "at": [
+    491.5,
+    482.4
+   ],
+   "turn": 90,
+   "label": "Starch silo",
+   "labelAt": [
+    490.5,
+    483.8
+   ]
+  },
+  {
+   "piece": "ladder",
+   "at": [
+    441.5,
+    398.0
+   ],
+   "turn": -28.9
+  },
+  {
+   "piece": "barricade",
+   "at": [
+    538.5,
+    400
+   ]
+  },
+  {
+   "piece": "barricade",
+   "at": [
+    398,
+    487.5
+   ],
+   "turn": 90
+  }
+ ]
 }

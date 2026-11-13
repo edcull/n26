@@ -37,7 +37,7 @@ function round(r, d) {
         <div class="round-no" aria-hidden="true">${esc(r.no)}</div>
         <div class="round-body">
           <div><h3>${md(r.title)}</h3></div>
-          ${blocks(r.blocks, { board: d.board, fighters: d.fighters })}
+          ${blocks(r.blocks, { board: d.board, terrain: d.terrain, pieces: d.pieces, fighters: d.fighters })}
         </div>
       </article>`;
 }

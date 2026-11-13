@@ -1,0 +1,389 @@
+{
+ "_about": "Terrain pieces, each drawn at its own origin. Battles place them in battle.terrain: {piece, at:[x,y], turn, label, labelAt}. 600 units = 24\".",
+ "pieces": {
+  "container": {
+   "name": "Container",
+   "note": "2\" by 4\". When one sits on top of others it is drawn lighter.",
+   "els": [
+    [
+     "rect",
+     {
+      "class": "m-solid",
+      "x": "-50",
+      "y": "-25",
+      "width": "100",
+      "height": "50"
+     }
+    ]
+   ]
+  },
+  "barricade": {
+   "name": "Barricade",
+   "note": "3\" by 0.75\", in three sections.",
+   "els": [
+    [
+     "rect",
+     {
+      "class": "m-solid",
+      "x": "-37.5",
+      "y": "-9.38",
+      "width": "75",
+      "height": "18.75"
+     }
+    ],
+    [
+     "path",
+     {
+      "class": "m-seam",
+      "d": "M-12.5 -9.38V9.38M12.5 -9.38V9.38"
+     }
+    ]
+   ]
+  },
+  "round-platform": {
+   "name": "Round platform",
+   "els": [
+    [
+     "circle",
+     {
+      "class": "m-plat",
+      "cx": "0",
+      "cy": "0",
+      "r": "87.5"
+     }
+    ],
+    [
+     "circle",
+     {
+      "class": "m-tower",
+      "cx": "0",
+      "cy": "0",
+      "r": "37.5"
+     }
+    ]
+   ],
+   "label": "Smoke stack",
+   "labelAt": [
+    0.0,
+    3.2
+   ],
+   "note": "7\" across, with a 3\" tower in the middle."
+  },
+  "hex-platform": {
+   "name": "Hex platform",
+   "els": [
+    [
+     "polygon",
+     {
+      "class": "m-plat",
+      "points": "112.5,0 56.25,-100 -56.25,-100 -112.5,0 -56.25,100 56.25,100"
+     }
+    ],
+    [
+     "circle",
+     {
+      "class": "m-tower",
+      "cx": "0",
+      "cy": "0",
+      "r": "50"
+     }
+    ]
+   ],
+   "note": "8\" across the flats and 9\" point to point, with a 4\" tower in the middle."
+  },
+  "walled-ruin": {
+   "name": "Walled ruin",
+   "note": "8\" by 8\". A raised floor runs along one wall, 3\" deep at the ends and 2\" in the middle, with a 3\" by 2\" upper floor in one corner. Thick walls round the raised floor, thin walls round the open floor.",
+   "label": "Walled ruin",
+   "labelAt": [
+    0,
+    -30
+   ],
+   "els": [
+    [
+     "polyline",
+     {
+      "class": "m-div",
+      "points": "-100,25 -100,-100 100,-100 100,25"
+     }
+    ],
+    [
+     "polygon",
+     {
+      "class": "m-solid",
+      "points": "-100,100 -100,25 -60,35 -60,39 -25,44 0,50 30,43 30,39 70,32 100,25 100,100"
+     }
+    ],
+    [
+     "polygon",
+     {
+      "class": "m-top",
+      "points": "100,100 100,50 70,50 70,57 55,57 55,50 25,50 25,72 32,72 32,84 25,84 25,100"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-wall",
+      "points": "-100,25 -100,100 100,100 100,25"
+     }
+    ]
+   ]
+  },
+  "tank": {
+   "name": "Tank",
+   "note": "A 2\" by 1.5\" cylinder lying on its side.",
+   "label": "Tank",
+   "labelAt": [
+    0,
+    36
+   ],
+   "els": [
+    [
+     "rect",
+     {
+      "class": "m-solid",
+      "x": "-25",
+      "y": "-18.75",
+      "width": "50",
+      "height": "37.5",
+      "rx": "7"
+     }
+    ],
+    [
+     "path",
+     {
+      "class": "m-seam",
+      "d": "M-17 -18.75V18.75M17 -18.75V18.75"
+     }
+    ]
+   ]
+  },
+  "rendering-vats": {
+   "name": "Vat house",
+   "els": [
+    [
+     "circle",
+     {
+      "class": "m-solid",
+      "cx": "-75",
+      "cy": "0",
+      "r": "17"
+     }
+    ],
+    [
+     "circle",
+     {
+      "class": "m-solid",
+      "cx": "-75",
+      "cy": "52",
+      "r": "17"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-div",
+      "points": "-75,-37.5 -75,-87.5 75,-87.5 75,37.5"
+     }
+    ],
+    [
+     "circle",
+     {
+      "class": "m-solid",
+      "cx": "-75",
+      "cy": "-55",
+      "r": "17"
+     }
+    ],
+    [
+     "polygon",
+     {
+      "class": "m-solid",
+      "points": "-75,87.5 -75,-37.5 -40,-37.5 -40,-30 -28,-10 -12,12.5 10,12.5 10,18 45,28 75,37.5 75,87.5"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-wall",
+      "points": "-75,-37.5 -75,87.5 75,87.5 75,37.5"
+     }
+    ]
+   ],
+   "label": "Rendering vats",
+   "labelAt": [
+    25,
+    62
+   ],
+   "note": "6\" by 7\". A raised floor runs along one 6\" wall, 2\" deep at one end and 3\" in the middle, and 5\" up the side wall at the other end. Three round vats sit in that side wall; the two beside the raised floor run under it."
+  },
+  "ladder": {
+   "name": "Ladder",
+   "note": "Added to other pieces wherever a board has one.",
+   "els": [
+    [
+     "polyline",
+     {
+      "class": "m-rungs",
+      "points": "0,-7.5 0,7.5"
+     }
+    ]
+   ]
+  },
+  "rubble-block": {
+   "name": "Rubble block",
+   "note": "A loose block set inside a ruin, about 2.4\" by 1.7\" as drawn on 1.1.",
+   "els": [
+    [
+     "rect",
+     {
+      "class": "m-rubble",
+      "x": "-30",
+      "y": "-21.25",
+      "width": "60",
+      "height": "42.5"
+     }
+    ]
+   ]
+  },
+  "stairs": {
+   "name": "Stairs",
+   "note": "4.5\" by 4\". A 2\" railed landing, with two 2.5\" flights of stairs side by side; the upper flight is drawn lighter.",
+   "label": "Stairs",
+   "labelAt": [
+    31,
+    5
+   ],
+   "els": [
+    [
+     "rect",
+     {
+      "class": "m-top",
+      "x": "-56.25",
+      "y": "-50",
+      "width": "62.5",
+      "height": "50"
+     }
+    ],
+    [
+     "rect",
+     {
+      "class": "m-solid",
+      "x": "-56.25",
+      "y": "0",
+      "width": "62.5",
+      "height": "50"
+     }
+    ],
+    [
+     "path",
+     {
+      "class": "m-seam",
+      "d": "M-43.75 -50V0 M-43.75 0V50 M-31.25 -50V0 M-31.25 0V50 M-18.75 -50V0 M-18.75 0V50 M-6.25 -50V0 M-6.25 0V50"
+     }
+    ],
+    [
+     "rect",
+     {
+      "class": "m-solid",
+      "x": "6.25",
+      "y": "-50",
+      "width": "50",
+      "height": "100"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-div",
+      "points": "-56.25,-50 56.25,-50 56.25,50 -56.25,50"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-div",
+      "points": "-56.25,0 6.25,0"
+     }
+    ]
+   ]
+  },
+  "gothic-ruin-large": {
+   "name": "Gothic ruin (large)",
+   "note": "4.5\" by 7\". Walls along two sides; the floor along one long side stops 5\" short, with broken edges.",
+   "label": "Gothic ruin",
+   "labelAt": [
+    10,
+    10
+   ],
+   "els": [
+    [
+     "polygon",
+     {
+      "class": "m-solid",
+      "points": "-56.25,-87.5 56.25,-87.5 56.25,87.5 22,87.5 22,81 0,81 0,87.5 -18.75,87.5 -18.75,37.5 -38,37.5 -38,31 -56.25,31 -56.25,-12 -50,-12 -50,-30 -56.25,-30"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-wall",
+      "points": "-56.25,-87.5 56.25,-87.5 56.25,87.5"
+     }
+    ]
+   ]
+  },
+  "gothic-ruin-small": {
+   "name": "Gothic ruin (small)",
+   "note": "About 3.5\" by 6\". Walls along two sides; 3\" wide at one end, 3.5\" at its widest, narrowing towards the other end, with broken edges.",
+   "label": "Gothic ruin",
+   "labelAt": [
+    0,
+    0
+   ],
+   "els": [
+    [
+     "polygon",
+     {
+      "class": "m-solid",
+      "points": "-43.75,-75 31.25,-75 31.25,-40 43.75,-40 43.75,-8 38,-8 38,20 25,20 25,38 12.5,38 12.5,75 -43.75,75"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-wall",
+      "points": "31.25,-75 -43.75,-75 -43.75,75"
+     }
+    ]
+   ]
+  },
+  "wall-small": {
+   "name": "L wall (small)",
+   "note": "A 4\" wall with a 1.5\" return, turning the opposite way to the large one.",
+   "els": [
+    [
+     "polyline",
+     {
+      "class": "m-wall",
+      "points": "0,-100 0,0 -37.5,0"
+     }
+    ]
+   ]
+  },
+  "wall-large": {
+   "name": "L wall (large)",
+   "note": "A 5\" wall with a 2.5\" return.",
+   "els": [
+    [
+     "polyline",
+     {
+      "class": "m-wall",
+      "points": "0,-125 0,0 62.5,0"
+     }
+    ]
+   ]
+  }
+ }
+}

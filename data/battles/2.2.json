@@ -275,14 +275,14 @@
    "blocks": [
     {
      "text": [
-      "{p:The Carrion Psalm} enter the bullet den through the casting hall and the quench house. The Furnace is still roaring at the heart of the works, and the heat comes off it in waves. Before the night is out, the Cawdor mean to mark their claim on the territory.",
+      "{p:The Carrion Psalm} enter the bullet den through the casting hall and the ruins. The Furnace is still roaring at the heart of the works, and the heat comes off it in waves. Before the night is out, the Cawdor mean to mark their claim on the territory.",
       "But {t:The Midnight Theatre} are hot on their tail, slipping in through the shell works and the magazine. Deuteronomy's orders are simple. The Theatre do not need to win this fight. They only need to leave the Cawdor bleeding in the dark, too many of them down or tied up to fight back."
      ]
     },
     {
      "map": {
       "viewBox": "-14 -24 628 668",
-      "label": "Top-down map of the Cycle 2.2 table: the Furnace at the centre with the Anvil just south of it, containers to the north, the Casting hall, Shell works, Magazine and Quench house in the four corners, with the Carrion Psalm deploying in the Casting hall and Quench house corners and the Midnight Theatre in the Shell works and Magazine corners.",
+      "label": "Top-down map of the Cycle 2.2 table: the Furnace at the centre with the Anvil just south of it, containers to the north, the Casting hall, Shell works, Magazine and the ruins in the four corners, with the Carrion Psalm deploying in the Casting hall and ruins corners and the Midnight Theatre in the Shell works and Magazine corners.",
       "clip": "mat22",
       "items": [
        {
@@ -476,304 +476,14 @@
      "d": "M0 600V450A150 150 0 0 1 150 600Z"
     }
    ],
-   [
-    "polyline",
-    {
-     "class": "m-div",
-     "points": "24.2,64.9 24.2,27.4 164.6,27.4 164.6,165.8"
-    }
-   ],
-   [
-    "polygon",
-    {
-     "class": "m-solid",
-     "points": "24.2,208.8 24.2,64.9 45.2,85.2 62.2,116.2 79.1,140.4 107.4,152.8 136.0,161.3 163.4,165.8 163.4,208.8"
-    }
-   ],
-   [
-    "polyline",
-    {
-     "class": "m-wall",
-     "points": "22.5,64.9 22.5,208.8 163.4,208.8 163.4,165.8"
-    }
-   ],
-   [
-    "polyline",
-    {
-     "class": "m-ladder",
-     "points": "69.0,125.9 80.5,117.9"
-    }
-   ],
-   [
-    "polygon",
-    {
-     "class": "m-solid",
-     "points": "220.0,107.2 310.9,159.7 285.9,203.0 195.0,150.5"
-    }
-   ],
-   [
-    "polygon",
-    {
-     "class": "m-solid",
-     "points": "270.0,20.6 360.9,73.1 335.9,116.4 245.0,63.9"
-    }
-   ],
-   [
-    "polygon",
-    {
-     "class": "m-top",
-     "points": "229.4,145.8 283.2,52.7 326.5,77.7 272.7,170.8"
-    }
-   ],
-   [
-    "polyline",
-    {
-     "class": "m-div",
-     "points": "396.1,135.2 396.1,18.6 580.4,18.6 580.4,127.4"
-    }
-   ],
-   [
-    "polygon",
-    {
-     "class": "m-solid",
-     "points": "396.1,136.7 434.5,140.3 461.5,145.0 488.0,154.3 520.7,143.9 541.9,135.2 563.0,128.4 580.4,126.4 580.4,205.0 396.1,205.0"
-    }
-   ],
-   [
-    "polyline",
-    {
-     "class": "m-wall",
-     "points": "395.0,135.2 395.0,205.0 581.5,205.0 580.4,126.4"
-    }
-   ],
-   [
-    "polyline",
-    {
-     "class": "m-ladder",
-     "points": "487.1,154.0 487.1,140.0"
-    }
-   ],
-   [
-    "polyline",
-    {
-     "class": "m-wall",
-     "points": "37.5,275.0 112.5,275.0"
-    }
-   ],
-   [
-    "polyline",
-    {
-     "class": "m-wall",
-     "points": "41.2,368.8 95.0,368.8"
-    }
-   ],
-   [
-    "polyline",
-    {
-     "class": "m-wall",
-     "points": "145.0,255.0 145.0,375.0 125.0,375.0"
-    }
-   ],
-   [
-    "rect",
-    {
-     "class": "m-solid",
-     "height": "182.5",
-     "width": "102.5",
-     "x": "47.5",
-     "y": "402.5"
-    }
-   ],
-   [
-    "polyline",
-    {
-     "class": "m-wall",
-     "points": "47.5,402.5 150.0,402.5 150.0,565.0"
-    }
-   ],
-   [
-    "polyline",
-    {
-     "class": "m-wall",
-     "points": "456.2,260.0 456.2,375.0 490.0,375.0"
-    }
-   ],
-   [
-    "polyline",
-    {
-     "class": "m-wall",
-     "points": "497.5,280.0 562.5,280.0"
-    }
-   ],
-   [
-    "polyline",
-    {
-     "class": "m-wall",
-     "points": "522.5,377.5 570.0,377.5"
-    }
-   ],
-   [
-    "rect",
-    {
-     "class": "m-solid",
-     "height": "152.5",
-     "width": "112.5",
-     "x": "457.5",
-     "y": "422.5"
-    }
-   ],
-   [
-    "polyline",
-    {
-     "class": "m-wall",
-     "points": "457.5,575.0 457.5,422.5 570.0,422.5"
-    }
-   ],
-   [
-    "circle",
-    {
-     "class": "m-plat",
-     "cx": "300.0",
-     "cy": "300.0",
-     "r": "83.6"
-    }
-   ],
-   [
-    "circle",
-    {
-     "class": "m-tower",
-     "cx": "300.0",
-     "cy": "300.0",
-     "r": "38.9"
-    }
-   ],
-   [
-    "polyline",
-    {
-     "class": "m-ladder",
-     "points": "216.2,300.0 200.0,300.0"
-    }
-   ],
-   [
-    "polyline",
-    {
-     "class": "m-ladder",
-     "points": "383.8,300.0 400.0,300.0"
-    }
-   ],
-   [
-    "polygon",
-    {
-     "class": "m-plat",
-     "points": "410.5,479.3 355.3,383.6 244.7,383.6 189.5,479.3 244.7,575.0 355.3,575.0"
-    }
-   ],
-   [
-    "circle",
-    {
-     "class": "m-tower",
-     "cx": "300.0",
-     "cy": "479.3",
-     "r": "55"
-    }
-   ],
-   [
-    "rect",
-    {
-     "class": "m-solid",
-     "height": "40.0",
-     "rx": "11.2",
-     "width": "60.0",
-     "x": "270.0",
-     "y": "459.3"
-    }
-   ],
-   [
-    "polyline",
-    {
-     "class": "m-ladder",
-     "points": "300.0,575.0 300.0,590.0"
-    }
-   ],
-   [
-    "polyline",
-    {
-     "class": "m-plank",
-     "points": "207.5,402.5 207.5,497.5"
-    }
-   ],
-   [
-    "polyline",
-    {
-     "class": "m-plank",
-     "points": "392.5,402.5 392.5,497.5"
-    }
-   ]
+   {
+    "pieces": true
+   }
   ],
   "terrain-3": [
-   [
-    "text",
-    {
-     "class": "m-lab",
-     "x": "300.0",
-     "y": "306.2"
-    },
-    "Furnace"
-   ],
-   [
-    "text",
-    {
-     "class": "m-lab",
-     "x": "300.0",
-     "y": "550.0"
-    },
-    "Anvil"
-   ],
-   [
-    "text",
-    {
-     "class": "m-lab",
-     "x": "365.0",
-     "y": "160.0"
-    },
-    "Containers"
-   ],
-   [
-    "text",
-    {
-     "class": "m-lab",
-     "x": "112.5",
-     "y": "90.0"
-    },
-    "Casting hall"
-   ],
-   [
-    "text",
-    {
-     "class": "m-lab",
-     "x": "485.0",
-     "y": "90.0"
-    },
-    "Shell works"
-   ],
-   [
-    "text",
-    {
-     "class": "m-lab",
-     "x": "100.0",
-     "y": "505.0"
-    },
-    "Magazine"
-   ],
-   [
-    "text",
-    {
-     "class": "m-lab",
-     "x": "513.8",
-     "y": "510.0"
-    },
-    "Quench house"
-   ],
+   {
+    "labels": true
+   },
    [
     "text",
     {
@@ -821,5 +531,213 @@
    ]
   ]
  },
- "roster": "2.2"
+ "roster": "2.2",
+ "terrain": [
+  {
+   "piece": "rendering-vats",
+   "at": [
+    93.55,
+    118.05
+   ],
+   "label": "Casting hall",
+   "labelAt": [
+    112.5,
+    90.0
+   ]
+  },
+  {
+   "piece": "ladder",
+   "at": [
+    74.75,
+    121.9
+   ],
+   "turn": 55.2
+  },
+  {
+   "piece": "container",
+   "at": [
+    252.97,
+    155.1
+   ],
+   "turn": 30
+  },
+  {
+   "piece": "container",
+   "at": [
+    302.97,
+    68.5
+   ],
+   "turn": 30
+  },
+  {
+   "piece": "container",
+   "at": [
+    277.93,
+    111.75
+   ],
+   "turn": -60,
+   "stacked": true,
+   "label": "Containers",
+   "labelAt": [
+    365.0,
+    160.0
+   ]
+  },
+  {
+   "piece": "walled-ruin",
+   "at": [
+    488.25,
+    111.8
+   ],
+   "label": "Shell works",
+   "labelAt": [
+    485,
+    90
+   ]
+  },
+  {
+   "piece": "ladder",
+   "at": [
+    488.25,
+    153.8
+   ]
+  },
+  [
+   "polyline",
+   {
+    "class": "m-wall",
+    "points": "37.5,275.0 112.5,275.0"
+   }
+  ],
+  [
+   "polyline",
+   {
+    "class": "m-wall",
+    "points": "41.2,368.8 95.0,368.8"
+   }
+  ],
+  {
+   "piece": "wall-small",
+   "at": [
+    145.0,
+    375.0
+   ]
+  },
+  {
+   "piece": "gothic-ruin-large",
+   "at": [
+    98.75,
+    493.75
+   ],
+   "label": "Magazine",
+   "labelAt": [
+    100,
+    505
+   ]
+  },
+  {
+   "piece": "wall-large",
+   "at": [
+    456.2,
+    375.0
+   ]
+  },
+  [
+   "polyline",
+   {
+    "class": "m-wall",
+    "points": "497.5,280.0 562.5,280.0"
+   }
+  ],
+  [
+   "polyline",
+   {
+    "class": "m-wall",
+    "points": "522.5,377.5 570.0,377.5"
+   }
+  ],
+  {
+   "piece": "gothic-ruin-small",
+   "at": [
+    513.75,
+    498.75
+   ],
+   "label": "Ruins",
+   "labelAt": [
+    513.8,
+    510
+   ]
+  },
+  {
+   "piece": "round-platform",
+   "at": [
+    300.0,
+    300.0
+   ],
+   "label": "Furnace",
+   "labelAt": [
+    300.0,
+    306.2
+   ]
+  },
+  {
+   "piece": "ladder",
+   "at": [
+    204.2,
+    300.0
+   ],
+   "turn": -90.0
+  },
+  {
+   "piece": "ladder",
+   "at": [
+    395.8,
+    300.0
+   ],
+   "turn": -90.0
+  },
+  {
+   "piece": "hex-platform",
+   "at": [
+    300,
+    487.5
+   ],
+   "label": "Anvil",
+   "labelAt": [
+    300,
+    558.2
+   ]
+  },
+  {
+   "piece": "tank",
+   "at": [
+    300,
+    487.5
+   ],
+   "label": false
+  },
+  {
+   "piece": "ladder",
+   "at": [
+    300.0,
+    590.7
+   ]
+  },
+  {
+   "piece": "barricade",
+   "at": [
+    207.5,
+    450.0
+   ],
+   "turn": -90.0
+  },
+  {
+   "piece": "barricade",
+   "at": [
+    392.5,
+    450.0
+   ],
+   "turn": -90.0
+  }
+ ]
 }
