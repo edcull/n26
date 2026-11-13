@@ -2924,7 +2924,33 @@
         ]
        }
       }
+     ],
+     "split": [
+      "tall",
+      "two"
+     ],
+     "ports": [
+      {
+       "src": "images/2.2/photo-14.jpg",
+       "alt": "Deus and Amen beside the Furnace, Deus on the Stig-Shambler's back aiming the twin stubbers across the works.",
+       "class": "port",
+       "caption": "Deus and Amen turn the stubbers on Deuteronomy."
+      }
      ]
+    },
+    {
+     "photo": {
+      "src": "images/2.2/photo-13.jpg",
+      "alt": "The magazine and the broken walls west of it: Mordecai advancing between the walls, Elijah inside the magazine, Ezekiel Crows by its corner, Macavity in the foreground, Demeter on the roof and Deus and Amen by the Furnace beyond.",
+      "caption": "Mordecai goes for Macavity as the fight closes around the magazine."
+     }
+    },
+    {
+     "photo": {
+      "src": "images/2.2/photo-15.jpg",
+      "alt": "Deuteronomy and Rumpleteaser on the upper floor of the shell works, looking down over the parapet.",
+      "caption": "Deuteronomy and Rumpleteaser hold on in the shell works."
+     }
     },
     {
      "map": {
