@@ -45,7 +45,7 @@
    "section": "psalm",
    "story": [
     "The Psalm took the Rendermarch, but the Bullet Den cost them dearly. {@mordecai|Mordecai} was dragged off by the Theatre and only slipped free on the way out; he spends the cycle recovering.",
-    "{@elijah-emberchoir|Elijah Emberchoir} carries {@gutter-cantor|Gutter Cantor} to the Doc before his wounds can kill him, and {@ezekiel-crows|Ezekiel Crows} takes {@ratsong|Ratsong} to the flesh-menders for a bionic eye. {@deus-and-amen|Deus} nurses Amen through a head injury.",
+    "{@elijah-emberchoir|Elijah Emberchoir} carries {@gutter-cantor|Gutter Cantor} to the Doc before his wounds can kill him, and {@ratsong|Ratsong} nurses a ruined eye. {@deus-and-amen|Deus} nurses Amen through a head injury.",
     "{@vermin-pyre|Vermin Pyre} drills with his polearm, and {@blessed-filth|Blessed Filth} works the Psalm's turf for coin."
    ],
    "actions": [
@@ -57,7 +57,7 @@
     {
      "fighter": "Ezekiel Crows",
      "injuries": "–",
-     "action": "Fit Bionics"
+     "action": "To come"
     },
     {
      "fighter": "Elijah Emberchoir",
@@ -133,7 +133,7 @@
     "sheet": [
      [
       "Rating",
-      "1380"
+      "1405"
      ],
      [
       "Wins",
@@ -145,11 +145,11 @@
      ],
      [
       "Credits",
-      "5"
+      "30"
      ],
      [
       "Fighters",
-      "10"
+      "11"
      ]
     ],
     "assets": [
@@ -190,7 +190,6 @@
     ],
     "fighters": [
      "mordecai",
-     "vermillion",
      "ezekiel-crows",
      "elijah-emberchoir",
      "vermin-pyre",
@@ -239,17 +238,15 @@
      "recruit": "Tallowborn, Bonepicker (Prospect)",
      "discount": "–",
      "cost": "20"
+    },
+    {
+     "recruit": "Firebrand (Champion), with Nerves of Steel",
+     "discount": "–",
+     "cost": "90"
     }
    ],
    "sales": [],
    "purchases": [
-    {
-     "item": "Bionic eye, removes Eye Injury",
-     "for": "Ratsong",
-     "source": "Fit Bionics, Ezekiel Crows",
-     "cost": "50",
-     "tp": "–"
-    },
     {
      "item": "Medical Escort, treats Critical Injury",
      "for": "Gutter Cantor",
@@ -279,27 +276,20 @@
      "tp": "–"
     },
     {
-     "item": "Incendiary charge",
-     "for": "Ratsong",
+     "item": "Autogun",
+     "for": "Blessed Filth",
      "source": "Gang list",
-     "cost": "40",
-     "tp": "–"
-    },
-    {
-     "item": "Giant Rat (Vermillion)",
-     "for": "Mordecai",
-     "source": "Pets",
-     "cost": "45",
+     "cost": "20",
      "tp": "–"
     }
    ],
    "tradingTotal": {
     "recruit": [
-     "35",
+     "125",
      "–"
     ],
     "purchase": [
-     "190",
+     "75",
      "–"
     ],
     "sell": [
@@ -307,7 +297,7 @@
      "–"
     ],
     "total": [
-     "225",
+     "200",
      "0"
     ]
    },
