@@ -1004,6 +1004,55 @@
      }
     ]
    }
+  ],
+  "deacon": [
+   {
+    "at": "2-post",
+    "name": "Deacon",
+    "nameClass": "new-i",
+    "portrait": "images/gangs/the-carrion-psalm-thumb.jpg",
+    "type": "Redemptionist Deacon (Champion, Fanatic)",
+    "cost": "175",
+    "stats": {
+     "M": "5\"",
+     "WS": "3+",
+     "BS": "3+",
+     "S": "3",
+     "T": "3",
+     "W": "2",
+     "I": "3",
+     "A": "2",
+     "Sv": "5+",
+     "Ld": "7",
+     "Cl": "7",
+     "Wil": "8",
+     "Int": "6",
+     "XP": "37"
+    },
+    "weapons": [
+     {
+      "name": "Long rifle",
+      "profile": [
+       "24\"",
+       "48\"",
+       "4",
+       "-1",
+       "1"
+      ],
+      "traits": "{tip:Knockback (6+)}"
+     }
+    ],
+    "foot": [
+     {
+      "label": "Wargear",
+      "text": "{tip:Mono-sight (long rifle)}"
+     },
+     {
+      "label": "Skills",
+      "text": "{tip:Fast Shot}"
+     }
+    ]
+   }
   ]
  }
 }
