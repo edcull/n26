@@ -88,5 +88,7 @@
  "Captured": "Lasting Injury: the Fighter is taken captive by the opposing gang, who may hold them, ransom them or trade them back.",
  "Dodge": "Skill: when this Fighter would suffer a wound from an attack, roll a D6; on a 6 the attack is dodged and has no effect.",
  "Enfeebled": "Lasting Injury: the Fighter loses 1 Toughness.",
- "Head Injury": "Lasting Injury: the Fighter loses 1 Intelligence."
+ "Head Injury": "Lasting Injury: the Fighter loses 1 Intelligence.",
+ "Blast (5\")": "Place a 5\" Blast marker where the attack lands; every Fighter it touches is hit.",
+ "Limited": "If this weapon fails an Ammo check, it is deleted from the Fighter's card rather than simply running out of ammo."
 }

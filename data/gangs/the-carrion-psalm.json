@@ -761,7 +761,7 @@
    {
     "at": "2-post",
     "typeExtra": "<span class=\"benched\">In recovery</span>",
-    "cost": "40",
+    "cost": "80",
     "stats": {
      "XP": "7",
      "BS": "5+"
@@ -775,6 +775,31 @@
      {
       "label": "Skills",
       "text": "{tip.new-i:Dodge}"
+     }
+    ],
+    "weapons": [
+     {
+      "name": "Stub gun",
+      "profile": [
+       "6\"",
+       "12\"",
+       "3",
+       "-",
+       "1"
+      ],
+      "traits": "{tip:Light}"
+     },
+     {
+      "name": "Incendiary charge",
+      "class": "new",
+      "profile": [
+       "-",
+       "9\"",
+       "3",
+       "-",
+       "1"
+      ],
+      "traits": "{tip:Ammo (5+)}, {tip:Blast (5\")}, {tip:Blaze (5+)}, {tip:Limited}"
      }
     ]
    }

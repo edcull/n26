@@ -145,7 +145,7 @@
      ],
      [
       "Credits",
-      "90"
+      "50"
      ],
      [
       "Fighters",
@@ -276,6 +276,13 @@
      "source": "Gang list",
      "cost": "5",
      "tp": "–"
+    },
+    {
+     "item": "Incendiary charge",
+     "for": "Ratsong",
+     "source": "Gang list",
+     "cost": "40",
+     "tp": "–"
     }
    ],
    "tradingTotal": {
@@ -284,7 +291,7 @@
      "–"
     ],
     "purchase": [
-     "105",
+     "145",
      "–"
     ],
     "sell": [
@@ -292,7 +299,7 @@
      "–"
     ],
     "total": [
-     "140",
+     "180",
      "0"
     ]
    }
