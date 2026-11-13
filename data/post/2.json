@@ -302,7 +302,30 @@
      "180",
      "0"
     ]
-   }
+   },
+   "rolls": [
+    {
+     "name": "Medical Escort: Gutter Cantor",
+     "face": "cantor",
+     "side": "p",
+     "result": "Enfeebled",
+     "rows": [
+      {
+       "label": "{tip:Doc}",
+       "dice": "3",
+       "result": "Stabilised"
+      },
+      {
+       "label": "Lasting injury",
+       "dice": "5",
+       "result": "{tip:Enfeebled}"
+      },
+      {
+       "note": "Note: Gutter Cantor survives his Critical Injury but loses 1 Toughness."
+      }
+     ]
+    }
+   ]
   },
   {
    "gang": "the-midnight-theatre",
@@ -320,17 +343,17 @@
     {
      "fighter": "Demeter",
      "injuries": "–",
-     "action": "To come"
+     "action": "Medical Escort"
     },
     {
      "fighter": "Macavity",
      "injuries": "–",
-     "action": "To come"
+     "action": "Work Territory"
     },
     {
      "fighter": "Rumpleteaser",
      "injuries": "–",
-     "action": "To come"
+     "action": "Train (+2 XP)"
     },
     {
      "fighter": "Mungojerrie",
@@ -350,7 +373,7 @@
     {
      "fighter": "Mistoffelees",
      "injuries": "Personal Enmity (Elijah)",
-     "action": "To come"
+     "action": "Work Territory"
     },
     {
      "fighter": "Rumpus",
@@ -360,7 +383,7 @@
     {
      "fighter": "Wit",
      "injuries": "–",
-     "action": "To come"
+     "action": "Train (+2 XP)"
     }
    ],
    "income": [
@@ -377,8 +400,25 @@
      "credits": "+80"
     },
     {
-     "source": "Territories",
-     "credits": "To come"
+     "source": "Heaviside Hab-layer (Settlement)",
+     "credits": "0",
+     "recruitment": "Ganger at a 25 credit discount"
+    },
+    {
+     "source": "Rippershop (Rogue Doc Shop)",
+     "credits": "+15"
+    },
+    {
+     "source": "Pyroclave (Promethium Cache)",
+     "credits": "+15"
+    },
+    {
+     "source": "Hollowpoint (Bullet Den)",
+     "credits": "+15"
+    },
+    {
+     "source": "Work Territory (2 × 15)",
+     "credits": "+30"
     },
     {
      "source": "Reputation (3 × 10)",
@@ -389,7 +429,7 @@
     "sheet": [
      [
       "Rating",
-      "–"
+      "1455"
      ],
      [
       "Wins",
@@ -401,11 +441,11 @@
      ],
      [
       "Credits",
-      "–"
+      "20"
      ],
      [
       "Fighters",
-      "9"
+      "11"
      ]
     ],
     "assets": [
@@ -448,13 +488,122 @@
      "deuteronomy",
      "demeter",
      "macavity",
+     "nacht-ghul",
      "rumpleteaser",
      "mungojerrie",
+     "ghost",
      "jellylorum",
      "growltiger",
      "mistoffelees",
      "rumpus",
      "wit"
+    ]
+   },
+   "advancements": [
+    {
+     "fighter": "Deuteronomy",
+     "xp": "76",
+     "range": "73–84",
+     "roll": "6",
+     "advancement": "<span class=\"new-i\">Medicate</span> (primary skill)",
+     "cost": "+10"
+    },
+    {
+     "fighter": "Macavity",
+     "xp": "63",
+     "range": "61–72",
+     "roll": "6",
+     "advancement": "<span class=\"new-i\">Rain of Blows</span> (primary skill)",
+     "cost": "+10"
+    },
+    {
+     "fighter": "Rumpleteaser",
+     "xp": "20",
+     "range": "19–24",
+     "roll": "7",
+     "advancement": "<span class=\"new-i\">Spring Up</span> (secondary skill)",
+     "cost": "+15"
+    },
+    {
+     "fighter": "Mistoffelees",
+     "xp": "11",
+     "range": "10–12",
+     "roll": "6",
+     "advancement": "<span class=\"new-i\">+1 Willpower</span>",
+     "cost": "+5"
+    }
+   ],
+   "purchases": [
+    {
+     "item": "Medical Escort, treats Critical Injury",
+     "for": "Mungojerrie",
+     "source": "Doc",
+     "cost": "30",
+     "tp": "–"
+    },
+    {
+     "item": "Shivver sword",
+     "for": "Nacht-Ghul",
+     "source": "Gang list",
+     "cost": "50",
+     "tp": "–"
+    },
+    {
+     "item": "Shotgun (solid and scatter ammo)",
+     "for": "Ghost",
+     "source": "Gang list",
+     "cost": "35",
+     "tp": "–"
+    }
+   ],
+   "rolls": [
+    {
+     "name": "Medical Escort: Mungojerrie",
+     "face": "mungojerrie",
+     "side": "t",
+     "result": "Full recovery",
+     "rows": [
+      {
+       "label": "{tip:Doc}",
+       "dice": "6",
+       "result": "Full recovery"
+      },
+      {
+       "note": "Note: Mungojerrie recovers from his Critical Injury with no lasting effect."
+      }
+     ]
+    }
+   ],
+   "incomeTotal": "275",
+   "recruits": [
+    {
+     "recruit": "Nacht-Ghul (Champion)",
+     "discount": "–",
+     "cost": "120"
+    },
+    {
+     "recruit": "Ghost (Ganger)",
+     "discount": "25 credits, Settlement",
+     "cost": "45 – 25 = 20"
+    }
+   ],
+   "sales": [],
+   "tradingTotal": {
+    "recruit": [
+     "140",
+     "–"
+    ],
+    "purchase": [
+     "115",
+     "–"
+    ],
+    "sell": [
+     "0",
+     "–"
+    ],
+    "total": [
+     "255",
+     "0"
     ]
    }
   }

@@ -1,11 +1,5 @@
 .m-ladder { fill: none; stroke: var(--ink); stroke-width: 16; stroke-dasharray: 2 3.5; }
 .ooa.tok-p{color:var(--cawdor)}.ooa.tok-t{color:var(--delaque)}
-.roll summary:has(.r-face) { grid-template-columns: 1rem 2.6rem minmax(0, 1fr); }
-.roll summary:has(.r-face)::before { align-self: center; margin-top: 0; }
-.roll summary > .r-face ~ span { grid-column: 3; }
-.r-face { grid-column: 2; grid-row: 1 / span 2; align-self: center; width: 2.6rem; height: 2.6rem; border-radius: 50%; background: #000 center / cover no-repeat; border: 2px solid var(--line); }
-.r-face.p { border-color: var(--cawdor); }
-.r-face.t { border-color: var(--delaque); }
 .m-zone { fill: none; stroke-width: 2.5; stroke-dasharray: 8 5; }
 .m-zone.p { stroke: var(--cawdor); }
 .m-zone.t { stroke: var(--delaque); }

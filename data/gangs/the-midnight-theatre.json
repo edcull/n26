@@ -125,7 +125,18 @@
     "at": "2-post",
     "stats": {
      "XP": "76"
-    }
+    },
+    "cost": "255",
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:A Perfect Void}, {tip:Counter-attack}, {tip:Inspiring}, {tip.new-i.sk-adv:Medicate}"
+     },
+     {
+      "label": "Special rules",
+      "text": "{tip:Master of Whispers}"
+     }
+    ]
    }
   ],
   "demeter": [
@@ -322,7 +333,18 @@
     "at": "2-post",
     "stats": {
      "XP": "63"
-    }
+    },
+    "cost": "200",
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Inspiring}, {tip:Spring Up}, {tip.new-i.sk-adv:Rain of Blows}"
+     },
+     {
+      "label": "Special rules",
+      "text": "{tip:From the Shadows}"
+     }
+    ]
    }
   ],
   "rumpleteaser": [
@@ -442,8 +464,15 @@
    {
     "at": "2-post",
     "stats": {
-     "XP": "18"
-    }
+     "XP": "20"
+    },
+    "cost": "165",
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Hip-shooting}, {tip.new-i.sk-adv:Spring Up}"
+     }
+    ]
    }
   ],
   "jellylorum": [
@@ -649,6 +678,16 @@
      }
     ],
     "typeExtra": "<span class=\"benched crit\">Critical injury</span>"
+   },
+   {
+    "at": "2-post",
+    "typeExtra": null,
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Hip-shooting}"
+     }
+    ]
    }
   ],
   "skimbleshanks": [
@@ -812,7 +851,8 @@
    {
     "at": "2-post",
     "stats": {
-     "XP": "11"
+     "XP": "11",
+     "Wil": "8"
     },
     "foot": [
      {
@@ -831,7 +871,11 @@
       "label": "Lasting injuries",
       "text": "{tip.new-i:Personal Enmity (Elijah)}"
      }
-    ]
+    ],
+    "cost": "100",
+    "statClass": {
+     "Wil": "adv"
+    }
    }
   ],
   "growltiger": [
@@ -1063,6 +1107,135 @@
      },
      {
       "html": "<b class=\"sk\" data-tip=\"Useful Lies uses remaining. After six uses the Whisper Merchant calls in their debt: the gang must pay their Credit Cost again or remove them.\" tabindex=\"0\">Charges</b> <span aria-label=\"5 of 6 charges\" class=\"charges\">●●●●●<i>○</i></span> 5 of 6"
+     }
+    ]
+   },
+   {
+    "at": "2-post",
+    "stats": {
+     "XP": "17"
+    }
+   }
+  ],
+  "nacht-ghul": [
+   {
+    "at": "2-post",
+    "name": "Nacht-Ghul",
+    "nameClass": "new-i",
+    "portrait": "images/gangs/the-midnight-theatre-thumb.jpg",
+    "type": "Nacht-Ghul (Champion, Loner)",
+    "cost": "170",
+    "stats": {
+     "M": "6\"",
+     "WS": "3+",
+     "BS": "4+",
+     "S": "4",
+     "T": "3",
+     "W": "2",
+     "I": "5",
+     "A": "3",
+     "Sv": "5+",
+     "Ld": "6",
+     "Cl": "8",
+     "Wil": "8",
+     "Int": "7",
+     "XP": "49"
+    },
+    "weapons": [
+     {
+      "name": "Serpent's fangs*",
+      "profile": [
+       "E",
+       "-",
+       "-",
+       "-3",
+       "1"
+      ],
+      "traits": "{tip:Melee}, {tip:Paired (2)}, {tip:Toxin (3+)}"
+     },
+     {
+      "name": "Shivver sword",
+      "class": "new",
+      "profile": [
+       "E",
+       "-",
+       "S+1",
+       "-1",
+       "2"
+      ],
+      "traits": "{tip:Melee}, {tip:Parry}"
+     }
+    ],
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Inspiring}, {tip:Spring Up}"
+     },
+     {
+      "label": "Special rules",
+      "text": "{tip:From the Shadows}"
+     }
+    ]
+   }
+  ],
+  "ghost": [
+   {
+    "at": "2-post",
+    "name": "Ghost",
+    "nameClass": "new-i",
+    "portrait": "images/gangs/the-midnight-theatre-thumb.jpg",
+    "type": "Ghost (Ganger, Gunner)",
+    "cost": "80",
+    "stats": {
+     "M": "5\"",
+     "WS": "4+",
+     "BS": "4+",
+     "S": "3",
+     "T": "3",
+     "W": "1",
+     "I": "4",
+     "A": "1",
+     "Sv": "6+",
+     "Ld": "6",
+     "Cl": "6",
+     "Wil": "7",
+     "Int": "6",
+     "XP": "13"
+    },
+    "weapons": [
+     {
+      "name": "Shotgun",
+      "nameClass": "parent"
+     },
+     {
+      "class": "sub new",
+      "name": "Solid ammo",
+      "profile": [
+       "?",
+       "?",
+       "?",
+       "?",
+       "?"
+      ],
+      "traits": "Profile to come"
+     },
+     {
+      "class": "sub new",
+      "name": "Scatter ammo",
+      "profile": [
+       "?",
+       "?",
+       "?",
+       "?",
+       "?"
+      ],
+      "traits": "Profile to come"
+     }
+    ],
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Hip-shooting}"
      }
     ]
    }
