@@ -55,6 +55,8 @@
 .charges i { font-style: normal; color: var(--muted); }
 .fighter .c.adv { background: color-mix(in srgb, #4fd6e6 22%, transparent); }
 .fighter .c.adv b, .adv-i { color: #4fd6e6; font-weight: 700; }
+.fighter .c.prev { background: color-mix(in srgb, #4fd6e6 22%, transparent); }
+.fighter .c.prev b, .sk-adv { color: #4fd6e6; font-weight: 700; }
 .new-key { margin: -.4rem 0 1rem; color: var(--muted, #9aa6ad); font-size: .95rem; }
 .xp-btn { appearance: none; border: 0; margin: 0; font: inherit; cursor: pointer; text-align: center; }
 .xp-btn:hover { filter: brightness(1.1); }
