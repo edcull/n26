@@ -2,8 +2,8 @@
 .m-ladder { fill: none; stroke: var(--ink); stroke-width: 9; stroke-dasharray: 2 4; }
 .charges { letter-spacing: .12em; color: var(--sodium); }
 .charges i { font-style: normal; color: var(--line); }
-.fighter .c.adv { background: color-mix(in srgb, #4fd6e6 22%, transparent); }
-.fighter .c.adv b, .adv-i { color: #4fd6e6; font-weight: 700; }
+.fighter .c.adv { background: color-mix(in srgb, #6fd37a 22%, transparent); }
+.fighter .c.adv b, .adv-i { color: #6fd37a; font-weight: 700; }
 .sheet.four { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .assets.one { grid-template-columns: minmax(0, 1fr); }
 .ledger.post, .ledger.adv { min-width: 30rem; max-width: none; table-layout: fixed; }
