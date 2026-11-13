@@ -1172,17 +1172,6 @@
     },
     "weapons": [
      {
-      "name": "Serpent's fangs*",
-      "profile": [
-       "E",
-       "-",
-       "-",
-       "-3",
-       "1"
-      ],
-      "traits": "{tip:Melee}, {tip:Paired (2)}, {tip:Toxin (3+)}"
-     },
-     {
       "name": "Shivver sword",
       "class": "new",
       "profile": [
