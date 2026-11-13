@@ -91,5 +91,6 @@
  "Head Injury": "Lasting Injury: the Fighter loses 1 Intelligence.",
  "Blast (5\")": "Place a 5\" Blast marker where the attack lands; every Fighter it touches is hit.",
  "Limited": "If this weapon fails an Ammo check, it is deleted from the Fighter's card rather than simply running out of ammo.",
- "Doc": "On a Medical Escort the Doc rolls a D6 to treat the Critical Injury. A 6 is a full recovery; lower rolls may stabilise the Fighter but leave a new Lasting Injury."
+ "Doc": "On a Medical Escort the Doc rolls a D6 to treat the Critical Injury. A 6 is a full recovery; lower rolls may stabilise the Fighter but leave a new Lasting Injury.",
+ "Hollowpoint (Bullet Den)": "Bullet Den. Boons: Income: 15 credits. Recruit: instead of income, if the gang has no Ammo-Jack, recruit one for 30 credits less. Battlefield effect: Plentiful Ammo: once per round, each gang may make a Reload action as a Free action."
 }

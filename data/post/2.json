@@ -400,8 +400,20 @@
      "credits": "+80"
     },
     {
-     "source": "Territories",
-     "credits": "To come"
+     "source": "Heaviside Hab-layer (Settlement)",
+     "credits": "+15"
+    },
+    {
+     "source": "Rippershop (Rogue Doc Shop)",
+     "credits": "+15"
+    },
+    {
+     "source": "Pyroclave (Promethium Cache)",
+     "credits": "+15"
+    },
+    {
+     "source": "Hollowpoint (Bullet Den)",
+     "credits": "+15"
     },
     {
      "source": "Work Territory (1 × 15)",
@@ -428,7 +440,7 @@
      ],
      [
       "Credits",
-      "–"
+      "215"
      ],
      [
       "Fighters",
@@ -551,7 +563,8 @@
       }
      ]
     }
-   ]
+   ],
+   "incomeTotal": "275"
   }
  ]
 }
