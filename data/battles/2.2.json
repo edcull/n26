@@ -513,7 +513,7 @@
         "resultClass": "ammo",
         "rows": [
          {
-          "dice": "5",
+          "dice": "4 1",
           "result": "Passes",
           "resultClass": "ammo",
           "check": {
