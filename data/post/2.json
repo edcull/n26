@@ -133,7 +133,7 @@
     "sheet": [
      [
       "Rating",
-      "1335"
+      "1380"
      ],
      [
       "Wins",
@@ -145,7 +145,7 @@
      ],
      [
       "Credits",
-      "50"
+      "5"
      ],
      [
       "Fighters",
@@ -190,6 +190,7 @@
     ],
     "fighters": [
      "mordecai",
+     "giant-rat",
      "ezekiel-crows",
      "elijah-emberchoir",
      "vermin-pyre",
@@ -283,6 +284,13 @@
      "source": "Gang list",
      "cost": "40",
      "tp": "–"
+    },
+    {
+     "item": "Giant Rat",
+     "for": "Mordecai",
+     "source": "Pets",
+     "cost": "45",
+     "tp": "–"
     }
    ],
    "tradingTotal": {
@@ -291,7 +299,7 @@
      "–"
     ],
     "purchase": [
-     "145",
+     "190",
      "–"
     ],
     "sell": [
@@ -299,7 +307,7 @@
      "–"
     ],
     "total": [
-     "180",
+     "225",
      "0"
     ]
    },

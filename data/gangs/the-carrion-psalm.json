@@ -129,7 +129,7 @@
     "foot": [
      {
       "label": "Wargear",
-      "text": "{tip:Mesh armour}, {tip:Bio-booster}"
+      "text": "{tip:Mesh armour}, {tip:Bio-booster}, {tip.new-i:Giant Rat}"
      },
      {
       "label": "Skills",
@@ -140,7 +140,8 @@
       "text": "{tip:Personal Enmity (Macavity)}"
      }
     ],
-    "typeExtra": null
+    "typeExtra": null,
+    "cost": "285"
    }
   ],
   "ezekiel-crows": [
@@ -999,6 +1000,51 @@
        "1"
       ],
       "traits": "{tip:Light}"
+     }
+    ]
+   }
+  ],
+  "giant-rat": [
+   {
+    "at": "2-post",
+    "name": "Giant Rat",
+    "nameClass": "new-i",
+    "portrait": "images/gangs/the-carrion-psalm-thumb.jpg",
+    "type": "Giant Rat (Beast, Pet). Owner: Mordecai",
+    "cost": "*",
+    "stats": {
+     "M": "5\"",
+     "WS": "4+",
+     "BS": "5+",
+     "S": "3",
+     "T": "3",
+     "W": "1",
+     "I": "4",
+     "A": "1",
+     "Sv": "6+",
+     "Ld": "6",
+     "Cl": "7",
+     "Wil": "6",
+     "Int": "5",
+     "XP": "13"
+    },
+    "weapons": [
+     {
+      "name": "Bite",
+      "profile": [
+       "E",
+       "-",
+       "S",
+       "-",
+       "1"
+      ],
+      "traits": "{tip:Melee}"
+     }
+    ],
+    "foot": [
+     {
+      "label": "Special rules",
+      "text": "{tip:Leash Range (3\")}"
      }
     ]
    }

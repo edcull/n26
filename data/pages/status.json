@@ -9,7 +9,7 @@
    {
     "img": "images/gangs/the-carrion-psalm.jpg",
     "name": "The Carrion Psalm",
-    "note": "House Cawdor · 1335 rating"
+    "note": "House Cawdor · 1380 rating"
    },
    {
     "img": "images/gangs/the-midnight-theatre.jpg",
@@ -597,7 +597,7 @@
          "sheet": [
           [
            "Rating",
-           "1335"
+           "1380"
           ],
           [
            "Reputation",
@@ -605,7 +605,7 @@
           ],
           [
            "Credits",
-           "50"
+           "5"
           ],
           [
            "Gang size",
@@ -656,6 +656,9 @@
          "fighters": [
           {
            "id": "mordecai"
+          },
+          {
+           "id": "giant-rat"
           },
           {
            "id": "ezekiel-crows"
