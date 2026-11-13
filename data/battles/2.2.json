@@ -482,57 +482,14 @@
        }
       },
       "{@mordecai|Mordecai} stacks up behind Ezekiel at the door.",
-      "{@rumpus|Rumpus} burrows out of the ground by the Anvil. In the magazine, {@mistoffelees|Mistoffelees} stays in cover and turns the Terrible Truths on {@deus-and-amen|Deus and Amen}.",
-      {
-       "roll": {
-        "side": "t",
-        "face": "mistoffelees",
-        "name": "Mistoffelees - Terrible Truths",
-        "result": "Manifests",
-        "resultClass": "ammo",
-        "rows": [
-         {
-          "dice": "3 2",
-          "result": "Manifests",
-          "resultClass": "ammo",
-          "check": {
-           "name": "Willpower",
-           "base": 7,
-           "under": true
-          }
-         }
-        ]
-       }
-      },
-      {
-       "roll": {
-        "side": "p",
-        "face": "deus",
-        "name": "Deus and Amen - Willpower",
-        "result": "Resists",
-        "resultClass": "ammo",
-        "rows": [
-         {
-          "dice": "4 1",
-          "result": "Passes",
-          "resultClass": "ammo",
-          "check": {
-           "name": "Willpower",
-           "base": 6,
-           "under": true
-          }
-         }
-        ]
-       }
-      },
-      "The whispers slide off the Stig-Shambler. Whatever Deus hears, Amen does not care.",
+      "{@rumpus|Rumpus} burrows out of the ground by the Anvil. In the magazine, {@mistoffelees|Mistoffelees} stays in cover.",
       "{@elijah-emberchoir|Elijah Emberchoir} moves under the Anvil to hunt the Wyrd."
      ]
     },
     {
      "map": {
       "viewBox": "-14 -24 628 668",
-      "label": "Positions at the end of round 1: Ezekiel, Mordecai and Gutter Cantor in the casting hall, Deus and Amen beside the ruins and Elijah under the Anvil; Rumpleteaser and Deuteronomy in the shell works, Mistoffelees and Demeter on the magazine and Rumpus by the Anvil.",
+      "label": "Positions at the end of round 1: Ezekiel, Mordecai and Gutter Cantor in the casting hall, Deus and Amen beside the ruins and Elijah under the Anvil; Deuteronomy and Rumpleteaser in the shell works, Mistoffelees and Demeter on the magazine and Rumpus by the Anvil.",
       "clip": "mat22r1",
       "caption": {
        "text": "Positions at the end of round 1",
@@ -607,32 +564,32 @@
        {
         "tok": {
          "s": "t",
-         "x": 483.7,
-         "y": 170.5,
+         "x": 424.2,
+         "y": 195.2,
          "t": "Rt"
         }
        },
        {
         "b": {
          "k": "a",
-         "x": 498.7,
-         "y": 160.5,
+         "x": 439.2,
+         "y": 185.2,
          "t": "A"
         }
        },
        {
         "tok": {
          "s": "t",
-         "x": 424.2,
-         "y": 195.2,
+         "x": 483.7,
+         "y": 170.5,
          "t": "De"
         }
        },
        {
         "b": {
          "k": "v",
-         "x": 439.2,
-         "y": 185.2,
+         "x": 498.7,
+         "y": 160.5,
          "t": "V"
         }
        },
