@@ -1027,13 +1027,9 @@
      {
       "label": "Special rules",
       "text": "{tip:Psychoteric Node}, {tip:Leash Range (12\")}, {tip:Burrowing}"
-     },
-     {
-      "label": "Lasting injuries",
-      "text": "{tip.new-i:Grievous Wound}"
      }
     ],
-    "typeExtra": "<span class=\"benched\">In recovery</span>"
+    "typeExtra": null
    }
   ],
   "wit": [
