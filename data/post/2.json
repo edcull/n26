@@ -320,7 +320,7 @@
     {
      "fighter": "Demeter",
      "injuries": "–",
-     "action": "To come"
+     "action": "Medical Escort"
     },
     {
      "fighter": "Macavity",
@@ -350,7 +350,7 @@
     {
      "fighter": "Mistoffelees",
      "injuries": "Personal Enmity (Elijah)",
-     "action": "To come"
+     "action": "Work Territory"
     },
     {
      "fighter": "Rumpus",
@@ -360,7 +360,7 @@
     {
      "fighter": "Wit",
      "injuries": "–",
-     "action": "To come"
+     "action": "Train (+2 XP)"
     }
    ],
    "income": [
@@ -379,6 +379,10 @@
     {
      "source": "Territories",
      "credits": "To come"
+    },
+    {
+     "source": "Work Territory (1 × 15)",
+     "credits": "+15"
     },
     {
      "source": "Reputation (3 × 10)",
@@ -489,6 +493,15 @@
      "roll": "6",
      "advancement": "<span class=\"new-i\">+1 Willpower</span>",
      "cost": "+5"
+    }
+   ],
+   "purchases": [
+    {
+     "item": "Medical Escort, treats Critical Injury",
+     "for": "Mungojerrie",
+     "source": "Doc",
+     "cost": "30",
+     "tp": "–"
     }
    ]
   }
