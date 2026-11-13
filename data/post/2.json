@@ -44,34 +44,35 @@
    "gang": "the-carrion-psalm",
    "section": "psalm",
    "story": [
-    "The Psalm took the Rendermarch, but the Bullet Den cost them dearly. They come home without their Word Keeper: {@mordecai|Mordecai} is in Delaque hands.",
-    "{@gutter-cantor|Gutter Cantor} is in a critical condition and needs the Doc, and {@deus-and-amen|Deus} is nursing Amen through a head injury."
+    "The Psalm took the Rendermarch, but the Bullet Den cost them dearly. {@mordecai|Mordecai} was dragged off by the Theatre and only slipped free on the way out; he spends the cycle recovering.",
+    "{@elijah-emberchoir|Elijah Emberchoir} carries {@gutter-cantor|Gutter Cantor} to the Doc before his wounds can kill him, and {@ezekiel-crows|Ezekiel Crows} takes {@ratsong|Ratsong} to the flesh-menders for a bionic eye. {@deus-and-amen|Deus} nurses Amen through a head injury.",
+    "{@vermin-pyre|Vermin Pyre} drills with his flamer, and {@blessed-filth|Blessed Filth} works the Psalm's turf for coin."
    ],
    "actions": [
     {
      "fighter": "Mordecai",
-     "injuries": "Captured",
-     "action": "Captured"
+     "injuries": "–",
+     "action": "Recovery"
     },
     {
      "fighter": "Ezekiel Crows",
      "injuries": "–",
-     "action": "To come"
+     "action": "Fit Bionics"
     },
     {
      "fighter": "Elijah Emberchoir",
      "injuries": "–",
-     "action": "To come"
+     "action": "Medical Escort"
     },
     {
      "fighter": "Vermin Pyre",
      "injuries": "–",
-     "action": "To come"
+     "action": "Train (+2 XP)"
     },
     {
      "fighter": "Blessed Filth",
      "injuries": "–",
-     "action": "To come"
+     "action": "Work Territory"
     },
     {
      "fighter": "Gutter Cantor",
@@ -103,8 +104,24 @@
      "credits": "+30"
     },
     {
-     "source": "Territories",
-     "credits": "To come"
+     "source": "Tallow Wick (Settlement)",
+     "credits": "+15"
+    },
+    {
+     "source": "Turbine 10.2 (Generatorium)",
+     "credits": "+15"
+    },
+    {
+     "source": "Banewaters (Synth Still)",
+     "credits": "+20"
+    },
+    {
+     "source": "Rendermarch (Corpse Farm)",
+     "credits": "+25"
+    },
+    {
+     "source": "Work Territory (1 × 15)",
+     "credits": "+15"
     },
     {
      "source": "Reputation (4 × 10)",
@@ -180,7 +197,34 @@
      "ratsong",
      "deus-and-amen"
     ]
-   }
+   },
+   "incomeTotal": "245",
+   "advancements": [
+    {
+     "fighter": "Vermin Pyre",
+     "xp": "20",
+     "range": "19–24",
+     "roll": "7",
+     "advancement": "+1 Weapon Skill",
+     "cost": "+15"
+    },
+    {
+     "fighter": "Ratsong",
+     "xp": "7",
+     "range": "7–9",
+     "roll": "6",
+     "advancement": "Dodge (secondary skill)",
+     "cost": "+10"
+    },
+    {
+     "fighter": "Deus and Amen",
+     "xp": "39",
+     "range": "37–48",
+     "roll": "10",
+     "advancement": "+1 Toughness",
+     "cost": "+20"
+    }
+   ]
   },
   {
    "gang": "the-midnight-theatre",

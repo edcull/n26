@@ -137,10 +137,10 @@
      },
      {
       "label": "Lasting injuries",
-      "text": "{tip:Personal Enmity (Macavity)}, {tip.new-i:Captured}"
+      "text": "{tip:Personal Enmity (Macavity)}"
      }
     ],
-    "typeExtra": "<span class=\"benched capt\">Captured</span>"
+    "typeExtra": "<span class=\"benched\">In recovery</span>"
    }
   ],
   "ezekiel-crows": [
@@ -492,6 +492,17 @@
     "stats": {
      "XP": "18"
     }
+   },
+   {
+    "at": "2-post",
+    "stats": {
+     "XP": "20",
+     "WS": "3+"
+    },
+    "cost": "140",
+    "statClass": {
+     "WS": "adv"
+    }
    }
   ],
   "gutter-cantor": [
@@ -745,7 +756,25 @@
    },
    {
     "at": "2-post",
-    "typeExtra": "<span class=\"benched\">In recovery</span>"
+    "typeExtra": "<span class=\"benched\">In recovery</span>",
+    "cost": "40",
+    "stats": {
+     "XP": "7"
+    },
+    "statClass": {
+     "Cl": null,
+     "XP": null
+    },
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip.new-i:Dodge}"
+     },
+     {
+      "label": "Lasting injuries",
+      "text": "{tip:Eye Injury}"
+     }
+    ]
    }
   ],
   "deus-and-amen": [
@@ -828,7 +857,8 @@
    {
     "at": "2-post",
     "stats": {
-     "XP": "39"
+     "XP": "39",
+     "T": "5"
     },
     "foot": [
      {
@@ -840,7 +870,12 @@
       "text": "{tip.new-i:Head Injury}"
      }
     ],
-    "typeExtra": "<span class=\"benched\">In recovery</span>"
+    "typeExtra": "<span class=\"benched\">In recovery</span>",
+    "cost": "285",
+    "statClass": {
+     "BS": null,
+     "T": "adv"
+    }
    }
   ]
  }
