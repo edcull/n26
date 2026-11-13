@@ -560,7 +560,17 @@
    },
    {
     "at": "2-post",
-    "typeExtra": "<span class=\"benched\">In recovery</span>"
+    "typeExtra": "<span class=\"benched\">In recovery</span>",
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip.adv-i:Lie Low}, {tip:Medicate}"
+     },
+     {
+      "label": "Lasting injuries",
+      "text": "{tip.new-i:Hand Injury}"
+     }
+    ]
    }
   ],
   "mungojerrie": [
@@ -961,7 +971,17 @@
    },
    {
     "at": "2-post",
-    "typeExtra": "<span class=\"benched\">In recovery</span>"
+    "typeExtra": "<span class=\"benched\">In recovery</span>",
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Gunfighter}"
+     },
+     {
+      "label": "Lasting injuries",
+      "text": "{tip.new-i:Hand Injury}"
+     }
+    ]
    }
   ],
   "rumpus": [
