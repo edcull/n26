@@ -619,6 +619,9 @@
        }
       ]
      }
+    },
+    {
+     "vp": "End phase: no one has gone Out of Action. No VP. Psalm 0, Theatre 0."
     }
    ]
   },
@@ -1122,6 +1125,9 @@
        }
       ]
      }
+    },
+    {
+     "vp": "End phase: no one has gone Out of Action. No VP. Psalm 0, Theatre 0."
     }
    ]
   },
@@ -1906,6 +1912,9 @@
        }
       ]
      }
+    },
+    {
+     "vp": "End phase: Rumpus went Out of Action to Elijah's Fight action. The Psalm score 2 VP (1 for the fighter, +1 for the Fight action). Psalm 2, Theatre 0."
     }
    ]
   },
@@ -2359,6 +2368,9 @@
        }
       ]
      }
+    },
+    {
+     "vp": "End phase: no one went Out of Action. No VP. Psalm 2, Theatre 0."
     }
    ]
   },
@@ -3023,6 +3035,9 @@
        }
       ]
      }
+    },
+    {
+     "vp": "End phase: Mistoffelees went Out of Action to Elijah's Fight action, so the Psalm score 2 VP. Gutter Cantor went Out of Action to Macavity's charge, so the Theatre score 1 VP. Psalm 4, Theatre 1."
     }
    ]
   }
