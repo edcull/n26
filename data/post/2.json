@@ -205,7 +205,7 @@
      "xp": "20",
      "range": "19–24",
      "roll": "7",
-     "advancement": "+1 Weapon Skill",
+     "advancement": "<span class=\"new-i\">+1 Weapon Skill</span>",
      "cost": "+15"
     },
     {
@@ -221,7 +221,7 @@
      "xp": "39",
      "range": "37–48",
      "roll": "10",
-     "advancement": "+1 Toughness",
+     "advancement": "<span class=\"new-i\">+1 Toughness</span>",
      "cost": "+20"
     }
    ],
