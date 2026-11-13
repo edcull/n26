@@ -702,11 +702,15 @@
     ],
     "foot": [
      {
+      "label": "Wargear",
+      "text": "{tip:Mono-sight (long rifle)}"
+     },
+     {
       "label": "Skills",
       "text": "{tip:Precision Shot}"
      }
     ],
-    "cost": "95"
+    "cost": "115"
    }
   ],
   "ratsong": [
@@ -1011,7 +1015,7 @@
     "nameClass": "new-i",
     "portrait": "images/fighters/jorah-ashveil.jpg",
     "type": "Redemptionist Deacon (Champion, Fanatic)",
-    "cost": "175",
+    "cost": "155",
     "stats": {
      "M": "5\"",
      "WS": "3+",
@@ -1042,10 +1046,6 @@
      }
     ],
     "foot": [
-     {
-      "label": "Wargear",
-      "text": "{tip:Mono-sight (long rifle)}"
-     },
      {
       "label": "Skills",
       "text": "{tip:Fast Shot}"
