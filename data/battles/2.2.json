@@ -1908,6 +1908,456 @@
      }
     }
    ]
+  },
+  {
+   "id": "round-4",
+   "no": "4",
+   "title": "Round 4: Finish the job",
+   "blocks": [
+    {
+     "text": [
+      "{@deus-and-amen|Deus and Amen} shake off the shadows and turn the twin stubbers back on the shell works, where {@rumpleteaser|Rumpleteaser} is still nursing his wounds.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "deus",
+        "name": "Deus and Amen - Twin-linked Heavy Stubber",
+        "result": "Rumpleteaser seriously injured",
+        "rows": [
+         {
+          "dice": "5 f1a f2",
+          "result": "Three hits",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          },
+          "resultClass": "ammo"
+         },
+         {
+          "dice": "2 3 3",
+          "result": "Two wounds",
+          "check": {
+           "name": "To Wound",
+           "base": 3,
+           "s": 4,
+           "t": 3
+          }
+         },
+         {
+          "dice": "",
+          "result": "Two damage",
+          "check": {
+           "name": "Save",
+           "base": 6,
+           "mods": [
+            [
+             -1,
+             "AP"
+            ]
+           ]
+          }
+         },
+         {
+          "label": "Injury",
+          "dice": "si si",
+          "result": "Serious injury"
+         }
+        ],
+        "by": "deus-and-amen",
+        "weapons": [
+         "Twin-linked heavy stubber"
+        ],
+        "target": "rumpleteaser"
+       }
+      },
+      "Out of nowhere, {@macavity|Macavity} is moving. He rushes towards the Cawdor leader, wanting to finish what he started at the Pyroclave.",
+      "At the foot of the magazine, {@mordecai|Mordecai} keeps hacking at {@mistoffelees|Mistoffelees}.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "mistoffelees",
+        "name": "Mistoffelees - Reaction: Stub Gun",
+        "result": "Saved",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "note": "Initiative 4"
+         },
+         {
+          "dice": "6",
+          "result": "Hit",
+          "check": {
+           "name": "To Hit",
+           "base": 5
+          },
+          "resultClass": "ammo"
+         },
+         {
+          "dice": "6",
+          "result": "Wound",
+          "check": {
+           "name": "To Wound",
+           "base": 4,
+           "s": 3,
+           "t": 3
+          }
+         },
+         {
+          "dice": "5",
+          "result": "Saved",
+          "check": {
+           "name": "Save",
+           "base": 5,
+           "mods": [
+            [
+             1,
+             "Mesh"
+            ],
+            [
+             1,
+             "Parry"
+            ]
+           ]
+          },
+          "resultClass": "ammo"
+         }
+        ],
+        "by": "mistoffelees",
+        "action": "Reaction",
+        "weapons": [
+         "Stub gun"
+        ],
+        "target": "mordecai"
+       }
+      },
+      {
+       "roll": {
+        "side": "p",
+        "face": "mordecai",
+        "name": "Mordecai - Autopistol and Chainglaive",
+        "result": "Fails to wound",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "note": "Initiative 1"
+         },
+         {
+          "h6": "Autopistol"
+         },
+         {
+          "dice": "1",
+          "result": "Miss",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          },
+          "resultClass": "ammo"
+         },
+         {
+          "h6": "Chainglaive"
+         },
+         {
+          "dice": "1 3",
+          "result": "Hit",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          },
+          "resultClass": "ammo"
+         },
+         {
+          "dice": "1",
+          "result": "-",
+          "check": {
+           "name": "To Wound",
+           "base": 3,
+           "s": 4,
+           "t": 3
+          },
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: Unwieldy strikes at Initiative 1."
+         }
+        ],
+        "by": "mordecai",
+        "weapons": [
+         "Autopistol",
+         "Chainglaive*"
+        ],
+        "target": "mistoffelees"
+       }
+      },
+      "{@deuteronomy|Deuteronomy} holds the Perfect Void in place and moves to get a shot on the Stig-Shambler.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "deuteronomy",
+        "name": "Deuteronomy - Maintain Power",
+        "result": "Maintains",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "dice": "6 3",
+          "result": "Maintains",
+          "check": {
+           "name": "Willpower",
+           "base": 9,
+           "under": true
+          },
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "{@ezekiel-crows|Ezekiel Crows} charges {@mistoffelees|Mistoffelees} again. Again, {@demeter|Demeter} is watching from the roof.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "demeter",
+        "name": "Demeter - Overwatch",
+        "result": "Ezekiel seriously injured",
+        "rows": [
+         {
+          "dice": "6",
+          "result": "Hit, Knockback",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          },
+          "resultClass": "ammo"
+         },
+         {
+          "dice": "5",
+          "result": "Wound",
+          "check": {
+           "name": "To Wound",
+           "base": 3,
+           "s": 4,
+           "t": 3
+          }
+         },
+         {
+          "dice": "2",
+          "result": "One damage",
+          "check": {
+           "name": "Save",
+           "base": 5,
+           "mods": [
+            [
+             -1,
+             "AP"
+            ]
+           ]
+          }
+         },
+         {
+          "label": "Injury",
+          "dice": "si",
+          "result": "Serious injury, activation interrupted"
+         },
+         {
+          "note": "Note: Knockback (6+), a hit roll of 6 knocks the target 1\" back. Overwatch finishes Ezekiel's activation."
+         }
+        ],
+        "by": "demeter",
+        "action": "Overwatch",
+        "weapons": [
+         "Long rifle"
+        ],
+        "target": "ezekiel-crows"
+       }
+      },
+      "In the shell works, {@rumpleteaser|Rumpleteaser} crawls to Deuteronomy's side.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "rumpleteaser",
+        "name": "Rumpleteaser - Recovery",
+        "result": "Still seriously injured",
+        "rows": [
+         {
+          "label": "Recovery",
+          "dice": "si ooa",
+          "result": "Still seriously injured"
+         }
+        ]
+       }
+      },
+      "{@gutter-cantor|Gutter Cantor} climbs down from the casting hall to try and reach Ezekiel and give him aid.",
+      "{@mistoffelees|Mistoffelees} disengages from Mordecai.",
+      "{@elijah-emberchoir|Elijah Emberchoir} reloads his autopistol and advances to the fray."
+     ]
+    },
+    {
+     "map": {
+      "viewBox": "-14 -24 628 668",
+      "label": "Positions at the end of round 4: Gutter Cantor down from the casting hall, Ezekiel seriously injured and Mordecai below him by the magazine, Deus and Amen by the Anvil and Elijah advancing south of the magazine; Macavity out of hiding by the containers, Rumpleteaser seriously injured beside Deuteronomy in the shell works, Demeter on the magazine and Mistoffelees free inside it.",
+      "clip": "mat22r4",
+      "caption": {
+       "text": "Positions at the end of round 4",
+       "key": [
+        [
+         "w",
+         "W",
+         "Wounded"
+        ],
+        [
+         "w",
+         "W2",
+         "Wounded, number shows wounds taken"
+        ],
+        [
+         "i",
+         "SI",
+         "Seriously Injured"
+        ],
+        [
+         "v",
+         "V",
+         "Perfect Void"
+        ]
+       ]
+      },
+      "items": [
+       {
+        "board": "terrain"
+       },
+       {
+        "clip": [
+         {
+          "board": "terrain-2"
+         }
+        ]
+       },
+       {
+        "board": "terrain-3"
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 104.1,
+         "y": 250.0,
+         "t": "G"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 32.4,
+         "y": 347.3,
+         "t": "Ez"
+        }
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 47.4,
+         "y": 337.3,
+         "t": "SI"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 24.3,
+         "y": 418.9,
+         "t": "M"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 337.8,
+         "y": 381.1,
+         "t": "DA",
+         "r": 19
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 357.8,
+         "y": 367.1,
+         "t": "W2"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 178.4,
+         "y": 563.5,
+         "t": "El"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 193.4,
+         "y": 553.5,
+         "t": "W"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 185.1,
+         "y": 185.1,
+         "t": "Mc"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 445.9,
+         "y": 190.5,
+         "t": "Rt"
+        }
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 460.9,
+         "y": 180.5,
+         "t": "SI"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 483.8,
+         "y": 190.5,
+         "t": "De"
+        }
+       },
+       {
+        "b": {
+         "k": "v",
+         "x": 498.8,
+         "y": 180.5,
+         "t": "V"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 75.7,
+         "y": 422.7,
+         "t": "Dm"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 138.5,
+         "y": 533.8,
+         "t": "Mi"
+        }
+       }
+      ]
+     }
+    }
+   ]
   }
  ],
  "aftermath": [
