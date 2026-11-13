@@ -1238,27 +1238,27 @@
      },
      {
       "class": "sub new",
-      "name": "Solid ammo",
+      "name": "Scatter ammo",
       "profile": [
-       "?",
-       "?",
-       "?",
-       "?",
-       "?"
+       "4\"",
+       "8\"",
+       "3",
+       "-",
+       "1"
       ],
-      "traits": "Profile to come"
+      "traits": "{tip:Rapid Fire (2)}"
      },
      {
       "class": "sub new",
-      "name": "Scatter ammo",
+      "name": "Solid ammo",
       "profile": [
-       "?",
-       "?",
-       "?",
-       "?",
-       "?"
+       "8\"",
+       "16\"",
+       "4",
+       "-",
+       "1"
       ],
-      "traits": "Profile to come"
+      "traits": "{tip:Knockback (5+)}"
      }
     ],
     "foot": [
