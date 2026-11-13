@@ -348,7 +348,7 @@
     {
      "fighter": "Macavity",
      "injuries": "–",
-     "action": "Fit Bionics"
+     "action": "Work Territory"
     },
     {
      "fighter": "Rumpleteaser",
@@ -416,8 +416,8 @@
      "credits": "+15"
     },
     {
-     "source": "Work Territory (1 × 15)",
-     "credits": "+15"
+     "source": "Work Territory (2 × 15)",
+     "credits": "+30"
     },
     {
      "source": "Reputation (3 × 10)",
@@ -440,7 +440,7 @@
      ],
      [
       "Credits",
-      "215"
+      "260"
      ],
      [
       "Fighters",
@@ -532,13 +532,6 @@
    ],
    "purchases": [
     {
-     "item": "Bionic hand, removes Hand Injury",
-     "for": "Growltiger",
-     "source": "Fit Bionics, Macavity",
-     "cost": "30",
-     "tp": "–"
-    },
-    {
      "item": "Medical Escort, treats Critical Injury",
      "for": "Mungojerrie",
      "source": "Doc",
@@ -564,7 +557,7 @@
      ]
     }
    ],
-   "incomeTotal": "275"
+   "incomeTotal": "290"
   }
  ]
 }

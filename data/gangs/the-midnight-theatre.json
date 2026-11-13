@@ -961,19 +961,7 @@
    },
    {
     "at": "2-post",
-    "typeExtra": null,
-    "stats": {
-     "WS": "4+"
-    },
-    "statClass": {
-     "WS": null
-    },
-    "foot": [
-     {
-      "label": "Skills",
-      "text": "{tip:Gunfighter}"
-     }
-    ]
+    "typeExtra": "<span class=\"benched\">In recovery</span>"
    }
   ],
   "rumpus": [
