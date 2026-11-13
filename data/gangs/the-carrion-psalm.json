@@ -860,7 +860,8 @@
     "at": "2-post",
     "stats": {
      "XP": "39",
-     "T": "5"
+     "T": "5",
+     "Int": "4"
     },
     "foot": [
      {
@@ -876,7 +877,8 @@
     "cost": "285",
     "statClass": {
      "BS": null,
-     "T": "adv"
+     "T": "adv",
+     "Int": "inj"
     }
    }
   ]
