@@ -767,7 +767,7 @@
      "BS": "5+"
     },
     "statClass": {
-     "Cl": null,
+     "Cl": "prev",
      "XP": null,
      "BS": null
     },
@@ -876,7 +876,7 @@
     "typeExtra": "<span class=\"benched\">In recovery</span>",
     "cost": "285",
     "statClass": {
-     "BS": null,
+     "BS": "prev",
      "T": "adv",
      "Int": "inj"
     }
