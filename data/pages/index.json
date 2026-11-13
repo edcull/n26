@@ -194,7 +194,6 @@
     {
      "card": {
       "page": "2-post",
-      "placeholder": "Photo to come",
       "info": [
        {
         "tag": "span",
@@ -206,7 +205,9 @@
         "html": "Actions · Income · Advancements · Trading post · Rosters",
         "class": "meta"
        }
-      ]
+      ],
+      "img": "images/index/2-post.jpg",
+      "alt": "Deuteronomy and the captive Mordecai, chainglaive in hand, before a fuel tank on the Furnace platform."
      }
     }
    ]
