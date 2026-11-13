@@ -619,6 +619,9 @@
        }
       ]
      }
+    },
+    {
+     "vp": "End phase: no one has gone Out of Action. No VP. Psalm 0, Theatre 0."
     }
    ]
   },
@@ -1122,6 +1125,9 @@
        }
       ]
      }
+    },
+    {
+     "vp": "End phase: no one has gone Out of Action. No VP. Psalm 0, Theatre 0."
     }
    ]
   },
@@ -1906,6 +1912,9 @@
        }
       ]
      }
+    },
+    {
+     "vp": "End phase: Rumpus went Out of Action to Elijah's Fight action. The Psalm score 2 VP (1 for the fighter, +1 for the Fight action). Psalm 2, Theatre 0."
     }
    ]
   },
@@ -1925,7 +1934,7 @@
         "result": "Rumpleteaser seriously injured",
         "rows": [
          {
-          "dice": "5 f1a f2",
+          "dice": "5 f2 f3",
           "result": "Three hits",
           "check": {
            "name": "To Hit",
@@ -1961,6 +1970,9 @@
           "label": "Injury",
           "dice": "si si",
           "result": "Serious injury"
+         },
+         {
+          "note": "Note: Twin-linked to re-roll the Rapid Fire dice."
          }
         ],
         "by": "deus-and-amen",
@@ -2356,6 +2368,676 @@
        }
       ]
      }
+    },
+    {
+     "vp": "End phase: no one went Out of Action. No VP. Psalm 2, Theatre 0."
+    }
+   ]
+  },
+  {
+   "id": "round-5",
+   "no": "5",
+   "title": "Round 5: Nobody runs",
+   "blocks": [
+    {
+     "text": [
+      "{@elijah-emberchoir|Elijah Emberchoir} goes after the Wyrd at last, charging {@mistoffelees|Mistoffelees} inside the magazine.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "elijah",
+        "name": "Elijah Emberchoir - Charge: Autopistol and Chainaxe",
+        "result": "Missed",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "note": "Initiative 3 +2 charge bonus"
+         },
+         {
+          "h6": "Autopistol"
+         },
+         {
+          "dice": "2",
+          "result": "Miss",
+          "check": {
+           "name": "To Hit",
+           "base": 3,
+           "mods": [
+            [
+             -1,
+             "Out of line of sight"
+            ]
+           ]
+          },
+          "resultClass": "ammo"
+         },
+         {
+          "h6": "Chainaxe"
+         },
+         {
+          "dice": "1 1 2",
+          "result": "Miss",
+          "check": {
+           "name": "To Hit",
+           "base": 3,
+           "mods": [
+            [
+             -1,
+             "Out of line of sight"
+            ]
+           ]
+          },
+          "resultClass": "ammo"
+         }
+        ],
+        "by": "elijah-emberchoir",
+        "action": "Charge",
+        "weapons": [
+         "Autopistol",
+         "Chainaxe"
+        ],
+        "target": "mistoffelees"
+       }
+      },
+      {
+       "roll": {
+        "side": "t",
+        "face": "mistoffelees",
+        "name": "Mistoffelees - Reaction: Stub Gun",
+        "result": "Missed",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "note": "Initiative 4"
+         },
+         {
+          "dice": "1",
+          "result": "Miss",
+          "check": {
+           "name": "To Hit",
+           "base": 5
+          },
+          "resultClass": "ammo"
+         }
+        ],
+        "by": "mistoffelees",
+        "action": "Reaction",
+        "weapons": [
+         "Stub gun"
+        ],
+        "target": "elijah-emberchoir"
+       }
+      },
+      "Elijah keeps swinging, a Rain of Blows.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "mistoffelees",
+        "name": "Mistoffelees - Reaction: Stub Gun",
+        "result": "Missed",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "note": "Initiative 4"
+         },
+         {
+          "dice": "4",
+          "result": "Miss",
+          "check": {
+           "name": "To Hit",
+           "base": 5
+          },
+          "resultClass": "ammo"
+         }
+        ],
+        "by": "mistoffelees",
+        "action": "Reaction",
+        "weapons": [
+         "Stub gun"
+        ],
+        "target": "elijah-emberchoir"
+       }
+      },
+      {
+       "roll": {
+        "side": "p",
+        "face": "elijah",
+        "name": "Elijah Emberchoir - Autopistol",
+        "result": "Mistoffelees out of action",
+        "rows": [
+         {
+          "note": "Initiative 3 +2 charge bonus"
+         },
+         {
+          "dice": "5",
+          "result": "Hit",
+          "check": {
+           "name": "To Hit",
+           "base": 3,
+           "mods": [
+            [
+             -1,
+             "Out of line of sight"
+            ]
+           ]
+          },
+          "resultClass": "ammo"
+         },
+         {
+          "dice": "4",
+          "result": "Wound",
+          "check": {
+           "name": "To Wound",
+           "base": 4,
+           "s": 3,
+           "t": 3
+          }
+         },
+         {
+          "dice": "2",
+          "result": "One damage",
+          "check": {
+           "name": "Save",
+           "base": 6
+          }
+         },
+         {
+          "label": "Injury",
+          "dice": "ooa",
+          "result": "Out of Action"
+         },
+         {
+          "note": "Note: Mistoffelees suffers the Personal Enmity lasting injury."
+         }
+        ],
+        "by": "elijah-emberchoir",
+        "weapons": [
+         "Autopistol"
+        ],
+        "target": "mistoffelees"
+       }
+      },
+      "The Wyrd goes down. Across the works, {@macavity|Macavity} finally strikes, but not at Mordecai. He charges {@gutter-cantor|Gutter Cantor}.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "macavity",
+        "name": "Macavity - Charge: Serpent's Fangs",
+        "result": "Gutter Cantor out of action",
+        "rows": [
+         {
+          "note": "Initiative 5 +2 charge bonus"
+         },
+         {
+          "dice": "1 3 5 4 2 2",
+          "result": "Two hits",
+          "check": {
+           "name": "To Hit",
+           "base": 3,
+           "mods": [
+            [
+             -1,
+             "Out of line of sight"
+            ]
+           ]
+          },
+          "resultClass": "ammo"
+         },
+         {
+          "dice": "3 4",
+          "result": "Two wounds",
+          "check": {
+           "name": "To Wound",
+           "base": 3,
+           "note": "Toxin"
+          }
+         },
+         {
+          "dice": "",
+          "result": "Two damage",
+          "check": {
+           "name": "Save",
+           "base": 6,
+           "mods": [
+            [
+             -3,
+             "AP"
+            ]
+           ]
+          }
+         },
+         {
+          "label": "Injury",
+          "dice": "fw ooa",
+          "result": "Out of Action"
+         },
+         {
+          "note": "Note: Lasting injury roll 65, Critical Injury."
+         }
+        ],
+        "by": "macavity",
+        "action": "Charge",
+        "weapons": [
+         "Serpent's fangs*"
+        ],
+        "target": "gutter-cantor"
+       }
+      },
+      "{@deus-and-amen|Deus and Amen} turn the stubbers on {@deuteronomy|Deuteronomy} in the shell works.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "deus",
+        "name": "Deus and Amen - Twin-linked Heavy Stubber",
+        "result": "Deuteronomy takes 2 wounds and is suppressed",
+        "rows": [
+         {
+          "dice": "3 f2 f3",
+          "result": "Five hits",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          },
+          "resultClass": "ammo"
+         },
+         {
+          "dice": "1 6 1 3 5",
+          "result": "Three wounds",
+          "check": {
+           "name": "To Wound",
+           "base": 3,
+           "s": 4,
+           "t": 3
+          }
+         },
+         {
+          "dice": "6 1 3",
+          "result": "Two damage, suppressed",
+          "check": {
+           "name": "Save",
+           "base": 5,
+           "mods": [
+            [
+             2,
+             "Cover"
+            ],
+            [
+             -1,
+             "AP"
+            ]
+           ]
+          }
+         }
+        ],
+        "by": "deus-and-amen",
+        "weapons": [
+         "Twin-linked heavy stubber"
+        ],
+        "target": "deuteronomy"
+       }
+      },
+      "Bleeding, {@deuteronomy|Deuteronomy} holds the Perfect Void together.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "deuteronomy",
+        "name": "Deuteronomy - Maintain Power",
+        "result": "Maintains",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "dice": "6 2",
+          "result": "Maintains",
+          "check": {
+           "name": "Willpower",
+           "base": 9,
+           "under": true
+          },
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "{@ezekiel-crows|Ezekiel Crows} crawls away from the magazine.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "ezekiel",
+        "name": "Ezekiel Crows - Recovery",
+        "result": "Recovers",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "Recovery",
+          "dice": "fw",
+          "result": "Recovers",
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "In the shell works, {@rumpleteaser|Rumpleteaser} tends his wounds.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "rumpleteaser",
+        "name": "Rumpleteaser - Recovery",
+        "result": "Recovers",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "Recovery",
+          "dice": "fw si ooa",
+          "result": "Recovers",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: +1 die from the Tend Wounds action, +1 die from Deuteronomy assisting."
+         }
+        ]
+       }
+      },
+      "{@mordecai|Mordecai} charges {@macavity|Macavity}. For the third time, {@demeter|Demeter} fires from the magazine roof.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "demeter",
+        "name": "Demeter - Overwatch",
+        "result": "Mordecai suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "dice": "5",
+          "result": "Hit",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          },
+          "resultClass": "ammo"
+         },
+         {
+          "dice": "3",
+          "result": "Wound",
+          "check": {
+           "name": "To Wound",
+           "base": 3,
+           "s": 4,
+           "t": 3
+          }
+         },
+         {
+          "dice": "6",
+          "result": "Saved",
+          "check": {
+           "name": "Save",
+           "base": 5,
+           "mods": [
+            [
+             -1,
+             "AP"
+            ]
+           ]
+          },
+          "resultClass": "ammo"
+         },
+         {
+          "dice": "6 3",
+          "result": "Fails, suppressed, activation interrupted",
+          "check": {
+           "name": "Cool",
+           "base": 8,
+           "under": true,
+           "who": "Mordecai"
+          },
+          "resultClass": "sup"
+         },
+         {
+          "note": "Note: Nerves of Steel test to ignore suppression. Overwatch finishes Mordecai's activation."
+         }
+        ],
+        "by": "demeter",
+        "action": "Overwatch",
+        "weapons": [
+         "Long rifle"
+        ],
+        "target": "mordecai"
+       }
+      },
+      "Both gangs have lost fighters, and both leaders test their nerve.",
+      {
+       "roll": {
+        "name": "The Midnight Theatre - Bottle Check",
+        "result": "The Theatre hold",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "dice": "1 2",
+          "result": "Holds",
+          "check": {
+           "name": "Leadership",
+           "base": 8,
+           "under": true,
+           "who": "Deuteronomy"
+          },
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      {
+       "roll": {
+        "name": "The Carrion Psalm - Bottle Check",
+        "result": "The Psalm hold",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "dice": "5 1",
+          "result": "Holds",
+          "check": {
+           "name": "Leadership",
+           "base": 8,
+           "under": true,
+           "who": "Mordecai"
+          },
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "map": {
+      "viewBox": "-14 -24 628 668",
+      "label": "Positions at the end of round 5: Gutter Cantor and Mistoffelees out of action; Macavity on the west edge with Ezekiel recovering nearby, Mordecai suppressed at the magazine with Demeter on its roof, Elijah inside the magazine, Deus and Amen at the foot of the Furnace, and Deuteronomy and Rumpleteaser in the shell works.",
+      "clip": "mat22r5",
+      "caption": {
+       "text": "Positions at the end of round 5",
+       "key": [
+        [
+         "s",
+         "S",
+         "Suppressed"
+        ],
+        [
+         "w",
+         "W",
+         "Wounded"
+        ],
+        [
+         "w",
+         "W2",
+         "Wounded, number shows wounds taken"
+        ],
+        [
+         "i",
+         "I",
+         "Injured, 0 wounds"
+        ],
+        [
+         "v",
+         "V",
+         "Perfect Void"
+        ],
+        [
+         "ooa",
+         "💀",
+         "Out of Action"
+        ]
+       ]
+      },
+      "items": [
+       {
+        "board": "terrain"
+       },
+       {
+        "clip": [
+         {
+          "board": "terrain-2"
+         }
+        ]
+       },
+       {
+        "board": "terrain-3"
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 105.0,
+         "y": 355.7,
+         "t": "Ez"
+        }
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 120.0,
+         "y": 345.7,
+         "t": "I"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 24.3,
+         "y": 416.2,
+         "t": "M"
+        }
+       },
+       {
+        "b": {
+         "k": "s",
+         "x": 39.3,
+         "y": 406.2,
+         "t": "S"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 260.8,
+         "y": 371.6,
+         "t": "DA",
+         "r": 19
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 280.8,
+         "y": 357.6,
+         "t": "W2"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 138.5,
+         "y": 552.7,
+         "t": "El"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 153.5,
+         "y": 542.7,
+         "t": "W"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 17.6,
+         "y": 297.3,
+         "t": "Mc"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 418.9,
+         "y": 189.2,
+         "t": "De"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 403.9,
+         "y": 179.2,
+         "t": "W2"
+        }
+       },
+       {
+        "b": {
+         "k": "v",
+         "x": 433.9,
+         "y": 179.2,
+         "t": "V"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 455.4,
+         "y": 189.2,
+         "t": "Rt"
+        }
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 470.4,
+         "y": 179.2,
+         "t": "I"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 75.7,
+         "y": 422.8,
+         "t": "Dm"
+        }
+       },
+       {
+        "ooa": [
+         100.0,
+         256.0
+        ]
+       },
+       {
+        "ooa": [
+         143.2,
+         535.7
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "vp": "End phase: Mistoffelees went Out of Action to Elijah's Fight action, so the Psalm score 2 VP. Gutter Cantor went Out of Action to Macavity's charge, so the Theatre score 2 VP. Psalm 4, Theatre 2."
     }
    ]
   }
