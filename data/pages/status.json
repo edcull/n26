@@ -609,7 +609,7 @@
           ],
           [
            "Gang size",
-           "8"
+           "10"
           ]
          ],
          "class": ""
@@ -677,6 +677,12 @@
           },
           {
            "id": "deus-and-amen"
+          },
+          {
+           "id": "blight-creed"
+          },
+          {
+           "id": "tallowborn"
           }
          ]
         }

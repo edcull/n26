@@ -881,6 +881,101 @@
      "Int": "inj"
     }
    }
+  ],
+  "blight-creed": [
+   {
+    "at": "2-post",
+    "name": "Blight Creed",
+    "nameClass": "new-i",
+    "portrait": "images/gangs/the-carrion-psalm-thumb.jpg",
+    "type": "Redemptionist Brethren (Ganger, Fanatic), Gunslinger",
+    "cost": "60",
+    "stats": {
+     "M": "5\"",
+     "WS": "4+",
+     "BS": "4+",
+     "S": "3",
+     "T": "3",
+     "W": "1",
+     "I": "4",
+     "A": "1",
+     "Sv": "6+",
+     "Ld": "7",
+     "Cl": "6",
+     "Wil": "7",
+     "Int": "6",
+     "XP": "13"
+    },
+    "weapons": [
+     {
+      "name": "Autopistol",
+      "profile": [
+       "4\"",
+       "12\"",
+       "3",
+       "-",
+       "1"
+      ],
+      "traits": "{tip:Light}, {tip:Rapid Fire (1)}"
+     },
+     {
+      "name": "Autopistol",
+      "profile": [
+       "4\"",
+       "12\"",
+       "3",
+       "-",
+       "1"
+      ],
+      "traits": "{tip:Light}, {tip:Rapid Fire (1)}"
+     }
+    ],
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Gunfighter}"
+     }
+    ]
+   }
+  ],
+  "tallowborn": [
+   {
+    "at": "2-post",
+    "name": "Tallowborn",
+    "nameClass": "new-i",
+    "portrait": "images/gangs/the-carrion-psalm-thumb.jpg",
+    "type": "Cawdor Bonepicker (Pious, Prospect)",
+    "cost": "25",
+    "stats": {
+     "M": "6\"",
+     "WS": "5+",
+     "BS": "5+",
+     "S": "3",
+     "T": "3",
+     "W": "1",
+     "I": "4",
+     "A": "1",
+     "Sv": "6+",
+     "Ld": "5",
+     "Cl": "5",
+     "Wil": "5",
+     "Int": "5",
+     "XP": "1"
+    },
+    "weapons": [
+     {
+      "name": "Stub gun",
+      "profile": [
+       "6\"",
+       "12\"",
+       "3",
+       "-",
+       "1"
+      ],
+      "traits": "{tip:Light}"
+     }
+    ]
+   }
   ]
  }
 }

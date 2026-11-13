@@ -105,7 +105,8 @@
     },
     {
      "source": "Tallow Wick (Settlement)",
-     "credits": "+15"
+     "credits": "0",
+     "recruitment": "Ganger at a 25 credit discount"
     },
     {
      "source": "Turbine 10.2 (Generatorium)",
@@ -144,11 +145,11 @@
      ],
      [
       "Credits",
-      "–"
+      "90"
      ],
      [
       "Fighters",
-      "8"
+      "10"
      ]
     ],
     "assets": [
@@ -195,10 +196,12 @@
      "blessed-filth",
      "gutter-cantor",
      "ratsong",
-     "deus-and-amen"
+     "deus-and-amen",
+     "blight-creed",
+     "tallowborn"
     ]
    },
-   "incomeTotal": "245",
+   "incomeTotal": "230",
    "advancements": [
     {
      "fighter": "Vermin Pyre",
@@ -225,7 +228,18 @@
      "cost": "+20"
     }
    ],
-   "recruits": [],
+   "recruits": [
+    {
+     "recruit": "Blight Creed, Redemptionist Brethren (Ganger)",
+     "discount": "25 credits, Settlement",
+     "cost": "40 – 25 = 15"
+    },
+    {
+     "recruit": "Tallowborn, Bonepicker (Prospect)",
+     "discount": "–",
+     "cost": "20"
+    }
+   ],
    "sales": [],
    "purchases": [
     {
@@ -241,15 +255,36 @@
      "source": "Doc",
      "cost": "30",
      "tp": "–"
+    },
+    {
+     "item": "Autopistol",
+     "for": "Blight Creed",
+     "source": "Gang list",
+     "cost": "10",
+     "tp": "–"
+    },
+    {
+     "item": "Autopistol",
+     "for": "Blight Creed",
+     "source": "Gang list",
+     "cost": "10",
+     "tp": "–"
+    },
+    {
+     "item": "Stub gun",
+     "for": "Tallowborn",
+     "source": "Gang list",
+     "cost": "5",
+     "tp": "–"
     }
    ],
    "tradingTotal": {
     "recruit": [
-     "0",
+     "35",
      "–"
     ],
     "purchase": [
-     "80",
+     "105",
      "–"
     ],
     "sell": [
@@ -257,7 +292,7 @@
      "–"
     ],
     "total": [
-     "80",
+     "140",
      "0"
     ]
    }
