@@ -3,6 +3,7 @@
 // stylesheets it needs. With no ?p the campaign's home page is shown.
 import { setRules, esc, pageHref } from './lib.js';
 import { fightersAt } from './roster.js';
+import { xpPops } from './xp.js';
 
 const TEMPLATES = {
   battle: () => import('./pages/battle.js'),
@@ -43,6 +44,11 @@ function loadCss(hrefs) {
       const gangs = await Promise.all(campaign.gangs.map(g => getJSON(`data/gangs/${g}.json`)));
       data.fighters = fightersAt(campaign, gangs, data.roster);
       data.gangInfo = Object.fromEntries(gangs.map(g => [g.id, g]));
+      if (data.xpButtons) {   // an XP breakdown for each fighter card on the page
+        const shown = new Set();
+        JSON.stringify(data.main, (k, v) => { if (k === 'fighters' && Array.isArray(v)) v.forEach(f => shown.add(f.id)); return v; });
+        data.after = [...(data.after || []), ...(await xpPops(campaign, gangs, data.roster, getJSON)).filter(p => shown.has(p.xppop.id))];
+      }
     }
     if (data.terrain) data.pieces = (await getJSON('data/terrain.json')).pieces;
     document.body.insertAdjacentHTML('afterbegin', mod.render(data));
