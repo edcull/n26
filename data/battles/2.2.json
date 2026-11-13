@@ -2769,7 +2769,7 @@
           "resultClass": "ammo"
          },
          {
-          "dice": "",
+          "dice": "6 3",
           "result": "Fails, suppressed, activation interrupted",
           "check": {
            "name": "Cool",
