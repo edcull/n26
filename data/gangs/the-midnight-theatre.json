@@ -560,7 +560,7 @@
    },
    {
     "at": "2-post",
-    "typeExtra": "<span class=\"benched\">In recovery</span>",
+    "typeExtra": null,
     "foot": [
      {
       "label": "Skills",
@@ -971,7 +971,7 @@
    },
    {
     "at": "2-post",
-    "typeExtra": "<span class=\"benched\">In recovery</span>",
+    "typeExtra": null,
     "foot": [
      {
       "label": "Skills",
