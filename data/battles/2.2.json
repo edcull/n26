@@ -826,9 +826,9 @@
           "result": "Wound",
           "check": {
            "name": "To Wound",
-           "base": 3,
+           "base": 4,
            "s": 3,
-           "t": 2
+           "t": 3
           }
          },
          {
