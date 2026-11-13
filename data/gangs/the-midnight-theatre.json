@@ -1153,7 +1153,7 @@
     "nameClass": "new-i",
     "portrait": "images/gangs/the-midnight-theatre-thumb.jpg",
     "type": "Nacht-Ghul (Champion, Loner)",
-    "cost": "170",
+    "cost": "180",
     "stats": {
      "M": "6\"",
      "WS": "3+",
@@ -1182,6 +1182,18 @@
        "2"
       ],
       "traits": "{tip:Melee}, {tip:Parry}"
+     },
+     {
+      "name": "Web gauntlet",
+      "class": "new",
+      "profile": [
+       "E",
+       "-",
+       "3",
+       "-",
+       "-"
+      ],
+      "traits": "{tip:Backstab}, {tip:Melee}, {tip:Web}"
      }
     ],
     "foot": [

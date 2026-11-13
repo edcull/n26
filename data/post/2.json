@@ -429,7 +429,7 @@
     "sheet": [
      [
       "Rating",
-      "1455"
+      "1465"
      ],
      [
       "Wins",
@@ -441,7 +441,7 @@
      ],
      [
       "Credits",
-      "20"
+      "10"
      ],
      [
       "Fighters",
@@ -549,6 +549,13 @@
      "tp": "–"
     },
     {
+     "item": "Web gauntlet",
+     "for": "Nacht-Ghul",
+     "source": "Gang list",
+     "cost": "10",
+     "tp": "–"
+    },
+    {
      "item": "Shotgun (solid and scatter ammo)",
      "for": "Ghost",
      "source": "Gang list",
@@ -594,7 +601,7 @@
      "–"
     ],
     "purchase": [
-     "115",
+     "125",
      "–"
     ],
     "sell": [
@@ -602,7 +609,7 @@
      "–"
     ],
     "total": [
-     "255",
+     "265",
      "0"
     ]
    }
