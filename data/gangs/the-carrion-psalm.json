@@ -596,7 +596,7 @@
      },
      {
       "label": "Lasting injuries",
-      "text": "{tip:Enfeebled}"
+      "text": "{tip.new-i:Enfeebled}"
      }
     ],
     "typeExtra": null,
