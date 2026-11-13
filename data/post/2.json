@@ -204,25 +204,25 @@
      "fighter": "Vermin Pyre",
      "xp": "20",
      "range": "19–24",
-     "roll": "–",
-     "advancement": "To come",
-     "cost": "–"
+     "roll": "7",
+     "advancement": "+1 Weapon Skill",
+     "cost": "+15"
     },
     {
      "fighter": "Ratsong",
      "xp": "7",
      "range": "7–9",
-     "roll": "–",
-     "advancement": "To come",
-     "cost": "–"
+     "roll": "6",
+     "advancement": "Dodge (secondary skill)",
+     "cost": "+10"
     },
     {
      "fighter": "Deus and Amen",
      "xp": "39",
      "range": "37–48",
-     "roll": "–",
-     "advancement": "To come",
-     "cost": "–"
+     "roll": "10",
+     "advancement": "+1 Toughness",
+     "cost": "+20"
     }
    ]
   },
