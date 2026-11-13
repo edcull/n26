@@ -401,7 +401,8 @@
     },
     {
      "source": "Heaviside Hab-layer (Settlement)",
-     "credits": "+15"
+     "credits": "0",
+     "recruitment": "Ganger at a 25 credit discount"
     },
     {
      "source": "Rippershop (Rogue Doc Shop)",
@@ -428,7 +429,7 @@
     "sheet": [
      [
       "Rating",
-      "1375"
+      "1455"
      ],
      [
       "Wins",
@@ -440,11 +441,11 @@
      ],
      [
       "Credits",
-      "90"
+      "20"
      ],
      [
       "Fighters",
-      "10"
+      "11"
      ]
     ],
     "assets": [
@@ -544,6 +545,13 @@
      "source": "Gang list",
      "cost": "50",
      "tp": "–"
+    },
+    {
+     "item": "Shotgun (solid and scatter ammo)",
+     "for": "Ghost",
+     "source": "Gang list",
+     "cost": "35",
+     "tp": "–"
     }
    ],
    "rolls": [
@@ -564,22 +572,27 @@
      ]
     }
    ],
-   "incomeTotal": "290",
+   "incomeTotal": "275",
    "recruits": [
     {
      "recruit": "Nacht-Ghul (Champion)",
      "discount": "–",
      "cost": "120"
+    },
+    {
+     "recruit": "Ghost (Ganger)",
+     "discount": "25 credits, Settlement",
+     "cost": "45 – 25 = 20"
     }
    ],
    "sales": [],
    "tradingTotal": {
     "recruit": [
-     "120",
+     "140",
      "–"
     ],
     "purchase": [
-     "80",
+     "115",
      "–"
     ],
     "sell": [
@@ -587,7 +600,7 @@
      "–"
     ],
     "total": [
-     "200",
+     "255",
      "0"
     ]
    }
