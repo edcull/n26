@@ -276,7 +276,8 @@
     {
      "text": [
       "{p:The Carrion Psalm} enter the bullet den through the casting hall and the ruins. The Furnace is still roaring at the heart of the works, and the heat comes off it in waves. Before the night is out, the Cawdor mean to mark their claim on the territory.",
-      "But {t:The Midnight Theatre} are hot on their tail, slipping in through the shell works and the magazine. Deuteronomy's orders are simple. The Theatre do not need to win this fight. They only need to leave the Cawdor bleeding in the dark, too many of them down or tied up to fight back."
+      "But {t:The Midnight Theatre} are hot on their tail, slipping in through the shell works and the magazine. Deuteronomy's orders are simple. The Theatre do not need to win this fight. They only need to leave the Cawdor bleeding in the dark, too many of them down or tied up to fight back.",
+      "{@macavity|Macavity} is nowhere to be seen. He stays hidden in the shadows, waiting for his moment."
      ]
     },
     {
@@ -376,6 +377,286 @@
          "s": "t",
          "x": 72.2,
          "y": 529.6,
+         "t": "Rp"
+        }
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "round-1",
+   "no": "1",
+   "title": "Round 1: Hunting the Wyrd",
+   "blocks": [
+    {
+     "text": [
+      "{@deus-and-amen|Deus and Amen} lumber up past the ruins to cover the Psalm's advance.",
+      "High in the shell works, {@rumpleteaser|Rumpleteaser} climbs up to the raised floor and takes a shot at the Stig-Shambler.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "rumpleteaser",
+        "name": "Rumpleteaser - Plasma Gun",
+        "result": "Missed, Out of Ammo",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "dice": "2 f1a",
+          "result": "Miss",
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 4
+          }
+         },
+         {
+          "dice": "5",
+          "result": "Out of Ammo",
+          "resultClass": "ammo",
+          "check": {
+           "name": "Ammo",
+           "base": 6
+          }
+         }
+        ],
+        "by": "rumpleteaser",
+        "weapons": [
+         "Plasma gun"
+        ],
+        "target": "deus-and-amen"
+       }
+      },
+      "The shot goes wide, and the coils of the plasma gun burn out.",
+      "{@gutter-cantor|Gutter Cantor} climbs up in the casting hall to get a fix on the Theatre's movements, and across the works {@demeter|Demeter} climbs the magazine to find a firing position.",
+      "{@ezekiel-crows|Ezekiel Crows} moves up to the door of the casting hall, ready to advance with Gutter covering him.",
+      "In the shell works, {@deuteronomy|Deuteronomy} reaches into the dark and wraps himself in a Perfect Void.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "deuteronomy",
+        "name": "Deuteronomy - Perfect Void",
+        "result": "Manifests",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "dice": "3 3",
+          "result": "Manifests",
+          "resultClass": "ammo",
+          "check": {
+           "name": "Willpower",
+           "base": 9,
+           "under": true
+          }
+         }
+        ]
+       }
+      },
+      "He holds the silence in place with a second effort of will, then moves up beside {@rumpleteaser|Rumpleteaser}.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "deuteronomy",
+        "name": "Deuteronomy - Maintain Power",
+        "result": "Maintains",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "dice": "4 2",
+          "result": "Maintains",
+          "resultClass": "ammo",
+          "check": {
+           "name": "Willpower",
+           "base": 9,
+           "under": true,
+           "mods": [
+            [
+             3,
+             "Maintain"
+            ]
+           ]
+          }
+         }
+        ]
+       }
+      },
+      "{@mordecai|Mordecai} stacks up behind Ezekiel at the door.",
+      "{@rumpus|Rumpus} burrows out of the ground by the Anvil. In the magazine, {@mistoffelees|Mistoffelees} stays in cover and turns the Terrible Truths on {@deus-and-amen|Deus and Amen}.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "mistoffelees",
+        "name": "Mistoffelees - Terrible Truths",
+        "result": "Manifests",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "dice": "3 2",
+          "result": "Manifests",
+          "resultClass": "ammo",
+          "check": {
+           "name": "Willpower",
+           "base": 7,
+           "under": true
+          }
+         }
+        ]
+       }
+      },
+      {
+       "roll": {
+        "side": "p",
+        "face": "deus",
+        "name": "Deus and Amen - Willpower",
+        "result": "Resists",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "dice": "4 1",
+          "result": "Passes",
+          "resultClass": "ammo",
+          "check": {
+           "name": "Willpower",
+           "base": 6,
+           "under": true
+          }
+         }
+        ]
+       }
+      },
+      "The whispers slide off the Stig-Shambler. Whatever Deus hears, Amen does not care.",
+      "{@elijah-emberchoir|Elijah Emberchoir} moves under the Anvil to hunt the Wyrd."
+     ]
+    },
+    {
+     "map": {
+      "viewBox": "-14 -24 628 668",
+      "label": "Positions at the end of round 1: Ezekiel, Mordecai and Gutter Cantor in the casting hall, Deus and Amen beside the ruins and Elijah under the Anvil; Rumpleteaser and Deuteronomy in the shell works, Mistoffelees and Demeter on the magazine and Rumpus by the Anvil.",
+      "clip": "mat22r1",
+      "caption": {
+       "text": "Positions at the end of round 1",
+       "key": [
+        [
+         "a",
+         "A",
+         "Out of ammo"
+        ],
+        [
+         "v",
+         "V",
+         "Perfect Void"
+        ]
+       ]
+      },
+      "items": [
+       {
+        "board": "terrain"
+       },
+       {
+        "clip": [
+         {
+          "board": "terrain-2"
+         }
+        ]
+       },
+       {
+        "board": "terrain-3"
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 71.8,
+         "y": 189.1,
+         "t": "Ez"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 94.9,
+         "y": 175.5,
+         "t": "M"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 151.2,
+         "y": 189.0,
+         "t": "G"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 431.7,
+         "y": 396.6,
+         "t": "DA",
+         "r": 19
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 395.4,
+         "y": 506.2,
+         "t": "El"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 483.7,
+         "y": 170.5,
+         "t": "Rt"
+        }
+       },
+       {
+        "b": {
+         "k": "a",
+         "x": 498.7,
+         "y": 160.5,
+         "t": "A"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 424.2,
+         "y": 195.2,
+         "t": "De"
+        }
+       },
+       {
+        "b": {
+         "k": "v",
+         "x": 439.2,
+         "y": 185.2,
+         "t": "V"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 56.1,
+         "y": 422.8,
+         "t": "Mi"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 79.4,
+         "y": 422.8,
+         "t": "Dm"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 183.3,
+         "y": 402.1,
          "t": "Rp"
         }
        }
