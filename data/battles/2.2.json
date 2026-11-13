@@ -275,9 +275,9 @@
    "blocks": [
     {
      "text": [
-      "{p:The Carrion Psalm} enter the bullet den through the casting hall and the ruins. The Furnace is still roaring at the heart of the works, and the heat comes off it in waves. Before the night is out, the Cawdor mean to mark their claim on the territory.",
-      "But {t:The Midnight Theatre} are hot on their tail, slipping in through the shell works and the magazine. Deuteronomy's orders are simple. The Theatre do not need to win this fight. They only need to leave the Cawdor bleeding in the dark, too many of them down or tied up to fight back.",
-      "{@macavity|Macavity} is nowhere to be seen. He stays hidden in the shadows, waiting for his moment."
+      "{p:The Carrion Psalm} come into the bullet den through the casting hall and the ruins. The Furnace is still roaring at the heart of the works, and the heat comes off it in waves. Before the night is out, the Cawdor mean to mark their claim on Hollowpoint.",
+      "But {t:The Midnight Theatre} are close behind, slipping in through the shell works and the magazine. Deuteronomy's orders are simple. The Theatre do not need to win this fight. They only need to leave the Cawdor bleeding in the dark, too many of them down or tied up to fight back.",
+      "{@macavity|Macavity} is nowhere to be seen. He has melted into the shadows by the containers, and he is waiting for his moment."
      ]
     },
     {
@@ -392,8 +392,8 @@
    "blocks": [
     {
      "text": [
-      "{@deus-and-amen|Deus and Amen} lumber up past the ruins to cover the Psalm's advance.",
-      "High in the shell works, {@rumpleteaser|Rumpleteaser} climbs up to the raised floor and takes a shot at the Stig-Shambler.",
+      "{@deus-and-amen|Deus and Amen} lumber up past the ruins to cover the Psalm's advance, Amen's great feet ringing on the deck plates.",
+      "High in the shell works, {@rumpleteaser|Rumpleteaser} climbs to the raised floor and sights his plasma gun on the Stig-Shambler.",
       {
        "roll": {
         "side": "t",
@@ -428,9 +428,9 @@
         "target": "deus-and-amen"
        }
       },
-      "The shot goes wide, and the coils of the plasma gun burn out.",
-      "{@gutter-cantor|Gutter Cantor} climbs up in the casting hall to get a fix on the Theatre's movements, and across the works {@demeter|Demeter} climbs the magazine to find a firing position.",
-      "{@ezekiel-crows|Ezekiel Crows} moves up to the door of the casting hall, ready to advance with Gutter covering him.",
+      "The bolt goes wide, and the overheated coils of the plasma gun gutter out.",
+      "In the casting hall, {@gutter-cantor|Gutter Cantor} climbs up for a view of the Theatre's movements. Across the works, {@demeter|Demeter} scales the magazine to find a firing position.",
+      "{@ezekiel-crows|Ezekiel Crows} moves up to the door of the casting hall, ready to go with Gutter covering him.",
       "In the shell works, {@deuteronomy|Deuteronomy} reaches into the dark and wraps himself in a Perfect Void.",
       {
        "roll": {
@@ -482,8 +482,8 @@
        }
       },
       "{@mordecai|Mordecai} stacks up behind Ezekiel at the door.",
-      "{@rumpus|Rumpus} burrows out of the ground by the Anvil. In the magazine, {@mistoffelees|Mistoffelees} stays in cover.",
-      "{@elijah-emberchoir|Elijah Emberchoir} moves under the Anvil to hunt the Wyrd."
+      "The deck plates by the Anvil buckle, and {@rumpus|Rumpus} burrows up through them. In the magazine, {@mistoffelees|Mistoffelees} keeps to cover.",
+      "{@elijah-emberchoir|Elijah Emberchoir} slips in under the Anvil. He knows there is a witch among the Delaque, and he means to find it."
      ],
      "split": [
       "tall",
@@ -656,7 +656,7 @@
    "blocks": [
     {
      "text": [
-      "{@deus-and-amen|Deus and Amen} open up with the twin stubbers on the shell works, raking the raised floor where {@rumpleteaser|Rumpleteaser} is crouched over his dead plasma gun.",
+      "{@deus-and-amen|Deus and Amen} answer the plasma shot. The twin stubbers rake the raised floor of the shell works, where {@rumpleteaser|Rumpleteaser} is crouched over his dead gun.",
       {
        "roll": {
         "side": "p",
@@ -717,7 +717,8 @@
         "target": "rumpleteaser"
        }
       },
-      "From the top of the magazine, {@demeter|Demeter} takes careful aim at {@gutter-cantor|Gutter Cantor} in the casting hall.",
+      "Five rounds tear through the Ghost, and he drops on the raised floor.",
+      "From the magazine roof, {@demeter|Demeter} takes careful aim at {@gutter-cantor|Gutter Cantor} in the casting hall.",
       {
        "roll": {
         "side": "t",
@@ -760,7 +761,8 @@
         "target": "gutter-cantor"
        }
       },
-      "{@gutter-cantor|Gutter Cantor} fires back, but at {@rumpus|Rumpus}, scuttling between the barricades by the Anvil.",
+      "The round cracks off the wall beside him and drives him down.",
+      "{@gutter-cantor|Gutter Cantor} fires back, not at the sniper but at {@rumpus|Rumpus}, scuttling between the barricades by the Anvil.",
       {
        "roll": {
         "side": "p",
@@ -786,7 +788,7 @@
         "target": "rumpus"
        }
       },
-      "{@rumpus|Rumpus} creeps up under the Anvil, close to the Stig-Shambler. In the magazine, {@mistoffelees|Mistoffelees} reaches out to {@deus-and-amen|Deus and Amen} with the Terrible Truths.",
+      "{@rumpus|Rumpus} creeps under the Anvil, closer to the Stig-Shambler. In the magazine, {@mistoffelees|Mistoffelees} closes his eyes and reaches out to {@deus-and-amen|Deus and Amen} with the Terrible Truths.",
       {
        "roll": {
         "side": "t",
@@ -830,7 +832,7 @@
        }
       },
       "This time the whispers find a way in. Amen's great head swings from side to side, and Deus can't settle him.",
-      "{@elijah-emberchoir|Elijah Emberchoir} turns his autopistol on {@rumpus|Rumpus}.",
+      "Under the Anvil, {@elijah-emberchoir|Elijah Emberchoir} turns his autopistol on {@rumpus|Rumpus}.",
       {
        "roll": {
         "side": "p",
@@ -875,7 +877,8 @@
         "target": "rumpus"
        }
       },
-      "In the shell works, {@deuteronomy|Deuteronomy} keeps his Perfect Void in place.",
+      "The round glances off the Lurker's hide and sends it to ground, and the Deacon's autopistol clicks empty.",
+      "In the shell works, {@deuteronomy|Deuteronomy} keeps the Perfect Void in place.",
       {
        "roll": {
         "side": "t",
@@ -923,6 +926,7 @@
         "target": "deus-and-amen"
        }
       },
+      "The needles hiss past, and the Master of Shadow turns his attention to his fallen Ghost.",
       "{@ezekiel-crows|Ezekiel Crows} advances out of the casting hall.",
       "With Deuteronomy beside him, {@rumpleteaser|Rumpleteaser} binds his wounds and drags himself back up.",
       {
@@ -1234,6 +1238,7 @@
         "target": "ezekiel-crows"
        }
       },
+      "The shot takes the Firebrand mid-stride and throws him down short of the Wyrd.",
       "Under the Anvil, {@rumpus|Rumpus} throws himself at {@elijah-emberchoir|Elijah Emberchoir}.",
       {
        "roll": {
@@ -1327,6 +1332,7 @@
         "target": "rumpus"
        }
       },
+      "His jaws find the Deacon's leg, and Elijah's answering blow skids off his hide.",
       "{@mistoffelees|Mistoffelees} slips along the wall of the magazine and turns the Terrible Truths on Ezekiel, but the words won't come.",
       {
        "roll": {
@@ -1450,6 +1456,7 @@
         "target": "deus-and-amen"
        }
       },
+      "One needle finds its way through, and Amen shrugs it off.",
       "{@mordecai|Mordecai} sees Ezekiel fall short and goes in himself, charging {@mistoffelees|Mistoffelees}.",
       {
        "roll": {
@@ -1567,7 +1574,8 @@
         "target": "mistoffelees"
        }
       },
-      "Deuteronomy's shot has marked the target. {@rumpleteaser|Rumpleteaser} reloads the plasma gun, plays Crossfire and puts a plasma bolt into {@deus-and-amen|Deus and Amen}.",
+      "Chainglaive and stub gun both come up empty. The Word Keeper and the Wyrd are locked together at the foot of the wall.",
+      "Deuteronomy's shot has marked the target. {@rumpleteaser|Rumpleteaser} reloads the plasma gun, plays Crossfire and puts a bolt into {@deus-and-amen|Deus and Amen}.",
       {
        "roll": {
         "side": "t",
@@ -1625,6 +1633,7 @@
         "target": "deus-and-amen"
        }
       },
+      "The plasma burns into Amen's flank, and for once the Stig-Shambler staggers.",
       "Under the Anvil, {@elijah-emberchoir|Elijah Emberchoir} turns on {@rumpus|Rumpus} again.",
       {
        "roll": {
@@ -1740,7 +1749,7 @@
         ]
        }
       },
-      "They recoil in fear from the shadows and step back out into the clearing."
+      "They recoil from the shadows and step back out into the clearing."
      ],
      "split": [
       "tall",
@@ -2043,7 +2052,8 @@
         "target": "rumpleteaser"
        }
       },
-      "Out of nowhere, {@macavity|Macavity} is moving. He rushes towards the Cawdor leader, wanting to finish what he started at the Pyroclave.",
+      "Two more rounds find him, and the Ghost goes down again.",
+      "Then, out of nowhere, {@macavity|Macavity} is moving. The Nacht-Ghul slides out from behind the containers towards the Cawdor leader, wanting to finish what he started at the Pyroclave.",
       "At the foot of the magazine, {@mordecai|Mordecai} keeps hacking at {@mistoffelees|Mistoffelees}.",
       {
        "roll": {
@@ -2161,6 +2171,7 @@
         "target": "mistoffelees"
        }
       },
+      "The Wyrd's stub gun rings off the Word Keeper's mesh, and the chainglaive bites only air.",
       "{@deuteronomy|Deuteronomy} holds the Perfect Void in place and moves to get a shot on the Stig-Shambler.",
       {
        "roll": {
@@ -2241,6 +2252,7 @@
         "target": "ezekiel-crows"
        }
       },
+      "The round knocks the Firebrand off his feet a second time, and this time he doesn't get up.",
       "In the shell works, {@rumpleteaser|Rumpleteaser} crawls to Deuteronomy's side.",
       {
        "roll": {
@@ -2257,9 +2269,9 @@
         ]
        }
       },
-      "{@gutter-cantor|Gutter Cantor} climbs down from the casting hall to try and reach Ezekiel and give him aid.",
-      "{@mistoffelees|Mistoffelees} disengages from Mordecai.",
-      "{@elijah-emberchoir|Elijah Emberchoir} reloads his autopistol and advances to the fray."
+      "{@gutter-cantor|Gutter Cantor} climbs down from the casting hall, trying to reach Ezekiel and give him aid.",
+      "{@mistoffelees|Mistoffelees} slips free of Mordecai and falls back into the magazine.",
+      "{@elijah-emberchoir|Elijah Emberchoir} reloads his autopistol and heads for the fight."
      ]
     },
     {
@@ -2456,7 +2468,7 @@
    "blocks": [
     {
      "text": [
-      "{@elijah-emberchoir|Elijah Emberchoir} goes after the Wyrd at last, charging {@mistoffelees|Mistoffelees} inside the magazine.",
+      "{@elijah-emberchoir|Elijah Emberchoir} has found his witch. He charges {@mistoffelees|Mistoffelees} inside the magazine.",
       {
        "roll": {
         "side": "p",
@@ -2543,7 +2555,7 @@
         "target": "elijah-emberchoir"
        }
       },
-      "Elijah keeps swinging, a Rain of Blows.",
+      "Neither of them lands a blow, but the Deacon doesn't stop. He keeps swinging, a Rain of Blows.",
       {
        "roll": {
         "side": "t",
@@ -2632,7 +2644,8 @@
         "target": "mistoffelees"
        }
       },
-      "The Wyrd goes down. Across the works, {@macavity|Macavity} finally strikes, but not at Mordecai. He charges {@gutter-cantor|Gutter Cantor}.",
+      "The Wyrd goes down, and the whispers in the Psalm's heads fall silent.",
+      "Across the works, {@macavity|Macavity} finally strikes, but not at Mordecai. He charges {@gutter-cantor|Gutter Cantor}.",
       {
        "roll": {
         "side": "t",
@@ -2698,6 +2711,7 @@
         "target": "gutter-cantor"
        }
       },
+      "The fangs go in twice, and the Medic doesn't make it to Ezekiel.",
       "{@deus-and-amen|Deus and Amen} turn the stubbers on {@deuteronomy|Deuteronomy} in the shell works.",
       {
        "roll": {
@@ -2751,6 +2765,7 @@
         "target": "deuteronomy"
        }
       },
+      "Two rounds get past the cover and drive the Master of Shadow to the floor.",
       "Bleeding, {@deuteronomy|Deuteronomy} holds the Perfect Void together.",
       {
        "roll": {
@@ -2878,6 +2893,7 @@
         "target": "mordecai"
        }
       },
+      "The round glances off his mesh, but it is enough to stop the Word Keeper in his tracks.",
       "Both gangs have lost fighters, and both leaders test their nerve.",
       {
        "roll": {
@@ -2918,7 +2934,8 @@
          }
         ]
        }
-      }
+      },
+      "Nobody runs."
      ],
      "split": [
       "tall",
@@ -3207,6 +3224,7 @@
         "target": "ezekiel-crows"
        }
       },
+      "The Firebrand goes down again.",
       "{@macavity|Macavity} goes for the Cawdor leader at last, charging {@mordecai|Mordecai}.",
       {
        "roll": {
@@ -3330,6 +3348,7 @@
         "target": "macavity"
        }
       },
+      "The bio-booster spares the Word Keeper the worst of it, and he gets the chainglaive into the Nacht-Ghul.",
       "{@deus-and-amen|Deus and Amen} step back to find a line on the shell works and fire on {@rumpleteaser|Rumpleteaser} again.",
       {
        "roll": {
@@ -3387,6 +3406,7 @@
         "target": "rumpleteaser"
        }
       },
+      "The Ghost goes down for the third time, and the stubbers run dry.",
       "{@deuteronomy|Deuteronomy} strains to hold the Perfect Void, and the warp bites back.",
       {
        "roll": {
@@ -3477,8 +3497,8 @@
         "target": "deus-and-amen"
        }
       },
-      "The Stig-Shambler goes down.",
-      "Inside the magazine, {@elijah-emberchoir|Elijah Emberchoir} daubs the Psalm's mark across the Delaque walls. The Psalm's side job is done.",
+      "The toxin does its work, and the Stig-Shambler goes down.",
+      "Inside the magazine, {@elijah-emberchoir|Elijah Emberchoir} daubs the Psalm's mark across the walls. The Psalm's side job is done.",
       "In the shell works, {@rumpleteaser|Rumpleteaser} drags himself back up again.",
       {
        "roll": {
@@ -3565,7 +3585,8 @@
         "target": "mordecai"
        }
       },
-      "The Theatre complete their side job too: three of the Psalm's four fighters are down, with Ezekiel, Deus and Amen and Mordecai all Seriously Injured."
+      "The Word Keeper falls at Macavity's feet. Three of the Psalm's four fighters are down: Ezekiel, Deus and Amen and Mordecai are all Seriously Injured, and the Theatre's side job is done.",
+      "Only {@elijah-emberchoir|Elijah} is still standing."
      ],
      "split": [
       "tall",
