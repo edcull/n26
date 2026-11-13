@@ -129,7 +129,7 @@
     "foot": [
      {
       "label": "Wargear",
-      "text": "{tip:Mesh armour}, {tip:Bio-booster}, {tip.new-i:Giant Rat}"
+      "text": "{tip:Mesh armour}, {tip:Bio-booster}, {tip.new-i:Giant Rat (Vermillion)}"
      },
      {
       "label": "Skills",
@@ -1004,12 +1004,12 @@
     ]
    }
   ],
-  "giant-rat": [
+  "vermillion": [
    {
     "at": "2-post",
-    "name": "Giant Rat",
+    "name": "Vermillion",
     "nameClass": "new-i",
-    "portrait": "images/fighters/giant-rat.jpg",
+    "portrait": "images/fighters/vermillion.jpg",
     "type": "Giant Rat (Beast, Pet). Owner: Mordecai",
     "cost": "*",
     "stats": {

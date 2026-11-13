@@ -97,5 +97,6 @@
  "Rapid Fire": "Play when a friendly Fighter activates, before any actions. For the rest of their activation they can make the Shoot action as a Free action.",
  "Leash Range (3\")": "The pet must stay within this distance of its owner.",
  "Bite": "A beast's natural weapon: E, -, S, -, 1, Melee.",
- "Giant Rat": "A pet Giant Rat (Beast, Pet), bought as wargear for a Leader or Champion. It has its own Fighter card and must stay within its 3\" Leash range of its owner."
+ "Giant Rat": "A pet Giant Rat (Beast, Pet), bought as wargear for a Leader or Champion. It has its own Fighter card and must stay within its 3\" Leash range of its owner.",
+ "Giant Rat (Vermillion)": "A pet Giant Rat (Beast, Pet), bought as wargear for a Leader or Champion. It has its own Fighter card and must stay within its 3\" Leash range of its owner."
 }
