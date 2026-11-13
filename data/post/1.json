@@ -345,7 +345,7 @@
      "xp": "19",
      "range": "19–24",
      "roll": "8",
-     "advancement": "primary skill: <span class=\"new-i\">Lie Low</span>",
+     "advancement": "<span class=\"new-i\">Lie Low</span> (primary skill)",
      "cost": "+10"
     },
     {
@@ -353,7 +353,7 @@
      "xp": "8",
      "range": "7–9",
      "roll": "10",
-     "advancement": "Psychoteric power: <span class=\"new-i\">Terrible Truths</span>",
+     "advancement": "<span class=\"new-i\">Terrible Truths</span> (Psychoteric power)",
      "cost": "+10"
     }
    ],

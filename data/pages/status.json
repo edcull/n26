@@ -9,7 +9,7 @@
    {
     "img": "images/gangs/the-carrion-psalm.jpg",
     "name": "The Carrion Psalm",
-    "note": "House Cawdor · 1165 rating"
+    "note": "House Cawdor · 1335 rating"
    },
    {
     "img": "images/gangs/the-midnight-theatre.jpg",
@@ -120,7 +120,7 @@
             "html": "<span class=\"tri-name\">Creditor</span><span class=\"crit\">Highest Wealth</span>"
            },
            {
-            "html": "1280",
+            "html": "1385",
             "class": "num p"
            },
            {
@@ -128,7 +128,7 @@
             "class": "num t"
            },
            {
-            "html": "<span class=\"t lead\">The Midnight Theatre</span>"
+            "html": "<span class=\"p lead\">The Carrion Psalm</span>"
            }
           ]
          },
@@ -597,7 +597,7 @@
          "sheet": [
           [
            "Rating",
-           "1165"
+           "1335"
           ],
           [
            "Reputation",
@@ -605,7 +605,7 @@
           ],
           [
            "Credits",
-           "115"
+           "50"
           ],
           [
            "Gang size",
