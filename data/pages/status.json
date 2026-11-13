@@ -449,6 +449,38 @@
              }
             ]
            }
+          },
+          {
+           "tcard": {
+            "class": "theatre",
+            "parts": [
+             {
+              "tag": "h3",
+              "html": "Hollowpoint"
+             },
+             {
+              "tag": "p",
+              "html": "Bullet Den",
+              "class": "t-type"
+             },
+             {
+              "tag": "h4",
+              "html": "Boons"
+             },
+             {
+              "tag": "ul",
+              "html": "<li><b>Income:</b> 15 credits.</li><li><b>Recruit:</b> instead of income, if the gang has no Ammo-Jack, recruit one for 30 credits less.</li>"
+             },
+             {
+              "tag": "h4",
+              "html": "Battlefield effect (when staked)"
+             },
+             {
+              "tag": "p",
+              "html": "<b>Plentiful Ammo:</b> once per round, each gang may make a Reload action as a Free action."
+             }
+            ]
+           }
           }
          ]
         }
@@ -464,38 +496,6 @@
      "tag": "div",
      "class": "t-grid",
      "children": [
-      {
-       "tcard": {
-        "class": "",
-        "parts": [
-         {
-          "tag": "h3",
-          "html": "Hollowpoint"
-         },
-         {
-          "tag": "p",
-          "html": "Bullet Den",
-          "class": "t-type"
-         },
-         {
-          "tag": "h4",
-          "html": "Boons"
-         },
-         {
-          "tag": "ul",
-          "html": "<li><b>Income:</b> 15 credits.</li><li><b>Recruit:</b> instead of income, if the gang has no Ammo-Jack, recruit one for 30 credits less.</li>"
-         },
-         {
-          "tag": "h4",
-          "html": "Battlefield effect (when staked)"
-         },
-         {
-          "tag": "p",
-          "html": "<b>Plentiful Ammo:</b> once per round, each gang may make a Reload action as a Free action."
-         }
-        ]
-       }
-      },
       {
        "tcard": {
         "class": "",
