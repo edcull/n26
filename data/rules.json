@@ -86,5 +86,7 @@
  "You!": "Play when a friendly Fighter activates, before any actions. Pick an enemy Fighter: +1 to Wound rolls against them for the rest of the battle, but while they are on the battlefield, any action targeting an enemy must target them.",
  "Personal Enmity (Elijah)": "Lasting Injury (14): the Fighter gains the Hatred (X) Condition, where X is the model that took them Out of Action.",
  "Captured": "Lasting Injury: the Fighter is taken captive by the opposing gang, who may hold them, ransom them or trade them back.",
- "Dodge": "Skill: when this Fighter would suffer a wound from an attack, roll a D6; on a 6 the attack is dodged and has no effect."
+ "Dodge": "Skill: when this Fighter would suffer a wound from an attack, roll a D6; on a 6 the attack is dodged and has no effect.",
+ "Enfeebled": "Lasting Injury: the Fighter loses 1 Toughness.",
+ "Head Injury": "Lasting Injury: the Fighter loses 1 Intelligence."
 }

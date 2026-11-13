@@ -19,6 +19,9 @@
 .b-v { fill: #a9b8cc; background: #a9b8cc; }
 .charges { letter-spacing: .12em; color: var(--sodium); }
 .charges i { font-style: normal; color: var(--line); }
-.fighter .c.adv { background: color-mix(in srgb, #4fd6e6 22%, transparent); }
-.fighter .c.adv b, .adv-i { color: #4fd6e6; font-weight: 700; }
+.fighter .c.adv { background: color-mix(in srgb, #6fd37a 22%, transparent); }
+.fighter .c.adv b, .adv-i { color: #6fd37a; font-weight: 700; }
 .new-key { margin: -.4rem 0 1rem; color: var(--muted, #9aa6ad); font-size: .95rem; }
+
+.fighter .c.inj { background: color-mix(in srgb, #6fd37a 22%, transparent); }
+.fighter .c.inj b { color: #6fd37a; font-weight: 700; }

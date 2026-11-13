@@ -234,6 +234,13 @@
      "source": "Fit Bionics, Ezekiel Crows",
      "cost": "50",
      "tp": "–"
+    },
+    {
+     "item": "Medical Escort, treats Critical Injury",
+     "for": "Gutter Cantor",
+     "source": "Doc",
+     "cost": "30",
+     "tp": "–"
     }
    ],
    "tradingTotal": {
@@ -242,7 +249,7 @@
      "–"
     ],
     "purchase": [
-     "50",
+     "80",
      "–"
     ],
     "sell": [
@@ -250,7 +257,7 @@
      "–"
     ],
     "total": [
-     "50",
+     "80",
      "0"
     ]
    }
