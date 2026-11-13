@@ -706,8 +706,7 @@
       "text": "{tip:Precision Shot}"
      }
     ],
-    "cost": "95",
-    "portrait": "images/fighters/blessed-filth-autogun.jpg"
+    "cost": "95"
    }
   ],
   "ratsong": [
@@ -1010,7 +1009,7 @@
     "at": "2-post",
     "name": "Jorah Ashveil",
     "nameClass": "new-i",
-    "portrait": "images/gangs/the-carrion-psalm-thumb.jpg",
+    "portrait": "images/fighters/jorah-ashveil.jpg",
     "type": "Redemptionist Deacon (Champion, Fanatic)",
     "cost": "175",
     "stats": {
