@@ -4779,20 +4779,22 @@
    ],
    "turn": -28.9
   },
-  [
-   "polyline",
-   {
-    "class": "m-wall",
-    "points": "495.3,372.0 587.7,424.0"
-   }
-  ],
-  [
-   "polyline",
-   {
-    "class": "m-div",
-    "points": "391.5,428 391.5,537"
-   }
-  ],
+  {
+   "piece": "barricade",
+   "at": [
+    503,
+    378
+   ],
+   "turn": -4
+  },
+  {
+   "piece": "barricade",
+   "at": [
+    398,
+    487.5
+   ],
+   "turn": 90
+  },
   {
    "piece": "bone-yard",
    "at": [

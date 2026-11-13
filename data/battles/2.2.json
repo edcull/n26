@@ -275,14 +275,14 @@
    "blocks": [
     {
      "text": [
-      "{p:The Carrion Psalm} enter the bullet den through the casting hall and the quench house. The Furnace is still roaring at the heart of the works, and the heat comes off it in waves. Before the night is out, the Cawdor mean to mark their claim on the territory.",
+      "{p:The Carrion Psalm} enter the bullet den through the casting hall and the ruins. The Furnace is still roaring at the heart of the works, and the heat comes off it in waves. Before the night is out, the Cawdor mean to mark their claim on the territory.",
       "But {t:The Midnight Theatre} are hot on their tail, slipping in through the shell works and the magazine. Deuteronomy's orders are simple. The Theatre do not need to win this fight. They only need to leave the Cawdor bleeding in the dark, too many of them down or tied up to fight back."
      ]
     },
     {
      "map": {
       "viewBox": "-14 -24 628 668",
-      "label": "Top-down map of the Cycle 2.2 table: the Furnace at the centre with the Anvil just south of it, containers to the north, the Casting hall, Shell works, Magazine and a ruin in the four corners, with the Carrion Psalm deploying in the Casting hall and ruin corners and the Midnight Theatre in the Shell works and Magazine corners.",
+      "label": "Top-down map of the Cycle 2.2 table: the Furnace at the centre with the Anvil just south of it, containers to the north, the Casting hall, Shell works, Magazine and the ruins in the four corners, with the Carrion Psalm deploying in the Casting hall and ruins corners and the Midnight Theatre in the Shell works and Magazine corners.",
       "clip": "mat22",
       "items": [
        {
@@ -662,7 +662,7 @@
     513.75,
     498.75
    ],
-   "label": "Ruin",
+   "label": "Ruins",
    "labelAt": [
     513.8,
     510
