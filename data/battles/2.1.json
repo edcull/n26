@@ -1610,7 +1610,7 @@
        }
       },
       "The flechettes go wide, but the autopistol round slams into {@ezekiel-crows|Ezekiel} and knocks him down behind cover. Then {@growltiger|Growltiger}'s autopistol clicks empty.",
-      "Still reeling from the graviton hit, {@elijah-emberchoir|Elijah Emberchoir} picks himself up and moves into cover by the Ruin.",
+      "Still reeling from the graviton hit, {@elijah-emberchoir|Elijah Emberchoir} picks himself up and moves into cover by the ruined altar.",
       "In the vats, {@deuteronomy|Deuteronomy}'s hold on the Perfect Void slips.",
       {
        "roll": {
@@ -1787,8 +1787,8 @@
     {
      "photo": {
       "src": "images/2.1/photo-11.jpg",
-      "alt": "Deus and Amen peering round the Ruin with the heavy stubber, Mordecai and Gutter Cantor in the street, Mungojerrie in the bone yard and a Delaque fighter on the vats' upper floor.",
-      "caption": "Mordecai and Gutter run down the street, with Deus and Amen behind the Ruin."
+      "alt": "Deus and Amen peering round the ruined altar with the heavy stubber, Mordecai and Gutter Cantor in the street, Mungojerrie in the bone yard and a Delaque fighter on the vats' upper floor.",
+      "caption": "Mordecai and Gutter run down the street, with Deus and Amen behind the ruined altar."
      }
     },
     {
@@ -4685,7 +4685,7 @@
     322.4
    ],
    "turn": 180,
-   "label": "Ruin",
+   "label": "Ruined altar",
    "labelAt": [
     81.9,
     322.1
