@@ -761,7 +761,7 @@
    {
     "at": "2-post",
     "typeExtra": "<span class=\"benched\">In recovery</span>",
-    "cost": "40",
+    "cost": "80",
     "stats": {
      "XP": "7",
      "BS": "5+"
@@ -775,6 +775,31 @@
      {
       "label": "Skills",
       "text": "{tip.new-i:Dodge}"
+     }
+    ],
+    "weapons": [
+     {
+      "name": "Stub gun",
+      "profile": [
+       "6\"",
+       "12\"",
+       "3",
+       "-",
+       "1"
+      ],
+      "traits": "{tip:Light}"
+     },
+     {
+      "name": "Incendiary charge",
+      "class": "new",
+      "profile": [
+       "-",
+       "9\"",
+       "3",
+       "-",
+       "1"
+      ],
+      "traits": "{tip:Ammo (5+)}, {tip:Blast (5\")}, {tip:Blaze (5+)}, {tip:Limited}"
      }
     ]
    }
@@ -880,6 +905,101 @@
      "T": "adv",
      "Int": "inj"
     }
+   }
+  ],
+  "blight-creed": [
+   {
+    "at": "2-post",
+    "name": "Blight Creed",
+    "nameClass": "new-i",
+    "portrait": "images/gangs/the-carrion-psalm-thumb.jpg",
+    "type": "Redemptionist Brethren (Ganger, Fanatic, Gunslinger)",
+    "cost": "60",
+    "stats": {
+     "M": "5\"",
+     "WS": "4+",
+     "BS": "4+",
+     "S": "3",
+     "T": "3",
+     "W": "1",
+     "I": "3",
+     "A": "1",
+     "Sv": "6+",
+     "Ld": "6",
+     "Cl": "7",
+     "Wil": "7",
+     "Int": "5",
+     "XP": "13"
+    },
+    "weapons": [
+     {
+      "name": "Autopistol",
+      "profile": [
+       "4\"",
+       "12\"",
+       "3",
+       "-",
+       "1"
+      ],
+      "traits": "{tip:Light}, {tip:Rapid Fire (1)}"
+     },
+     {
+      "name": "Autopistol",
+      "profile": [
+       "4\"",
+       "12\"",
+       "3",
+       "-",
+       "1"
+      ],
+      "traits": "{tip:Light}, {tip:Rapid Fire (1)}"
+     }
+    ],
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Gunfighter}"
+     }
+    ]
+   }
+  ],
+  "tallowborn": [
+   {
+    "at": "2-post",
+    "name": "Tallowborn",
+    "nameClass": "new-i",
+    "portrait": "images/gangs/the-carrion-psalm-thumb.jpg",
+    "type": "Cawdor Bonepicker (Pious, Prospect)",
+    "cost": "25",
+    "stats": {
+     "M": "6\"",
+     "WS": "5+",
+     "BS": "5+",
+     "S": "3",
+     "T": "3",
+     "W": "1",
+     "I": "4",
+     "A": "1",
+     "Sv": "6+",
+     "Ld": "5",
+     "Cl": "5",
+     "Wil": "5",
+     "Int": "5",
+     "XP": "1"
+    },
+    "weapons": [
+     {
+      "name": "Stub gun",
+      "profile": [
+       "6\"",
+       "12\"",
+       "3",
+       "-",
+       "1"
+      ],
+      "traits": "{tip:Light}"
+     }
+    ]
    }
   ]
  }
