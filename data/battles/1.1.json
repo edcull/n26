@@ -283,7 +283,7 @@
     {
      "text": [
       "{p:The Carrion Psalm} approach from the east, through the ruined factory buildings and past an old promethium tank. {@mordecai|Mordecai} expects snipers covering the approach, but finds the ruined tower empty.",
-      "{t:The Midnight Theatre} lie in wait in the shadows of the old Gothic ruins to the west of the fuel cache. {@macavity|Macavity}'s not there. He's already slipped into the dark, flanking the Cawdor as they near, ready to strike From the Shadows."
+      "{t:The Midnight Theatre} lie in wait in the shadows of the ruins to the west of the fuel cache. {@macavity|Macavity}'s not there. He's already slipped into the dark, flanking the Cawdor as they near, ready to strike From the Shadows."
      ]
     },
     {
@@ -716,7 +716,7 @@
       },
       "The las-bolt hits {@deus-and-amen|Amen} square in the chest, but the Stig-Shambler barely notices.",
       "On the right flank, {@gutter-cantor|Gutter Cantor} and {@ratsong|Ratsong} push forward between the containers.",
-      "On the far side, {@demeter|Demeter} climbs into the Gothic ruin to find a sniper's perch. {@ezekiel-crows|Ezekiel Crows} spots him against the stonework and fires his autopistol.",
+      "On the far side, {@demeter|Demeter} climbs into the ruined tanks to find a sniper's perch. {@ezekiel-crows|Ezekiel Crows} spots him against the stonework and fires his autopistol.",
       {
        "roll": {
         "side": "p",
@@ -777,7 +777,7 @@
       },
       {
        "src": "images/1.1/photo-07.jpg",
-       "alt": "A Delaque sniper on top of the Gothic ruin, seen through the framework of the stairs.",
+       "alt": "A Delaque sniper on top of the ruined tanks, seen through the framework of the stairs.",
        "class": "port",
        "caption": "Ezekiel spots the Delaque sniper."
       }
@@ -1500,7 +1500,7 @@
         "target": "deuteronomy"
        }
       },
-      "The flames catch {@deuteronomy|Deuteronomy} and Vermin's tank runs dry. From the Gothic ruin, {@demeter|Demeter} finally gets a clear shot at the wounded {@ezekiel-crows|Ezekiel}.",
+      "The flames catch {@deuteronomy|Deuteronomy} and Vermin's tank runs dry. From the ruined tanks, {@demeter|Demeter} finally gets a clear shot at the wounded {@ezekiel-crows|Ezekiel}.",
       {
        "roll": {
         "side": "t",
@@ -1926,7 +1926,7 @@
         "target": "macavity"
        }
       },
-      "Up in the Gothic ruin, {@demeter|Demeter} takes careful aim at {@ezekiel-crows|Ezekiel}.",
+      "Up in the ruined tanks, {@demeter|Demeter} takes careful aim at {@ezekiel-crows|Ezekiel}.",
       {
        "roll": {
         "side": "t",
@@ -2323,7 +2323,7 @@
      "ends": [
       {
        "src": "images/1.1/photo-12.jpg",
-       "alt": "Macavity standing over the fallen Mordecai by the barricade, with Deus and Amen aiming in the foreground and Demeter on the Gothic ruin behind.",
+       "alt": "Macavity standing over the fallen Mordecai by the barricade, with Deus and Amen aiming in the foreground and Demeter on the ruined tanks behind.",
        "caption": "Mordecai falls to Macavity."
       }
      ],
