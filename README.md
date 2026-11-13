@@ -188,6 +188,10 @@ A board run draws the pieces where it holds `{"pieces": true}`, and their labels
 
 Pieces shared between boards: `round-platform` (smoke stack, furnace; 7" across, 3" tower), `hex-platform` (raised platform, sealed vent, starch silo, anvil; on every board so far; 8" across the flats, 9" point to point, 4" tower), `walled-ruin` (ruined tower, manufactorum, shell works; 8" square, raised floor on the south side inside thick walls, thin walls round the open floor, a lighter upper floor in its corner), `gothic-ruin-large` (4.5" by 7": 1.1 and 2.1 gothic ruin, 2.2 magazine; with the small one, the 1.2 gothic ruin) and `gothic-ruin-small` (about 3.5" by 6": 1.1 ruined floor, 2.1 ruin, 2.2 quench house, and lying across the large one in the 1.2 gothic ruin), `stairs` (4.5" by 4", a railed landing with two flights), `tank` (tank, still, the tank on the anvil; a 2" by 1.5" cylinder), `ladder` (added to other pieces wherever a board has one), `rubble-block` (a separate block set inside a ruin on 1.1 and 1.2), `rendering-vats` (vat house: rendering vats, casting hall, ruined stills, the 1.1 gothic ruin and walled yard; 6" by 7", three vats set in its wall), `container` (2" by 4", origin at its centre; stacked ones drawn lighter), `barricade` (3" by 0.75", origin at its centre), `wall-small` and `wall-large` (L-shaped walls: 4" with a 1.5" return, 5" with a 2.5" return, their returns turning opposite ways; origin at the corner). The extras a board adds to a piece, such as its ladders, the anvil's tank or a wall, are loose SVG next to it. The `v1-` pieces are the first cycle's drawings.
 
+### XP breakdowns
+
+On a page with `"xpButtons": true` (the Campaign Status page), each fighter card's XP opens a breakdown built by `js/xp.js` when the page loads: starting XP from the fighter's first roster entry, one row per battle from that battle's aftermath Experience table, and Train actions from the post-cycle pages, up to the page's `roster` point. Nothing to edit by hand: add a battle's Experience table and its row appears.
+
 ## Post-cycle phase (`data/post/<cycle>.json`)
 
 - `roster`: the timeline point after the cycle, for the rosters at the end
