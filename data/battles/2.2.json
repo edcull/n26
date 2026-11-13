@@ -484,6 +484,30 @@
       "{@mordecai|Mordecai} stacks up behind Ezekiel at the door.",
       "{@rumpus|Rumpus} burrows out of the ground by the Anvil. In the magazine, {@mistoffelees|Mistoffelees} stays in cover.",
       "{@elijah-emberchoir|Elijah Emberchoir} moves under the Anvil to hunt the Wyrd."
+     ],
+     "split": [
+      "tall",
+      "two"
+     ],
+     "ports": [
+      {
+       "src": "images/2.2/photo-04.jpg",
+       "alt": "Rumpleteaser and Deuteronomy on the raised floor of the shell works, a ladder below them, with Deus and Amen in the street beyond.",
+       "class": "port",
+       "caption": "Rumpleteaser and Deuteronomy in the shell works."
+      },
+      {
+       "src": "images/2.2/photo-05.jpg",
+       "alt": "Mordecai and Ezekiel Crows waiting in the shadow of the casting hall door.",
+       "class": "port",
+       "caption": "Mordecai and Ezekiel stack up at the casting hall door."
+      },
+      {
+       "src": "images/2.2/photo-06.jpg",
+       "alt": "Demeter on the roof of the magazine with her long rifle, Mistoffelees below against the wall, and Rumpus surfacing from the ground nearby.",
+       "class": "port",
+       "caption": "Demeter on the magazine roof, Mistoffelees below and Rumpus burrowing up."
+      }
      ]
     },
     {
@@ -922,7 +946,26 @@
        }
       },
       "{@mordecai|Mordecai} follows Ezekiel out."
+     ],
+     "split": [
+      "tall",
+      "two"
+     ],
+     "ports": [
+      {
+       "src": "images/2.2/photo-08.jpg",
+       "alt": "Elijah Emberchoir with his chainaxe and autopistol at the foot of the Anvil, beside its ladder.",
+       "class": "port",
+       "caption": "Elijah hunts beneath the Anvil."
+      }
      ]
+    },
+    {
+     "photo": {
+      "src": "images/2.2/photo-07.jpg",
+      "alt": "Mordecai and Ezekiel Crows coming out past the casting hall among the broken walls, while Demeter takes aim from the magazine roof and Mistoffelees waits below it.",
+      "caption": "The Cawdor come out of the casting hall under Demeter's rifle."
+     }
     },
     {
      "map": {
@@ -1698,6 +1741,24 @@
        }
       },
       "They recoil in fear from the shadows and step back out into the clearing."
+     ],
+     "split": [
+      "tall",
+      "two"
+     ],
+     "ports": [
+      {
+       "src": "images/2.2/photo-09.jpg",
+       "alt": "Elijah Emberchoir under the Anvil with Rumpus bursting out of the ground at his feet.",
+       "class": "port",
+       "caption": "Rumpus comes up at Elijah under the Anvil."
+      },
+      {
+       "src": "images/2.2/photo-10.jpg",
+       "alt": "Mordecai engaged with Mistoffelees at the corner of the magazine, Ezekiel Crows behind him, and Demeter aiming from the magazine roof.",
+       "class": "port",
+       "caption": "Mordecai goes in on Mistoffelees, with Demeter on the roof above."
+      }
      ]
     },
     {
