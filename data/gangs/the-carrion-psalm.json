@@ -688,16 +688,16 @@
     "at": "2-post",
     "weapons": [
      {
-      "name": "Autogun",
-      "class": "new",
+      "name": "Long rifle",
       "profile": [
-       "8\"",
        "24\"",
-       "3",
-       "-",
+       "48\"",
+       "4",
+       "-1",
        "1"
       ],
-      "traits": "{tip:Rapid Fire (1)}"
+      "traits": "{tip:Knockback (6+)}",
+      "class": "new"
      }
     ],
     "foot": [
@@ -706,7 +706,7 @@
       "text": "{tip:Precision Shot}"
      }
     ],
-    "cost": "60"
+    "cost": "95"
    }
   ],
   "ratsong": [
@@ -803,8 +803,7 @@
       "label": "Lasting injuries",
       "text": "{tip.new-i:Eye Injury}"
      }
-    ],
-    "portrait": "images/fighters/ratsong-bionic.jpg"
+    ]
    }
   ],
   "deus-and-amen": [
@@ -1010,7 +1009,7 @@
     "at": "2-post",
     "name": "Jorah Ashveil",
     "nameClass": "new-i",
-    "portrait": "images/gangs/the-carrion-psalm-thumb.jpg",
+    "portrait": "images/fighters/jorah-ashveil.jpg",
     "type": "Redemptionist Deacon (Champion, Fanatic)",
     "cost": "175",
     "stats": {
