@@ -282,7 +282,7 @@
     {
      "map": {
       "viewBox": "-14 -24 628 668",
-      "label": "Top-down map of the Cycle 2.2 table: the Furnace at the centre with the Anvil just south of it, containers to the north, the Casting hall, Shell works, Magazine and Quench house in the four corners, with the Carrion Psalm deploying in the Casting hall and Quench house corners and the Midnight Theatre in the Shell works and Magazine corners.",
+      "label": "Top-down map of the Cycle 2.2 table: the Furnace at the centre with the Anvil just south of it, containers to the north, the Casting hall, Shell works, Magazine and a ruin in the four corners, with the Carrion Psalm deploying in the Casting hall and ruin corners and the Midnight Theatre in the Shell works and Magazine corners.",
       "clip": "mat22",
       "items": [
        {
@@ -662,7 +662,7 @@
     513.75,
     498.75
    ],
-   "label": "Quench house",
+   "label": "Ruin",
    "labelAt": [
     513.8,
     510
