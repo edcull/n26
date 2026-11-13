@@ -72,5 +72,8 @@
 .xp-pop .xp-src { display: block; font-weight: 600; }
 .xp-pop .xp-why { display: block; color: var(--muted); font-size: .92rem; }
 .xp-pop tfoot td { border-bottom: 0; font-weight: 700; font-size: 1.1rem; }
-.fighter .c.inj { background: color-mix(in srgb, var(--sodium) 22%, transparent); }
-.fighter .c.inj b, .inj-i { color: var(--sodium); font-weight: 700; }
+.fighter .c.inj { background: color-mix(in srgb, #e0702e 22%, transparent); }
+.fighter .c.inj b, .inj-i { color: #e0702e; font-weight: 700; }
+
+/* lasting injuries and the stats they lower */
+.fighter .f-lasting-injuries .sk { color: #e0702e; font-weight: 700; }

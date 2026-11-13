@@ -18,6 +18,9 @@
 .fighter .c.adv { background: color-mix(in srgb, #4fd6e6 22%, transparent); }
 .fighter .c.adv b, .adv-i { color: #4fd6e6; font-weight: 700; }
 .new-key { margin: -.4rem 0 1rem; color: var(--muted, #9aa6ad); font-size: .95rem; }
-.fighter .c.inj { background: color-mix(in srgb, var(--sodium) 22%, transparent); }
-.fighter .c.inj b { color: var(--sodium); font-weight: 700; }
+.fighter .c.inj { background: color-mix(in srgb, #e0702e 22%, transparent); }
+.fighter .c.inj b { color: #e0702e; font-weight: 700; }
 .benched.crit { color: #ff5a4a; }
+
+/* lasting injuries and the stats they lower */
+.fighter .f-lasting-injuries .sk { color: #e0702e; font-weight: 700; }
