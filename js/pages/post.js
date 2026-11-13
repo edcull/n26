@@ -6,8 +6,7 @@ import { hero, nav } from '../hero.js';
 import { fighterCard } from '../fighter.js';
 import { sheet, assets } from '../blocks.js';
 
-const ACTION_STYLE = { 'Recovery': 'act-rec', 'Work Territory': 'act-work', 'In recovery': 'act-rec', 'Critical injury': 'act-crit', 'Captured': 'act-capt' };
-const NO_ACTION = new Set(['In recovery', 'Critical injury', 'Captured']);   // these fighters can't take a post-cycle action
+const ACTION_STYLE = { 'Recovery': 'act-rec', 'Work Territory': 'act-work', 'Critical Injury': 'act-crit', 'Captured': 'act-capt' };
 const td = (html, c) => `<td${c ? ` class="${c}"` : ''}>${md(html)}</td>`;
 const th = (html, c) => `<th${c ? ` class="${c}"` : ''}>${html}</th>`;
 const tr = (cells, c) => `<tr${c ? ` class="${c}"` : ''}>${cells}</tr>`;
@@ -18,7 +17,7 @@ const orNone = (rows, n, f) => rows.length ? join(rows, f) : tr(td('None') + joi
 function gangBlock(e, d) {
   const g = d.gangInfo[e.gang], N = g.name;
   const actions = ledger(`${N} post-cycle actions`, 'ledger post', th('Fighter') + th('Lasting injuries', 'm-hide') + th('Action'),
-    join(e.actions, a => tr(td(a.fighter) + td(a.injuries, 'm-hide') + td(ACTION_STYLE[a.action] ? `<span class="${ACTION_STYLE[a.action]}">${a.action}${NO_ACTION.has(a.action) ? ': no action' : ''}</span>` : a.action))));
+    join(e.actions, a => tr(td(a.fighter) + td(a.injuries, 'm-hide') + td(ACTION_STYLE[a.action] ? `<span class="${ACTION_STYLE[a.action]}">${a.action}</span>` : a.action))));
   const income = ledger(`${N} income`, 'ledger income inc3', th('Source') + th('Recruitment', 'm-hide') + th('Credits', 'num'),
     join(e.income, r => tr(td(r.source) + td(r.recruitment ?? '–', 'm-hide') +
       td(r.recruitment ? `<span class="d-only">${r.credits}</span><span class="m-only">${r.recruitment}</span>` : r.credits, 'num'))) +

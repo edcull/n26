@@ -76,17 +76,17 @@
     {
      "fighter": "Gutter Cantor",
      "injuries": "Critical Injury",
-     "action": "Critical injury"
+     "action": "Critical Injury"
     },
     {
      "fighter": "Ratsong",
      "injuries": "Eye Injury",
-     "action": "In recovery"
+     "action": "Recovery"
     },
     {
      "fighter": "Deus and Amen",
      "injuries": "Head Injury",
-     "action": "In recovery"
+     "action": "Recovery"
     }
    ],
    "income": [
@@ -213,17 +213,17 @@
     {
      "fighter": "Mungojerrie",
      "injuries": "Critical Injury",
-     "action": "Critical injury"
+     "action": "Critical Injury"
     },
     {
      "fighter": "Jellylorum",
      "injuries": "Hand Injury",
-     "action": "In recovery"
+     "action": "Recovery"
     },
     {
      "fighter": "Growltiger",
      "injuries": "Hand Injury",
-     "action": "In recovery"
+     "action": "Recovery"
     },
     {
      "fighter": "Mistoffelees",
@@ -233,7 +233,7 @@
     {
      "fighter": "Rumpus",
      "injuries": "Grievous Wound",
-     "action": "In recovery"
+     "action": "Recovery"
     },
     {
      "fighter": "Wit",
