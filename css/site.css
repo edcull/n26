@@ -332,3 +332,11 @@ img{max-width:100%}
 .face-rumpus { background-image: url(../images/fighters/rumpus.jpg); }
 .face-mungojerrie { background-image: url(../images/fighters/mungojerrie.jpg); }
 .face-wit { background-image: url(../images/fighters/wit.jpg); }
+
+/* Fighter status on cards and in post-cycle actions */
+.benched.crit { color: #ff5a4a; }
+.benched.capt { color: var(--muted); }
+.act-rec { color: #e0702e; font-weight: 600; }
+.act-work { color: #8ccbee; font-weight: 600; }
+.act-crit { color: #ff5a4a; font-weight: 600; }
+.act-capt { color: var(--muted); font-weight: 600; }

@@ -528,6 +528,10 @@
     "statClass": {
      "WS": "inj"
     }
+   },
+   {
+    "at": "2-post",
+    "typeExtra": "<span class=\"benched\">In recovery</span>"
    }
   ],
   "mungojerrie": [
@@ -910,6 +914,10 @@
     "statClass": {
      "WS": "inj"
     }
+   },
+   {
+    "at": "2-post",
+    "typeExtra": "<span class=\"benched\">In recovery</span>"
    }
   ],
   "rumpus": [
@@ -980,7 +988,8 @@
       "label": "Lasting injuries",
       "text": "{tip.new-i:Grievous Wound}"
      }
-    ]
+    ],
+    "typeExtra": "<span class=\"benched\">In recovery</span>"
    }
   ],
   "wit": [

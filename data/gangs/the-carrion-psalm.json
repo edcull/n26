@@ -139,7 +139,8 @@
       "label": "Lasting injuries",
       "text": "{tip:Personal Enmity (Macavity)}, {tip.new-i:Captured}"
      }
-    ]
+    ],
+    "typeExtra": "<span class=\"benched capt\">Captured</span>"
    }
   ],
   "ezekiel-crows": [
@@ -585,7 +586,8 @@
       "label": "Lasting injuries",
       "text": "{tip.new-i:Critical Injury}"
      }
-    ]
+    ],
+    "typeExtra": "<span class=\"benched crit\">Critical injury</span>"
    }
   ],
   "blessed-filth": [
@@ -740,6 +742,10 @@
       "text": "{tip:Eye Injury}"
      }
     ]
+   },
+   {
+    "at": "2-post",
+    "typeExtra": "<span class=\"benched\">In recovery</span>"
    }
   ],
   "deus-and-amen": [
@@ -833,7 +839,8 @@
       "label": "Lasting injuries",
       "text": "{tip.new-i:Head Injury}"
      }
-    ]
+    ],
+    "typeExtra": "<span class=\"benched\">In recovery</span>"
    }
   ]
  }

@@ -51,7 +51,7 @@
     {
      "fighter": "Mordecai",
      "injuries": "Captured",
-     "action": "To come"
+     "action": "Captured"
     },
     {
      "fighter": "Ezekiel Crows",
@@ -76,17 +76,17 @@
     {
      "fighter": "Gutter Cantor",
      "injuries": "Critical Injury",
-     "action": "To come"
+     "action": "Critical injury"
     },
     {
      "fighter": "Ratsong",
      "injuries": "Eye Injury",
-     "action": "To come"
+     "action": "In recovery"
     },
     {
      "fighter": "Deus and Amen",
      "injuries": "Head Injury",
-     "action": "To come"
+     "action": "In recovery"
     }
    ],
    "income": [
@@ -213,17 +213,17 @@
     {
      "fighter": "Mungojerrie",
      "injuries": "Critical Injury",
-     "action": "To come"
+     "action": "Critical injury"
     },
     {
      "fighter": "Jellylorum",
      "injuries": "Hand Injury",
-     "action": "To come"
+     "action": "In recovery"
     },
     {
      "fighter": "Growltiger",
      "injuries": "Hand Injury",
-     "action": "To come"
+     "action": "In recovery"
     },
     {
      "fighter": "Mistoffelees",
@@ -233,7 +233,7 @@
     {
      "fighter": "Rumpus",
      "injuries": "Grievous Wound",
-     "action": "To come"
+     "action": "In recovery"
     },
     {
      "fighter": "Wit",
