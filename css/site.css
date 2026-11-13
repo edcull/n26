@@ -305,17 +305,17 @@ img{max-width:100%}
 .r-face.t { border-color: var(--delaque); }
 .b-v { fill: #a9b8cc; background: #a9b8cc; }
 @media (max-width: 44rem) { .jump li.nav-intro { display: none; } }
-.face-cantor { background-image: url(../../images/fighters/gutter-cantor.jpg); }
-.face-demeter { background-image: url(../../images/fighters/demeter.jpg); }
-.face-deus { background-image: url(../../images/fighters/deus-and-amen.jpg); }
-.face-deuteronomy { background-image: url(../../images/fighters/deuteronomy.jpg); }
-.face-ezekiel { background-image: url(../../images/fighters/ezekiel-crows.jpg); }
-.face-jellylorum { background-image: url(../../images/fighters/jellylorum.jpg); }
-.face-macavity { background-image: url(../../images/fighters/macavity.jpg); }
-.face-mordecai { background-image: url(../../images/fighters/mordecai.jpg); }
-.face-ratsong { background-image: url(../../images/fighters/ratsong.jpg); }
-.face-rumpleteaser { background-image: url(../../images/fighters/rumpleteaser.jpg); }
-.face-vermin { background-image: url(../../images/fighters/vermin-pyre.jpg); }
+.face-cantor { background-image: url(../images/fighters/gutter-cantor.jpg); }
+.face-demeter { background-image: url(../images/fighters/demeter.jpg); }
+.face-deus { background-image: url(../images/fighters/deus-and-amen.jpg); }
+.face-deuteronomy { background-image: url(../images/fighters/deuteronomy.jpg); }
+.face-ezekiel { background-image: url(../images/fighters/ezekiel-crows.jpg); }
+.face-jellylorum { background-image: url(../images/fighters/jellylorum.jpg); }
+.face-macavity { background-image: url(../images/fighters/macavity.jpg); }
+.face-mordecai { background-image: url(../images/fighters/mordecai.jpg); }
+.face-ratsong { background-image: url(../images/fighters/ratsong.jpg); }
+.face-rumpleteaser { background-image: url(../images/fighters/rumpleteaser.jpg); }
+.face-vermin { background-image: url(../images/fighters/vermin-pyre.jpg); }
 .fname { appearance: none; background: none; border: 0; padding: 0; margin: 0; font: inherit; color: inherit; cursor: pointer; text-decoration: underline dotted; text-decoration-color: var(--muted); text-underline-offset: .2em; }
 .fname:hover { color: var(--sodium); }
 .fname:focus-visible { outline: 2px solid var(--sodium); outline-offset: 2px; }
@@ -325,10 +325,10 @@ img{max-width:100%}
 .fc-pop .fighter { margin: 0; padding-top: 2.4rem; }
 .jump li.nav-br { display: none; }
 @media (max-width: 44rem) { .jump li.nav-br { display: block; flex-basis: 100%; height: 0; margin: 0; } }
-.face-elijah { background-image: url(../../images/fighters/elijah-emberchoir.jpg); }
-.face-filth { background-image: url(../../images/fighters/blessed-filth.jpg); }
-.face-growltiger { background-image: url(../../images/fighters/growltiger.jpg); }
-.face-mistoffelees { background-image: url(../../images/fighters/mistoffelees.jpg); }
-.face-rumpus { background-image: url(../../images/fighters/rumpus.jpg); }
-.face-mungojerrie { background-image: url(../../images/fighters/mungojerrie.jpg); }
-.face-wit { background-image: url(../../images/fighters/wit.jpg); }
+.face-elijah { background-image: url(../images/fighters/elijah-emberchoir.jpg); }
+.face-filth { background-image: url(../images/fighters/blessed-filth.jpg); }
+.face-growltiger { background-image: url(../images/fighters/growltiger.jpg); }
+.face-mistoffelees { background-image: url(../images/fighters/mistoffelees.jpg); }
+.face-rumpus { background-image: url(../images/fighters/rumpus.jpg); }
+.face-mungojerrie { background-image: url(../images/fighters/mungojerrie.jpg); }
+.face-wit { background-image: url(../images/fighters/wit.jpg); }
