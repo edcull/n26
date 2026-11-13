@@ -21,20 +21,21 @@ function gangBlock(e, d) {
   const income = ledger(`${N} income`, 'ledger income inc3', th('Source') + th('Recruitment', 'm-hide') + th('Credits', 'num'),
     join(e.income, r => tr(td(r.source) + td(r.recruitment ?? '–', 'm-hide') +
       td(r.recruitment ? `<span class="d-only">${r.credits}</span><span class="m-only">${r.recruitment}</span>` : r.credits, 'num'))) +
-    tr(td('Total credits') + td('', 'm-hide') + td(e.incomeTotal, 'num'), 'tot'));
-  const adv = ledger(`${N} XP advancements`, 'ledger adv',
+    tr(td('Total credits') + td('', 'm-hide') + td(e.incomeTotal ?? 'To come', 'num'), 'tot'));
+  const todo = '<p class="todo">To come.</p>';
+  const adv = !e.advancements ? todo : ledger(`${N} XP advancements`, 'ledger adv',
     th('Fighter') + th('Total XP', 'num m-hide') + th('Advances to', 'num m-hide') + th('Roll', 'num') + th('Advancement') + th('Cost', 'num m-hide'),
     join(e.advancements, a => tr(td(a.fighter) + td(a.xp, 'num m-hide') + td(a.range, 'num m-hide') + td(a.roll, 'num') +
       td(`${a.advancement}<span class="m-only">. Cost ${a.cost}</span>`) + td(a.cost, 'num m-hide'))));
-  const recruits = ledger(`${N} recruits`, 'ledger income inc3', th('Recruit') + th('Discount') + th('Cost', 'num'),
+  const recruits = !e.tradingTotal ? '' : ledger(`${N} recruits`, 'ledger income inc3', th('Recruit') + th('Discount') + th('Cost', 'num'),
     orNone(e.recruits, 3, r => tr(td(r.recruit) + td(r.discount) + td(r.cost, 'num'))));
-  const buys = ledger(`${N} equipment`, 'ledger income inc4', th('Item') + th('For', 'm-hide') + th('Source', 'm-hide') + th('Cost', 'num') + th('TP', 'num'),
+  const buys = !e.tradingTotal ? '' : ledger(`${N} equipment`, 'ledger income inc4', th('Item') + th('For', 'm-hide') + th('Source', 'm-hide') + th('Cost', 'num') + th('TP', 'num'),
     e.purchases.length ? join(e.purchases, p => tr(td(p.item) + td(p.for, 'm-hide') + td(p.source, 'm-hide') + td(p.cost, 'num') + td(p.tp, 'num')))
       : tr(td('None') + td('–', 'm-hide') + td('–', 'm-hide') + td('–', 'num') + td('–', 'num')));
-  const sales = ledger(`${N} sales`, 'ledger income inc3', th('Item') + th('Fighter') + th('Credits', 'num'),
+  const sales = !e.tradingTotal ? '' : ledger(`${N} sales`, 'ledger income inc3', th('Item') + th('Fighter') + th('Credits', 'num'),
     orNone(e.sales, 3, s => tr(td(s.item) + td(s.fighter) + td(s.credits, 'num'))));
   const T = e.tradingTotal;
-  const totals = ledger(`${N} tptotal`, 'ledger income inc3', th('Section') + th('Credits', 'num') + th('TP', 'num'),
+  const totals = !T ? '' : ledger(`${N} tptotal`, 'ledger income inc3', th('Section') + th('Credits', 'num') + th('TP', 'num'),
     [['Recruit new models', T.recruit], ['Purchase equipment', T.purchase], ['Sell unwanted items', T.sell]].map(([l, [c, t]]) => tr(td(l) + td(c, 'num') + td(t, 'num'))).join('') +
     tr(td('Total spent') + td(T.total[0], 'num') + td(T.total[1], 'num'), 'tot'));
   const roster = sheet({ sheet: e.roster.sheet, class: 'four' }) + '\n' + assets(e.roster.assets) + '\n' +
@@ -50,14 +51,14 @@ ${income}
 <h3 class="step">XP advancements</h3>
 ${adv}
 <h3 class="step">Trading post</h3>
-<h4 class="tpsub">Recruit new models</h4>
+${!T ? todo : `<h4 class="tpsub">Recruit new models</h4>
 ${recruits}
 <h4 class="tpsub">Purchase equipment</h4>
 ${buys}
 <h4 class="tpsub">Sell unwanted items</h4>
 ${sales}
 <h4 class="tpsub">Trading post total</h4>
-${totals}
+${totals}`}
 <h3 class="step">Full gang roster</h3>
 ${roster}
 </div>
