@@ -471,7 +471,7 @@
        "-1",
        "1"
       ],
-      "traits": "{tip:Ammo (6+)}, {tip:Blaze (5)}, {tip:Template}"
+      "traits": "{tip:Ammo (6+)}, {tip:Blaze (5)}, {tip:Template}, {tip:Combi}"
      }
     ],
     "foot": [
@@ -555,7 +555,7 @@
        "-",
        "1"
       ],
-      "traits": "{tip:Rapid Fire (1)}"
+      "traits": "{tip:Rapid Fire (1)}, {tip:Combi}"
      }
     ],
     "foot": [
@@ -938,7 +938,7 @@
        "-",
        "1"
       ],
-      "traits": "{tip:Rapid Fire (1)}"
+      "traits": "{tip:Rapid Fire (1)}, {tip:Combi}"
      },
      {
       "class": "sub",
@@ -950,7 +950,7 @@
        "-1",
        "1"
       ],
-      "traits": "{tip:Ammo (6+)}, {tip:Blaze (5+)}, {tip:Template}"
+      "traits": "{tip:Ammo (6+)}, {tip:Blaze (5+)}, {tip:Template}, {tip:Combi}"
      }
     ],
     "foot": [
