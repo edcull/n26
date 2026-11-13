@@ -4183,8 +4183,8 @@
    "turn": 180,
    "label": "Ruined tower",
    "labelAt": [
-    487.5,
-    432.5
+    463.75,
+    490
    ]
   },
   {
@@ -4206,21 +4206,28 @@
    "piece": "container",
    "at": [
     272.5,
-    512.5
+    487.5
    ]
   },
   {
    "piece": "container",
    "at": [
-    267.5,
-    545.0
+    272.5,
+    537.5
+   ]
+  },
+  {
+   "piece": "container",
+   "at": [
+    272.5,
+    512.5
    ],
-   "turn": 22.0,
+   "turn": 22,
    "stacked": true,
    "label": "Containers",
    "labelAt": [
     272.5,
-    545.0
+    517.5
    ]
   },
   {
@@ -4254,7 +4261,7 @@
     440
    ],
    "turn": 90,
-   "label": "Gothic ruin",
+   "label": "Ruined depot",
    "labelAt": [
     132.5,
     440
