@@ -120,7 +120,7 @@
             "html": "<span class=\"tri-name\">Creditor</span><span class=\"crit\">Highest Wealth</span>"
            },
            {
-            "html": "1435",
+            "html": "1450",
             "class": "num p"
            },
            {
@@ -605,7 +605,7 @@
           ],
           [
            "Credits",
-           "20"
+           "35"
           ],
           [
            "Gang size",

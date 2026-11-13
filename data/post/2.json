@@ -46,7 +46,7 @@
    "story": [
     "The Psalm took the Rendermarch, but the Bullet Den cost them dearly. {@mordecai|Mordecai} was dragged off by the Theatre and only slipped free on the way out; he spends the cycle recovering.",
     "{@elijah-emberchoir|Elijah Emberchoir} carries {@gutter-cantor|Gutter Cantor} to the Doc before his wounds can kill him, and {@ratsong|Ratsong} nurses a ruined eye. {@deus-and-amen|Deus} nurses Amen through a head injury.",
-    "{@vermin-pyre|Vermin Pyre} drills with his polearm, and {@blessed-filth|Blessed Filth} works the Psalm's turf for coin."
+    "{@vermin-pyre|Vermin Pyre} drills with his polearm, and {@ezekiel-crows|Ezekiel Crows} and {@blessed-filth|Blessed Filth} work the Psalm's turf for coin."
    ],
    "actions": [
     {
@@ -57,7 +57,7 @@
     {
      "fighter": "Ezekiel Crows",
      "injuries": "–",
-     "action": "To come"
+     "action": "Work Territory"
     },
     {
      "fighter": "Elijah Emberchoir",
@@ -121,8 +121,8 @@
      "credits": "+25"
     },
     {
-     "source": "Work Territory (1 × 15)",
-     "credits": "+15"
+     "source": "Work Territory (2 × 15)",
+     "credits": "+30"
     },
     {
      "source": "Reputation (4 × 10)",
@@ -145,7 +145,7 @@
      ],
      [
       "Credits",
-      "20"
+      "35"
      ],
      [
       "Fighters",
@@ -201,7 +201,7 @@
      "deus-and-amen"
     ]
    },
-   "incomeTotal": "230",
+   "incomeTotal": "245",
    "advancements": [
     {
      "fighter": "Vermin Pyre",
