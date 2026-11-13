@@ -705,7 +705,8 @@
       "label": "Skills",
       "text": "{tip:Precision Shot}"
      }
-    ]
+    ],
+    "cost": "60"
    }
   ],
   "ratsong": [
