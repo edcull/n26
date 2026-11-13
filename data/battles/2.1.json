@@ -4758,8 +4758,7 @@
     338.6,
     533.6
    ],
-   "turn": -90.0,
-   "flip": true
+   "turn": -90.0
   },
   {
    "piece": "hex-platform",

@@ -361,13 +361,13 @@
   },
   "wall-small": {
    "name": "L wall (small)",
-   "note": "A 4\" wall with a 1.5\" return.",
+   "note": "A 4\" wall with a 1.5\" return, turning the opposite way to the large one.",
    "els": [
     [
      "polyline",
      {
       "class": "m-wall",
-      "points": "0,-100 0,0 37.5,0"
+      "points": "0,-100 0,0 -37.5,0"
      }
     ]
    ]
