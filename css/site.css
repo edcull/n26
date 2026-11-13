@@ -339,4 +339,4 @@ img{max-width:100%}
 .act-rec { color: #e0702e; font-weight: 600; }
 .act-work { color: #8ccbee; font-weight: 600; }
 .act-crit { color: #ff5a4a; font-weight: 600; }
-.act-capt { color: var(--muted); font-weight: 600; }
+.act-capt { color: #ff5a4a; font-weight: 600; }
