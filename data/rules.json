@@ -94,5 +94,8 @@
  "Doc": "On a Medical Escort the Doc rolls a D6 to treat the Critical Injury. A 6 is a full recovery; lower rolls may stabilise the Fighter but leave a new Lasting Injury.",
  "Hollowpoint (Bullet Den)": "Bullet Den. Boons: Income: 15 credits. Recruit: instead of income, if the gang has no Ammo-Jack, recruit one for 30 credits less. Battlefield effect: Plentiful Ammo: once per round, each gang may make a Reload action as a Free action.",
  "Knockback (5+)": "If the Hit roll is at least X, the Fighter hit is moved 1\" directly away from the attacker, testing for falling if pushed off a ledge. This can break engagements.",
- "Rapid Fire": "Play when a friendly Fighter activates, before any actions. For the rest of their activation they can make the Shoot action as a Free action."
+ "Rapid Fire": "Play when a friendly Fighter activates, before any actions. For the rest of their activation they can make the Shoot action as a Free action.",
+ "Leash Range (3\")": "The pet must stay within this distance of its owner.",
+ "Bite": "A beast's natural weapon: E, -, S, -, 1, Melee.",
+ "Giant Rat": "A pet Giant Rat (Beast, Pet), bought as wargear for a Leader or Champion. It has its own Fighter card and must stay within its 3\" Leash range of its owner."
 }
