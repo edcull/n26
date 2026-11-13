@@ -3163,7 +3163,7 @@
           "result": "Injured"
          },
          {
-          "note": "Note: Mordecai's bio-booster reduces the Lethality."
+          "note": "Note: Mordecai's bio-booster takes the Lethality to 0, so he rolls two Injury dice and chooses which to apply."
          }
         ],
         "by": "macavity",
@@ -3336,7 +3336,13 @@
           "result": "Two hits",
           "check": {
            "name": "To Hit",
-           "base": 3
+           "base": 3,
+           "mods": [
+            [
+             1,
+             "Aim"
+            ]
+           ]
           },
           "resultClass": "ammo"
          },

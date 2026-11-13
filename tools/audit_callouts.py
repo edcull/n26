@@ -130,7 +130,8 @@ for f in sorted(glob.glob(os.path.join(ROOT, 'data/battles/*.json'))):
                     # A Flesh Wound means Injured only if the fighter is at 0 wounds; otherwise the result can be just Suppressed
                     worst = max(INJ_RANK.get(v, 0) for v in ds)
                     if worst == 1: continue
-                    if worst and not x['result'].startswith(INJ_WORD[worst].split(',')[0]) and not x['result'].lower().startswith('still '): flag('traceability', W, f'injury dice {dice} -> {INJ_WORD[worst]} but says {x["result"]!r}')
+                    chooses = 'chooses which to apply' in ' '.join(y.get('note', '') for y in r['rows'])   # bio-booster: the fighter picks a die
+                    if worst and not chooses and not x['result'].startswith(INJ_WORD[worst].split(',')[0]) and not x['result'].lower().startswith('still '): flag('traceability', W, f'injury dice {dice} -> {INJ_WORD[worst]} but says {x["result"]!r}')
                 if c and c['name'] == 'Ammo' and ds:
                     t = total(c); v = int(ds[0])
                     if v >= t and 'Out of Ammo' in x['result']: flag('traceability', W, f'Ammo {t}+ rolled {v} (passes) but says Out of Ammo')
