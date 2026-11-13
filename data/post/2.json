@@ -133,7 +133,7 @@
     "sheet": [
      [
       "Rating",
-      "1445"
+      "1450"
      ],
      [
       "Wins",
@@ -145,11 +145,11 @@
      ],
      [
       "Credits",
-      "5"
+      "0"
      ],
      [
       "Fighters",
-      "10"
+      "11"
      ]
     ],
     "assets": [
@@ -198,6 +198,7 @@
      "gutter-cantor",
      "blight-creed",
      "ratsong",
+     "tallowborn",
      "deus-and-amen"
     ]
    },
@@ -238,6 +239,11 @@
      "recruit": "Jorah Ashveil, Redemptionist Deacon (Champion), with Gunfighter",
      "discount": "–",
      "cost": "100"
+    },
+    {
+     "recruit": "Tallowborn, Bonepicker (Prospect)",
+     "discount": "–",
+     "cost": "20"
     }
    ],
    "sales": [],
@@ -264,20 +270,34 @@
      "tp": "–"
     },
     {
-     "item": "Autogun/flamer combi",
+     "item": "Autogun",
      "for": "Blight Creed",
      "source": "Gang list",
-     "cost": "75",
+     "cost": "20",
+     "tp": "–"
+    },
+    {
+     "item": "Exterminator",
+     "for": "Blight Creed",
+     "source": "Gang list",
+     "cost": "35",
+     "tp": "–"
+    },
+    {
+     "item": "Stub gun",
+     "for": "Tallowborn",
+     "source": "Gang list",
+     "cost": "5",
      "tp": "–"
     }
    ],
    "tradingTotal": {
     "recruit": [
-     "115",
+     "135",
      "–"
     ],
     "purchase": [
-     "125",
+     "110",
      "–"
     ],
     "sell": [
@@ -285,7 +305,7 @@
      "–"
     ],
     "total": [
-     "240",
+     "245",
      "0"
     ]
    },
