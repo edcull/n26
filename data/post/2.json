@@ -330,7 +330,7 @@
     {
      "fighter": "Rumpleteaser",
      "injuries": "–",
-     "action": "To come"
+     "action": "Train (+2 XP)"
     },
     {
      "fighter": "Mungojerrie",
@@ -456,7 +456,41 @@
      "rumpus",
      "wit"
     ]
-   }
+   },
+   "advancements": [
+    {
+     "fighter": "Deuteronomy",
+     "xp": "76",
+     "range": "73–84",
+     "roll": "6",
+     "advancement": "<span class=\"new-i\">Medicate</span> (primary skill)",
+     "cost": "+10"
+    },
+    {
+     "fighter": "Macavity",
+     "xp": "63",
+     "range": "61–72",
+     "roll": "6",
+     "advancement": "<span class=\"new-i\">Rain of Blows</span> (primary skill)",
+     "cost": "+10"
+    },
+    {
+     "fighter": "Rumpleteaser",
+     "xp": "20",
+     "range": "19–24",
+     "roll": "7",
+     "advancement": "<span class=\"new-i\">Spring Up</span> (secondary skill)",
+     "cost": "+15"
+    },
+    {
+     "fighter": "Mistoffelees",
+     "xp": "11",
+     "range": "10–12",
+     "roll": "6",
+     "advancement": "<span class=\"new-i\">+1 Willpower</span>",
+     "cost": "+5"
+    }
+   ]
   }
  ]
 }

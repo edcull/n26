@@ -125,7 +125,18 @@
     "at": "2-post",
     "stats": {
      "XP": "76"
-    }
+    },
+    "cost": "255",
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:A Perfect Void}, {tip:Counter-attack}, {tip:Inspiring}, {tip.new-i.sk-adv:Medicate}"
+     },
+     {
+      "label": "Special rules",
+      "text": "{tip:Master of Whispers}"
+     }
+    ]
    }
   ],
   "demeter": [
@@ -322,7 +333,18 @@
     "at": "2-post",
     "stats": {
      "XP": "63"
-    }
+    },
+    "cost": "200",
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Inspiring}, {tip:Spring Up}, {tip.new-i.sk-adv:Rain of Blows}"
+     },
+     {
+      "label": "Special rules",
+      "text": "{tip:From the Shadows}"
+     }
+    ]
    }
   ],
   "rumpleteaser": [
@@ -442,8 +464,15 @@
    {
     "at": "2-post",
     "stats": {
-     "XP": "18"
-    }
+     "XP": "20"
+    },
+    "cost": "165",
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Hip-shooting}, {tip.new-i.sk-adv:Spring Up}"
+     }
+    ]
    }
   ],
   "jellylorum": [
@@ -812,7 +841,8 @@
    {
     "at": "2-post",
     "stats": {
-     "XP": "11"
+     "XP": "11",
+     "Wil": "8"
     },
     "foot": [
      {
@@ -831,7 +861,11 @@
       "label": "Lasting injuries",
       "text": "{tip.new-i:Personal Enmity (Elijah)}"
      }
-    ]
+    ],
+    "cost": "100",
+    "statClass": {
+     "Wil": "adv"
+    }
    }
   ],
   "growltiger": [
