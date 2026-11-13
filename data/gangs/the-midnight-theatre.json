@@ -1146,10 +1146,10 @@
     ]
    }
   ],
-  "nacht-ghul": [
+  "griddlebone": [
    {
     "at": "2-post",
-    "name": "Nacht-Ghul",
+    "name": "Griddlebone",
     "nameClass": "new-i",
     "portrait": "images/gangs/the-midnight-theatre-thumb.jpg",
     "type": "Nacht-Ghul (Champion, Loner)",
@@ -1208,10 +1208,10 @@
     ]
    }
   ],
-  "ghost": [
+  "quaxo": [
    {
     "at": "2-post",
-    "name": "Ghost",
+    "name": "Quaxo",
     "nameClass": "new-i",
     "portrait": "images/gangs/the-midnight-theatre-thumb.jpg",
     "type": "Ghost (Ganger, Gunner)",
