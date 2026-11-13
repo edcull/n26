@@ -129,7 +129,7 @@
     "foot": [
      {
       "label": "Wargear",
-      "text": "{tip:Mesh armour}, {tip:Bio-booster}, {tip.new-i:Giant Rat (Vermillion)}"
+      "text": "{tip:Mesh armour}, {tip:Bio-booster}"
      },
      {
       "label": "Skills",
@@ -140,8 +140,7 @@
       "text": "{tip:Personal Enmity (Macavity)}"
      }
     ],
-    "typeExtra": null,
-    "cost": "285"
+    "typeExtra": null
    }
   ],
   "ezekiel-crows": [
@@ -684,6 +683,30 @@
     "stats": {
      "XP": "15"
     }
+   },
+   {
+    "at": "2-post",
+    "weapons": [
+     {
+      "name": "Autogun",
+      "class": "new",
+      "profile": [
+       "8\"",
+       "24\"",
+       "3",
+       "-",
+       "1"
+      ],
+      "traits": "{tip:Rapid Fire (1)}"
+     }
+    ],
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Precision Shot}"
+     }
+    ],
+    "cost": "60"
    }
   ],
   "ratsong": [
@@ -762,45 +785,23 @@
    {
     "at": "2-post",
     "typeExtra": null,
-    "cost": "80",
+    "cost": "40",
     "stats": {
-     "XP": "7",
-     "BS": "5+"
+     "XP": "7"
     },
     "statClass": {
      "Cl": "prev",
      "XP": null,
-     "BS": null
+     "BS": "inj"
     },
     "foot": [
      {
       "label": "Skills",
       "text": "{tip.new-i.sk-adv:Dodge}"
-     }
-    ],
-    "weapons": [
-     {
-      "name": "Stub gun",
-      "profile": [
-       "6\"",
-       "12\"",
-       "3",
-       "-",
-       "1"
-      ],
-      "traits": "{tip:Light}"
      },
      {
-      "name": "Incendiary charge",
-      "class": "new",
-      "profile": [
-       "-",
-       "9\"",
-       "3",
-       "-",
-       "1"
-      ],
-      "traits": "{tip:Ammo (5+)}, {tip:Blast (5\")}, {tip:Blaze (5+)}, {tip:Limited}"
+      "label": "Lasting injuries",
+      "text": "{tip.new-i:Eye Injury}"
      }
     ],
     "portrait": "images/fighters/ratsong-bionic.jpg"
@@ -1004,47 +1005,51 @@
     ]
    }
   ],
-  "vermillion": [
+  "jorah-ashveil": [
    {
     "at": "2-post",
-    "name": "Vermillion",
+    "name": "Jorah Ashveil",
     "nameClass": "new-i",
-    "portrait": "images/fighters/vermillion.jpg",
-    "type": "Giant Rat (Beast, Pet). Owner: Mordecai",
-    "cost": "*",
+    "portrait": "images/gangs/the-carrion-psalm-thumb.jpg",
+    "type": "Redemptionist Deacon (Champion, Fanatic)",
+    "cost": "175",
     "stats": {
      "M": "5\"",
-     "WS": "4+",
-     "BS": "5+",
+     "WS": "3+",
+     "BS": "3+",
      "S": "3",
      "T": "3",
-     "W": "1",
-     "I": "4",
-     "A": "1",
-     "Sv": "6+",
-     "Ld": "6",
+     "W": "2",
+     "I": "3",
+     "A": "2",
+     "Sv": "5+",
+     "Ld": "7",
      "Cl": "7",
-     "Wil": "6",
-     "Int": "5",
-     "XP": "13"
+     "Wil": "8",
+     "Int": "6",
+     "XP": "37"
     },
     "weapons": [
      {
-      "name": "Bite",
+      "name": "Long rifle",
       "profile": [
-       "E",
-       "-",
-       "S",
-       "-",
+       "24\"",
+       "48\"",
+       "4",
+       "-1",
        "1"
       ],
-      "traits": "{tip:Melee}"
+      "traits": "{tip:Knockback (6+)}"
      }
     ],
     "foot": [
      {
-      "label": "Special rules",
-      "text": "{tip:Leash Range (3\")}"
+      "label": "Wargear",
+      "text": "{tip:Mono-sight (long rifle)}"
+     },
+     {
+      "label": "Skills",
+      "text": "{tip:Fast Shot}"
      }
     ]
    }
