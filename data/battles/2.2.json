@@ -3669,7 +3669,311 @@
  ],
  "aftermath": [
   {
-   "todo": "To come."
+   "result": "{t:The Midnight Theatre} take Hollowpoint"
+  },
+  {
+   "prose": [
+    "With only {@elijah-emberchoir|Elijah} still on his feet, and wounded, the Psalm withdraw from the fight. They were ahead on the count, four to two, but there is no one left to carry the wounded out under the Delaque guns.",
+    "They cannot carry everyone. {@mordecai|Mordecai} is left behind and the Theatre take him captive. {@deus-and-amen|Deus and Amen} come away with a head injury, and {@gutter-cantor|Gutter Cantor} with a critical injury from Macavity's fangs. {@ezekiel-crows|Ezekiel} recovers.",
+    "Hollowpoint belongs to the Theatre now, and with it the Furnace and the bullet-makers. On their side, {@mistoffelees|Mistoffelees} will not forget the Deacon who put him down, and {@rumpus|Rumpus} carries a grievous wound."
+   ]
+  },
+  {
+   "table": {
+    "label": "Post-battle ledger",
+    "class": "ledger",
+    "head": [
+     {
+      "html": "Gang"
+     },
+     {
+      "html": "Territory"
+     },
+     {
+      "html": "Side job"
+     },
+     {
+      "html": "Casualties"
+     },
+     {
+      "html": "Credits",
+      "class": "num"
+     },
+     {
+      "html": "Reputation",
+      "class": "num"
+     }
+    ],
+    "rows": [
+     {
+      "cells": [
+       {
+        "html": "The Midnight Theatre",
+        "class": "t"
+       },
+       {
+        "html": "Hollowpoint (Bullet Den)"
+       },
+       {
+        "html": "Crippling Strike: completed<br/>Wit spends a charge to set the reward roll to 3"
+       },
+       {
+        "html": "Mistoffelees: Personal Enmity (Elijah)<br/>Rumpus: Grievous Wound<br/>Rumpleteaser: recovers"
+       },
+       {
+        "html": "+80",
+        "class": "num"
+       },
+       {
+        "html": "+1",
+        "class": "num"
+       }
+      ]
+     },
+     {
+      "cells": [
+       {
+        "html": "The Carrion Psalm",
+        "class": "p"
+       },
+       {
+        "html": "–"
+       },
+       {
+        "html": "Spread Unrest: completed"
+       },
+       {
+        "html": "Mordecai: captured<br/>Deus and Amen: head injury<br/>Gutter Cantor: critical injury<br/>Ezekiel Crows: recovers"
+       },
+       {
+        "html": "+30",
+        "class": "num"
+       },
+       {
+        "html": "–",
+        "class": "num"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "h3": "Experience",
+   "class": "xp-head"
+  },
+  {
+   "xp": [
+    {
+     "title": "The Midnight Theatre",
+     "class": "t",
+     "table": {
+      "label": null,
+      "class": "ledger xp",
+      "head": [
+       {
+        "html": "Fighter"
+       },
+       {
+        "html": "Earned from"
+       },
+       {
+        "html": "XP",
+        "class": "num"
+       }
+      ],
+      "rows": [
+       {
+        "cells": [
+         {
+          "html": "Deuteronomy",
+          "class": "t"
+         },
+         {
+          "html": "Participation +1, Deus and Amen Serious Injury +1, Assisted Rumpleteaser's Recovery +1 (×3, rounds 2, 5 and 6)"
+         },
+         {
+          "html": "+5",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Demeter",
+          "class": "t"
+         },
+         {
+          "html": "Participation +1, Ezekiel Serious Injury +1, Ezekiel Serious Injury +1"
+         },
+         {
+          "html": "+3",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Macavity",
+          "class": "t"
+         },
+         {
+          "html": "Participation +1, Gutter Cantor Out of Action +2, Mordecai Serious Injury +1"
+         },
+         {
+          "html": "+4",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Rumpleteaser",
+          "class": "t"
+         },
+         {
+          "html": "Participation +1"
+         },
+         {
+          "html": "+1",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Mistoffelees",
+          "class": "t"
+         },
+         {
+          "html": "Participation +1"
+         },
+         {
+          "html": "+1",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Rumpus",
+          "class": "t"
+         },
+         {
+          "html": "Participation +1"
+         },
+         {
+          "html": "+1",
+          "class": "num"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "The Carrion Psalm",
+     "class": "p",
+     "table": {
+      "label": null,
+      "class": "ledger xp",
+      "head": [
+       {
+        "html": "Fighter"
+       },
+       {
+        "html": "Earned from"
+       },
+       {
+        "html": "XP",
+        "class": "num"
+       }
+      ],
+      "rows": [
+       {
+        "cells": [
+         {
+          "html": "Mordecai",
+          "class": "p"
+         },
+         {
+          "html": "Participation +1"
+         },
+         {
+          "html": "+1",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Ezekiel Crows",
+          "class": "p"
+         },
+         {
+          "html": "Participation +1"
+         },
+         {
+          "html": "+1",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Elijah Emberchoir",
+          "class": "p"
+         },
+         {
+          "html": "Participation +1, Rumpus Out of Action +2, Mistoffelees Out of Action +2"
+         },
+         {
+          "html": "+5",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Gutter Cantor",
+          "class": "p"
+         },
+         {
+          "html": "Participation +1"
+         },
+         {
+          "html": "+1",
+          "class": "num"
+         }
+        ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Deus and Amen",
+          "class": "p"
+         },
+         {
+          "html": "Participation +1, Rumpleteaser Serious Injury +1, Rumpleteaser Serious Injury +1, Rumpleteaser Serious Injury +1"
+         },
+         {
+          "html": "+4",
+          "class": "num"
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ]
   }
  ],
  "popovers": [],
