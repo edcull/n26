@@ -1114,7 +1114,20 @@
     "at": "2-post",
     "stats": {
      "XP": "17"
-    }
+    },
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Lie Low}"
+     },
+     {
+      "label": "Special rules",
+      "text": "{tip:Ally of House Delaque}, {tip:Useful Lies}"
+     },
+     {
+      "html": "<b class=\"sk\" data-tip=\"Useful Lies uses remaining. After six uses the Whisper Merchant calls in their debt: the gang must pay their Credit Cost again or remove them.\" tabindex=\"0\">Charges</b> <span aria-label=\"4 of 6 charges\" class=\"charges\">●●●●<i>○○</i></span> 4 of 6"
+     }
+    ]
    }
   ],
   "nacht-ghul": [
