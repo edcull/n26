@@ -2260,7 +2260,26 @@
       "{@gutter-cantor|Gutter Cantor} climbs down from the casting hall to try and reach Ezekiel and give him aid.",
       "{@mistoffelees|Mistoffelees} disengages from Mordecai.",
       "{@elijah-emberchoir|Elijah Emberchoir} reloads his autopistol and advances to the fray."
+     ],
+     "split": [
+      "tall",
+      "two"
+     ],
+     "ports": [
+      {
+       "src": "images/2.2/photo-11.jpg",
+       "alt": "Looking down past the containers: Macavity slips out of hiding at the foot of the casting hall, with Gutter Cantor on the casting hall floor above.",
+       "class": "port",
+       "caption": "Macavity comes out of the shadows by the containers."
+      }
      ]
+    },
+    {
+     "photo": {
+      "src": "images/2.2/photo-12.jpg",
+      "alt": "The magazine from the west: Demeter on the roof, Mistoffelees sheltering inside below, Elijah Emberchoir at the corner outside, and the Cawdor gathered along the table edge to the left.",
+      "caption": "Elijah reaches the magazine as Mistoffelees slips back inside, with Demeter still on the roof."
+     }
     },
     {
      "map": {
