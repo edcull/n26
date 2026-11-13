@@ -801,7 +801,8 @@
       ],
       "traits": "{tip:Ammo (5+)}, {tip:Blast (5\")}, {tip:Blaze (5+)}, {tip:Limited}"
      }
-    ]
+    ],
+    "portrait": "images/fighters/ratsong-bionic.jpg"
    }
   ],
   "deus-and-amen": [
@@ -912,7 +913,7 @@
     "at": "2-post",
     "name": "Blight Creed",
     "nameClass": "new-i",
-    "portrait": "images/gangs/the-carrion-psalm-thumb.jpg",
+    "portrait": "images/fighters/blight-creed.jpg",
     "type": "Redemptionist Brethren (Ganger, Fanatic, Gunslinger)",
     "cost": "60",
     "stats": {
@@ -968,7 +969,7 @@
     "at": "2-post",
     "name": "Tallowborn",
     "nameClass": "new-i",
-    "portrait": "images/gangs/the-carrion-psalm-thumb.jpg",
+    "portrait": "images/fighters/tallowborn.jpg",
     "type": "Cawdor Bonepicker (Pious, Prospect)",
     "cost": "25",
     "stats": {
