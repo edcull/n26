@@ -3399,13 +3399,78 @@
         ]
        }
       },
-      "The Theatre complete their side job too: three of the Psalm's four fighters are out of the fight, with Ezekiel and Deus and Amen Seriously Injured and Mordecai Engaged with Macavity."
+      "{@mordecai|Mordecai} tries to strike back at {@macavity|Macavity}, but the Nacht-Ghul is faster.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "macavity",
+        "name": "Macavity - Reaction: Serpent's Fangs",
+        "result": "Mordecai seriously injured",
+        "rows": [
+         {
+          "note": "Initiative 5"
+         },
+         {
+          "dice": "6",
+          "result": "Hit",
+          "resultClass": "ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          }
+         },
+         {
+          "dice": "6",
+          "result": "Wound",
+          "check": {
+           "name": "To Wound",
+           "base": 3,
+           "note": "Toxin"
+          }
+         },
+         {
+          "dice": "3",
+          "result": "One damage",
+          "check": {
+           "name": "Save",
+           "base": 5,
+           "mods": [
+            [
+             1,
+             "Parry"
+            ],
+            [
+             1,
+             "Mesh"
+            ],
+            [
+             -3,
+             "AP"
+            ]
+           ]
+          }
+         },
+         {
+          "label": "Injury",
+          "dice": "si",
+          "result": "Serious injury"
+         }
+        ],
+        "by": "macavity",
+        "action": "Reaction",
+        "weapons": [
+         "Serpent's fangs*"
+        ],
+        "target": "mordecai"
+       }
+      },
+      "The Theatre complete their side job too: three of the Psalm's four fighters are down, with Ezekiel, Deus and Amen and Mordecai all Seriously Injured."
      ]
     },
     {
      "map": {
       "viewBox": "-14 -24 628 668",
-      "label": "Positions at the end of round 6: Ezekiel seriously injured west of the Furnace, Mordecai injured and engaged with Macavity at the west edge, Deus and Amen seriously injured by the Anvil and Elijah inside the magazine; Deuteronomy and Rumpleteaser in the shell works and Demeter on the magazine roof.",
+      "label": "Positions at the end of round 6: Ezekiel seriously injured west of the Furnace, Mordecai seriously injured beside Macavity at the west edge, Deus and Amen seriously injured by the Anvil and Elijah inside the magazine; Deuteronomy and Rumpleteaser in the shell works and Demeter on the magazine roof.",
       "clip": "mat22r6",
       "caption": {
        "text": "Positions at the end of round 6",
@@ -3485,7 +3550,7 @@
          "k": "i",
          "x": 40.7,
          "y": 404.9,
-         "t": "I"
+         "t": "SI"
         }
        },
        {
