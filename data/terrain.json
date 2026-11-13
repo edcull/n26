@@ -438,23 +438,6 @@
     57.5
    ]
   },
-  "v1-gothic-ruin-b": {
-   "name": "Gothic ruin",
-   "els": [
-    [
-     "polygon",
-     {
-      "class": "m-solid",
-      "points": "75,210 0,210 0,65 25,50 25,0 180,0 180,92.5 82.5,92.5 82.5,115"
-     }
-    ]
-   ],
-   "label": "Gothic ruin",
-   "labelAt": [
-    102.5,
-    45.0
-   ]
-  },
   "ladder": {
    "name": "Ladder",
    "note": "Added to other pieces. Origin at its middle; turn 0 runs north to south.",
