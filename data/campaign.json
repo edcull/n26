@@ -92,6 +92,7 @@
    "data": "data/post/2.json",
    "css": [
     "css/site.css",
+    "css/pages/1-post.css",
     "css/pages/2-post.css"
    ],
    "title": "Cycle 2 Post-cycle"
