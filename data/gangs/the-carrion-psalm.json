@@ -774,7 +774,7 @@
     "foot": [
      {
       "label": "Skills",
-      "text": "{tip.new-i:Dodge}"
+      "text": "{tip.new-i.sk-adv:Dodge}"
      }
     ],
     "weapons": [
