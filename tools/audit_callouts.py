@@ -92,7 +92,8 @@ for f in sorted(glob.glob(os.path.join(ROOT, 'data/battles/*.json'))):
                 if c and c['name'] == 'To Hit' and ds:
                     t = total(c); d6 = [int(v) for v in ds if v.isdigit()]; fp = [FIRE[v] for v in ds if v in FIRE]
                     succ = sum(1 for v in d6 if v >= t)
-                    expect = sum(fp) if succ and fp else succ
+                    rerolled = 're-roll the Rapid Fire' in ' '.join(y.get('note', '') for y in r['rows'])
+                    expect = (fp[-1] if rerolled and len(fp) > 1 and sum(fp) != (lead_count(x['result'])[0] or 0) else sum(fp)) if succ and fp else succ   # twin-linked: a re-rolled firepower die is shown before the one that counts
                     n, _ = lead_count(x['result'])
                     if x['result'].startswith('Miss') and succ: flag('traceability', W, f'To Hit {t}+ rolled {dice}: has a success but says {x["result"]!r}')
                     elif n is not None and n != expect: flag('traceability', W, f'To Hit {t}+ rolled {dice}: expected {expect} hits, says {x["result"]!r}')
