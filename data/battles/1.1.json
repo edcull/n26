@@ -4225,7 +4225,7 @@
     530
    ],
    "turn": -90,
-   "label": "Ruined floor",
+   "label": "Burnt warehouse",
    "labelAt": [
     75.0,
     560.0
@@ -4269,8 +4269,8 @@
     "tower"
    ],
    "labelAt": [
-    420,
-    517.5
+    473.75,
+    477.5
    ]
   },
   {
@@ -4325,8 +4325,8 @@
    ],
    "label": "Ruined tanks",
    "labelAt": [
-    62.5,
-    190
+    97.5,
+    126.25
    ]
   },
   [
@@ -4343,7 +4343,7 @@
     85
    ],
    "turn": -90,
-   "label": "Gothic ruin",
+   "label": "Ruin",
    "labelAt": [
     472.5,
     87.5
