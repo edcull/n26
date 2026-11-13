@@ -4288,13 +4288,15 @@
     403.75
    ]
   },
-  [
-   "polyline",
-   {
-    "class": "m-wall",
-    "points": "222.5,452.5 307.5,452.5 307.5,485"
-   }
-  ],
+  {
+   "piece": "wall-small",
+   "at": [
+    307.5,
+    452.5
+   ],
+   "turn": -90.0,
+   "flip": true
+  },
   [
    "polygon",
    {
@@ -4329,13 +4331,13 @@
     126.25
    ]
   },
-  [
-   "polyline",
-   {
-    "class": "m-wall",
-    "points": "250,7.5 250,132.5 310,132.5"
-   }
-  ],
+  {
+   "piece": "wall-large",
+   "at": [
+    250.0,
+    132.5
+   ]
+  },
   {
    "piece": "gothic-ruin-large",
    "at": [

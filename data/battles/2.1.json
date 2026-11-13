@@ -4630,13 +4630,14 @@
     "r": "9.7"
    }
   ],
-  [
-   "polyline",
-   {
-    "class": "m-wall",
-    "points": "319.0,68.1 411.4,68.8 410.9,19.4"
-   }
-  ],
+  {
+   "piece": "wall-large",
+   "at": [
+    411.4,
+    68.8
+   ],
+   "turn": -90.0
+  },
   {
    "piece": "container",
    "at": [
@@ -4751,13 +4752,15 @@
     "points": "179.3,533.6 179.3,577.1"
    }
   ],
-  [
-   "polyline",
-   {
-    "class": "m-wall",
-    "points": "247.6,535.9 338.6,533.6 339.1,573.7"
-   }
-  ],
+  {
+   "piece": "wall-small",
+   "at": [
+    338.6,
+    533.6
+   ],
+   "turn": -90.0,
+   "flip": true
+  },
   {
    "piece": "hex-platform",
    "at": [

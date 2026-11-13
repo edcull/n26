@@ -616,13 +616,14 @@
     "points": "41.2,368.8 95.0,368.8"
    }
   ],
-  [
-   "polyline",
-   {
-    "class": "m-wall",
-    "points": "145.0,255.0 145.0,375.0 125.0,375.0"
-   }
-  ],
+  {
+   "piece": "wall-large",
+   "at": [
+    145.0,
+    375.0
+   ],
+   "flip": true
+  },
   {
    "piece": "gothic-ruin-large",
    "at": [
@@ -635,13 +636,13 @@
     505
    ]
   },
-  [
-   "polyline",
-   {
-    "class": "m-wall",
-    "points": "456.2,260.0 456.2,375.0 490.0,375.0"
-   }
-  ],
+  {
+   "piece": "wall-small",
+   "at": [
+    456.2,
+    375.0
+   ]
+  },
   [
    "polyline",
    {

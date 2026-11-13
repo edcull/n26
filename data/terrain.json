@@ -358,6 +358,32 @@
      }
     ]
    ]
+  },
+  "wall-small": {
+   "name": "L wall (small)",
+   "note": "A 4\" wall with a 1.5\" return.",
+   "els": [
+    [
+     "polyline",
+     {
+      "class": "m-wall",
+      "points": "0,-100 0,0 37.5,0"
+     }
+    ]
+   ]
+  },
+  "wall-large": {
+   "name": "L wall (large)",
+   "note": "A 5\" wall with a 2.5\" return.",
+   "els": [
+    [
+     "polyline",
+     {
+      "class": "m-wall",
+      "points": "0,-125 0,0 62.5,0"
+     }
+    ]
+   ]
   }
  }
 }
