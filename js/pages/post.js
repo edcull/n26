@@ -4,7 +4,7 @@
 import { esc, attr, md, join, pageHref } from '../lib.js';
 import { hero, nav } from '../hero.js';
 import { fighterCard } from '../fighter.js';
-import { sheet, assets } from '../blocks.js';
+import { sheet, assets, roll } from '../blocks.js';
 
 const ACTION_STYLE = { 'Recovery': 'act-rec', 'Work Territory': 'act-work', 'Critical Injury': 'act-crit', 'Captured': 'act-capt' };
 const td = (html, c) => `<td${c ? ` class="${c}"` : ''}>${md(html)}</td>`;
@@ -45,7 +45,7 @@ function gangBlock(e, d) {
 <div class="prose gang-story">${join(e.story, p => `<p>${md(p)}</p>`)}</div>
 <div class="stepblock">
 <h3 class="step">Post-cycle actions</h3>
-${actions}
+${actions}${e.rolls ? `\n<div class="post-rolls">${join(e.rolls, r => roll(r))}</div>` : ''}
 <h3 class="step">Income</h3>
 ${income}
 <h3 class="step">XP advancements</h3>

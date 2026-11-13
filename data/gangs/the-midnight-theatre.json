@@ -678,6 +678,16 @@
      }
     ],
     "typeExtra": "<span class=\"benched crit\">Critical injury</span>"
+   },
+   {
+    "at": "2-post",
+    "typeExtra": null,
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Hip-shooting}"
+     }
+    ]
    }
   ],
   "skimbleshanks": [

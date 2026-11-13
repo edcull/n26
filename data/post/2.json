@@ -302,7 +302,30 @@
      "180",
      "0"
     ]
-   }
+   },
+   "rolls": [
+    {
+     "name": "Medical Escort: Gutter Cantor",
+     "face": "cantor",
+     "side": "p",
+     "result": "Enfeebled",
+     "rows": [
+      {
+       "label": "{tip:Doc}",
+       "dice": "3",
+       "result": "Stabilised"
+      },
+      {
+       "label": "Lasting injury",
+       "dice": "5",
+       "result": "{tip:Enfeebled}"
+      },
+      {
+       "note": "Note: Gutter Cantor survives his Critical Injury but loses 1 Toughness."
+      }
+     ]
+    }
+   ]
   },
   {
    "gang": "the-midnight-theatre",
@@ -502,6 +525,24 @@
      "source": "Doc",
      "cost": "30",
      "tp": "–"
+    }
+   ],
+   "rolls": [
+    {
+     "name": "Medical Escort: Mungojerrie",
+     "face": "mungojerrie",
+     "side": "t",
+     "result": "Full recovery",
+     "rows": [
+      {
+       "label": "{tip:Doc}",
+       "dice": "6",
+       "result": "Full recovery"
+      },
+      {
+       "note": "Note: Mungojerrie recovers from his Critical Injury with no lasting effect."
+      }
+     ]
     }
    ]
   }
