@@ -4679,17 +4679,29 @@
    ]
   },
   {
-   "piece": "ruin-west",
+   "piece": "gothic-ruin-small",
    "at": [
-    8.1,
-    230.7
+    81.4,
+    322.4
+   ],
+   "turn": 180,
+   "label": "Ruin",
+   "labelAt": [
+    81.9,
+    322.1
    ]
   },
   {
-   "piece": "gothic-ruin",
+   "piece": "gothic-ruin-large",
    "at": [
-    455.1,
-    176.4
+    503.15,
+    254.6
+   ],
+   "turn": 180,
+   "label": "Gothic ruin",
+   "labelAt": [
+    502.7,
+    258.1
    ]
   },
   {

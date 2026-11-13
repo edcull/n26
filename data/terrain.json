@@ -159,81 +159,6 @@
     ]
    ]
   },
-  "ruin-west": {
-   "name": "Ruin",
-   "els": [
-    [
-     "polyline",
-     {
-      "class": "m-wall",
-      "points": "1.7,0 80.2,0"
-     }
-    ],
-    [
-     "rect",
-     {
-      "class": "m-solid",
-      "height": "136",
-      "width": "99.3",
-      "x": "23.6",
-      "y": "23.3"
-     }
-    ],
-    [
-     "polyline",
-     {
-      "class": "m-wall",
-      "points": "121.7,22.2 121.7,160.4 19,160.4"
-     }
-    ],
-    [
-     "polyline",
-     {
-      "class": "m-wall",
-      "points": "0,90.2 49,90.2"
-     }
-    ]
-   ],
-   "label": "Ruin",
-   "labelAt": [
-    73.8,
-    91.4
-   ]
-  },
-  "gothic-ruin": {
-   "name": "Gothic ruin",
-   "els": [
-    [
-     "rect",
-     {
-      "class": "m-solid",
-      "height": "152.7",
-      "width": "95.8",
-      "x": "0",
-      "y": "1.5"
-     }
-    ],
-    [
-     "polyline",
-     {
-      "class": "m-wall",
-      "points": "1.1,0 1.1,155.3 98.5,155.3"
-     }
-    ],
-    [
-     "polyline",
-     {
-      "class": "m-wall",
-      "points": "57.5,64.6 144.9,64.6"
-     }
-    ]
-   ],
-   "label": "Gothic ruin",
-   "labelAt": [
-    47.6,
-    81.7
-   ]
-  },
   "rendering-vats": {
    "name": "Vat house",
    "els": [
@@ -395,47 +320,6 @@
    "labelAt": [
     34.6,
     164.0
-   ]
-  },
-  "v1-ruined-floor": {
-   "name": "Ruined floor",
-   "els": [
-    [
-     "polygon",
-     {
-      "class": "m-floor",
-      "points": "0,35 17.5,12.5 62.5,0 105,5 112.5,55 167.5,75 167.5,120 0,120"
-     }
-    ],
-    [
-     "polyline",
-     {
-      "class": "m-wall",
-      "points": "2.5,30 2.5,117.5 172.5,117.5"
-     }
-    ]
-   ],
-   "label": "Ruined floor",
-   "labelAt": [
-    62.5,
-    90.0
-   ]
-  },
-  "v1-gothic-ruin-east": {
-   "name": "Gothic ruin",
-   "els": [
-    [
-     "polygon",
-     {
-      "class": "m-solid",
-      "points": "0,0 170,0 170,110 0,110"
-     }
-    ]
-   ],
-   "label": "Gothic ruin",
-   "labelAt": [
-    85.0,
-    57.5
    ]
   },
   "ladder": {

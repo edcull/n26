@@ -4219,10 +4219,16 @@
  "roster": "1.1",
  "terrain": [
   {
-   "piece": "v1-ruined-floor",
+   "piece": "gothic-ruin-small",
    "at": [
-    12.5,
-    470.0
+    98.75,
+    530
+   ],
+   "turn": -90,
+   "label": "Ruined floor",
+   "labelAt": [
+    75.0,
+    560.0
    ]
   },
   {
@@ -4331,10 +4337,16 @@
    }
   ],
   {
-   "piece": "v1-gothic-ruin-east",
+   "piece": "gothic-ruin-large",
    "at": [
-    387.5,
-    30.0
+    472.5,
+    85
+   ],
+   "turn": -90,
+   "label": "Gothic ruin",
+   "labelAt": [
+    472.5,
+    87.5
    ]
   },
   {
