@@ -348,7 +348,7 @@
     {
      "fighter": "Macavity",
      "injuries": "–",
-     "action": "To come"
+     "action": "Fit Bionics"
     },
     {
      "fighter": "Rumpleteaser",
@@ -519,6 +519,13 @@
     }
    ],
    "purchases": [
+    {
+     "item": "Bionic hand, removes Hand Injury",
+     "for": "Growltiger",
+     "source": "Fit Bionics, Macavity",
+     "cost": "30",
+     "tp": "–"
+    },
     {
      "item": "Medical Escort, treats Critical Injury",
      "for": "Mungojerrie",
