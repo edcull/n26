@@ -213,7 +213,7 @@
      "xp": "7",
      "range": "7–9",
      "roll": "6",
-     "advancement": "Dodge (secondary skill)",
+     "advancement": "<span class=\"new-i\">Dodge</span> (secondary skill)",
      "cost": "+10"
     },
     {
@@ -224,7 +224,36 @@
      "advancement": "+1 Toughness",
      "cost": "+20"
     }
-   ]
+   ],
+   "recruits": [],
+   "sales": [],
+   "purchases": [
+    {
+     "item": "Bionic eye, removes Eye Injury",
+     "for": "Ratsong",
+     "source": "Fit Bionics, Ezekiel Crows",
+     "cost": "50",
+     "tp": "–"
+    }
+   ],
+   "tradingTotal": {
+    "recruit": [
+     "0",
+     "–"
+    ],
+    "purchase": [
+     "50",
+     "–"
+    ],
+    "sell": [
+     "0",
+     "–"
+    ],
+    "total": [
+     "50",
+     "0"
+    ]
+   }
   },
   {
    "gang": "the-midnight-theatre",
