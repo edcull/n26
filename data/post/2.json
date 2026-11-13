@@ -133,7 +133,7 @@
     "sheet": [
      [
       "Rating",
-      "1405"
+      "1415"
      ],
      [
       "Wins",
@@ -145,7 +145,7 @@
      ],
      [
       "Credits",
-      "30"
+      "20"
      ],
      [
       "Fighters",
@@ -242,7 +242,7 @@
     {
      "recruit": "Redemptionist Deacon (Champion), with Fast Shot",
      "discount": "–",
-     "cost": "90"
+     "cost": "100"
     }
    ],
    "sales": [],
@@ -285,7 +285,7 @@
    ],
    "tradingTotal": {
     "recruit": [
-     "125",
+     "135",
      "–"
     ],
     "purchase": [
@@ -297,7 +297,7 @@
      "–"
     ],
     "total": [
-     "200",
+     "210",
      "0"
     ]
    },

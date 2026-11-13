@@ -9,7 +9,7 @@
    {
     "img": "images/gangs/the-carrion-psalm.jpg",
     "name": "The Carrion Psalm",
-    "note": "House Cawdor · 1405 rating"
+    "note": "House Cawdor · 1415 rating"
    },
    {
     "img": "images/gangs/the-midnight-theatre.jpg",
@@ -597,7 +597,7 @@
          "sheet": [
           [
            "Rating",
-           "1405"
+           "1415"
           ],
           [
            "Reputation",
@@ -605,7 +605,7 @@
           ],
           [
            "Credits",
-           "30"
+           "20"
           ],
           [
            "Gang size",
