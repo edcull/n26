@@ -1,11 +1,11 @@
 {
  "page": "post",
  "id": "2-post",
- "title": "Cycle 2 Post-cycle",
+ "title": "Cycle 2: Post-cycle Phase",
  "hero": {
   "kicker": "Ash and Shadow",
   "cycle": "Cycle 2",
-  "name": "Post-cycle phase",
+  "name": "Post-cycle Phase",
   "sides": [
    {
     "img": "images/gangs/the-carrion-psalm.jpg",
@@ -19,5 +19,322 @@
    }
   ]
  },
- "todo": true
+ "roster": "2-post",
+ "results": {
+  "label": "Cycle 2 results",
+  "battles": [
+   {
+    "page": "2.1",
+    "name": "The Rendermarch Raid",
+    "challenger": "p",
+    "stakes": "Rendermarch (Corpse Farm)",
+    "winner": "p"
+   },
+   {
+    "page": "2.2",
+    "name": "The Hollowpoint Hit",
+    "challenger": "t",
+    "stakes": "Hollowpoint (Bullet Den)",
+    "winner": "t"
+   }
+  ]
+ },
+ "gangs": [
+  {
+   "gang": "the-carrion-psalm",
+   "section": "psalm",
+   "story": [
+    "The Psalm took the Rendermarch, but the Bullet Den cost them dearly. They come home without their Word Keeper: {@mordecai|Mordecai} is in Delaque hands.",
+    "{@gutter-cantor|Gutter Cantor} is in a critical condition and needs the Doc, and {@deus-and-amen|Deus} is nursing Amen through a head injury."
+   ],
+   "actions": [
+    {
+     "fighter": "Mordecai",
+     "injuries": "Captured",
+     "action": "Captured"
+    },
+    {
+     "fighter": "Ezekiel Crows",
+     "injuries": "–",
+     "action": "To come"
+    },
+    {
+     "fighter": "Elijah Emberchoir",
+     "injuries": "–",
+     "action": "To come"
+    },
+    {
+     "fighter": "Vermin Pyre",
+     "injuries": "–",
+     "action": "To come"
+    },
+    {
+     "fighter": "Blessed Filth",
+     "injuries": "–",
+     "action": "To come"
+    },
+    {
+     "fighter": "Gutter Cantor",
+     "injuries": "Critical Injury",
+     "action": "Critical injury"
+    },
+    {
+     "fighter": "Ratsong",
+     "injuries": "Eye Injury",
+     "action": "In recovery"
+    },
+    {
+     "fighter": "Deus and Amen",
+     "injuries": "Head Injury",
+     "action": "In recovery"
+    }
+   ],
+   "income": [
+    {
+     "source": "Carried over from previous cycle",
+     "credits": "5"
+    },
+    {
+     "source": "The Rendermarch Raid",
+     "credits": "+80"
+    },
+    {
+     "source": "The Hollowpoint Hit",
+     "credits": "+30"
+    },
+    {
+     "source": "Territories",
+     "credits": "To come"
+    },
+    {
+     "source": "Reputation (4 × 10)",
+     "credits": "+40"
+    }
+   ],
+   "roster": {
+    "sheet": [
+     [
+      "Rating",
+      "–"
+     ],
+     [
+      "Wins",
+      "2"
+     ],
+     [
+      "Reputation",
+      "4"
+     ],
+     [
+      "Credits",
+      "–"
+     ],
+     [
+      "Fighters",
+      "8"
+     ]
+    ],
+    "assets": [
+     {
+      "label": "Territories",
+      "chips": [
+       {
+        "tip": "Tallow Wick (Settlement)"
+       },
+       {
+        "tip": "Turbine 10.2 (Generatorium)"
+       },
+       {
+        "tip": "Banewaters (Synth Still)"
+       },
+       {
+        "tip": "Rendermarch (Corpse Farm)"
+       }
+      ]
+     },
+     {
+      "label": "Gang tactics",
+      "chips": [
+       {
+        "tip": "Suppressing Fire"
+       },
+       {
+        "tip": "Hidden Stash"
+       },
+       {
+        "tip": "Adrenaline Surge"
+       },
+       {
+        "tip": "Grenade Bouquet"
+       }
+      ]
+     }
+    ],
+    "fighters": [
+     "mordecai",
+     "ezekiel-crows",
+     "elijah-emberchoir",
+     "vermin-pyre",
+     "blessed-filth",
+     "gutter-cantor",
+     "ratsong",
+     "deus-and-amen"
+    ]
+   }
+  },
+  {
+   "gang": "the-midnight-theatre",
+   "section": "theatre",
+   "story": [
+    "The Theatre lost the Rendermarch, but they have Hollowpoint, the Furnace and its bullet-makers, and they have the Psalm's Word Keeper in a cell.",
+    "{@mistoffelees|Mistoffelees} will not forget the Deacon who cut him down, and {@rumpus|Rumpus} needs time to heal."
+   ],
+   "actions": [
+    {
+     "fighter": "Deuteronomy",
+     "injuries": "–",
+     "action": "To come"
+    },
+    {
+     "fighter": "Demeter",
+     "injuries": "–",
+     "action": "To come"
+    },
+    {
+     "fighter": "Macavity",
+     "injuries": "–",
+     "action": "To come"
+    },
+    {
+     "fighter": "Rumpleteaser",
+     "injuries": "–",
+     "action": "To come"
+    },
+    {
+     "fighter": "Mungojerrie",
+     "injuries": "Critical Injury",
+     "action": "Critical injury"
+    },
+    {
+     "fighter": "Jellylorum",
+     "injuries": "Hand Injury",
+     "action": "In recovery"
+    },
+    {
+     "fighter": "Growltiger",
+     "injuries": "Hand Injury",
+     "action": "In recovery"
+    },
+    {
+     "fighter": "Mistoffelees",
+     "injuries": "Personal Enmity (Elijah)",
+     "action": "To come"
+    },
+    {
+     "fighter": "Rumpus",
+     "injuries": "Grievous Wound",
+     "action": "In recovery"
+    },
+    {
+     "fighter": "Wit",
+     "injuries": "–",
+     "action": "To come"
+    }
+   ],
+   "income": [
+    {
+     "source": "Carried over from previous cycle",
+     "credits": "20"
+    },
+    {
+     "source": "The Rendermarch Raid",
+     "credits": "+70"
+    },
+    {
+     "source": "The Hollowpoint Hit",
+     "credits": "+80"
+    },
+    {
+     "source": "Territories",
+     "credits": "To come"
+    },
+    {
+     "source": "Reputation (3 × 10)",
+     "credits": "+30"
+    }
+   ],
+   "roster": {
+    "sheet": [
+     [
+      "Rating",
+      "–"
+     ],
+     [
+      "Wins",
+      "2"
+     ],
+     [
+      "Reputation",
+      "3"
+     ],
+     [
+      "Credits",
+      "–"
+     ],
+     [
+      "Fighters",
+      "9"
+     ]
+    ],
+    "assets": [
+     {
+      "label": "Territories",
+      "chips": [
+       {
+        "tip": "Heaviside Hab-layer (Settlement)"
+       },
+       {
+        "tip": "Rippershop (Rogue Doc Shop)"
+       },
+       {
+        "tip": "Pyroclave (Promethium Cache)"
+       },
+       {
+        "tip": "Hollowpoint (Bullet Den)"
+       }
+      ]
+     },
+     {
+      "label": "Gang tactics",
+      "chips": [
+       {
+        "tip": "You!"
+       },
+       {
+        "tip": "Crossfire"
+       },
+       {
+        "tip": "Adrenaline Surge"
+       },
+       {
+        "tip": "Thunderous Charge"
+       }
+      ]
+     }
+    ],
+    "fighters": [
+     "deuteronomy",
+     "demeter",
+     "macavity",
+     "rumpleteaser",
+     "mungojerrie",
+     "jellylorum",
+     "growltiger",
+     "mistoffelees",
+     "rumpus",
+     "wit"
+    ]
+   }
+  }
+ ]
 }

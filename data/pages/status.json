@@ -88,11 +88,11 @@
             "class": "num p"
            },
            {
-            "html": "3",
+            "html": "4",
             "class": "num t"
            },
            {
-            "html": "<span class=\"p lead\">The Carrion Psalm</span>"
+            "html": "Tied"
            }
           ]
          },
@@ -102,11 +102,11 @@
             "html": "<span class=\"tri-name\">Slaughterer</span><span class=\"crit\">Most enemy models taken Out of Action</span>"
            },
            {
-            "html": "5",
+            "html": "7",
             "class": "num p"
            },
            {
-            "html": "4",
+            "html": "5",
             "class": "num t"
            },
            {
@@ -120,11 +120,11 @@
             "html": "<span class=\"tri-name\">Creditor</span><span class=\"crit\">Highest Wealth</span>"
            },
            {
-            "html": "1250",
+            "html": "1280",
             "class": "num p"
            },
            {
-            "html": "1255",
+            "html": "1335",
             "class": "num t"
            },
            {
@@ -138,11 +138,11 @@
             "html": "<span class=\"tri-name\">Warmonger</span><span class=\"crit\">Most battles fought</span>"
            },
            {
-            "html": "3",
+            "html": "4",
             "class": "num p"
            },
            {
-            "html": "3",
+            "html": "4",
             "class": "num t"
            },
            {
@@ -160,7 +160,7 @@
             "class": "num p"
            },
            {
-            "html": "2",
+            "html": "3",
             "class": "num t"
            },
            {
@@ -605,7 +605,7 @@
           ],
           [
            "Credits",
-           "85"
+           "115"
           ],
           [
            "Gang size",
@@ -723,11 +723,11 @@
           ],
           [
            "Reputation",
-           "2"
+           "3"
           ],
           [
            "Credits",
-           "90"
+           "170"
           ],
           [
            "Gang size",
@@ -749,6 +749,9 @@
             },
             {
              "tip": "Pyroclave (Promethium Cache)"
+            },
+            {
+             "tip": "Hollowpoint (Bullet Den)"
             }
            ]
           },
@@ -1911,5 +1914,5 @@
   }
  ],
  "xpButtons": true,
- "roster": "status"
+ "roster": "2-post"
 }

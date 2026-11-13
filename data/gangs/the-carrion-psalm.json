@@ -120,6 +120,27 @@
     "stats": {
      "XP": "69"
     }
+   },
+   {
+    "at": "2-post",
+    "stats": {
+     "XP": "70"
+    },
+    "foot": [
+     {
+      "label": "Wargear",
+      "text": "{tip:Mesh armour}, {tip:Bio-booster}"
+     },
+     {
+      "label": "Skills",
+      "text": "{tip:Inspiring}, {tip:Nerves of Steel}"
+     },
+     {
+      "label": "Lasting injuries",
+      "text": "{tip:Personal Enmity (Macavity)}, {tip.new-i:Captured}"
+     }
+    ],
+    "typeExtra": "<span class=\"benched capt\">Captured</span>"
    }
   ],
   "ezekiel-crows": [
@@ -216,6 +237,12 @@
     "at": "status",
     "stats": {
      "XP": "46"
+    }
+   },
+   {
+    "at": "2-post",
+    "stats": {
+     "XP": "47"
     }
    }
   ],
@@ -386,6 +413,12 @@
     "stats": {
      "XP": "39"
     }
+   },
+   {
+    "at": "2-post",
+    "stats": {
+     "XP": "44"
+    }
    }
   ],
   "vermin-pyre": [
@@ -538,6 +571,23 @@
     "stats": {
      "XP": "17"
     }
+   },
+   {
+    "at": "2-post",
+    "stats": {
+     "XP": "18"
+    },
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Medicate}"
+     },
+     {
+      "label": "Lasting injuries",
+      "text": "{tip.new-i:Critical Injury}"
+     }
+    ],
+    "typeExtra": "<span class=\"benched crit\">Critical injury</span>"
    }
   ],
   "blessed-filth": [
@@ -692,6 +742,10 @@
       "text": "{tip:Eye Injury}"
      }
     ]
+   },
+   {
+    "at": "2-post",
+    "typeExtra": "<span class=\"benched\">In recovery</span>"
    }
   ],
   "deus-and-amen": [
@@ -770,6 +824,23 @@
     "stats": {
      "XP": "35"
     }
+   },
+   {
+    "at": "2-post",
+    "stats": {
+     "XP": "39"
+    },
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Bulging Biceps}, {tip:Juggernaut}"
+     },
+     {
+      "label": "Lasting injuries",
+      "text": "{tip.new-i:Head Injury}"
+     }
+    ],
+    "typeExtra": "<span class=\"benched\">In recovery</span>"
    }
   ]
  }

@@ -120,6 +120,12 @@
     "stats": {
      "XP": "71"
     }
+   },
+   {
+    "at": "2-post",
+    "stats": {
+     "XP": "76"
+    }
    }
   ],
   "demeter": [
@@ -218,6 +224,12 @@
     "stats": {
      "XP": "42"
     }
+   },
+   {
+    "at": "2-post",
+    "stats": {
+     "XP": "45"
+    }
    }
   ],
   "macavity": [
@@ -304,6 +316,12 @@
     "at": "status",
     "stats": {
      "XP": "59"
+    }
+   },
+   {
+    "at": "2-post",
+    "stats": {
+     "XP": "63"
     }
    }
   ],
@@ -420,6 +438,12 @@
     "stats": {
      "XP": "17"
     }
+   },
+   {
+    "at": "2-post",
+    "stats": {
+     "XP": "18"
+    }
    }
   ],
   "jellylorum": [
@@ -504,6 +528,10 @@
     "statClass": {
      "WS": "inj"
     }
+   },
+   {
+    "at": "2-post",
+    "typeExtra": "<span class=\"benched\">In recovery</span>"
    }
   ],
   "mungojerrie": [
@@ -780,6 +808,30 @@
     },
     "typeExtra": null,
     "statClass": null
+   },
+   {
+    "at": "2-post",
+    "stats": {
+     "XP": "11"
+    },
+    "foot": [
+     {
+      "label": "Wargear",
+      "text": "{tip:Psychoteric Wyrm (Rumpus)}"
+     },
+     {
+      "label": "Skills",
+      "text": "{tip:Eternal Slumber}, {tip.adv-i:Terrible Truths}"
+     },
+     {
+      "label": "Special rules",
+      "text": "{tip:Whispers in the Dark}"
+     },
+     {
+      "label": "Lasting injuries",
+      "text": "{tip.new-i:Personal Enmity (Elijah)}"
+     }
+    ]
    }
   ],
   "growltiger": [
@@ -862,6 +914,10 @@
     "statClass": {
      "WS": "inj"
     }
+   },
+   {
+    "at": "2-post",
+    "typeExtra": "<span class=\"benched\">In recovery</span>"
    }
   ],
   "rumpus": [
@@ -917,6 +973,23 @@
     "stats": {
      "XP": "14"
     }
+   },
+   {
+    "at": "2-post",
+    "stats": {
+     "XP": "15"
+    },
+    "foot": [
+     {
+      "label": "Special rules",
+      "text": "{tip:Psychoteric Node}, {tip:Leash Range (12\")}, {tip:Burrowing}"
+     },
+     {
+      "label": "Lasting injuries",
+      "text": "{tip.new-i:Grievous Wound}"
+     }
+    ],
+    "typeExtra": "<span class=\"benched\">In recovery</span>"
    }
   ],
   "wit": [
