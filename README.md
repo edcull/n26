@@ -180,6 +180,7 @@ Terrain is built from pieces in `data/terrain.json`. Each piece is drawn once at
 
 - `{"piece": "manufactorum", "at": [209, 113.1], "label": "Tank"}`: a piece at `at`
 - `"turn": 90`: turned clockwise about its origin, in degrees (the 2.2 containers sit at 30)
+- `"flip": true`: mirrored, for a wall stood the other way round
 - `"stacked": true`: drawn lighter, for a piece stacked on another (a container on two containers)
 - `"label"`: the name on this board (text, a list of lines, or `false` for none). `"labelAt": [x, y]` puts it somewhere other than the piece's own label spot
 - `["polyline", {"class": "m-wall", "points": "…"}, …]`: loose SVG for the small bits, such as walls
