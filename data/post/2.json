@@ -428,7 +428,7 @@
     "sheet": [
      [
       "Rating",
-      "1205"
+      "1375"
      ],
      [
       "Wins",
@@ -440,11 +440,11 @@
      ],
      [
       "Credits",
-      "260"
+      "90"
      ],
      [
       "Fighters",
-      "9"
+      "10"
      ]
     ],
     "assets": [
@@ -537,6 +537,13 @@
      "source": "Doc",
      "cost": "30",
      "tp": "–"
+    },
+    {
+     "item": "Shivver sword",
+     "for": "Nacht-Ghul",
+     "source": "Gang list",
+     "cost": "50",
+     "tp": "–"
     }
    ],
    "rolls": [
@@ -557,7 +564,33 @@
      ]
     }
    ],
-   "incomeTotal": "290"
+   "incomeTotal": "290",
+   "recruits": [
+    {
+     "recruit": "Nacht-Ghul (Champion)",
+     "discount": "–",
+     "cost": "120"
+    }
+   ],
+   "sales": [],
+   "tradingTotal": {
+    "recruit": [
+     "120",
+     "–"
+    ],
+    "purchase": [
+     "80",
+     "–"
+    ],
+    "sell": [
+     "0",
+     "–"
+    ],
+    "total": [
+     "200",
+     "0"
+    ]
+   }
   }
  ]
 }
