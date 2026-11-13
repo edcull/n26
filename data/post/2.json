@@ -190,7 +190,7 @@
     ],
     "fighters": [
      "mordecai",
-     "giant-rat",
+     "vermillion",
      "ezekiel-crows",
      "elijah-emberchoir",
      "vermin-pyre",
@@ -286,7 +286,7 @@
      "tp": "–"
     },
     {
-     "item": "Giant Rat",
+     "item": "Giant Rat (Vermillion)",
      "for": "Mordecai",
      "source": "Pets",
      "cost": "45",
