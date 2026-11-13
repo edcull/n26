@@ -560,7 +560,17 @@
    },
    {
     "at": "2-post",
-    "typeExtra": "<span class=\"benched\">In recovery</span>"
+    "typeExtra": "<span class=\"benched\">In recovery</span>",
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip.adv-i:Lie Low}, {tip:Medicate}"
+     },
+     {
+      "label": "Lasting injuries",
+      "text": "{tip.new-i:Hand Injury}"
+     }
+    ]
    }
   ],
   "mungojerrie": [
@@ -961,7 +971,17 @@
    },
    {
     "at": "2-post",
-    "typeExtra": "<span class=\"benched\">In recovery</span>"
+    "typeExtra": "<span class=\"benched\">In recovery</span>",
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Gunfighter}"
+     },
+     {
+      "label": "Lasting injuries",
+      "text": "{tip.new-i:Hand Injury}"
+     }
+    ]
    }
   ],
   "rumpus": [
@@ -1027,13 +1047,9 @@
      {
       "label": "Special rules",
       "text": "{tip:Psychoteric Node}, {tip:Leash Range (12\")}, {tip:Burrowing}"
-     },
-     {
-      "label": "Lasting injuries",
-      "text": "{tip.new-i:Grievous Wound}"
      }
     ],
-    "typeExtra": "<span class=\"benched\">In recovery</span>"
+    "typeExtra": null
    }
   ],
   "wit": [
@@ -1114,7 +1130,20 @@
     "at": "2-post",
     "stats": {
      "XP": "17"
-    }
+    },
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Lie Low}"
+     },
+     {
+      "label": "Special rules",
+      "text": "{tip:Ally of House Delaque}, {tip:Useful Lies}"
+     },
+     {
+      "html": "<b class=\"sk\" data-tip=\"Useful Lies uses remaining. After six uses the Whisper Merchant calls in their debt: the gang must pay their Credit Cost again or remove them.\" tabindex=\"0\">Charges</b> <span aria-label=\"4 of 6 charges\" class=\"charges\">●●●●<i>○○</i></span> 4 of 6"
+     }
+    ]
    }
   ],
   "nacht-ghul": [
@@ -1124,7 +1153,7 @@
     "nameClass": "new-i",
     "portrait": "images/gangs/the-midnight-theatre-thumb.jpg",
     "type": "Nacht-Ghul (Champion, Loner)",
-    "cost": "170",
+    "cost": "180",
     "stats": {
      "M": "6\"",
      "WS": "3+",
@@ -1143,17 +1172,6 @@
     },
     "weapons": [
      {
-      "name": "Serpent's fangs*",
-      "profile": [
-       "E",
-       "-",
-       "-",
-       "-3",
-       "1"
-      ],
-      "traits": "{tip:Melee}, {tip:Paired (2)}, {tip:Toxin (3+)}"
-     },
-     {
       "name": "Shivver sword",
       "class": "new",
       "profile": [
@@ -1164,6 +1182,18 @@
        "2"
       ],
       "traits": "{tip:Melee}, {tip:Parry}"
+     },
+     {
+      "name": "Web gauntlet",
+      "class": "new",
+      "profile": [
+       "E",
+       "-",
+       "3",
+       "-",
+       "-"
+      ],
+      "traits": "{tip:Backstab}, {tip:Melee}, {tip:Web}"
      }
     ],
     "foot": [
@@ -1209,27 +1239,27 @@
      },
      {
       "class": "sub new",
-      "name": "Solid ammo",
+      "name": "Scatter ammo",
       "profile": [
-       "?",
-       "?",
-       "?",
-       "?",
-       "?"
+       "4\"",
+       "8\"",
+       "3",
+       "-",
+       "1"
       ],
-      "traits": "Profile to come"
+      "traits": "{tip:Rapid Fire (2)}"
      },
      {
       "class": "sub new",
-      "name": "Scatter ammo",
+      "name": "Solid ammo",
       "profile": [
-       "?",
-       "?",
-       "?",
-       "?",
-       "?"
+       "8\"",
+       "16\"",
+       "4",
+       "-",
+       "1"
       ],
-      "traits": "Profile to come"
+      "traits": "{tip:Knockback (5+)}"
      }
     ],
     "foot": [
