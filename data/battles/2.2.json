@@ -482,57 +482,14 @@
        }
       },
       "{@mordecai|Mordecai} stacks up behind Ezekiel at the door.",
-      "{@rumpus|Rumpus} burrows out of the ground by the Anvil. In the magazine, {@mistoffelees|Mistoffelees} stays in cover and turns the Terrible Truths on {@deus-and-amen|Deus and Amen}.",
-      {
-       "roll": {
-        "side": "t",
-        "face": "mistoffelees",
-        "name": "Mistoffelees - Terrible Truths",
-        "result": "Manifests",
-        "resultClass": "ammo",
-        "rows": [
-         {
-          "dice": "3 2",
-          "result": "Manifests",
-          "resultClass": "ammo",
-          "check": {
-           "name": "Willpower",
-           "base": 7,
-           "under": true
-          }
-         }
-        ]
-       }
-      },
-      {
-       "roll": {
-        "side": "p",
-        "face": "deus",
-        "name": "Deus and Amen - Willpower",
-        "result": "Resists",
-        "resultClass": "ammo",
-        "rows": [
-         {
-          "dice": "4 1",
-          "result": "Passes",
-          "resultClass": "ammo",
-          "check": {
-           "name": "Willpower",
-           "base": 6,
-           "under": true
-          }
-         }
-        ]
-       }
-      },
-      "The whispers slide off the Stig-Shambler. Whatever Deus hears, Amen does not care.",
+      "{@rumpus|Rumpus} burrows out of the ground by the Anvil. In the magazine, {@mistoffelees|Mistoffelees} stays in cover.",
       "{@elijah-emberchoir|Elijah Emberchoir} moves under the Anvil to hunt the Wyrd."
      ]
     },
     {
      "map": {
       "viewBox": "-14 -24 628 668",
-      "label": "Positions at the end of round 1: Ezekiel, Mordecai and Gutter Cantor in the casting hall, Deus and Amen beside the ruins and Elijah under the Anvil; Rumpleteaser and Deuteronomy in the shell works, Mistoffelees and Demeter on the magazine and Rumpus by the Anvil.",
+      "label": "Positions at the end of round 1: Ezekiel, Mordecai and Gutter Cantor in the casting hall, Deus and Amen beside the ruins and Elijah under the Anvil; Deuteronomy and Rumpleteaser in the shell works, Mistoffelees and Demeter on the magazine and Rumpus by the Anvil.",
       "clip": "mat22r1",
       "caption": {
        "text": "Positions at the end of round 1",
@@ -607,32 +564,32 @@
        {
         "tok": {
          "s": "t",
-         "x": 483.7,
-         "y": 170.5,
+         "x": 424.2,
+         "y": 195.2,
          "t": "Rt"
         }
        },
        {
         "b": {
          "k": "a",
-         "x": 498.7,
-         "y": 160.5,
+         "x": 439.2,
+         "y": 185.2,
          "t": "A"
         }
        },
        {
         "tok": {
          "s": "t",
-         "x": 424.2,
-         "y": 195.2,
+         "x": 483.7,
+         "y": 170.5,
          "t": "De"
         }
        },
        {
         "b": {
          "k": "v",
-         "x": 439.2,
-         "y": 185.2,
+         "x": 498.7,
+         "y": 160.5,
          "t": "V"
         }
        },
@@ -658,6 +615,509 @@
          "x": 183.3,
          "y": 402.1,
          "t": "Rp"
+        }
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "round-2",
+   "no": "2",
+   "title": "Round 2: The Stig-Shambler answers",
+   "blocks": [
+    {
+     "text": [
+      "{@deus-and-amen|Deus and Amen} open up with the twin stubbers on the shell works, raking the raised floor where {@rumpleteaser|Rumpleteaser} is crouched over his dead plasma gun.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "deus",
+        "name": "Deus and Amen - Twin-linked Heavy Stubber",
+        "result": "Rumpleteaser seriously injured",
+        "rows": [
+         {
+          "dice": "5 f3 f3",
+          "result": "Six hits",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          },
+          "resultClass": "ammo"
+         },
+         {
+          "dice": "6 4 3 4 2 4",
+          "result": "Five wounds",
+          "check": {
+           "name": "To Wound",
+           "base": 3,
+           "s": 4,
+           "t": 3
+          }
+         },
+         {
+          "dice": "1 4 3 3 5",
+          "result": "Five damage",
+          "check": {
+           "name": "Save",
+           "base": 6,
+           "mods": [
+            [
+             1,
+             "Cover"
+            ],
+            [
+             -1,
+             "AP"
+            ]
+           ]
+          }
+         },
+         {
+          "label": "Injury",
+          "dice": "fw fw si si si",
+          "result": "Serious injury"
+         },
+         {
+          "note": "Note: Bulging Biceps to move at Initiative and fire a heavy weapon. Twin-linked to re-roll the Rapid Fire dice."
+         }
+        ],
+        "by": "deus-and-amen",
+        "weapons": [
+         "Twin-linked heavy stubber"
+        ],
+        "target": "rumpleteaser"
+       }
+      },
+      "From the top of the magazine, {@demeter|Demeter} takes careful aim at {@gutter-cantor|Gutter Cantor} in the casting hall.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "demeter",
+        "name": "Demeter - Long Rifle",
+        "result": "Gutter Cantor suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "dice": "5",
+          "result": "Hit",
+          "check": {
+           "name": "To Hit",
+           "base": 3,
+           "mods": [
+            [
+             1,
+             "Aim"
+            ]
+           ]
+          },
+          "resultClass": "ammo"
+         },
+         {
+          "dice": "1",
+          "result": "Suppressed",
+          "check": {
+           "name": "To Wound",
+           "base": 3,
+           "s": 4,
+           "t": 3
+          },
+          "resultClass": "sup"
+         }
+        ],
+        "by": "demeter",
+        "weapons": [
+         "Long rifle"
+        ],
+        "target": "gutter-cantor"
+       }
+      },
+      "{@gutter-cantor|Gutter Cantor} fires back, but at {@rumpus|Rumpus}, scuttling between the barricades by the Anvil.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "cantor",
+        "name": "Gutter Cantor - Autogun",
+        "result": "Missed",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "dice": "3 f1a",
+          "result": "Miss",
+          "check": {
+           "name": "To Hit",
+           "base": 4
+          },
+          "resultClass": "ammo"
+         }
+        ],
+        "by": "gutter-cantor",
+        "weapons": [
+         "Autogun"
+        ],
+        "target": "rumpus"
+       }
+      },
+      "{@rumpus|Rumpus} creeps up under the Anvil, close to the Stig-Shambler. In the magazine, {@mistoffelees|Mistoffelees} reaches out to {@deus-and-amen|Deus and Amen} with the Terrible Truths.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "mistoffelees",
+        "name": "Mistoffelees - Terrible Truths",
+        "result": "Manifests",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "dice": "5 2",
+          "result": "Manifests",
+          "check": {
+           "name": "Willpower",
+           "base": 7,
+           "under": true
+          },
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      {
+       "roll": {
+        "side": "p",
+        "face": "deus",
+        "name": "Deus and Amen - Willpower",
+        "result": "Subject to Insanity",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "dice": "6 3",
+          "result": "Fails, subject to Insanity",
+          "check": {
+           "name": "Willpower",
+           "base": 6,
+           "under": true
+          },
+          "resultClass": "sup"
+         }
+        ]
+       }
+      },
+      "This time the whispers find a way in. Amen's great head swings from side to side, and Deus can't settle him.",
+      "{@elijah-emberchoir|Elijah Emberchoir} turns his autopistol on {@rumpus|Rumpus}.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "elijah",
+        "name": "Elijah Emberchoir - Autopistol",
+        "result": "Rumpus suppressed, Out of Ammo",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "dice": "6 f1a",
+          "result": "Hit, Out of Ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          },
+          "resultClass": "ammo"
+         },
+         {
+          "dice": "5",
+          "result": "Wound",
+          "check": {
+           "name": "To Wound",
+           "base": 4,
+           "s": 3,
+           "t": 3
+          }
+         },
+         {
+          "dice": "6",
+          "result": "Saved, suppressed",
+          "check": {
+           "name": "Save",
+           "base": 6
+          },
+          "resultClass": "sup"
+         }
+        ],
+        "by": "elijah-emberchoir",
+        "weapons": [
+         "Autopistol"
+        ],
+        "target": "rumpus"
+       }
+      },
+      "In the shell works, {@deuteronomy|Deuteronomy} keeps his Perfect Void in place.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "deuteronomy",
+        "name": "Deuteronomy - Maintain Power",
+        "result": "Maintains",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "dice": "3 2",
+          "result": "Maintains",
+          "check": {
+           "name": "Willpower",
+           "base": 9,
+           "under": true
+          },
+          "resultClass": "ammo"
+         }
+        ]
+       }
+      },
+      "He moves to {@rumpleteaser|Rumpleteaser}'s side and fires down at the Stig-Shambler.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "deuteronomy",
+        "name": "Deuteronomy - Flechette Pistol",
+        "result": "Missed",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "dice": "1 f2",
+          "result": "Miss",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          },
+          "resultClass": "ammo"
+         }
+        ],
+        "by": "deuteronomy",
+        "weapons": [
+         "Flechette pistol"
+        ],
+        "target": "deus-and-amen"
+       }
+      },
+      "{@ezekiel-crows|Ezekiel Crows} advances out of the casting hall.",
+      "With Deuteronomy beside him, {@rumpleteaser|Rumpleteaser} binds his wounds and drags himself back up.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "rumpleteaser",
+        "name": "Rumpleteaser - Recovery",
+        "result": "Recovers",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "Recovery",
+          "dice": "fw si ooa",
+          "result": "Recovers",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: +1 die from the Tend Wounds action, +1 die from Deuteronomy assisting. Rumpleteaser has taken a wound and is Injured."
+         }
+        ]
+       }
+      },
+      "{@mordecai|Mordecai} follows Ezekiel out."
+     ]
+    },
+    {
+     "map": {
+      "viewBox": "-14 -24 628 668",
+      "label": "Positions at the end of round 2: Gutter Cantor in the casting hall, Mordecai and Ezekiel advancing down the west side, Deus and Amen by the Anvil and Elijah under it; Rumpleteaser and Deuteronomy together in the shell works, Mistoffelees and Demeter on the magazine and Rumpus under the Anvil.",
+      "clip": "mat22r2",
+      "caption": {
+       "text": "Positions at the end of round 2",
+       "key": [
+        [
+         "s",
+         "S",
+         "Suppressed"
+        ],
+        [
+         "w",
+         "W",
+         "Wounded"
+        ],
+        [
+         "i",
+         "I",
+         "Injured, 0 wounds"
+        ],
+        [
+         "a",
+         "A",
+         "Out of ammo"
+        ],
+        [
+         "n",
+         "In",
+         "Insanity"
+        ],
+        [
+         "v",
+         "V",
+         "Perfect Void"
+        ]
+       ]
+      },
+      "items": [
+       {
+        "board": "terrain"
+       },
+       {
+        "clip": [
+         {
+          "board": "terrain-2"
+         }
+        ]
+       },
+       {
+        "board": "terrain-3"
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 151.0,
+         "y": 189.1,
+         "t": "G"
+        }
+       },
+       {
+        "b": {
+         "k": "s",
+         "x": 166.0,
+         "y": 179.1,
+         "t": "S"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 41.9,
+         "y": 254.6,
+         "t": "M"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 41.9,
+         "y": 344.7,
+         "t": "Ez"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 372.8,
+         "y": 390.1,
+         "t": "DA",
+         "r": 19
+        }
+       },
+       {
+        "b": {
+         "k": "n",
+         "x": 392.8,
+         "y": 376.1,
+         "t": "In"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 294.5,
+         "y": 559.4,
+         "t": "El"
+        }
+       },
+       {
+        "b": {
+         "k": "a",
+         "x": 309.5,
+         "y": 549.4,
+         "t": "A"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 413.3,
+         "y": 192.7,
+         "t": "Rt"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 398.3,
+         "y": 182.7,
+         "t": "W"
+        }
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 428.3,
+         "y": 182.7,
+         "t": "I"
+        }
+       },
+       {
+        "b": {
+         "k": "a",
+         "x": 413.3,
+         "y": 176.7,
+         "t": "A"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 441.4,
+         "y": 192.7,
+         "t": "De"
+        }
+       },
+       {
+        "b": {
+         "k": "v",
+         "x": 456.4,
+         "y": 182.7,
+         "t": "V"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 52.9,
+         "y": 422.8,
+         "t": "Mi"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 75.5,
+         "y": 422.8,
+         "t": "Dm"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 227.9,
+         "y": 452.1,
+         "t": "Rp"
+        }
+       },
+       {
+        "b": {
+         "k": "s",
+         "x": 242.9,
+         "y": 442.1,
+         "t": "S"
         }
        }
       ]
