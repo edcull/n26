@@ -3857,6 +3857,21 @@
           "class": "num"
          }
         ]
+       },
+       {
+        "cells": [
+         {
+          "html": "Rumpus",
+          "class": "t"
+         },
+         {
+          "html": "Participation +1"
+         },
+         {
+          "html": "+1",
+          "class": "num"
+         }
+        ]
        }
       ]
      }
