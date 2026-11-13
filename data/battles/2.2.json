@@ -624,10 +624,15 @@
    }
   ],
   {
-   "piece": "magazine",
+   "piece": "gothic-ruin-large",
    "at": [
-    47.5,
-    402.5
+    98.75,
+    493.75
+   ],
+   "label": "Magazine",
+   "labelAt": [
+    100,
+    505
    ]
   },
   [
@@ -652,10 +657,15 @@
    }
   ],
   {
-   "piece": "quench-house",
+   "piece": "gothic-ruin-small",
    "at": [
-    457.5,
-    422.5
+    513.75,
+    498.75
+   ],
+   "label": "Quench house",
+   "labelAt": [
+    513.8,
+    510
    ]
   },
   {
