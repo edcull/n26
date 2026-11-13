@@ -526,7 +526,7 @@
        }
       },
       "Cloaked in silence, {@deuteronomy|Deuteronomy} moves up to a broken window in the rendering vats, where he can watch the Cawdor come.",
-      "Across the yard, {@blessed-filth|Blessed Filth} scrambles up the side of the Gothic ruin and onto its roof, looking for a clear line of fire down the street.",
+      "Across the yard, {@blessed-filth|Blessed Filth} scrambles up the side of the ruined warehouse and onto its roof, looking for a clear line of fire down the street.",
       "He is not alone for long. The rubble at the foot of the wall shifts, and {@rumpus|Rumpus} bursts out of the ground right below him. Behind the walls of the vats, {@mistoffelees|Mistoffelees} closes his eyes and reaches into the sniper's mind.",
       {
        "roll": {
@@ -584,7 +584,7 @@
       },
       {
        "src": "images/2.1/photo-07.jpg",
-       "alt": "Blessed Filth on the roof of the Gothic ruin with his long rifle, Rumpus surfacing in the street below, and Mistoffelees behind the wall of the rendering vats in the foreground.",
+       "alt": "Blessed Filth on the roof of the ruined warehouse with his long rifle, Rumpus surfacing in the street below, and Mistoffelees behind the wall of the rendering vats in the foreground.",
        "class": "port",
        "caption": "Blessed Filth on the roof, with Rumpus below and Mistoffelees behind the vats wall."
       }
@@ -600,7 +600,7 @@
     {
      "map": {
       "viewBox": "-14 -24 628 668",
-      "label": "Positions at the end of round 1: the Carrion Psalm spread from the smoke stack to the gothic ruin, with Ratsong on the north objective and Blessed Filth on the gothic ruin roof; the Midnight Theatre around the rendering vats, with Wit on the south objective, Rumpus in the street below Blessed Filth, and Mungojerrie arriving at the edge of the bone yard.",
+      "label": "Positions at the end of round 1: the Carrion Psalm spread from the smoke stack to the ruined warehouse, with Ratsong on the north objective and Blessed Filth on the ruined warehouse roof; the Midnight Theatre around the rendering vats, with Wit on the south objective, Rumpus in the street below Blessed Filth, and Mungojerrie arriving at the edge of the bone yard.",
       "clip": "mat21r1",
       "caption": {
        "text": "Positions at the end of round 1",
@@ -1062,7 +1062,7 @@
        }
       },
       "Needles rattle off the tank around {@mordecai|Mordecai}. His armour turns the one that finds him, but he is forced to duck, and {@deuteronomy|Deuteronomy} slips back out of sight.",
-      "On the roof of the Gothic ruin, {@blessed-filth|Blessed Filth} is still in the grip of the Terrible Truths. He can hear them on the ladder, he is sure of it. They are coming for him.",
+      "On the roof of the ruined warehouse, {@blessed-filth|Blessed Filth} is still in the grip of the Terrible Truths. He can hear them on the ladder, he is sure of it. They are coming for him.",
       {
        "roll": {
         "side": "p",
@@ -1217,7 +1217,7 @@
      "ports": [
       {
        "src": "images/2.1/photo-09.jpg",
-       "alt": "Ezekiel Crows and Vermin Pyre advancing beside the Gothic ruin, with Blessed Filth on its roof and a blurred Rumpus in the foreground.",
+       "alt": "Ezekiel Crows and Vermin Pyre advancing beside the ruined warehouse, with Blessed Filth on its roof and a blurred Rumpus in the foreground.",
        "class": "port",
        "caption": "Ezekiel closes on the Wyrm."
       }
@@ -1794,7 +1794,7 @@
     {
      "map": {
       "viewBox": "-14 -24 628 668",
-      "label": "Positions at the end of round 3: the Carrion Psalm pushing down the west street and east past the gothic ruin, with Ratsong on the north objective; the Midnight Theatre around the rendering vats and along the south edge, with Demeter, Rumpleteaser and Jellylorum arriving.",
+      "label": "Positions at the end of round 3: the Carrion Psalm pushing down the west street and east past the ruined warehouse, with Ratsong on the north objective; the Midnight Theatre around the rendering vats and along the south edge, with Demeter, Rumpleteaser and Jellylorum arriving.",
       "clip": "mat21r3",
       "caption": {
        "text": "Positions at the end of round 3",
@@ -2321,7 +2321,7 @@
       },
       "Then he reloads his flechette pistol.",
       "At the north end of the manufactorum, {@ratsong|Ratsong} looks round and sees shapes moving in every shadow. The little Bonepicker abandons the objective, and {@macavity|Macavity} runs in to take it.",
-      "On the roof of the Gothic ruin, {@blessed-filth|Blessed Filth} is still trying to hide.",
+      "On the roof of the ruined warehouse, {@blessed-filth|Blessed Filth} is still trying to hide.",
       {
        "roll": {
         "side": "p",
@@ -3466,7 +3466,7 @@
        }
       },
       "The cleaver misses.",
-      "\"I'll get you!\" On the roof of the Gothic ruin, {@blessed-filth|Blessed Filth} spins round and fires at the nearest figure he can see. It's {@vermin-pyre|Vermin Pyre}.",
+      "\"I'll get you!\" On the roof of the ruined warehouse, {@blessed-filth|Blessed Filth} spins round and fires at the nearest figure he can see. It's {@vermin-pyre|Vermin Pyre}.",
       {
        "roll": {
         "side": "p",
@@ -4698,7 +4698,7 @@
     254.6
    ],
    "turn": 180,
-   "label": "Gothic ruin",
+   "label": "Ruined warehouse",
    "labelAt": [
     502.7,
     258.1
@@ -4783,14 +4783,14 @@
    "polyline",
    {
     "class": "m-wall",
-    "points": "465.9,367.4 572.1,367.4"
+    "points": "495.3,372.0 587.7,424.0"
    }
   ],
   [
    "polyline",
    {
     "class": "m-div",
-    "points": "396.7,430.8 394.5,541"
+    "points": "391.5,428 391.5,537"
    }
   ],
   {
