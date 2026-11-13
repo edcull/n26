@@ -3040,6 +3040,560 @@
      "vp": "End phase: Mistoffelees went Out of Action to Elijah's Fight action, so the Psalm score 2 VP. Gutter Cantor went Out of Action to Macavity's charge, so the Theatre score 2 VP. Psalm 4, Theatre 2."
     }
    ]
+  },
+  {
+   "id": "round-6",
+   "no": "6",
+   "title": "Round 6: Crippling strike",
+   "blocks": [
+    {
+     "text": [
+      "{@ezekiel-crows|Ezekiel Crows} gets back up and charges {@macavity|Macavity}. For the fourth time, {@demeter|Demeter} is waiting.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "demeter",
+        "name": "Demeter - Overwatch",
+        "result": "Ezekiel seriously injured",
+        "rows": [
+         {
+          "dice": "3",
+          "result": "Hit",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          },
+          "resultClass": "ammo"
+         },
+         {
+          "dice": "4",
+          "result": "Wound",
+          "check": {
+           "name": "To Wound",
+           "base": 3,
+           "s": 4,
+           "t": 3
+          }
+         },
+         {
+          "dice": "2",
+          "result": "One damage",
+          "check": {
+           "name": "Save",
+           "base": 5,
+           "mods": [
+            [
+             -1,
+             "AP"
+            ]
+           ]
+          }
+         },
+         {
+          "label": "Injury",
+          "dice": "si",
+          "result": "Serious injury, activation interrupted"
+         },
+         {
+          "note": "Note: Overwatch finishes Ezekiel's activation."
+         }
+        ],
+        "by": "demeter",
+        "action": "Overwatch",
+        "weapons": [
+         "Long rifle"
+        ],
+        "target": "ezekiel-crows"
+       }
+      },
+      "{@macavity|Macavity} goes for the Cawdor leader at last, charging {@mordecai|Mordecai}.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "macavity",
+        "name": "Macavity - Charge: Serpent's Fangs",
+        "result": "Mordecai injured",
+        "rows": [
+         {
+          "note": "Initiative 5 +2 charge bonus"
+         },
+         {
+          "dice": "4 5 6 6 6 3",
+          "result": "Six hits",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          },
+          "resultClass": "ammo"
+         },
+         {
+          "dice": "6 6 3 1 2 4",
+          "result": "Four wounds",
+          "check": {
+           "name": "To Wound",
+           "base": 3,
+           "note": "Toxin"
+          }
+         },
+         {
+          "dice": "1 2 3 6",
+          "result": "Three damage",
+          "check": {
+           "name": "Save",
+           "base": 5,
+           "mods": [
+            [
+             1,
+             "Mesh"
+            ],
+            [
+             1,
+             "Parry"
+            ],
+            [
+             -3,
+             "AP"
+            ]
+           ]
+          }
+         },
+         {
+          "label": "Injury",
+          "dice": "fw si",
+          "result": "Injured"
+         },
+         {
+          "note": "Note: Mordecai's bio-booster reduces the Lethality."
+         }
+        ],
+        "by": "macavity",
+        "action": "Charge",
+        "weapons": [
+         "Serpent's fangs*"
+        ],
+        "target": "mordecai"
+       }
+      },
+      {
+       "roll": {
+        "side": "p",
+        "face": "mordecai",
+        "name": "Mordecai - Reaction: Chainglaive",
+        "result": "Macavity takes 1 wound",
+        "rows": [
+         {
+          "note": "Initiative 1"
+         },
+         {
+          "dice": "3",
+          "result": "Hit",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          },
+          "resultClass": "ammo"
+         },
+         {
+          "dice": "4",
+          "result": "Wound",
+          "check": {
+           "name": "To Wound",
+           "base": 3,
+           "s": 4,
+           "t": 3
+          }
+         },
+         {
+          "dice": "4",
+          "result": "One damage",
+          "check": {
+           "name": "Save",
+           "base": 5,
+           "mods": [
+            [
+             -1,
+             "AP"
+            ]
+           ]
+          }
+         },
+         {
+          "note": "Note: Unwieldy strikes at Initiative 1."
+         }
+        ],
+        "by": "mordecai",
+        "action": "Reaction",
+        "weapons": [
+         "Chainglaive*"
+        ],
+        "target": "macavity"
+       }
+      },
+      "{@deus-and-amen|Deus and Amen} step back to find a line on the shell works and fire on {@rumpleteaser|Rumpleteaser} again.",
+      {
+       "roll": {
+        "side": "p",
+        "face": "deus",
+        "name": "Deus and Amen - Twin-linked Heavy Stubber",
+        "result": "Rumpleteaser seriously injured, Out of Ammo",
+        "rows": [
+         {
+          "dice": "4 f1a f2",
+          "result": "Three hits, Out of Ammo",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          },
+          "resultClass": "ammo"
+         },
+         {
+          "dice": "3 3 5",
+          "result": "Three wounds",
+          "check": {
+           "name": "To Wound",
+           "base": 3,
+           "s": 4,
+           "t": 3
+          }
+         },
+         {
+          "dice": "3 5 6",
+          "result": "Two damage",
+          "check": {
+           "name": "Save",
+           "base": 5,
+           "mods": [
+            [
+             -1,
+             "AP"
+            ]
+           ]
+          }
+         },
+         {
+          "label": "Injury",
+          "dice": "fw si",
+          "result": "Serious injury"
+         },
+         {
+          "note": "Note: Bulging Biceps to move at Initiative and fire a heavy weapon. Twin-linked to re-roll the Rapid Fire dice."
+         }
+        ],
+        "by": "deus-and-amen",
+        "weapons": [
+         "Twin-linked heavy stubber"
+        ],
+        "target": "rumpleteaser"
+       }
+      },
+      "{@deuteronomy|Deuteronomy} strains to hold the Perfect Void, and the warp bites back.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "deuteronomy",
+        "name": "Deuteronomy - Maintain Power",
+        "result": "Deuteronomy suppressed",
+        "resultClass": "sup",
+        "rows": [
+         {
+          "dice": "1 1",
+          "result": "Maintains with Perils",
+          "check": {
+           "name": "Willpower",
+           "base": 9,
+           "under": true
+          }
+         },
+         {
+          "label": "Perils",
+          "result": "Warp Surge!"
+         },
+         {
+          "dice": "1",
+          "result": "Suppressed",
+          "check": {
+           "name": "To Wound",
+           "base": 3,
+           "s": 4,
+           "t": 3,
+           "who": "Deuteronomy"
+          },
+          "resultClass": "sup"
+         }
+        ]
+       }
+      },
+      "Shaking, he takes aim at the Stig-Shambler anyway.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "deuteronomy",
+        "name": "Deuteronomy - Flechette Pistol",
+        "result": "Deus and Amen seriously injured",
+        "rows": [
+         {
+          "dice": "6 f2",
+          "result": "Two hits",
+          "check": {
+           "name": "To Hit",
+           "base": 3
+          },
+          "resultClass": "ammo"
+         },
+         {
+          "dice": "6 3",
+          "result": "Two wounds",
+          "check": {
+           "name": "To Wound",
+           "base": 3,
+           "note": "Toxin"
+          }
+         },
+         {
+          "dice": "5 5",
+          "result": "Two damage",
+          "check": {
+           "name": "Save",
+           "base": 6
+          }
+         },
+         {
+          "label": "Injury",
+          "dice": "si",
+          "result": "Serious injury"
+         }
+        ],
+        "by": "deuteronomy",
+        "weapons": [
+         "Flechette pistol"
+        ],
+        "target": "deus-and-amen"
+       }
+      },
+      "The Stig-Shambler goes down.",
+      "Inside the magazine, {@elijah-emberchoir|Elijah Emberchoir} daubs the Psalm's mark across the Delaque walls. The Psalm's side job is done.",
+      "In the shell works, {@rumpleteaser|Rumpleteaser} drags himself back up again.",
+      {
+       "roll": {
+        "side": "t",
+        "face": "rumpleteaser",
+        "name": "Rumpleteaser - Recovery",
+        "result": "Recovers",
+        "resultClass": "ammo",
+        "rows": [
+         {
+          "label": "Recovery",
+          "dice": "fw fw si",
+          "result": "Recovers",
+          "resultClass": "ammo"
+         },
+         {
+          "note": "Note: +1 die from the Tend Wounds action, +1 die from Deuteronomy assisting."
+         }
+        ]
+       }
+      },
+      "With Ezekiel and Deus and Amen down and Mordecai locked in combat, the Theatre complete their side job too: two of the Psalm's four fighters are Seriously Injured or Engaged."
+     ]
+    },
+    {
+     "map": {
+      "viewBox": "-14 -24 628 668",
+      "label": "Positions at the end of round 6: Ezekiel seriously injured west of the Furnace, Mordecai injured and engaged with Macavity at the west edge, Deus and Amen seriously injured by the Anvil and Elijah inside the magazine; Deuteronomy and Rumpleteaser in the shell works and Demeter on the magazine roof.",
+      "clip": "mat22r6",
+      "caption": {
+       "text": "Positions at the end of round 6",
+       "key": [
+        [
+         "s",
+         "S",
+         "Suppressed"
+        ],
+        [
+         "w",
+         "W",
+         "Wounded"
+        ],
+        [
+         "w",
+         "W2",
+         "Wounded, number shows wounds taken"
+        ],
+        [
+         "i",
+         "I",
+         "Injured, 0 wounds"
+        ],
+        [
+         "i",
+         "SI",
+         "Seriously Injured"
+        ],
+        [
+         "v",
+         "V",
+         "Perfect Void"
+        ]
+       ]
+      },
+      "items": [
+       {
+        "board": "terrain"
+       },
+       {
+        "clip": [
+         {
+          "board": "terrain-2"
+         }
+        ]
+       },
+       {
+        "board": "terrain-3"
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 101.4,
+         "y": 351.4,
+         "t": "Ez"
+        }
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 116.4,
+         "y": 341.4,
+         "t": "SI"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 25.7,
+         "y": 414.9,
+         "t": "M"
+        }
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 40.7,
+         "y": 404.9,
+         "t": "I"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 337.8,
+         "y": 378.4,
+         "t": "DA",
+         "r": 19
+        }
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 357.8,
+         "y": 364.4,
+         "t": "SI"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 137.8,
+         "y": 540.5,
+         "t": "El"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 152.8,
+         "y": 530.5,
+         "t": "W"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 23.0,
+         "y": 383.8,
+         "t": "Mc"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 38.0,
+         "y": 373.8,
+         "t": "W"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 409.5,
+         "y": 189.2,
+         "t": "De"
+        }
+       },
+       {
+        "b": {
+         "k": "w",
+         "x": 394.5,
+         "y": 179.2,
+         "t": "W2"
+        }
+       },
+       {
+        "b": {
+         "k": "s",
+         "x": 424.5,
+         "y": 199.2,
+         "t": "S"
+        }
+       },
+       {
+        "b": {
+         "k": "v",
+         "x": 424.5,
+         "y": 179.2,
+         "t": "V"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 447.3,
+         "y": 189.2,
+         "t": "Rt"
+        }
+       },
+       {
+        "b": {
+         "k": "i",
+         "x": 462.3,
+         "y": 179.2,
+         "t": "I"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 70.3,
+         "y": 422.8,
+         "t": "Dm"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "vp": "End phase: no one went Out of Action. No VP. Psalm 4, Theatre 2. Both side jobs are complete: Elijah's graffiti in the magazine and the Theatre's Crippling Strike."
+    }
+   ]
   }
  ],
  "aftermath": [
