@@ -491,10 +491,10 @@
      "deuteronomy",
      "demeter",
      "macavity",
-     "nacht-ghul",
+     "pouncival",
      "rumpleteaser",
      "mungojerrie",
-     "ghost",
+     "munkustrap",
      "jellylorum",
      "growltiger",
      "mistoffelees",
@@ -546,21 +546,21 @@
     },
     {
      "item": "Shivver sword",
-     "for": "Nacht-Ghul",
+     "for": "Pouncival",
      "source": "Gang list",
      "cost": "50",
      "tp": "–"
     },
     {
      "item": "Web gauntlet",
-     "for": "Nacht-Ghul",
+     "for": "Pouncival",
      "source": "Gang list",
      "cost": "10",
      "tp": "–"
     },
     {
      "item": "Shotgun (solid and scatter ammo)",
-     "for": "Ghost",
+     "for": "Munkustrap",
      "source": "Gang list",
      "cost": "35",
      "tp": "–"
@@ -587,12 +587,12 @@
    "incomeTotal": "275",
    "recruits": [
     {
-     "recruit": "Nacht-Ghul (Champion)",
+     "recruit": "Pouncival, Nacht-Ghul (Champion)",
      "discount": "–",
      "cost": "120"
     },
     {
-     "recruit": "Ghost (Ganger)",
+     "recruit": "Munkustrap, Ghost (Ganger)",
      "discount": "25 credits, Settlement",
      "cost": "45 – 25 = 20"
     }

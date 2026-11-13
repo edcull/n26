@@ -1146,10 +1146,10 @@
     ]
    }
   ],
-  "nacht-ghul": [
+  "pouncival": [
    {
     "at": "2-post",
-    "name": "Nacht-Ghul",
+    "name": "Pouncival",
     "nameClass": "new-i",
     "portrait": "images/gangs/the-midnight-theatre-thumb.jpg",
     "type": "Nacht-Ghul (Champion, Loner)",
@@ -1208,10 +1208,10 @@
     ]
    }
   ],
-  "ghost": [
+  "munkustrap": [
    {
     "at": "2-post",
-    "name": "Ghost",
+    "name": "Munkustrap",
     "nameClass": "new-i",
     "portrait": "images/gangs/the-midnight-theatre-thumb.jpg",
     "type": "Ghost (Ganger, Gunner)",
