@@ -1557,6 +1557,15 @@
           }
          },
          {
+          "dice": "6",
+          "result": "Passes",
+          "resultClass": "ammo",
+          "check": {
+           "name": "Ammo",
+           "base": 6
+          }
+         },
+         {
           "note": "Note: Crossfire, so the shot hits automatically."
          }
         ],
