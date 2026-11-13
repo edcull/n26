@@ -146,7 +146,7 @@ Other callouts (tests, recovery, powers) keep a plain `name` such as `"Wit - Ner
   - Count words when counting, otherwise `Hit` / `Miss` / `Wound`: `Two hits`, `One wound`, `Hit`, `Miss`. To Hit rows only ever say `Miss`, `Hit` or `Two hits` (and so on), with any extra after a comma: `Hit, Out of Ammo`, `Miss, Unstable!`, `Two hits, one auto wound`. An auto wound gets a note naming the trait, for example "Note: Shock (5+), a hit roll of 5 or 6 wounds automatically." Knockback gets one too (written in the data): "Note: Knockback (6+), a hit roll of 6 knocks the target 1\" back."
   - Unsaved wounds on the save row as damage: `One damage`, `Two damage, suppressed`
   - `Serious injury`, `Out of Action`, `Out of Ammo`
-  - A To Wound row that causes no wound reads `Suppressed` for a ranged attack. It reads `-` when the target ignores suppression (Juggernaut, a passed Nerves of Steel test) and for a melee attack
+  - A To Wound row that causes no wound reads `Suppressed` for a ranged attack. It reads `-` when the target ignores suppression (Juggernaut, which only works while the target takes no wound; a passed Nerves of Steel test) and for a melee attack
   - Suppression goes on the last row of the chain: `Suppressed` on To Wound when nothing wounds, `One damage, suppressed` or `Saved, suppressed` on the Save row, `Injured, suppressed` on the Injury row
   - Conditions after a comma: `One wound, suppressed`, `Saved, suppressed`, `Three hits, Knockback`. On the dice rows each part after a comma starts a new line
   - Narrative text says "seriously injured"

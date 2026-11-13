@@ -1156,7 +1156,7 @@
            "name": "To Wound",
            "base": 3,
            "s": 4,
-           "t": 2
+           "t": 3
           }
          },
          {
@@ -1287,7 +1287,7 @@
         "result": "Fails",
         "rows": [
          {
-          "dice": "",
+          "dice": "4 4",
           "result": "Fails",
           "check": {
            "name": "Willpower",
@@ -1518,13 +1518,13 @@
         "target": "mistoffelees"
        }
       },
-      "Deuteronomy's shot has marked the target. {@rumpleteaser|Rumpleteaser} plays Crossfire and puts a plasma bolt into {@deus-and-amen|Deus and Amen}.",
+      "Deuteronomy's shot has marked the target. {@rumpleteaser|Rumpleteaser} reloads the plasma gun, plays Crossfire and puts a plasma bolt into {@deus-and-amen|Deus and Amen}.",
       {
        "roll": {
         "side": "t",
         "face": "rumpleteaser",
         "name": "Rumpleteaser - Plasma Gun",
-        "result": "Deus and Amen take 2 wounds",
+        "result": "Deus and Amen take 2 wounds and are suppressed",
         "rows": [
          {
           "label": "To Hit",
@@ -1544,7 +1544,7 @@
          },
          {
           "dice": "",
-          "result": "Two damage",
+          "result": "Two damage, suppressed",
           "check": {
            "name": "Save",
            "base": 6,
@@ -1557,7 +1557,7 @@
           }
          },
          {
-          "note": "Note: Crossfire, so the shot hits automatically. Juggernaut prevents suppression."
+          "note": "Note: Crossfire, so the shot hits automatically."
          }
         ],
         "by": "rumpleteaser",
@@ -1799,6 +1799,14 @@
          "x": 427.8,
          "y": 354.1,
          "t": "W2"
+        }
+       },
+       {
+        "b": {
+         "k": "s",
+         "x": 427.8,
+         "y": 382.1,
+         "t": "S"
         }
        },
        {
