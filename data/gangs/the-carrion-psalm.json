@@ -888,7 +888,7 @@
     "name": "Blight Creed",
     "nameClass": "new-i",
     "portrait": "images/gangs/the-carrion-psalm-thumb.jpg",
-    "type": "Redemptionist Brethren (Ganger, Fanatic), Gunslinger",
+    "type": "Redemptionist Brethren (Ganger, Fanatic, Gunslinger)",
     "cost": "60",
     "stats": {
      "M": "5\"",
