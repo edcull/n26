@@ -16,7 +16,7 @@ export function fighterCard(f, extraClass = '', opts = {}) {
     `<div class="${cls('wp', w.class)}"><div class="${cls('wn', w.nameClass)}">${md(w.name)}</div>` +
     join(w.profile, (v, i) => `<div class="${cls('wv', w.profileClass?.[i])}">${v}</div>`) +
     (w.traits != null ? `<div class="wt">${md(w.traits)}</div>` : '') + '</div>')}</div>` : '';
-  const foot = f.foot ? `\n  <div class="foot">${join(f.foot, p => p.html != null ? `<p>${md(p.html)}</p>` : `<p><b>${esc(p.label)}</b> ${md(p.text)}</p>`)}</div>` : '';
+  const foot = f.foot ? `\n  <div class="foot">${join(f.foot, p => p.html != null ? `<p>${md(p.html)}</p>` : `<p class="f-${esc(p.label.toLowerCase().replace(/[^a-z]+/g, '-'))}"><b>${esc(p.label)}</b> ${md(p.text)}</p>`)}</div>` : '';
   return `<article class="${cls('fighter', extraClass)}">
   <div class="fh"><img class="roundel" src="${attr(f.portrait)}" alt=""><div><h4${f.nameClass ? ` class="${f.nameClass}"` : ''}>${esc(f.name)}</h4><p>${md(f.type)}</p>${f.typeExtra || ''}</div><div class="cost"><b>${f.cost}</b><span>${f.costLabel ?? 'credits'}</span></div></div>
   <div class="stats" role="group" aria-label="${attr(f.name)} characteristics">${stats}</div>${weapons}${foot}
