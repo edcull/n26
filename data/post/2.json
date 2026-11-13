@@ -133,7 +133,7 @@
     "sheet": [
      [
       "Rating",
-      "1415"
+      "1450"
      ],
      [
       "Wins",
@@ -145,7 +145,7 @@
      ],
      [
       "Credits",
-      "35"
+      "0"
      ],
      [
       "Fighters",
@@ -277,10 +277,10 @@
      "tp": "–"
     },
     {
-     "item": "Autogun",
+     "item": "Long rifle",
      "for": "Blessed Filth",
      "source": "Gang list",
-     "cost": "20",
+     "cost": "55",
      "tp": "–"
     }
    ],
@@ -290,7 +290,7 @@
      "–"
     ],
     "purchase": [
-     "75",
+     "110",
      "–"
     ],
     "sell": [
@@ -298,7 +298,7 @@
      "–"
     ],
     "total": [
-     "210",
+     "245",
      "0"
     ]
    },

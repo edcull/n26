@@ -688,16 +688,16 @@
     "at": "2-post",
     "weapons": [
      {
-      "name": "Autogun",
-      "class": "new",
+      "name": "Long rifle",
       "profile": [
-       "8\"",
        "24\"",
-       "3",
-       "-",
+       "48\"",
+       "4",
+       "-1",
        "1"
       ],
-      "traits": "{tip:Rapid Fire (1)}"
+      "traits": "{tip:Knockback (6+)}",
+      "class": "new"
      }
     ],
     "foot": [
@@ -706,7 +706,7 @@
       "text": "{tip:Precision Shot}"
      }
     ],
-    "cost": "60",
+    "cost": "95",
     "portrait": "images/fighters/blessed-filth-autogun.jpg"
    }
   ],
