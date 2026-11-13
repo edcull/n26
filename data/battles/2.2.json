@@ -3571,7 +3571,26 @@
        }
       },
       "The Theatre complete their side job too: three of the Psalm's four fighters are down, with Ezekiel, Deus and Amen and Mordecai all Seriously Injured."
+     ],
+     "split": [
+      "tall",
+      "two"
+     ],
+     "ports": [
+      {
+       "src": "images/2.2/photo-16.jpg",
+       "alt": "Elijah Emberchoir alone at the foot of the magazine wall, chainaxe and autopistol in hand.",
+       "class": "port",
+       "caption": "Elijah, the last of the Psalm on his feet."
+      }
      ]
+    },
+    {
+     "photo": {
+      "src": "images/2.2/photo-17.jpg",
+      "alt": "Macavity, claws out, standing over Mordecai with his chainglaive at the west edge, with Ezekiel Crows down behind the broken wall.",
+      "caption": "Macavity has the Word Keeper at last."
+     }
     },
     {
      "map": {

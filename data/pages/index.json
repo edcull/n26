@@ -166,7 +166,6 @@
     {
      "card": {
       "page": "2.2",
-      "placeholder": "Photo to come",
       "info": [
        {
         "tag": "h3",
@@ -184,10 +183,12 @@
        },
        {
         "tag": "p",
-        "html": "To be played",
+        "html": "The Midnight Theatre won",
         "class": "result"
        }
-      ]
+      ],
+      "img": "images/index/2.2.jpg",
+      "alt": "The end of the Hollowpoint Hit: Demeter on the magazine roof, Macavity over the fallen Mordecai, Elijah alone by the magazine and Deus and Amen down by the Furnace."
      }
     },
     {
