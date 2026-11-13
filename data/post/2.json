@@ -338,7 +338,7 @@
     {
      "fighter": "Deuteronomy",
      "injuries": "–",
-     "action": "To come"
+     "action": "Develop Tactics"
     },
     {
      "fighter": "Demeter",
@@ -480,6 +480,9 @@
        },
        {
         "tip": "Thunderous Charge"
+       },
+       {
+        "tip": "Rapid Fire"
        }
       ]
      }
