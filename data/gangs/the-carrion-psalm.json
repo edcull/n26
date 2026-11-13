@@ -706,7 +706,8 @@
       "text": "{tip:Precision Shot}"
      }
     ],
-    "cost": "60"
+    "cost": "60",
+    "portrait": "images/fighters/blessed-filth-autogun.jpg"
    }
   ],
   "ratsong": [
