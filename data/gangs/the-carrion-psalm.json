@@ -759,20 +759,18 @@
     "typeExtra": "<span class=\"benched\">In recovery</span>",
     "cost": "40",
     "stats": {
-     "XP": "7"
+     "XP": "7",
+     "BS": "5+"
     },
     "statClass": {
      "Cl": null,
-     "XP": null
+     "XP": null,
+     "BS": null
     },
     "foot": [
      {
       "label": "Skills",
       "text": "{tip.new-i:Dodge}"
-     },
-     {
-      "label": "Lasting injuries",
-      "text": "{tip:Eye Injury}"
      }
     ]
    }
