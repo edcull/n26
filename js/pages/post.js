@@ -6,7 +6,7 @@ import { hero, nav } from '../hero.js';
 import { fighterCard } from '../fighter.js';
 import { sheet, assets } from '../blocks.js';
 
-const ACTION_STYLE = { 'Recovery': 'act-rec', 'Work Territory': 'act-work', 'Critical injury': 'act-crit', 'Captured': 'act-capt' };
+const ACTION_STYLE = { 'Recovery': 'act-rec', 'Work Territory': 'act-work', 'Critical Injury': 'act-crit', 'Captured': 'act-capt' };
 const td = (html, c) => `<td${c ? ` class="${c}"` : ''}>${md(html)}</td>`;
 const th = (html, c) => `<th${c ? ` class="${c}"` : ''}>${html}</th>`;
 const tr = (cells, c) => `<tr${c ? ` class="${c}"` : ''}>${cells}</tr>`;
