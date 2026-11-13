@@ -586,7 +586,8 @@
    {
     "at": "2-post",
     "stats": {
-     "XP": "18"
+     "XP": "18",
+     "T": "2"
     },
     "foot": [
      {
@@ -595,10 +596,13 @@
      },
      {
       "label": "Lasting injuries",
-      "text": "{tip.new-i:Critical Injury}"
+      "text": "{tip:Enfeebled}"
      }
     ],
-    "typeExtra": "<span class=\"benched crit\">Critical injury</span>"
+    "typeExtra": null,
+    "statClass": {
+     "T": "inj"
+    }
    }
   ],
   "blessed-filth": [
