@@ -4239,23 +4239,24 @@
    ]
   },
   {
-   "piece": "gothic-ruin-small",
+   "piece": "gothic-ruin-large",
    "at": [
-    52,
-    522
+    56.25,
+    512.5
    ],
+   "turn": 180,
    "label": false
   },
   {
-   "piece": "gothic-ruin-large",
+   "piece": "gothic-ruin-small",
    "at": [
     132.5,
     440
    ],
-   "turn": -90,
+   "turn": 90,
    "label": "Gothic ruin",
    "labelAt": [
-    140,
+    132.5,
     440
    ]
   },
