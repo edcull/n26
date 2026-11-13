@@ -14,7 +14,7 @@
    {
     "img": "images/gangs/the-midnight-theatre.jpg",
     "name": "The Midnight Theatre",
-    "note": "House Delaque · 1165 rating"
+    "note": "House Delaque · 1465 rating"
    }
   ]
  },
@@ -124,11 +124,11 @@
             "class": "num p"
            },
            {
-            "html": "1335",
+            "html": "1475",
             "class": "num t"
            },
            {
-            "html": "<span class=\"p lead\">The Carrion Psalm</span>"
+            "html": "<span class=\"t lead\">The Midnight Theatre</span>"
            }
           ]
          },
@@ -725,7 +725,7 @@
          "sheet": [
           [
            "Rating",
-           "1165"
+           "1465"
           ],
           [
            "Reputation",
@@ -733,11 +733,11 @@
           ],
           [
            "Credits",
-           "170"
+           "10"
           ],
           [
            "Gang size",
-           "9"
+           "11"
           ]
          ],
          "class": ""
@@ -775,6 +775,9 @@
             },
             {
              "tip": "Thunderous Charge"
+            },
+            {
+             "tip": "Rapid Fire"
             }
            ]
           }
@@ -792,10 +795,16 @@
            "id": "macavity"
           },
           {
+           "id": "nacht-ghul"
+          },
+          {
            "id": "rumpleteaser"
           },
           {
            "id": "mungojerrie"
+          },
+          {
+           "id": "ghost"
           },
           {
            "id": "jellylorum"
