@@ -133,7 +133,7 @@
     "sheet": [
      [
       "Rating",
-      "1450"
+      "1445"
      ],
      [
       "Wins",
@@ -145,11 +145,11 @@
      ],
      [
       "Credits",
-      "0"
+      "5"
      ],
      [
       "Fighters",
-      "11"
+      "10"
      ]
     ],
     "assets": [
@@ -198,7 +198,6 @@
      "gutter-cantor",
      "blight-creed",
      "ratsong",
-     "tallowborn",
      "deus-and-amen"
     ]
    },
@@ -236,12 +235,7 @@
      "cost": "40 – 25 = 15"
     },
     {
-     "recruit": "Tallowborn, Bonepicker (Prospect)",
-     "discount": "–",
-     "cost": "20"
-    },
-    {
-     "recruit": "Jorah Ashveil, Redemptionist Deacon (Champion), with Fast Shot",
+     "recruit": "Jorah Ashveil, Redemptionist Deacon (Champion), with Gunfighter",
      "discount": "–",
      "cost": "100"
     }
@@ -257,40 +251,33 @@
     },
     {
      "item": "Autopistol",
-     "for": "Blight Creed",
+     "for": "Jorah Ashveil",
      "source": "Gang list",
      "cost": "10",
      "tp": "–"
     },
     {
      "item": "Autopistol",
-     "for": "Blight Creed",
+     "for": "Jorah Ashveil",
      "source": "Gang list",
      "cost": "10",
      "tp": "–"
     },
     {
-     "item": "Stub gun",
-     "for": "Tallowborn",
+     "item": "Autogun/flamer combi",
+     "for": "Blight Creed",
      "source": "Gang list",
-     "cost": "5",
-     "tp": "–"
-    },
-    {
-     "item": "Long rifle",
-     "for": "Blessed Filth",
-     "source": "Gang list",
-     "cost": "55",
+     "cost": "75",
      "tp": "–"
     }
    ],
    "tradingTotal": {
     "recruit": [
-     "135",
+     "115",
      "–"
     ],
     "purchase": [
-     "110",
+     "125",
      "–"
     ],
     "sell": [
@@ -298,7 +285,7 @@
      "–"
     ],
     "total": [
-     "245",
+     "240",
      "0"
     ]
    },

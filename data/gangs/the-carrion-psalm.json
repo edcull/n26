@@ -471,7 +471,7 @@
        "-1",
        "1"
       ],
-      "traits": "{tip:Ammo (6+)}, {tip:Blaze (5)}, {tip:Template}"
+      "traits": "{tip:Ammo (6+)}, {tip:Blaze (5)}, {tip:Template}, {tip:Combi}"
      }
     ],
     "foot": [
@@ -555,7 +555,7 @@
        "-",
        "1"
       ],
-      "traits": "{tip:Rapid Fire (1)}"
+      "traits": "{tip:Rapid Fire (1)}, {tip:Combi}"
      }
     ],
     "foot": [
@@ -686,20 +686,6 @@
    },
    {
     "at": "2-post",
-    "weapons": [
-     {
-      "name": "Long rifle",
-      "profile": [
-       "24\"",
-       "48\"",
-       "4",
-       "-1",
-       "1"
-      ],
-      "traits": "{tip:Knockback (6+)}",
-      "class": "new"
-     }
-    ],
     "foot": [
      {
       "label": "Wargear",
@@ -919,8 +905,8 @@
     "name": "Blight Creed",
     "nameClass": "new-i",
     "portrait": "images/fighters/blight-creed.jpg",
-    "type": "Redemptionist Brethren (Ganger, Fanatic, Gunslinger)",
-    "cost": "60",
+    "type": "Redemptionist Brethren (Ganger, Fanatic, Gunner)",
+    "cost": "115",
     "stats": {
      "M": "5\"",
      "WS": "4+",
@@ -939,71 +925,38 @@
     },
     "weapons": [
      {
-      "name": "Autopistol",
-      "profile": [
-       "4\"",
-       "12\"",
-       "3",
-       "-",
-       "1"
-      ],
-      "traits": "{tip:Light}, {tip:Rapid Fire (1)}"
+      "name": "Autogun/Flamer",
+      "nameClass": "parent"
      },
      {
-      "name": "Autopistol",
+      "class": "sub",
+      "name": "Autogun",
       "profile": [
-       "4\"",
-       "12\"",
+       "8\"",
+       "24\"",
        "3",
        "-",
        "1"
       ],
-      "traits": "{tip:Light}, {tip:Rapid Fire (1)}"
+      "traits": "{tip:Rapid Fire (1)}, {tip:Combi}"
+     },
+     {
+      "class": "sub",
+      "name": "Flamer",
+      "profile": [
+       "T",
+       "-",
+       "4",
+       "-1",
+       "1"
+      ],
+      "traits": "{tip:Ammo (6+)}, {tip:Blaze (5+)}, {tip:Template}, {tip:Combi}"
      }
     ],
     "foot": [
      {
       "label": "Skills",
-      "text": "{tip:Gunfighter}"
-     }
-    ]
-   }
-  ],
-  "tallowborn": [
-   {
-    "at": "2-post",
-    "name": "Tallowborn",
-    "nameClass": "new-i",
-    "portrait": "images/fighters/tallowborn.jpg",
-    "type": "Cawdor Bonepicker (Pious, Prospect)",
-    "cost": "25",
-    "stats": {
-     "M": "6\"",
-     "WS": "5+",
-     "BS": "5+",
-     "S": "3",
-     "T": "3",
-     "W": "1",
-     "I": "4",
-     "A": "1",
-     "Sv": "6+",
-     "Ld": "5",
-     "Cl": "5",
-     "Wil": "5",
-     "Int": "5",
-     "XP": "1"
-    },
-    "weapons": [
-     {
-      "name": "Stub gun",
-      "profile": [
-       "6\"",
-       "12\"",
-       "3",
-       "-",
-       "1"
-      ],
-      "traits": "{tip:Light}"
+      "text": "{tip:Hip-shooting}"
      }
     ]
    }
@@ -1015,7 +968,7 @@
     "nameClass": "new-i",
     "portrait": "images/fighters/jorah-ashveil.jpg",
     "type": "Redemptionist Deacon (Champion, Fanatic)",
-    "cost": "155",
+    "cost": "120",
     "stats": {
      "M": "5\"",
      "WS": "3+",
@@ -1034,21 +987,34 @@
     },
     "weapons": [
      {
-      "name": "Long rifle",
+      "name": "Autopistol",
+      "class": "new",
       "profile": [
-       "24\"",
-       "48\"",
-       "4",
-       "-1",
+       "4\"",
+       "12\"",
+       "3",
+       "-",
        "1"
       ],
-      "traits": "{tip:Knockback (6+)}"
+      "traits": "{tip:Light}, {tip:Rapid Fire (1)}"
+     },
+     {
+      "name": "Autopistol",
+      "class": "new",
+      "profile": [
+       "4\"",
+       "12\"",
+       "3",
+       "-",
+       "1"
+      ],
+      "traits": "{tip:Light}, {tip:Rapid Fire (1)}"
      }
     ],
     "foot": [
      {
       "label": "Skills",
-      "text": "{tip:Fast Shot}"
+      "text": "{tip:Gunfighter}"
      }
     ]
    }
