@@ -1,0 +1,317 @@
+{
+ "page": "battle",
+ "id": "3.1",
+ "title": "Cycle 3.1: The Broken Crown Crusade",
+ "kicker": "Ash and Shadow · Battle report",
+ "cycle": "Cycle 3.1",
+ "name": "The Broken Crown Crusade",
+ "sides": [
+  {
+   "img": "images/gangs/the-carrion-psalm.jpg",
+   "name": "The Carrion Psalm",
+   "note": "10 fighters · 1445 rating"
+  },
+  {
+   "img": "images/gangs/the-midnight-theatre.jpg",
+   "name": "The Midnight Theatre",
+   "note": "11 fighters · 1465 rating"
+  }
+ ],
+ "intro": [],
+ "setup": {
+  "facts": [
+   [
+    "At stake",
+    "The Broken Crown (Collapsed Dome) territory"
+   ],
+   [
+    "Battlefield effect",
+    "Dangerous Footing: a natural 1 on an Agility test also inflicts a Str -, AP -, L1 hit that automatically Wounds with no saves."
+   ],
+   [
+    "Challenger",
+    "{p:The Carrion Psalm}"
+   ],
+   [
+    "Deployment",
+    "Face Off: the winner of a roll-off picks a battlefield edge and their opponent takes the opposite one. Each gang deploys between its own edge and a line 9\" from the centre line. On a 2' table that is a 3\" strip along each edge, 18\" apart."
+   ],
+   [
+    "Objective",
+    "King of the Hive: one objective sits at the centre of the battlefield. In the Check for Victory step of each End phase it scores 1 VP for the gang controlling it, and the first gang to 3 VP wins. If only one gang still has models on the battlefield, they win; if neither does, it is a draw."
+   ],
+   [
+    "Psalm side job",
+    "{p:Crippling Strike:} if, in the Check for Victory step of any End phase, at least half of the enemy models on the battlefield are Seriously Injured or Engaged, the side job is done."
+   ],
+   [
+    "Theatre side job",
+    "{t:Stitch 'Em Up!:} when a fighter makes a Coup de Grâce action against a Seriously Injured enemy, they may plant evidence on them instead of taking them Out of Action. If at least one enemy fighter has evidence planted on them by the end of the battle, the side job is done."
+   ],
+   [
+    "Crews",
+    "Escalating Engagement: both gangs use Hybrid (3+D3) for their starting crew, then bring on Reinforcements (5), D3 each round from the first.<br/>{p:Psalm:} Hybrid (3+2): 5 fighters to start, 10 in all with reinforcements<br/>{t:Theatre:} Hybrid (3+3): 6 fighters to start, 11 in all with reinforcements"
+   ]
+  ],
+  "blocks": []
+ },
+ "gangs": [
+  {
+   "class": "psalm",
+   "portrait": "images/gangs/the-carrion-psalm.jpg",
+   "name": "The Carrion Psalm",
+   "house": "House Cawdor",
+   "blocks": [
+    {
+     "sheet": [
+      [
+       "Rating",
+       "1445"
+      ],
+      [
+       "Reputation",
+       "4"
+      ],
+      [
+       "Credits",
+       "5"
+      ],
+      [
+       "Gang size",
+       "10"
+      ]
+     ],
+     "class": ""
+    },
+    {
+     "assets": [
+      {
+       "label": "Territories",
+       "chips": [
+        {
+         "tip": "Tallow Wick (Settlement)"
+        },
+        {
+         "tip": "Turbine 10.2 (Generatorium)"
+        },
+        {
+         "tip": "Banewaters (Synth Still)"
+        },
+        {
+         "tip": "Rendermarch (Corpse Farm)"
+        }
+       ]
+      },
+      {
+       "label": "Gang tactics",
+       "chips": [
+        {
+         "tip": "Suppressing Fire"
+        },
+        {
+         "tip": "Hidden Stash"
+        },
+        {
+         "tip": "Adrenaline Surge"
+        },
+        {
+         "tip": "Grenade Bouquet"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "todo": "Starting crew and reinforcements to come."
+    },
+    {
+     "panel": "Roster (10)",
+     "class": "crew-panel",
+     "fighters": [
+      {
+       "id": "mordecai"
+      },
+      {
+       "id": "ezekiel-crows"
+      },
+      {
+       "id": "elijah-emberchoir"
+      },
+      {
+       "id": "jorah-ashveil"
+      },
+      {
+       "id": "vermin-pyre"
+      },
+      {
+       "id": "blessed-filth"
+      },
+      {
+       "id": "gutter-cantor"
+      },
+      {
+       "id": "blight-creed"
+      },
+      {
+       "id": "ratsong"
+      },
+      {
+       "id": "deus-and-amen"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "class": "theatre",
+   "portrait": "images/gangs/the-midnight-theatre.jpg",
+   "name": "The Midnight Theatre",
+   "house": "House Delaque",
+   "blocks": [
+    {
+     "sheet": [
+      [
+       "Rating",
+       "1465"
+      ],
+      [
+       "Reputation",
+       "3"
+      ],
+      [
+       "Credits",
+       "10"
+      ],
+      [
+       "Gang size",
+       "11"
+      ]
+     ],
+     "class": ""
+    },
+    {
+     "assets": [
+      {
+       "label": "Territories",
+       "chips": [
+        {
+         "tip": "Heaviside Hab-layer (Settlement)"
+        },
+        {
+         "tip": "Rippershop (Rogue Doc Shop)"
+        },
+        {
+         "tip": "Pyroclave (Promethium Cache)"
+        },
+        {
+         "tip": "Hollowpoint (Bullet Den)"
+        }
+       ]
+      },
+      {
+       "label": "Gang tactics",
+       "chips": [
+        {
+         "tip": "You!"
+        },
+        {
+         "tip": "Crossfire"
+        },
+        {
+         "tip": "Adrenaline Surge"
+        },
+        {
+         "tip": "Thunderous Charge"
+        },
+        {
+         "tip": "Rapid Fire"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "todo": "Starting crew and reinforcements to come."
+    },
+    {
+     "panel": "Roster (11)",
+     "class": "crew-panel",
+     "fighters": [
+      {
+       "id": "deuteronomy"
+      },
+      {
+       "id": "demeter"
+      },
+      {
+       "id": "macavity"
+      },
+      {
+       "id": "pouncival"
+      },
+      {
+       "id": "rumpleteaser"
+      },
+      {
+       "id": "mungojerrie"
+      },
+      {
+       "id": "munkustrap"
+      },
+      {
+       "id": "jellylorum"
+      },
+      {
+       "id": "growltiger"
+      },
+      {
+       "id": "mistoffelees"
+      },
+      {
+       "id": "rumpus"
+      },
+      {
+       "id": "wit"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "popovers": [],
+ "rounds": [],
+ "turnsBlocks": [
+  {
+   "todo": "To come."
+  }
+ ],
+ "aftermath": [
+  {
+   "todo": "To come."
+  }
+ ],
+ "nav": [
+  {
+   "href": "#intro",
+   "text": "Intro",
+   "class": "nav-intro"
+  },
+  {
+   "href": "#setup",
+   "text": "Setup"
+  },
+  {
+   "href": "#gangs",
+   "text": "Gang lists"
+  },
+  {
+   "href": "#turns",
+   "text": "Turn by turn"
+  },
+  {
+   "href": "#aftermath",
+   "text": "Aftermath"
+  }
+ ],
+ "roster": "3.1"
+}
