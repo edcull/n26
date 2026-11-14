@@ -31,13 +31,29 @@
    [
     "Challenger",
     "{p:The Carrion Psalm}"
+   ],
+   [
+    "Deployment",
+    "Face Off: the winner of a roll-off picks a battlefield edge and their opponent takes the opposite one. Each gang deploys between its own edge and a line 9\" from the centre line. On a 2' table that is a 3\" strip along each edge, 18\" apart."
+   ],
+   [
+    "Objective",
+    "King of the Hive: one objective sits at the centre of the battlefield. In the Check for Victory step of each End phase it scores 1 VP for the gang controlling it, and the first gang to 3 VP wins. If only one gang still has models on the battlefield, they win; if neither does, it is a draw."
+   ],
+   [
+    "Psalm side job",
+    "{p:Crippling Strike:} if, in the Check for Victory step of any End phase, at least half of the enemy models on the battlefield are Seriously Injured or Engaged, the side job is done."
+   ],
+   [
+    "Theatre side job",
+    "{t:Stitch 'Em Up:} details to come."
+   ],
+   [
+    "Crews",
+    "Escalating: details to come."
    ]
   ],
-  "blocks": [
-   {
-    "todo": "Scenario to come."
-   }
-  ]
+  "blocks": []
  },
  "gangs": [],
  "popovers": [],
