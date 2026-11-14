@@ -9,12 +9,12 @@
   {
    "img": "images/gangs/the-carrion-psalm.jpg",
    "name": "The Carrion Psalm",
-   "note": "House Cawdor"
+   "note": "10 fighters · 1445 rating"
   },
   {
    "img": "images/gangs/the-midnight-theatre.jpg",
    "name": "The Midnight Theatre",
-   "note": "House Delaque"
+   "note": "11 fighters · 1465 rating"
   }
  ],
  "intro": [],
@@ -55,7 +55,229 @@
   ],
   "blocks": []
  },
- "gangs": [],
+ "gangs": [
+  {
+   "class": "psalm",
+   "portrait": "images/gangs/the-carrion-psalm.jpg",
+   "name": "The Carrion Psalm",
+   "house": "House Cawdor",
+   "blocks": [
+    {
+     "sheet": [
+      [
+       "Rating",
+       "1445"
+      ],
+      [
+       "Reputation",
+       "4"
+      ],
+      [
+       "Credits",
+       "5"
+      ],
+      [
+       "Gang size",
+       "10"
+      ]
+     ],
+     "class": ""
+    },
+    {
+     "assets": [
+      {
+       "label": "Territories",
+       "chips": [
+        {
+         "tip": "Tallow Wick (Settlement)"
+        },
+        {
+         "tip": "Turbine 10.2 (Generatorium)"
+        },
+        {
+         "tip": "Banewaters (Synth Still)"
+        },
+        {
+         "tip": "Rendermarch (Corpse Farm)"
+        }
+       ]
+      },
+      {
+       "label": "Gang tactics",
+       "chips": [
+        {
+         "tip": "Suppressing Fire"
+        },
+        {
+         "tip": "Hidden Stash"
+        },
+        {
+         "tip": "Adrenaline Surge"
+        },
+        {
+         "tip": "Grenade Bouquet"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "todo": "Starting crew and reinforcements to come."
+    },
+    {
+     "panel": "Roster (10)",
+     "class": "crew-panel",
+     "fighters": [
+      {
+       "id": "mordecai"
+      },
+      {
+       "id": "ezekiel-crows"
+      },
+      {
+       "id": "elijah-emberchoir"
+      },
+      {
+       "id": "jorah-ashveil"
+      },
+      {
+       "id": "vermin-pyre"
+      },
+      {
+       "id": "blessed-filth"
+      },
+      {
+       "id": "gutter-cantor"
+      },
+      {
+       "id": "blight-creed"
+      },
+      {
+       "id": "ratsong"
+      },
+      {
+       "id": "deus-and-amen"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "class": "theatre",
+   "portrait": "images/gangs/the-midnight-theatre.jpg",
+   "name": "The Midnight Theatre",
+   "house": "House Delaque",
+   "blocks": [
+    {
+     "sheet": [
+      [
+       "Rating",
+       "1465"
+      ],
+      [
+       "Reputation",
+       "3"
+      ],
+      [
+       "Credits",
+       "10"
+      ],
+      [
+       "Gang size",
+       "11"
+      ]
+     ],
+     "class": ""
+    },
+    {
+     "assets": [
+      {
+       "label": "Territories",
+       "chips": [
+        {
+         "tip": "Heaviside Hab-layer (Settlement)"
+        },
+        {
+         "tip": "Rippershop (Rogue Doc Shop)"
+        },
+        {
+         "tip": "Pyroclave (Promethium Cache)"
+        },
+        {
+         "tip": "Hollowpoint (Bullet Den)"
+        }
+       ]
+      },
+      {
+       "label": "Gang tactics",
+       "chips": [
+        {
+         "tip": "You!"
+        },
+        {
+         "tip": "Crossfire"
+        },
+        {
+         "tip": "Adrenaline Surge"
+        },
+        {
+         "tip": "Thunderous Charge"
+        },
+        {
+         "tip": "Rapid Fire"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "todo": "Starting crew and reinforcements to come."
+    },
+    {
+     "panel": "Roster (11)",
+     "class": "crew-panel",
+     "fighters": [
+      {
+       "id": "deuteronomy"
+      },
+      {
+       "id": "demeter"
+      },
+      {
+       "id": "macavity"
+      },
+      {
+       "id": "pouncival"
+      },
+      {
+       "id": "rumpleteaser"
+      },
+      {
+       "id": "mungojerrie"
+      },
+      {
+       "id": "munkustrap"
+      },
+      {
+       "id": "jellylorum"
+      },
+      {
+       "id": "growltiger"
+      },
+      {
+       "id": "mistoffelees"
+      },
+      {
+       "id": "rumpus"
+      },
+      {
+       "id": "wit"
+      }
+     ]
+    }
+   ]
+  }
+ ],
  "popovers": [],
  "rounds": [],
  "turnsBlocks": [
@@ -90,5 +312,6 @@
    "href": "#aftermath",
    "text": "Aftermath"
   }
- ]
+ ],
+ "roster": "3.1"
 }
