@@ -796,45 +796,6 @@
     ]
    }
   ],
-  "tallowborn": [
-   {
-    "at": "2-post",
-    "name": "Tallowborn",
-    "nameClass": "new-i",
-    "portrait": "images/fighters/tallowborn.jpg",
-    "type": "Cawdor Bonepicker (Pious, Prospect)",
-    "cost": "25",
-    "stats": {
-     "M": "6\"",
-     "WS": "5+",
-     "BS": "5+",
-     "S": "3",
-     "T": "3",
-     "W": "1",
-     "I": "4",
-     "A": "1",
-     "Sv": "6+",
-     "Ld": "5",
-     "Cl": "5",
-     "Wil": "5",
-     "Int": "5",
-     "XP": "1"
-    },
-    "weapons": [
-     {
-      "name": "Stub gun",
-      "profile": [
-       "6\"",
-       "12\"",
-       "3",
-       "-",
-       "1"
-      ],
-      "traits": "{tip:Light}"
-     }
-    ]
-   }
-  ],
   "deus-and-amen": [
    {
     "at": "setup",
@@ -945,7 +906,7 @@
     "nameClass": "new-i",
     "portrait": "images/fighters/blight-creed.jpg",
     "type": "Redemptionist Brethren (Ganger, Fanatic, Gunner)",
-    "cost": "95",
+    "cost": "115",
     "stats": {
      "M": "5\"",
      "WS": "4+",
@@ -964,7 +925,7 @@
     },
     "weapons": [
      {
-      "name": "Autogun/Exterminator",
+      "name": "Autogun/Flamer",
       "nameClass": "parent"
      },
      {
@@ -977,11 +938,11 @@
        "-",
        "1"
       ],
-      "traits": "{tip:Rapid Fire (1)}"
+      "traits": "{tip:Rapid Fire (1)}, {tip:Combi}"
      },
      {
       "class": "sub",
-      "name": "Exterminator",
+      "name": "Flamer",
       "profile": [
        "T",
        "-",
@@ -989,7 +950,7 @@
        "-1",
        "1"
       ],
-      "traits": "{tip:Auxiliary}, {tip:Blaze (5+)}, {tip:Single Shot}, {tip:Template}"
+      "traits": "{tip:Ammo (6+)}, {tip:Blaze (5+)}, {tip:Template}, {tip:Combi}"
      }
     ],
     "foot": [
