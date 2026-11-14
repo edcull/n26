@@ -496,13 +496,15 @@
    {
     "at": "2-post",
     "stats": {
-     "XP": "20",
-     "WS": "3+"
+     "XP": "20"
     },
     "cost": "140",
-    "statClass": {
-     "WS": "adv"
-    }
+    "foot": [
+     {
+      "label": "Skills",
+      "text": "{tip:Hip-shooting}, {tip.new-i.sk-adv:Nerves of Steel}"
+     }
+    ]
    }
   ],
   "gutter-cantor": [
