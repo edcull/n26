@@ -107,7 +107,7 @@
     "css/site.css",
     "css/pages/2.2.css"
    ],
-   "title": "Cycle 3.1"
+   "title": "Cycle 3.1: The Broken Crown Clash"
   },
   "3.2": {
    "template": "battle",
@@ -116,7 +116,7 @@
     "css/site.css",
     "css/pages/2.2.css"
    ],
-   "title": "Cycle 3.2"
+   "title": "Cycle 3.2: The Wormways War"
   },
   "3-post": {
    "template": "post",

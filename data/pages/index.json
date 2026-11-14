@@ -225,9 +225,8 @@
       "placeholder": "Photo to come",
       "info": [
        {
-        "tag": "span",
-        "html": "Cycle 3.1",
-        "class": "num"
+        "tag": "h3",
+        "html": "The Broken Crown Clash"
        },
        {
         "tag": "p",
@@ -248,9 +247,8 @@
       "placeholder": "Photo to come",
       "info": [
        {
-        "tag": "span",
-        "html": "Cycle 3.2",
-        "class": "num"
+        "tag": "h3",
+        "html": "The Wormways War"
        },
        {
         "tag": "p",
