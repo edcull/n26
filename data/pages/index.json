@@ -231,7 +231,12 @@
        },
        {
         "tag": "p",
-        "html": "Battle to come",
+        "html": "{p:The Carrion Psalm} <span class=\"vs\">challenge</span> {t:The Midnight Theatre}",
+        "class": "meta"
+       },
+       {
+        "tag": "p",
+        "html": "Stakes: The Broken Crown (Collapsed Dome)",
         "class": "meta"
        }
       ]
@@ -249,7 +254,12 @@
        },
        {
         "tag": "p",
-        "html": "Battle to come",
+        "html": "{t:The Midnight Theatre} <span class=\"vs\">challenge</span> {p:The Carrion Psalm}",
+        "class": "meta"
+       },
+       {
+        "tag": "p",
+        "html": "Stakes: The Wormways (Tunnels)",
         "class": "meta"
        }
       ]

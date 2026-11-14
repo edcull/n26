@@ -19,8 +19,25 @@
  ],
  "intro": [],
  "setup": {
-  "facts": [],
-  "blocks": []
+  "facts": [
+   [
+    "At stake",
+    "The Broken Crown (Collapsed Dome) territory"
+   ],
+   [
+    "Battlefield effect",
+    "Dangerous Footing: a natural 1 on an Agility test also inflicts a Str -, AP -, L1 hit that automatically Wounds with no saves."
+   ],
+   [
+    "Challenger",
+    "{p:The Carrion Psalm}"
+   ]
+  ],
+  "blocks": [
+   {
+    "todo": "Scenario to come."
+   }
+  ]
  },
  "gangs": [],
  "popovers": [],

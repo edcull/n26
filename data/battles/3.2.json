@@ -19,8 +19,25 @@
  ],
  "intro": [],
  "setup": {
-  "facts": [],
-  "blocks": []
+  "facts": [
+   [
+    "At stake",
+    "The Wormways (Tunnels) territory"
+   ],
+   [
+    "Battlefield effect",
+    "Twisting Tunnels: the Tunnel Warfare rule is in effect."
+   ],
+   [
+    "Challenger",
+    "{t:The Midnight Theatre}"
+   ]
+  ],
+  "blocks": [
+   {
+    "todo": "Scenario to come."
+   }
+  ]
  },
  "gangs": [],
  "popovers": [],
