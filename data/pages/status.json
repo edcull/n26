@@ -9,7 +9,7 @@
    {
     "img": "images/gangs/the-carrion-psalm.jpg",
     "name": "The Carrion Psalm",
-    "note": "House Cawdor · 1450 rating"
+    "note": "House Cawdor · 1445 rating"
    },
    {
     "img": "images/gangs/the-midnight-theatre.jpg",
@@ -597,7 +597,7 @@
          "sheet": [
           [
            "Rating",
-           "1450"
+           "1445"
           ],
           [
            "Reputation",
@@ -605,11 +605,11 @@
           ],
           [
            "Credits",
-           "0"
+           "5"
           ],
           [
            "Gang size",
-           "11"
+           "10"
           ]
          ],
          "class": ""
@@ -680,9 +680,6 @@
           },
           {
            "id": "ratsong"
-          },
-          {
-           "id": "tallowborn"
           },
           {
            "id": "deus-and-amen"
