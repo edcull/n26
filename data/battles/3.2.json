@@ -1,0 +1,61 @@
+{
+ "page": "battle",
+ "id": "3.2",
+ "title": "Cycle 3.2",
+ "kicker": "Ash and Shadow · Battle report",
+ "cycle": "Cycle 3.2",
+ "name": "Battle to come",
+ "sides": [
+  {
+   "img": "images/gangs/the-carrion-psalm.jpg",
+   "name": "The Carrion Psalm",
+   "note": "House Cawdor"
+  },
+  {
+   "img": "images/gangs/the-midnight-theatre.jpg",
+   "name": "The Midnight Theatre",
+   "note": "House Delaque"
+  }
+ ],
+ "intro": [],
+ "setup": {
+  "facts": [],
+  "blocks": []
+ },
+ "gangs": [],
+ "popovers": [],
+ "rounds": [],
+ "turnsBlocks": [
+  {
+   "todo": "To come."
+  }
+ ],
+ "aftermath": [
+  {
+   "todo": "To come."
+  }
+ ],
+ "nav": [
+  {
+   "href": "#intro",
+   "text": "Intro",
+   "class": "nav-intro"
+  },
+  {
+   "href": "#setup",
+   "text": "Setup"
+  },
+  {
+   "href": "#gangs",
+   "text": "Gang lists"
+  },
+  {
+   "href": "#turns",
+   "text": "Turn by turn"
+  },
+  {
+   "href": "#aftermath",
+   "text": "Aftermath"
+  }
+ ]
+}

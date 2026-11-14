@@ -211,6 +211,69 @@
      }
     }
    ]
+  },
+  {
+   "h2": "Cycle 3"
+  },
+  {
+   "tag": "div",
+   "class": "battles",
+   "children": [
+    {
+     "card": {
+      "page": "3.1",
+      "placeholder": "Photo to come",
+      "info": [
+       {
+        "tag": "span",
+        "html": "Cycle 3.1",
+        "class": "num"
+       },
+       {
+        "tag": "p",
+        "html": "Battle to come",
+        "class": "meta"
+       }
+      ]
+     }
+    },
+    {
+     "card": {
+      "page": "3.2",
+      "placeholder": "Photo to come",
+      "info": [
+       {
+        "tag": "span",
+        "html": "Cycle 3.2",
+        "class": "num"
+       },
+       {
+        "tag": "p",
+        "html": "Battle to come",
+        "class": "meta"
+       }
+      ]
+     }
+    },
+    {
+     "card": {
+      "page": "3-post",
+      "placeholder": "Photo to come",
+      "info": [
+       {
+        "tag": "span",
+        "html": "Post-cycle phase",
+        "class": "num"
+       },
+       {
+        "tag": "p",
+        "html": "Actions · Income · Advancements · Trading post · Rosters",
+        "class": "meta"
+       }
+      ]
+     }
+    }
+   ]
   }
  ]
 }

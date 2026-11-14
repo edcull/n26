@@ -1,0 +1,23 @@
+{
+ "page": "post",
+ "id": "3-post",
+ "title": "Cycle 3 Post-cycle",
+ "hero": {
+  "kicker": "Ash and Shadow",
+  "cycle": "Cycle 3",
+  "name": "Post-cycle phase",
+  "sides": [
+   {
+    "img": "images/gangs/the-carrion-psalm.jpg",
+    "name": "The Carrion Psalm",
+    "note": "House Cawdor"
+   },
+   {
+    "img": "images/gangs/the-midnight-theatre.jpg",
+    "name": "The Midnight Theatre",
+    "note": "House Delaque"
+   }
+  ]
+ },
+ "todo": true
+}

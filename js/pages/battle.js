@@ -42,6 +42,9 @@ function round(r, d) {
       </article>`;
 }
 
+// A battle not yet played: empty sections say so.
+const TODO = '<p class="todo">To come.</p>';
+
 export function render(d) {
   document.title = d.title;
   const gangOf = {};
@@ -57,19 +60,19 @@ export function render(d) {
 <main class="wrap">
   <section id="intro">
     <h2>${esc(d.introHeading ?? 'Intro')}</h2>
-    <div class="prose">${join(d.intro, p => `<p>${md(p)}</p>`)}</div>
+    ${d.intro.length ? `<div class="prose">${join(d.intro, p => `<p>${md(p)}</p>`)}</div>` : TODO}
   </section>
   <section id="setup">
     <h2>Setup</h2>
-    <div class="setup">
+    ${d.setup.facts.length ? `<div class="setup">
       <dl class="facts">${join(d.setup.facts, ([k, v]) => `<div><dt>${md(k)}</dt><dd>${md(v)}</dd></div>`)}</dl>
       ${blocks(d.setup.blocks)}
-    </div>
+    </div>` : TODO}
     ${blocks(d.setupAfter || [])}
   </section>
   <section id="gangs">
     <h2>Gang lists</h2>
-    <div class="gangs">${join(d.gangs, g => gang(g, d))}</div>
+    ${d.gangs.length ? `<div class="gangs">${join(d.gangs, g => gang(g, d))}</div>` : TODO}
   </section>
   <section id="turns">
     <h2>Turn by turn</h2>
