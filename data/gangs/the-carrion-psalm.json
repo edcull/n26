@@ -907,7 +907,7 @@
     "name": "Blight Creed",
     "nameClass": "new-i",
     "portrait": "images/fighters/blight-creed.jpg",
-    "type": "Redemptionist Brethren (Ganger, Fanatic, Gunner)",
+    "type": "Cawdor Brethren (Ganger, Pious, Gunner)",
     "cost": "115",
     "stats": {
      "M": "5\"",
@@ -920,9 +920,9 @@
      "A": "1",
      "Sv": "6+",
      "Ld": "6",
-     "Cl": "7",
-     "Wil": "7",
-     "Int": "5",
+     "Cl": "6",
+     "Wil": "6",
+     "Int": "6",
      "XP": "13"
     },
     "weapons": [
