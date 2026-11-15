@@ -344,3 +344,4 @@ img{max-width:100%}
 /* fighter on an upper floor: numbered tag on the token */
 .lv-b { fill: var(--ink); stroke: var(--bg); stroke-width: 1.5; }
 .lv-t { fill: var(--bg); font-family: var(--label); font-size: 10px; font-weight: 700; text-anchor: middle; }
+.m-plat-up { fill: var(--ink); fill-opacity: .1; stroke: var(--ink); stroke-width: 1.5; stroke-dasharray: 4 4; }
