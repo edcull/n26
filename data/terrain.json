@@ -71,7 +71,7 @@
   },
   "round-platform-2": {
    "name": "Round platform (two levels)",
-   "note": "The round platform with a second 7\" deck stacked above the first; both decks drawn, the upper one lighter. Ladders are separate pieces.",
+   "note": "The round platform with a second 7\" deck stacked above, covering the tower, so it is drawn as one deck with no tower circle. Ladders are separate pieces.",
    "label": "Smoke stack",
    "labelAt": [
     0.0,
@@ -85,24 +85,6 @@
       "cx": "0",
       "cy": "0",
       "r": "87.5"
-     }
-    ],
-    [
-     "circle",
-     {
-      "class": "m-plat-up",
-      "cx": "0",
-      "cy": "0",
-      "r": "80"
-     }
-    ],
-    [
-     "circle",
-     {
-      "class": "m-tower",
-      "cx": "0",
-      "cy": "0",
-      "r": "37.5"
      }
     ]
    ]
