@@ -50,7 +50,7 @@ export function render(d) {
     </section>
   </div>
   <figure class="map mm-map"><div id="mm-svg"></div>
-    <figcaption>Arrow keys nudge the selected piece ¼" (with Shift, 1"). Q and E turn it 15°, R turns it 90°, Delete removes it.</figcaption></figure>
+    <figcaption>Arrow keys nudge the selected piece ¼" (hold Shift to move it a single step). Q and E turn it 15°, R turns it 90°, Delete removes it.</figcaption></figure>
 </main>
 `;
 }
@@ -160,7 +160,7 @@ export function mount(d) {
 
   document.addEventListener('keydown', e => {
     if (sel < 0 || /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) return;
-    const p = state.terrain[sel], step = e.shiftKey ? INCH : 6.25;
+    const p = state.terrain[sel], step = e.shiftKey ? 1 : 6.25;   // Shift: one map unit (1/25"), for fine placing
     const mv = { ArrowLeft: [-step, 0], ArrowRight: [step, 0], ArrowUp: [0, -step], ArrowDown: [0, step] }[e.key];
     if (mv) { p.at = [r2(p.at[0] + mv[0]), r2(p.at[1] + mv[1])]; delete p.labelAt; draw(); e.preventDefault(); return; }
     if (e.key === 'q' || e.key === 'Q') turn(-15);
