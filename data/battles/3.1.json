@@ -293,7 +293,7 @@
     {
      "map": {
       "viewBox": "-14 -24 628 668",
-      "label": "Top-down map of the Cycle 3.1 table: a hex platform and containers in the north-west, a ruin in the north-east, the two-level smoke stack on the east side joined by walkways, the hex tower in the south-west and ruins along the south edge, with the objective at the centre.",
+      "label": "Top-down map of the Cycle 3.1 table: the platform and containers in the north-west with ruins beside them, the Ruined Manufactorium in the north-east, the Air Filters on the east side joined to the centre by walkways, the Stacks tower in the south-west, ruins along the south edge and the Ruined Tanks in the south-east, with the objective at the centre.",
       "caption": "The table",
       "items": [
        {
@@ -316,141 +316,229 @@
  "roster": "3.1",
  "terrain": [
   {
-   "piece": "container",
+   "piece": "gothic-ruin-large",
    "at": [
-    25,
-    82
+    250,
+    100
    ],
-   "turn": 90
-  },
-  {
-   "piece": "container",
-   "at": [
-    30,
-    231
-   ],
-   "turn": 90,
-   "label": "Containers",
-   "labelAt": [
-    30,
-    236
-   ]
-  },
-  {
-   "piece": "hex-platform",
-   "at": [
-    170,
-    139
-   ],
-   "label": "Platform",
-   "labelAt": [
-    170,
-    145
-   ]
-  },
-  {
-   "piece": "stairs",
-   "at": [
-    170,
-    291
-   ],
-   "turn": 90
-  },
-  {
-   "piece": "tank",
-   "at": [
-    292,
-    306
-   ],
-   "turn": 90,
-   "label": false
-  },
-  {
-   "piece": "rubble-block",
-   "at": [
-    39,
-    366
-   ]
-  },
-  {
-   "piece": "walkway",
-   "at": [
-    340,
-    216
-   ],
-   "turn": 24,
-   "label": false
-  },
-  {
-   "piece": "walkway",
-   "at": [
-    281,
-    417
-   ],
-   "turn": -28,
-   "label": false
-  },
-  {
-   "piece": "walkway",
-   "at": [
-    395,
-    355
-   ],
-   "turn": -28,
-   "label": false
+   "label": "Ruins"
   },
   {
    "piece": "round-platform-2",
    "at": [
-    510,
-    294
+    462.5,
+    312.5
    ],
-   "label": "Smoke stack"
+   "label": "Air Filters"
+  },
+  {
+   "piece": "rendering-vats",
+   "at": [
+    475,
+    500
+   ],
+   "turn": 90,
+   "label": "Ruined Tanks"
   },
   {
    "piece": "walled-ruin",
    "at": [
-    493,
-    100
+    475,
+    112.5
    ],
-   "label": "Ruin",
-   "labelAt": [
-    493,
-    60
+   "label": "Ruined Manufactorium"
+  },
+  {
+   "piece": "wall-large",
+   "at": [
+    212.5,
+    418.75
    ]
   },
   {
-   "piece": "gothic-ruin-large",
+   "piece": "wall-small",
    "at": [
-    498,
-    519
+    325,
+    237.5
    ],
-   "turn": 90,
-   "label": "Ruin",
-   "labelAt": [
-    498,
-    524
+   "turn": -90
+  },
+  {
+   "piece": "tank",
+   "at": [
+    243.75,
+    318.75
    ]
+  },
+  {
+   "piece": "container",
+   "at": [
+    25,
+    93.75
+   ],
+   "turn": -90
+  },
+  {
+   "piece": "container",
+   "at": [
+    43.75,
+    250
+   ],
+   "turn": 105
   },
   {
    "piece": "gothic-ruin-small",
    "at": [
-    307,
-    516
+    262.5,
+    506.25
    ],
-   "label": "Ruin",
-   "labelAt": [
-    300,
-    520
+   "turn": 180,
+   "label": "Ruins"
+  },
+  {
+   "piece": "walkway",
+   "at": [
+    306.25,
+    231.25
+   ],
+   "turn": 30,
+   "label": false
+  },
+  {
+   "piece": "barricade",
+   "at": [
+    143.75,
+    525
    ]
+  },
+  {
+   "piece": "container",
+   "at": [
+    50,
+    243.75
+   ],
+   "stacked": true,
+   "turn": 75
+  },
+  {
+   "piece": "barricade",
+   "at": [
+    106.25,
+    462.5
+   ],
+   "turn": 120
+  },
+  {
+   "piece": "barricade",
+   "at": [
+    181.25,
+    462.5
+   ],
+   "turn": 60
+  },
+  {
+   "piece": "hex-platform",
+   "at": [
+    143.75,
+    137.5
+   ],
+   "label": "Platform"
+  },
+  {
+   "piece": "walkway",
+   "at": [
+    306.25,
+    393.75
+   ],
+   "turn": -30,
+   "label": false
   },
   {
    "piece": "hex-tower-2",
    "at": [
-    167,
-    478
+    143.75,
+    481.25
    ],
-   "label": "Tower"
+   "turn": -60,
+   "label": "The Stacks"
+  },
+  {
+   "piece": "stairs",
+   "at": [
+    143.75,
+    293.75
+   ],
+   "turn": 90,
+   "label": false
+  },
+  {
+   "piece": "ladder",
+   "at": [
+    462.5,
+    225
+   ],
+   "turn": -15
+  },
+  {
+   "piece": "ladder",
+   "at": [
+    475,
+    406.25
+   ]
+  },
+  {
+   "piece": "ladder",
+   "at": [
+    475,
+    418.75
+   ]
+  },
+  {
+   "piece": "ladder",
+   "at": [
+    456.25,
+    212.5
+   ],
+   "turn": -15
+  },
+  {
+   "piece": "rubble-block",
+   "at": [
+    43.75,
+    375
+   ]
+  },
+  {
+   "piece": "ladder",
+   "at": [
+    287.5,
+    262.5
+   ],
+   "turn": 30
+  },
+  {
+   "piece": "ladder",
+   "at": [
+    218.75,
+    62.5
+   ],
+   "turn": 60
+  },
+  {
+   "piece": "ladder",
+   "at": [
+    231.25,
+    81.25
+   ],
+   "turn": 60
+  },
+  {
+   "piece": "ladder",
+   "at": [
+    62.5,
+    206.25
+   ],
+   "turn": 60
   }
  ],
  "board": {
