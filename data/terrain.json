@@ -111,6 +111,33 @@
    ],
    "note": "8\" across the flats and 9\" point to point, with a 4\" tower in the middle."
   },
+  "hex-tower-2": {
+   "name": "Hex tower (two levels)",
+   "note": "A hexagonal tower on legs, about 8\" across the flats like the hex platform, with two decks one above the other and a 2\" hole in the middle of the top deck. Drawn as one deck with the hole; level tags show which deck a fighter is on.",
+   "label": "Tower",
+   "labelAt": [
+    0,
+    60
+   ],
+   "els": [
+    [
+     "polygon",
+     {
+      "class": "m-plat",
+      "points": "112.5,0 56.25,-100 -56.25,-100 -112.5,0 -56.25,100 56.25,100"
+     }
+    ],
+    [
+     "circle",
+     {
+      "class": "m-tower",
+      "cx": "0",
+      "cy": "0",
+      "r": "25"
+     }
+    ]
+   ]
+  },
   "walled-ruin": {
    "name": "Walled ruin",
    "note": "8\" by 8\". A raised floor runs along one wall, 3\" deep at the ends and 2\" in the middle, with a 3\" by 2\" upper floor in one corner. Thick walls round the raised floor, thin walls round the open floor.",
