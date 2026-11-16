@@ -30,3 +30,5 @@
 .mm-labels { pointer-events: none; }
 @media (min-width: 60rem) { .mm-map { position: sticky; top: 3.75rem; } }
 .mm-loose { pointer-events: none; }
+.mm-f { cursor: grab; }
+.mm-f.sel circle:first-child { stroke: var(--sodium); stroke-width: 3; }

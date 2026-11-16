@@ -63,7 +63,7 @@ export function labelsSvg(terrain, lib, marks) {
 
 // A fighter on an upper floor: a small numbered tag beside the token, 1 = first floor, 2 = second.
 // It sits at the token's lower left unless a badge or another token is there, then tries the other corners and sides.
-function levelMark(x, y, r, lv) {
+export function levelMark(x, y, r, lv) {
   const d = r * 0.95, s = r + 3;
   const spots = [[-d, d], [-d, -d], [d, d], [d, -d], [-s, 0], [s, 0], [0, s], [0, -s]];
   const clear = ([dx, dy]) => (item.marks || []).every(m => m.box || (m.x === x && m.y === y) || Math.hypot(m.x - (x + dx), m.y - (y + dy)) >= m.r + 6);
