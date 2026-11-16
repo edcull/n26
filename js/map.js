@@ -1,6 +1,6 @@
 // Battle maps, built from data:
 //   battle.board  - named runs of SVG elements shared by every map of the battle (terrain, labels, ticks)
-//   map.items     - in drawing order: {board:name} | {clip:[...]} | {tok} fighter token | {b} status badge
+//   map.items     - in drawing order: {board:name} | {clip:[...]} | {tok} fighter token (lv: 1|2 for an upper floor) | {b} status badge
 //                   | {ooa:[x,y]} Out of Action skull | {el:[tag, attrs, text|children]} any other SVG element
 //   map.caption   - {text, key:[[badgeKind, letter, label], ...]} or plain markup
 // Terrain is built from placed pieces (data/terrain.json):
@@ -61,6 +61,13 @@ function labelsSvg(terrain, lib, marks) {
   });
 }
 
+// A fighter on an upper floor: a small numbered tag on the token's upper left, 1 = first floor, 2 = second.
+function levelMark(x, y, r, lv) {
+  const cx = +(x - r * 0.95).toFixed(2), cy = +(y - r * 0.95).toFixed(2);
+  return `<g class="lv" aria-label="Level ${esc(String(lv))}"><rect class="lv-b" x="${n(+(cx - 6).toFixed(2))}" y="${n(+(cy - 6).toFixed(2))}" width="12" height="12" rx="2"/>` +
+    `<text class="lv-t" x="${n(cx)}" y="${n(+(cy + 4).toFixed(2))}">${esc(String(lv))}</text></g>`;
+}
+
 function item(it, board) {
   if (it.board) return join(board[it.board], e => e.pieces ? join(item.terrain || [], p => pieceSvg(p, item.lib))
     : e.labels ? labelsSvg(item.terrain || [], item.lib, item.marks) : svgEl(e));
@@ -68,7 +75,8 @@ function item(it, board) {
   if (it.tok) {
     const t = it.tok;
     return `<circle class="tok-${t.s}" cx="${n(t.x)}" cy="${n(t.y)}" r="${n(t.r ?? 12.5)}"/>` +
-      `<text class="${t.tc ?? (t.t.length > 1 ? 'tok-n two' : 'tok-n')}" x="${n(t.x)}" y="${n(t.ty ?? +(t.y + 5.5).toFixed(2))}">${esc(t.t)}</text>`;
+      `<text class="${t.tc ?? (t.t.length > 1 ? 'tok-n two' : 'tok-n')}" x="${n(t.x)}" y="${n(t.ty ?? +(t.y + 5.5).toFixed(2))}">${esc(t.t)}</text>` +
+      (t.lv ? levelMark(+t.x, +t.y, +(t.r ?? 12.5), t.lv) : '');
   }
   if (it.b) {
     const b = it.b;

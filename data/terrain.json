@@ -69,6 +69,26 @@
    ],
    "note": "7\" across, with a 3\" tower in the middle."
   },
+  "round-platform-2": {
+   "name": "Round platform (two levels)",
+   "note": "The round platform with a second 7\" deck stacked above, covering the tower, so it is drawn as one deck with no tower circle. Ladders are separate pieces.",
+   "label": "Smoke stack",
+   "labelAt": [
+    0.0,
+    3.2
+   ],
+   "els": [
+    [
+     "circle",
+     {
+      "class": "m-plat",
+      "cx": "0",
+      "cy": "0",
+      "r": "87.5"
+     }
+    ]
+   ]
+  },
   "hex-platform": {
    "name": "Hex platform",
    "els": [
@@ -90,6 +110,93 @@
     ]
    ],
    "note": "8\" across the flats and 9\" point to point, with a 4\" tower in the middle."
+  },
+  "hex-tower-2": {
+   "name": "Hex tower (two levels)",
+   "note": "A hexagonal tower on legs, about 8\" across the flats like the hex platform, with two decks one above the other and a 2.25\" hole in the middle of the top deck. Two built-in ladders run up through hatches either side of the hole. Drawn as one deck with the hole; level tags show which deck a fighter is on.",
+   "label": "Tower",
+   "labelAt": [
+    0,
+    3.2
+   ],
+   "els": [
+    [
+     "polygon",
+     {
+      "class": "m-plat",
+      "points": "112.5,0 56.25,-100 -56.25,-100 -112.5,0 -56.25,100 56.25,100"
+     }
+    ],
+    [
+     "circle",
+     {
+      "class": "m-tower",
+      "cx": "0",
+      "cy": "0",
+      "r": "28.125"
+     }
+    ],
+    [
+     "circle",
+     {
+      "class": "m-hatch",
+      "cx": "0",
+      "cy": "-62",
+      "r": "18"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-rungs",
+      "points": "0,-87.5 0,-72.5"
+     }
+    ],
+    [
+     "circle",
+     {
+      "class": "m-hatch",
+      "cx": "0",
+      "cy": "62",
+      "r": "18"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-rungs",
+      "points": "0,72.5 0,87.5"
+     }
+    ]
+   ]
+  },
+  "walkway": {
+   "name": "Walkway",
+   "note": "7\" by 2.5\", a raised walkway on legs in three equal sections, railed at the corners.",
+   "label": "Walkway",
+   "labelAt": [
+    0,
+    3.2
+   ],
+   "els": [
+    [
+     "rect",
+     {
+      "class": "m-plat",
+      "x": "-87.5",
+      "y": "-31.25",
+      "width": "175",
+      "height": "62.5"
+     }
+    ],
+    [
+     "path",
+     {
+      "class": "m-seam",
+      "d": "M-29.17 -31.25V31.25 M29.17 -31.25V31.25"
+     }
+    ]
+   ]
   },
   "walled-ruin": {
    "name": "Walled ruin",

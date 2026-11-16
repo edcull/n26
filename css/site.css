@@ -340,3 +340,8 @@ img{max-width:100%}
 .act-work { color: #8ccbee; font-weight: 600; }
 .act-crit { color: #ff5a4a; font-weight: 600; }
 .act-capt { color: #ff5a4a; font-weight: 600; }
+
+/* fighter on an upper floor: numbered tag on the token */
+.lv-b { fill: var(--ink); stroke: var(--bg); stroke-width: 1.5; }
+.lv-t { fill: var(--bg); font-family: var(--label); font-size: 10px; font-weight: 700; text-anchor: middle; }
+.m-hatch { fill: none; stroke: var(--ink); stroke-width: 1.5; }
