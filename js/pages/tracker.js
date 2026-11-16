@@ -41,6 +41,9 @@ export async function prepare(d, { campaign, getJSON }) {
   d.cards = fightersAt(campaign, gangs, ed.at);
   const ids = Object.keys(campaign.pages).filter(id => id.startsWith(ed.at.split('.')[0] + '.') && campaign.pages[id].template === 'battle');
   d.scheduled = await Promise.all(ids.map(id => getJSON(campaign.pages[id].data)));
+  // for "Start from the starting gangs": the gangs as they began, and Cycle 1's battles
+  d.start = await getJSON('data/tracker/starting-gangs.json');
+  d.firstBattles = await Promise.all(Object.keys(campaign.pages).filter(id => id.startsWith('1.') && campaign.pages[id].template === 'battle').map(id => getJSON(campaign.pages[id].data)));
 }
 
 // ---- the campaign's own data
@@ -77,12 +80,22 @@ function fromSite(d) {
       }) });
   }
   const cyc = newCycle(st.current);
-  const facts = b => Object.fromEntries((b.setup?.facts || []).map(([k, v]) => [k.toLowerCase(), v]));
-  const [p, t] = st.gangs.map(g => g.id);
-  cyc.battles = d.scheduled.map(b => { const f = facts(b), a = /Psalm/.test(f.challenger || '') ? p : t;
-    return { name: b.name, a, b: a === p ? t : p, stake: String(f['at stake'] || '').replace(/ territory$/, ''), winner: '', sides: { [p]: blankSide(), [t]: blankSide() } }; });
+  cyc.battles = battlesFrom(d.scheduled, st.gangs);
   st.cycles[st.current] = cyc;
   return st;
+}
+// a cycle's battles from this site's battle pages: name, challenger, stake
+function battlesFrom(pages, gangs) {
+  const facts = b => Object.fromEntries((b.setup?.facts || []).map(([k, v]) => [k.toLowerCase(), v]));
+  const [p, t] = gangs.map(g => g.id);
+  return pages.map(b => { const f = facts(b), a = /Psalm/.test(f.challenger || '') ? p : t;
+    return { name: b.name, a, b: a === p ? t : p, stake: String(f['at stake'] || '').replace(/ territory$/, ''), winner: '', sides: { [p]: blankSide(), [t]: blankSide() } }; });
+}
+// the two gangs as they started the campaign, with Cycle 1's battles ready
+function fromStart(d) {
+  const gangs = JSON.parse(JSON.stringify(d.start.gangs));
+  const cyc = newCycle('1'); cyc.battles = battlesFrom(d.firstBattles, gangs);
+  return { name: d.start.name, gangs, cycles: { 1: cyc }, current: '1' };
 }
 
 export function render(d) {
@@ -182,9 +195,9 @@ export function mount(d) {
         <div class="tr-fighters">${join(g.fighters, (f, fi) => fighterHtml(gi, fi, f))}</div>${add(`${K}.fighters`, 'Fighter', 'fighter')}</article>`; });
     return `<section id="tr-setup"><h2>Gangs</h2>
       <label class="pe-f tr-name">Campaign name${inp('name', st.name, 'placeholder="e.g. Ash and Shadow"')}</label>
-      ${st.gangs.length ? '' : `<p class="pe-note">Start by adding each gang and its fighters, or start from this site's two gangs as they stand after Cycle ${esc(d.editor.prev)}.</p>`}
+      ${st.gangs.length ? '' : `<p class="pe-note">Start by adding each gang and its fighters, or start from this site's two gangs: as they began the campaign, or as they stand after Cycle ${esc(d.editor.prev)}.</p>`}
       <div class="tr-list">${gangs}</div>
-      <div class="pe-row">${add('gangs', 'New gang', 'gang')}<button type="button" class="pe-add" id="tr-site">Start from this site's gangs</button></div></section>`;
+      <div class="pe-row">${add('gangs', 'New gang', 'gang')}<button type="button" class="pe-add" id="tr-start">Start from the starting gangs (Cycle 1)</button><button type="button" class="pe-add" id="tr-site">Start from this site's gangs after Cycle ${esc(d.editor.prev)}</button></div></section>`;
   }
 
   // ---- Battles
@@ -445,6 +458,10 @@ export function mount(d) {
         if (b.winner !== g.id && has) { P.territories = P.territories.filter(t => t.name !== b.stake); moved++; }
       }
       draw(); msg(moved ? `${moved} territor${moved === 1 ? 'y' : 'ies'} updated from the battle results.` : 'The territories already match the battle results.');
+    }
+    else if (e.target.id === 'tr-start') {
+      if (st.gangs.length && !confirm('Replace the gangs and cycles here with the two gangs as they started the campaign?')) return;
+      st = fromStart(d); draw(); msg(`Loaded ${st.gangs.map(g => g.name).join(' and ')} as they started, with Cycle 1's battles ready.`);
     }
     else if (e.target.id === 'tr-site') {
       if (st.gangs.length && !confirm('Replace the gangs and cycles here with this site\'s two gangs?')) return;
