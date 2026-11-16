@@ -2,7 +2,7 @@
 // Every piece the battle maps are built from, drawn on a 1" grid with its label,
 // with the names it has carried on the boards (read from the battle files) and
 // a few it could take next (the piece's "ideas").
-import { esc, attr, join } from '../lib.js';
+import { esc, attr, join, pageHref } from '../lib.js';
 import { hero, nav } from '../hero.js';
 import { svgEl } from '../map.js';
 
@@ -91,7 +91,7 @@ export function render(d) {
     <li><svg viewBox="0 0 26 16" aria-hidden="true"><rect class="key-shared" x="2" y="2" width="22" height="12"/></svg>Shared between boards</li>
   </ul>`;
   const many = groups.length > 1;   // a heading per group only when there is more than one
-  return hero(d.hero) + '\n' + nav(many ? groups.map(g => ({ href: '#' + g[0], text: g[1] })) : [], 'Page sections') +
+  return hero(d.hero) + '\n' + nav([...(many ? groups.map(g => ({ href: '#' + g[0], text: g[1] })) : []), { href: pageHref('mapmaker'), text: 'Map creator' }], 'Page sections') +
     `\n<main class="wrap tlib">\n${key}\n` +
     join(groups, ([id, t, s, ks]) => `<section id="${id}">
   ${many ? `<div class="sec-head"><h2>${esc(t)}</h2><p>${esc(s)} <span class="count">${ks.length} piece${ks.length === 1 ? '' : 's'}</span></p></div>` : ''}

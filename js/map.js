@@ -28,7 +28,7 @@ function labelSpot(p, piece) {
   const [dx, dy] = piece.labelAt || [0, 0], a = (p.turn || 0) * Math.PI / 180;
   return [p.at[0] + dx * Math.cos(a) - dy * Math.sin(a), p.at[1] + dx * Math.sin(a) + dy * Math.cos(a)];
 }
-function pieceSvg(p, lib) {
+export function pieceSvg(p, lib) {
   if (Array.isArray(p)) return svgEl(p);
   const piece = lib[p.piece];
   if (!piece) throw new Error('Unknown terrain piece ' + p.piece);
@@ -37,7 +37,7 @@ function pieceSvg(p, lib) {
 }
 // Labels: one text line per entry, 17.5 apart. Tokens and badges on this map push a label aside.
 const LINE = 17.5;
-function labelsSvg(terrain, lib, marks) {
+export function labelsSvg(terrain, lib, marks) {
   const boxes = [];
   return join(terrain.filter(p => !Array.isArray(p)), p => {
     const piece = lib[p.piece] || {};

@@ -10,6 +10,7 @@ const TEMPLATES = {
   post: () => import('./pages/post.js'),
   report: () => import('./pages/report.js'),
   terrain: () => import('./pages/terrain.js'),
+  mapmaker: () => import('./pages/mapmaker.js'),
 };
 
 async function getJSON(url) {
@@ -54,6 +55,7 @@ function loadCss(hrefs) {
     if (data.terrain) data.pieces = (await getJSON('data/terrain.json')).pieces;
     if (mod.prepare) await mod.prepare(data, { campaign, getJSON });   // a template that reads more than its own data file
     document.body.insertAdjacentHTML('afterbegin', mod.render(data));
+    if (mod.mount) mod.mount(data);   // a page that needs to respond to the reader (the map creator)
     if (location.hash) document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView();
     window.__rendered = true;
   } catch (e) {

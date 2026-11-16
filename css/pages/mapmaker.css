@@ -1,0 +1,32 @@
+/* Map creator: tools on the left, the table on the right (stacked on narrow screens). */
+.mm { grid-template-columns: minmax(0, 1fr); gap: 1.5rem; padding-block: 1.5rem 3rem; }
+@media (min-width: 60rem) { .mm { grid-template-columns: 20rem minmax(0, 1fr); align-items: start; } }
+.mm-tools { display: grid; gap: 1rem; }
+.mm-box { background: var(--panel); padding: .9rem 1rem 1rem; display: grid; gap: .55rem; }
+.mm-box h2 { font-family: var(--label); font-weight: 700; font-size: 1.15rem; letter-spacing: .06em; text-transform: uppercase; color: var(--sodium); margin: 0; }
+.mm-row { display: flex; flex-wrap: wrap; gap: .4rem; }
+.mm-row select { flex: 1 1 10rem; min-width: 0; }
+.mm-grid2 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .5rem; }
+.mm-field { display: grid; gap: .2rem; font-family: var(--label); font-size: .95rem; color: var(--muted); }
+.mm-check { display: flex; align-items: center; gap: .45rem; font-family: var(--label); font-size: 1rem; color: var(--ink); }
+.mm-hint, .mm-msg { margin: 0; font-size: .9rem; color: var(--muted); }
+.mm-msg:empty { display: none; }
+.mm-name { margin: 0; font-family: var(--label); font-weight: 700; font-size: 1.2rem; }
+.mm select, .mm input[type=number], .mm input[type=text], .mm textarea {
+  font: inherit; font-family: var(--label); font-size: 1rem; color: var(--ink); background: var(--bg);
+  border: 1px solid var(--line); padding: .3rem .45rem; min-width: 0; width: 100%; }
+.mm textarea { font-family: ui-monospace, "SFMono-Regular", Menlo, monospace; font-size: .8rem; resize: vertical; }
+.mm button { font-family: var(--label); font-weight: 600; font-size: .95rem; letter-spacing: .04em; color: var(--on-sodium); background: var(--sodium);
+  border: 0; padding: .35rem .7rem; cursor: pointer; }
+.mm button:hover { filter: brightness(1.08); }
+.mm button.danger { background: #e0702e; }
+.mm button:focus-visible, .mm select:focus-visible, .mm input:focus-visible, .mm textarea:focus-visible { outline: 2px solid var(--sodium); outline-offset: 2px; }
+.mm code { font-size: .85em; background: var(--panel-2); padding: 0 .25rem; }
+.mm-map { margin: 0; }
+.mm-map svg { width: 100%; height: auto; touch-action: none; user-select: none; }
+.mm-p { cursor: grab; }
+.mm-p:active { cursor: grabbing; }
+.mm-p.sel > g { filter: drop-shadow(0 0 3px var(--sodium)) drop-shadow(0 0 1px var(--sodium)); }
+.mm-labels { pointer-events: none; }
+@media (min-width: 60rem) { .mm-map { position: sticky; top: 3.75rem; } }
+.mm-loose { pointer-events: none; }
