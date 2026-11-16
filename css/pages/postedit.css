@@ -1,0 +1,50 @@
+/* Post-cycle editor: forms laid out like the post-cycle page's ledgers. */
+.pe { padding-block: 1.5rem 3rem; gap: 2rem; }
+.pe-note, .pe-hint, .pe-msg { margin: 0; color: var(--muted); font-size: .95rem; max-width: 70ch; }
+.pe-msg:empty { display: none; }
+.pe h2 { font-family: var(--display); font-weight: 400; color: var(--sodium); margin: 0 0 .5rem; font-size: clamp(1.6rem, 4vw, 2.2rem); }
+.pe-gang.psalm h2 { color: var(--cawdor); }
+.pe-gang.theatre h2 { color: var(--delaque); }
+.pe h3 { font-family: var(--label); font-weight: 700; font-size: 1.2rem; letter-spacing: .06em; text-transform: uppercase; margin: 1.5rem 0 .5rem; color: var(--sodium); }
+.pe h4 { font-family: var(--label); font-weight: 600; font-size: .95rem; letter-spacing: .08em; text-transform: uppercase; margin: 1rem 0 .35rem; color: var(--muted); }
+.pe-gang { background: var(--panel); padding: 1rem 1rem 1.25rem; }
+.pe-scroll { overflow-x: auto; }
+.pe-t { width: 100%; border-collapse: collapse; font-family: var(--label); }
+.pe-t th { text-align: left; font-weight: 600; font-size: .85rem; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); padding: .25rem .35rem; border-bottom: 1px solid var(--line); white-space: nowrap; }
+.pe-t td { padding: .25rem .35rem; border-bottom: 1px solid var(--line); vertical-align: middle; }
+.pe-t td:first-child { white-space: nowrap; }
+.pe-t td.c { text-align: center; }
+.pe input, .pe select, .pe textarea { font: inherit; font-family: var(--label); font-size: 1rem; color: var(--ink); background: var(--bg); border: 1px solid var(--line); padding: .25rem .4rem; width: 100%; min-width: 7rem; }
+.pe input.sm { min-width: 4rem; width: 5rem; }
+.pe input[type=checkbox] { width: auto; min-width: 0; }
+.pe textarea { min-width: 0; resize: vertical; }
+#pe-json { font-family: ui-monospace, "SFMono-Regular", Menlo, monospace; font-size: .8rem; }
+.pe-f { display: grid; gap: .2rem; font-family: var(--label); font-size: .95rem; color: var(--muted); }
+.pe-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr)); gap: .75rem; }
+.pe-row { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: .5rem; }
+.pe button { font-family: var(--label); font-weight: 600; font-size: .95rem; color: var(--on-sodium); background: var(--sodium); border: 0; padding: .3rem .7rem; cursor: pointer; }
+.pe button.danger, .pe .pe-x { background: #e0702e; }
+.pe .pe-x { padding: .1rem .5rem; font-size: 1.1rem; line-height: 1; }
+.pe .pe-add { margin-top: .4rem; background: none; color: var(--sodium); border: 1px dashed var(--sodium); }
+.pe button:focus-visible, .pe input:focus-visible, .pe select:focus-visible, .pe textarea:focus-visible { outline: 2px solid var(--sodium); outline-offset: 2px; }
+.pe-sum { margin: .5rem 0 0; font-family: var(--label); font-size: 1.05rem; color: var(--muted); }
+.pe-sum b { color: var(--ink); }
+.pe-sheet { display: grid; grid-template-columns: repeat(auto-fill, minmax(7rem, 1fr)); gap: .5rem; margin: .75rem 0 0; }
+.pe-sheet div { background: var(--bg); padding: .4rem .6rem; }
+.pe-sheet dt { font-family: var(--label); font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.pe-sheet dd { margin: 0; font-family: var(--label); font-weight: 700; font-size: 1.5rem; }
+.pe code { font-size: .85em; background: var(--panel-2); padding: 0 .25rem; }
+#pe-body { display: grid; gap: 2rem; }
+.pe-ph { display: flex; align-items: center; gap: .4rem; }
+.pe-ph img { width: 2.4rem; height: 2.4rem; border-radius: 50%; object-fit: cover; border: 2px solid var(--line); }
+.pe-ph .pe-add { margin: 0; }
+.pe-crop { background: var(--panel); color: var(--ink); border: 1px solid var(--line); padding: 1rem; width: min(24rem, calc(100vw - 32px)); }
+.pe-crop::backdrop { background: rgb(0 0 0 / .6); }
+.pe-crop h2 { font-family: var(--label); font-weight: 700; font-size: 1.2rem; letter-spacing: .06em; text-transform: uppercase; color: var(--sodium); margin: 0 0 .4rem; }
+.pe-crop .pe-hint { margin-bottom: .6rem; color: var(--muted); font-size: .9rem; }
+.pe-crop canvas { width: 100%; aspect-ratio: 1; display: block; cursor: grab; touch-action: none; margin-bottom: .6rem; }
+.pe-crop .pe-f { display: grid; gap: .2rem; font-family: var(--label); color: var(--muted); margin-bottom: .5rem; }
+.pe-crop input, .pe-crop select { font: inherit; font-family: var(--label); color: var(--ink); background: var(--bg); border: 1px solid var(--line); padding: .25rem .4rem; }
+.pe-crop .pe-row { display: flex; gap: .4rem; }
+.pe-crop button { font-family: var(--label); font-weight: 600; font-size: .95rem; color: var(--on-sodium); background: var(--sodium); border: 0; padding: .35rem .8rem; cursor: pointer; }
+.pe-crop .pe-add { background: none; color: var(--sodium); border: 1px dashed var(--sodium); }

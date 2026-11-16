@@ -119,12 +119,11 @@
    "title": "Cycle 3.2: The Wormways War"
   },
   "3-post": {
-   "template": "post",
+   "template": "postedit",
    "data": "data/post/3.json",
    "css": [
     "css/site.css",
-    "css/pages/1-post.css",
-    "css/pages/2-post.css"
+    "css/pages/postedit.css"
    ],
    "title": "Cycle 3 Post-cycle"
   },
