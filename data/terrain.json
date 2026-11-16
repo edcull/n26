@@ -113,11 +113,11 @@
   },
   "hex-tower-2": {
    "name": "Hex tower (two levels)",
-   "note": "A hexagonal tower on legs, about 8\" across the flats like the hex platform, with two decks one above the other and a 2\" hole in the middle of the top deck. Built-in ladders on two opposite flat sides. Drawn as one deck with the hole; level tags show which deck a fighter is on.",
+   "note": "A hexagonal tower on legs, about 8\" across the flats like the hex platform, with two decks one above the other and a 2\" hole in the middle of the top deck. Two built-in ladders run up through hatches either side of the hole. Drawn as one deck with the hole; level tags show which deck a fighter is on.",
    "label": "Tower",
    "labelAt": [
     0,
-    60
+    82
    ],
    "els": [
     [
@@ -137,17 +137,35 @@
      }
     ],
     [
-     "polyline",
+     "circle",
      {
-      "class": "m-rungs",
-      "points": "0,-107.5 0,-92.5"
+      "class": "m-hatch",
+      "cx": "0",
+      "cy": "-50",
+      "r": "18"
      }
     ],
     [
      "polyline",
      {
       "class": "m-rungs",
-      "points": "0,92.5 0,107.5"
+      "points": "0,-57.5 0,-42.5"
+     }
+    ],
+    [
+     "circle",
+     {
+      "class": "m-hatch",
+      "cx": "0",
+      "cy": "50",
+      "r": "18"
+     }
+    ],
+    [
+     "polyline",
+     {
+      "class": "m-rungs",
+      "points": "0,42.5 0,57.5"
      }
     ]
    ]
