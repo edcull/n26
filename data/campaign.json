@@ -127,6 +127,15 @@
     "css/pages/2-post.css"
    ],
    "title": "Cycle 3 Post-cycle"
+  },
+  "terrain": {
+   "template": "terrain",
+   "data": "data/pages/terrain.json",
+   "css": [
+    "css/site.css",
+    "css/pages/terrain.css"
+   ],
+   "title": "Terrain Library"
   }
  }
 }

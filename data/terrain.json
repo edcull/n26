@@ -15,6 +15,11 @@
       "height": "50"
      }
     ]
+   ],
+   "ideas": [
+    "Cargo stack",
+    "Ammo dump",
+    "Scrap pile"
    ]
   },
   "barricade": {
@@ -38,6 +43,11 @@
       "d": "M-12.5 -9.38V9.38M12.5 -9.38V9.38"
      }
     ]
+   ],
+   "ideas": [
+    "Sandbag line",
+    "Tank traps",
+    "Scrap wall"
    ]
   },
   "round-platform": {
@@ -67,7 +77,12 @@
     0.0,
     3.2
    ],
-   "note": "7\" across, with a 3\" tower in the middle."
+   "note": "7\" across, with a 3\" tower in the middle.",
+   "ideas": [
+    "Cooling tower",
+    "Promethium tank",
+    "Gas holder"
+   ]
   },
   "round-platform-2": {
    "name": "Round platform (two levels)",
@@ -87,6 +102,11 @@
       "r": "87.5"
      }
     ]
+   ],
+   "ideas": [
+    "Smoke stack",
+    "Cooling tower",
+    "Gas holder"
    ]
   },
   "hex-platform": {
@@ -109,7 +129,13 @@
      }
     ]
    ],
-   "note": "8\" across the flats and 9\" point to point, with a 4\" tower in the middle."
+   "note": "8\" across the flats and 9\" point to point, with a 4\" tower in the middle.",
+   "ideas": [
+    "Grain silo",
+    "Pump station",
+    "Water tower",
+    "Promethium tank"
+   ]
   },
   "hex-tower-2": {
    "name": "Hex tower (two levels)",
@@ -168,6 +194,11 @@
       "points": "0,72.5 0,87.5"
      }
     ]
+   ],
+   "ideas": [
+    "Watch tower",
+    "Pump tower",
+    "Signal mast"
    ]
   },
   "walkway": {
@@ -196,6 +227,11 @@
       "d": "M-29.17 -31.25V31.25 M29.17 -31.25V31.25"
      }
     ]
+   ],
+   "ideas": [
+    "Gantry",
+    "Catwalk",
+    "Bridge"
    ]
   },
   "walled-ruin": {
@@ -235,6 +271,12 @@
       "points": "-100,25 -100,100 100,100 100,25"
      }
     ]
+   ],
+   "ideas": [
+    "Pump hall",
+    "Refinery",
+    "Guard house",
+    "Chem works"
    ]
   },
   "tank": {
@@ -264,6 +306,11 @@
       "d": "M-17 -18.75V18.75M17 -18.75V18.75"
      }
     ]
+   ],
+   "ideas": [
+    "Fuel bowser",
+    "Water tank",
+    "Pressure vessel"
    ]
   },
   "rendering-vats": {
@@ -323,7 +370,12 @@
     25,
     62
    ],
-   "note": "6\" by 7\". A raised floor runs along one 6\" wall, 2\" deep at one end and 3\" in the middle, and 5\" up the side wall at the other end. Three round vats sit in that side wall; the two beside the raised floor run under it."
+   "note": "6\" by 7\". A raised floor runs along one 6\" wall, 2\" deep at one end and 3\" in the middle, and 5\" up the side wall at the other end. Three round vats sit in that side wall; the two beside the raised floor run under it.",
+   "ideas": [
+    "Tallow works",
+    "Sump house",
+    "Dye pits"
+   ]
   },
   "ladder": {
    "name": "Ladder",
@@ -336,6 +388,11 @@
       "points": "0,-7.5 0,7.5"
      }
     ]
+   ],
+   "ideas": [
+    "Ladder",
+    "Chain ladder",
+    "Rope ladder"
    ]
   },
   "rubble-block": {
@@ -352,6 +409,11 @@
       "height": "42.5"
      }
     ]
+   ],
+   "ideas": [
+    "Fallen floor",
+    "Crate stack",
+    "Generator"
    ]
   },
   "stairs": {
@@ -414,6 +476,11 @@
       "points": "-56.25,0 6.25,0"
      }
     ]
+   ],
+   "ideas": [
+    "Stair tower",
+    "Gantry",
+    "Loading stage"
    ]
   },
   "gothic-ruin-large": {
@@ -439,6 +506,11 @@
       "points": "-56.25,-87.5 56.25,-87.5 56.25,87.5"
      }
     ]
+   ],
+   "ideas": [
+    "Armoury",
+    "Chapel",
+    "Counting house"
    ]
   },
   "gothic-ruin-small": {
@@ -464,6 +536,11 @@
       "points": "31.25,-75 -43.75,-75 -43.75,75"
      }
     ]
+   ],
+   "ideas": [
+    "Shrine",
+    "Guard post",
+    "Wash house"
    ]
   },
   "wall-small": {
@@ -477,6 +554,10 @@
       "points": "0,-100 0,0 -37.5,0"
      }
     ]
+   ],
+   "ideas": [
+    "Blast wall",
+    "Barricade line"
    ]
   },
   "wall-large": {
@@ -490,6 +571,10 @@
       "points": "0,-125 0,0 62.5,0"
      }
     ]
+   ],
+   "ideas": [
+    "Blast wall",
+    "Perimeter wall"
    ]
   }
  }
