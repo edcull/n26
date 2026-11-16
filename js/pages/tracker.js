@@ -41,6 +41,9 @@ export async function prepare(d, { campaign, getJSON }) {
   d.cards = fightersAt(campaign, gangs, ed.at);
   const ids = Object.keys(campaign.pages).filter(id => id.startsWith(ed.at.split('.')[0] + '.') && campaign.pages[id].template === 'battle');
   d.scheduled = await Promise.all(ids.map(id => getJSON(campaign.pages[id].data)));
+  // for "Start from the starting gangs": the gangs as they began, and Cycle 1's battles
+  d.start = await getJSON('data/tracker/starting-gangs.json');
+  d.firstBattles = await Promise.all(Object.keys(campaign.pages).filter(id => id.startsWith('1.') && campaign.pages[id].template === 'battle').map(id => getJSON(campaign.pages[id].data)));
 }
 
 // ---- the campaign's own data
@@ -77,17 +80,27 @@ function fromSite(d) {
       }) });
   }
   const cyc = newCycle(st.current);
-  const facts = b => Object.fromEntries((b.setup?.facts || []).map(([k, v]) => [k.toLowerCase(), v]));
-  const [p, t] = st.gangs.map(g => g.id);
-  cyc.battles = d.scheduled.map(b => { const f = facts(b), a = /Psalm/.test(f.challenger || '') ? p : t;
-    return { name: b.name, a, b: a === p ? t : p, stake: String(f['at stake'] || '').replace(/ territory$/, ''), winner: '', sides: { [p]: blankSide(), [t]: blankSide() } }; });
+  cyc.battles = battlesFrom(d.scheduled, st.gangs);
   st.cycles[st.current] = cyc;
   return st;
+}
+// a cycle's battles from this site's battle pages: name, challenger, stake
+function battlesFrom(pages, gangs) {
+  const facts = b => Object.fromEntries((b.setup?.facts || []).map(([k, v]) => [k.toLowerCase(), v]));
+  const [p, t] = gangs.map(g => g.id);
+  return pages.map(b => { const f = facts(b), a = /Psalm/.test(f.challenger || '') ? p : t;
+    return { name: b.name, a, b: a === p ? t : p, stake: String(f['at stake'] || '').replace(/ territory$/, ''), winner: '', sides: { [p]: blankSide(), [t]: blankSide() } }; });
+}
+// the two gangs as they started the campaign, with Cycle 1's battles ready
+function fromStart(d) {
+  const gangs = JSON.parse(JSON.stringify(d.start.gangs));
+  const cyc = newCycle('1'); cyc.battles = battlesFrom(d.firstBattles, gangs);
+  return { name: d.start.name, gangs, cycles: { 1: cyc }, current: '1' };
 }
 
 export function render(d) {
   document.title = d.title;
-  const items = [{ href: '#tr-setup', text: 'Gangs' }, { href: '#tr-battles', text: 'Battles' }, { href: '#tr-post', text: 'Post-cycle' }, { href: '#tr-gangs', text: 'Gang lists' }, { href: '#tr-export', text: 'Export' }];
+  const items = [{ href: '#', text: 'Tracker' }, { href: '#gangs', text: 'Gangs' }, { href: '#post', text: 'Post-cycle' }, { href: '#next', text: 'Next cycle' }, { href: '#rosters', text: 'Rosters' }];
   return hero({ ...d.hero, cycle: null }) + '\n' + nav(items, 'Page sections') +
     `\n<main class="wrap pe" id="pe"><div id="pe-body"></div></main>
 <dialog class="pe-crop" id="pe-crop" aria-labelledby="pe-crop-h"><h2 id="pe-crop-h">Crop portrait</h2>
@@ -182,9 +195,9 @@ export function mount(d) {
         <div class="tr-fighters">${join(g.fighters, (f, fi) => fighterHtml(gi, fi, f))}</div>${add(`${K}.fighters`, 'Fighter', 'fighter')}</article>`; });
     return `<section id="tr-setup"><h2>Gangs</h2>
       <label class="pe-f tr-name">Campaign name${inp('name', st.name, 'placeholder="e.g. Ash and Shadow"')}</label>
-      ${st.gangs.length ? '' : `<p class="pe-note">Start by adding each gang and its fighters, or start from this site's two gangs as they stand after Cycle ${esc(d.editor.prev)}.</p>`}
+      ${st.gangs.length ? '' : `<p class="pe-note">Start by adding each gang and its fighters, or start from this site's two gangs: as they began the campaign, or as they stand after Cycle ${esc(d.editor.prev)}.</p>`}
       <div class="tr-list">${gangs}</div>
-      <div class="pe-row">${add('gangs', 'New gang', 'gang')}<button type="button" class="pe-add" id="tr-site">Start from this site's gangs</button></div></section>`;
+      <div class="pe-row">${add('gangs', 'New gang', 'gang')}<button type="button" class="pe-add" id="tr-start">Start from the starting gangs (Cycle 1)</button><button type="button" class="pe-add" id="tr-site">Start from this site's gangs after Cycle ${esc(d.editor.prev)}</button></div></section>`;
   }
 
   // ---- Battles
@@ -338,33 +351,66 @@ export function mount(d) {
     const next = String(+c.n + 1); st.cycles[next] ??= newCycle(next); st.current = next;
   }
 
-  function draw() {
-    const cycles = Object.keys(st.cycles).sort((a, b) => a - b);
-    const c = cyc(), shut = c.closed;
-    $('pe-body').innerHTML = `<datalist id="tr-terr">${join(d.territoryNames, t => `<option value="${attr(t)}">`)}</datalist><datalist id="tr-inj">${join(INJURIES, t => `<option value="${attr(t)}">`)}</datalist>
-<p class="pe-note">Everything here is saved in this browser only. Use Export to keep or share a cycle.</p>
-${setupHtml()}
-<div class="tr-cycle"><label class="pe-f">Cycle <select id="tr-cyc">${join(cycles, k => opt(k, `Cycle ${k}${st.cycles[k].closed ? ' (finished)' : ''}`, st.current))}</select></label>
-  ${shut ? '<p class="pe-hint">This cycle is finished: its results are on the gangs. Its export is kept as it was.</p>' : `<button type="button" id="tr-finish">Finish Cycle ${esc(c.n)} and start Cycle ${+c.n + 1}</button>`}</div>
-<fieldset class="tr-run"${shut ? ' disabled' : ''}>
-<section id="tr-battles"><h2>Cycle ${esc(c.n)}: battles</h2><div class="tr-list">${join(c.battles, battleHtml)}</div>${st.gangs.length > 1 ? add(`cycles.${st.current}.battles`, 'Add battle', 'battle') : '<p class="pe-hint">Add at least two gangs first.</p>'}</section>
-<section id="tr-post"><h2>Cycle ${esc(c.n)}: post-cycle phase</h2><div class="tr-list">${join(st.gangs, postHtml)}</div></section>
-</fieldset>
-<section id="tr-gangs"><h2>Gang lists</h2><div class="gangs">${listsHtml()}</div></section>
+  // ---- views: the landing page, and one page each for gangs, a battle, a gang's post-cycle and the next cycle
+  const view = () => decodeURIComponent(location.hash.slice(1));
+  const back = '<p class="tr-back"><a href="#">← Tracker</a></p>';
+  function landingHtml(c, cycles) {
+    const shut = c.closed, ok = st.gangs.length > 1;
+    const tile = (href, numText, title, sub, extra = '') => `<a class="tr-tile" href="${href}" ${extra}><span class="num">${numText}</span><b>${title}</b><span>${sub}</span></a>`;
+    const battles = c.battles.length ? join(c.battles, (b, i) => `<li><a href="#battle-${i}">${esc(b.name || `Battle ${i + 1}`)}</a><span>${esc(gang(b.a)?.name || '?')} v ${esc(gang(b.b)?.name || '?')} · ${b.winner === 'draw' ? 'Draw' : gang(b.winner) ? esc(gang(b.winner).name) + ' won' : 'Not played'}</span></li>`) : '<li class="pe-hint">No battles yet.</li>';
+    const posts = join(st.gangs, g => { const P = c.post[g.id], T = totals(g);
+      const started = P && (Object.values(P.actions).some(a => a.action && a.action !== 'To come') || P.adv.length || P.recruits.length || P.purchases.length);
+      return `<li ${tone(g)}><a href="#post-${attr(g.id)}">${esc(g.name || 'Unnamed gang')}</a><span>${started ? 'Started' : 'Not started'} · ${T.credits} credits · rating ${T.rating}</span></li>`; });
+    return `<div class="tr-cycle"><label class="pe-f">Cycle <select id="tr-cyc">${join(cycles, k => opt(k, `Cycle ${k}${st.cycles[k].closed ? ' (finished)' : ''}`, st.current))}</select></label>
+      ${shut ? '<p class="pe-hint">This cycle is finished: its results are on the gangs. Pick the latest cycle to carry on.</p>' : ''}</div>
+<nav class="tr-tiles" aria-label="Tracker">
+  ${tile('#gangs', '1', 'Set up gangs', st.gangs.length ? `${st.gangs.length} gang${st.gangs.length === 1 ? '' : 's'}: ${esc(st.gangs.map(g => g.name || 'Unnamed').join(', '))}` : 'Create each gang and its fighters')}
+  ${shut || !ok ? tile('#', '2', 'Add battle', ok ? 'This cycle is finished' : 'Needs two gangs first', 'aria-disabled="true" data-off') : `<button type="button" class="tr-tile" id="tr-newbattle"><span class="num">2</span><b>Add battle</b><span>One battle's result in Cycle ${esc(c.n)}</span></button>`}
+  ${tile(shut || !st.gangs.length ? '#' : '#post', '3', 'Add post-cycle', st.gangs.length ? `For one gang, Cycle ${esc(c.n)}` : 'Needs a gang first', shut || !st.gangs.length ? 'aria-disabled="true" data-off' : '')}
+  ${tile(shut || !st.gangs.length ? '#' : '#next', '4', 'Next cycle', shut ? 'This cycle is finished' : `Finish Cycle ${esc(c.n)} and start Cycle ${+c.n + 1}`, shut || !st.gangs.length ? 'aria-disabled="true" data-off' : '')}
+  ${tile(st.gangs.length ? '#rosters' : '#', '5', 'Gang rosters', st.gangs.length ? 'Every fighter as they stand now' : 'Needs a gang first', st.gangs.length ? '' : 'aria-disabled="true" data-off')}
+</nav>
+<div class="tr-status"><section><h2>Cycle ${esc(c.n)} battles</h2><ul class="tr-links">${battles}</ul></section>
+<section><h2>Cycle ${esc(c.n)} post-cycle</h2><ul class="tr-links">${posts || '<li class="pe-hint">No gangs yet.</li>'}</ul></section></div>
 <section id="tr-export"><h2>Export</h2>
   <p class="pe-hint">Cycle ${esc(c.n)} as JSON: its battles, and the post-cycle phase in the shape the site's post-cycle pages use, with each fighter's XP and new recruits with their portraits. "Whole campaign" is everything here, to load into another browser.</p>
   <textarea id="pe-json" rows="10" spellcheck="false" aria-label="Export JSON"></textarea>
-  <div class="pe-row"><button type="button" id="pe-copy">Copy</button><button type="button" id="pe-dl">Download cycle</button><button type="button" id="tr-all">Download whole campaign</button><button type="button" id="pe-load">Load pasted campaign</button><button type="button" id="pe-reset" class="danger">Clear everything</button></div>
-  <p class="pe-msg" id="pe-msg" role="status"></p></section>`;
+  <div class="pe-row"><button type="button" id="pe-copy">Copy</button><button type="button" id="pe-dl">Download cycle</button><button type="button" id="tr-all">Download whole campaign</button><button type="button" id="pe-load">Load pasted campaign</button><button type="button" id="pe-reset" class="danger">Clear everything</button></div></section>`;
+  }
+  function nextHtml(c) {
+    const rows = join(st.gangs, g => { const T = totals(g);
+      return `<tr><td>${esc(g.name)}</td><td>${T.rating}</td><td>${T.credits}</td><td>${T.rep}</td><td>${T.wins}</td><td>${T.fighters}</td><td></td></tr>`; });
+    const open = c.battles.filter(b => !b.winner).length;
+    return `${back}<section><h2>Finish Cycle ${esc(c.n)}</h2>
+      <p class="pe-note">Finishing writes the cycle onto the gangs: XP, new injuries, advancements, skills and costs, recruits as new fighters, purchases onto fighters, and each gang's credits, reputation, wins and territories. Cycle ${esc(c.n)} is then kept as it was, and Cycle ${+c.n + 1} opens.</p>
+      ${open ? `<p class="pe-note tr-warn">${open} battle${open === 1 ? ' has' : 's have'} no result yet.</p>` : ''}
+      ${table(['Gang', 'Rating', 'Credits', 'Reputation', 'Wins', 'Fighters'], rows)}
+      <div class="pe-row"><button type="button" id="tr-finish">Finish Cycle ${esc(c.n)} and start Cycle ${+c.n + 1}</button></div></section>`;
+  }
+  function draw() {
+    const cycles = Object.keys(st.cycles).sort((a, b) => a - b);
+    const c = cyc(), shut = c.closed, v = view();
+    let body;
+    if (v === 'gangs') body = back + setupHtml();
+    else if (/^battle-\d+$/.test(v) && c.battles[+v.slice(7)]) body = `${back}<fieldset class="tr-run"${shut ? ' disabled' : ''}><section id="tr-battles"><h2>Cycle ${esc(c.n)}: battle</h2>${battleHtml(c.battles[+v.slice(7)], +v.slice(7))}</section></fieldset>`;
+    else if (v === 'post') body = `${back}<section><h2>Cycle ${esc(c.n)}: post-cycle</h2><p class="pe-note">Choose a gang.</p><nav class="tr-tiles">${join(st.gangs, g => `<a class="tr-tile" href="#post-${attr(g.id)}" ${tone(g)}><b>${esc(g.name || 'Unnamed gang')}</b><span>${esc(g.house)}</span></a>`)}</nav></section>`;
+    else if (v.startsWith('post-') && gang(v.slice(5))) body = `${back}<fieldset class="tr-run"${shut ? ' disabled' : ''}><section id="tr-post"><h2>Cycle ${esc(c.n)}: post-cycle</h2>${postHtml(gang(v.slice(5)))}</section></fieldset>`;
+    else if (v === 'next' && !shut) body = nextHtml(c);
+    else if (v === 'rosters') body = `${back}<section id="tr-gangs"><h2>Gang rosters</h2><p class="pe-note">Each gang as it stands now, with Cycle ${esc(c.n)}'s battles and post-cycle so far: new XP, injuries and advancements show on the cards, and new recruits are added.</p><div class="gangs">${listsHtml() || '<p class="pe-hint">No gangs yet.</p>'}</div></section>`;
+    else body = landingHtml(c, cycles);
+    $('pe-body').innerHTML = `<datalist id="tr-terr">${join(d.territoryNames, t => `<option value="${attr(t)}">`)}</datalist><datalist id="tr-inj">${join(INJURIES, t => `<option value="${attr(t)}">`)}</datalist>
+<p class="pe-msg" id="pe-msg" role="status"></p>${body}
+<p class="pe-hint tr-foot">Everything here is saved in this browser only. Use Export on the tracker's front page to keep or share a cycle.</p>`;
     outputs();
   }
+  window.addEventListener('hashchange', () => { draw(); scrollTo(0, 0); });
   function outputs() {
     for (const g of st.gangs) {
       const T = totals(g);
       document.querySelectorAll(`[data-o^="${CSS.escape(g.id)}."]`).forEach(el => { el.textContent = T[el.dataset.o.slice(g.id.length + 1)]; });
     }
     const c = cyc();
-    $('pe-json').value = JSON.stringify(c.closed && c.result ? c.result : buildCycle(), null, 1);
+    if ($('pe-json')) $('pe-json').value = JSON.stringify(c.closed && c.result ? c.result : buildCycle(), null, 1);
     save();
   }
 
@@ -401,7 +447,7 @@ ${setupHtml()}
   $('pe').addEventListener('click', e => {
     const a = e.target.closest('[data-add]'), x = e.target.closest('[data-del]'), sk = e.target.closest('[data-stakes]'), ph = e.target.closest('[data-photo]');
     if (a) { (getAt(a.dataset.add) ?? setAt(a.dataset.add, []) ?? getAt(a.dataset.add)).push(NEW[a.dataset.kind]()); draw(); }
-    else if (x) { const w = x.getAttribute('aria-label'); if (/line$/.test(w) || confirm(`${w}?`)) { getAt(x.dataset.del).splice(+x.dataset.i, 1); draw(); } }
+    else if (x) { const w = x.getAttribute('aria-label'); if (/line$/.test(w) || confirm(`${w}?`)) { getAt(x.dataset.del).splice(+x.dataset.i, 1); if (w === 'Remove battle') location.hash = ''; draw(); } }
     else if (ph) { crop = { key: ph.dataset.photo }; $('pe-file').click(); }
     else if (sk) {   // a won stake moves to the winner's territories, a lost one leaves
       const g = gang(sk.dataset.stakes), P = post(g); let moved = 0;
@@ -413,13 +459,21 @@ ${setupHtml()}
       }
       draw(); msg(moved ? `${moved} territor${moved === 1 ? 'y' : 'ies'} updated from the battle results.` : 'The territories already match the battle results.');
     }
+    else if (e.target.id === 'tr-start') {
+      if (st.gangs.length && !confirm('Replace the gangs and cycles here with the two gangs as they started the campaign?')) return;
+      st = fromStart(d); draw(); msg(`Loaded ${st.gangs.map(g => g.name).join(' and ')} as they started, with Cycle 1's battles ready.`);
+    }
     else if (e.target.id === 'tr-site') {
       if (st.gangs.length && !confirm('Replace the gangs and cycles here with this site\'s two gangs?')) return;
       st = fromSite(d); draw(); msg(`Loaded ${st.gangs.map(g => g.name).join(' and ')} as they stand after Cycle ${d.editor.prev}.`);
     }
+    else if (e.target.closest('#tr-newbattle')) {
+      const c = cyc(); c.battles.push(NEW.battle()); location.hash = 'battle-' + (c.battles.length - 1);
+    }
+    else if (e.target.closest('[data-off]')) e.preventDefault();
     else if (e.target.id === 'tr-finish') {
       if (!confirm(`Finish Cycle ${cyc().n}? XP, injuries, advancements, recruits, purchases, credits, reputation, wins and territories are written onto the gangs.`)) return;
-      finish(); draw(); scrollTo(0, 0); msg('Cycle finished.');
+      finish(); location.hash = ''; draw(); scrollTo(0, 0); msg('Cycle finished.');
     }
     else if (e.target.id === 'pe-copy') navigator.clipboard.writeText($('pe-json').value).then(() => msg('Copied.'), () => { $('pe-json').select(); msg('Selected: copy it with Ctrl+C.'); });
     else if (e.target.id === 'pe-dl') download(`${slug()}-cycle-${cyc().n}.json`, $('pe-json').value);

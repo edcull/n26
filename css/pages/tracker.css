@@ -87,3 +87,26 @@
 .tr-run { border: 0; padding: 0; margin: 0; min-width: 0; display: grid; gap: 2rem; }
 .tr-run[disabled] { opacity: .6; }
 #tr-gangs .gang .pe-sum { margin: 0; }
+.tr-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 11rem), 1fr)); gap: 1rem; }
+.tr-tile { display: grid; gap: .25rem; align-content: start; text-align: left; background: var(--panel); color: var(--ink); text-decoration: none; padding: 1rem 1.1rem 1.1rem;
+  border: 0; border-top: 4px solid var(--tone, var(--sodium)); font: inherit; cursor: pointer; }
+.pe button.tr-tile { color: var(--ink); background: var(--panel); padding: 1rem 1.1rem 1.1rem; font: inherit; border-top: 4px solid var(--sodium); text-align: left; letter-spacing: 0; }
+.tr-tile:hover { background: var(--panel-2); }
+.pe button.tr-tile:hover { filter: none; background: var(--panel-2); }
+.tr-tile .num { font-family: var(--display); font-size: 2rem; line-height: 1; color: var(--sodium); }
+.tr-tile b { font-family: var(--label); font-size: 1.35rem; font-weight: 700; }
+.tr-tile > span:last-child { font-family: var(--label); color: var(--muted); font-size: 1rem; }
+.tr-tile[data-off] { opacity: .45; cursor: default; }
+.tr-tile[data-off]:hover { background: var(--panel); }
+.tr-tile:focus-visible { outline: 2px solid var(--sodium); outline-offset: 2px; }
+.tr-status { display: grid; gap: 1.5rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr)); }
+.tr-links { list-style: none; margin: 0; padding: 0; }
+.tr-links li { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .1rem 1rem; padding: .45rem 0; border-top: 1px solid var(--line); font-family: var(--label); font-size: 1.1rem; }
+.tr-links li:last-child { border-bottom: 1px solid var(--line); }
+.tr-links a { color: var(--tone, var(--ink)); font-weight: 700; }
+.tr-links span { color: var(--muted); }
+.tr-back { margin: 0; font-family: var(--label); font-size: 1.05rem; }
+.tr-back a { color: var(--sodium); }
+.tr-warn { color: #e0702e; }
+.tr-foot { margin-top: 1rem; }
+#pe-body > section, #pe-body > .tr-status, #pe-body > nav { min-width: 0; }
