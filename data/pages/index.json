@@ -285,7 +285,7 @@
    ]
   },
   {
-   "p": "<a href=\"./?p=mapmaker\">Map creator</a>",
+   "p": "<a href=\"./?p=tracker\">Campaign tracker</a> · <a href=\"./?p=mapmaker\">Map creator</a>",
    "class": "shortcuts"
   }
  ]

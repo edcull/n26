@@ -119,11 +119,12 @@
    "title": "Cycle 3.2: The Wormways War"
   },
   "3-post": {
-   "template": "postedit",
+   "template": "post",
    "data": "data/post/3.json",
    "css": [
     "css/site.css",
-    "css/pages/postedit.css"
+    "css/pages/1-post.css",
+    "css/pages/2-post.css"
    ],
    "title": "Cycle 3 Post-cycle"
   },
@@ -144,6 +145,15 @@
     "css/pages/mapmaker.css"
    ],
    "title": "Map Creator"
+  },
+  "tracker": {
+   "template": "tracker",
+   "data": "data/pages/tracker.json",
+   "css": [
+    "css/site.css",
+    "css/pages/tracker.css"
+   ],
+   "title": "Campaign Tracker"
   }
  }
 }

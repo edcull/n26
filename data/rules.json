@@ -100,5 +100,7 @@
  "Giant Rat": "A pet Giant Rat (Beast, Pet), bought as wargear for a Leader or Champion. It has its own Fighter card and must stay within its 3\" Leash range of its owner.",
  "Giant Rat (Vermillion)": "A pet Giant Rat (Beast, Pet), bought as wargear for a Leader or Champion. It has its own Fighter card and must stay within its 3\" Leash range of its owner.",
  "Fast Shot": "This Fighter can make two Shoot actions in each activation.",
- "Combi": "When this weapon makes a Shoot or Aimed Shot action, choose which profile to attack with before rolling. Or attack the same target with both profiles at once, each at -1 to Hit."
+ "Combi": "When this weapon makes a Shoot or Aimed Shot action, choose which profile to attack with before rolling. Or attack the same target with both profiles at once, each at -1 to Hit.",
+ "The Broken Crown (Collapsed Dome)": "Collapsed Dome. Boons: Income: 20 credits. Battlefield effect: Dangerous Footing: a natural 1 on an Agility test also inflicts a Str -, AP -, L1 hit that automatically Wounds with no saves.",
+ "The Wormways (Tunnels)": "Tunnels. Boons: Income: 20 credits. Battlefield effect: Twisting Tunnels: the Tunnel Warfare rule is in effect."
 }

@@ -1,4 +1,4 @@
-/* Post-cycle editor: forms laid out like the post-cycle page's ledgers. */
+/* Campaign tracker: battles, the post-cycle phase and the gang lists, as forms. */
 .pe { padding-block: 1.5rem 3rem; gap: 2rem; }
 .pe-note, .pe-hint, .pe-msg { margin: 0; color: var(--muted); font-size: .95rem; max-width: 70ch; }
 .pe-msg:empty { display: none; }
@@ -48,3 +48,19 @@
 .pe-crop .pe-row { display: flex; gap: .4rem; }
 .pe-crop button { font-family: var(--label); font-weight: 600; font-size: .95rem; color: var(--on-sodium); background: var(--sodium); border: 0; padding: .35rem .8rem; cursor: pointer; }
 .pe-crop .pe-add { background: none; color: var(--sodium); border: 1px dashed var(--sodium); }
+.pe > #pe-body > section > h2 { margin-bottom: .75rem; }
+.tr-list { display: grid; gap: 1.25rem; }
+.tr-battle { background: var(--panel); padding: 1rem; display: grid; gap: .75rem; }
+.tr-head { display: flex; justify-content: space-between; align-items: center; gap: .5rem; }
+.tr-head h3 { margin: 0; }
+.tr-ro { font-family: var(--label); font-size: 1rem; color: var(--ink); padding: .3rem 0; }
+.tr-sides { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr)); }
+.tr-side { background: var(--bg); padding: .75rem; border-top: 3px solid var(--line); }
+.tr-side.psalm { border-top-color: var(--cawdor); }
+.tr-side.theatre { border-top-color: var(--delaque); }
+.tr-side h4 { margin: 0 0 .5rem; color: var(--ink); font-size: 1.05rem; }
+.tr-side.psalm h4 { color: var(--cawdor); }
+.tr-side.theatre h4 { color: var(--delaque); }
+.pe h5 { font-family: var(--label); font-weight: 600; font-size: .85rem; letter-spacing: .08em; text-transform: uppercase; margin: .75rem 0 .25rem; color: var(--muted); }
+#tr-gangs .gangs { display: grid; gap: 2rem; }
+#tr-gangs .gang h3 { font-family: var(--display); font-weight: 400; font-size: clamp(1.6rem, 5vw, 2.2rem); letter-spacing: 0; text-transform: none; color: var(--tone); margin: 0; }
