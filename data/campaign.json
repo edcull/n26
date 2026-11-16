@@ -136,6 +136,15 @@
     "css/pages/terrain.css"
    ],
    "title": "Terrain Library"
+  },
+  "mapmaker": {
+   "template": "mapmaker",
+   "data": "data/pages/mapmaker.json",
+   "css": [
+    "css/site.css",
+    "css/pages/mapmaker.css"
+   ],
+   "title": "Map Creator"
   }
  }
 }
