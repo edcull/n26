@@ -120,7 +120,9 @@
          "tip": "Hidden Stash"
         },
         {
-         "tip": "Adrenaline Surge"
+         "tip": "Adrenaline Surge",
+         "used": true,
+         "usedLabel": "Picked"
         },
         {
          "tip": "Grenade Bouquet"
@@ -237,7 +239,9 @@
          "tip": "Adrenaline Surge"
         },
         {
-         "tip": "Thunderous Charge"
+         "tip": "Thunderous Charge",
+         "used": true,
+         "usedLabel": "Picked"
         },
         {
          "tip": "Rapid Fire"
@@ -318,13 +322,110 @@
      "map": {
       "viewBox": "-14 -24 628 668",
       "label": "Top-down map of the Cycle 3.1 table: the platform and containers in the north-west with ruins beside them, the Ruined Manufactorium in the north-east, the Air Filters on the east side joined to the centre by walkways, the Stacks tower in the south-west, ruins along the south edge and the Ruined Tanks in the south-east, with the objective at the centre.",
-      "caption": "The table",
+      "caption": "Deployment",
       "items": [
        {
         "board": "terrain"
        },
        {
         "board": "ticks"
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 103.4,
+         "y": 48.9,
+         "t": "Ez"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 136.6,
+         "y": 51.7,
+         "t": "Bc"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 334.2,
+         "y": 44.3,
+         "t": "DA",
+         "r": 19
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 468.0,
+         "y": 48.9,
+         "t": "R"
+        }
+       },
+       {
+        "tok": {
+         "s": "p",
+         "x": 502.2,
+         "y": 48.9,
+         "t": "M"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 46.2,
+         "y": 547.4,
+         "t": "Mi"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 75.7,
+         "y": 537.2,
+         "t": "Mk"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 111.7,
+         "y": 540.9,
+         "t": "W"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 141.2,
+         "y": 540.0,
+         "t": "De"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 169.8,
+         "y": 540.0,
+         "t": "Rt"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 75.7,
+         "y": 564.0,
+         "t": "Rp"
+        }
+       },
+       {
+        "tok": {
+         "s": "t",
+         "x": 158.8,
+         "y": 564.9,
+         "t": "Dm"
+        }
        }
       ]
      }
@@ -350,8 +451,8 @@
   {
    "piece": "round-platform-2",
    "at": [
-    462.5,
-    312.5
+    461.5,
+    311.5
    ],
    "label": "Air Filters"
   },
@@ -422,7 +523,7 @@
   {
    "piece": "walkway",
    "at": [
-    306.25,
+    304.25,
     231.25
    ],
    "turn": 30,
@@ -472,7 +573,7 @@
    "piece": "walkway",
    "at": [
     306.25,
-    393.75
+    391.75
    ],
    "turn": -30,
    "label": false
@@ -561,6 +662,14 @@
    "at": [
     243.75,
     518.75
+   ],
+   "turn": 120
+  },
+  {
+   "piece": "ladder",
+   "at": [
+    65.5,
+    61.5
    ],
    "turn": 120
   }
