@@ -90,6 +90,7 @@ function build(st, d) {
           cost: n(r.discount) ? `${n(r.price)} – ${n(r.discount)} = ${Math.max(0, n(r.price) - n(r.discount))}` : String(n(r.price)) })),
         purchases: g.purchases.map(p => ({ item: p.item, for: p.for, source: p.source, cost: String(n(p.cost)), tp: '–' })),
         sales: g.sales.map(x => ({ item: x.item, fighter: x.fighter, credits: String(n(x.credits)) })),
+        newFighters: g.recruits.filter(r => r.name).map(r => ({ name: r.name, type: r.type, cost: n(r.price), ...(r.photo ? { portrait: r.photo } : {}) })),
         tradingTotal: { recruit: [String(T.rec), '–'], purchase: [String(T.buy), '–'], sell: [String(T.sell), '–'], total: [String(T.spent), '0'] },
         roster: { sheet: [['Rating', String(T.rating)], ['Wins', String(g.wins)], ['Reputation', String(g.rep)], ['Credits', String(T.credits)], ['Fighters', String(T.fighters)]],
           assets: e.roster.assets.map(a => a.label === 'Territories' ? { ...a, chips: g.territories.map(t => ({ tip: t.name })) } : a),
@@ -103,7 +104,15 @@ export function render(d) {
   document.title = d.title;
   const items = [{ href: '#pe-results', text: 'Results' }, ...d.prev.gangs.map(e => ({ href: '#pe-' + e.section, text: d.gangInfo[e.gang].name })), { href: '#pe-export', text: 'Export' }];
   return hero({ ...d.hero, name: 'Post-cycle editor' }) + '\n' + nav(items, 'Page sections') +
-    `\n<main class="wrap pe" id="pe"><p class="pe-note">Fill in the post-cycle phase below. Totals and the gang sheet update as you go. Your work is saved in this browser only; use Export to send it on. Fighter cards (new skills, injuries, wargear) aren't changed here.</p><div id="pe-body"></div></main>\n`;
+    `\n<main class="wrap pe" id="pe"><p class="pe-note">Fill in the post-cycle phase below. Totals and the gang sheet update as you go. Your work is saved in this browser only; use Export to send it on. Fighter cards (new skills, injuries, wargear) aren't changed here.</p><div id="pe-body"></div></main>
+<dialog class="pe-crop" id="pe-crop" aria-labelledby="pe-crop-h"><h2 id="pe-crop-h">Crop portrait</h2>
+  <p class="pe-hint">Drag the photo to centre the fighter's head and shoulders; zoom with the slider or the mouse wheel.</p>
+  <canvas id="pe-cv" width="320" height="320" aria-label="Photo being cropped"></canvas>
+  <label class="pe-f">Zoom <input type="range" id="pe-zoom" min="1" max="4" step="0.01" value="1"></label>
+  <label class="pe-f">Turn <select id="pe-rot"><option value="0">None</option><option value="90">90° right</option><option value="180">180°</option><option value="270">90° left</option></select></label>
+  <div class="pe-row"><button type="button" id="pe-crop-ok">Use this</button><button type="button" id="pe-crop-no" class="pe-add">Cancel</button></div>
+</dialog>
+<input type="file" id="pe-file" accept="image/*" hidden>\n`;
 }
 
 export function mount(d) {
@@ -142,7 +151,8 @@ export function mount(d) {
       <td>${num(`${P}.adv.${i}.xp`, a.xp, 'class="sm"')}</td><td>${inp(`${P}.adv.${i}.range`, a.range, 'class="sm" placeholder="e.g. 19–24"')}</td><td>${num(`${P}.adv.${i}.roll`, a.roll, 'class="sm"')}</td>
       <td>${sel(`${P}.adv.${i}.kind`, KINDS, a.kind)}</td><td>${inp(`${P}.adv.${i}.name`, a.name, 'placeholder="Skill or power"')}</td><td>${num(`${P}.adv.${i}.cost`, a.cost, 'class="sm"')}</td><td>${del(`${P}.adv`, i)}</td></tr>`);
     const rec = join(g.recruits, (r, i) => `<tr><td>${inp(`${P}.recruits.${i}.name`, r.name, 'placeholder="Name"')}</td><td>${inp(`${P}.recruits.${i}.type`, r.type, 'placeholder="e.g. Ghost (Ganger)"')}</td>
-      <td>${num(`${P}.recruits.${i}.price`, r.price, 'class="sm"')}</td><td>${num(`${P}.recruits.${i}.discount`, r.discount, 'class="sm"')}</td><td>${inp(`${P}.recruits.${i}.note`, r.note, 'placeholder="e.g. Settlement"')}</td><td>${del(`${P}.recruits`, i)}</td></tr>`);
+      <td>${num(`${P}.recruits.${i}.price`, r.price, 'class="sm"')}</td><td>${num(`${P}.recruits.${i}.discount`, r.discount, 'class="sm"')}</td><td>${inp(`${P}.recruits.${i}.note`, r.note, 'placeholder="e.g. Settlement"')}</td>
+      <td class="pe-ph">${r.photo ? `<img src="${attr(r.photo)}" alt="${attr(r.name || 'Recruit')} portrait">` : ''}<button type="button" class="pe-add" data-photo="${P}.recruits.${i}">${r.photo ? 'Change' : 'Photo'}</button></td><td>${del(`${P}.recruits`, i)}</td></tr>`);
     const buy = join(g.purchases, (p, i) => `<tr><td>${inp(`${P}.purchases.${i}.item`, p.item, 'placeholder="Item"')}</td><td>${sel(`${P}.purchases.${i}.for`, forList, p.for)}</td>
       <td>${sel(`${P}.purchases.${i}.source`, SOURCES, p.source)}</td><td>${num(`${P}.purchases.${i}.cost`, p.cost, 'class="sm"')}</td>
       <td class="c"><input type="checkbox" data-k="${P}.purchases.${i}.rating"${p.rating ? ' checked' : ''} aria-label="Adds to the gang rating"></td><td>${del(`${P}.purchases`, i)}</td></tr>`);
@@ -159,7 +169,7 @@ export function mount(d) {
   <p class="pe-sum">Work Territory: <b data-o="${id}.work"></b> · Total income: <b data-o="${id}.income"></b></p>
   <h3>XP advancements</h3>${table(['Fighter', 'XP', 'Band', 'Roll', 'Advancement', 'Skill', 'Cost'], adv, add(`${P}.adv`, 'Advancement'))}
   <h3>Trading post</h3>
-  <h4>Recruits</h4>${table(['Name', 'Type', 'Price', 'Discount', 'Discount from'], rec, add(`${P}.recruits`, 'Recruit'))}
+  <h4>Recruits</h4>${table(['Name', 'Type', 'Price', 'Discount', 'Discount from', 'Portrait'], rec, add(`${P}.recruits`, 'Recruit'))}
   <h4>Purchases</h4>${table(['Item', 'For', 'Source', 'Cost', 'On card'], buy, add(`${P}.purchases`, 'Purchase'))}
   <h4>Sales</h4>${table(['Item', 'From', 'Credits'], sales, add(`${P}.sales`, 'Sale'))}
   <h3>Gang sheet</h3>
@@ -234,5 +244,54 @@ export function mount(d) {
     if (m && (e.target.value === 'Doc')) { setAt(m[1] + '.rating', false); draw(); }
   });
   const msg = t => { $('pe-msg').textContent = t; };
+
+  // Portrait crop: load a photo, pan and zoom it under a round guide, save a 192px square JPEG.
+  const cv = $('pe-cv'), cx = cv.getContext('2d'), OUT = 192;
+  let crop = null;   // {img, key, z, x, y, rot}: x/y is the image point at the canvas centre
+  const dims = () => (crop.rot % 180 ? [crop.img.height, crop.img.width] : [crop.img.width, crop.img.height]);
+  const base = () => { const [w, h] = dims(); return cv.width / Math.min(w, h); };   // scale where the short side fills the frame
+  function paint(ctx, size) {
+    const [w, h] = dims(), sc = base() * crop.z * size / cv.width;
+    ctx.fillStyle = '#000'; ctx.fillRect(0, 0, size, size);
+    ctx.save(); ctx.translate(size / 2, size / 2); ctx.scale(sc, sc); ctx.translate(-crop.x, -crop.y);
+    ctx.translate(w / 2, h / 2); ctx.rotate(crop.rot * Math.PI / 180); ctx.drawImage(crop.img, -crop.img.width / 2, -crop.img.height / 2); ctx.restore();
+  }
+  function show() {
+    paint(cx, cv.width);
+    cx.save(); cx.fillStyle = 'rgba(0,0,0,.45)'; cx.beginPath(); cx.rect(0, 0, cv.width, cv.height);
+    cx.arc(cv.width / 2, cv.height / 2, cv.width / 2 - 2, 0, Math.PI * 2, true); cx.fill('evenodd');
+    cx.strokeStyle = '#f0b323'; cx.lineWidth = 2; cx.beginPath(); cx.arc(cv.width / 2, cv.height / 2, cv.width / 2 - 2, 0, Math.PI * 2); cx.stroke(); cx.restore();
+  }
+  function clamp() {
+    const [w, h] = dims(), half = cv.width / 2 / (base() * crop.z);
+    crop.x = Math.min(w - half, Math.max(half, crop.x)); crop.y = Math.min(h - half, Math.max(half, crop.y));
+  }
+  $('pe-file').addEventListener('change', e => {
+    const f = e.target.files[0]; e.target.value = ''; if (!f) return;
+    const img = new Image();
+    img.onload = () => {
+      crop = { img, key: crop.key, z: 1, rot: 0 }; const [w, h] = dims(); crop.x = w / 2; crop.y = h / 2.6; clamp();
+      $('pe-zoom').value = 1; $('pe-rot').value = '0'; show(); $('pe-crop').showModal(); URL.revokeObjectURL(img.src);
+    };
+    img.onerror = () => msg('That file could not be read as an image.');
+    img.src = URL.createObjectURL(f);
+  });
+  let pan = null;
+  cv.addEventListener('pointerdown', e => { pan = { x: e.clientX, y: e.clientY }; cv.setPointerCapture(e.pointerId); });
+  cv.addEventListener('pointermove', e => {
+    if (!pan) return;
+    const k = (cv.width / cv.getBoundingClientRect().width) / (base() * crop.z);
+    crop.x -= (e.clientX - pan.x) * k; crop.y -= (e.clientY - pan.y) * k; pan = { x: e.clientX, y: e.clientY }; clamp(); show();
+  });
+  cv.addEventListener('pointerup', () => { pan = null; });
+  cv.addEventListener('wheel', e => { e.preventDefault(); crop.z = Math.min(4, Math.max(1, crop.z * (e.deltaY < 0 ? 1.08 : 1 / 1.08))); $('pe-zoom').value = crop.z; clamp(); show(); }, { passive: false });
+  $('pe-zoom').addEventListener('input', e => { crop.z = +e.target.value; clamp(); show(); });
+  $('pe-rot').addEventListener('change', e => { crop.rot = +e.target.value; const [w, h] = dims(); crop.x = w / 2; crop.y = h / 2.6; clamp(); show(); });
+  $('pe-crop-no').addEventListener('click', () => $('pe-crop').close());
+  $('pe-crop-ok').addEventListener('click', () => {
+    const out = document.createElement('canvas'); out.width = out.height = OUT; paint(out.getContext('2d'), OUT);
+    getAt(crop.key).photo = out.toDataURL('image/jpeg', 0.88); $('pe-crop').close(); draw(); msg('Portrait added.');
+  });
+  $('pe').addEventListener('click', e => { const b = e.target.closest('[data-photo]'); if (b) { crop = { key: b.dataset.photo }; $('pe-file').click(); } });
   draw();
 }

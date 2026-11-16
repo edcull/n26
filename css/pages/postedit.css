@@ -35,3 +35,16 @@
 .pe-sheet dd { margin: 0; font-family: var(--label); font-weight: 700; font-size: 1.5rem; }
 .pe code { font-size: .85em; background: var(--panel-2); padding: 0 .25rem; }
 #pe-body { display: grid; gap: 2rem; }
+.pe-ph { display: flex; align-items: center; gap: .4rem; }
+.pe-ph img { width: 2.4rem; height: 2.4rem; border-radius: 50%; object-fit: cover; border: 2px solid var(--line); }
+.pe-ph .pe-add { margin: 0; }
+.pe-crop { background: var(--panel); color: var(--ink); border: 1px solid var(--line); padding: 1rem; width: min(24rem, calc(100vw - 32px)); }
+.pe-crop::backdrop { background: rgb(0 0 0 / .6); }
+.pe-crop h2 { font-family: var(--label); font-weight: 700; font-size: 1.2rem; letter-spacing: .06em; text-transform: uppercase; color: var(--sodium); margin: 0 0 .4rem; }
+.pe-crop .pe-hint { margin-bottom: .6rem; color: var(--muted); font-size: .9rem; }
+.pe-crop canvas { width: 100%; aspect-ratio: 1; display: block; cursor: grab; touch-action: none; margin-bottom: .6rem; }
+.pe-crop .pe-f { display: grid; gap: .2rem; font-family: var(--label); color: var(--muted); margin-bottom: .5rem; }
+.pe-crop input, .pe-crop select { font: inherit; font-family: var(--label); color: var(--ink); background: var(--bg); border: 1px solid var(--line); padding: .25rem .4rem; }
+.pe-crop .pe-row { display: flex; gap: .4rem; }
+.pe-crop button { font-family: var(--label); font-weight: 600; font-size: .95rem; color: var(--on-sodium); background: var(--sodium); border: 0; padding: .35rem .8rem; cursor: pointer; }
+.pe-crop .pe-add { background: none; color: var(--sodium); border: 1px dashed var(--sodium); }
