@@ -61,9 +61,9 @@ function labelsSvg(terrain, lib, marks) {
   });
 }
 
-// A fighter on an upper floor: a small numbered tag on the token's upper left, 1 = first floor, 2 = second.
+// A fighter on an upper floor: a small numbered tag on the token's lower left, 1 = first floor, 2 = second.
 function levelMark(x, y, r, lv) {
-  const cx = +(x - r * 0.95).toFixed(2), cy = +(y - r * 0.95).toFixed(2);
+  const cx = +(x - r * 0.95).toFixed(2), cy = +(y + r * 0.95).toFixed(2);
   return `<g class="lv" aria-label="Level ${esc(String(lv))}"><rect class="lv-b" x="${n(+(cx - 6).toFixed(2))}" y="${n(+(cy - 6).toFixed(2))}" width="12" height="12" rx="2"/>` +
     `<text class="lv-t" x="${n(cx)}" y="${n(+(cy + 4).toFixed(2))}">${esc(String(lv))}</text></g>`;
 }
