@@ -11,6 +11,7 @@ const TEMPLATES = {
   report: () => import('./pages/report.js'),
   terrain: () => import('./pages/terrain.js'),
   mapmaker: () => import('./pages/mapmaker.js'),
+  postedit: () => import('./pages/postedit.js'),
 };
 
 async function getJSON(url) {
