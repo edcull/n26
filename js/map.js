@@ -61,9 +61,14 @@ function labelsSvg(terrain, lib, marks) {
   });
 }
 
-// A fighter on an upper floor: a small numbered tag on the token's lower left, 1 = first floor, 2 = second.
+// A fighter on an upper floor: a small numbered tag beside the token, 1 = first floor, 2 = second.
+// It sits at the token's lower left unless a badge or another token is there, then tries the other corners and sides.
 function levelMark(x, y, r, lv) {
-  const cx = +(x - r * 0.95).toFixed(2), cy = +(y + r * 0.95).toFixed(2);
+  const d = r * 0.95, s = r + 3;
+  const spots = [[-d, d], [-d, -d], [d, d], [d, -d], [-s, 0], [s, 0], [0, s], [0, -s]];
+  const clear = ([dx, dy]) => (item.marks || []).every(m => m.box || (m.x === x && m.y === y) || Math.hypot(m.x - (x + dx), m.y - (y + dy)) >= m.r + 6);
+  const [dx, dy] = spots.find(clear) || spots[0];
+  const cx = +(x + dx).toFixed(2), cy = +(y + dy).toFixed(2);
   return `<g class="lv" aria-label="Level ${esc(String(lv))}"><rect class="lv-b" x="${n(+(cx - 6).toFixed(2))}" y="${n(+(cy - 6).toFixed(2))}" width="12" height="12" rx="2"/>` +
     `<text class="lv-t" x="${n(cx)}" y="${n(+(cy + 4).toFixed(2))}">${esc(String(lv))}</text></g>`;
 }
