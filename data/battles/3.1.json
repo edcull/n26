@@ -279,10 +279,33 @@
   }
  ],
  "popovers": [],
- "rounds": [],
- "turnsBlocks": [
+ "rounds": [
   {
-   "todo": "To come."
+   "id": "deployment",
+   "no": "",
+   "title": "Deployment",
+   "blocks": [
+    {
+     "text": [
+      "To come."
+     ]
+    },
+    {
+     "map": {
+      "viewBox": "-14 -24 628 668",
+      "label": "Top-down map of the Cycle 3.1 table: a hex platform and containers in the north-west, a ruin in the north-east, the two-level smoke stack on the east side joined by walkways, the hex tower in the south-west and ruins along the south edge, with the objective at the centre.",
+      "caption": "The table",
+      "items": [
+       {
+        "board": "terrain"
+       },
+       {
+        "board": "ticks"
+       }
+      ]
+     }
+    }
+   ]
   }
  ],
  "aftermath": [
@@ -290,28 +313,265 @@
    "todo": "To come."
   }
  ],
- "nav": [
+ "roster": "3.1",
+ "terrain": [
   {
-   "href": "#intro",
-   "text": "Intro",
-   "class": "nav-intro"
+   "piece": "container",
+   "at": [
+    25,
+    82
+   ],
+   "turn": 90
   },
   {
-   "href": "#setup",
-   "text": "Setup"
+   "piece": "container",
+   "at": [
+    30,
+    231
+   ],
+   "turn": 90,
+   "label": "Containers",
+   "labelAt": [
+    30,
+    236
+   ]
   },
   {
-   "href": "#gangs",
-   "text": "Gang lists"
+   "piece": "hex-platform",
+   "at": [
+    170,
+    139
+   ],
+   "label": "Platform",
+   "labelAt": [
+    170,
+    145
+   ]
   },
   {
-   "href": "#turns",
-   "text": "Turn by turn"
+   "piece": "stairs",
+   "at": [
+    170,
+    291
+   ],
+   "turn": 90
   },
   {
-   "href": "#aftermath",
-   "text": "Aftermath"
+   "piece": "tank",
+   "at": [
+    292,
+    306
+   ],
+   "turn": 90,
+   "label": false
+  },
+  {
+   "piece": "rubble-block",
+   "at": [
+    39,
+    366
+   ]
+  },
+  {
+   "piece": "walkway",
+   "at": [
+    340,
+    216
+   ],
+   "turn": 24,
+   "label": false
+  },
+  {
+   "piece": "walkway",
+   "at": [
+    281,
+    417
+   ],
+   "turn": -28,
+   "label": false
+  },
+  {
+   "piece": "walkway",
+   "at": [
+    395,
+    355
+   ],
+   "turn": -28,
+   "label": false
+  },
+  {
+   "piece": "round-platform-2",
+   "at": [
+    510,
+    294
+   ],
+   "label": "Smoke stack"
+  },
+  {
+   "piece": "walled-ruin",
+   "at": [
+    493,
+    100
+   ],
+   "label": "Ruin",
+   "labelAt": [
+    493,
+    60
+   ]
+  },
+  {
+   "piece": "gothic-ruin-large",
+   "at": [
+    498,
+    519
+   ],
+   "turn": 90,
+   "label": "Ruin",
+   "labelAt": [
+    498,
+    524
+   ]
+  },
+  {
+   "piece": "gothic-ruin-small",
+   "at": [
+    307,
+    516
+   ],
+   "label": "Ruin",
+   "labelAt": [
+    300,
+    520
+   ]
+  },
+  {
+   "piece": "hex-tower-2",
+   "at": [
+    167,
+    478
+   ],
+   "label": "Tower"
   }
  ],
- "roster": "3.1"
+ "board": {
+  "terrain": [
+   [
+    "text",
+    {
+     "class": "m-edge t",
+     "x": "300",
+     "y": "-8"
+    },
+    "The Midnight Theatre edge"
+   ],
+   [
+    "text",
+    {
+     "class": "m-edge p",
+     "x": "300",
+     "y": "638"
+    },
+    "The Carrion Psalm edge"
+   ],
+   [
+    "rect",
+    {
+     "class": "m-mat",
+     "height": "600",
+     "width": "600",
+     "x": "0",
+     "y": "0"
+    }
+   ],
+   [
+    "rect",
+    {
+     "class": "svg-t",
+     "height": "75",
+     "width": "600",
+     "x": "0",
+     "y": "0"
+    }
+   ],
+   [
+    "rect",
+    {
+     "class": "svg-p",
+     "height": "75",
+     "width": "600",
+     "x": "0",
+     "y": "525"
+    }
+   ],
+   [
+    "path",
+    {
+     "class": "m-grid",
+     "d": "M150 0V600M0 150H600M300 0V600M0 300H600M450 0V600M0 450H600"
+    }
+   ],
+   {
+    "pieces": true
+   },
+   [
+    "circle",
+    {
+     "class": "m-centre",
+     "cx": "300",
+     "cy": "300",
+     "r": "10"
+    }
+   ],
+   {
+    "labels": true
+   }
+  ],
+  "ticks": [
+   [
+    "text",
+    {
+     "class": "m-tick",
+     "x": "0",
+     "y": "618"
+    },
+    "0\""
+   ],
+   [
+    "text",
+    {
+     "class": "m-tick",
+     "x": "150",
+     "y": "618"
+    },
+    "6\""
+   ],
+   [
+    "text",
+    {
+     "class": "m-tick",
+     "x": "300",
+     "y": "618"
+    },
+    "12\""
+   ],
+   [
+    "text",
+    {
+     "class": "m-tick",
+     "x": "450",
+     "y": "618"
+    },
+    "18\""
+   ],
+   [
+    "text",
+    {
+     "class": "m-tick",
+     "x": "600",
+     "y": "618"
+    },
+    "24\""
+   ]
+  ]
+ }
 }
