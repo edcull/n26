@@ -9,12 +9,12 @@
   {
    "img": "images/gangs/the-carrion-psalm.jpg",
    "name": "The Carrion Psalm",
-   "note": "5 fighters · 835 rating"
+   "note": "5 fighters (5 reinforcements) · 1445 rating"
   },
   {
    "img": "images/gangs/the-midnight-theatre.jpg",
    "name": "The Midnight Theatre",
-   "note": "6 fighters · 820 rating"
+   "note": "6 fighters (5 reinforcements) · 1465 rating"
   }
  ],
  "intro": [],
@@ -50,7 +50,7 @@
    ],
    [
     "Crews",
-    "Escalating Engagement: both gangs use Hybrid (3+D3) for their starting crew, then bring on Reinforcements (5), D3 each round from the first.<br/>{p:Psalm:} Hybrid (3+2): 5 fighters · 835 rating, 5 reinforcements<br/>{t:Theatre:} Hybrid (3+3): 6 fighters · 820 rating, 5 reinforcements"
+    "Escalating Engagement: both gangs use Hybrid (3+D3) for their starting crew, then bring on Reinforcements (5), D3 each round from the first.<br/>{p:Psalm:} Hybrid (3+2): 5 fighters (5 reinforcements) · 1445 rating<br/>{t:Theatre:} Hybrid (3+3): 6 fighters (5 reinforcements) · 1465 rating"
    ]
   ],
   "blocks": [
