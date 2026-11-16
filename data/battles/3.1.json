@@ -570,20 +570,20 @@
    [
     "text",
     {
-     "class": "m-edge t",
+     "class": "m-edge p",
      "x": "300",
      "y": "-8"
     },
-    "The Midnight Theatre edge"
+    "The Carrion Psalm edge"
    ],
    [
     "text",
     {
-     "class": "m-edge p",
+     "class": "m-edge t",
      "x": "300",
      "y": "638"
     },
-    "The Carrion Psalm edge"
+    "The Midnight Theatre edge"
    ],
    [
     "rect",
@@ -598,7 +598,7 @@
    [
     "rect",
     {
-     "class": "svg-t",
+     "class": "svg-p",
      "height": "75",
      "width": "600",
      "x": "0",
@@ -608,7 +608,7 @@
    [
     "rect",
     {
-     "class": "svg-p",
+     "class": "svg-t",
      "height": "75",
      "width": "600",
      "x": "0",
