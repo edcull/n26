@@ -222,7 +222,6 @@
     {
      "card": {
       "page": "3.1",
-      "placeholder": "Photo to come",
       "info": [
        {
         "tag": "h3",
@@ -238,7 +237,9 @@
         "html": "Face Off · King of the Hive · Stakes: The Broken Crown (Collapsed Dome)",
         "class": "meta"
        }
-      ]
+      ],
+      "img": "images/index/3.1.jpg",
+      "alt": "The Broken Crown table: the two-level Air Filters stack joined by walkways to the platform, the Stacks tower behind, and ruins along the near edge."
      }
     },
     {
