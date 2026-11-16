@@ -90,10 +90,11 @@ export function render(d) {
     <li><svg viewBox="0 0 26 16" aria-hidden="true"><circle class="origin" cx="13" cy="8" r="3.5"/></svg>Origin, where the piece is placed from</li>
     <li><svg viewBox="0 0 26 16" aria-hidden="true"><rect class="key-shared" x="2" y="2" width="22" height="12"/></svg>Shared between boards</li>
   </ul>`;
-  return hero(d.hero) + '\n' + nav(groups.map(g => ({ href: '#' + g[0], text: g[1] })), 'Page sections') +
+  const many = groups.length > 1;   // a heading per group only when there is more than one
+  return hero(d.hero) + '\n' + nav(many ? groups.map(g => ({ href: '#' + g[0], text: g[1] })) : [], 'Page sections') +
     `\n<main class="wrap tlib">\n${key}\n` +
     join(groups, ([id, t, s, ks]) => `<section id="${id}">
-  <div class="sec-head"><h2>${esc(t)}</h2><p>${esc(s)} <span class="count">${ks.length} piece${ks.length === 1 ? '' : 's'}</span></p></div>
+  ${many ? `<div class="sec-head"><h2>${esc(t)}</h2><p>${esc(s)} <span class="count">${ks.length} piece${ks.length === 1 ? '' : 's'}</span></p></div>` : ''}
   <div class="grid">${join(ks, k => card(k, lib[k], used[k] || [], boards(k)))}</div>
 </section>\n`) + '</main>\n';
 }
