@@ -170,6 +170,34 @@
     ]
    ]
   },
+  "walkway": {
+   "name": "Walkway",
+   "note": "7\" by 2.5\", a raised walkway on legs in three equal sections, railed at the corners.",
+   "label": "Walkway",
+   "labelAt": [
+    0,
+    3.2
+   ],
+   "els": [
+    [
+     "rect",
+     {
+      "class": "m-plat",
+      "x": "-87.5",
+      "y": "-31.25",
+      "width": "175",
+      "height": "62.5"
+     }
+    ],
+    [
+     "path",
+     {
+      "class": "m-seam",
+      "d": "M-29.17 -31.25V31.25 M29.17 -31.25V31.25"
+     }
+    ]
+   ]
+  },
   "walled-ruin": {
    "name": "Walled ruin",
    "note": "8\" by 8\". A raised floor runs along one wall, 3\" deep at the ends and 2\" in the middle, with a 3\" by 2\" upper floor in one corner. Thick walls round the raised floor, thin walls round the open floor.",
