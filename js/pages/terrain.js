@@ -1,4 +1,4 @@
-// Terrain library page: data/pages/terrain.json (title, hero, lede) over data/terrain.json
+// Terrain library page: data/pages/terrain.json (title, hero) over data/terrain.json
 // Every piece the battle maps are built from, drawn on a 1" grid with its label,
 // with the names it has carried on the boards (read from the battle files) and
 // a few it could take next (the piece's "ideas").
@@ -79,9 +79,7 @@ export function render(d) {
   const ids = Object.keys(lib);
   const boards = k => onBoards[k] || new Set();
   const groups = [
-    ['shared', 'Shared pieces', 'Placed on more than one board, turned to fit.', ids.filter(k => boards(k).size > 1)],
-    ['single', 'On one board', 'Drawn from a single battle so far.', ids.filter(k => !k.startsWith('v1-') && boards(k).size === 1)],
-    ['new', 'New pieces', 'In the library, not yet placed on a board.', ids.filter(k => !k.startsWith('v1-') && !boards(k).size)],
+    ['pieces', 'All pieces', 'Shared pieces are outlined: placed on more than one board, turned to fit.', ids.filter(k => !k.startsWith('v1-'))],
     ['cycle1', 'Cycle 1 pieces', "The first cycle's drawings, kept as they were on the 1.1 and 1.2 maps.", ids.filter(k => k.startsWith('v1-') && boards(k).size <= 1)],
   ].filter(g => g[3].length);
   const key = `<ul class="key" aria-label="Key">
@@ -92,10 +90,11 @@ export function render(d) {
     <li><svg viewBox="0 0 26 16" aria-hidden="true"><circle class="origin" cx="13" cy="8" r="3.5"/></svg>Origin, where the piece is placed from</li>
     <li><svg viewBox="0 0 26 16" aria-hidden="true"><rect class="key-shared" x="2" y="2" width="22" height="12"/></svg>Shared between boards</li>
   </ul>`;
-  return hero(d.hero) + '\n' + nav(groups.map(g => ({ href: '#' + g[0], text: g[1] })), 'Page sections') +
-    `\n<main class="wrap tlib">\n<p class="lede">${esc(d.lede)}</p>\n${key}\n` +
+  const many = groups.length > 1;   // a heading per group only when there is more than one
+  return hero(d.hero) + '\n' + nav(many ? groups.map(g => ({ href: '#' + g[0], text: g[1] })) : [], 'Page sections') +
+    `\n<main class="wrap tlib">\n${key}\n` +
     join(groups, ([id, t, s, ks]) => `<section id="${id}">
-  <div class="sec-head"><h2>${esc(t)}</h2><p>${esc(s)} <span class="count">${ks.length} piece${ks.length === 1 ? '' : 's'}</span></p></div>
+  ${many ? `<div class="sec-head"><h2>${esc(t)}</h2><p>${esc(s)} <span class="count">${ks.length} piece${ks.length === 1 ? '' : 's'}</span></p></div>` : ''}
   <div class="grid">${join(ks, k => card(k, lib[k], used[k] || [], boards(k)))}</div>
 </section>\n`) + '</main>\n';
 }

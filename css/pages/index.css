@@ -49,3 +49,6 @@ h3 { margin: 0; font-size: 1.65rem; font-weight: 700; line-height: 1.1; }
 .triumphs .crit { display: block; color: var(--muted); font-size: .95rem; font-weight: 500; }
 .triumphs .tri-name { font-weight: 700; color: var(--ink); }
 .triumphs .lead { font-weight: 700; }
+.shortcuts { margin: 2.5rem 0 0; font-family: var(--label); font-size: 1rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
+.shortcuts a { color: var(--muted); text-decoration: none; border-bottom: 1px dotted var(--muted); }
+.shortcuts a:hover { color: var(--sodium); border-color: var(--sodium); }

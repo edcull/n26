@@ -41,25 +41,6 @@
        }
       ]
      }
-    },
-    {
-     "card": {
-      "page": "terrain",
-      "img": "images/index/terrain.jpg",
-      "alt": "The hex tower, smoke stack and walkways laid out on the table.",
-      "info": [
-       {
-        "tag": "span",
-        "html": "Terrain library",
-        "class": "num"
-       },
-       {
-        "tag": "p",
-        "html": "Every map piece, drawn to scale · Names on the boards",
-        "class": "meta"
-       }
-      ]
-     }
     }
    ]
   },
@@ -301,6 +282,10 @@
      }
     }
    ]
+  },
+  {
+   "p": "<a href=\"./?p=terrain\">Terrain library</a>",
+   "class": "shortcuts"
   }
  ]
 }
