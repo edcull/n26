@@ -4,7 +4,6 @@
  "title": "Campaign Tracker",
  "hero": {
   "kicker": "Ash and Shadow",
-  "cycle": "Cycle 3",
   "name": "Campaign tracker",
   "sides": [
    {
@@ -18,11 +17,5 @@
     "note": "House Delaque"
    }
   ]
- },
- "editor": {
-  "prev": "2",
-  "at": "3.2",
-  "cycle": "Cycle 3",
-  "post": "3"
  }
 }

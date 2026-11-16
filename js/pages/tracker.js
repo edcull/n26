@@ -9,9 +9,10 @@
 //   Gang lists: every fighter card, with the cycle's XP, injuries and advancements shown.
 // Export gives one cycle as JSON (battles plus post-cycle data in the shape data/post/<cycle>.json uses),
 // or the whole campaign to load back in. A server comes later.
-import { esc, attr, join, rule } from '../lib.js';
+// It is separate from the rest of the site: it reads only data/tracker/ (the starting gangs and a list of
+// territories), never the site's gangs, battles or rules, and writes nothing back.
+import { esc, attr, join } from '../lib.js';
 import { hero, nav } from '../hero.js';
-import { fightersAt } from '../roster.js';
 import { fighterCard } from '../fighter.js';
 
 const KEY = 'n26-tracker-campaign';
@@ -26,24 +27,15 @@ const n = v => { const x = parseFloat(String(v ?? '').replace(/[^\d.-]/g, '')); 
 const plus = v => (v > 0 ? '+' + v : String(v));
 const uid = p => p + Math.random().toString(36).slice(2, 8);
 const plain = s => String(s ?? '').replace(/\{tip[^:]*:([^}]*)\}/g, '$1').replace(/\{[@pt][^|:]*[|:]([^}]*)\}/g, '$1').replace(/<[^>]+>/g, '');
-const incomeOf = name => n((String(rule(name) || '').match(/Income: (\d+)/) || [])[1]);
-const boonOf = name => ((String(rule(name) || '').match(/(?:Recruit|Equipment|Reputation): ([^.]+(?:\.[^.]*?)?)\. Battlefield/) || [])[1] || '').trim();
+let TERR = {};   // data/tracker/territories.json: name -> {income, boon}
+const incomeOf = name => n(TERR[name]?.income);
+const boonOf = name => TERR[name]?.boon || '';
 const list = s => String(s || '').split(',').map(x => x.trim()).filter(Boolean);
 
-export async function prepare(d, { campaign, getJSON }) {
-  const rules = await getJSON('data/rules.json');
-  d.territoryNames = Object.keys(rules).filter(k => /\(.+\)$/.test(k) && /Boons: Income/.test(rules[k]));
-  // for "Start from this campaign's gangs"
-  const ed = d.editor;
-  d.prev = await getJSON(`data/post/${ed.prev}.json`);
-  const gangs = await Promise.all(campaign.gangs.map(g => getJSON(`data/gangs/${g}.json`)));
-  d.siteGangs = gangs;
-  d.cards = fightersAt(campaign, gangs, ed.at);
-  const ids = Object.keys(campaign.pages).filter(id => id.startsWith(ed.at.split('.')[0] + '.') && campaign.pages[id].template === 'battle');
-  d.scheduled = await Promise.all(ids.map(id => getJSON(campaign.pages[id].data)));
-  // for "Start from the starting gangs": the gangs as they began, and Cycle 1's battles
-  d.start = await getJSON('data/tracker/starting-gangs.json');
-  d.firstBattles = await Promise.all(Object.keys(campaign.pages).filter(id => id.startsWith('1.') && campaign.pages[id].template === 'battle').map(id => getJSON(campaign.pages[id].data)));
+export async function prepare(d, { getJSON }) {
+  // the tracker's own data only: nothing here is read from the site's gangs, battles or rules
+  const [terr, start] = await Promise.all([getJSON('data/tracker/territories.json'), getJSON('data/tracker/starting-gangs.json')]);
+  TERR = terr.territories; d.territoryNames = Object.keys(TERR); d.start = start;
 }
 
 // ---- the campaign's own data
@@ -54,9 +46,6 @@ const newCycle = num => ({ n: num, battles: [], post: {}, closed: false });
 
 // Weapons as text: "Name | SR | LR | Str | AP | L | traits"; a line with just a name heads a combi,
 // and the "- " lines under it are its profiles.
-function weaponsText(ws) {
-  return (ws || []).map(w => w.profile ? `${/\bsub\b/.test(w.class || '') ? '- ' : ''}${plain(w.name)} | ${w.profile.map(plain).join(' | ')} | ${plain(w.traits)}` : plain(w.name)).join('\n');
-}
 function weaponsOf(text) {
   return String(text || '').split('\n').map(l => l.trim()).filter(Boolean).map(l => {
     const sub = l.startsWith('- '), parts = l.replace(/^- /, '').split('|').map(x => x.trim());
@@ -65,37 +54,9 @@ function weaponsOf(text) {
   });
 }
 
-// The two gangs of this site, as they stand after the last post-cycle phase.
-function fromSite(d) {
-  const st = { name: 'Ash and Shadow', gangs: [], cycles: {}, current: String(+d.editor.at.split('.')[0]) };
-  for (const e of d.prev.gangs) {
-    const sg = d.siteGangs.find(g => g.id === e.gang), sheet = Object.fromEntries(e.roster.sheet);
-    const chips = l => (e.roster.assets.find(a => a.label === l)?.chips || []).map(c => c.tip).join(', ');
-    st.gangs.push({ id: sg.id, name: sg.name, house: sg.house, colour: sg.class === 'psalm' ? '#ef7f4d' : '#c3aef0', cls: sg.class, portrait: sg.portrait,
-      credits: n(sheet.Credits), rep: n(sheet.Reputation), wins: n(sheet.Wins), territories: chips('Territories'), tactics: chips('Gang tactics'),
-      fighters: e.roster.fighters.map(id => {
-        const c = d.cards[id] || {}, foot = l => plain((c.foot || []).find(f => f.label === l)?.text || '');
-        return { id, name: c.name || id, type: plain(c.type), cost: c.cost === '*' ? 0 : n(c.cost), stats: Object.fromEntries(STAT_KEYS.map(k => [k, plain(c.stats?.[k] ?? '')])),
-          weapons: weaponsText(c.weapons), wargear: foot('Wargear'), skills: foot('Skills'), injuries: foot('Lasting injuries'), photo: c.portrait || '', out: false };
-      }) });
-  }
-  const cyc = newCycle(st.current);
-  cyc.battles = battlesFrom(d.scheduled, st.gangs);
-  st.cycles[st.current] = cyc;
-  return st;
-}
-// a cycle's battles from this site's battle pages: name, challenger, stake
-function battlesFrom(pages, gangs) {
-  const facts = b => Object.fromEntries((b.setup?.facts || []).map(([k, v]) => [k.toLowerCase(), v]));
-  const [p, t] = gangs.map(g => g.id);
-  return pages.map(b => { const f = facts(b), a = /Psalm/.test(f.challenger || '') ? p : t;
-    return { name: b.name, a, b: a === p ? t : p, stake: String(f['at stake'] || '').replace(/ territory$/, ''), winner: '', sides: { [p]: blankSide(), [t]: blankSide() } }; });
-}
-// the two gangs as they started the campaign, with Cycle 1's battles ready
+// the two gangs as they started the campaign
 function fromStart(d) {
-  const gangs = JSON.parse(JSON.stringify(d.start.gangs));
-  const cyc = newCycle('1'); cyc.battles = battlesFrom(d.firstBattles, gangs);
-  return { name: d.start.name, gangs, cycles: { 1: cyc }, current: '1' };
+  return { name: d.start.name, gangs: JSON.parse(JSON.stringify(d.start.gangs)), cycles: { 1: newCycle('1') }, current: '1' };
 }
 
 export function render(d) {
@@ -195,9 +156,9 @@ export function mount(d) {
         <div class="tr-fighters">${join(g.fighters, (f, fi) => fighterHtml(gi, fi, f))}</div>${add(`${K}.fighters`, 'Fighter', 'fighter')}</article>`; });
     return `<section id="tr-setup"><h2>Gangs</h2>
       <label class="pe-f tr-name">Campaign name${inp('name', st.name, 'placeholder="e.g. Ash and Shadow"')}</label>
-      ${st.gangs.length ? '' : `<p class="pe-note">Start by adding each gang and its fighters, or start from this site's two gangs: as they began the campaign, or as they stand after Cycle ${esc(d.editor.prev)}.</p>`}
+      ${st.gangs.length ? '' : '<p class="pe-note">Start by adding each gang and its fighters, or load the two starting gangs.</p>'}
       <div class="tr-list">${gangs}</div>
-      <div class="pe-row">${add('gangs', 'New gang', 'gang')}<button type="button" class="pe-add" id="tr-start">Start from the starting gangs (Cycle 1)</button><button type="button" class="pe-add" id="tr-site">Start from this site's gangs after Cycle ${esc(d.editor.prev)}</button></div></section>`;
+      <div class="pe-row">${add('gangs', 'New gang', 'gang')}<button type="button" class="pe-add" id="tr-start">Load the starting gangs</button></div></section>`;
   }
 
   // ---- Battles
@@ -461,11 +422,7 @@ export function mount(d) {
     }
     else if (e.target.id === 'tr-start') {
       if (st.gangs.length && !confirm('Replace the gangs and cycles here with the two gangs as they started the campaign?')) return;
-      st = fromStart(d); draw(); msg(`Loaded ${st.gangs.map(g => g.name).join(' and ')} as they started, with Cycle 1's battles ready.`);
-    }
-    else if (e.target.id === 'tr-site') {
-      if (st.gangs.length && !confirm('Replace the gangs and cycles here with this site\'s two gangs?')) return;
-      st = fromSite(d); draw(); msg(`Loaded ${st.gangs.map(g => g.name).join(' and ')} as they stand after Cycle ${d.editor.prev}.`);
+      st = fromStart(d); draw(); msg(`Loaded ${st.gangs.map(g => g.name).join(' and ')} as they started the campaign.`);
     }
     else if (e.target.closest('#tr-newbattle')) {
       const c = cyc(); c.battles.push(NEW.battle()); location.hash = 'battle-' + (c.battles.length - 1);
