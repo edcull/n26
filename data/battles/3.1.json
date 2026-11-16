@@ -120,7 +120,9 @@
          "tip": "Hidden Stash"
         },
         {
-         "tip": "Adrenaline Surge"
+         "tip": "Adrenaline Surge",
+         "used": true,
+         "usedLabel": "Picked"
         },
         {
          "tip": "Grenade Bouquet"
@@ -237,7 +239,9 @@
          "tip": "Adrenaline Surge"
         },
         {
-         "tip": "Thunderous Charge"
+         "tip": "Thunderous Charge",
+         "used": true,
+         "usedLabel": "Picked"
         },
         {
          "tip": "Rapid Fire"
