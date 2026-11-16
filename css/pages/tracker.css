@@ -1,4 +1,4 @@
-/* Post-cycle editor: forms laid out like the post-cycle page's ledgers. */
+/* Campaign tracker: battles, the post-cycle phase and the gang lists, as forms. */
 .pe { padding-block: 1.5rem 3rem; gap: 2rem; }
 .pe-note, .pe-hint, .pe-msg { margin: 0; color: var(--muted); font-size: .95rem; max-width: 70ch; }
 .pe-msg:empty { display: none; }
@@ -48,3 +48,42 @@
 .pe-crop .pe-row { display: flex; gap: .4rem; }
 .pe-crop button { font-family: var(--label); font-weight: 600; font-size: .95rem; color: var(--on-sodium); background: var(--sodium); border: 0; padding: .35rem .8rem; cursor: pointer; }
 .pe-crop .pe-add { background: none; color: var(--sodium); border: 1px dashed var(--sodium); }
+.pe > #pe-body > section > h2 { margin-bottom: .75rem; }
+.tr-list { display: grid; gap: 1.25rem; }
+.tr-battle { background: var(--panel); padding: 1rem; display: grid; gap: .75rem; }
+.tr-head { display: flex; justify-content: space-between; align-items: center; gap: .5rem; }
+.tr-head h3 { margin: 0; }
+.tr-ro { font-family: var(--label); font-size: 1rem; color: var(--ink); padding: .3rem 0; }
+.tr-sides { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr)); }
+.tr-side { background: var(--bg); padding: .75rem; border-top: 3px solid var(--line); }
+
+
+.tr-side h4 { margin: 0 0 .5rem; color: var(--ink); font-size: 1.05rem; }
+
+
+.pe h5 { font-family: var(--label); font-weight: 600; font-size: .85rem; letter-spacing: .08em; text-transform: uppercase; margin: .75rem 0 .25rem; color: var(--muted); }
+#tr-gangs .gangs { display: grid; gap: 2rem; }
+#tr-gangs .gang h3 { font-family: var(--display); font-weight: 400; font-size: clamp(1.6rem, 5vw, 2.2rem); letter-spacing: 0; text-transform: none; color: var(--tone); margin: 0; }
+.tr-name { max-width: 24rem; margin-bottom: 1rem; }
+.tr-gang { background: var(--panel); padding: 1rem; display: grid; gap: .75rem; border-top: 3px solid var(--tone, var(--line)); }
+.tr-gang .tr-head h3, .tr-side h4 { color: var(--tone, var(--ink)); }
+.tr-side { border-top-color: var(--tone, var(--line)); }
+.tr-fighters { display: grid; gap: .4rem; }
+.tr-fighter { background: var(--bg); padding: .5rem .75rem; }
+.tr-fighter summary { display: flex; align-items: center; gap: .6rem; cursor: pointer; font-family: var(--label); }
+.tr-fighter summary img { width: 2rem; height: 2rem; border-radius: 50%; object-fit: cover; }
+.tr-fighter summary span { font-weight: 700; font-size: 1.05rem; }
+.tr-fighter summary small { color: var(--muted); flex: 1; }
+.tr-fighter summary b { font-size: 1.05rem; }
+.tr-fighter[open] > summary { margin-bottom: .6rem; }
+.tr-fighter > div, .tr-fighter > label { margin-top: .5rem; }
+.tr-stats { display: grid; grid-template-columns: repeat(auto-fill, minmax(3.4rem, 1fr)); gap: .35rem; }
+.pe input.st { min-width: 0; width: 100%; text-align: center; }
+.pe textarea.mono { font-family: ui-monospace, "SFMono-Regular", Menlo, monospace; font-size: .85rem; }
+.pe input[type=color] { min-width: 0; width: 4rem; height: 2.1rem; padding: .1rem; }
+.pe-check { display: flex; align-items: center; gap: .4rem; font-family: var(--label); color: var(--ink); }
+.tr-cycle { display: flex; flex-wrap: wrap; align-items: end; gap: 1rem; background: var(--panel-2); padding: .9rem 1rem; }
+.tr-cycle .pe-f { min-width: 12rem; }
+.tr-run { border: 0; padding: 0; margin: 0; min-width: 0; display: grid; gap: 2rem; }
+.tr-run[disabled] { opacity: .6; }
+#tr-gangs .gang .pe-sum { margin: 0; }
