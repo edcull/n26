@@ -87,7 +87,7 @@
 .tr-run { border: 0; padding: 0; margin: 0; min-width: 0; display: grid; gap: 2rem; }
 .tr-run[disabled] { opacity: .6; }
 #tr-gangs .gang .pe-sum { margin: 0; }
-.tr-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr)); gap: 1rem; }
+.tr-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 11rem), 1fr)); gap: 1rem; }
 .tr-tile { display: grid; gap: .25rem; align-content: start; text-align: left; background: var(--panel); color: var(--ink); text-decoration: none; padding: 1rem 1.1rem 1.1rem;
   border: 0; border-top: 4px solid var(--tone, var(--sodium)); font: inherit; cursor: pointer; }
 .pe button.tr-tile { color: var(--ink); background: var(--panel); padding: 1rem 1.1rem 1.1rem; font: inherit; border-top: 4px solid var(--sodium); text-align: left; letter-spacing: 0; }

@@ -87,7 +87,7 @@ function fromSite(d) {
 
 export function render(d) {
   document.title = d.title;
-  const items = [{ href: '#', text: 'Tracker' }, { href: '#gangs', text: 'Gangs' }, { href: '#post', text: 'Post-cycle' }, { href: '#next', text: 'Next cycle' }];
+  const items = [{ href: '#', text: 'Tracker' }, { href: '#gangs', text: 'Gangs' }, { href: '#post', text: 'Post-cycle' }, { href: '#next', text: 'Next cycle' }, { href: '#rosters', text: 'Rosters' }];
   return hero({ ...d.hero, cycle: null }) + '\n' + nav(items, 'Page sections') +
     `\n<main class="wrap pe" id="pe"><div id="pe-body"></div></main>
 <dialog class="pe-crop" id="pe-crop" aria-labelledby="pe-crop-h"><h2 id="pe-crop-h">Crop portrait</h2>
@@ -355,10 +355,10 @@ export function mount(d) {
   ${shut || !ok ? tile('#', '2', 'Add battle', ok ? 'This cycle is finished' : 'Needs two gangs first', 'aria-disabled="true" data-off') : `<button type="button" class="tr-tile" id="tr-newbattle"><span class="num">2</span><b>Add battle</b><span>One battle's result in Cycle ${esc(c.n)}</span></button>`}
   ${tile(shut || !st.gangs.length ? '#' : '#post', '3', 'Add post-cycle', st.gangs.length ? `For one gang, Cycle ${esc(c.n)}` : 'Needs a gang first', shut || !st.gangs.length ? 'aria-disabled="true" data-off' : '')}
   ${tile(shut || !st.gangs.length ? '#' : '#next', '4', 'Next cycle', shut ? 'This cycle is finished' : `Finish Cycle ${esc(c.n)} and start Cycle ${+c.n + 1}`, shut || !st.gangs.length ? 'aria-disabled="true" data-off' : '')}
+  ${tile(st.gangs.length ? '#rosters' : '#', '5', 'Gang rosters', st.gangs.length ? 'Every fighter as they stand now' : 'Needs a gang first', st.gangs.length ? '' : 'aria-disabled="true" data-off')}
 </nav>
 <div class="tr-status"><section><h2>Cycle ${esc(c.n)} battles</h2><ul class="tr-links">${battles}</ul></section>
 <section><h2>Cycle ${esc(c.n)} post-cycle</h2><ul class="tr-links">${posts || '<li class="pe-hint">No gangs yet.</li>'}</ul></section></div>
-<section id="tr-gangs"><h2>Gang lists</h2><div class="gangs">${listsHtml() || '<p class="pe-hint">No gangs yet.</p>'}</div></section>
 <section id="tr-export"><h2>Export</h2>
   <p class="pe-hint">Cycle ${esc(c.n)} as JSON: its battles, and the post-cycle phase in the shape the site's post-cycle pages use, with each fighter's XP and new recruits with their portraits. "Whole campaign" is everything here, to load into another browser.</p>
   <textarea id="pe-json" rows="10" spellcheck="false" aria-label="Export JSON"></textarea>
@@ -383,6 +383,7 @@ export function mount(d) {
     else if (v === 'post') body = `${back}<section><h2>Cycle ${esc(c.n)}: post-cycle</h2><p class="pe-note">Choose a gang.</p><nav class="tr-tiles">${join(st.gangs, g => `<a class="tr-tile" href="#post-${attr(g.id)}" ${tone(g)}><b>${esc(g.name || 'Unnamed gang')}</b><span>${esc(g.house)}</span></a>`)}</nav></section>`;
     else if (v.startsWith('post-') && gang(v.slice(5))) body = `${back}<fieldset class="tr-run"${shut ? ' disabled' : ''}><section id="tr-post"><h2>Cycle ${esc(c.n)}: post-cycle</h2>${postHtml(gang(v.slice(5)))}</section></fieldset>`;
     else if (v === 'next' && !shut) body = nextHtml(c);
+    else if (v === 'rosters') body = `${back}<section id="tr-gangs"><h2>Gang rosters</h2><p class="pe-note">Each gang as it stands now, with Cycle ${esc(c.n)}'s battles and post-cycle so far: new XP, injuries and advancements show on the cards, and new recruits are added.</p><div class="gangs">${listsHtml() || '<p class="pe-hint">No gangs yet.</p>'}</div></section>`;
     else body = landingHtml(c, cycles);
     $('pe-body').innerHTML = `<datalist id="tr-terr">${join(d.territoryNames, t => `<option value="${attr(t)}">`)}</datalist><datalist id="tr-inj">${join(INJURIES, t => `<option value="${attr(t)}">`)}</datalist>
 <p class="pe-msg" id="pe-msg" role="status"></p>${body}
