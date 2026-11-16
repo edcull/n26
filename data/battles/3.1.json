@@ -9,12 +9,12 @@
   {
    "img": "images/gangs/the-carrion-psalm.jpg",
    "name": "The Carrion Psalm",
-   "note": "10 fighters · 1445 rating"
+   "note": "5 fighters (5 reinforcements) · 1445 rating"
   },
   {
    "img": "images/gangs/the-midnight-theatre.jpg",
    "name": "The Midnight Theatre",
-   "note": "11 fighters · 1465 rating"
+   "note": "6 fighters (5 reinforcements) · 1465 rating"
   }
  ],
  "intro": [],
@@ -50,10 +50,18 @@
    ],
    [
     "Crews",
-    "Escalating Engagement: both gangs use Hybrid (3+D3) for their starting crew, then bring on Reinforcements (5), D3 each round from the first.<br/>{p:Psalm:} Hybrid (3+2): 5 fighters to start, 10 in all with reinforcements<br/>{t:Theatre:} Hybrid (3+3): 6 fighters to start, 11 in all with reinforcements"
+    "Escalating Engagement: both gangs use Hybrid (3+D3) for their starting crew, then bring on Reinforcements (5), D3 each round from the first.<br/>{p:Psalm:} Hybrid (3+2): 5 fighters (5 reinforcements) · 1445 rating<br/>{t:Theatre:} Hybrid (3+3): 6 fighters (5 reinforcements) · 1465 rating"
    ]
   ],
-  "blocks": []
+  "blocks": [
+   {
+    "photo": {
+     "src": "images/3.1/photo-01.jpg",
+     "alt": "The table seen at an angle: the two-level Air Filters stack joined by walkways to the platform, the Stacks tower behind, and ruins along the near edge.",
+     "caption": "The Air Filters, the Platform and the Stacks."
+    }
+   }
+  ]
  },
  "gangs": [
   {
@@ -122,10 +130,7 @@
      ]
     },
     {
-     "todo": "Starting crew and reinforcements to come."
-    },
-    {
-     "panel": "Roster (10)",
+     "panel": "Crew (5)",
      "class": "crew-panel",
      "fighters": [
       {
@@ -135,28 +140,39 @@
        "id": "ezekiel-crows"
       },
       {
-       "id": "elijah-emberchoir"
-      },
-      {
-       "id": "jorah-ashveil"
-      },
-      {
-       "id": "vermin-pyre"
-      },
-      {
-       "id": "blessed-filth"
-      },
-      {
-       "id": "gutter-cantor"
+       "id": "ratsong"
       },
       {
        "id": "blight-creed"
       },
       {
-       "id": "ratsong"
+       "id": "deus-and-amen"
+      }
+     ]
+    },
+    {
+     "panel": "Reinforcements (5)",
+     "class": "",
+     "fighters": [
+      {
+       "id": "elijah-emberchoir",
+       "class": "bench"
       },
       {
-       "id": "deus-and-amen"
+       "id": "jorah-ashveil",
+       "class": "bench"
+      },
+      {
+       "id": "vermin-pyre",
+       "class": "bench"
+      },
+      {
+       "id": "blessed-filth",
+       "class": "bench"
+      },
+      {
+       "id": "gutter-cantor",
+       "class": "bench"
       }
      ]
     }
@@ -231,10 +247,7 @@
      ]
     },
     {
-     "todo": "Starting crew and reinforcements to come."
-    },
-    {
-     "panel": "Roster (11)",
+     "panel": "Crew (7)",
      "class": "crew-panel",
      "fighters": [
       {
@@ -244,25 +257,10 @@
        "id": "demeter"
       },
       {
-       "id": "macavity"
-      },
-      {
-       "id": "pouncival"
-      },
-      {
        "id": "rumpleteaser"
       },
       {
-       "id": "mungojerrie"
-      },
-      {
-       "id": "munkustrap"
-      },
-      {
-       "id": "jellylorum"
-      },
-      {
-       "id": "growltiger"
+       "id": "wit"
       },
       {
        "id": "mistoffelees"
@@ -271,7 +269,33 @@
        "id": "rumpus"
       },
       {
-       "id": "wit"
+       "id": "munkustrap"
+      }
+     ]
+    },
+    {
+     "panel": "Reinforcements (5)",
+     "class": "",
+     "fighters": [
+      {
+       "id": "macavity",
+       "class": "bench"
+      },
+      {
+       "id": "pouncival",
+       "class": "bench"
+      },
+      {
+       "id": "mungojerrie",
+       "class": "bench"
+      },
+      {
+       "id": "jellylorum",
+       "class": "bench"
+      },
+      {
+       "id": "growltiger",
+       "class": "bench"
       }
      ]
     }
