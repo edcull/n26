@@ -59,7 +59,7 @@
    ],
    [
     "Crews",
-    "Surprise Attack: the attacker, {p:The Carrion Psalm}, uses Hybrid (4+4). The defender, {t:The Midnight Theatre}, starts with Custom (3) and brings on Reinforcements (7), D3 each round from the first."
+    "Surprise Attack: the attacker, {p:The Carrion Psalm}, uses Hybrid (4+4). The defender, {t:The Midnight Theatre}, starts with Custom (3) and brings on Reinforcements (7), D3 each round from the first.<br/><i>Note: Wit, a Hanger-on, was picked as one of the Theatre's three, though he shouldn't count towards crew selection: they should have had one more fighter.</i>"
    ]
   ],
   "blocks": [
@@ -245,6 +245,12 @@
        ]
       }
      ]
+    },
+    {
+     "prose": [
+      "Note: the Theatre picked Deuteronomy, Wit and Mistoffelees for their Custom (3) crew, with Rumpus coming along as Mistoffelees' pet. Wit, a Hanger-on, shouldn't have counted towards the three, so the Theatre should have picked one more fighter. The battle was played as it stood."
+     ],
+     "class": "crew-note"
     },
     {
      "panel": "Crew (4)",

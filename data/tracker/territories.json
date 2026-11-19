@@ -1,0 +1,45 @@
+{
+ "_about": "Territories the campaign tracker knows: income and the boon that can be taken instead. The tracker's own copy, separate from the site's rules.",
+ "territories": {
+  "Banewaters (Synth Still)": {
+   "income": 20,
+   "boon": ""
+  },
+  "Heaviside Hab-layer (Settlement)": {
+   "income": 15,
+   "boon": "instead of income, recruit a Ganger for 25 credits less (minimum 0)"
+  },
+  "Pyroclave (Promethium Cache)": {
+   "income": 15,
+   "boon": "instead of income, add three hazard suits to the Stash for free"
+  },
+  "Rendermarch (Corpse Farm)": {
+   "income": 25,
+   "boon": ""
+  },
+  "Rippershop (Rogue Doc Shop)": {
+   "income": 15,
+   "boon": "instead of income, if the gang has no Rogue Doc, recruit one for 30 credits less"
+  },
+  "Tallow Wick (Settlement)": {
+   "income": 15,
+   "boon": "instead of income, recruit a Ganger for 25 credits less (minimum 0)"
+  },
+  "Turbine 10.2 (Generatorium)": {
+   "income": 15,
+   "boon": "+1 Reputation while held"
+  },
+  "Hollowpoint (Bullet Den)": {
+   "income": 15,
+   "boon": "instead of income, if the gang has no Ammo-Jack, recruit one for 30 credits less"
+  },
+  "The Broken Crown (Collapsed Dome)": {
+   "income": 20,
+   "boon": ""
+  },
+  "The Wormways (Tunnels)": {
+   "income": 20,
+   "boon": ""
+  }
+ }
+}
